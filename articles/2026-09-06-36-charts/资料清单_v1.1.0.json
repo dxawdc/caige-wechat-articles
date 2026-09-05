@@ -1,0 +1,1166 @@
+{
+  "version": "v1.1.0",
+  "updated": "2026-09-06",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2267,
+      "sha256": "bb7de3b16766ae1c5c5beea1c5d943cda43df26b122c64d204c2fa0419328a53"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 146,
+      "sha256": "384cda02a5e79999f97d98c51afa032e779585993177dd65d5de0e35cfd546f4"
+    },
+    {
+      "path": "交互图目录_v1.1.0.html",
+      "bytes": 10505,
+      "sha256": "6f59336d78d5b273d6562ca97a769cd5dd5a0d508b2372a3d674e836c0c99ee7"
+    },
+    {
+      "path": "代码/01_折线图_v1.0.0.py",
+      "bytes": 846,
+      "sha256": "c49cf85bdd6b7b49f1306dbd3e9a77c660209403a78d51c23ff5b298256e08c6"
+    },
+    {
+      "path": "代码/02_阶梯图_v1.0.0.py",
+      "bytes": 927,
+      "sha256": "078fa1d448ab80665d51bcc7b57281355bdc3c9ed6d00870cf4c7a3a64759e59"
+    },
+    {
+      "path": "代码/03_面积图_v1.0.0.py",
+      "bytes": 938,
+      "sha256": "97344c0fa6f21e2bba683748722737c5409a3f558648d754d0734c97ce09aff3"
+    },
+    {
+      "path": "代码/04_堆叠面积图_v1.0.0.py",
+      "bytes": 1087,
+      "sha256": "46eda1fab8d2a78809b668c5c7a74605a74def530112ada24bb490c9a64d86c4"
+    },
+    {
+      "path": "代码/05_区间带图_v1.0.0.py",
+      "bytes": 1298,
+      "sha256": "c5cc99a462af493922daacce4995a8498254315fd4cb7c05c0d41d6ba71da854"
+    },
+    {
+      "path": "代码/06_柱状图_v1.0.0.py",
+      "bytes": 831,
+      "sha256": "ef471f1197dce46318107a9fc0693a05df070ea8d64674f478c5b0bf18725051"
+    },
+    {
+      "path": "代码/07_条形图_v1.0.0.py",
+      "bytes": 1052,
+      "sha256": "646bf2d6adf5f5a6c2519450486ea8343f98c0de2c4839acda66b746d6b0abf6"
+    },
+    {
+      "path": "代码/08_分组柱状图_v1.0.0.py",
+      "bytes": 1050,
+      "sha256": "c6b3b1a12869bec3a70ba58435aa257674b4e9ea86d782d0c6926ce3ce3c46e1"
+    },
+    {
+      "path": "代码/09_堆叠柱状图_v1.0.0.py",
+      "bytes": 1067,
+      "sha256": "be864145550b65b633dc38007bd24c6f9202ec07477bc3386e77bcb8184d61d7"
+    },
+    {
+      "path": "代码/10_百分比堆叠柱状图_v1.0.0.py",
+      "bytes": 1418,
+      "sha256": "61730272c6289e1916d0bd7cf53d08eb9d9e80c5a5a6cf8e021be37c83c6d97d"
+    },
+    {
+      "path": "代码/11_棒棒糖图_v1.0.0.py",
+      "bytes": 1218,
+      "sha256": "7a98feac5495c1bf4dd8ec5dfa216707d1ead716964daedfb43b6cdf2dcbfb83"
+    },
+    {
+      "path": "代码/12_哑铃图_v1.0.0.py",
+      "bytes": 1571,
+      "sha256": "16125167093043b58c2f71fedd8c169c1436c541259926df80316812ba18bfe0"
+    },
+    {
+      "path": "代码/13_饼图_v1.0.0.py",
+      "bytes": 912,
+      "sha256": "32df480168cafb5504e946fc3b1e1b24259e75eeb3686ccdd3c007609e8e220b"
+    },
+    {
+      "path": "代码/14_环形图_v1.0.0.py",
+      "bytes": 1111,
+      "sha256": "fa564db420d6292616f37912c02d70a90ea7adc5e3087bdd02527a4db65a7184"
+    },
+    {
+      "path": "代码/15_矩形树图_v1.0.0.py",
+      "bytes": 1019,
+      "sha256": "4f75325811c7aa892c9f1d4ae6e8f95fca5d77f2089bfcd708b9f05b45165159"
+    },
+    {
+      "path": "代码/16_旭日图_v1.0.0.py",
+      "bytes": 1493,
+      "sha256": "829dac2ceeb2a6fad9399b20263ff6dcf05021d0a0115626dcb3fb5db87544c1"
+    },
+    {
+      "path": "代码/17_瀑布图_v1.0.0.py",
+      "bytes": 1719,
+      "sha256": "6d784b845b9510ce66b41c92b21d8b184d2f528014f91edd77b707ae32f22b83"
+    },
+    {
+      "path": "代码/18_漏斗图_v1.0.0.py",
+      "bytes": 1365,
+      "sha256": "1151b261dc20d36b4a679c72c12ac45c765681452fe919e72f6c929405842441"
+    },
+    {
+      "path": "代码/19_直方图_v1.0.0.py",
+      "bytes": 998,
+      "sha256": "b74d82f0680785e33380e5e87594a62ab12221de40e7c63b0045ad6337e59f74"
+    },
+    {
+      "path": "代码/20_核密度图_v1.0.0.py",
+      "bytes": 1014,
+      "sha256": "88e7b37fde3176e6e47d26e827eb085537188232bf0a4114e5489dd4b9f31a4b"
+    },
+    {
+      "path": "代码/21_箱线图_v1.0.0.py",
+      "bytes": 1440,
+      "sha256": "96cc5777e8e3c37a54a9dccc666cef1f4a3bd5c750cadef72e141290c6742096"
+    },
+    {
+      "path": "代码/22_小提琴图_v1.0.0.py",
+      "bytes": 1433,
+      "sha256": "724425571749a9303a8f23a1e7d15cd7fbdf6a07db9ed4ff6d11c99b089e5a4b"
+    },
+    {
+      "path": "代码/23_经验累积分布图_v1.0.0.py",
+      "bytes": 1167,
+      "sha256": "3deb255d948bc3e6cc428488a8dd53b428f01da572ae7e7a87e1c6a7f6aebcbd"
+    },
+    {
+      "path": "代码/24_带状散点图_v1.0.0.py",
+      "bytes": 1165,
+      "sha256": "7ccd15f71970629097f700518dd1c5633f32d710de48ab6b247f6a595dce3b69"
+    },
+    {
+      "path": "代码/25_散点图_v1.0.0.py",
+      "bytes": 883,
+      "sha256": "8b3dac13f9a0fa3cd32d14c8f1fc318d26ae6906dbbf7c04874bcb4d7eed6a0d"
+    },
+    {
+      "path": "代码/26_气泡图_v1.0.0.py",
+      "bytes": 1843,
+      "sha256": "5217ac0b2d15ea1f7cb434342a0cf156161508811f853f3373970965fbdb4216"
+    },
+    {
+      "path": "代码/27_回归散点图_v1.0.0.py",
+      "bytes": 1209,
+      "sha256": "6aa16a373ff16d451424636945776ab48b77b7fc5238e7956f724e0726bb8e2a"
+    },
+    {
+      "path": "代码/28_二维直方图_v1.0.0.py",
+      "bytes": 1151,
+      "sha256": "83e753b4bb23c5328898ec27f0acd2a7c39151189dc2bd43b0cae77d63de910e"
+    },
+    {
+      "path": "代码/29_相关矩阵热力图_v1.0.0.py",
+      "bytes": 1392,
+      "sha256": "3d53d245ef2bf25d04477b5c92e06b8e5128eade573c202da6e2abcff48b9fb9"
+    },
+    {
+      "path": "代码/30_等高线图_v1.0.0.py",
+      "bytes": 1262,
+      "sha256": "04a73f999d2d3e6fb675392d4781f37cd10d59823f4a3597bf32a61d34fb3a91"
+    },
+    {
+      "path": "代码/31_雷达图_v1.0.0.py",
+      "bytes": 1461,
+      "sha256": "bbf8f322ae2ba4f50a7e2a00e1e55d233c7f8b036ce5c56deb9e5e5722cc93b3"
+    },
+    {
+      "path": "代码/32_极坐标柱状图_v1.0.0.py",
+      "bytes": 1287,
+      "sha256": "a3873a55f0fcdd1dd68fe7e67cb932e7f3eb73d3426b804bf2a356586a66959f"
+    },
+    {
+      "path": "代码/33_桑基图_v1.0.0.py",
+      "bytes": 1353,
+      "sha256": "0dbfba5d45e2a7f7e32480197c0c972f18e94cb54675c45bccf3a41ea7df320c"
+    },
+    {
+      "path": "代码/34_甘特图_v1.0.0.py",
+      "bytes": 1407,
+      "sha256": "cafc5ab4527605d1cfb9a638a149dbfb31cf2308f410aebc776d151cb1df3f3b"
+    },
+    {
+      "path": "代码/35_K线图_v1.0.0.py",
+      "bytes": 1629,
+      "sha256": "43a31696cdaf15ea3c64dfc4edf572c02df67dc649e188d30b0ccd8b96d1338e"
+    },
+    {
+      "path": "代码/36_帕累托图_v1.0.0.py",
+      "bytes": 1411,
+      "sha256": "c4b201ab9781f717d2f29267d4f6fa44b3ce9f2566beb4fdc0dcbf72ac23d057"
+    },
+    {
+      "path": "代码/公共数据与样式_v1.0.0.py",
+      "bytes": 7862,
+      "sha256": "5d8913b605cdff2e26dcd2b6bcfc0d892909fc63da2dce0b451ce725a23e7c39"
+    },
+    {
+      "path": "代码/制作图表与文章_v1.0.0.py",
+      "bytes": 48751,
+      "sha256": "34d6aafcbf013be3a96b25eae1252c41599ffccd050a05d245c1789431e765ce"
+    },
+    {
+      "path": "代码/运行全部图表_v1.0.0.py",
+      "bytes": 7008,
+      "sha256": "5acb3bc287423c3f474dfe462423ee51675df080c6e1b0d7cc57a89f647be02c"
+    },
+    {
+      "path": "图表/01_折线图_v1.0.0_matplotlib.png",
+      "bytes": 54038,
+      "sha256": "f1e58f754c582392fc35399023cc36fc2add8b6c9e039b35a940ea393b464a66"
+    },
+    {
+      "path": "图表/01_折线图_v1.0.0_plotly.html",
+      "bytes": 8313,
+      "sha256": "fbdc87abcd9fcff977b9af76043e948e2f53c1edcaabf1e8ee3817bb0d30b4ea"
+    },
+    {
+      "path": "图表/01_折线图_v1.0.0_plotly.json",
+      "bytes": 7399,
+      "sha256": "608955a01ce6e9ecb4f868db628b1f3a382de994649527b69409a655ef37c644"
+    },
+    {
+      "path": "图表/01_折线图_v1.0.0_plotly.png",
+      "bytes": 90686,
+      "sha256": "933bfeb191fbcff706acd3aec5eabe0ca831dcecfa4a730cb6185e82f2108e18"
+    },
+    {
+      "path": "图表/02_阶梯图_v1.0.0_matplotlib.png",
+      "bytes": 39565,
+      "sha256": "ae1853a51fc54db69ea70cb06ffbb105c78813d24a9d0ed5fd24601f487f8ce7"
+    },
+    {
+      "path": "图表/02_阶梯图_v1.0.0_plotly.html",
+      "bytes": 8323,
+      "sha256": "b8d742768eecb370bf4e6e727cd5f6d7113b4d600946f1cc7489f4b554b5361b"
+    },
+    {
+      "path": "图表/02_阶梯图_v1.0.0_plotly.json",
+      "bytes": 7409,
+      "sha256": "c700d43b3711ed87848ec6c046f4b23c131cfa1a63878d382523163f53f82d90"
+    },
+    {
+      "path": "图表/02_阶梯图_v1.0.0_plotly.png",
+      "bytes": 70849,
+      "sha256": "0f4502c96032eca011704dcb253d6d624e71b35e92ea1337c2d95fd26aabd3c7"
+    },
+    {
+      "path": "图表/03_面积图_v1.0.0_matplotlib.png",
+      "bytes": 51986,
+      "sha256": "fb3bbda31c329bb66930df03703c86699e61f53a4994509653f6d3747c53bc4f"
+    },
+    {
+      "path": "图表/03_面积图_v1.0.0_plotly.html",
+      "bytes": 8353,
+      "sha256": "8cb409b0670788e08a5bb10114050ee006b1cb55a1468c855043ce6ae6602d4c"
+    },
+    {
+      "path": "图表/03_面积图_v1.0.0_plotly.json",
+      "bytes": 7439,
+      "sha256": "0493f5de5e23e8590f5f7f0983af7066bdff1c35f46e1544e6b126e961dd6e2d"
+    },
+    {
+      "path": "图表/03_面积图_v1.0.0_plotly.png",
+      "bytes": 88381,
+      "sha256": "3c8d92b7f8a4754addd80cc6e8377d267eee4927fb924a4c0dc302e5b02f4739"
+    },
+    {
+      "path": "图表/04_堆叠面积图_v1.0.0_matplotlib.png",
+      "bytes": 69002,
+      "sha256": "18115b581fa3af20c3ceb3bfc3faa80f322677f2104efbfd6f24ceb95b100b77"
+    },
+    {
+      "path": "图表/04_堆叠面积图_v1.0.0_plotly.html",
+      "bytes": 8731,
+      "sha256": "ffbb6ee35b36b0ed6a9412545350be91efd45ebdf2c8ca55950951d775fa22c6"
+    },
+    {
+      "path": "图表/04_堆叠面积图_v1.0.0_plotly.json",
+      "bytes": 7817,
+      "sha256": "5f8698846dfbedfa4c5a51026f0428c0c4109384942ac1dac0809d3088b65ba4"
+    },
+    {
+      "path": "图表/04_堆叠面积图_v1.0.0_plotly.png",
+      "bytes": 139356,
+      "sha256": "64cc146d4024395a1a30cf1cc47ffe5b7ae77912f9480a86356370a54e1b7253"
+    },
+    {
+      "path": "图表/05_区间带图_v1.0.0_matplotlib.png",
+      "bytes": 79783,
+      "sha256": "2c18642e30c6af3902561d4168c89b04f2c8f0a745914402b9ccc941d5d5a195"
+    },
+    {
+      "path": "图表/05_区间带图_v1.0.0_plotly.html",
+      "bytes": 8751,
+      "sha256": "bd61282819c904e897a1d6bb688ff00dd12d593bd0bb2a382a81784efaeafd9d"
+    },
+    {
+      "path": "图表/05_区间带图_v1.0.0_plotly.json",
+      "bytes": 7837,
+      "sha256": "50e408e26fc542c95c4a47f24c2eae656978cad76d90c7175f4d161516a28088"
+    },
+    {
+      "path": "图表/05_区间带图_v1.0.0_plotly.png",
+      "bytes": 116760,
+      "sha256": "1ff2dcec287cc7aaae515ac4ccfcabab24bfd73f819b19b6cc1504cf6e7fa1c0"
+    },
+    {
+      "path": "图表/06_柱状图_v1.0.0_matplotlib.png",
+      "bytes": 43957,
+      "sha256": "7f9245327f00d562bd8279657aad92ab7b237e154504f6059097daeab63d4182"
+    },
+    {
+      "path": "图表/06_柱状图_v1.0.0_plotly.html",
+      "bytes": 8358,
+      "sha256": "c9c2467e900dfa9cf6c927dc3c119ee1fc2b9ef2709b4d5c330836ce296be8fe"
+    },
+    {
+      "path": "图表/06_柱状图_v1.0.0_plotly.json",
+      "bytes": 7444,
+      "sha256": "511334924e3a7d278a31cba8fb909bbdbb5a1b46f12d46e51a0f7f4489d81427"
+    },
+    {
+      "path": "图表/06_柱状图_v1.0.0_plotly.png",
+      "bytes": 80214,
+      "sha256": "97a040ad7f9a6cd8f454ee4a72081262493cb998495a0960965c50e286c122fa"
+    },
+    {
+      "path": "图表/07_条形图_v1.0.0_matplotlib.png",
+      "bytes": 45823,
+      "sha256": "aef19a970f349ac6538ed750f3ab0e4b66fa2e1704d547ea4bea6b68d5ea4dd4"
+    },
+    {
+      "path": "图表/07_条形图_v1.0.0_plotly.html",
+      "bytes": 8511,
+      "sha256": "46805c8910eea1522af88b8645863562cfc36e0d69d8d7d170932115bb9a285d"
+    },
+    {
+      "path": "图表/07_条形图_v1.0.0_plotly.json",
+      "bytes": 7597,
+      "sha256": "85efbd27b65310aac923b5893e5929f49d394c0b7cf7ca80720c27a80c472054"
+    },
+    {
+      "path": "图表/07_条形图_v1.0.0_plotly.png",
+      "bytes": 78984,
+      "sha256": "823b9e25c3fe6a5d896838a31f9f2a42d1be33dacd3473c79b9638ea549d98fe"
+    },
+    {
+      "path": "图表/08_分组柱状图_v1.0.0_matplotlib.png",
+      "bytes": 51973,
+      "sha256": "291dc473cfa89a1a68e83a1ebf19e5566b3002bbca25c3b495a9f72affe864c6"
+    },
+    {
+      "path": "图表/08_分组柱状图_v1.0.0_plotly.html",
+      "bytes": 8733,
+      "sha256": "a568c7944629fe6f7c1811a06a74e2f900323566986b8c7811fc6c7729289c88"
+    },
+    {
+      "path": "图表/08_分组柱状图_v1.0.0_plotly.json",
+      "bytes": 7819,
+      "sha256": "e8cafa1d13466331fa0abf1420364d41b29a4b6f356b25c24b4834e056f6ece4"
+    },
+    {
+      "path": "图表/08_分组柱状图_v1.0.0_plotly.png",
+      "bytes": 77712,
+      "sha256": "f531de876bf7f7ef15c224eb34964e154474f72b76af06d147b8f2f5005fd8b6"
+    },
+    {
+      "path": "图表/09_堆叠柱状图_v1.0.0_matplotlib.png",
+      "bytes": 50903,
+      "sha256": "c6c467ffe07e045ed9bc66adbd81853356dc373ef42b0726a82e4bbd027a1f69"
+    },
+    {
+      "path": "图表/09_堆叠柱状图_v1.0.0_plotly.html",
+      "bytes": 8781,
+      "sha256": "3992907518c7bf853843b08c9e408ec977d23abbf3920f033844d852ac0aa49f"
+    },
+    {
+      "path": "图表/09_堆叠柱状图_v1.0.0_plotly.json",
+      "bytes": 7867,
+      "sha256": "3a45d19d6eb0fe989f4deed73f297e6d668be4920e26f304bc88ef71f98e1e7a"
+    },
+    {
+      "path": "图表/09_堆叠柱状图_v1.0.0_plotly.png",
+      "bytes": 83300,
+      "sha256": "a3b3b5215d21f8f680d0ebc4735dd3cde1130c5c2ace186c1c17c7d84ddb97a4"
+    },
+    {
+      "path": "图表/10_百分比堆叠柱状图_v1.0.0_matplotlib.png",
+      "bytes": 67501,
+      "sha256": "c406fb81e6e6933dce004f1ba30e60b2f1f50efbd69e554399e55cd5ec381ac4"
+    },
+    {
+      "path": "图表/10_百分比堆叠柱状图_v1.0.0_plotly.html",
+      "bytes": 9179,
+      "sha256": "9c57bcd25637044cb293683a913e853a64963dee9c9ce4642e700d21741c9844"
+    },
+    {
+      "path": "图表/10_百分比堆叠柱状图_v1.0.0_plotly.json",
+      "bytes": 8265,
+      "sha256": "11dcba763f28e7279f8ed0706fa12840732613c842e6f44c55ce6f572574a4da"
+    },
+    {
+      "path": "图表/10_百分比堆叠柱状图_v1.0.0_plotly.png",
+      "bytes": 101065,
+      "sha256": "2841e0c6456c3c0cf627c79c54fa79bab1845323320451f19cd7d0c736abda29"
+    },
+    {
+      "path": "图表/11_棒棒糖图_v1.0.0_matplotlib.png",
+      "bytes": 44867,
+      "sha256": "959366906325b933ceaae24d76a274afc83821592782f5dc881a71b5eb66e32a"
+    },
+    {
+      "path": "图表/11_棒棒糖图_v1.0.0_plotly.html",
+      "bytes": 8548,
+      "sha256": "270e2ac161203f75c752d279057ebfe758b05a2fa0ac05e6d56b97f3e8d884bc"
+    },
+    {
+      "path": "图表/11_棒棒糖图_v1.0.0_plotly.json",
+      "bytes": 7634,
+      "sha256": "be9c7f82e068390666f7f4ea234f395bf775d41d440cfa60990c8950c5b51a11"
+    },
+    {
+      "path": "图表/11_棒棒糖图_v1.0.0_plotly.png",
+      "bytes": 77615,
+      "sha256": "ca2e0fe3ec392a9f02814a7371816c40bab4e7434ffe24a5aa2a16e4acc16e5b"
+    },
+    {
+      "path": "图表/12_哑铃图_v1.0.0_matplotlib.png",
+      "bytes": 50125,
+      "sha256": "f3618765b5b75399801f0e5b3858409931389f1ee029f27dc1acfffc38ebdf3d"
+    },
+    {
+      "path": "图表/12_哑铃图_v1.0.0_plotly.html",
+      "bytes": 8789,
+      "sha256": "93e626c401fcd64690d466ca930866d85f02d6d156fb0e1c658d1bb2e30ac412"
+    },
+    {
+      "path": "图表/12_哑铃图_v1.0.0_plotly.json",
+      "bytes": 7875,
+      "sha256": "981fe20ff5df150c0136472a797693b8119bb66688003a05e88e1d05acbc4ba5"
+    },
+    {
+      "path": "图表/12_哑铃图_v1.0.0_plotly.png",
+      "bytes": 77549,
+      "sha256": "287a6d49d09776c458ad0cd3406967318918b1aa6a98c62ca40271aaf3248296"
+    },
+    {
+      "path": "图表/13_饼图_v1.0.0_matplotlib.png",
+      "bytes": 65626,
+      "sha256": "54ebf315813230956d4acc504408f08e19684f710826f440a5b5bb410c6890a3"
+    },
+    {
+      "path": "图表/13_饼图_v1.0.0_plotly.html",
+      "bytes": 8351,
+      "sha256": "1466af931e2a7ecd3e1be67840320e72f3650ca786098699f4d1efe2c73c8f38"
+    },
+    {
+      "path": "图表/13_饼图_v1.0.0_plotly.json",
+      "bytes": 7437,
+      "sha256": "eca8c530e966f8ba83a521c6c7a17c796bd00d48fefb6e91721aa3fb3e4a039f"
+    },
+    {
+      "path": "图表/13_饼图_v1.0.0_plotly.png",
+      "bytes": 90875,
+      "sha256": "3651a4731521b8146ffaa7dd585ebfe91e97c7b87dc04f54cef9989a5b2378d3"
+    },
+    {
+      "path": "图表/14_环形图_v1.0.0_matplotlib.png",
+      "bytes": 70980,
+      "sha256": "ec3c8bd3b79e879814d762b765664726f4a9110e385e011b9ba9082cd3b10ceb"
+    },
+    {
+      "path": "图表/14_环形图_v1.0.0_plotly.html",
+      "bytes": 8450,
+      "sha256": "b1860c7fc6d8c6da8a809703a5b3fa8dd4c95e3742a01225f65c34be53c83239"
+    },
+    {
+      "path": "图表/14_环形图_v1.0.0_plotly.json",
+      "bytes": 7536,
+      "sha256": "b17c816a38ffe0038eb2e01cb07d36a4d9e48220ee5d7b4873772ae60b2f7a2e"
+    },
+    {
+      "path": "图表/14_环形图_v1.0.0_plotly.png",
+      "bytes": 110230,
+      "sha256": "7ac86a3749a05272756de0612cfa7f4f7bf73a4ff0cfab58489df657dcfbe0fe"
+    },
+    {
+      "path": "图表/15_矩形树图_v1.0.0_matplotlib.png",
+      "bytes": 47172,
+      "sha256": "47cac4a170e44e23b0c491b9acec8ee2c298bc394488f1ffa1f44ad113b71cb8"
+    },
+    {
+      "path": "图表/15_矩形树图_v1.0.0_plotly.html",
+      "bytes": 8423,
+      "sha256": "d7878b6f7042dd9e96c40f25453b5dcbc850faedba6b8c65f9475ef8e5f9443a"
+    },
+    {
+      "path": "图表/15_矩形树图_v1.0.0_plotly.json",
+      "bytes": 7509,
+      "sha256": "f332e911660c54bf54e613e55aa6c9882e8b822e15ecbb8c3657ee1b54d63c68"
+    },
+    {
+      "path": "图表/15_矩形树图_v1.0.0_plotly.png",
+      "bytes": 82388,
+      "sha256": "eef3dd70c6810b9691cad8d306bd62786d2515a61f7ba5734e857dc4aa3fee94"
+    },
+    {
+      "path": "图表/16_旭日图_v1.0.0_matplotlib.png",
+      "bytes": 89517,
+      "sha256": "6438347967c3f5bcce1683006f2848c36c26de7d78e915718b2f82dac54e1086"
+    },
+    {
+      "path": "图表/16_旭日图_v1.0.0_plotly.html",
+      "bytes": 8487,
+      "sha256": "9b9972257a6f1a125d8bacf1b4bd8f46104fc32f0ada36c43a8d7071b1194f32"
+    },
+    {
+      "path": "图表/16_旭日图_v1.0.0_plotly.json",
+      "bytes": 7573,
+      "sha256": "84a58457e4f3926c55d8dbda6d26cc3ab83dcbf14b0468964fbbdaa934c74bd8"
+    },
+    {
+      "path": "图表/16_旭日图_v1.0.0_plotly.png",
+      "bytes": 136960,
+      "sha256": "dfd96637abc6f5b64cfc5cda7263f077052dfa422766749f2a9fd8f17aa8f46e"
+    },
+    {
+      "path": "图表/17_瀑布图_v1.0.0_matplotlib.png",
+      "bytes": 52064,
+      "sha256": "aaac466c1c362cc829feea3feff11ef74a18cbb0efa92b99566667231eb943a8"
+    },
+    {
+      "path": "图表/17_瀑布图_v1.0.0_plotly.html",
+      "bytes": 8540,
+      "sha256": "b4c77036d38c396c1adf711f929930fb8ffb362560d16d71a77814ce6264f731"
+    },
+    {
+      "path": "图表/17_瀑布图_v1.0.0_plotly.json",
+      "bytes": 7626,
+      "sha256": "5f50aae14d49b467e0fd6ce103fe9f8787ead01ee73677148ca7905ae9e163f1"
+    },
+    {
+      "path": "图表/17_瀑布图_v1.0.0_plotly.png",
+      "bytes": 90378,
+      "sha256": "a2d40079223dba84e807f4f80a38d8a4da468099588277c344bec875843f1a49"
+    },
+    {
+      "path": "图表/18_漏斗图_v1.0.0_matplotlib.png",
+      "bytes": 57133,
+      "sha256": "e70882a12cc8ce8336b6a5b4b0fca6d2f435d1b2d666b8b9e2a7d102b4d72ec1"
+    },
+    {
+      "path": "图表/18_漏斗图_v1.0.0_plotly.html",
+      "bytes": 8484,
+      "sha256": "784543289b114945c7290fbabdb2a53a359c38ca289d93f2e4db864cba40eb0a"
+    },
+    {
+      "path": "图表/18_漏斗图_v1.0.0_plotly.json",
+      "bytes": 7570,
+      "sha256": "5835623dd3b89b271ec3657f5d22827eedab23a3794980a2bde58f9c1c31b466"
+    },
+    {
+      "path": "图表/18_漏斗图_v1.0.0_plotly.png",
+      "bytes": 85916,
+      "sha256": "0b263259d6f6ad5d0d0a5d7eac4a743ba9845a8fcb5e9207d6e57ac74dff3873"
+    },
+    {
+      "path": "图表/19_直方图_v1.0.0_matplotlib.png",
+      "bytes": 44030,
+      "sha256": "4149613e45ee4bb454218f46a703b20eb4158615f8f3a9e2e5b14b266c932836"
+    },
+    {
+      "path": "图表/19_直方图_v1.0.0_plotly.html",
+      "bytes": 8550,
+      "sha256": "a02e6d283a76003043b78c9381d14ffc1a36f6bf091d5360811f691d75aef4c6"
+    },
+    {
+      "path": "图表/19_直方图_v1.0.0_plotly.json",
+      "bytes": 7636,
+      "sha256": "9ae6ddd8ea19ceae6a112e87de70381f19510b215012ffa90201308419f9983e"
+    },
+    {
+      "path": "图表/19_直方图_v1.0.0_plotly.png",
+      "bytes": 77161,
+      "sha256": "e281299308368b190ac3ee50e2696284797b8f342e8b0e2c84c040548e547484"
+    },
+    {
+      "path": "图表/20_核密度图_v1.0.0_matplotlib.png",
+      "bytes": 72993,
+      "sha256": "8d62d5e543b854685da36f5c9f729487b0bcb8445f903a3adac408db9ddcd98e"
+    },
+    {
+      "path": "图表/20_核密度图_v1.0.0_plotly.html",
+      "bytes": 14159,
+      "sha256": "1a29f4511497f56b3e44de29495c8018540655d2bac5d89668b58c34716757cc"
+    },
+    {
+      "path": "图表/20_核密度图_v1.0.0_plotly.json",
+      "bytes": 13245,
+      "sha256": "151f9d253e4ab0638390b5588e6987d2dc146b00c2252953c38cc95a955dc5fd"
+    },
+    {
+      "path": "图表/20_核密度图_v1.0.0_plotly.png",
+      "bytes": 109353,
+      "sha256": "736ed13103a044e76a3eaa3908dc90720104684ca28c0f7aac69bfbc1da1c0ae"
+    },
+    {
+      "path": "图表/21_箱线图_v1.0.0_matplotlib.png",
+      "bytes": 48961,
+      "sha256": "c813332cafe3bbf39653327051ddf0b2392f2cbac4a8ec6f893c40f849a44727"
+    },
+    {
+      "path": "图表/21_箱线图_v1.0.0_plotly.html",
+      "bytes": 9371,
+      "sha256": "627cc9863197874e3c8607a3d1b43c29f627fb4a62c7f11f5f11a952a3d786c5"
+    },
+    {
+      "path": "图表/21_箱线图_v1.0.0_plotly.json",
+      "bytes": 8457,
+      "sha256": "739c1f757751a5290b5dd42a3d9f2982e20cb993757ce6d1a76cfa236bea2464"
+    },
+    {
+      "path": "图表/21_箱线图_v1.0.0_plotly.png",
+      "bytes": 81936,
+      "sha256": "bc3180f27ea50c15e9707b30fcfe0cba12e85946351489a0130fa3c140648cdf"
+    },
+    {
+      "path": "图表/22_小提琴图_v1.0.0_matplotlib.png",
+      "bytes": 102233,
+      "sha256": "9345f3509d5dd01257a535e822c5248acdacaf1524ab005581e4087822cc1a9d"
+    },
+    {
+      "path": "图表/22_小提琴图_v1.0.0_plotly.html",
+      "bytes": 46235,
+      "sha256": "5d85ed94e64cbe1ba15d840f5b52623dd84f525ff41f837622f97ecebccbf086"
+    },
+    {
+      "path": "图表/22_小提琴图_v1.0.0_plotly.json",
+      "bytes": 45321,
+      "sha256": "26e888d617859b431ff10bbbd7cd9abc1c73da308a389805c3172ae01ce9d9f3"
+    },
+    {
+      "path": "图表/22_小提琴图_v1.0.0_plotly.png",
+      "bytes": 130913,
+      "sha256": "f2039dfffd06823fbcc24ba0a5929b59d9180d89bc718f8ed7877ecadc6cf60a"
+    },
+    {
+      "path": "图表/23_经验累积分布图_v1.0.0_matplotlib.png",
+      "bytes": 58318,
+      "sha256": "9537d731661dbccfe10c310303bbf67e219cb134b6d5c4b4fdee32e306028e9a"
+    },
+    {
+      "path": "图表/23_经验累积分布图_v1.0.0_plotly.html",
+      "bytes": 12179,
+      "sha256": "c6a9205997c6f7dc7c73aedf32ca56d2ba56ac23fd1f7cece2aae79a11633ffa"
+    },
+    {
+      "path": "图表/23_经验累积分布图_v1.0.0_plotly.json",
+      "bytes": 11265,
+      "sha256": "e6ca8dc176ca6ed39d078b31849554fe34f0a9512614295360c4e886f9215cc2"
+    },
+    {
+      "path": "图表/23_经验累积分布图_v1.0.0_plotly.png",
+      "bytes": 92584,
+      "sha256": "e90cfc3f182689cbc617016ab55e6ee415e97d58e83d759b2b40d556d90b9a0d"
+    },
+    {
+      "path": "图表/24_带状散点图_v1.0.0_matplotlib.png",
+      "bytes": 133632,
+      "sha256": "8d80b085b6dad580d8818732259835b0be734b7459195dcf38ec148b0e8165e2"
+    },
+    {
+      "path": "图表/24_带状散点图_v1.0.0_plotly.html",
+      "bytes": 20657,
+      "sha256": "a504ed4caa26692808ce374c9290ed0865b3016be8cdfdeed503c16482c4d824"
+    },
+    {
+      "path": "图表/24_带状散点图_v1.0.0_plotly.json",
+      "bytes": 19743,
+      "sha256": "1249fbd027b6376c57b192123a14b201487624d619fa9cd404e98e6e5df626b9"
+    },
+    {
+      "path": "图表/24_带状散点图_v1.0.0_plotly.png",
+      "bytes": 172270,
+      "sha256": "a08a8c9d6f426102acfe2948885c47c96604f6815d46cc47b16fb73d65942994"
+    },
+    {
+      "path": "图表/25_散点图_v1.0.0_matplotlib.png",
+      "bytes": 80241,
+      "sha256": "2908099a6900924146f7c3d58a215e1119b11c1f3df47a4c6a7c022ffbbb5dc1"
+    },
+    {
+      "path": "图表/25_散点图_v1.0.0_plotly.html",
+      "bytes": 11347,
+      "sha256": "cb5ffde2a8778116a6ed67ceb91ab845acb902486beac87c46c5396c850e9d5a"
+    },
+    {
+      "path": "图表/25_散点图_v1.0.0_plotly.json",
+      "bytes": 10433,
+      "sha256": "4f731fb755ea3dd069d8d0a84647ec1bc43cd893b56d03eca8ccaa54425717fc"
+    },
+    {
+      "path": "图表/25_散点图_v1.0.0_plotly.png",
+      "bytes": 118896,
+      "sha256": "7969181bc32ce38a090a2a6c872b9f472aadeef23e7c84f4dbee3612edfe9f4e"
+    },
+    {
+      "path": "图表/26_气泡图_v1.0.0_matplotlib.png",
+      "bytes": 137191,
+      "sha256": "9876c02c4a599b52e86d5ff29135cdc2867a88022550fd8bfbf93fb70b66e286"
+    },
+    {
+      "path": "图表/26_气泡图_v1.0.0_plotly.html",
+      "bytes": 13039,
+      "sha256": "be133a3a9c36c12fe82eee2ba2eedc83af77e7735e588ea1f59fd918096bfc69"
+    },
+    {
+      "path": "图表/26_气泡图_v1.0.0_plotly.json",
+      "bytes": 12125,
+      "sha256": "59d53ba88ecb6cc148faede3099d212678dcc2be893af139eae4d785d4631aad"
+    },
+    {
+      "path": "图表/26_气泡图_v1.0.0_plotly.png",
+      "bytes": 199355,
+      "sha256": "66a71daf27b64b18cfc84abb9453b2c440be3a9e7c74c75ccee7a83c58f9820b"
+    },
+    {
+      "path": "图表/27_回归散点图_v1.0.0_matplotlib.png",
+      "bytes": 103297,
+      "sha256": "68b00b3649f3f14a29299df6ef508e8e69b9eec2339a1defa640423133c3d157"
+    },
+    {
+      "path": "图表/27_回归散点图_v1.0.0_plotly.html",
+      "bytes": 13719,
+      "sha256": "a83b3aa555f544b343581acf2b94fd4b9361d55ea1a3aaf729260e5377836619"
+    },
+    {
+      "path": "图表/27_回归散点图_v1.0.0_plotly.json",
+      "bytes": 12805,
+      "sha256": "0e31ef92713fe42913a72cd93907063e81ed8185479a987722e4bfd317dc1296"
+    },
+    {
+      "path": "图表/27_回归散点图_v1.0.0_plotly.png",
+      "bytes": 141135,
+      "sha256": "5b3764e1cee08cc66ab687b7c33a208e039848be194dd237b794888a4a1d8135"
+    },
+    {
+      "path": "图表/28_二维直方图_v1.0.0_matplotlib.png",
+      "bytes": 52867,
+      "sha256": "faf56d5f9cbb9d49f74217a609d7d48a36ffb6732523917df92e6f06d9b4470c"
+    },
+    {
+      "path": "图表/28_二维直方图_v1.0.0_plotly.html",
+      "bytes": 9968,
+      "sha256": "b24ec2f7a313cc9e334aefd4601a23f4fd71168527dca737b7c50596f0ad560d"
+    },
+    {
+      "path": "图表/28_二维直方图_v1.0.0_plotly.json",
+      "bytes": 9054,
+      "sha256": "7069d83605dfcfbcd5c26f29bbd6454349e1a8eba77f215f40be2fff88b430ed"
+    },
+    {
+      "path": "图表/28_二维直方图_v1.0.0_plotly.png",
+      "bytes": 96347,
+      "sha256": "27f1049ad99966b9e8ade02f763ad78fd7587fd70128db3ad7d0effdd1c17136"
+    },
+    {
+      "path": "图表/29_相关矩阵热力图_v1.0.0_matplotlib.png",
+      "bytes": 84021,
+      "sha256": "dc8b18cd154b1dc8563fbfcffc6d5d418565973358ef1016bb5d8a854d9be311"
+    },
+    {
+      "path": "图表/29_相关矩阵热力图_v1.0.0_plotly.html",
+      "bytes": 11245,
+      "sha256": "593889ffff2a22f8909cb38322cdb4d0f5eb22ed72088fa26c630e6d23cce64d"
+    },
+    {
+      "path": "图表/29_相关矩阵热力图_v1.0.0_plotly.json",
+      "bytes": 10331,
+      "sha256": "cd3d638ea2f35181adefbadca0c079c97d9f62f64ea0e74ba9b8bd4543adf252"
+    },
+    {
+      "path": "图表/29_相关矩阵热力图_v1.0.0_plotly.png",
+      "bytes": 130173,
+      "sha256": "a48aa35f10420bcac81385aa57baf454b404ab3b20020916a9608acebf380ec1"
+    },
+    {
+      "path": "图表/30_等高线图_v1.0.0_matplotlib.png",
+      "bytes": 128407,
+      "sha256": "04f317275e895867fe0a1ef27a10dd097c0d4d1d1ae235753669f3ecc4f55685"
+    },
+    {
+      "path": "图表/30_等高线图_v1.0.0_plotly.html",
+      "bytes": 102131,
+      "sha256": "02f10884df7ef4878aec70cf3551d3bc5d5c3da2c42555a8533dd6eaf5407bed"
+    },
+    {
+      "path": "图表/30_等高线图_v1.0.0_plotly.json",
+      "bytes": 101217,
+      "sha256": "bcf8db217e58ed8dc2bd1ac27f473b455ff8d203ea2772dd67096facf560da9c"
+    },
+    {
+      "path": "图表/30_等高线图_v1.0.0_plotly.png",
+      "bytes": 242050,
+      "sha256": "73ad4ed95080ede6af6eab555279fd19509d99af5183f5bf48fa4a6eb52ab73d"
+    },
+    {
+      "path": "图表/31_雷达图_v1.0.0_matplotlib.png",
+      "bytes": 175078,
+      "sha256": "d6d658114eabd2ca7e7b7a9bd08bd18b2bf5d0b7ba20b17a0f8bd77dd25c6820"
+    },
+    {
+      "path": "图表/31_雷达图_v1.0.0_plotly.html",
+      "bytes": 8601,
+      "sha256": "e6f80eb8a35cb26ce1e9562790a94e569ab7b7d72445221287dfdf7d6d9e7405"
+    },
+    {
+      "path": "图表/31_雷达图_v1.0.0_plotly.json",
+      "bytes": 7687,
+      "sha256": "dfd0b5ba2883c751e4d810b097ed1374a90540e71662a3fd10e71dd505da83f1"
+    },
+    {
+      "path": "图表/31_雷达图_v1.0.0_plotly.png",
+      "bytes": 173118,
+      "sha256": "129c8c5ae0e5555c238f071957138d787168086cef456f915449a8eb652c2533"
+    },
+    {
+      "path": "图表/32_极坐标柱状图_v1.0.0_matplotlib.png",
+      "bytes": 110635,
+      "sha256": "b266602e41ccde5e1433ea23aa2e20d0e4161e5b02b1c7a7a9f0175fe8b61097"
+    },
+    {
+      "path": "图表/32_极坐标柱状图_v1.0.0_plotly.html",
+      "bytes": 8728,
+      "sha256": "6e392cbe8df5f557ce878512fdc356595fc40e5d4c6d61d66987c99d5e80c9ad"
+    },
+    {
+      "path": "图表/32_极坐标柱状图_v1.0.0_plotly.json",
+      "bytes": 7814,
+      "sha256": "92bebc7a19d18badf27c83338a9de84a2dc0fdb940e4dd86ecaad3900c01b1a7"
+    },
+    {
+      "path": "图表/32_极坐标柱状图_v1.0.0_plotly.png",
+      "bytes": 139749,
+      "sha256": "0d2b6ddf96d003c47014706685311f5c36f5688c33b0953abc7cace7acbeb5e6"
+    },
+    {
+      "path": "图表/33_桑基图_v1.0.0_matplotlib.png",
+      "bytes": 50141,
+      "sha256": "a4dcb7d53b5efa7ac0c75f15cc2b64aba2e7b2e351a4299caa163cd4f088b638"
+    },
+    {
+      "path": "图表/33_桑基图_v1.0.0_plotly.html",
+      "bytes": 8593,
+      "sha256": "4154a43d048a5381aeea04dd160c34471398f993657c5d5217892b86ed9af0e8"
+    },
+    {
+      "path": "图表/33_桑基图_v1.0.0_plotly.json",
+      "bytes": 7679,
+      "sha256": "268606a27a9624051800cd5f35a0f5b7b2de608c7d2e252d2eeda60d431065be"
+    },
+    {
+      "path": "图表/33_桑基图_v1.0.0_plotly.png",
+      "bytes": 122648,
+      "sha256": "db362d578c2b577b5259eb104c0e22a5fefca3a4441d6e24917eb54884a17ce0"
+    },
+    {
+      "path": "图表/34_甘特图_v1.0.0_matplotlib.png",
+      "bytes": 50898,
+      "sha256": "f0c0b4a47d46347321d7d03c0473a23f550706f0907eecab8e1d597e7f544a36"
+    },
+    {
+      "path": "图表/34_甘特图_v1.0.0_plotly.html",
+      "bytes": 8941,
+      "sha256": "5752b7f045160dcb1acc3fcfc3612a1fc5031486ecab5be6c72beb9ed80f81fc"
+    },
+    {
+      "path": "图表/34_甘特图_v1.0.0_plotly.json",
+      "bytes": 8027,
+      "sha256": "e34db81a0cd295ed45447ea087248bfbeb3d76a3d184f29f723505d2cd39f952"
+    },
+    {
+      "path": "图表/34_甘特图_v1.0.0_plotly.png",
+      "bytes": 86943,
+      "sha256": "303fccd449e6b5ffae4e8e6c1a9911299f963137c8836c6d9e4883a78445fcbf"
+    },
+    {
+      "path": "图表/35_K线图_v1.0.0_matplotlib.png",
+      "bytes": 48555,
+      "sha256": "360265e5d8b19f2ed8fff6cabe29c484424276d1169585265e91c91c68544ddd"
+    },
+    {
+      "path": "图表/35_K线图_v1.0.0_plotly.html",
+      "bytes": 9385,
+      "sha256": "a30ea918ed1eb2ec3209a402f36455b6d01fc69725d9fa396bc78b07275029b8"
+    },
+    {
+      "path": "图表/35_K线图_v1.0.0_plotly.json",
+      "bytes": 8555,
+      "sha256": "ad579fd4c9a8812feff711081aef0da61d3abe8acaa1584f16963609b5803119"
+    },
+    {
+      "path": "图表/35_K线图_v1.0.0_plotly.png",
+      "bytes": 83961,
+      "sha256": "9a9ed39f255b9612f24c2c6cf9745e4b7b85425cf5f8e0dcb865e4fbdcf2ee52"
+    },
+    {
+      "path": "图表/36_帕累托图_v1.0.0_matplotlib.png",
+      "bytes": 74658,
+      "sha256": "486ea397a9f6c503042e789b8e68036353b61cbaa44cd2e401276abf46f95feb"
+    },
+    {
+      "path": "图表/36_帕累托图_v1.0.0_plotly.html",
+      "bytes": 8740,
+      "sha256": "e0b92392a121d6cf37bcc663095d508b6bfab10e960d6176e08570ff2c45d6c8"
+    },
+    {
+      "path": "图表/36_帕累托图_v1.0.0_plotly.json",
+      "bytes": 7826,
+      "sha256": "c1b56c564c067aa934a96a0656d11910b08266995e5bd9913b780cec32b913a9"
+    },
+    {
+      "path": "图表/36_帕累托图_v1.0.0_plotly.png",
+      "bytes": 116093,
+      "sha256": "a1caeffff988b23d34200cd9b8a769abacc0416c43819e5b0a571fb71d56d090"
+    },
+    {
+      "path": "图表/plotly.min.js",
+      "bytes": 4296948,
+      "sha256": "6fd63cbb154ddf288a851df1f2277c7b2c064a35e10898e15f8453995ade94c4"
+    },
+    {
+      "path": "图表目录与口径_v1.0.0.json",
+      "bytes": 72152,
+      "sha256": "8f751efa4225d9aaf7fa138f60dcb2472ce7cf20a42cfb964c7c1ba1981e9336"
+    },
+    {
+      "path": "对照图/01_折线图_v1.0.0_对照.png",
+      "bytes": 114854,
+      "sha256": "d42e7a163ec0cb8c37d632f77574270bcf131d95c57f48c734b1461593dc9533"
+    },
+    {
+      "path": "对照图/02_阶梯图_v1.0.0_对照.png",
+      "bytes": 89750,
+      "sha256": "5c9ffc6f01a0b4e129f57d4bf92680d13773bb1130639a2d7646663a00f69f82"
+    },
+    {
+      "path": "对照图/03_面积图_v1.0.0_对照.png",
+      "bytes": 109484,
+      "sha256": "75f6c9eb28224365b93d70633cd5ff5145a3618671625df97c83bc6666f77cd2"
+    },
+    {
+      "path": "对照图/04_堆叠面积图_v1.0.0_对照.png",
+      "bytes": 156012,
+      "sha256": "6e0b5fa817184a39532e361b6181e7a37407fd356c055697dc8a092864786ae0"
+    },
+    {
+      "path": "对照图/05_区间带图_v1.0.0_对照.png",
+      "bytes": 150837,
+      "sha256": "edac4500dbfa18616092cfe12da7f9e78f876056b775387c202db2ad98f6fab3"
+    },
+    {
+      "path": "对照图/06_柱状图_v1.0.0_对照.png",
+      "bytes": 102261,
+      "sha256": "005210193c2c7ad7848c029b768809a65f7771d407a332f4d78dfdbd5b900e88"
+    },
+    {
+      "path": "对照图/07_条形图_v1.0.0_对照.png",
+      "bytes": 103465,
+      "sha256": "ab401830e9a65122ce76558cee5521eac9a407b8e2f3c72a9866c32cd038200c"
+    },
+    {
+      "path": "对照图/08_分组柱状图_v1.0.0_对照.png",
+      "bytes": 110809,
+      "sha256": "6bca09872ae1c3981297ec5008a5d25a071af0ce67bad1cb90268ce3ea2dfd02"
+    },
+    {
+      "path": "对照图/09_堆叠柱状图_v1.0.0_对照.png",
+      "bytes": 115015,
+      "sha256": "93d800ef70750948c51b295afa52be11f649ee7749f593513fcd082cabdf8373"
+    },
+    {
+      "path": "对照图/10_百分比堆叠柱状图_v1.0.0_对照.png",
+      "bytes": 145589,
+      "sha256": "987d7c56f2e7db44ee2709edd3a61790bbed8731e032e6e2de42c03dd921642d"
+    },
+    {
+      "path": "对照图/11_棒棒糖图_v1.0.0_对照.png",
+      "bytes": 99544,
+      "sha256": "cc122729405f61172e0b305310eecbd8269ece2e48127b65caee73cd64f08b82"
+    },
+    {
+      "path": "对照图/12_哑铃图_v1.0.0_对照.png",
+      "bytes": 104255,
+      "sha256": "578c1493e97ab4a8256855e59df3c88f6e45f8293ce2044153abc125a5e00ff0"
+    },
+    {
+      "path": "对照图/13_饼图_v1.0.0_对照.png",
+      "bytes": 124341,
+      "sha256": "c30b7aaef48c07b7495e974fe9c63f9e392c41820ca371a930a91e67013329e6"
+    },
+    {
+      "path": "对照图/14_环形图_v1.0.0_对照.png",
+      "bytes": 147023,
+      "sha256": "5392bae856c8c6e39af953835124e5c93b06e8da4fd0fad4dcfd387ca4694bb1"
+    },
+    {
+      "path": "对照图/15_矩形树图_v1.0.0_对照.png",
+      "bytes": 107075,
+      "sha256": "4c59aaffd93e5ecc417d0823af2cd0f4c3853cd2f2da8b16003360d5eddfc006"
+    },
+    {
+      "path": "对照图/16_旭日图_v1.0.0_对照.png",
+      "bytes": 185969,
+      "sha256": "706d512f2cbfcc84e49c46cdc43ca9c649f0af4a3a5fc5d299d0a544d436d1f6"
+    },
+    {
+      "path": "对照图/17_瀑布图_v1.0.0_对照.png",
+      "bytes": 117233,
+      "sha256": "62026545009cdde7d96dad7d59a3fa32f2dfc1e75f3d58eec517d68cf024d1d5"
+    },
+    {
+      "path": "对照图/18_漏斗图_v1.0.0_对照.png",
+      "bytes": 119422,
+      "sha256": "5981f8a1eda00e1e7122b33161b4b2a55148019c185069811de19c3254ba9f65"
+    },
+    {
+      "path": "对照图/19_直方图_v1.0.0_对照.png",
+      "bytes": 98370,
+      "sha256": "ff3ca64c47b154ed7c2f73e3ec44a44347a2fef1861c834c0b8f39d5e40fa1d2"
+    },
+    {
+      "path": "对照图/20_核密度图_v1.0.0_对照.png",
+      "bytes": 154837,
+      "sha256": "5e46b9f27b06277570e8f71590f5d10df0c355985990ff98737c3c430d4b5a34"
+    },
+    {
+      "path": "对照图/21_箱线图_v1.0.0_对照.png",
+      "bytes": 108524,
+      "sha256": "897741b14ff036d4b4c4ffa1357eaef78ed95bb88b652ced4e6f729c834e451b"
+    },
+    {
+      "path": "对照图/22_小提琴图_v1.0.0_对照.png",
+      "bytes": 200517,
+      "sha256": "d5aa021f98998f50dbd3ba2b7c6f2f6ab78c010e7a528bdf7550f4073201122d"
+    },
+    {
+      "path": "对照图/23_经验累积分布图_v1.0.0_对照.png",
+      "bytes": 133823,
+      "sha256": "168bdfb934d12460fa5d9849c493d3cb5ad4f302226f572ac9003168d460084a"
+    },
+    {
+      "path": "对照图/24_带状散点图_v1.0.0_对照.png",
+      "bytes": 268610,
+      "sha256": "432d7cd7518dc6294ddd5463d57b5206f600932e1743dd945881296be90a2806"
+    },
+    {
+      "path": "对照图/25_散点图_v1.0.0_对照.png",
+      "bytes": 165431,
+      "sha256": "3076914f231ee3ed12d349372073c39d3e57f988fe90b8d41b8bca7684ad2a86"
+    },
+    {
+      "path": "对照图/26_气泡图_v1.0.0_对照.png",
+      "bytes": 288011,
+      "sha256": "8d03ebd76df4455685a678d4b1b92c4900be641f34132bf09918b03d7ee2232a"
+    },
+    {
+      "path": "对照图/27_回归散点图_v1.0.0_对照.png",
+      "bytes": 202318,
+      "sha256": "06ebe51615cd41dfd994cc47af258d7e220d9e9dcc27b03add7ebdf980935ad6"
+    },
+    {
+      "path": "对照图/28_二维直方图_v1.0.0_对照.png",
+      "bytes": 122995,
+      "sha256": "2a2eedffad0d0673e994c95a64c8c52f02bae9a704c0423330d4d4928cdedaa9"
+    },
+    {
+      "path": "对照图/29_相关矩阵热力图_v1.0.0_对照.png",
+      "bytes": 184426,
+      "sha256": "03929ccd8688933de3b1b7ff3ca1c8ba5bc21f8465de3dbfb446337c2671b082"
+    },
+    {
+      "path": "对照图/30_等高线图_v1.0.0_对照.png",
+      "bytes": 297179,
+      "sha256": "f1eb7f8a416dceac0e06485c70e194edde5e2fbdcfe44288b1c60506d1aef82a"
+    },
+    {
+      "path": "对照图/31_雷达图_v1.0.0_对照.png",
+      "bytes": 289496,
+      "sha256": "d02fb1b1fc2cdd076f3b867826b45c69d4357a43dcf76c6f7e0dd73dc75149de"
+    },
+    {
+      "path": "对照图/32_极坐标柱状图_v1.0.0_对照.png",
+      "bytes": 215301,
+      "sha256": "0b14900ffb19e45e71669c21014177b6f6e72bd9bdda5a457aecad59c10fa08e"
+    },
+    {
+      "path": "对照图/33_桑基图_v1.0.0_对照.png",
+      "bytes": 127817,
+      "sha256": "71a70b0fb9d15ff7eb4b29efe5198f82c619467b06df99a0a33af3d2f5764371"
+    },
+    {
+      "path": "对照图/34_甘特图_v1.0.0_对照.png",
+      "bytes": 112858,
+      "sha256": "a0e56c2013c852e7d38062d8cecc8847894e2c9d79bffa0af9f6581b8aac9861"
+    },
+    {
+      "path": "对照图/35_K线图_v1.0.0_对照.png",
+      "bytes": 109511,
+      "sha256": "b756a2751b5088d31cf778dc2501c8db3b3a0eaf2ffdff673e49cdc6830bbf76"
+    },
+    {
+      "path": "对照图/36_帕累托图_v1.0.0_对照.png",
+      "bytes": 158564,
+      "sha256": "d1addb9b7c61ebb8c4ba193eead8aaff888a931c334036a90e2f46845a05e17a"
+    },
+    {
+      "path": "数据/任务排期_v1.0.0.csv",
+      "bytes": 205,
+      "sha256": "7494190b720e7a674d6ddec58f6362c9faf450dc3a3f69c0d5babc7f5ecd9b29"
+    },
+    {
+      "path": "数据/使用时长样本_v1.0.0.csv",
+      "bytes": 8953,
+      "sha256": "ca45f24362fa40d73b5e4835d4443cbd4c0921c9efe99b0672fb1f857be0440a"
+    },
+    {
+      "path": "数据/季度渠道订单_v1.0.0.csv",
+      "bytes": 130,
+      "sha256": "74306fefcf658672c2037c0af7551f8cdd7586b2945b1b0899432bb7bbd0ae6a"
+    },
+    {
+      "path": "数据/月度订单_v1.0.0.csv",
+      "bytes": 258,
+      "sha256": "07e9ec08d5aed7eb069369019fc569d1bff083b66dfecaff163d9fcd0742f776"
+    },
+    {
+      "path": "数据/模拟OHLC_v1.0.0.csv",
+      "bytes": 1080,
+      "sha256": "ad184e2f252424f0aa98b9358e446cb1a7c55951f6382a37f35f258fb26c2a69"
+    },
+    {
+      "path": "数据/相关分析样本_v1.0.0.csv",
+      "bytes": 11189,
+      "sha256": "24f018b52373319f7d067cad85108de320ef8849dad5d651191eb3768e8e8366"
+    },
+    {
+      "path": "数据/预算订单客户样本_v1.0.0.csv",
+      "bytes": 4327,
+      "sha256": "2c32e8ca4fcc5a12de2c7f3bef22a1c5f4f9c32905d571a166239bcb327cb9f6"
+    },
+    {
+      "path": "验收/图表语义验收_v1.1.0.json",
+      "bytes": 29280,
+      "sha256": "c0976e4ccc1b7c4e5ca487d87bec805d06231ad947eb3d856ce06d8efa97484a"
+    }
+  ]
+}

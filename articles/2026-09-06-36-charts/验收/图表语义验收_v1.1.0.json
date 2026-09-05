@@ -1,0 +1,1093 @@
+{
+  "version": "v1.1.0",
+  "updated": "2026-09-06",
+  "status": "36种图表的介绍、对象语义与原图复核完成",
+  "charts": [
+    {
+      "id": 1,
+      "name": "折线图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "月序完整",
+          "passed": true
+        },
+        {
+          "check": "折线加点",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "d42e7a163ec0cb8c37d632f77574270bcf131d95c57f48c734b1461593dc9533",
+      "visualReviewed": true
+    },
+    {
+      "id": 2,
+      "name": "阶梯图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "月序完整",
+          "passed": true
+        },
+        {
+          "check": "后置阶梯对应 hv",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "5c9ffc6f01a0b4e129f57d4bf92680d13773bb1130639a2d7646663a00f69f82",
+      "visualReviewed": true
+    },
+    {
+      "id": 3,
+      "name": "面积图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "月序完整",
+          "passed": true
+        },
+        {
+          "check": "面积从零填充",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "75f6c9eb28224365b93d70633cd5ff5145a3618671625df97c83bc6666f77cd2",
+      "visualReviewed": true
+    },
+    {
+      "id": 4,
+      "name": "堆叠面积图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "月序完整",
+          "passed": true
+        },
+        {
+          "check": "三层堆叠之和为总订单",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "6e0b5fa817184a39532e361b6181e7a37407fd356c055697dc8a092864786ae0",
+      "visualReviewed": true
+    },
+    {
+      "id": 5,
+      "name": "区间带图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "月序完整",
+          "passed": true
+        },
+        {
+          "check": "模拟上下界正好相差40",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "edac4500dbfa18616092cfe12da7f9e78f876056b775387c202db2ad98f6fab3",
+      "visualReviewed": true
+    },
+    {
+      "id": 6,
+      "name": "柱状图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "四渠道数量和零基线",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "005210193c2c7ad7848c029b768809a65f7771d407a332f4d78dfdbd5b900e88",
+      "visualReviewed": true
+    },
+    {
+      "id": 7,
+      "name": "条形图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "四渠道数量和零基线",
+          "passed": true
+        },
+        {
+          "check": "横向条形与降序标签",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "ab401830e9a65122ce76558cee5521eac9a407b8e2f3c72a9866c32cd038200c",
+      "visualReviewed": true
+    },
+    {
+      "id": 8,
+      "name": "分组柱状图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "三季度四渠道完整",
+          "passed": true
+        },
+        {
+          "check": "分组/堆叠模式正确",
+          "passed": true
+        },
+        {
+          "check": "并排柱从零开始且中心不同",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "6bca09872ae1c3981297ec5008a5d25a071af0ce67bad1cb90268ce3ea2dfd02",
+      "visualReviewed": true
+    },
+    {
+      "id": 9,
+      "name": "堆叠柱状图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "三季度四渠道完整",
+          "passed": true
+        },
+        {
+          "check": "分组/堆叠模式正确",
+          "passed": true
+        },
+        {
+          "check": "Matplotlib 每层 bottom 累计正确",
+          "passed": true
+        },
+        {
+          "check": "柱总量正确",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "93d800ef70750948c51b295afa52be11f649ee7749f593513fcd082cabdf8373",
+      "visualReviewed": true
+    },
+    {
+      "id": 10,
+      "name": "百分比堆叠柱状图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "三季度四渠道完整",
+          "passed": true
+        },
+        {
+          "check": "分组/堆叠模式正确",
+          "passed": true
+        },
+        {
+          "check": "Matplotlib 每层 bottom 累计正确",
+          "passed": true
+        },
+        {
+          "check": "柱总量正确",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "987d7c56f2e7db44ee2709edd3a61790bbed8731e032e6e2de42c03dd921642d",
+      "visualReviewed": true
+    },
+    {
+      "id": 11,
+      "name": "棒棒糖图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "四根线段与四个端点",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "cc122729405f61172e0b305310eecbd8269ece2e48127b65caee73cd64f08b82",
+      "visualReviewed": true
+    },
+    {
+      "id": 12,
+      "name": "哑铃图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "前后两组点与连接线",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "578c1493e97ab4a8256855e59df3c88f6e45f8293ce2044153abc125a5e00ff0",
+      "visualReviewed": true
+    },
+    {
+      "id": 13,
+      "name": "饼图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "扇区量及总量1240",
+          "passed": true
+        },
+        {
+          "check": "饼图与环图区分",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "c30b7aaef48c07b7495e974fe9c63f9e392c41820ca371a930a91e67013329e6",
+      "visualReviewed": true
+    },
+    {
+      "id": 14,
+      "name": "环形图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "扇区量及总量1240",
+          "passed": true
+        },
+        {
+          "check": "饼图与环图区分",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "5392bae856c8c6e39af953835124e5c93b06e8da4fd0fad4dcfd387ca4694bb1",
+      "visualReviewed": true
+    },
+    {
+      "id": 15,
+      "name": "矩形树图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "五矩形份额总和100",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "4c59aaffd93e5ecc417d0823af2cd0f4c3853cd2f2da8b16003360d5eddfc006",
+      "visualReviewed": true
+    },
+    {
+      "id": 16,
+      "name": "旭日图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "父子值守恒",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "706d512f2cbfcc84e49c46cdc43ca9c649f0af4a3a5fc5d299d0a544d436d1f6",
+      "visualReviewed": true
+    },
+    {
+      "id": 17,
+      "name": "瀑布图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "瀑布期末125且4项正负增量",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "62026545009cdde7d96dad7d59a3fa32f2dfc1e75f3d58eec517d68cf024d1d5",
+      "visualReviewed": true
+    },
+    {
+      "id": 18,
+      "name": "漏斗图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "漏斗同批首步分母与15%末步",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "5981f8a1eda00e1e7122b33161b4b2a55148019c185069811de19c3254ba9f65",
+      "visualReviewed": true
+    },
+    {
+      "id": 19,
+      "name": "直方图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "共同分箱160条记录",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "ff3ca64c47b154ed7c2f73e3ec44a44347a2fef1861c834c0b8f39d5e40fa1d2",
+      "visualReviewed": true
+    },
+    {
+      "id": 20,
+      "name": "核密度图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "密度曲线来自同一估计",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "5e46b9f27b06277570e8f71590f5d10df0c355985990ff98737c3c430d4b5a34",
+      "visualReviewed": true
+    },
+    {
+      "id": 21,
+      "name": "箱线图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "箱线使用同一四分位数与实际须端点",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "897741b14ff036d4b4c4ffa1357eaef78ed95bb88b652ced4e6f729c834e451b",
+      "visualReviewed": true
+    },
+    {
+      "id": 22,
+      "name": "小提琴图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "小提琴镜像闭合轮廓和3个中位数",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "d5aa021f98998f50dbd3ba2b7c6f2f6ab78c010e7a528bdf7550f4073201122d",
+      "visualReviewed": true
+    },
+    {
+      "id": 23,
+      "name": "经验累积分布图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "ECDF单调且端点0和1",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "168bdfb934d12460fa5d9849c493d3cb5ad4f302226f572ac9003168d460084a",
+      "visualReviewed": true
+    },
+    {
+      "id": 24,
+      "name": "带状散点图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "三组160样本与抖动一致",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "432d7cd7518dc6294ddd5463d57b5206f600932e1743dd945881296be90a2806",
+      "visualReviewed": true
+    },
+    {
+      "id": 25,
+      "name": "散点图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "140条同一预算订单记录",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "3076914f231ee3ed12d349372073c39d3e57f988fe90b8d41b8bca7684ad2a86",
+      "visualReviewed": true
+    },
+    {
+      "id": 26,
+      "name": "气泡图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "140条同一预算订单记录",
+          "passed": true
+        },
+        {
+          "check": "气泡面积对应客户数",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "8d03ebd76df4455685a678d4b1b92c4900be641f34132bf09918b03d7ee2232a",
+      "visualReviewed": true
+    },
+    {
+      "id": 27,
+      "name": "回归散点图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "140条同一预算订单记录",
+          "passed": true
+        },
+        {
+          "check": "同一拟合直线和R平方",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "06ebe51615cd41dfd994cc47af258d7e220d9e9dcc27b03add7ebdf980935ad6",
+      "visualReviewed": true
+    },
+    {
+      "id": 28,
+      "name": "二维直方图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "二维计数矩阵同一方向且总数140",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "2a2eedffad0d0673e994c95a64c8c52f02bae9a704c0423330d4d4928cdedaa9",
+      "visualReviewed": true
+    },
+    {
+      "id": 29,
+      "name": "相关矩阵热力图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "相关矩阵对称、对角1、色标[-1,1]",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "03929ccd8688933de3b1b7ff3ca1c8ba5bc21f8465de3dbfb446337c2671b082",
+      "visualReviewed": true
+    },
+    {
+      "id": 30,
+      "name": "等高线图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "等高线同一网格和10间距",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "f1eb7f8a416dceac0e06485c70e194edde5e2fbdcfe44288b1c60506d1aef82a",
+      "visualReviewed": true
+    },
+    {
+      "id": 31,
+      "name": "雷达图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "雷达五维闭合且径向0到5",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "d02fb1b1fc2cdd076f3b867826b45c69d4357a43dcf76c6f7e0dd73dc75149de",
+      "visualReviewed": true
+    },
+    {
+      "id": 32,
+      "name": "极坐标柱状图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "极柱8时段径向访问量",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "0b14900ffb19e45e71669c21014177b6f6e72bd9bdda5a457aecad59c10fa08e",
+      "visualReviewed": true
+    },
+    {
+      "id": 33,
+      "name": "桑基图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "桑基三进两出守恒160",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "71a70b0fb9d15ff7eb4b29efe5198f82c619467b06df99a0a33af3d2f5764371",
+      "visualReviewed": true
+    },
+    {
+      "id": 34,
+      "name": "甘特图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "甘特五任务的实际持续天数",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "a0e56c2013c852e7d38062d8cecc8847894e2c9d79bffa0af9f6581b8aac9861",
+      "visualReviewed": true
+    },
+    {
+      "id": 35,
+      "name": "K线图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "K线12组同一OHLC",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "b756a2751b5088d31cf778dc2501c8db3b3a0eaf2ffdff673e49cdc6830bbf76",
+      "visualReviewed": true
+    },
+    {
+      "id": 36,
+      "name": "帕累托图",
+      "checks": [
+        {
+          "check": "原文包含对应两段绘图代码",
+          "passed": true
+        },
+        {
+          "check": "Plotly 主图类型与小节一致",
+          "passed": true
+        },
+        {
+          "check": "帕累托数量降序、累计前3类80%、最终100%",
+          "passed": true
+        },
+        {
+          "check": "组合图matplotlib像素与原图一致",
+          "passed": true
+        },
+        {
+          "check": "组合图plotly像素与原图一致",
+          "passed": true
+        }
+      ],
+      "comparisonSha256": "d1addb9b7c61ebb8c4ba193eead8aaff888a931c334036a90e2f46845a05e17a",
+      "visualReviewed": true
+    }
+  ],
+  "checkCount": 198,
+  "sources": [
+    "https://plotly.com/python/bar-charts/",
+    "https://matplotlib.org/stable/gallery/lines_bars_and_markers/bar_stacked.html",
+    "https://plotly.com/python/box-plots/"
+  ]
+}

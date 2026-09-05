@@ -1,0 +1,5 @@
+# v1.1.0 | 2026-09-06 | 保留下载物料精确字节和清单校验值
+* -text
+*.png binary
+*.zip binary
+**/plotly.min.js binary

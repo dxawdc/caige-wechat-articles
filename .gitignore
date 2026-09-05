@@ -1,0 +1,8 @@
+# v1.1.0 | 2026-09-06
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+.DS_Store
