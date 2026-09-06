@@ -1,0 +1,7 @@
+﻿order_id,user_id,amount,channel
+O1,U1,100,搜索
+O1,U1,100,搜索
+O2,U1,200,搜索
+O2,U1,200,搜索
+O3,U2,300,推荐
+O3,U2,300,推荐

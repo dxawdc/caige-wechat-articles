@@ -1,0 +1,65 @@
+{
+  "version": "v1.0.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1543,
+      "sha256": "cf42fb40902ffe1fbeb43df2fdc4851c38f9e6c1d24e663bc71fc7589301f1a5"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 82,
+      "sha256": "231e9a7146356b3eb46d3d88f57e8955de3b2f91fee29466629ff41364a3cb7a"
+    },
+    {
+      "path": "图片/01_留存矩阵_v1.0.0.png",
+      "bytes": 110982,
+      "sha256": "059be5eb97b1f3b81170c908c70a05362821e82f878fb8476e4b0704a15e252f"
+    },
+    {
+      "path": "图片/02_分母对比_v1.0.0.png",
+      "bytes": 81343,
+      "sha256": "201e9cb27ab3326d2c42263fc6e211fad0dd334049027ad15ab65408e5cf20db"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 35977,
+      "sha256": "f7588164a5d316999cd274a743c8ab9a1de4168b5c86a5ab0d12120abc9590d4"
+    },
+    {
+      "path": "数据/注册用户_v1.0.0.csv",
+      "bytes": 13524,
+      "sha256": "9e3ac88918c7898989927e51a2bc10a22c249e538dc7e9ec1ce7b0587396bfdb"
+    },
+    {
+      "path": "数据/留存结果_v1.0.0.csv",
+      "bytes": 350,
+      "sha256": "e65ca0f4242cbb2735f7f40772d61fe4c429ae72d8cd83fcfe3045a78ff5390c"
+    },
+    {
+      "path": "数据/登录日志_v1.0.0.csv",
+      "bytes": 56615,
+      "sha256": "5e562cf233b377e9396acf6480eb18290b1a89639ffa3cf2da1233c97599918d"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 3532,
+      "sha256": "dcafe6af020ecb0666e52210236ec0ea46d26f79b84147bb9e1f861a96b7bc5d"
+    },
+    {
+      "path": "留存查询_v1.0.0.sql",
+      "bytes": 782,
+      "sha256": "1721c4cbf67b57ee57c684a952b770e0293ecd2237efee01a37f76c9b2ec7ccf"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 230,
+      "sha256": "ff07daf9754d33422159252e322653e344c0e62ad1b058558c1d14f1170cfd45"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    }
+  ]
+}

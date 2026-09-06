@@ -1,0 +1,60 @@
+{
+  "version": "v1.0.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1539,
+      "sha256": "072f6f052a5ce5c4f1c54995296c7b82efefe6a1178720acd346808e4478c0f0"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 82,
+      "sha256": "231e9a7146356b3eb46d3d88f57e8955de3b2f91fee29466629ff41364a3cb7a"
+    },
+    {
+      "path": "图片/01_日龄对齐_v1.0.0.png",
+      "bytes": 117584,
+      "sha256": "dda5a1bd2f1e2d11c400172f44f2815f95136596a85d16c5c6c89f88c5526c43"
+    },
+    {
+      "path": "图片/02_LTV对照_v1.0.0.png",
+      "bytes": 69755,
+      "sha256": "5a3ec5e40dbef44c4ee0b526857337434d12b0384a87efd947e356d9e8bfe661"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 41259,
+      "sha256": "5b0d6de486172e8cddbc980e4e6c8cdcca3a80f83771c6b50af92f540c47d51e"
+    },
+    {
+      "path": "数据/LTV结果_v1.0.0.csv",
+      "bytes": 149,
+      "sha256": "b8e5cf3fb4250feb15d27002a6d343b8d28337a3b521fd81d2e33a51dee8c8b2"
+    },
+    {
+      "path": "数据/支付订单_v1.0.0.csv",
+      "bytes": 9313,
+      "sha256": "541e51cc32fab5bf44d624c86f452c936aee6406ce3eecc6ed12ab5d5739eb9a"
+    },
+    {
+      "path": "数据/注册用户_v1.0.0.csv",
+      "bytes": 3831,
+      "sha256": "106ce204c19141bd383e78f28ad0afb873c82f9e9f09d1bf331aeb3433adbba3"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 3042,
+      "sha256": "72e1a585e687d74e29aacad64aea16af6b9b64e6f2e8d913f90a1f2e6540c4e9"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 230,
+      "sha256": "a5b12e3b2c471ed4b9258941e275f5c40fde920731f7a9be8bbc528425073274"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    }
+  ]
+}

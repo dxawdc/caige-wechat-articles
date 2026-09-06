@@ -1,0 +1,19 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "naive": [
+    100,
+    80,
+    80
+  ],
+  "ordered": [
+    100,
+    70,
+    40
+  ],
+  "total_conversion_pct": 40,
+  "click_to_claim_pct": 57.14,
+  "window_hours": 24,
+  "checks": 4
+}

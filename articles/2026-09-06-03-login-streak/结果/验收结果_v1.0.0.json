@@ -1,0 +1,26 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "raw_rows": 15,
+  "unique_user_days": 14,
+  "streaks": {
+    "A": [
+      3,
+      2
+    ],
+    "B": [
+      5,
+      5
+    ],
+    "C": [
+      1,
+      0
+    ],
+    "D": [
+      1,
+      1
+    ]
+  },
+  "checks": 6
+}

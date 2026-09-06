@@ -1,0 +1,12 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "new_users": 500,
+  "mature_users": 300,
+  "retained_d7": 95,
+  "correct_d7_pct": 31.67,
+  "wrong_d7_pct": 19,
+  "missing_d7_cohorts": 2,
+  "checks": 7
+}

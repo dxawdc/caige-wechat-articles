@@ -1,0 +1,4 @@
+﻿order_id,user_id,amount,channel,_merge
+O1,U1,100,搜索,both
+O2,U1,200,搜索,both
+O3,U2,300,推荐,both

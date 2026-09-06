@@ -1,0 +1,5 @@
+﻿version,channel,new_users,retained_d1,rate
+旧版本,A,900,450,0.5
+旧版本,B,100,20,0.2
+新版本,A,100,60,0.6
+新版本,B,900,270,0.3

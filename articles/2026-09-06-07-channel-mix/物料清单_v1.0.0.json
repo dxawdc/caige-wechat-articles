@@ -1,0 +1,55 @@
+{
+  "version": "v1.0.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1539,
+      "sha256": "b15d4b5b50816e77b1d60bcc107115793b6850141a8a81adf023b3fecb09a6f2"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 82,
+      "sha256": "231e9a7146356b3eb46d3d88f57e8955de3b2f91fee29466629ff41364a3cb7a"
+    },
+    {
+      "path": "图片/01_分组与整体_v1.0.0.png",
+      "bytes": 101225,
+      "sha256": "c010dc8b4415e8a61f1f7173cca60177f47353b742744487418bb5dd2929dff9"
+    },
+    {
+      "path": "图片/02_渠道结构_v1.0.0.png",
+      "bytes": 84084,
+      "sha256": "31ae4172d408548c0b1d2973c112fb68da254b53d9ad48ffc5929bee00914baa"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 38389,
+      "sha256": "41e939e28c51923190addd3f40bd5b915b2c1f848ed013008ac86e51d8631a68"
+    },
+    {
+      "path": "数据/总体留存_v1.0.0.csv",
+      "bytes": 89,
+      "sha256": "874e5ef8b4032267bb5c8c0f73e38658709112bdbc6db8d621c71676dac2624c"
+    },
+    {
+      "path": "数据/渠道留存_v1.0.0.csv",
+      "bytes": 145,
+      "sha256": "7d1785338b973a244a7ee33be52b183489409890bbf5a42facbb1e2322c1edff"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 2684,
+      "sha256": "d77d645bcb60322469781e3b27cd1ce0b9503fe2dee18441b8d010b4e383138c"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 244,
+      "sha256": "b7187a6bd10741eb0b4044fe5c44f2248919e7d0a0d5a8201dece2ea238e5505"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    }
+  ]
+}

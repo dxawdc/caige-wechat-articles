@@ -1,0 +1,16 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "accepted_files": 3,
+  "rejected_files": [
+    "订单_2026-08-04.xlsx"
+  ],
+  "input_rows": 8,
+  "invalid_rows": 1,
+  "duplicate_rows": 1,
+  "conflict_rows": 2,
+  "clean_rows": 4,
+  "clean_amount": 1200,
+  "checks": 7
+}

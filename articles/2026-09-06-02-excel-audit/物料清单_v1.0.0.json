@@ -1,0 +1,85 @@
+{
+  "version": "v1.0.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1538,
+      "sha256": "80bc224d957573dec9093d1c0c664f2ad2c3fa86f3db4b5efcdc60b4adf3637f"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 82,
+      "sha256": "231e9a7146356b3eb46d3d88f57e8955de3b2f91fee29466629ff41364a3cb7a"
+    },
+    {
+      "path": "图片/01_问题定位_v1.0.0.png",
+      "bytes": 92070,
+      "sha256": "68edf1a529406af215799aafe05a32a56197a03b4692b97d13eb33a78e8bb6b7"
+    },
+    {
+      "path": "图片/02_行数对账_v1.0.0.png",
+      "bytes": 69403,
+      "sha256": "d705731cf7c04825a8d035531b79d5933493e77d07b54e241c966bb78cb8d97f"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 32369,
+      "sha256": "b9ce5b15ae3d74d782bf5436ca0de7e3719034dcc98d48b4ef89b103adde10b9"
+    },
+    {
+      "path": "数据/冲突订单_v1.0.0.csv",
+      "bytes": 133,
+      "sha256": "636c4fb3298419c2ecb3994eb885f95725374981d7e557869591d3a7eb4740fe"
+    },
+    {
+      "path": "数据/可用订单_v1.0.0.csv",
+      "bytes": 223,
+      "sha256": "dfa5dac311f15a40a5f0825546654720e860e01dba172c4f733e35184cf8f396"
+    },
+    {
+      "path": "数据/合并原始_v1.0.0.csv",
+      "bytes": 398,
+      "sha256": "a191dfdb5222539d7623cb7dc0047fc11b862bab1fffdd791b63736221ce5d82"
+    },
+    {
+      "path": "数据/无效行_v1.0.0.csv",
+      "bytes": 83,
+      "sha256": "773bde4239a2f1d991b01078c84a8cf55964012f5e374254566dda55bf008ae5"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 3070,
+      "sha256": "d648b2e5141682453e2e36aee9fe629691ae38285b9a2ea00a26b443caee64a7"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 301,
+      "sha256": "bf4bd55f8b77627623181c890f12983c500414a454c202e7a9d7013c48407a6b"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "输入表/订单_2026-08-01.xlsx",
+      "bytes": 5354,
+      "sha256": "892d4251fe4523aeeae941037ac58b01076a5a209e205b93b8683880103e802d"
+    },
+    {
+      "path": "输入表/订单_2026-08-02.xlsx",
+      "bytes": 5373,
+      "sha256": "72e256e3654f26fb0dd7ace7accc5532e73d2b178b4a6529e51e4991118ad89d"
+    },
+    {
+      "path": "输入表/订单_2026-08-03.xlsx",
+      "bytes": 5336,
+      "sha256": "367ab1a2469f911ae3fe0d26c2c4d7fb6a5d0283b9ec19aa52247353ec147083"
+    },
+    {
+      "path": "输入表/订单_2026-08-04.xlsx",
+      "bytes": 5316,
+      "sha256": "1ea206abc0aa3902108f54a2f732c0ec144368443ca468921a669f120ded9ecb"
+    }
+  ]
+}

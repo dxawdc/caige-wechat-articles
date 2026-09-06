@@ -1,0 +1,13 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "A_7d_revenue": 700,
+  "A_7d_ltv": 7,
+  "A_14d_ltv": 10.2,
+  "A_payers": 20,
+  "A_7d_arppu": 35,
+  "B_7d_ltv": 9.1,
+  "B_14d_ltv": null,
+  "checks": 7
+}

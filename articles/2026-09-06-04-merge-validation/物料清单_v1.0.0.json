@@ -1,0 +1,65 @@
+{
+  "version": "v1.0.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1533,
+      "sha256": "d7e4f383f0037faaef97869c8aff4cfa2eeeed4bb322890a81605b43561d1b76"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 82,
+      "sha256": "231e9a7146356b3eb46d3d88f57e8955de3b2f91fee29466629ff41364a3cb7a"
+    },
+    {
+      "path": "图片/01_匹配关系_v1.0.0.png",
+      "bytes": 68048,
+      "sha256": "8fe1ba06c74a299fecc2338a5c8a87867c8748bf5c3a622eea17e52f0a0ee336"
+    },
+    {
+      "path": "图片/02_金额核对_v1.0.0.png",
+      "bytes": 80434,
+      "sha256": "7f9fd105a4b9ee90349be59fd4ee22a77d0ed872299302c25dd8c619dfff74aa"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 40289,
+      "sha256": "7ee5a470e78427e43151d28f7d608bd230802c60229117b8268119597e6d6ca2"
+    },
+    {
+      "path": "数据/正确合并_v1.0.0.csv",
+      "bytes": 112,
+      "sha256": "e8edbc522ec7bdd4ce37e44f910b8106d29ee9c4a16797cdf978d00a09d32bcb"
+    },
+    {
+      "path": "数据/订单_v1.0.0.csv",
+      "bytes": 61,
+      "sha256": "9762b018ee809ad43ec55f3aeb1b9900011bf3c6d97a51fd0204daee9a4dbffa"
+    },
+    {
+      "path": "数据/重复用户维表_v1.0.0.csv",
+      "bytes": 64,
+      "sha256": "539576b633c45440661fc256dc0856e6f5bfce244e2ca8882975a7684c9a5b15"
+    },
+    {
+      "path": "数据/错误合并_v1.0.0.csv",
+      "bytes": 144,
+      "sha256": "4d64eeec459ec098c90a95d6c6aca9b1d633310c77972e5cc0c36e99bee0a0f1"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 2079,
+      "sha256": "aeee242583cd467b110f00b5c0dd5b6662d06e4cf5d58dbca82794399f92033c"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 260,
+      "sha256": "34ae0c08e7675f1eb6a428f20adae8fd81c377827909b4e6f180dd14839a3e35"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "before_rows": 3,
+  "bad_rows": 6,
+  "after_rows": 3,
+  "before_amount": 600,
+  "bad_amount": 1200,
+  "after_amount": 600,
+  "validation_blocks_duplicate_keys": true,
+  "checks": 6
+}

@@ -1,0 +1,12 @@
+{
+  "version": "v1.0.0",
+  "simulated": true,
+  "passed": true,
+  "old_overall_pct": 47,
+  "new_overall_pct": 33,
+  "fixed_weight_new_pct": 57,
+  "within_effect_pp": 10,
+  "mix_effect_pp": -24,
+  "net_change_pp": -14,
+  "checks": 5
+}
