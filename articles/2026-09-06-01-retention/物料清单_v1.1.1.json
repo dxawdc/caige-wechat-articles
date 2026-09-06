@@ -1,0 +1,94 @@
+{
+  "version": "v1.1.1",
+  "articleId": "01-retention",
+  "title": "SQL算留存：别把还没到第7天的用户算成流失",
+  "entrypoint": "运行_01_SQL留存_v1.1.1.py",
+  "basic": "案例与绘图_v1.0.0.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2709,
+      "sha256": "bf0eeebecee9399d18e344c747be7f6968a214c9dbbf84ba5f4bc6501696b285"
+    },
+    {
+      "path": "requirements_v1.1.1.txt",
+      "bytes": 46,
+      "sha256": "d961f7d8afe4b39301370c172e745dacff64189704fc23aa24305e9b1bc5e536"
+    },
+    {
+      "path": "图片/01_留存矩阵_v1.0.0.png",
+      "bytes": 110982,
+      "sha256": "059be5eb97b1f3b81170c908c70a05362821e82f878fb8476e4b0704a15e252f"
+    },
+    {
+      "path": "图片/02_分母对比_v1.0.0.png",
+      "bytes": 81343,
+      "sha256": "201e9cb27ab3326d2c42263fc6e211fad0dd334049027ad15ab65408e5cf20db"
+    },
+    {
+      "path": "图片/03_进阶解释_v1.1.0.png",
+      "bytes": 114711,
+      "sha256": "27445bf7e173a803270d642000e34b25929156d2ce3aae7cca946b6dead2593f"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 35977,
+      "sha256": "f7588164a5d316999cd274a743c8ab9a1de4168b5c86a5ab0d12120abc9590d4"
+    },
+    {
+      "path": "数据/成熟批次审计_v1.1.0.csv",
+      "bytes": 132,
+      "sha256": "801c19fba9a8312d435f2a78721e70f67f3a88c9d7c5c80fc2102c17046d1851"
+    },
+    {
+      "path": "数据/注册用户_v1.0.0.csv",
+      "bytes": 13524,
+      "sha256": "9e3ac88918c7898989927e51a2bc10a22c249e538dc7e9ec1ce7b0587396bfdb"
+    },
+    {
+      "path": "数据/留存结果_v1.0.0.csv",
+      "bytes": 350,
+      "sha256": "e65ca0f4242cbb2735f7f40772d61fe4c429ae72d8cd83fcfe3045a78ff5390c"
+    },
+    {
+      "path": "数据/登录日志_v1.0.0.csv",
+      "bytes": 56615,
+      "sha256": "5e562cf233b377e9396acf6480eb18290b1a89639ffa3cf2da1233c97599918d"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 3532,
+      "sha256": "dcafe6af020ecb0666e52210236ec0ea46d26f79b84147bb9e1f861a96b7bc5d"
+    },
+    {
+      "path": "留存查询_v1.0.0.sql",
+      "bytes": 782,
+      "sha256": "1721c4cbf67b57ee57c684a952b770e0293ecd2237efee01a37f76c9b2ec7ccf"
+    },
+    {
+      "path": "结果/进阶验收_v1.1.0.json",
+      "bytes": 170,
+      "sha256": "19da732ab0d3a6e01cf409328f0ec41fa8e363d03e52a4c38fcb360792bb3fde"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 230,
+      "sha256": "ff07daf9754d33422159252e322653e344c0e62ad1b058558c1d14f1170cfd45"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "运行_01_SQL留存_v1.1.1.py",
+      "bytes": 1121,
+      "sha256": "bbc78db4f42a2d13ead2cd53207c2325b522a046f43eac0d97698e8365eb5a4a"
+    },
+    {
+      "path": "进阶案例_v1.1.0.py",
+      "bytes": 3176,
+      "sha256": "425f65907ad9e7254f32a2d2482bd7e91ee1974f055dd9e8ffbe2cc84c261675"
+    }
+  ]
+}

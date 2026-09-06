@@ -1,0 +1,84 @@
+{
+  "version": "v1.1.1",
+  "articleId": "07-channel-mix",
+  "title": "各渠道留存都涨了，整体为什么反而下降",
+  "entrypoint": "运行_07_渠道结构分解_v1.1.1.py",
+  "basic": "案例与绘图_v1.0.0.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2733,
+      "sha256": "35cb9e3d6ab1ef069b09838c8ce68ca572b35354114ed6e88469c4db0f43dd21"
+    },
+    {
+      "path": "requirements_v1.1.1.txt",
+      "bytes": 46,
+      "sha256": "d961f7d8afe4b39301370c172e745dacff64189704fc23aa24305e9b1bc5e536"
+    },
+    {
+      "path": "图片/01_分组与整体_v1.0.0.png",
+      "bytes": 101225,
+      "sha256": "c010dc8b4415e8a61f1f7173cca60177f47353b742744487418bb5dd2929dff9"
+    },
+    {
+      "path": "图片/02_渠道结构_v1.0.0.png",
+      "bytes": 84084,
+      "sha256": "31ae4172d408548c0b1d2973c112fb68da254b53d9ad48ffc5929bee00914baa"
+    },
+    {
+      "path": "图片/03_进阶解释_v1.1.0.png",
+      "bytes": 97146,
+      "sha256": "4625f4cfb5577975675d23a29db21f0b70690299ea927f094fe4a5d2b9fe4b3e"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 38389,
+      "sha256": "41e939e28c51923190addd3f40bd5b915b2c1f848ed013008ac86e51d8631a68"
+    },
+    {
+      "path": "数据/分解顺序对照_v1.1.0.csv",
+      "bytes": 208,
+      "sha256": "76575ef03a0f650a90a4c51232b0660bbf0f26105d22a68de5330692fbd13636"
+    },
+    {
+      "path": "数据/总体留存_v1.0.0.csv",
+      "bytes": 89,
+      "sha256": "874e5ef8b4032267bb5c8c0f73e38658709112bdbc6db8d621c71676dac2624c"
+    },
+    {
+      "path": "数据/渠道留存_v1.0.0.csv",
+      "bytes": 145,
+      "sha256": "7d1785338b973a244a7ee33be52b183489409890bbf5a42facbb1e2322c1edff"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 2684,
+      "sha256": "d77d645bcb60322469781e3b27cd1ce0b9503fe2dee18441b8d010b4e383138c"
+    },
+    {
+      "path": "结果/进阶验收_v1.1.0.json",
+      "bytes": 208,
+      "sha256": "77f4749463cf96f5302cdfa5faf647028687df14e9cb256d7bad394818b5fc5e"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 244,
+      "sha256": "b7187a6bd10741eb0b4044fe5c44f2248919e7d0a0d5a8201dece2ea238e5505"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "运行_07_渠道结构分解_v1.1.1.py",
+      "bytes": 1117,
+      "sha256": "06a15b3c114f963d483147ce5f6c5c172c0e9140d562c83708aea93ff6b10612"
+    },
+    {
+      "path": "进阶案例_v1.1.0.py",
+      "bytes": 2591,
+      "sha256": "c17e3bdfa792dadbc26e7544a8ddc51ff1953e81e25e85f18a084801ea59da7a"
+    }
+  ]
+}

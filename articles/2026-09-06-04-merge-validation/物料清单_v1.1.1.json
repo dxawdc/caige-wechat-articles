@@ -1,0 +1,99 @@
+{
+  "version": "v1.1.1",
+  "articleId": "04-merge-validation",
+  "title": "pandas合并后金额翻倍，问题出在哪里",
+  "entrypoint": "运行_04_Pandas关联审计_v1.1.1.py",
+  "basic": "案例与绘图_v1.0.0.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2840,
+      "sha256": "3c3b3aff261a0aaf6ff427d218260686c071b68c8271abbe2373877054ec02b7"
+    },
+    {
+      "path": "requirements_v1.1.1.txt",
+      "bytes": 46,
+      "sha256": "d961f7d8afe4b39301370c172e745dacff64189704fc23aa24305e9b1bc5e536"
+    },
+    {
+      "path": "图片/01_匹配关系_v1.0.0.png",
+      "bytes": 68048,
+      "sha256": "8fe1ba06c74a299fecc2338a5c8a87867c8748bf5c3a622eea17e52f0a0ee336"
+    },
+    {
+      "path": "图片/02_金额核对_v1.0.0.png",
+      "bytes": 80434,
+      "sha256": "7f9fd105a4b9ee90349be59fd4ee22a77d0ed872299302c25dd8c619dfff74aa"
+    },
+    {
+      "path": "图片/03_进阶解释_v1.1.0.png",
+      "bytes": 67250,
+      "sha256": "76b9c6c626b19cb95a32750b526eacb84dd2fa4b0a83ad70237d29b0606cd7a7"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 40289,
+      "sha256": "7ee5a470e78427e43151d28f7d608bd230802c60229117b8268119597e6d6ca2"
+    },
+    {
+      "path": "数据/历史渠道匹配_v1.1.0.csv",
+      "bytes": 122,
+      "sha256": "3efc01070a87ecf493a99fd80804f2b9bcd618eb0a5917188310985ed1678fba"
+    },
+    {
+      "path": "数据/扩行诊断_v1.1.0.csv",
+      "bytes": 75,
+      "sha256": "8ab6ed0d860c9d4b22b6534cac2569dacb2b2e2ac926ca752358cc8d44bf33a5"
+    },
+    {
+      "path": "数据/正确合并_v1.0.0.csv",
+      "bytes": 112,
+      "sha256": "e8edbc522ec7bdd4ce37e44f910b8106d29ee9c4a16797cdf978d00a09d32bcb"
+    },
+    {
+      "path": "数据/订单_v1.0.0.csv",
+      "bytes": 61,
+      "sha256": "9762b018ee809ad43ec55f3aeb1b9900011bf3c6d97a51fd0204daee9a4dbffa"
+    },
+    {
+      "path": "数据/重复用户维表_v1.0.0.csv",
+      "bytes": 64,
+      "sha256": "539576b633c45440661fc256dc0856e6f5bfce244e2ca8882975a7684c9a5b15"
+    },
+    {
+      "path": "数据/错误合并_v1.0.0.csv",
+      "bytes": 144,
+      "sha256": "4d64eeec459ec098c90a95d6c6aca9b1d633310c77972e5cc0c36e99bee0a0f1"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 2079,
+      "sha256": "aeee242583cd467b110f00b5c0dd5b6662d06e4cf5d58dbca82794399f92033c"
+    },
+    {
+      "path": "结果/进阶验收_v1.1.0.json",
+      "bytes": 196,
+      "sha256": "54bd69855c9592655744e86be0c59a6e4ef4b7d3f9d2bb229d3a445d78b86de3"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 260,
+      "sha256": "34ae0c08e7675f1eb6a428f20adae8fd81c377827909b4e6f180dd14839a3e35"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "运行_04_Pandas关联审计_v1.1.1.py",
+      "bytes": 1115,
+      "sha256": "94fa10017c498a904c13da6328d96e7e0b476ce016824b011f397cf589de0c5b"
+    },
+    {
+      "path": "进阶案例_v1.1.0.py",
+      "bytes": 3683,
+      "sha256": "bd51a61a057b436d38e09a09e765e0b6425b4185912fad8a8e78ffd0568b43c7"
+    }
+  ]
+}

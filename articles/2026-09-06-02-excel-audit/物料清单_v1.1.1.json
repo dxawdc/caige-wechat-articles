@@ -1,0 +1,119 @@
+{
+  "version": "v1.1.1",
+  "articleId": "02-excel-audit",
+  "title": "用Python合并Excel，顺手把数据问题查出来",
+  "entrypoint": "运行_02_Excel合表审计_v1.1.1.py",
+  "basic": "案例与绘图_v1.1.1.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3088,
+      "sha256": "f61e8474f7d8651aae7811033e5d53d08fb6ccab4e3f7d713ca4a21326e4dfbe"
+    },
+    {
+      "path": "requirements_v1.1.1.txt",
+      "bytes": 62,
+      "sha256": "cd26ecdc69ff26ccf62f51735b9f028ff53c07b2ff0b6215dcf1a8f58b96ded7"
+    },
+    {
+      "path": "图片/01_问题定位_v1.0.0.png",
+      "bytes": 92070,
+      "sha256": "68edf1a529406af215799aafe05a32a56197a03b4692b97d13eb33a78e8bb6b7"
+    },
+    {
+      "path": "图片/02_行数对账_v1.0.0.png",
+      "bytes": 69403,
+      "sha256": "d705731cf7c04825a8d035531b79d5933493e77d07b54e241c966bb78cb8d97f"
+    },
+    {
+      "path": "图片/03_进阶解释_v1.1.0.png",
+      "bytes": 91785,
+      "sha256": "9ef743ac9bf9b24662a130ba22d8ca3727d0f8cc74516ff9a9cd20b3605654ac"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 32369,
+      "sha256": "b9ce5b15ae3d74d782bf5436ca0de7e3719034dcc98d48b4ef89b103adde10b9"
+    },
+    {
+      "path": "数据/冲突订单_v1.1.1.csv",
+      "bytes": 164,
+      "sha256": "529953193cf5ecc1580be35d60cbf8f367a466dc2a6803049680c71abddbf169"
+    },
+    {
+      "path": "数据/可用订单_v1.1.1.csv",
+      "bytes": 264,
+      "sha256": "ed315c3d18ccccf8542057f0f5a63b2fe68ffe7da4344d07a3d267fbd51cd6c1"
+    },
+    {
+      "path": "数据/合并原始_v1.1.1.csv",
+      "bytes": 408,
+      "sha256": "76c9d0994372c71dfdf0bcd6fac0617e2daf515869c831d71b8a04afad272ecc"
+    },
+    {
+      "path": "数据/无效行_v1.1.1.csv",
+      "bytes": 112,
+      "sha256": "ca73df0668b838eae39faa9b99293e1502baba39fea42b83acb1319b7e9fefb1"
+    },
+    {
+      "path": "数据/重复报送_v1.1.1.csv",
+      "bytes": 114,
+      "sha256": "f1504ff3cc442ba4bcdbbb4ca2a26a229d3e29e047603706154eb200c0a506bc"
+    },
+    {
+      "path": "数据/金额格式审计_v1.1.0.csv",
+      "bytes": 155,
+      "sha256": "86e14e2d3399d8ed7bf3f463f5609356951e5edb0bf886dc4bfbb5aca174c8cd"
+    },
+    {
+      "path": "案例与绘图_v1.1.1.py",
+      "bytes": 3881,
+      "sha256": "ef6e9a66415851a06f4255b430850c53f8ebe4456e49ffd2d5ff90cc9d368e7b"
+    },
+    {
+      "path": "结果/进阶验收_v1.1.0.json",
+      "bytes": 192,
+      "sha256": "a23cf6790d01eaa28b178dfc86a1c4d384352b0e2bc383369f2eee11d7f1487d"
+    },
+    {
+      "path": "结果/验收结果_v1.1.1.json",
+      "bytes": 286,
+      "sha256": "dd06d6ed09fadc851bf4958fdc11f1ed29d792f24efc31800080913af13550d3"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "输入表/订单_2026-08-01.xlsx",
+      "bytes": 5354,
+      "sha256": "892d4251fe4523aeeae941037ac58b01076a5a209e205b93b8683880103e802d"
+    },
+    {
+      "path": "输入表/订单_2026-08-02.xlsx",
+      "bytes": 5373,
+      "sha256": "72e256e3654f26fb0dd7ace7accc5532e73d2b178b4a6529e51e4991118ad89d"
+    },
+    {
+      "path": "输入表/订单_2026-08-03.xlsx",
+      "bytes": 5336,
+      "sha256": "367ab1a2469f911ae3fe0d26c2c4d7fb6a5d0283b9ec19aa52247353ec147083"
+    },
+    {
+      "path": "输入表/订单_2026-08-04.xlsx",
+      "bytes": 5316,
+      "sha256": "1ea206abc0aa3902108f54a2f732c0ec144368443ca468921a669f120ded9ecb"
+    },
+    {
+      "path": "运行_02_Excel合表审计_v1.1.1.py",
+      "bytes": 1115,
+      "sha256": "6200cc86d6617d71bf8f2007978cc4b8228eff4fbca9b86c1a7f6506503760de"
+    },
+    {
+      "path": "进阶案例_v1.1.0.py",
+      "bytes": 3210,
+      "sha256": "a57c92d2fbdf2991034d69d0150447d2b297598aae93abbe6447925a6060a3d5"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": "v1.1.1",
+  "articleId": "03-login-streak",
+  "title": "SQL算连续登录：去重、断档和跨月怎么处理",
+  "entrypoint": "运行_03_SQL连续登录_v1.1.1.py",
+  "basic": "案例与绘图_v1.0.0.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2744,
+      "sha256": "e1d2ca3bbf8e680c93fd8c84fc3786283fd7e29ae86bba3868569aec7e090fbb"
+    },
+    {
+      "path": "requirements_v1.1.1.txt",
+      "bytes": 46,
+      "sha256": "d961f7d8afe4b39301370c172e745dacff64189704fc23aa24305e9b1bc5e536"
+    },
+    {
+      "path": "图片/01_登录日历_v1.0.0.png",
+      "bytes": 68234,
+      "sha256": "ca3d6280f507ff5fbda681ada3a274e5975b8a957333d35a8e5f030552d3e95b"
+    },
+    {
+      "path": "图片/02_连续结果_v1.0.0.png",
+      "bytes": 59208,
+      "sha256": "9b7bde99128e7718db7a5ee6887d43b536170755639329b260bccad9a52aea13"
+    },
+    {
+      "path": "图片/03_进阶解释_v1.1.0.png",
+      "bytes": 84249,
+      "sha256": "aca7004faa2b0b67dace858d19f3b222ffbd6beb4b116150b9da76d73a9a642e"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 43239,
+      "sha256": "ed7df8f8babf1f51c592de519e7881b3bed38c309ee33bbadce58b04abdd5e5f"
+    },
+    {
+      "path": "数据/LAG分段结果_v1.1.0.csv",
+      "bytes": 101,
+      "sha256": "8ef57d4e444ca8b8420d981331f5de2b8564f35e6081fea39c695b416910ee2f"
+    },
+    {
+      "path": "数据/登录日志_v1.0.0.csv",
+      "bytes": 232,
+      "sha256": "0b8429167c9b3a6bb1bc936406a043b276d17a327d9374a7430928823a475e2d"
+    },
+    {
+      "path": "数据/连续段推导_v1.1.0.csv",
+      "bytes": 155,
+      "sha256": "0dae3b2ff3cd6a259c6d13bdf0e75c978060216fb0cedf1daf142738851596e7"
+    },
+    {
+      "path": "数据/连续登录结果_v1.0.0.csv",
+      "bytes": 70,
+      "sha256": "410fc735db0b40a914f9d85dd3df59ebbf7d19346cad468b9676d9fd404870cc"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 2687,
+      "sha256": "2b6cb5c5036b5a66bd15e50a4cff60a52b7bafc78ee4438db19b9a73ba07491f"
+    },
+    {
+      "path": "结果/进阶验收_v1.1.0.json",
+      "bytes": 177,
+      "sha256": "5f8dc21b2fc98fcb5ff837a64a71c7068e3aff5a3bef25af44e7822119dc63cd"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 307,
+      "sha256": "ac7526661a7d5cd94d0db20ea136a20e355657ccdc59f7808951599e028bf2c1"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "运行_03_SQL连续登录_v1.1.1.py",
+      "bytes": 1125,
+      "sha256": "71b305d8f38264e6a5e49607661d706676ab7871b318d8dab1b7345829593b33"
+    },
+    {
+      "path": "进阶案例_v1.1.0.py",
+      "bytes": 3795,
+      "sha256": "a6fc4e4d10b75fbf23f10ff4a43f3502beb2a7566e5a39dce0df6b948d32b999"
+    },
+    {
+      "path": "连续登录_v1.0.0.sql",
+      "bytes": 583,
+      "sha256": "a758eacd96c59a85e5739ab8d683053fae034b28809fbc8f5aa18cb6131dc5fd"
+    }
+  ]
+}
