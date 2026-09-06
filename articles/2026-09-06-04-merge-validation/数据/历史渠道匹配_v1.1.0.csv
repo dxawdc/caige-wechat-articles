@@ -1,0 +1,3 @@
+﻿order_id,user_id,paid_at,amount,valid_from,channel
+P1,U1,2026-08-03,100,2026-08-01,A
+P2,U1,2026-08-06,200,2026-08-05,B

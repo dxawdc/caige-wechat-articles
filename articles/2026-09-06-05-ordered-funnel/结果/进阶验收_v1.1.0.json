@@ -1,0 +1,12 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 8,
+  "cohort": 100,
+  "converted": 40,
+  "late": 10,
+  "no_claim": 20,
+  "no_click": 30,
+  "outside_cohort_claimers": 20
+}

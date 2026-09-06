@@ -1,0 +1,10 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 8,
+  "numerator": 95,
+  "denominator": 300,
+  "coverage": 0.6,
+  "rate": 0.31666666666666665
+}

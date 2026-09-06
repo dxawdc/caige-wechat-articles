@@ -1,0 +1,75 @@
+{
+  "version": "v1.1.0",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1976,
+      "sha256": "6ddcb77ff2273401b9af1a625897f83f259229252352eb35e75d3ec9431ee69e"
+    },
+    {
+      "path": "README_v1.0.0.md",
+      "bytes": 1506,
+      "sha256": "33e988fcadfbb93c200c8c06f6549743949350861b9abf449cd9bfbc0856e85e"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 82,
+      "sha256": "231e9a7146356b3eb46d3d88f57e8955de3b2f91fee29466629ff41364a3cb7a"
+    },
+    {
+      "path": "图片/01_独立计数_v1.0.0.png",
+      "bytes": 86578,
+      "sha256": "7899e45548d8efd71d7a307dda2ead8835fa8d23641c2e8a36daef72ea35d5c6"
+    },
+    {
+      "path": "图片/02_有序漏斗_v1.0.0.png",
+      "bytes": 77655,
+      "sha256": "d0e91ebacf79830d5a1ab2af7dc4540f75e5e391f87de628833cf3a6c236bb51"
+    },
+    {
+      "path": "图片/03_进阶解释_v1.1.0.png",
+      "bytes": 112201,
+      "sha256": "75eddbc7554829c53de7fe26099612ab00d5f36ff32f5f6024c5b5da2d2dde57"
+    },
+    {
+      "path": "图片/封面_v1.0.0.png",
+      "bytes": 41130,
+      "sha256": "534e7f8bb2871c36060f5738aaff5236a443889de89eddf55ec365d69b980463"
+    },
+    {
+      "path": "数据/活动事件_v1.0.0.csv",
+      "bytes": 8669,
+      "sha256": "691f33dc0ac977510e4e2ebde7f29271dc080286154c61e29fc73e3163481054"
+    },
+    {
+      "path": "数据/用户路径审计_v1.1.0.csv",
+      "bytes": 2148,
+      "sha256": "cb755e2b26dc8966f0e369e317e02ce9557f1745aab443f955482107d5616d7e"
+    },
+    {
+      "path": "案例与绘图_v1.0.0.py",
+      "bytes": 2443,
+      "sha256": "8b9f5c8cc7d58c2b2cd330edb71e9c3721a8935f39756f36f8e18d4ea9898cc4"
+    },
+    {
+      "path": "结果/进阶验收_v1.1.0.json",
+      "bytes": 198,
+      "sha256": "e28cadf56d9dce6589970bd3e4c766ccf8ed918d04cb0afac42e998f6fddff98"
+    },
+    {
+      "path": "结果/验收结果_v1.0.0.json",
+      "bytes": 266,
+      "sha256": "04df500975d19b1594000797be299119db822dfb9e32b0c7cfe5569f07331447"
+    },
+    {
+      "path": "绘图工具_v1.0.0.py",
+      "bytes": 2702,
+      "sha256": "38bfe2f502b2caadb6d48369eb62034feaa24df7ba6209d011c905050f5cc08a"
+    },
+    {
+      "path": "进阶案例_v1.1.0.py",
+      "bytes": 3292,
+      "sha256": "0388a3020058a84da29fc04639b02b673ea8ca88d6738fd05dd44dbf92446828"
+    }
+  ]
+}

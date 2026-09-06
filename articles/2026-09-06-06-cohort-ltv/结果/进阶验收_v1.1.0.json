@@ -1,0 +1,11 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 6,
+  "gross_ltv": 7,
+  "net_ltv": 6.5,
+  "contribution_ltv": 3.9,
+  "after_acquisition_yuan": -110,
+  "pooled_ltv": 5.5
+}

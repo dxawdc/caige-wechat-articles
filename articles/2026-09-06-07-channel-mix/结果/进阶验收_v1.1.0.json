@@ -1,0 +1,11 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 5,
+  "old": 0.52,
+  "new": 0.385,
+  "interaction_pp": -2.5,
+  "symmetric_rate_pp": 7.749999999999998,
+  "symmetric_mix_pp": -21.25
+}

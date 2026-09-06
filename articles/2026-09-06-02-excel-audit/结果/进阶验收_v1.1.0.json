@@ -1,0 +1,10 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 5,
+  "valid_formats": 3,
+  "quarantined_formats": 4,
+  "sum_cent": 30,
+  "invalid_sibling_quarantines_order": true
+}

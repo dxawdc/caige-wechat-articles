@@ -1,0 +1,13 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 6,
+  "predicted_rows": 6,
+  "bad_amount": 1200,
+  "fixed_amount": 600,
+  "historical_channels": [
+    "A",
+    "B"
+  ]
+}

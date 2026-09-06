@@ -1,0 +1,12 @@
+{
+  "version": "v1.1.0",
+  "simulated": true,
+  "passed": true,
+  "checks": 4,
+  "segments": [
+    3,
+    2
+  ],
+  "both_methods_agree": true,
+  "empty_before_first_day": true
+}
