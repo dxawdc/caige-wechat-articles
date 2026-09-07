@@ -1,0 +1,65 @@
+[
+  {
+    "name": "deepseek-codex",
+    "url": "https://api-docs.deepseek.com/quick_start/agent_integrations/codex/",
+    "sha256": "897ced30f4c387dae77c077b880024d0c1f232c17c09b1038ceb567a0758c8eb",
+    "bytes": 174361,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "deepseek-responses",
+    "url": "https://api-docs.deepseek.com/guides/responses_api/",
+    "sha256": "d7c4fe48629b3eaaf4f47b9c1ae42fb246742d7ac76a2b090d7a63dc8f0ea31b",
+    "bytes": 57133,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "deepseek-pricing",
+    "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+    "sha256": "899affbdbc33d0be620d8dea59e86f5036c11b5410b14d060b8d2874c74f38e5",
+    "bytes": 23354,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "deepseek-start",
+    "url": "https://api-docs.deepseek.com/zh-cn/",
+    "sha256": "e28f318d5a203c9db9dfa5f4d8c001bca6a1a8a22e6d208920617bb4bb5936b0",
+    "bytes": 45996,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "deepseek-vision",
+    "url": "https://api-docs.deepseek.com/guides/vision/",
+    "sha256": "fd13bccdebc14e189cf5de63077d1e30580612ffcda392f421fc5d87ad2e37e6",
+    "bytes": 78116,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "deepseek-setup",
+    "url": "https://cdn.deepseek.com/api-docs/codex-deepseek-setup-en.ps1",
+    "sha256": "9c94a5ebb90d1650b74ceacf68072582ac6af50c6a64529615c08c6d9613eebe",
+    "bytes": 145865,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "codex-settings",
+    "url": "https://learn.chatgpt.com/docs/reference/settings",
+    "sha256": "d635af40084ef87280deb45f468bcce9863663d3b7f2e1b194c8346db268f2db",
+    "bytes": 460139,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "codex-advanced",
+    "url": "https://learn.chatgpt.com/docs/config-file/config-advanced",
+    "sha256": "cfe3dcd6e17ddcfd029c40c01acd8c17c71f13127eaf77a9b2b7d149fe31688f",
+    "bytes": 492140,
+    "checked": "2026-09-07"
+  },
+  {
+    "name": "codex-reference",
+    "url": "https://learn.chatgpt.com/docs/config-file/config-reference",
+    "sha256": "3caa2e251354d332677e67bff43e4a4ca40674ff5754337586132e73ced45abc",
+    "bytes": 1376382,
+    "checked": "2026-09-07"
+  }
+]

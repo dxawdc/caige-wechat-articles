@@ -1,0 +1,12 @@
+# v1.0.0 | 2026-09-07 | 结构示意，不能原样使用；请用官方脚本生成匹配的模型目录。
+model = "deepseek-v4-flash"
+model_provider = "deepseek"
+model_reasoning_effort = "high"
+forced_login_method = "api"
+model_catalog_json = "C:/Users/your-name/.codex/models.json"
+
+[model_providers.deepseek]
+name = "DeepSeek"
+base_url = "https://api.deepseek.com"
+wire_api = "responses"
+env_key = "DEEPSEEK_API_KEY"

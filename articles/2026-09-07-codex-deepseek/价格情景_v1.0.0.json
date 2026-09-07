@@ -1,0 +1,15 @@
+{
+  "version": "v1.0.0",
+  "checked": "2026-09-07",
+  "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+  "currency": "CNY",
+  "unit": "per million tokens",
+  "peakBeijing": "Monday-Friday 09:00-12:00 and 14:00-18:00",
+  "models": [
+    {"model": "deepseek-v4-flash", "peakInputMiss": 3, "peakInputHit": 0.1, "peakOutput": 9},
+    {"model": "deepseek-v4-pro", "peakInputMiss": 9, "peakInputHit": 0.3, "peakOutput": 27},
+    {"model": "deepseek-v4-flash-vision-exp", "peakInputMiss": 3, "peakInputHit": 0.1, "peakOutput": 9}
+  ],
+  "offPeakMultiplier": 0.5,
+  "scenario": {"inputUncachedTokens": 1000000, "outputTokens": 100000, "note": "假设用量，不是实际测得的任务消耗；图片 token、思考 token 等实际计费以账单为准。"}
+}

@@ -1,12 +1,11 @@
 # 可以叫我才哥公众号资料库
 
-<!-- 版本：v1.4.0 | 更新时间：2026-09-07 | 状态：按文章独立下载 -->
+<!-- 版本：v1.3.0 | 更新时间：2026-09-06 | 状态：按文章独立下载 -->
 
 每篇文章有独立目录、独立下载包和专属运行入口。选择下表中对应文章即可下载该篇材料；仓库的 Code → Download ZIP 会下载全部文章。
 
 | 文章 | 本篇材料 | 独立包 |
 |---|---|---|
-| [Codex桌面版接入DeepSeek V4](articles/2026-09-07-codex-deepseek/) | 官方直连方案、配置检查、Responses 探测、桌面验收练习及六张图解 | [仅下载本篇](downloads/codex-deepseek_v1.0.0.zip) |
 | [36 种图表对照](articles/2026-09-06-36-charts/) | Plotly/Matplotlib 的 36 个绘图案例 | 见文章目录 |
 | [SQL算留存：别把还没到第7天的用户算成流失](articles/2026-09-06-01-retention/) | 注册用户、登录明细 → 用户日去重 → 成熟批次留存及覆盖率 | [仅下载本篇](downloads/01-retention_v1.1.1.zip) |
 | [用Python合并Excel，顺手把数据问题查出来](articles/2026-09-06-02-excel-audit/) | 4 份 Excel → 文件校验 → 原值与来源保留 → 无效/重复/冲突/可用记录 | [仅下载本篇](downloads/02-excel-audit_v1.1.1.zip) |

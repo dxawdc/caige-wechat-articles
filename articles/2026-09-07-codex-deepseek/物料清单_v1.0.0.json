@@ -1,0 +1,132 @@
+{
+  "version": "v1.0.0",
+  "articleId": "codex-deepseek",
+  "entrypoint": "运行自检_v1.0.0.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3576,
+      "sha256": "4ee5ffbb4102b3459f0dcd7733881af23df9f91e4eb9c8c672ffaf02516e64dc"
+    },
+    {
+      "path": "价格情景_v1.0.0.json",
+      "bytes": 774,
+      "sha256": "3b031e59ca61b73c5c9c5471b9dd0e499fb0522cdd16020afd165292c0a6104e"
+    },
+    {
+      "path": "参考答案/orders.py",
+      "bytes": 274,
+      "sha256": "d5a2c5114d08f2a2d8178e561e6ab543fad2feb86b5de42cfc861e83bbf5b93e"
+    },
+    {
+      "path": "图片/00_封面_v1.0.0.html",
+      "bytes": 1643,
+      "sha256": "7241f73d08a60c3eb4411db4ca0ba9a1117743a5ed4701be575f0c1cddd2f69c"
+    },
+    {
+      "path": "图片/00_封面_v1.0.0.png",
+      "bytes": 210490,
+      "sha256": "0d5fbd37973035005b75ec95c5a2a6f7aa2d6e80b1483efed5809a3346c22f26"
+    },
+    {
+      "path": "图片/01_调用链路_v1.0.0.html",
+      "bytes": 2021,
+      "sha256": "e82e55dfd2d026e88219f1dcc709b3883776f94ea1402bffbdeb658f641b8a6f"
+    },
+    {
+      "path": "图片/01_调用链路_v1.0.0.png",
+      "bytes": 115188,
+      "sha256": "8a357aa17f0725e7f35430098d3a622922b2b2290b244ee603d82da266e2bd35"
+    },
+    {
+      "path": "图片/02_三个模型_v1.0.0.html",
+      "bytes": 2078,
+      "sha256": "133607680e219d83c16876d5a4fae3366117571ea436d057d8ed6c5c6a10ee42"
+    },
+    {
+      "path": "图片/02_三个模型_v1.0.0.png",
+      "bytes": 122442,
+      "sha256": "783e8cbc2b8f9d1b050cb4ee159df3abddca8eb1abda600a15f7abdae4eebea2"
+    },
+    {
+      "path": "图片/03_配置分工_v1.0.0.html",
+      "bytes": 1972,
+      "sha256": "e30697b04c6411c2734fefe89c7ce6cc4272eb603f44a29ca43d944416d95438"
+    },
+    {
+      "path": "图片/03_配置分工_v1.0.0.png",
+      "bytes": 119476,
+      "sha256": "ee220d09348d6c23ee97bf2d552fca863c2df9a58b799cd1f887a281185e1cbd"
+    },
+    {
+      "path": "图片/04_验证范围_v1.0.0.html",
+      "bytes": 2233,
+      "sha256": "d75dcba80482dd469d77f869b559f3973851d5744768f01d8b00fc9429ee430a"
+    },
+    {
+      "path": "图片/04_验证范围_v1.0.0.png",
+      "bytes": 111822,
+      "sha256": "aed7b6bbabf62a965492d25387e1e2e5554f124819a85ff9be15b29b7d49b4a4"
+    },
+    {
+      "path": "图片/05_费用情景_v1.0.0.html",
+      "bytes": 2750,
+      "sha256": "e04a954165f1a6ac0e4b40bc35357372c937b451184741c4217170bea98de7a7"
+    },
+    {
+      "path": "图片/05_费用情景_v1.0.0.png",
+      "bytes": 90106,
+      "sha256": "6e93c0b997a4d78b1247b6608a7a3b6b39688dfff65ba56adf7dc2d67d7a967a"
+    },
+    {
+      "path": "官方来源_v1.0.0.json",
+      "bytes": 2153,
+      "sha256": "a72d4ac1a66d1dd73c9a7c00eadce445d2af9b94097126e78e994396c3750829"
+    },
+    {
+      "path": "桌面练习/orders.py",
+      "bytes": 154,
+      "sha256": "df5bb576b9ac0c54e4fd6ceb5cf7a9e10cae95c27ec4163b6528b20375d346a1"
+    },
+    {
+      "path": "桌面练习/test_orders.py",
+      "bytes": 719,
+      "sha256": "9ba49be285ab700b0869cac8c05875f09383a34d5e418c5627e343a013640fdd"
+    },
+    {
+      "path": "桌面练习/任务说明_v1.0.0.md",
+      "bytes": 797,
+      "sha256": "71013b86115b8ba3209f20c10319766cd0dd49665c3a92ed8d33dd00140abc40"
+    },
+    {
+      "path": "检查配置_v1.0.0.py",
+      "bytes": 4676,
+      "sha256": "229cb1df4ccd0772e3b3c1c93cd316015f31407289efedf13ddea6ef230e441b"
+    },
+    {
+      "path": "运行自检_v1.0.0.py",
+      "bytes": 2074,
+      "sha256": "5aa3b4658aa580799bfb5a64f7f7b12deda8fd7776bd6d0d79b6f40b02baa678"
+    },
+    {
+      "path": "配置结构示例_v1.0.0.toml",
+      "bytes": 422,
+      "sha256": "eeb3d946b36a2d22b790be1a4d289dbeff06c42f89cf834702202b5460aa2614"
+    },
+    {
+      "path": "验证Responses_v1.0.0.py",
+      "bytes": 3438,
+      "sha256": "0127ec9f01ff150e8f0de7ab16d0026392568a64d2cad17e45a7d968f370c0d9"
+    },
+    {
+      "path": "验证记录/配套自检结果_v1.0.0.json",
+      "bytes": 869,
+      "sha256": "85928dd1dac3559cd5a203fe0cf5efa76323cab3055fcdc32e9c06257f6a86e6"
+    },
+    {
+      "path": "验证记录/隔离验证结果_v1.0.0.json",
+      "bytes": 690,
+      "sha256": "413f20787c15a5d8c0ad51d768307afe679bbfc0b1cdaef99c83685feed5b087"
+    }
+  ]
+}

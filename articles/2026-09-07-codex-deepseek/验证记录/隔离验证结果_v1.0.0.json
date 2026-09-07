@@ -1,0 +1,22 @@
+{
+  "version": "v1.0.0",
+  "date": "2026-09-07",
+  "desktopPackage": "26.901.5280.0",
+  "engine": "0.153.4",
+  "officialInstallerVersion": "1.2.0",
+  "officialInstallerSha256": "9c94a5ebb90d1650b74ceacf68072582ac6af50c6a64529615c08c6d9613eebe",
+  "installation": true,
+  "modelSwitch": true,
+  "restoreConfig": true,
+  "existingMcpPreserved": true,
+  "catalogAcceptedByClient": true,
+  "loadedModels": [
+    "deepseek-v4-flash",
+    "deepseek-v4-pro",
+    "deepseek-v4-flash-vision-exp"
+  ],
+  "liveDeepSeekRequest": false,
+  "credentialUsed": "placeholder only",
+  "userConfigChanged": false,
+  "scope": "isolated config and catalog checks; no desktop conversation or live model request"
+}
