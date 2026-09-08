@@ -1,0 +1,51 @@
+{
+  "version": "v2.0.0",
+  "month": "2026-09 UTC",
+  "offline_passed": true,
+  "selected": 6,
+  "boundary_checks": 5,
+  "live": [
+    {
+      "repo": "lnkiai/m3e-canvas",
+      "created_at": "2026-09-02T04:36:34Z",
+      "stars": 4673,
+      "eligible": true,
+      "source": "https://api.github.com/repos/lnkiai/m3e-canvas"
+    },
+    {
+      "repo": "ahujasid/camera-to-blender",
+      "created_at": "2026-09-03T10:34:30Z",
+      "stars": 662,
+      "eligible": true,
+      "source": "https://api.github.com/repos/ahujasid/camera-to-blender"
+    },
+    {
+      "repo": "Albert-Weasker/niubigeo",
+      "created_at": "2026-09-03T15:55:54Z",
+      "stars": 673,
+      "eligible": true,
+      "source": "https://api.github.com/repos/Albert-Weasker/niubigeo"
+    },
+    {
+      "repo": "vinzdg/codenotch",
+      "created_at": "2026-09-05T14:55:35Z",
+      "stars": 934,
+      "eligible": true,
+      "source": "https://api.github.com/repos/vinzdg/codenotch"
+    },
+    {
+      "repo": "what1f/kitter",
+      "created_at": "2026-09-02T15:44:45Z",
+      "stars": 268,
+      "eligible": true,
+      "source": "https://api.github.com/repos/what1f/kitter"
+    },
+    {
+      "repo": "anthropics/commerce-agents",
+      "created_at": "2026-09-01T12:30:12Z",
+      "stars": 2399,
+      "eligible": true,
+      "source": "https://api.github.com/repos/anthropics/commerce-agents"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "version": "v2.0.0",
+  "month": "2026-09 UTC",
+  "offline_passed": true,
+  "selected": 6,
+  "boundary_checks": 5,
+  "live": [
+    {
+      "repo": "lnkiai/m3e-canvas",
+      "error": "HTTPError"
+    },
+    {
+      "repo": "ahujasid/camera-to-blender",
+      "error": "HTTPError"
+    },
+    {
+      "repo": "Albert-Weasker/niubigeo",
+      "error": "HTTPError"
+    },
+    {
+      "repo": "vinzdg/codenotch",
+      "error": "HTTPError"
+    },
+    {
+      "repo": "what1f/kitter",
+      "error": "HTTPError"
+    },
+    {
+      "repo": "anthropics/commerce-agents",
+      "error": "HTTPError"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+﻿项目,仓库,创建UTC,Star快照,许可,场景,本篇验证范围
+M3E Canvas,https://github.com/lnkiai/m3e-canvas,2026-09-02T04:36:34Z,4671,MIT,界面与提示词,已实测默认画布提示词生成
+Camera to Blender,https://github.com/ahujasid/camera-to-blender,2026-09-03T10:34:30Z,661,MIT,照片转3D,官方资料核验，未生成模型
+NiubiGEO,https://github.com/Albert-Weasker/niubigeo,2026-09-03T15:55:54Z,673,Apache-2.0,品牌观察,官方资料核验，未调用模型
+Codenotch,https://github.com/vinzdg/codenotch,2026-09-05T14:55:35Z,934,MIT,用量查看,未运行应用，未访问凭据
+Kitter,https://github.com/what1f/kitter,2026-09-02T15:44:45Z,268,Apache-2.0,技能管理,官方资料核验，未修改技能安装
+Commerce Agents,https://github.com/anthropics/commerce-agents,2026-09-01T12:30:12Z,2399,Apache-2.0,行业Agent参考,官方资料核验，未运行付费对话

@@ -1,0 +1,157 @@
+{
+  "version": "v2.0.0",
+  "articleId": "new-ai-repos",
+  "entrypoint": "核验本月范围_v2.0.0.py",
+  "files": [
+    {
+      "path": "M3E许可证_v2.0.0.md",
+      "bytes": 1063,
+      "sha256": "440db5119b4f3fd2ccd88105f6af09b7b22d078a5a44a744410f9cf9e331af51"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3054,
+      "sha256": "658f7d4858a3fc9bdca757b624908a2d259a93e3a5321844eb935cdaa66e46bb"
+    },
+    {
+      "path": "任务单/01_M3E_Canvas_v2.0.0.md",
+      "bytes": 705,
+      "sha256": "f1281bf84c08a32cee2c2c55aa8e01cb5532ce01dd1a0276a110c6226f761c49"
+    },
+    {
+      "path": "任务单/02_Camera_to_Blender_v2.0.0.md",
+      "bytes": 702,
+      "sha256": "97b2666c8f113a8aee5e09dd63ea602a18f6e7a77de9f65178ccc4ded5946734"
+    },
+    {
+      "path": "任务单/03_NiubiGEO_v2.0.0.md",
+      "bytes": 702,
+      "sha256": "27d3cd4ecf6e4e6b040a41cdcb18d97aed6fd975719900d9a617e6d4443f78bd"
+    },
+    {
+      "path": "任务单/04_Codenotch_v2.0.0.md",
+      "bytes": 654,
+      "sha256": "616b3ebcc9bfbd7973e4b4c4511bac4c572d2d0c2246a8e7fc8680d260986a1d"
+    },
+    {
+      "path": "任务单/05_Kitter_v2.0.0.md",
+      "bytes": 679,
+      "sha256": "79a5334c6ca98b7a679f7e312349b2c09bfb794212a00a44de6d9b2466c2f511"
+    },
+    {
+      "path": "任务单/06_Commerce_Agents_v2.0.0.md",
+      "bytes": 706,
+      "sha256": "cc6c25cf427accee3f3fd022e3956995a00422aded3cadb5cd61e9bec9233252"
+    },
+    {
+      "path": "六个项目快照_v2.0.0.json",
+      "bytes": 6988,
+      "sha256": "23a3b20e958fe383d79d0a01c17c6da9f1b5be25f7573b4a9725458e4aae3dbc"
+    },
+    {
+      "path": "图片/00_封面_v2.0.0.html",
+      "bytes": 1458,
+      "sha256": "510af62ec33e5eb1d04e009c658e7da29c6ca41c45a3b539378533425ef7c7fd"
+    },
+    {
+      "path": "图片/00_封面_v2.0.0.png",
+      "bytes": 212795,
+      "sha256": "4a0f6d1c439cf9fbfb07315c3725d3b81de1947b3324cca50e1fe521844f508f"
+    },
+    {
+      "path": "图片/01_本月数据_v2.0.0.html",
+      "bytes": 3531,
+      "sha256": "ef23c79fcf525736c87de44d466d3354d3031fd4aea8895f3e9199c53aff2fd3"
+    },
+    {
+      "path": "图片/01_本月数据_v2.0.0.png",
+      "bytes": 107052,
+      "sha256": "82d2e806f4d0ebee8c47ea4c12b122beed6618ca84c5d2c19419a9d6af20ab3c"
+    },
+    {
+      "path": "图片/02_M3E真实界面_v2.0.0.png",
+      "bytes": 325689,
+      "sha256": "886b1769c99daec29636e8d44e46721bd895e2eebe0b10cf97fb59e06fbd6d7c"
+    },
+    {
+      "path": "图片/03_照片转模型_v2.0.0.html",
+      "bytes": 1675,
+      "sha256": "25379e16c448e904f7d47e2f45ed85f51b71a162641c9ea9bd618b135d6c2494"
+    },
+    {
+      "path": "图片/03_照片转模型_v2.0.0.png",
+      "bytes": 93028,
+      "sha256": "51956edca45d6242ade3b097a95b0106231e44f8fa528378eca2d65c3b8dd141"
+    },
+    {
+      "path": "图片/04_品牌观察_v2.0.0.html",
+      "bytes": 1718,
+      "sha256": "7ee371b61a399784874ac5cd076025a6284c482d281d9ae48ed2d109ec8c4478"
+    },
+    {
+      "path": "图片/04_品牌观察_v2.0.0.png",
+      "bytes": 99037,
+      "sha256": "473006318c56d6e1ece2aba2a74804d45f749bab901e2e5e60a04e9909327bd5"
+    },
+    {
+      "path": "图片/05_用量查看_v2.0.0.html",
+      "bytes": 1690,
+      "sha256": "cdf8b944986c4e14d46ac2531565dcf2d88afb5d8991b600517765c5ec7828ea"
+    },
+    {
+      "path": "图片/05_用量查看_v2.0.0.png",
+      "bytes": 96500,
+      "sha256": "fbb5fcdc18ea8e2aa909dd2de8e290a4b871b0ad5054ec9b510df16d55ac1c9e"
+    },
+    {
+      "path": "图片/06_技能管理_v2.0.0.html",
+      "bytes": 1667,
+      "sha256": "3e0980c7755b872db0b1311774820daf9d975f6ae004c3d74b41b9bdc18bf0f6"
+    },
+    {
+      "path": "图片/06_技能管理_v2.0.0.png",
+      "bytes": 97302,
+      "sha256": "856f64c4f857b39b835cbb9f4edd96f9b41861c386476f9c9e37c8f1b12de467"
+    },
+    {
+      "path": "图片/07_电商参考_v2.0.0.html",
+      "bytes": 1682,
+      "sha256": "0dae984ff18889b5f5de54619c1d516cd847168f12e94eca9fb8ec4a4a5126d1"
+    },
+    {
+      "path": "图片/07_电商参考_v2.0.0.png",
+      "bytes": 96024,
+      "sha256": "8dc5d3f5f87f3f8e5ed0d008a93b4c6164fabb0d228b9737f1b9a280bfbb47e3"
+    },
+    {
+      "path": "本月项目选型表_v2.0.0.csv",
+      "bytes": 899,
+      "sha256": "e7a377d2c94fd3948ea6e0f7e979430c77dc5f008c9be26d6434413add517160"
+    },
+    {
+      "path": "来源索引_v2.0.0.json",
+      "bytes": 2286,
+      "sha256": "c0b816dfe3ba58ad9885f3be31652e53129cea101855e5ebd1f9654d84979a92"
+    },
+    {
+      "path": "核验本月范围_v2.0.0.py",
+      "bytes": 2752,
+      "sha256": "d4a26d6ea967c21f760be01114089692f4699da3053ec48cc3aba0fa5f576d4d"
+    },
+    {
+      "path": "验证记录/M3E现场校验_v2.0.0.json",
+      "bytes": 133,
+      "sha256": "63e13fc644d0924d7f263138dfd3efcd2e62ae978dcb4b246c4c141fee5b5711"
+    },
+    {
+      "path": "验证记录/范围校验_20260908T005936140424Z_v2.0.0.json",
+      "bytes": 603,
+      "sha256": "672a313f99ba818361753061ef9e1f317154f27863cdb8bb29108dde15ae9126"
+    },
+    {
+      "path": "验证记录/范围校验_20260908T010011660455Z_v2.0.0.json",
+      "bytes": 1380,
+      "sha256": "92c79be0ac76beffa9ad5dd57a905951b64f007eac7dcf01de135de7f35fd188"
+    }
+  ]
+}

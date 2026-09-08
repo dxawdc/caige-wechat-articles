@@ -1,0 +1,50 @@
+[
+  {
+    "repo": "lnkiai/m3e-canvas",
+    "metadata": "https://api.github.com/repos/lnkiai/m3e-canvas",
+    "readme": "https://github.com/lnkiai/m3e-canvas/blob/main/README.md",
+    "license": "https://github.com/lnkiai/m3e-canvas/blob/main/LICENSE",
+    "head_sha": "142f8b2c2ef1c63cf0f9b2fc3cf79e23896b6ec8",
+    "checked_at": "2026-09-08T00:54:24.513236+00:00"
+  },
+  {
+    "repo": "ahujasid/camera-to-blender",
+    "metadata": "https://api.github.com/repos/ahujasid/camera-to-blender",
+    "readme": "https://github.com/ahujasid/camera-to-blender/blob/main/README.md",
+    "license": "https://github.com/ahujasid/camera-to-blender/blob/main/LICENSE",
+    "head_sha": "dee5daedaa6f9bd8f4453ada860fac7fe71d1585",
+    "checked_at": "2026-09-08T00:54:30.182327+00:00"
+  },
+  {
+    "repo": "Albert-Weasker/niubigeo",
+    "metadata": "https://api.github.com/repos/Albert-Weasker/niubigeo",
+    "readme": "https://github.com/Albert-Weasker/niubigeo/blob/main/README.md",
+    "license": "https://github.com/Albert-Weasker/niubigeo/blob/main/LICENSE",
+    "head_sha": "18c41528a1a7cee8562a6ddc10e59021487962e6",
+    "checked_at": "2026-09-08T00:54:28.446617+00:00"
+  },
+  {
+    "repo": "vinzdg/codenotch",
+    "metadata": "https://api.github.com/repos/vinzdg/codenotch",
+    "readme": "https://github.com/vinzdg/codenotch/blob/main/README.md",
+    "license": "https://github.com/vinzdg/codenotch/blob/main/LICENSE",
+    "head_sha": "743601acd69e701131602b88082fcaeee0c2e88b",
+    "checked_at": "2026-09-08T00:54:28.983490+00:00"
+  },
+  {
+    "repo": "what1f/kitter",
+    "metadata": "https://api.github.com/repos/what1f/kitter",
+    "readme": "https://github.com/what1f/kitter/blob/main/README.md",
+    "license": "https://github.com/what1f/kitter/blob/main/LICENSE",
+    "head_sha": "bf396973442e8a7302badbd20ba843f29ee8bba4",
+    "checked_at": "2026-09-08T00:54:33.168692+00:00"
+  },
+  {
+    "repo": "anthropics/commerce-agents",
+    "metadata": "https://api.github.com/repos/anthropics/commerce-agents",
+    "readme": "https://github.com/anthropics/commerce-agents/blob/main/README.md",
+    "license": "https://github.com/anthropics/commerce-agents/blob/main/LICENSE",
+    "head_sha": "fd4d59224ab96b43c6dc6888207c67b3bd5a24cf",
+    "checked_at": "2026-09-08T00:54:24.837125+00:00"
+  }
+]
