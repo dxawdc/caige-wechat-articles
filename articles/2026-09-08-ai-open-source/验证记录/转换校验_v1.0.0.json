@@ -1,0 +1,17 @@
+{
+  "version": "v1.0.0",
+  "status": "passed",
+  "markitdown": "0.1.7",
+  "worksheets": 2,
+  "channels": 2,
+  "visitors": 1800,
+  "payers": 152,
+  "overall_paid_rate": 0.08444444444444445,
+  "conversion_checks": [
+    "两个工作表",
+    "渠道与表头",
+    "A:1000/80",
+    "B:800/72"
+  ],
+  "network_or_model_call": false
+}

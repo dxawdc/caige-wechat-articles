@@ -1,0 +1,2 @@
+markitdown[xlsx]==0.1.7
+openpyxl==3.1.5

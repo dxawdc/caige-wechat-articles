@@ -1,0 +1,197 @@
+{
+  "version": "v1.0.0",
+  "articleId": "ai-open-source",
+  "entrypoint": "运行转换案例_v1.0.0.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3053,
+      "sha256": "af9747033b99468ec76249543feec96fcec42fb39459026228d40ee1cd543505"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 40,
+      "sha256": "de62b7afb7df5df12957fef95c4bbdd7bb50b8d22974466822976f7153a177f8"
+    },
+    {
+      "path": "任务卡/01_MarkItDown_v1.0.0.md",
+      "bytes": 627,
+      "sha256": "b3786dee8a4041d7f85d7d36249e747ea802e8139156d7cb55bb6e68f543849a"
+    },
+    {
+      "path": "任务卡/02_Crawl4AI_v1.0.0.md",
+      "bytes": 659,
+      "sha256": "3892b0b5e5401bade482b1bbbec7cb29d12ae47406e86f694d0e80231cad1609"
+    },
+    {
+      "path": "任务卡/03_Scientific_Agent_Skills_v1.0.0.md",
+      "bytes": 703,
+      "sha256": "099332e92de6ae0bcb4841e5c388ac0830a8d8090e2f7a1548a31681bd847b21"
+    },
+    {
+      "path": "任务卡/04_Superpowers_v1.0.0.md",
+      "bytes": 657,
+      "sha256": "7a9eb2528e164b3c82f10f7dd5284582895dbbec70c6c0adf92d09d53178157a"
+    },
+    {
+      "path": "任务卡/05_DeepSeek_Harness_v1.0.0.md",
+      "bytes": 646,
+      "sha256": "cdac41a660ee3be9dc455dee0fb9ad1e1c1e84818e98a5ebe9a4267e796fe7d0"
+    },
+    {
+      "path": "任务卡/06_Hermes_Agent_v1.0.0.md",
+      "bytes": 673,
+      "sha256": "8ca26144d0cf787aad1b11359d0591e433567c6296d28576f05af4a5bb6e8b29"
+    },
+    {
+      "path": "任务卡/07_OpenMontage_v1.0.0.md",
+      "bytes": 650,
+      "sha256": "d1c55adf38c35f2c9cf44fa3c1f8806c9fbdd23e4fa8ab99d94cc33f3ed3f2dd"
+    },
+    {
+      "path": "任务卡/08_OpenMAIC_v1.0.0.md",
+      "bytes": 655,
+      "sha256": "e842f3011cc8c102a33b98f61f47b3ae61331c984b81e19c96dced2c29982e1d"
+    },
+    {
+      "path": "刷新GitHub数据_v1.0.0.py",
+      "bytes": 1523,
+      "sha256": "218b952d056e7b39ab2d6c995e0fd07ead1ed0d0647cc77e5320575702442925"
+    },
+    {
+      "path": "图片/00_封面_v1.0.0.html",
+      "bytes": 1796,
+      "sha256": "de3f5a17677358909d6c3e4554b08e291469c8d1dd58adb6c6aa54e9aef5d96e"
+    },
+    {
+      "path": "图片/00_封面_v1.0.0.png",
+      "bytes": 188320,
+      "sha256": "de7c7aac036bc799b7588142d788e1fc4ef3fbd146eecc629005cd6238b6a2f2"
+    },
+    {
+      "path": "图片/01_关注度_v1.0.0.html",
+      "bytes": 3936,
+      "sha256": "3378e228bc4e16a2dc68773e19cd9824b1e730cd22f255259013d56fc86e3c0b"
+    },
+    {
+      "path": "图片/01_关注度_v1.0.0.png",
+      "bytes": 106507,
+      "sha256": "3b418d7837d06fcd9bbbedabd86e972fc62a28b5c1805ebb4038f2a531ece84c"
+    },
+    {
+      "path": "图片/02_文件转换_v1.0.0.html",
+      "bytes": 2175,
+      "sha256": "eaac54bd811351ed697aa4c6e835859b921eecc502276acaedb843c4545c0eb5"
+    },
+    {
+      "path": "图片/02_文件转换_v1.0.0.png",
+      "bytes": 120360,
+      "sha256": "2de0eb4440c3cd197617b7fad9d74eacd7946d821b1ba2651313d4275e6ac74c"
+    },
+    {
+      "path": "图片/03_网页采集_v1.0.0.html",
+      "bytes": 2100,
+      "sha256": "452b6a5228ec226aa37c0e37a70b8a03df5882bb89bacd2ab1465616b87ff9ad"
+    },
+    {
+      "path": "图片/03_网页采集_v1.0.0.png",
+      "bytes": 108516,
+      "sha256": "bee7bfaced4242b74a8defadd651a36db41e50aa4699911ece9613d3e10e48e7"
+    },
+    {
+      "path": "图片/04_分析技能_v1.0.0.html",
+      "bytes": 2093,
+      "sha256": "31afd76523506c2ca852429ec534b4c23423c90b68d19d1533ffecb9b6a07821"
+    },
+    {
+      "path": "图片/04_分析技能_v1.0.0.png",
+      "bytes": 97922,
+      "sha256": "1d1b19b7b23f5c60dbe71f660e25bf39d6fa56ec86f8ee30b48d1bd537c53f40"
+    },
+    {
+      "path": "图片/05_开发流程_v1.0.0.html",
+      "bytes": 2064,
+      "sha256": "537023c366fc47e69967658eecdf61a8a78f647855b023d9a0c1f824f6e63301"
+    },
+    {
+      "path": "图片/05_开发流程_v1.0.0.png",
+      "bytes": 99860,
+      "sha256": "11a86811970c8647d70c11ec3775bc8b08e3c42d48ce084f546e08d38e9d1234"
+    },
+    {
+      "path": "图片/06_Harness_v1.0.0.html",
+      "bytes": 2184,
+      "sha256": "3e8be6bd6062484b6c40d8ae4e498ede3273a2c74b7e818b4854f21f84934772"
+    },
+    {
+      "path": "图片/06_Harness_v1.0.0.png",
+      "bytes": 114586,
+      "sha256": "0aaf156c4bf035a1893f14c4ef917475498a49b46cfe8f8a9aa8bd20b1946bfe"
+    },
+    {
+      "path": "图片/07_长期助理_v1.0.0.html",
+      "bytes": 2107,
+      "sha256": "10bf8356b17279f46fded6645f63662f7800f4adf1423faf5baa50186579a929"
+    },
+    {
+      "path": "图片/07_长期助理_v1.0.0.png",
+      "bytes": 106920,
+      "sha256": "3f612dc67c0aefaaeb02bced030a0a10b70efd10fe82bb3e4df10c7e88ccc02a"
+    },
+    {
+      "path": "图片/08_视频制作_v1.0.0.html",
+      "bytes": 2086,
+      "sha256": "d6dc6d03ffb9526521366bcf0f84584e788e5deee37e494bfbd16e2d2b9587b7"
+    },
+    {
+      "path": "图片/08_视频制作_v1.0.0.png",
+      "bytes": 99987,
+      "sha256": "022b77cd6eef4ef69698b8eafa1e8187f6d4666a61dd480c41767080b657fd54"
+    },
+    {
+      "path": "图片/09_互动学习_v1.0.0.html",
+      "bytes": 2081,
+      "sha256": "08058dff53239db7c0e41ff69d1564c38cf932cd2dd300ffc9c53a4cfaca483a"
+    },
+    {
+      "path": "图片/09_互动学习_v1.0.0.png",
+      "bytes": 114314,
+      "sha256": "46db5a66c0be6763b7a923d0f20a1bac046e620ae160aeefd5a537ed9e394fe4"
+    },
+    {
+      "path": "来源索引_v1.0.0.json",
+      "bytes": 4128,
+      "sha256": "9f8edde0e6e5016fa462ba97d299bd7b23de5eec629b609822bc42f827465be7"
+    },
+    {
+      "path": "活动样本_v1.0.0.xlsx",
+      "bytes": 5696,
+      "sha256": "d69643d55d3adad1520c884d0a1ff18225c1ebd7cc112cd3cd06c3d5c24cb33b"
+    },
+    {
+      "path": "运行转换案例_v1.0.0.py",
+      "bytes": 1370,
+      "sha256": "1854152c01eeeda579d4f021e86a6b891cd90e193f49b237a606a675becd3534"
+    },
+    {
+      "path": "项目数据_v1.0.0.json",
+      "bytes": 9059,
+      "sha256": "5b31d4797f18b3cf4fbaed9af87dd9c4570d538f2a854f208e8a76a3f9d2303c"
+    },
+    {
+      "path": "项目选型表_v1.0.0.csv",
+      "bytes": 1580,
+      "sha256": "b0e9ffad6d985bdd89e4c675b20d65ecfd3e89c307fa516f5cdb8accacc08aa0"
+    },
+    {
+      "path": "验证记录/活动文本_v1.0.0.md",
+      "bytes": 370,
+      "sha256": "bd9103777c646546a0b77417c4d0f57bd890872a3544132f486fb95645318286"
+    },
+    {
+      "path": "验证记录/转换校验_v1.0.0.json",
+      "bytes": 331,
+      "sha256": "93a7588a3120283e0e2b5697d103f4261f8d12c97f60ac96e3e55b87fa66c91b"
+    }
+  ]
+}
