@@ -1,0 +1,461 @@
+[
+  {
+    "id": 1,
+    "kind": "排序条形图",
+    "title": "先找出贡献最大的渠道",
+    "library": "Matplotlib",
+    "tables": [
+      "01_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 2,
+    "kind": "分组柱状图",
+    "title": "计划和实际，必须并排看",
+    "library": "Matplotlib",
+    "tables": [
+      "02_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 3,
+    "kind": "堆叠柱状图",
+    "title": "收入总量由谁贡献",
+    "library": "Matplotlib",
+    "tables": [
+      "03_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 4,
+    "kind": "哑铃图",
+    "title": "一次改版，谁的等待时间下降最多",
+    "library": "Matplotlib",
+    "tables": [
+      "04_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 5,
+    "kind": "斜率图",
+    "title": "两个月之间，渠道排名如何互换",
+    "library": "Matplotlib",
+    "tables": [
+      "05_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 6,
+    "kind": "雷达图",
+    "title": "选工具时，把能力放在同一把尺子上",
+    "library": "Matplotlib",
+    "tables": [
+      "06_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 7,
+    "kind": "平行坐标图",
+    "title": "平行坐标，寻找多指标的折中方案",
+    "library": "Plotly",
+    "tables": [
+      "07_v1.0.0_raw.csv",
+      "07_v1.0.0_scaled.csv"
+    ]
+  },
+  {
+    "id": 8,
+    "kind": "比例圆面积图",
+    "title": "圆面积编码，数值翻倍不能把半径翻倍",
+    "library": "Matplotlib",
+    "tables": [
+      "08_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 9,
+    "kind": "日历热力图",
+    "title": "日历热力图，周末和工作日有何区别",
+    "library": "Seaborn",
+    "tables": [
+      "09_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 10,
+    "kind": "单位点阵图",
+    "title": "单位点阵，让交付量变得可数",
+    "library": "Matplotlib",
+    "tables": [
+      "10_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 11,
+    "kind": "折线与移动平均",
+    "title": "趋势线先处理日期，再连接观测",
+    "library": "Matplotlib",
+    "tables": [
+      "11_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 12,
+    "kind": "面积图",
+    "title": "面积图强调规模，不用渐变伪装增长",
+    "library": "Matplotlib",
+    "tables": [
+      "12_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 13,
+    "kind": "阶梯图",
+    "title": "阶梯图忠实表达规则生效的时间",
+    "library": "Matplotlib",
+    "tables": [
+      "13_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 14,
+    "kind": "极坐标周期折线",
+    "title": "环形时间轴，比较一天中的访问节奏",
+    "library": "Matplotlib",
+    "tables": [
+      "14_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 15,
+    "kind": "堆叠面积图",
+    "title": "堆叠面积，看渠道总量与结构一起变化",
+    "library": "Matplotlib",
+    "tables": [
+      "15_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 16,
+    "kind": "河流图",
+    "title": "河流图观察主题热度如何消长",
+    "library": "Matplotlib",
+    "tables": [
+      "16_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 17,
+    "kind": "排名变化图",
+    "title": "排名曲线，只回答位次问题",
+    "library": "Matplotlib",
+    "tables": [
+      "17_v1.0.0_raw.csv",
+      "17_v1.0.0_ranks.csv"
+    ]
+  },
+  {
+    "id": 18,
+    "kind": "甘特图",
+    "title": "甘特图把开始时间与工期分开编码",
+    "library": "Matplotlib",
+    "tables": [
+      "18_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 19,
+    "kind": "瀑布图",
+    "title": "瀑布图解释余额如何一步步变化",
+    "library": "Matplotlib",
+    "tables": [
+      "19_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 20,
+    "kind": "蜡烛图",
+    "title": "蜡烛图展示同一周期的四个价格",
+    "library": "Plotly",
+    "tables": [
+      "20_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 21,
+    "kind": "环形占比图",
+    "title": "环形图只放少量互斥类别",
+    "library": "Matplotlib",
+    "tables": [
+      "21_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 22,
+    "kind": "100%堆叠条形图",
+    "title": "百分比堆叠，规模不同也能比较结构",
+    "library": "Matplotlib",
+    "tables": [
+      "22_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 23,
+    "kind": "马赛克图",
+    "title": "马赛克图同时看分组规模与组内占比",
+    "library": "Matplotlib",
+    "tables": [
+      "23_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 24,
+    "kind": "华夫图",
+    "title": "华夫图把百分数还原成一百个格子",
+    "library": "Matplotlib",
+    "tables": [
+      "24_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 25,
+    "kind": "漏斗图",
+    "title": "漏斗图先确定同一批用户与观察窗口",
+    "library": "Plotly",
+    "tables": [
+      "25_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 26,
+    "kind": "直方图",
+    "title": "直方图，先看长尾再谈平均值",
+    "library": "Matplotlib",
+    "tables": [
+      "26_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 27,
+    "kind": "核密度估计",
+    "title": "核密度曲线，带宽决定细节尺度",
+    "library": "Seaborn",
+    "tables": [
+      "27_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 28,
+    "kind": "箱线图与异常候选",
+    "title": "箱线图保留异常点，不替数据做决定",
+    "library": "Seaborn",
+    "tables": [
+      "28_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 29,
+    "kind": "小提琴图",
+    "title": "小提琴图识别中位数背后的双峰",
+    "library": "Seaborn",
+    "tables": [
+      "29_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 30,
+    "kind": "蜂群图",
+    "title": "蜂群图让小样本逐个露面",
+    "library": "Seaborn",
+    "tables": [
+      "30_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 31,
+    "kind": "人口金字塔式镜像图",
+    "title": "镜像条形图比较两类用户年龄结构",
+    "library": "Matplotlib",
+    "tables": [
+      "31_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 32,
+    "kind": "六边形分箱",
+    "title": "六边形分箱，把遮挡变成密度",
+    "library": "Matplotlib",
+    "tables": [
+      "32_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 33,
+    "kind": "二维密度等高线",
+    "title": "二维密度等高线，寻找两群样本",
+    "library": "Seaborn",
+    "tables": [
+      "33_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 34,
+    "kind": "三维曲面",
+    "title": "三维曲面只用于真实的第三个数值维度",
+    "library": "Plotly",
+    "tables": [
+      "34_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 35,
+    "kind": "散点与线性拟合",
+    "title": "散点与回归线，不把相关写成因果",
+    "library": "Matplotlib + SciPy",
+    "tables": [
+      "35_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 36,
+    "kind": "多变量气泡图",
+    "title": "气泡图同时看成本、质量和使用规模",
+    "library": "Plotly",
+    "tables": [
+      "36_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 37,
+    "kind": "散点矩阵",
+    "title": "散点矩阵快速筛查多变量关系",
+    "library": "Seaborn",
+    "tables": [
+      "37_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 38,
+    "kind": "相关系数热力图",
+    "title": "相关热力图保留正负方向",
+    "library": "Seaborn",
+    "tables": [
+      "38_v1.0.0_raw.csv",
+      "38_v1.0.0_correlation.csv"
+    ]
+  },
+  {
+    "id": 39,
+    "kind": "分组揭示辛普森悖论",
+    "title": "辛普森悖论，合并后关系为什么反转",
+    "library": "Matplotlib",
+    "tables": [
+      "39_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 40,
+    "kind": "旭日图",
+    "title": "旭日图从业务线逐层看到产品",
+    "library": "Plotly",
+    "tables": [
+      "40_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 41,
+    "kind": "矩形树图",
+    "title": "矩形树图展示空间占用的长尾",
+    "library": "Matplotlib + squarify",
+    "tables": [
+      "41_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 42,
+    "kind": "组织树",
+    "title": "树图表达唯一上级的组织关系",
+    "library": "NetworkX + Matplotlib",
+    "tables": [
+      "42_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 43,
+    "kind": "关系网络",
+    "title": "关系网络寻找跨团队的连接点",
+    "library": "NetworkX + Matplotlib",
+    "tables": [
+      "43_v1.0.0_edges.csv",
+      "43_v1.0.0_nodes.csv"
+    ]
+  },
+  {
+    "id": 44,
+    "kind": "有向邻接矩阵",
+    "title": "邻接矩阵还原谁向谁发起协作",
+    "library": "Seaborn",
+    "tables": [
+      "44_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 45,
+    "kind": "桑基图",
+    "title": "桑基图，流入流出必须对得上",
+    "library": "Plotly",
+    "tables": [
+      "45_v1.0.0_edges.csv",
+      "45_v1.0.0_nodes.csv"
+    ]
+  },
+  {
+    "id": 46,
+    "kind": "中文词云",
+    "title": "词云适合发现主题，不适合精确排名",
+    "library": "wordcloud + Matplotlib",
+    "tables": [
+      "46_v1.0.0_tokens.csv",
+      "46_v1.0.0_frequency.csv"
+    ]
+  },
+  {
+    "id": 47,
+    "kind": "归一化词频剖面",
+    "title": "比较文本偏好，先消除篇幅差异",
+    "library": "Matplotlib",
+    "tables": [
+      "47_v1.0.0_counts.csv",
+      "47_v1.0.0_per_1000.csv"
+    ]
+  },
+  {
+    "id": 48,
+    "kind": "情绪与长度四象限",
+    "title": "四象限图定位长篇负向反馈",
+    "library": "Matplotlib",
+    "tables": [
+      "48_v1.0.0_data.csv"
+    ]
+  },
+  {
+    "id": 49,
+    "kind": "覆盖率伴随的月均趋势",
+    "title": "日数据汇总为月均值，缺测不能当零",
+    "library": "Matplotlib + pandas",
+    "tables": [
+      "49_v1.0.0_daily.csv",
+      "49_v1.0.0_monthly.csv"
+    ]
+  },
+  {
+    "id": 50,
+    "kind": "均值及95%置信区间",
+    "title": "均值之外，补上不确定性的范围",
+    "library": "Matplotlib + SciPy",
+    "tables": [
+      "50_v1.0.0_raw.csv",
+      "50_v1.0.0_summary.csv"
+    ]
+  }
+]

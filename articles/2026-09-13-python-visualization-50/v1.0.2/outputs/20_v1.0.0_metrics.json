@@ -1,0 +1,10 @@
+{
+  "case": 20,
+  "title": "蜡烛图展示同一周期的四个价格",
+  "seed": 20260933,
+  "synthetic": true,
+  "tables": [
+    "20_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

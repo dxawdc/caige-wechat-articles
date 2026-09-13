@@ -1,0 +1,10 @@
+{
+  "case": 30,
+  "title": "蜂群图让小样本逐个露面",
+  "seed": 20260943,
+  "synthetic": true,
+  "tables": [
+    "30_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

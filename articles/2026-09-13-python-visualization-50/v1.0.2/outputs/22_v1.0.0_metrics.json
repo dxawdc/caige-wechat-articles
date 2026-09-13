@@ -1,0 +1,10 @@
+{
+  "case": 22,
+  "title": "百分比堆叠，规模不同也能比较结构",
+  "seed": 20260935,
+  "synthetic": true,
+  "tables": [
+    "22_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

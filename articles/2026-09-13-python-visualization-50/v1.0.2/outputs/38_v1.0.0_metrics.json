@@ -1,0 +1,11 @@
+{
+  "case": 38,
+  "title": "相关热力图保留正负方向",
+  "seed": 20260951,
+  "synthetic": true,
+  "tables": [
+    "38_v1.0.0_raw.csv",
+    "38_v1.0.0_correlation.csv"
+  ],
+  "metrics": {}
+}

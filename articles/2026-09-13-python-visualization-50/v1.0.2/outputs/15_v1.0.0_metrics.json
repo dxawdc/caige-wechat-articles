@@ -1,0 +1,10 @@
+{
+  "case": 15,
+  "title": "堆叠面积，看渠道总量与结构一起变化",
+  "seed": 20260928,
+  "synthetic": true,
+  "tables": [
+    "15_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}
