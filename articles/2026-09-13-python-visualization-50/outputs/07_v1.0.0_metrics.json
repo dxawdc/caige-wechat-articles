@@ -1,0 +1,11 @@
+{
+  "case": 7,
+  "title": "平行坐标，寻找多指标的折中方案",
+  "seed": 20260920,
+  "synthetic": true,
+  "tables": [
+    "07_v1.0.0_raw.csv",
+    "07_v1.0.0_scaled.csv"
+  ],
+  "metrics": {}
+}

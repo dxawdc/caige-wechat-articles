@@ -1,0 +1,12 @@
+{
+  "case": 19,
+  "title": "瀑布图解释余额如何一步步变化",
+  "seed": 20260932,
+  "synthetic": true,
+  "tables": [
+    "19_v1.0.0_data.csv"
+  ],
+  "metrics": {
+    "期末余额": 113
+  }
+}

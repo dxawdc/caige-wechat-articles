@@ -1,0 +1,352 @@
+[
+  {
+    "case": 1,
+    "exit_code": 0,
+    "seconds": 1.86,
+    "stdout": "PASS 01 先找出贡献最大的渠道\n",
+    "stderr": ""
+  },
+  {
+    "case": 2,
+    "exit_code": 0,
+    "seconds": 1.94,
+    "stdout": "PASS 02 计划和实际，必须并排看\n",
+    "stderr": ""
+  },
+  {
+    "case": 3,
+    "exit_code": 0,
+    "seconds": 2.04,
+    "stdout": "PASS 03 收入总量由谁贡献\n",
+    "stderr": ""
+  },
+  {
+    "case": 4,
+    "exit_code": 0,
+    "seconds": 1.88,
+    "stdout": "PASS 04 一次改版，谁的等待时间下降最多\n",
+    "stderr": ""
+  },
+  {
+    "case": 5,
+    "exit_code": 0,
+    "seconds": 1.88,
+    "stdout": "PASS 05 两个月之间，渠道排名如何互换\n",
+    "stderr": ""
+  },
+  {
+    "case": 6,
+    "exit_code": 0,
+    "seconds": 1.85,
+    "stdout": "PASS 06 选工具时，把能力放在同一把尺子上\n",
+    "stderr": ""
+  },
+  {
+    "case": 7,
+    "exit_code": 0,
+    "seconds": 8.77,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 07 平行坐标，寻找多指标的折中方案\n",
+    "stderr": ""
+  },
+  {
+    "case": 8,
+    "exit_code": 0,
+    "seconds": 1.87,
+    "stdout": "PASS 08 圆面积编码，数值翻倍不能把半径翻倍\n",
+    "stderr": ""
+  },
+  {
+    "case": 9,
+    "exit_code": 0,
+    "seconds": 1.97,
+    "stdout": "PASS 09 日历热力图，周末和工作日有何区别\n",
+    "stderr": ""
+  },
+  {
+    "case": 10,
+    "exit_code": 0,
+    "seconds": 1.77,
+    "stdout": "PASS 10 单位点阵，让交付量变得可数\n",
+    "stderr": ""
+  },
+  {
+    "case": 11,
+    "exit_code": 0,
+    "seconds": 1.87,
+    "stdout": "PASS 11 趋势线先处理日期，再连接观测\n",
+    "stderr": ""
+  },
+  {
+    "case": 12,
+    "exit_code": 0,
+    "seconds": 1.95,
+    "stdout": "PASS 12 面积图强调规模，不用渐变伪装增长\n",
+    "stderr": ""
+  },
+  {
+    "case": 13,
+    "exit_code": 0,
+    "seconds": 1.91,
+    "stdout": "PASS 13 阶梯图忠实表达规则生效的时间\n",
+    "stderr": ""
+  },
+  {
+    "case": 14,
+    "exit_code": 0,
+    "seconds": 2.02,
+    "stdout": "PASS 14 环形时间轴，比较一天中的访问节奏\n",
+    "stderr": ""
+  },
+  {
+    "case": 15,
+    "exit_code": 0,
+    "seconds": 1.94,
+    "stdout": "PASS 15 堆叠面积，看渠道总量与结构一起变化\n",
+    "stderr": ""
+  },
+  {
+    "case": 16,
+    "exit_code": 0,
+    "seconds": 1.88,
+    "stdout": "PASS 16 河流图观察主题热度如何消长\n",
+    "stderr": ""
+  },
+  {
+    "case": 17,
+    "exit_code": 0,
+    "seconds": 2.28,
+    "stdout": "PASS 17 排名曲线，只回答位次问题\n",
+    "stderr": ""
+  },
+  {
+    "case": 18,
+    "exit_code": 0,
+    "seconds": 1.84,
+    "stdout": "PASS 18 甘特图把开始时间与工期分开编码\n",
+    "stderr": ""
+  },
+  {
+    "case": 19,
+    "exit_code": 0,
+    "seconds": 1.92,
+    "stdout": "PASS 19 瀑布图解释余额如何一步步变化\n",
+    "stderr": ""
+  },
+  {
+    "case": 20,
+    "exit_code": 0,
+    "seconds": 7.5,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 20 蜡烛图展示同一周期的四个价格\n",
+    "stderr": ""
+  },
+  {
+    "case": 21,
+    "exit_code": 0,
+    "seconds": 1.85,
+    "stdout": "PASS 21 环形图只放少量互斥类别\n",
+    "stderr": ""
+  },
+  {
+    "case": 22,
+    "exit_code": 0,
+    "seconds": 1.8,
+    "stdout": "PASS 22 百分比堆叠，规模不同也能比较结构\n",
+    "stderr": ""
+  },
+  {
+    "case": 23,
+    "exit_code": 0,
+    "seconds": 1.87,
+    "stdout": "PASS 23 马赛克图同时看分组规模与组内占比\n",
+    "stderr": ""
+  },
+  {
+    "case": 24,
+    "exit_code": 0,
+    "seconds": 1.73,
+    "stdout": "PASS 24 华夫图把百分数还原成一百个格子\n",
+    "stderr": ""
+  },
+  {
+    "case": 25,
+    "exit_code": 0,
+    "seconds": 8.62,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 25 漏斗图先确定同一批用户与观察窗口\n",
+    "stderr": ""
+  },
+  {
+    "case": 26,
+    "exit_code": 0,
+    "seconds": 2.56,
+    "stdout": "PASS 26 直方图，先看长尾再谈平均值\n",
+    "stderr": ""
+  },
+  {
+    "case": 27,
+    "exit_code": 0,
+    "seconds": 2.35,
+    "stdout": "PASS 27 核密度曲线，带宽决定细节尺度\n",
+    "stderr": ""
+  },
+  {
+    "case": 28,
+    "exit_code": 0,
+    "seconds": 2.36,
+    "stdout": "PASS 28 箱线图保留异常点，不替数据做决定\n",
+    "stderr": ""
+  },
+  {
+    "case": 29,
+    "exit_code": 0,
+    "seconds": 2.58,
+    "stdout": "PASS 29 小提琴图识别中位数背后的双峰\n",
+    "stderr": ""
+  },
+  {
+    "case": 30,
+    "exit_code": 0,
+    "seconds": 2.49,
+    "stdout": "PASS 30 蜂群图让小样本逐个露面\n",
+    "stderr": ""
+  },
+  {
+    "case": 31,
+    "exit_code": 0,
+    "seconds": 2.44,
+    "stdout": "PASS 31 镜像条形图比较两类用户年龄结构\n",
+    "stderr": ""
+  },
+  {
+    "case": 32,
+    "exit_code": 0,
+    "seconds": 2.65,
+    "stdout": "PASS 32 六边形分箱，把遮挡变成密度\n",
+    "stderr": ""
+  },
+  {
+    "case": 33,
+    "exit_code": 0,
+    "seconds": 3.63,
+    "stdout": "PASS 33 二维密度等高线，寻找两群样本\n",
+    "stderr": ""
+  },
+  {
+    "case": 34,
+    "exit_code": 0,
+    "seconds": 10.86,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 34 三维曲面只用于真实的第三个数值维度\n",
+    "stderr": ""
+  },
+  {
+    "case": 35,
+    "exit_code": 0,
+    "seconds": 2.4,
+    "stdout": "PASS 35 散点与回归线，不把相关写成因果\n",
+    "stderr": ""
+  },
+  {
+    "case": 36,
+    "exit_code": 0,
+    "seconds": 8.13,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 36 气泡图同时看成本、质量和使用规模\n",
+    "stderr": ""
+  },
+  {
+    "case": 37,
+    "exit_code": 0,
+    "seconds": 3.15,
+    "stdout": "PASS 37 散点矩阵快速筛查多变量关系\n",
+    "stderr": ""
+  },
+  {
+    "case": 38,
+    "exit_code": 0,
+    "seconds": 2.38,
+    "stdout": "PASS 38 相关热力图保留正负方向\n",
+    "stderr": ""
+  },
+  {
+    "case": 39,
+    "exit_code": 0,
+    "seconds": 2.4,
+    "stdout": "PASS 39 辛普森悖论，合并后关系为什么反转\n",
+    "stderr": ""
+  },
+  {
+    "case": 40,
+    "exit_code": 0,
+    "seconds": 7.38,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 40 旭日图从业务线逐层看到产品\n",
+    "stderr": ""
+  },
+  {
+    "case": 41,
+    "exit_code": 0,
+    "seconds": 1.82,
+    "stdout": "PASS 41 矩形树图展示空间占用的长尾\n",
+    "stderr": ""
+  },
+  {
+    "case": 42,
+    "exit_code": 0,
+    "seconds": 2.08,
+    "stdout": "PASS 42 树图表达唯一上级的组织关系\n",
+    "stderr": ""
+  },
+  {
+    "case": 43,
+    "exit_code": 0,
+    "seconds": 2.06,
+    "stdout": "PASS 43 关系网络寻找跨团队的连接点\n",
+    "stderr": ""
+  },
+  {
+    "case": 44,
+    "exit_code": 0,
+    "seconds": 1.98,
+    "stdout": "PASS 44 邻接矩阵还原谁向谁发起协作\n",
+    "stderr": ""
+  },
+  {
+    "case": 45,
+    "exit_code": 0,
+    "seconds": 6.69,
+    "stdout": "[WARNING] Ignore caches that are heterogeneous\n[WARNING] Ignore caches that are heterogeneous\nPASS 45 桑基图，流入流出必须对得上\n",
+    "stderr": ""
+  },
+  {
+    "case": 46,
+    "exit_code": 0,
+    "seconds": 2.37,
+    "stdout": "PASS 46 词云适合发现主题，不适合精确排名\n",
+    "stderr": ""
+  },
+  {
+    "case": 47,
+    "exit_code": 0,
+    "seconds": 1.86,
+    "stdout": "PASS 47 比较文本偏好，先消除篇幅差异\n",
+    "stderr": ""
+  },
+  {
+    "case": 48,
+    "exit_code": 0,
+    "seconds": 1.89,
+    "stdout": "PASS 48 四象限图定位长篇负向反馈\n",
+    "stderr": ""
+  },
+  {
+    "case": 49,
+    "exit_code": 0,
+    "seconds": 1.93,
+    "stdout": "PASS 49 日数据汇总为月均值，缺测不能当零\n",
+    "stderr": ""
+  },
+  {
+    "case": 50,
+    "exit_code": 0,
+    "seconds": 1.96,
+    "stdout": "PASS 50 均值之外，补上不确定性的范围\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "case": 21,
+  "title": "环形图只放少量互斥类别",
+  "seed": 20260934,
+  "synthetic": true,
+  "tables": [
+    "21_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

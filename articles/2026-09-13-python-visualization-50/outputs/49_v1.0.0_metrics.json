@@ -1,0 +1,11 @@
+{
+  "case": 49,
+  "title": "日数据汇总为月均值，缺测不能当零",
+  "seed": 20260962,
+  "synthetic": true,
+  "tables": [
+    "49_v1.0.0_daily.csv",
+    "49_v1.0.0_monthly.csv"
+  ],
+  "metrics": {}
+}

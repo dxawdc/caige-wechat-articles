@@ -1,0 +1,11 @@
+numpy==2.5.3
+pandas==3.0.5
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.0.0
+kaleido==1.4.0
+scipy==1.18.1
+networkx==3.6.1
+squarify==0.4.5
+wordcloud==1.9.6
+pillow==12.3.0

@@ -1,0 +1,10 @@
+{
+  "case": 14,
+  "title": "环形时间轴，比较一天中的访问节奏",
+  "seed": 20260927,
+  "synthetic": true,
+  "tables": [
+    "14_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

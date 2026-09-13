@@ -1,0 +1,10 @@
+{
+  "case": 42,
+  "title": "树图表达唯一上级的组织关系",
+  "seed": 20260955,
+  "synthetic": true,
+  "tables": [
+    "42_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

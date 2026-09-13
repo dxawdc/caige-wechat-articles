@@ -1,0 +1,972 @@
+{
+  "version": "1.0.0",
+  "date": "2026-09-13",
+  "passed": true,
+  "count": 241,
+  "checks": [
+    {
+      "name": "50个编号连续且唯一",
+      "pass": true
+    },
+    {
+      "name": "01图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "01有SVG",
+      "pass": true
+    },
+    {
+      "name": "01记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "01数据01_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "02图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "02有SVG",
+      "pass": true
+    },
+    {
+      "name": "02记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "02数据02_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "03图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "03有SVG",
+      "pass": true
+    },
+    {
+      "name": "03记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "03数据03_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "04图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "04有SVG",
+      "pass": true
+    },
+    {
+      "name": "04记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "04数据04_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "05图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "05有SVG",
+      "pass": true
+    },
+    {
+      "name": "05记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "05数据05_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "06图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "06有SVG",
+      "pass": true
+    },
+    {
+      "name": "06记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "06数据06_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "07图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "07有SVG",
+      "pass": true
+    },
+    {
+      "name": "07记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "07数据07_v1.0.0_raw.csv非空",
+      "pass": true
+    },
+    {
+      "name": "07数据07_v1.0.0_scaled.csv非空",
+      "pass": true
+    },
+    {
+      "name": "08图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "08有SVG",
+      "pass": true
+    },
+    {
+      "name": "08记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "08数据08_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "09图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "09有SVG",
+      "pass": true
+    },
+    {
+      "name": "09记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "09数据09_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "10图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "10有SVG",
+      "pass": true
+    },
+    {
+      "name": "10记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "10数据10_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "11图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "11有SVG",
+      "pass": true
+    },
+    {
+      "name": "11记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "11数据11_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "12图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "12有SVG",
+      "pass": true
+    },
+    {
+      "name": "12记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "12数据12_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "13图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "13有SVG",
+      "pass": true
+    },
+    {
+      "name": "13记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "13数据13_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "14图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "14有SVG",
+      "pass": true
+    },
+    {
+      "name": "14记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "14数据14_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "15图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "15有SVG",
+      "pass": true
+    },
+    {
+      "name": "15记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "15数据15_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "16图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "16有SVG",
+      "pass": true
+    },
+    {
+      "name": "16记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "16数据16_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "17图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "17有SVG",
+      "pass": true
+    },
+    {
+      "name": "17记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "17数据17_v1.0.0_raw.csv非空",
+      "pass": true
+    },
+    {
+      "name": "17数据17_v1.0.0_ranks.csv非空",
+      "pass": true
+    },
+    {
+      "name": "18图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "18有SVG",
+      "pass": true
+    },
+    {
+      "name": "18记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "18数据18_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "19图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "19有SVG",
+      "pass": true
+    },
+    {
+      "name": "19记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "19数据19_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "20图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "20有SVG",
+      "pass": true
+    },
+    {
+      "name": "20记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "20数据20_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "21图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "21有SVG",
+      "pass": true
+    },
+    {
+      "name": "21记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "21数据21_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "22图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "22有SVG",
+      "pass": true
+    },
+    {
+      "name": "22记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "22数据22_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "23图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "23有SVG",
+      "pass": true
+    },
+    {
+      "name": "23记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "23数据23_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "24图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "24有SVG",
+      "pass": true
+    },
+    {
+      "name": "24记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "24数据24_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "25图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "25有SVG",
+      "pass": true
+    },
+    {
+      "name": "25记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "25数据25_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "26图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "26有SVG",
+      "pass": true
+    },
+    {
+      "name": "26记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "26数据26_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "27图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "27有SVG",
+      "pass": true
+    },
+    {
+      "name": "27记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "27数据27_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "28图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "28有SVG",
+      "pass": true
+    },
+    {
+      "name": "28记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "28数据28_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "29图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "29有SVG",
+      "pass": true
+    },
+    {
+      "name": "29记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "29数据29_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "30图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "30有SVG",
+      "pass": true
+    },
+    {
+      "name": "30记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "30数据30_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "31图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "31有SVG",
+      "pass": true
+    },
+    {
+      "name": "31记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "31数据31_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "32图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "32有SVG",
+      "pass": true
+    },
+    {
+      "name": "32记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "32数据32_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "33图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "33有SVG",
+      "pass": true
+    },
+    {
+      "name": "33记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "33数据33_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "34图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "34有SVG",
+      "pass": true
+    },
+    {
+      "name": "34记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "34数据34_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "35图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "35有SVG",
+      "pass": true
+    },
+    {
+      "name": "35记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "35数据35_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "36图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "36有SVG",
+      "pass": true
+    },
+    {
+      "name": "36记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "36数据36_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "37图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "37有SVG",
+      "pass": true
+    },
+    {
+      "name": "37记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "37数据37_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "38图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "38有SVG",
+      "pass": true
+    },
+    {
+      "name": "38记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "38数据38_v1.0.0_raw.csv非空",
+      "pass": true
+    },
+    {
+      "name": "38数据38_v1.0.0_correlation.csv非空",
+      "pass": true
+    },
+    {
+      "name": "39图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "39有SVG",
+      "pass": true
+    },
+    {
+      "name": "39记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "39数据39_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "40图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "40有SVG",
+      "pass": true
+    },
+    {
+      "name": "40记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "40数据40_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "41图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "41有SVG",
+      "pass": true
+    },
+    {
+      "name": "41记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "41数据41_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "42图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "42有SVG",
+      "pass": true
+    },
+    {
+      "name": "42记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "42数据42_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "43图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "43有SVG",
+      "pass": true
+    },
+    {
+      "name": "43记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "43数据43_v1.0.0_edges.csv非空",
+      "pass": true
+    },
+    {
+      "name": "43数据43_v1.0.0_nodes.csv非空",
+      "pass": true
+    },
+    {
+      "name": "44图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "44有SVG",
+      "pass": true
+    },
+    {
+      "name": "44记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "44数据44_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "45图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "45有SVG",
+      "pass": true
+    },
+    {
+      "name": "45记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "45数据45_v1.0.0_edges.csv非空",
+      "pass": true
+    },
+    {
+      "name": "45数据45_v1.0.0_nodes.csv非空",
+      "pass": true
+    },
+    {
+      "name": "46图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "46有SVG",
+      "pass": true
+    },
+    {
+      "name": "46记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "46数据46_v1.0.0_tokens.csv非空",
+      "pass": true
+    },
+    {
+      "name": "46数据46_v1.0.0_frequency.csv非空",
+      "pass": true
+    },
+    {
+      "name": "47图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "47有SVG",
+      "pass": true
+    },
+    {
+      "name": "47记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "47数据47_v1.0.0_counts.csv非空",
+      "pass": true
+    },
+    {
+      "name": "47数据47_v1.0.0_per_1000.csv非空",
+      "pass": true
+    },
+    {
+      "name": "48图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "48有SVG",
+      "pass": true
+    },
+    {
+      "name": "48记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "48数据48_v1.0.0_data.csv非空",
+      "pass": true
+    },
+    {
+      "name": "49图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "49有SVG",
+      "pass": true
+    },
+    {
+      "name": "49记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "49数据49_v1.0.0_daily.csv非空",
+      "pass": true
+    },
+    {
+      "name": "49数据49_v1.0.0_monthly.csv非空",
+      "pass": true
+    },
+    {
+      "name": "50图片非空且可读取",
+      "pass": true
+    },
+    {
+      "name": "50有SVG",
+      "pass": true
+    },
+    {
+      "name": "50记录标题与案例对应",
+      "pass": true
+    },
+    {
+      "name": "50数据50_v1.0.0_raw.csv非空",
+      "pass": true
+    },
+    {
+      "name": "50数据50_v1.0.0_summary.csv非空",
+      "pass": true
+    },
+    {
+      "name": "50张图字节各不相同",
+      "pass": true
+    },
+    {
+      "name": "交互文件数为7",
+      "pass": true
+    },
+    {
+      "name": "堆叠收入四个合计",
+      "pass": true
+    },
+    {
+      "name": "分组与堆叠不是同一数据",
+      "pass": true
+    },
+    {
+      "name": "圆面积正比于调用量",
+      "pass": true
+    },
+    {
+      "name": "日历连续31天且唯一",
+      "pass": true
+    },
+    {
+      "name": "单位点阵合计94",
+      "pass": true
+    },
+    {
+      "name": "移动平均前6日缺失而后续完整",
+      "pass": true
+    },
+    {
+      "name": "百分比图分母600/800/1200",
+      "pass": true
+    },
+    {
+      "name": "华夫图合计100且非负",
+      "pass": true
+    },
+    {
+      "name": "OHLC高低关系",
+      "pass": true
+    },
+    {
+      "name": "漏斗非递增且最终7.8%",
+      "pass": true
+    },
+    {
+      "name": "会话时长全部正值",
+      "pass": true
+    },
+    {
+      "name": "箱线图保留303行",
+      "pass": true
+    },
+    {
+      "name": "蜂群每组35人",
+      "pass": true
+    },
+    {
+      "name": "7000条请求的耗时全部正值",
+      "pass": true
+    },
+    {
+      "name": "相关矩阵对称且范围正确",
+      "pass": true
+    },
+    {
+      "name": "辛普森反转实际成立",
+      "pass": true
+    },
+    {
+      "name": "旭日叶子合计200",
+      "pass": true
+    },
+    {
+      "name": "目录容量合计1100",
+      "pass": true
+    },
+    {
+      "name": "组织树10点9边",
+      "pass": true
+    },
+    {
+      "name": "桑基注册流入流出守恒",
+      "pass": true
+    },
+    {
+      "name": "词频与700个词元逐项相等",
+      "pass": true
+    },
+    {
+      "name": "词频使用全部词数分母",
+      "pass": true
+    },
+    {
+      "name": "四象限标记可重算",
+      "pass": true
+    },
+    {
+      "name": "低覆盖月份留空",
+      "pass": true
+    },
+    {
+      "name": "95%t区间重算-甲",
+      "pass": true
+    },
+    {
+      "name": "95%t区间重算-乙",
+      "pass": true
+    },
+    {
+      "name": "95%t区间重算-丙",
+      "pass": true
+    },
+    {
+      "name": "95%t区间重算-丁",
+      "pass": true
+    },
+    {
+      "name": "无重复数据表集合",
+      "pass": true
+    }
+  ]
+}

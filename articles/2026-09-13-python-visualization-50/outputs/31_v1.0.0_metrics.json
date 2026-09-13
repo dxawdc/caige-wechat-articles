@@ -1,0 +1,10 @@
+{
+  "case": 31,
+  "title": "镜像条形图比较两类用户年龄结构",
+  "seed": 20260944,
+  "synthetic": true,
+  "tables": [
+    "31_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

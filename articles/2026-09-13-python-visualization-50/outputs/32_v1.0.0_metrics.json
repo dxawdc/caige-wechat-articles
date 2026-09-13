@@ -1,0 +1,12 @@
+{
+  "case": 32,
+  "title": "六边形分箱，把遮挡变成密度",
+  "seed": 20260945,
+  "synthetic": true,
+  "tables": [
+    "32_v1.0.0_data.csv"
+  ],
+  "metrics": {
+    "分箱计数": 7000.0
+  }
+}

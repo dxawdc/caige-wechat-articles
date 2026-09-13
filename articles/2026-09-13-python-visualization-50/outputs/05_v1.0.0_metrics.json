@@ -1,0 +1,10 @@
+{
+  "case": 5,
+  "title": "两个月之间，渠道排名如何互换",
+  "seed": 20260918,
+  "synthetic": true,
+  "tables": [
+    "05_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

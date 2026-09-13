@@ -1,0 +1,10 @@
+{
+  "case": 24,
+  "title": "华夫图把百分数还原成一百个格子",
+  "seed": 20260937,
+  "synthetic": true,
+  "tables": [
+    "24_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

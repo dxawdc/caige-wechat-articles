@@ -1,0 +1,13 @@
+{
+  "case": 44,
+  "title": "邻接矩阵还原谁向谁发起协作",
+  "seed": 20260957,
+  "synthetic": true,
+  "tables": [
+    "44_v1.0.0_data.csv"
+  ],
+  "metrics": {
+    "总请求": 169,
+    "有向": true
+  }
+}

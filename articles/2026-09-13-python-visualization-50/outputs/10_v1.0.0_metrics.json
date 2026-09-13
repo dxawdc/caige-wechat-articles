@@ -1,0 +1,10 @@
+{
+  "case": 10,
+  "title": "单位点阵，让交付量变得可数",
+  "seed": 20260923,
+  "synthetic": true,
+  "tables": [
+    "10_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}

@@ -1,0 +1,11 @@
+{
+  "case": 43,
+  "title": "关系网络寻找跨团队的连接点",
+  "seed": 20260956,
+  "synthetic": true,
+  "tables": [
+    "43_v1.0.0_edges.csv",
+    "43_v1.0.0_nodes.csv"
+  ],
+  "metrics": {}
+}

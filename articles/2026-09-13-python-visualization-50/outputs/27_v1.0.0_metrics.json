@@ -1,0 +1,10 @@
+{
+  "case": 27,
+  "title": "核密度曲线，带宽决定细节尺度",
+  "seed": 20260940,
+  "synthetic": true,
+  "tables": [
+    "27_v1.0.0_data.csv"
+  ],
+  "metrics": {}
+}
