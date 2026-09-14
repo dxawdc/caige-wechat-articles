@@ -1,0 +1,7 @@
+private/
+.venv/
+__pycache__/
+*.pyc
+checkpoint*.json
+page_*.json
+*private*.csv
