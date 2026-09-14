@@ -1,0 +1,46 @@
+{
+  "best_k": 4,
+  "silhouette": 0.7130147291930963,
+  "scores": {
+    "2": 0.5607671105968446,
+    "3": 0.6606516148684036,
+    "4": 0.7130147291930963,
+    "5": 0.5932772213523954,
+    "6": 0.47350025624875314
+  },
+  "seed_stability_ARI": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "profile": [
+    {
+      "cluster": 0,
+      "recency_days": 4.0,
+      "frequency_90d": 15.0,
+      "monetary_90d": 1537.455,
+      "users": 250
+    },
+    {
+      "cluster": 1,
+      "recency_days": 48.0,
+      "frequency_90d": 1.0,
+      "monetary_90d": 96.61500000000001,
+      "users": 250
+    },
+    {
+      "cluster": 2,
+      "recency_days": 4.0,
+      "frequency_90d": 3.0,
+      "monetary_90d": 220.365,
+      "users": 250
+    },
+    {
+      "cluster": 3,
+      "recency_days": 26.0,
+      "frequency_90d": 16.0,
+      "monetary_90d": 1235.315,
+      "users": 250
+    }
+  ]
+}

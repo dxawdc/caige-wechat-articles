@@ -1,0 +1,9 @@
+{
+  "seed": 20260914,
+  "spend_rows": 1000,
+  "churn_rows": 3000,
+  "churn_rate": 0.25766666666666665,
+  "rfm_rows": 1000,
+  "basket_rows": 2400,
+  "all_zero_scope_baskets": 166
+}

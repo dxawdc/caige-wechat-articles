@@ -1,0 +1,22 @@
+|--- days_since_visit <= 18.50
+|   |--- days_since_visit <= 12.50
+|   |   |--- tickets_30d <= 1.50
+|   |   |   |--- class: 0
+|   |   |--- tickets_30d >  1.50
+|   |   |   |--- class: 0
+|   |--- days_since_visit >  12.50
+|   |   |--- tickets_30d <= 1.50
+|   |   |   |--- class: 0
+|   |   |--- tickets_30d >  1.50
+|   |   |   |--- class: 0
+|--- days_since_visit >  18.50
+|   |--- sessions_30d <= 5.50
+|   |   |--- days_since_visit <= 20.50
+|   |   |   |--- class: 1
+|   |   |--- days_since_visit >  20.50
+|   |   |   |--- class: 1
+|   |--- sessions_30d >  5.50
+|   |   |--- tickets_30d <= 0.50
+|   |   |   |--- class: 0
+|   |   |--- tickets_30d >  0.50
+|   |   |   |--- class: 1

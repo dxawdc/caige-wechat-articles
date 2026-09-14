@@ -1,0 +1,12 @@
+{
+  "chosen_max_depth": 3,
+  "actual_depth": 3,
+  "leaves": 8,
+  "cv_auc": 0.7841301247983818,
+  "test_auc": 0.83773831098224,
+  "test_ap": 0.6101510791565462,
+  "test_precision_at_05": 0.6865671641791045,
+  "test_recall_at_05": 0.5935483870967742,
+  "development_n": 2400,
+  "test_n": 600
+}

@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "regression_mae_recomputed": true,
+    "regression_beats_mean_baseline": true,
+    "confusion_matrix_recomputed": true,
+    "logistic_auc_recomputed": true,
+    "frozen_threshold_predictions": true,
+    "same_heldout_users_for_classifiers": true,
+    "clustering_all_users_once": true,
+    "association_denominators": true,
+    "association_metrics_recomputed": true,
+    "spend_complete_unique": true,
+    "churn_complete_unique": true,
+    "rfm_complete_unique": true,
+    "baskets_complete_unique": true,
+    "nine_analysis_figures": true
+  },
+  "all_passed": true,
+  "scope": "数据与指标自检；图片另做人工视觉检查"
+}
