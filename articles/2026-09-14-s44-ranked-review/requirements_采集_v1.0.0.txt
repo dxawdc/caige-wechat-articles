@@ -1,0 +1,4 @@
+httpx
+javaobj-py3
+cryptography
+androguard

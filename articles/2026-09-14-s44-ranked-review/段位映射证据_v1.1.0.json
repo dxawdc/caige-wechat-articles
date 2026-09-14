@@ -1,0 +1,173 @@
+{
+  "version": "v1.1.0",
+  "source": "王者营地10.114.0826 APK assets/bundles/battle.zip/index.android.jsbundle",
+  "bundle_sha256": "6d17c4f5d28a57b7ffe1ecaf1f7b5c4462bbb84e2138ef7c3cb341be30041985",
+  "symbol": "hoe",
+  "mapping": {
+    "1": {
+      "name": "青铜III",
+      "thisStars": 3,
+      "previousStars": 0
+    },
+    "2": {
+      "name": "青铜II",
+      "thisStars": 3,
+      "previousStars": 3
+    },
+    "3": {
+      "name": "青铜I",
+      "thisStars": 3,
+      "previousStars": 6
+    },
+    "4": {
+      "name": "白银III",
+      "thisStars": 3,
+      "previousStars": 9
+    },
+    "5": {
+      "name": "白银II",
+      "thisStars": 3,
+      "previousStars": 12
+    },
+    "6": {
+      "name": "白银I",
+      "thisStars": 3,
+      "previousStars": 15
+    },
+    "17": {
+      "name": "黄金IV",
+      "thisStars": 4,
+      "previousStars": 18
+    },
+    "7": {
+      "name": "黄金III",
+      "thisStars": 4,
+      "previousStars": 22
+    },
+    "8": {
+      "name": "黄金II",
+      "thisStars": 4,
+      "previousStars": 26
+    },
+    "9": {
+      "name": "黄金I",
+      "thisStars": 4,
+      "previousStars": 30
+    },
+    "19": {
+      "name": "铂金IV",
+      "thisStars": 4,
+      "previousStars": 34
+    },
+    "10": {
+      "name": "铂金III",
+      "thisStars": 4,
+      "previousStars": 38
+    },
+    "11": {
+      "name": "铂金II",
+      "thisStars": 4,
+      "previousStars": 42
+    },
+    "12": {
+      "name": "铂金I",
+      "thisStars": 4,
+      "previousStars": 46
+    },
+    "20": {
+      "name": "钻石V",
+      "thisStars": 5,
+      "previousStars": 50
+    },
+    "21": {
+      "name": "钻石IV",
+      "thisStars": 5,
+      "previousStars": 55
+    },
+    "13": {
+      "name": "钻石III",
+      "thisStars": 5,
+      "previousStars": 60
+    },
+    "14": {
+      "name": "钻石II",
+      "thisStars": 5,
+      "previousStars": 65
+    },
+    "15": {
+      "name": "钻石I",
+      "thisStars": 5,
+      "previousStars": 70
+    },
+    "22": {
+      "name": "星耀V",
+      "thisStars": 5,
+      "previousStars": 75
+    },
+    "23": {
+      "name": "星耀IV",
+      "thisStars": 5,
+      "previousStars": 80
+    },
+    "24": {
+      "name": "星耀III",
+      "thisStars": 5,
+      "previousStars": 85
+    },
+    "25": {
+      "name": "星耀II",
+      "thisStars": 5,
+      "previousStars": 90
+    },
+    "26": {
+      "name": "星耀I",
+      "thisStars": 5,
+      "previousStars": 95
+    },
+    "16": {
+      "name": "最强王者",
+      "thisStars": 10,
+      "previousStars": 100
+    },
+    "104": {
+      "name": "非凡王者",
+      "thisStars": 10,
+      "previousStars": 110
+    },
+    "101": {
+      "name": "无双王者",
+      "thisStars": 10,
+      "previousStars": 120
+    },
+    "105": {
+      "name": "绝世王者",
+      "thisStars": 10,
+      "previousStars": 130
+    },
+    "103": {
+      "name": "至圣王者",
+      "thisStars": 10,
+      "previousStars": 140
+    },
+    "100": {
+      "name": "荣耀王者",
+      "thisStars": 50,
+      "previousStars": 150
+    },
+    "102": {
+      "name": "传奇王者",
+      "thisStars": 500,
+      "previousStars": 200
+    }
+  },
+  "excerpt": "{0:{name:\"未定级\"},1:{name:\"青铜III\",thisStars:3,previousStars:0},2:{name:\"青铜II\",thisStars:3,previousStars:3},3:{name:\"青铜I\",thisStars:3,previousStars:6},4:{name:\"白银III\",thisStars:3,previousStars:9},5:{name:\"白银II\",thisStars:3,previousStars:12},6:{name:\"白银I\",thisStars:3,previousStars:15},17:{name:\"黄金IV\",thisStars:4,previousStars:18},7:{name:\"黄金III\",thisStars:4,previousStars:22},8:{name:\"黄金II\",thisStars:4,previousStars:26},9:{name:\"黄金I\",thisStars:4,previousStars:30},19:{name:\"铂金IV\",thisStars:4,previousStars:34},10:{name:\"铂金III\",thisStars:4,previousStars:38},11:{name:\"铂金II\",thisStars:4,previousStars:42},12:{name:\"铂金I\",thisStars:4,previousStars:46},20:{name:\"钻石V\",thisStars:5,previousStars:50},21:{name:\"钻石IV\",thisStars:5,previousStars:55},13:{name:\"钻石III\",thisStars:5,previousStars:60},14:{name:\"钻石II\",thisStars:5,previousStars:65},15:{name:\"钻石I\",thisStars:5,previousStars:70},22:{name:\"星耀V\",thisStars:5,previousStars:75},23:{name:\"星耀IV\",thisStars:5,previousStars:80},24:{name:\"星耀III\",thisStars:5,previousStars:85},25:{name:\"星耀II\",thisStars:5,previousStars:90},26:{name:\"星耀I\",thisStars:5,previousStars:95},16:{name:\"最强王者\",thisStars:10,previousStars:100},104:{name:\"非凡王者\",thisStars:10,previousStars:110},101:{name:\"无双王者\",thisStars:10,previousStars:120},105:{name:\"绝世王者\",thisStars:10,previousStars:130},103:{name:\"至圣王者\",thisStars:10,previousStars:140},100:{name:\"荣耀王者\",thisStars:50,previousStars:150},102:{name:\"传奇王者\",thisStars:500,previousStars:200}}",
+  "king_star_thresholds": {
+    "0": "最强王者",
+    "10": "非凡王者",
+    "20": "无双王者",
+    "30": "绝世王者",
+    "40": "至圣王者",
+    "50": "荣耀王者",
+    "100": "传奇王者"
+  }
+}
