@@ -1,0 +1,93 @@
+{
+  "version": "1.1.0",
+  "seed": 20260914,
+  "sampling": "40 randomly selected per rating cohort, all dates in original snapshot",
+  "annotation": "Codex contextual reading, one annotator; no independent human adjudication or accuracy estimate",
+  "scope": "Opinion as expressed; not verified gameplay facts or verified player experience",
+  "aspects": [
+    "玩法与策略",
+    "平衡与随机",
+    "新手与引导",
+    "美术与音画",
+    "节奏与耗时",
+    "福利与任务",
+    "商业化观感",
+    "性能与适配",
+    "安装与登录",
+    "界面与功能",
+    "运营响应",
+    "IP与产品定位"
+  ],
+  "groups": {
+    "高星": {
+      "n": 40,
+      "has_praise": 23,
+      "has_criticism": 7,
+      "mixed": 4,
+      "no_specific_aspect": 14,
+      "praise": {
+        "玩法与策略": 14,
+        "平衡与随机": 1,
+        "新手与引导": 6,
+        "美术与音画": 4,
+        "节奏与耗时": 2,
+        "福利与任务": 0,
+        "商业化观感": 1,
+        "性能与适配": 0,
+        "安装与登录": 0,
+        "界面与功能": 2,
+        "运营响应": 1,
+        "IP与产品定位": 0
+      },
+      "criticism": {
+        "玩法与策略": 2,
+        "平衡与随机": 3,
+        "新手与引导": 1,
+        "美术与音画": 0,
+        "节奏与耗时": 1,
+        "福利与任务": 1,
+        "商业化观感": 0,
+        "性能与适配": 0,
+        "安装与登录": 0,
+        "界面与功能": 3,
+        "运营响应": 0,
+        "IP与产品定位": 0
+      }
+    },
+    "低星": {
+      "n": 40,
+      "has_praise": 4,
+      "has_criticism": 37,
+      "mixed": 3,
+      "no_specific_aspect": 2,
+      "praise": {
+        "玩法与策略": 3,
+        "平衡与随机": 0,
+        "新手与引导": 1,
+        "美术与音画": 0,
+        "节奏与耗时": 0,
+        "福利与任务": 0,
+        "商业化观感": 0,
+        "性能与适配": 0,
+        "安装与登录": 0,
+        "界面与功能": 0,
+        "运营响应": 0,
+        "IP与产品定位": 0
+      },
+      "criticism": {
+        "玩法与策略": 11,
+        "平衡与随机": 9,
+        "新手与引导": 5,
+        "美术与音画": 4,
+        "节奏与耗时": 4,
+        "福利与任务": 6,
+        "商业化观感": 6,
+        "性能与适配": 2,
+        "安装与登录": 3,
+        "界面与功能": 6,
+        "运营响应": 0,
+        "IP与产品定位": 9
+      }
+    }
+  }
+}

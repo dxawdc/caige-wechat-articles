@@ -1,12 +1,12 @@
 # 可以叫我才哥公众号资料库
 
-<!-- 版本：v1.9.0 | 更新时间：2026-09-14 | 状态：按文章独立下载 -->
+<!-- 版本：v1.10.0 | 更新时间：2026-09-14 | 状态：按文章独立下载 -->
 
 每篇文章有独立目录、独立下载包和专属运行入口。选择下表中对应文章即可下载该篇材料；仓库的 Code → Download ZIP 会下载全部文章。
 
 | 文章 | 本篇材料 | 独立包 |
 |---|---|---|
-| [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.0.0/) | 2142条公开评价汇总、爬虫/清洗/TF-IDF/NMF、9张图与自检；不含玩家原文 | [仅下载本篇](downloads/taptap-player-review_v1.0.0.zip) |
+| [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/) | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文 | [仅下载本篇](downloads/taptap-player-review_v1.1.0.zip) |
 | [从预测到分群：Python五类模型](articles/2026-09-14-python-data-mining-5/v1.0.0/) | 5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验 | [仅下载本篇](downloads/python-data-mining-5_v1.0.0.zip) |
 | [Python数据可视化指南：50例](articles/2026-09-13-python-visualization-50/v1.0.2/) | 50份独立源码、模拟CSV、50张PNG与SVG、7个交互图、公众号名标识和241项验收 | [仅下载本篇](downloads/python-visualization-50_v1.0.2.zip) |
 | [只看9月新建：6个AI开源项目](articles/2026-09-08-new-ai-repos/) | 本月创建核验、六份独立任务单、真实界面与图解、范围检查脚本 | [仅下载本篇](downloads/new-ai-repos_v2.0.0.zip) |

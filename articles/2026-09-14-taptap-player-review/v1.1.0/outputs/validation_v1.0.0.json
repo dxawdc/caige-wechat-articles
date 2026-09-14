@@ -1,0 +1,26 @@
+{
+  "checks": {
+    "rating_counts_sum": true,
+    "rating_groups_sum": true,
+    "stage_counts_sum": true,
+    "hour_counts_sum": true,
+    "hour_missing_preserved": true,
+    "daily_counts_sum": true,
+    "no_fake_account_levels": true,
+    "pager_reached_end": true,
+    "theme_rates": true,
+    "phase_theme_denominators": true,
+    "nmf_document_counts": true,
+    "nmf_phase_counts": true,
+    "wilson_limits": true,
+    "theme_ambiguity_regressions": true,
+    "nine_chart_files": true,
+    "private_id_dedup": true,
+    "private_star_range": true,
+    "private_rating_recomputed": true,
+    "private_theme_recomputed": true,
+    "private_matched_windows_recomputed": true
+  },
+  "all_passed": true,
+  "private_recomputed": true
+}

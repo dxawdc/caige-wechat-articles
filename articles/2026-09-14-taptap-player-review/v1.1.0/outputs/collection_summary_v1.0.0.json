@@ -1,0 +1,41 @@
+{
+  "n": 2142,
+  "unique_users": 2142,
+  "duplicate_rows": 2,
+  "pages": 215,
+  "crawl_completed": true,
+  "started_at": "2026-09-14T13:54:05.233170+00:00",
+  "finished_at": "2026-09-14T14:00:56.715647+00:00",
+  "api_totals": [
+    2144,
+    2145
+  ],
+  "stages": {
+    "玩过": 1172,
+    "期待": 959,
+    "未展示状态": 11
+  },
+  "scores": {
+    "1": 494,
+    "2": 282,
+    "3": 259,
+    "4": 211,
+    "5": 896
+  },
+  "periods": {
+    "更早版本": 956,
+    "首发第2–4天": 569,
+    "首发首24小时": 465,
+    "第5天未完整": 99,
+    "首发前7天": 53
+  },
+  "created_min": "2022-11-12 20:59:06+08:00",
+  "version_min": "2022-11-12 20:59:06+08:00",
+  "version_max": "2026-09-14 21:50:31+08:00",
+  "cross_launch_edits": 27,
+  "edited": 182,
+  "played_hours_available": 244,
+  "account_level_available": 0,
+  "text_duplicates": 6,
+  "empty_text": 0
+}

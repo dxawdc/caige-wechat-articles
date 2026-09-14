@@ -1,0 +1,824 @@
+[
+  {
+    "audit_id": "H01",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "喜欢快节奏战斗中的成长和阵容体验"
+  },
+  {
+    "audit_id": "H02",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问预约资格，未给出体验理由"
+  },
+  {
+    "audit_id": "H03",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "界面与功能"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定观战信息细致、便于学习"
+  },
+  {
+    "audit_id": "H04",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定英雄技能和阵容组合的多样性"
+  },
+  {
+    "audit_id": "H05",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定倒转机制与构筑感"
+  },
+  {
+    "audit_id": "H06",
+    "group": "高星",
+    "score": 4,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问上线与同类差异"
+  },
+  {
+    "audit_id": "H07",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "泛泛推荐，没有具体方面"
+  },
+  {
+    "audit_id": "H08",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问与旧模式的差别"
+  },
+  {
+    "audit_id": "H09",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问进展、表达期待"
+  },
+  {
+    "audit_id": "H10",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "美术与音画"
+    ],
+    "criticism": [],
+    "paraphrase": "观看技能演示后肯定特效与打击表现"
+  },
+  {
+    "audit_id": "H11",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "新手与引导"
+    ],
+    "criticism": [
+      "平衡与随机",
+      "新手与引导",
+      "界面与功能"
+    ],
+    "paraphrase": "肯定教学；不满强度随机性、解锁门槛和查看信息的操作"
+  },
+  {
+    "audit_id": "H12",
+    "group": "高星",
+    "score": 4,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "肯定新意，同时不满部分阵容"
+  },
+  {
+    "audit_id": "H13",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "对未来上线表达期待"
+  },
+  {
+    "audit_id": "H14",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "提供逆风操作建议，未明确评价某方面好坏"
+  },
+  {
+    "audit_id": "H15",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "美术与音画"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定开场动画和整体视觉风格"
+  },
+  {
+    "audit_id": "H16",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "泛泛表示还可以"
+  },
+  {
+    "audit_id": "H17",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定按局势选择天赋带来的决策价值"
+  },
+  {
+    "audit_id": "H18",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "叙述获胜过程，没有明确方面态度"
+  },
+  {
+    "audit_id": "H19",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "新手与引导",
+      "美术与音画",
+      "商业化观感"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定音画、简化设计和棋手获取方式；对其他游戏的批评不计入"
+  },
+  {
+    "audit_id": "H20",
+    "group": "高星",
+    "score": 4,
+    "praise": [],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "建议加入禁用，认为有效棋手少、重复"
+  },
+  {
+    "audit_id": "H21",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [
+      "节奏与耗时"
+    ],
+    "paraphrase": "肯定拍卖机制，不满等待其他玩家耗时"
+  },
+  {
+    "audit_id": "H22",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "界面与功能"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定大厅直观简洁、角色代替按钮的设计"
+  },
+  {
+    "audit_id": "H23",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定玩法深度与耐玩性"
+  },
+  {
+    "audit_id": "H24",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略",
+      "新手与引导"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定阵容成长过程有趣、容易上分"
+  },
+  {
+    "audit_id": "H25",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略",
+      "运营响应"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定搜牌规则调整和开发者听取反馈；不是手机性能优化"
+  },
+  {
+    "audit_id": "H26",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问下载方式"
+  },
+  {
+    "audit_id": "H27",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "平衡与随机",
+      "新手与引导"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定公平、上手容易和辅助引导"
+  },
+  {
+    "audit_id": "H28",
+    "group": "高星",
+    "score": 4,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "求测试资格、表达期待"
+  },
+  {
+    "audit_id": "H29",
+    "group": "高星",
+    "score": 4,
+    "praise": [
+      "玩法与策略",
+      "新手与引导"
+    ],
+    "criticism": [
+      "玩法与策略",
+      "福利与任务",
+      "界面与功能"
+    ],
+    "paraphrase": "肯定熟悉英雄和初期新意；不满玩法单调、奖励与信息解释"
+  },
+  {
+    "audit_id": "H30",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略",
+      "美术与音画"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定玩法融合、策略和画面"
+  },
+  {
+    "audit_id": "H31",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [
+      "界面与功能"
+    ],
+    "paraphrase": "希望长按查看天赋说明"
+  },
+  {
+    "audit_id": "H32",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "新手与引导",
+      "节奏与耗时"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定引导、简化人数与流程节约时间"
+  },
+  {
+    "audit_id": "H33",
+    "group": "高星",
+    "score": 4,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "基于旧模式和团队表达期待，未计作当前产品的实际体验肯定"
+  },
+  {
+    "audit_id": "H34",
+    "group": "高星",
+    "score": 4,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "总体认可，无明确具体方面"
+  },
+  {
+    "audit_id": "H35",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定成长、逆风翻盘与策略"
+  },
+  {
+    "audit_id": "H36",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定越玩越有趣的阵容体验"
+  },
+  {
+    "audit_id": "H37",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [
+      "玩法与策略"
+    ],
+    "paraphrase": "不满阵容禁用限制，即使给了五星也保留批评"
+  },
+  {
+    "audit_id": "H38",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "节奏与耗时"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定单局适合碎片时间"
+  },
+  {
+    "audit_id": "H39",
+    "group": "高星",
+    "score": 5,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定借用敌方角色与翻盘决策"
+  },
+  {
+    "audit_id": "H40",
+    "group": "高星",
+    "score": 5,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问测试时间"
+  },
+  {
+    "audit_id": "L01",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "新手与引导"
+    ],
+    "paraphrase": "不满新手教程太长"
+  },
+  {
+    "audit_id": "L02",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "美术与音画",
+      "界面与功能"
+    ],
+    "paraphrase": "不满美术、玩法设计和技能信息不完整"
+  },
+  {
+    "audit_id": "L03",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "商业化观感",
+      "IP与产品定位"
+    ],
+    "paraphrase": "不满IP衍生数量与商业动机；不是已确认的收费事实"
+  },
+  {
+    "audit_id": "L04",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "要求削弱特定英雄"
+  },
+  {
+    "audit_id": "L05",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "界面与功能"
+    ],
+    "paraphrase": "不满弹窗打扰"
+  },
+  {
+    "audit_id": "L06",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "节奏与耗时",
+      "福利与任务"
+    ],
+    "paraphrase": "不满领取奖励耗时、过程无聊"
+  },
+  {
+    "audit_id": "L07",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "福利与任务"
+    ],
+    "paraphrase": "反映平板奖励领取受阻，未推断为设备性能问题"
+  },
+  {
+    "audit_id": "L08",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "节奏与耗时"
+    ],
+    "paraphrase": "不满阵容禁用与单局耗时"
+  },
+  {
+    "audit_id": "L09",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "商业化观感",
+      "IP与产品定位"
+    ],
+    "paraphrase": "觉得玩法无趣，质疑衍生项目的商业动机"
+  },
+  {
+    "audit_id": "L10",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "不满强度过高"
+  },
+  {
+    "audit_id": "L11",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "平衡与随机"
+    ],
+    "paraphrase": "不满强势组合及标准答案压缩探索；领取点券只是计划，不标成福利抱怨"
+  },
+  {
+    "audit_id": "L12",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "平衡与随机",
+      "福利与任务"
+    ],
+    "paraphrase": "不满随机发牌、对局体验与繁琐少量奖励；人机说法仅为玩家判断"
+  },
+  {
+    "audit_id": "L13",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "福利与任务"
+    ],
+    "paraphrase": "不满跨账号奖励绑定与礼包数量；不是登录失败"
+  },
+  {
+    "audit_id": "L14",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "商业化观感",
+      "IP与产品定位"
+    ],
+    "paraphrase": "质疑同类竞争力及商业动机"
+  },
+  {
+    "audit_id": "L15",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略"
+    ],
+    "paraphrase": "不满装备无法卖出占位和拍卖体验"
+  },
+  {
+    "audit_id": "L16",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "整体负面但没有具体理由"
+  },
+  {
+    "audit_id": "L17",
+    "group": "低星",
+    "score": 2,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [
+      "平衡与随机",
+      "性能与适配",
+      "福利与任务"
+    ],
+    "paraphrase": "略肯定玩法；不满卡牌随机性、成就界面卡顿与无奖励"
+  },
+  {
+    "audit_id": "L18",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "商业化观感",
+      "IP与产品定位"
+    ],
+    "paraphrase": "不认同继续拆分IP衍生产品和商业动机"
+  },
+  {
+    "audit_id": "L19",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "IP与产品定位"
+    ],
+    "paraphrase": "认为同质化、同类产品更好；不确认抄袭事实"
+  },
+  {
+    "audit_id": "L20",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "不满棋手伤害压过棋子"
+  },
+  {
+    "audit_id": "L21",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "不满随机性与匹配公平感；不确认后台操控胜率"
+  },
+  {
+    "audit_id": "L22",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "安装与登录"
+    ],
+    "paraphrase": "反映资格激活、游戏下载流程受阻"
+  },
+  {
+    "audit_id": "L23",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "平衡与随机"
+    ],
+    "paraphrase": "对特定棋手强度不满，削弱诉求的方向不额外推断"
+  },
+  {
+    "audit_id": "L24",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "IP与产品定位"
+    ],
+    "paraphrase": "不认同产品差异化方向；抄袭为评论者表述，非事实结论"
+  },
+  {
+    "audit_id": "L25",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "新手与引导",
+      "界面与功能"
+    ],
+    "paraphrase": "不满界面杂乱和机制难理解"
+  },
+  {
+    "audit_id": "L26",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "IP与产品定位"
+    ],
+    "paraphrase": "认为内容体量不足以支撑独立产品"
+  },
+  {
+    "audit_id": "L27",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "新手与引导",
+      "美术与音画",
+      "界面与功能"
+    ],
+    "paraphrase": "不满引导、美术风格、角色太小及界面布局"
+  },
+  {
+    "audit_id": "L28",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [],
+    "paraphrase": "询问回合制项目，没有明确具体批评"
+  },
+  {
+    "audit_id": "L29",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "IP与产品定位"
+    ],
+    "paraphrase": "认为IP英雄特色被削弱"
+  },
+  {
+    "audit_id": "L30",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "新手与引导",
+      "节奏与耗时",
+      "安装与登录"
+    ],
+    "paraphrase": "不满机制复杂、流程长、启动慢；未确认性能故障"
+  },
+  {
+    "audit_id": "L31",
+    "group": "低星",
+    "score": 2,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [
+      "美术与音画"
+    ],
+    "paraphrase": "明确肯定玩法，同时强烈不满棋手美术"
+  },
+  {
+    "audit_id": "L32",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "安装与登录"
+    ],
+    "paraphrase": "反映断线无法重连与重新进入"
+  },
+  {
+    "audit_id": "L33",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "美术与音画",
+      "界面与功能"
+    ],
+    "paraphrase": "不满角色美术和界面观感"
+  },
+  {
+    "audit_id": "L34",
+    "group": "低星",
+    "score": 2,
+    "praise": [
+      "新手与引导"
+    ],
+    "criticism": [],
+    "paraphrase": "肯定公测允许跳过部分新手流程；其余批评未给具体方面"
+  },
+  {
+    "audit_id": "L35",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略"
+    ],
+    "paraphrase": "不满成长机制单调、合成限制、操作机械"
+  },
+  {
+    "audit_id": "L36",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "性能与适配"
+    ],
+    "paraphrase": "反映模拟器适配变化"
+  },
+  {
+    "audit_id": "L37",
+    "group": "低星",
+    "score": 2,
+    "praise": [
+      "玩法与策略"
+    ],
+    "criticism": [
+      "玩法与策略"
+    ],
+    "paraphrase": "肯定拍卖，认为其他玩法体验不如同类；同方面允许正负并存"
+  },
+  {
+    "audit_id": "L38",
+    "group": "低星",
+    "score": 1,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "新手与引导",
+      "商业化观感",
+      "IP与产品定位"
+    ],
+    "paraphrase": "不满机制复杂、上手困难、同质化与付费观感"
+  },
+  {
+    "audit_id": "L39",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "玩法与策略",
+      "平衡与随机",
+      "节奏与耗时"
+    ],
+    "paraphrase": "不满随机性、转型空间和快节奏低容错；节奏问题并非总是太慢"
+  },
+  {
+    "audit_id": "L40",
+    "group": "低星",
+    "score": 2,
+    "praise": [],
+    "criticism": [
+      "福利与任务",
+      "商业化观感",
+      "界面与功能"
+    ],
+    "paraphrase": "不满福利、充值入口和弹窗打扰"
+  }
+]
