@@ -1,0 +1,29 @@
+{
+  "version": "v1.0.0",
+  "cases": [
+    {
+      "width": 1280,
+      "passed": true,
+      "font_px": 11,
+      "leaf_14px_regression": true,
+      "negative_control_detected": true
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "font_px": 11,
+      "leaf_14px_regression": true,
+      "negative_control_detected": true
+    },
+    {
+      "width": 360,
+      "passed": true,
+      "font_px": 11,
+      "leaf_14px_regression": true,
+      "negative_control_detected": true
+    }
+  ],
+  "source_roundtrip": true,
+  "real_wechat_phone_verified": false,
+  "network_or_draft_mutation": false
+}

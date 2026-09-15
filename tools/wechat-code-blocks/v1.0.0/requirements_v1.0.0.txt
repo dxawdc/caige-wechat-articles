@@ -1,0 +1,4 @@
+# v1.0.0 | 2026-09-15 | 制作环境已验证版本；playwright只用于验收
+lxml==6.1.3
+Pygments==2.21.0
+playwright==1.62.0
