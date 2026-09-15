@@ -1,0 +1,95 @@
+{
+  "version": "v1.0.1",
+  "real_wechat_phone_verified": false,
+  "source_code_unchanged": true,
+  "syntax_colors_unchanged": true,
+  "code_blocks": 13,
+  "body_images_unchanged": 7,
+  "caption_gap_px": 6,
+  "cases": [
+    {
+      "source": "本地",
+      "width": 1280,
+      "synthetic_css_override": false,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "本地",
+      "width": 1280,
+      "synthetic_css_override": true,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "本地",
+      "width": 390,
+      "synthetic_css_override": false,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "本地",
+      "width": 390,
+      "synthetic_css_override": true,
+      "passed": true,
+      "simulated_touch_scroll_px": 156
+    },
+    {
+      "source": "本地",
+      "width": 360,
+      "synthetic_css_override": false,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "本地",
+      "width": 360,
+      "synthetic_css_override": true,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "API回读",
+      "width": 1280,
+      "synthetic_css_override": false,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "API回读",
+      "width": 1280,
+      "synthetic_css_override": true,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "API回读",
+      "width": 390,
+      "synthetic_css_override": false,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "API回读",
+      "width": 390,
+      "synthetic_css_override": true,
+      "passed": true,
+      "simulated_touch_scroll_px": 156
+    },
+    {
+      "source": "API回读",
+      "width": 360,
+      "synthetic_css_override": false,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    },
+    {
+      "source": "API回读",
+      "width": 360,
+      "synthetic_css_override": true,
+      "passed": true,
+      "simulated_touch_scroll_px": null
+    }
+  ]
+}
