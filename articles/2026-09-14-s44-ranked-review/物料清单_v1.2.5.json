@@ -1,0 +1,456 @@
+{
+  "version": "v1.2.5",
+  "article_full_text_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 63,
+      "sha256": "b757cd123e1d84cbd5987325b6d56bd03206c83bc5d686067219919b9d9203d9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8744,
+      "sha256": "b34818ec71bc90d38b9eb44f159fb84d7e85a89ffba6a9affec05975daa0a0fc"
+    },
+    {
+      "path": "README_v1.2.0.md",
+      "bytes": 6670,
+      "sha256": "bb25029688fb368762285cae88506f830adda88ed0f07a364f40c4636f37e860"
+    },
+    {
+      "path": "README_v1.2.1.md",
+      "bytes": 7622,
+      "sha256": "84b041891fbfdc6deb176a175db0b752b64e2850c7ff7761634d369ec5611850"
+    },
+    {
+      "path": "README_v1.2.2.md",
+      "bytes": 7914,
+      "sha256": "5d9983e9e913f922726c6c99618e25443aaf1745d1e5816c7408548bdfb8a7ca"
+    },
+    {
+      "path": "README_v1.2.3.md",
+      "bytes": 8183,
+      "sha256": "9c71a31674903e0f6edbd998a40aa2b7e5173a71d7e350493d56d53dbedd6988"
+    },
+    {
+      "path": "README_v1.2.4.md",
+      "bytes": 8435,
+      "sha256": "4c74070ff8eae5aab18efbeb6f67ca514a7c7ab59c250c1bff9206503ebbda98"
+    },
+    {
+      "path": "README_v1.2.5.md",
+      "bytes": 8744,
+      "sha256": "b34818ec71bc90d38b9eb44f159fb84d7e85a89ffba6a9affec05975daa0a0fc"
+    },
+    {
+      "path": "requirements_v1.0.0.txt",
+      "bytes": 61,
+      "sha256": "d36f5e2db3f3039a41f3e5beb55c55b868436825c10ce1da2c010981d39189a9"
+    },
+    {
+      "path": "requirements_排版_v1.2.1.txt",
+      "bytes": 46,
+      "sha256": "da89c8ab001e3502b7a69ac56e7a48d6894b995f75bb31e56366a6217edda6d7"
+    },
+    {
+      "path": "requirements_采集_v1.0.0.txt",
+      "bytes": 42,
+      "sha256": "156df187919ea9f6703dbf32dcc2c9356a717dc947dddebfa2912a05797cd22d"
+    },
+    {
+      "path": "S44赛季排位海报_v1.1.0.png",
+      "bytes": 2451810,
+      "sha256": "5bc26ebc1d3f5ce2a8faa8706940edca9c9ce264899bf0864a365e2dd880ace6"
+    },
+    {
+      "path": "公众号封面_v1.2.0.png",
+      "bytes": 84520,
+      "sha256": "5c4f8ac69094f28f40d3f5bb6aea092b4fec07d5c9cbee1b1ba07488ca7db50d"
+    },
+    {
+      "path": "分析_v1.2.0.py",
+      "bytes": 19834,
+      "sha256": "9fc3804c2a251aee5176ae2ed8ce03c26ad56d02cca6fdf7f857fd46a54438c3"
+    },
+    {
+      "path": "图表_v1.2.0/01_赛季总览_v1.2.0.png",
+      "bytes": 118679,
+      "sha256": "63f27aaecc1ccb0e2fbed8785efb9a1e75b6ddfd2ee3ae6c61f09c29661dca7a"
+    },
+    {
+      "path": "图表_v1.2.0/01_赛季总览_v1.2.0.svg",
+      "bytes": 83098,
+      "sha256": "3afba2905ec5042576be837d88a3c8e7d0ec5a319d7ebb3f79c8799ba8251b60"
+    },
+    {
+      "path": "图表_v1.2.0/02_组队比较_v1.2.0.png",
+      "bytes": 107203,
+      "sha256": "1c2dde88ff9bf9f2469fa42c3774b4a51acda48f496d2b879d82719d438bbb67"
+    },
+    {
+      "path": "图表_v1.2.0/02_组队比较_v1.2.0.svg",
+      "bytes": 70564,
+      "sha256": "0f6ed4404c77eefc35048431b742494b65bc2bc2a31e60e86b4746c2202b9c8e"
+    },
+    {
+      "path": "图表_v1.2.0/03_段位静态轨迹_v1.2.0.png",
+      "bytes": 154859,
+      "sha256": "3b461e3b43af753e18174aedc6effced2c412f279edcc4d1c192a2e2ca99b8d1"
+    },
+    {
+      "path": "图表_v1.2.0/03_段位静态轨迹_v1.2.0.svg",
+      "bytes": 110185,
+      "sha256": "fb517b8e07aa1faa1f4faa4410cc888e52d9243a863d1c5181343665a96b337a"
+    },
+    {
+      "path": "图表_v1.2.0/04_段位动态轨迹_v1.2.0.gif",
+      "bytes": 671481,
+      "sha256": "46f46e45badaef61c9be44b6b0a768e97c693b054377049c4b2e212213efb8d9"
+    },
+    {
+      "path": "图表_v1.2.0/05_英雄使用与胜率_v1.2.0.png",
+      "bytes": 168193,
+      "sha256": "2baaf9582cd9061cae0c87947621c4e742fdb18a63cdaa51e4623c0e5c032824"
+    },
+    {
+      "path": "图表_v1.2.0/05_英雄使用与胜率_v1.2.0.svg",
+      "bytes": 139993,
+      "sha256": "0755a9248c4c9ded0ea91e39c4ba63794aee3846c9d03a6f825b152771667ef6"
+    },
+    {
+      "path": "图表_v1.2.0/06_星期分布_v1.2.0.png",
+      "bytes": 79949,
+      "sha256": "459df9129e67d1eabbd20fa8f20122d848e16e9f2718b5b0d7d6743d6823b80a"
+    },
+    {
+      "path": "图表_v1.2.0/06_星期分布_v1.2.0.svg",
+      "bytes": 70805,
+      "sha256": "a9b81a6f8fca1b588783903965c91c3a489a6641f9f01738b365a8e281451dbf"
+    },
+    {
+      "path": "图表_v1.2.0/07_小时分布_v1.2.0.png",
+      "bytes": 66872,
+      "sha256": "de366aa8e298520b4f4f544591ab80c3a827380f1771ea95881a2b91801d1d00"
+    },
+    {
+      "path": "图表_v1.2.0/07_小时分布_v1.2.0.svg",
+      "bytes": 57800,
+      "sha256": "1b5ebc777600cae2fcb8ebd45e456ec4c75aa6cc65628afbee6aa1e0bf51362e"
+    },
+    {
+      "path": "图表_v1.2.0/08_星期小时热力图_v1.2.0.png",
+      "bytes": 90785,
+      "sha256": "416ff4e5799e298c4d71eeb5910ef13f6e2e1e15e372f17f769170dc4eec3242"
+    },
+    {
+      "path": "图表_v1.2.0/08_星期小时热力图_v1.2.0.svg",
+      "bytes": 84425,
+      "sha256": "af2fe8f9dd99f46d5fb0913a17db65652c7f78dd7a0f7f8293e6a95b47f1f3ff"
+    },
+    {
+      "path": "图表_v1.2.0/09_每日升降星_v1.2.0.png",
+      "bytes": 94762,
+      "sha256": "f50ced34bea047f86851b2577d0868b27a7e861b30d735b86799bf628a43a939"
+    },
+    {
+      "path": "图表_v1.2.0/09_每日升降星_v1.2.0.svg",
+      "bytes": 88246,
+      "sha256": "951ed371eb6ab3a9e546db3eaf8f6360f86152af6c75dac8fa5ad3bed40a5921"
+    },
+    {
+      "path": "图表_v1.2.0/10_对局时长分布_v1.2.0.png",
+      "bytes": 87955,
+      "sha256": "34f12970c43934d8903241f2317caa7529f33229445fddec84a123ab9aeec71a"
+    },
+    {
+      "path": "图表_v1.2.0/10_对局时长分布_v1.2.0.svg",
+      "bytes": 67748,
+      "sha256": "59cb7c3de45310b34d9d964c99bdc9bdafc03fa3ce9f0eb87f87817e89bfe8bb"
+    },
+    {
+      "path": "图表_v1.2.0/11_单局击杀分布_v1.2.0.png",
+      "bytes": 79857,
+      "sha256": "ac6bb5e50e3ad1a9b8f0215727c51ae085196ebcecff71b641106ed9d1ac2856"
+    },
+    {
+      "path": "图表_v1.2.0/11_单局击杀分布_v1.2.0.svg",
+      "bytes": 62772,
+      "sha256": "25bbb2b9a5aed5356a545e279d21524d649ee576f7d04cf79c2a75dbee2a02e1"
+    },
+    {
+      "path": "图表_v1.2.0/12_每日场均击杀分布_v1.2.0.png",
+      "bytes": 68471,
+      "sha256": "790685d8a7cd2259dbaf51e9593a7cc7dac7dac29249519f90a3c48683b1b915"
+    },
+    {
+      "path": "图表_v1.2.0/12_每日场均击杀分布_v1.2.0.svg",
+      "bytes": 56382,
+      "sha256": "6fdf63379cea8481e7dddf7d18e48cae200742020d8fcbb4573e43e93c4cd3c0"
+    },
+    {
+      "path": "图表_v1.2.0/13_局评价分布_v1.2.0.png",
+      "bytes": 80356,
+      "sha256": "55fe2116ab9b0d590fe207d1f5bbafde47cfd356dda27f7d2ce6d6352ff708e4"
+    },
+    {
+      "path": "图表_v1.2.0/13_局评价分布_v1.2.0.svg",
+      "bytes": 69595,
+      "sha256": "1766178f58883d3d708b72213e0299029dfe8f196da2a12647b81e216f51f369"
+    },
+    {
+      "path": "图表_v1.2.0/14_滚动胜率_v1.2.0.png",
+      "bytes": 114499,
+      "sha256": "290c08460cd9ff97290c04cea0a176556664eab5b5453b43f4d57d2311ea4910"
+    },
+    {
+      "path": "图表_v1.2.0/14_滚动胜率_v1.2.0.svg",
+      "bytes": 63347,
+      "sha256": "b8a3b1eb68dcb46bba759efcc01c77744be0c6af314e0629309e2baebe72da2e"
+    },
+    {
+      "path": "图表_v1.2.0/17_赛季趣味纪录_v1.2.0.png",
+      "bytes": 127287,
+      "sha256": "148418b8fadb2e83b054bb3df5fb89ae18dfa9382dd45fa36437a84ca48c1bab"
+    },
+    {
+      "path": "图表_v1.2.0/17_赛季趣味纪录_v1.2.0.svg",
+      "bytes": 118434,
+      "sha256": "b6cedfcfa91762f366b32400da671a4b8a28da8e5dd404a0f9200d0a9318de10"
+    },
+    {
+      "path": "图表_v1.2.0/18_三连后下一局胜率_v1.2.0.png",
+      "bytes": 119145,
+      "sha256": "b8cdafb91a4020af2e056f9a197ef191f74beed7c61f133eee3178ab0cd1b3e9"
+    },
+    {
+      "path": "图表_v1.2.0/18_三连后下一局胜率_v1.2.0.svg",
+      "bytes": 97168,
+      "sha256": "78e2cd33a533346feb713f951c826016fb50f23f4f77f7e5f9abedbbf07e6a38"
+    },
+    {
+      "path": "图表_v1.2.0/19_金银牌分路分布_v1.2.0.png",
+      "bytes": 87310,
+      "sha256": "f585eb32efb2f296effe768899db0c224199ea40d73422d9edd7c43f25b6795a"
+    },
+    {
+      "path": "图表_v1.2.0/19_金银牌分路分布_v1.2.0.svg",
+      "bytes": 70449,
+      "sha256": "93abc94559cb1fa67ecb1ce1806ef9ed017fbf720478e93184b7facaf40427e4"
+    },
+    {
+      "path": "图表_v1.2.0/20_金银牌英雄分布_v1.2.0.png",
+      "bytes": 104747,
+      "sha256": "4a02ad0186e9882311fc2b7fc70d45a0966640abb8fab56a7bbd47017d5f5058"
+    },
+    {
+      "path": "图表_v1.2.0/20_金银牌英雄分布_v1.2.0.svg",
+      "bytes": 94084,
+      "sha256": "47a60292ea4db50615f9263ecfc54ef935814d942b0aff202c0009103fc56bcc"
+    },
+    {
+      "path": "图表_v1.2.0/21_完整详情牌子分布_v1.2.0.png",
+      "bytes": 98550,
+      "sha256": "94da3d5d4a8a93f047f73041f4483536fcfd1b35209802a2efb599bb611174c3"
+    },
+    {
+      "path": "图表_v1.2.0/21_完整详情牌子分布_v1.2.0.svg",
+      "bytes": 82160,
+      "sha256": "bc46d0931f78fc38a871b19a86dddc926039d3772efa7d04864e53b1209cdeca"
+    },
+    {
+      "path": "图表_v1.2.0/22_对局评分分布_v1.2.0.png",
+      "bytes": 146540,
+      "sha256": "1ec86c8b1ed59d7c505fb83ae0f2221ff9087d46369e3f75c3f95439f7bf2287"
+    },
+    {
+      "path": "图表_v1.2.0/22_对局评分分布_v1.2.0.svg",
+      "bytes": 109541,
+      "sha256": "5ae21c60fc8ed6d84ee53500db675fd3adba33ef6129eb871cbc451dbe7909dd"
+    },
+    {
+      "path": "字号修订说明_v1.2.4.md",
+      "bytes": 1178,
+      "sha256": "473fbbaa8ab75008fa102c9371dd86375c374241f9e5991221c7dbcf875c9bd6"
+    },
+    {
+      "path": "字号修订说明_v1.2.5.md",
+      "bytes": 1638,
+      "sha256": "acd27c5f6f046375693d70f8db9fe915e86ee11b677296c825f4a3a8d9caeadf"
+    },
+    {
+      "path": "字号验收摘要_v1.2.4.json",
+      "bytes": 2345,
+      "sha256": "45c05ca63a7e4515164f00b1bc19cf039e2e7c11153666721895ddd875bb1652"
+    },
+    {
+      "path": "字号验收摘要_v1.2.5.json",
+      "bytes": 2117,
+      "sha256": "7f434a7441ef04bbf9c086d43ca5d0b82fb9260acf261ab1da53dc16098c9d65"
+    },
+    {
+      "path": "官方英雄字典_v1.0.0.json",
+      "bytes": 42840,
+      "sha256": "a969270436b367288285f8a580d0fc238e84218ddf9ba8c484364dcab6dc8ed5"
+    },
+    {
+      "path": "微信排版_v1.2.1.py",
+      "bytes": 7970,
+      "sha256": "54837676f8e6574e8026525a0ab7e4cd25214b6b3d90eb889d36b2ebdff4545b"
+    },
+    {
+      "path": "微信排版_v1.2.2.py",
+      "bytes": 8774,
+      "sha256": "be142306ecb712e234c5337de6c3fd6a662469f48b412614cf379b9c085d1cd5"
+    },
+    {
+      "path": "微信排版_v1.2.3.py",
+      "bytes": 9170,
+      "sha256": "3b1daa930e4bf8f6aba50f7ee0c0ec81ee2ededd6d877317a96fc3cfe2569073"
+    },
+    {
+      "path": "微信排版_v1.2.4.py",
+      "bytes": 9687,
+      "sha256": "f6d47362630e29ce735b1dcbcf37275f85ec1e32d3331062bd1f6d289e226408"
+    },
+    {
+      "path": "微信排版_v1.2.5.py",
+      "bytes": 10072,
+      "sha256": "0c38975604b6e0667afd417ec204bd0193ebc1c23169d4181803950216e8ac9d"
+    },
+    {
+      "path": "横滑修订说明_v1.2.2.md",
+      "bytes": 2034,
+      "sha256": "da952cf2342d4d973f46f25cb0ff28576f9ef03433cffa7684645ba90d383518"
+    },
+    {
+      "path": "横滑验收摘要_v1.2.2.json",
+      "bytes": 2131,
+      "sha256": "c81a5f72eb9f10742b3cd933eae42a04f672e15924801096f2648b15b53e5349"
+    },
+    {
+      "path": "段位映射证据_v1.1.0.json",
+      "bytes": 5060,
+      "sha256": "25d8be8c19d6d1ca0dfd92cfa4640332b68dd0a539b71dfd62ae45e193f8f8d7"
+    },
+    {
+      "path": "海报提示词_v1.1.0.md",
+      "bytes": 2638,
+      "sha256": "c839265e443fbaded3b00579cca236f5ff6e9b7309264cc5dad164c1389f4e3b"
+    },
+    {
+      "path": "清洗列表_v1.1.0.py",
+      "bytes": 3852,
+      "sha256": "158edf695225f92162941dbe66ff9b896c32fa1016c75507804db760c1f65d59"
+    },
+    {
+      "path": "绘图_v1.2.0.py",
+      "bytes": 22064,
+      "sha256": "3308da0330593cea1d7d3db10c7e4b2091bc228c249b0e3065cada121e3de79b"
+    },
+    {
+      "path": "统计表_v1.2.0/三连后下一局胜率_v1.2.0.csv",
+      "bytes": 451,
+      "sha256": "5b69636856ce3d78a629588d7b916fc975102b51483e7f5b9ff7f9dfde4de206"
+    },
+    {
+      "path": "统计表_v1.2.0/单局击杀分布_v1.2.0.csv",
+      "bytes": 103,
+      "sha256": "26dc6ba383caa24bde7e628c063553909c57c04dfbaf01a4f3dd08470eefd007"
+    },
+    {
+      "path": "统计表_v1.2.0/完整详情牌子分布_v1.2.0.csv",
+      "bytes": 100,
+      "sha256": "8ccaa9c6ebd35bde721ce466a146f16f324f0bbd65ad1f6ad9d51755da0aef64"
+    },
+    {
+      "path": "统计表_v1.2.0/对局评分分布_v1.2.0.csv",
+      "bytes": 415,
+      "sha256": "2b09826a910ae689686bd08f541e43273797d67318c75212287b7997a0d39f87"
+    },
+    {
+      "path": "统计表_v1.2.0/小时_v1.2.0.csv",
+      "bytes": 3053,
+      "sha256": "96bf97143fc4fa511e2333829a5edf0345c42e194eac4c20fa4df8e16dd4bc5f"
+    },
+    {
+      "path": "统计表_v1.2.0/局评价_v1.2.0.csv",
+      "bytes": 1432,
+      "sha256": "699e3cc1a72ad87a57bb9bd09bf6d4c100503666ca00d0b445f1e2f2fe239566"
+    },
+    {
+      "path": "统计表_v1.2.0/日期_v1.2.0.csv",
+      "bytes": 7499,
+      "sha256": "5b8f7781dee7b0591439fa8ba3f920b7b5ffa32a5c138884223736a71556a878"
+    },
+    {
+      "path": "统计表_v1.2.0/时长分布_v1.2.0.csv",
+      "bytes": 1065,
+      "sha256": "14caa733b341d47d3986c9be86d834c696e611a12bf27c1530a97e8697d47d0e"
+    },
+    {
+      "path": "统计表_v1.2.0/星期_v1.2.0.csv",
+      "bytes": 1439,
+      "sha256": "cbd31df89fa6a157d4f2c15dac67dcc0bf9f168fc65257744541b41aeb8074f6"
+    },
+    {
+      "path": "统计表_v1.2.0/星期小时矩阵_v1.2.0.csv",
+      "bytes": 424,
+      "sha256": "0f45cc78900abb34ff581648109913c231bf8f082ccfe1e840e97bea0c34c4b2"
+    },
+    {
+      "path": "统计表_v1.2.0/段位分布_v1.2.0.csv",
+      "bytes": 2593,
+      "sha256": "e616621fc5e08b699dbd3062522c4692b2fffe81ad9189a74b9cc29ac83634b1"
+    },
+    {
+      "path": "统计表_v1.2.0/每日升降星_v1.2.0.csv",
+      "bytes": 3416,
+      "sha256": "87c6aeb2ad0d7c836b0e17356cffbb141905f5480656e147d852962b2b5e0e03"
+    },
+    {
+      "path": "统计表_v1.2.0/每日场均击杀分布_v1.2.0.csv",
+      "bytes": 64,
+      "sha256": "39805ce79c39c57fe5654f6b131b1cabc28bde5bb965d1a959808d7ccc840afd"
+    },
+    {
+      "path": "统计表_v1.2.0/组队_v1.2.0.csv",
+      "bytes": 876,
+      "sha256": "77f5fbb937330e2fde591c7d521e439733455b1bc93c1f34f4f7511eedef04a9"
+    },
+    {
+      "path": "统计表_v1.2.0/组队段位构成_v1.2.0.csv",
+      "bytes": 74,
+      "sha256": "7de9426ac71911425ffdc96292843baa5cbc9071a88e947cd730d7ada2a6e244"
+    },
+    {
+      "path": "统计表_v1.2.0/英雄_v1.2.0.csv",
+      "bytes": 4786,
+      "sha256": "07083bc6ee6e81577bbaccdecb958e313e054b472b575682285323f53c31bcbe"
+    },
+    {
+      "path": "统计表_v1.2.0/金银牌分路_v1.2.0.csv",
+      "bytes": 87,
+      "sha256": "873204e6bdb2788234135be85c5a25928223cc09fa14ff4001e4ce006271ae7e"
+    },
+    {
+      "path": "统计表_v1.2.0/金银牌英雄_v1.2.0.csv",
+      "bytes": 211,
+      "sha256": "5fd44e621276898bb077d5a7007dfd7d9e5edb878cf78d58842b5ed07123290c"
+    },
+    {
+      "path": "采集器_v1.1.0.py",
+      "bytes": 12838,
+      "sha256": "349862bfe53ffc160e3947f1caa1dddcbc1f2af55b2634b460c557cfa7d52258"
+    },
+    {
+      "path": "高亮修订说明_v1.2.3.md",
+      "bytes": 1442,
+      "sha256": "727a4a7cbb0a59e770ab97ed91ebc22cd53ce665a539e816edadd1792106fa5e"
+    },
+    {
+      "path": "高亮横滑验收摘要_v1.2.3.json",
+      "bytes": 2294,
+      "sha256": "4436813eaf7a484ef5f40c78b50ac035a7c90e608a16ca7107a1bda7915a5dbb"
+    }
+  ]
+}
