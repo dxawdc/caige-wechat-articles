@@ -1,4 +1,4 @@
-# v1.1.0 | 2026-09-06
+# v1.2.0 | 2026-09-15
 .venv/
 __pycache__/
 *.pyc
@@ -6,3 +6,18 @@ __pycache__/
 .env.*
 *.log
 .DS_Store
+
+# 本地运行、缓存及私人采集结果
+运行结果/
+private/
+node_modules/
+*.tmp
+*.bak
+Thumbs.db
+# 微信凭据与仅供本人的记录
+*_私有*
+*草稿回执*
+*素材映射*
+*封面映射*
+*.pem
+*.key

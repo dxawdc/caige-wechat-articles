@@ -13,7 +13,7 @@
 
 ## 下载
 
-[下载整库 ZIP](https://github.com/dxawdc/caige-wechat-articles/archive/refs/heads/main.zip)，解压后进入 `articles/2026-09-06-36-charts/`。
+[仅下载本篇 ZIP](https://raw.githubusercontent.com/dxawdc/caige-wechat-articles/main/downloads/36-charts_v1.1.0.zip)，解压后进入 `36-charts_v1.1.0/`。
 
 想看交互图，双击本目录内 `交互图目录_v1.1.0.html`。请保留 `图表/plotly.min.js`；GitHub 文件页面不直接执行 HTML，需要下载到本地打开。
 
@@ -38,3 +38,5 @@ macOS/Linux 将解释器路径改成 `.venv/bin/python`。中文字体需在本�
 Plotly 静态图片通过 Kaleido 导出，需要 Chrome/Chromium。[官方静态导出说明](https://plotly.com/python/static-image-export/)。Windows 示例会自动尝试标准 Chrome 安装位置；其他环境按官方说明配置。
 
 文章里的短代码省略了重复导入和造数，直接运行独立 `.py` 文件即可。代码、数据和绘图资产沿用原 v1.0.0 文件名，v1.1.0 增加图文核对和公开资料入口。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

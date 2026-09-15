@@ -1,9 +1,6 @@
 # Python数据可视化指南：50例配套资料
 
-版本：v1.0.2  
-更新时间：2026-09-13  
-状态：可运行的原创示例物料  
-作者：才哥AGI
+版本：v1.0.2｜更新时间：2026-09-13｜状态：可运行的原创示例物料｜作者：才哥AGI
 
 50份独立Python脚本，模拟数据、PNG/SVG与指标记录。7个Plotly案例另含交互HTML。图形任务参考蓝星宇《数据可视化设计指南：从数据到新知》，本目录不包含原PDF或未发表文章全文。
 
@@ -36,3 +33,7 @@ macOS/Linux请替换为.venv/bin/python。只运行03与45：python run_all_v1_0
 ## 版本说明
 
 v1.0.2：图内标识统一为“可以叫我才哥”；文章正文/代码/标题设为15/11/17px，精简参考说明并去除顶部空白。数据与计算逻辑不变。
+
+来源页码和图号见[案例来源映射](案例来源映射_v1.0.0.md)，与当前50例对应。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

@@ -1343,8 +1343,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2409,
-      "sha256": "04330ff271e252023cf42b14a79c7a925002a25589996fd282019ed03e45a7a8"
+      "bytes": 2643,
+      "sha256": "dd606247b3fc6760181f43ec7182af91939427353d546ef2e1af2a693a7eee18"
     },
     {
       "path": "requirements_v1.0.0.txt",
@@ -1377,6 +1377,16 @@
       "sha256": "d4995c9538f263bba4f4eb01c822ca5dd48bb41ce8e6c36fda720793602cad69"
     },
     {
+      "path": "案例来源映射_v1.0.0.json",
+      "bytes": 12279,
+      "sha256": "2c07af2ea38012f38ef40f800b8b1163b1a760774dd0735eaa64170500a38293"
+    },
+    {
+      "path": "案例来源映射_v1.0.0.md",
+      "bytes": 3381,
+      "sha256": "1733debcc9781dad7279d35c1ae99dcbf078f00104a645869235a37a808ac163"
+    },
+    {
       "path": "案例索引_v1.0.2.json",
       "bytes": 10304,
       "sha256": "63e192eac2a06a4db6bd198c71b42aa53e426f15b0b87b964bfd872e58f5e8dc"
@@ -1396,5 +1406,6 @@
       "bytes": 18990,
       "sha256": "3572cf0589268a3fb35b31b58cfb16cae78e1c5458d9e97e68b0694df1fe8274"
     }
-  ]
+  ],
+  "material_policy": "latest-complete-set-only"
 }

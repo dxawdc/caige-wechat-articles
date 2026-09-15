@@ -9,3 +9,9 @@
 完整说明见[代码块规范与实现方案](代码块规范与实现方案_v1.0.0.md)。入口为`公众号代码块_v1.0.0.py`，输入显式language/source的JSON；本地验收用`代码块验收_v1.0.0.py`。运行命令、接入方式、依赖和证据边界均在说明中。
 
 版本说明：首次提取通用模块，保留已有文章专用版本。
+
+## 独立资料包
+
+[仅下载本篇 ZIP](https://raw.githubusercontent.com/dxawdc/caige-wechat-articles/main/downloads/wechat-code-blocks_v1.0.0.zip)。解压后进入 `wechat-code-blocks_v1.0.0/`，按本页运行步骤使用。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

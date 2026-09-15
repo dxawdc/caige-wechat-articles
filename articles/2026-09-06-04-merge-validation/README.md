@@ -39,10 +39,12 @@ python "运行_04_Pandas关联审计_v1.1.1.py"
 
 本包唯一标识为 `04-merge-validation`，专属入口名称包含“Pandas关联审计”。当前材料以 `物料清单_v1.1.1.json` 的 articleId、entrypoint、files 为准，可逐项校验 SHA-256。ZIP 只包含当前运行所需材料，不混入其他文章。
 
-Git 仓库保留历史版本；旧版清单只描述其历史提交，不用于校验当前目录。v1.0.0 参考提交 b70054fe76d29a027540afa2e596bd6da41fb930，v1.1.0 参考提交 ef3d2a69f52740ebe61df1fe310e4ea879383b12。下载包不包含旧清单。
+当前目录与独立包仅保留最新完整物料；历史修订通过 Git 提交查看。基础脚本和未变化的数据保留原文件名，不能只按版本号删除依赖。
 
 中文绘图优先使用 Microsoft YaHei，其他系统可安装 Noto Sans CJK SC；字体不同可能影响图片像素，不影响表格数值。
 
 ## 版本说明
 
 v1.1.1：提供本篇独立下载、专属说明与入口、当前校验清单；执行输出与原始物料分开。保留已验证的基础与进阶案例。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

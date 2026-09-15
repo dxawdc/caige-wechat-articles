@@ -1,49 +1,63 @@
 {
-  "version": "v1.0.0",
+  "policy": "latest complete materials only",
   "files": [
     {
       "path": "README.md",
-      "sha256": "f722928d4636060f7d3b06f96267c093bf111fbd1975d4506e200ddc5b8ffdf5"
+      "bytes": 1113,
+      "sha256": "79f43cf43716ae21d13982f02426105bd080517f973ae01581a5bde0c78f3e75"
     },
     {
       "path": "requirements_v1.0.0.txt",
+      "bytes": 128,
       "sha256": "4302f96430767d920b1c4fb224b22a34195cd45375d5982156a9ddfb3a44c3c0"
     },
     {
       "path": "代码块规范与实现方案_v1.0.0.md",
-      "sha256": "8836e87c10827bf0e244ddaa574af4a4eeca97063945e605868011ed38737b37"
+      "bytes": 9909,
+      "sha256": "438a44b177f9b80d2ba32b87c15865fd3d403a8d41e835c61922b092e3ced33f"
     },
     {
       "path": "代码块验收_v1.0.0.py",
+      "bytes": 5478,
       "sha256": "b5e8cc23b0b9cd37b224de9567a77171dd17326e2b5639f22bf248a612a3462d"
     },
     {
       "path": "公众号代码块_v1.0.0.py",
+      "bytes": 6086,
       "sha256": "0e0296a3c8c979d117e99fccb316e801f9dcb69f56b1febba1b25aba8ee5b5fc"
     },
     {
       "path": "示例代码_v1.0.0.json",
+      "bytes": 666,
       "sha256": "248dfd6d8d4db4aa746622a1221ee1ce826a0787737074864178da223bb0045a"
     },
     {
       "path": "示例输出_v1.0.0/代码片段_v1.0.0.html",
+      "bytes": 29410,
       "sha256": "3674a6fa81f822724f76f23ef48af3e52e72d9733c754ff4d8555d5a83c3d193"
     },
     {
       "path": "示例输出_v1.0.0/代码阅读版_v1.0.0.html",
+      "bytes": 29677,
       "sha256": "a47e86c91655580186e835b8896a706c41349b4ee0c1b4f9cbd7996e3c3b8bfb"
     },
     {
       "path": "示例输出_v1.0.0/原始代码_v1.0.0.json",
+      "bytes": 761,
       "sha256": "7887e00f152d8680bbd9681f6ccf4ec373278146ad22a37dea7c6090111a8d3a"
     },
     {
       "path": "验收_v1.0.0/手机尺寸示例_v1.0.0.png",
+      "bytes": 17970,
       "sha256": "a30820b38da2cf84a83afa7785c4d64b17e846c1f07180b34b448b811c9aaac5"
     },
     {
       "path": "验收_v1.0.0/验收结果_v1.0.0.json",
+      "bytes": 632,
       "sha256": "c1d09cf6585ac45b5cb720b2b69f686748fd03ce3c0e9d202be86a6befd2cf0d"
     }
-  ]
+  ],
+  "version": "1.0.0",
+  "article_full_text_included": false,
+  "material_policy": "latest-complete-set-only"
 }

@@ -10,8 +10,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3054,
-      "sha256": "658f7d4858a3fc9bdca757b624908a2d259a93e3a5321844eb935cdaa66e46bb"
+      "bytes": 3224,
+      "sha256": "8f5ebbf175d8585dc714ccba026eaa5cec18f4486cf1f8e75aa7bf78fd7cba43"
     },
     {
       "path": "任务单/01_M3E_Canvas_v2.0.0.md",
@@ -153,5 +153,6 @@
       "bytes": 1380,
       "sha256": "92c79be0ac76beffa9ad5dd57a905951b64f007eac7dcf01de135de7f35fd188"
     }
-  ]
+  ],
+  "material_policy": "latest-complete-set-only"
 }

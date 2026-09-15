@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2704,
-      "sha256": "4543e57672c8314894e59d5ae1ff0d6eb840392a488291f16da0ab74bc08d943"
+      "bytes": 2800,
+      "sha256": "afb537325c50de5d009f0755a72d7d90846824d8141ac5101c20a1f0f0e44d04"
     },
     {
       "path": "requirements_v1.1.1.txt",
@@ -75,5 +75,6 @@
       "bytes": 3292,
       "sha256": "0388a3020058a84da29fc04639b02b673ea8ca88d6738fd05dd44dbf92446828"
     }
-  ]
+  ],
+  "material_policy": "latest-complete-set-only"
 }

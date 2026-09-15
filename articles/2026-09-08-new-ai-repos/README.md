@@ -41,3 +41,5 @@ GitHub 搜索发现式：`created:2026-09-01..2026-09-08 stars:>20 fork:false ar
 - [本篇ZIP](https://raw.githubusercontent.com/dxawdc/caige-wechat-articles/main/downloads/new-ai-repos_v2.0.0.zip)
 
 v2.0.0：按“本月新建”要求重新构建选题、正文与全部任务资料。此前材料保留，但不属于本篇ZIP。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

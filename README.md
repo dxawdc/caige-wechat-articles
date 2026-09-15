@@ -1,24 +1,61 @@
 # 可以叫我才哥公众号资料库
 
-<!-- 版本：v1.10.0 | 更新时间：2026-09-14 | 状态：按文章独立下载 -->
+微信公众号「可以叫我才哥」的公开配套资料：**16篇文章、1套通用工具**。包含可运行代码、教学数据、公开汇总、图表和复现说明。
 
-每篇文章有独立目录、独立下载包和专属运行入口。选择下表中对应文章即可下载该篇材料；仓库的 Code → Download ZIP 会下载全部文章。
+<!-- 版本：v1.11.0 | 更新时间：2026-09-15 | 状态：仅保留最新完整物料 -->
 
-| 文章 | 本篇材料 | 独立包 |
-|---|---|---|
-| [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/) | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文 | [仅下载本篇](downloads/taptap-player-review_v1.1.0.zip) |
-| [从预测到分群：Python五类模型](articles/2026-09-14-python-data-mining-5/v1.0.0/) | 5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验 | [仅下载本篇](downloads/python-data-mining-5_v1.0.0.zip) |
-| [Python数据可视化指南：50例](articles/2026-09-13-python-visualization-50/v1.0.2/) | 50份独立源码、模拟CSV、50张PNG与SVG、7个交互图、公众号名标识和241项验收 | [仅下载本篇](downloads/python-visualization-50_v1.0.2.zip) |
-| [只看9月新建：6个AI开源项目](articles/2026-09-08-new-ai-repos/) | 本月创建核验、六份独立任务单、真实界面与图解、范围检查脚本 | [仅下载本篇](downloads/new-ai-repos_v2.0.0.zip) |
-| [8个AI开源项目实用指南](articles/2026-09-08-ai-open-source/) | 8份独立任务卡、官方数据快照、10张图解、文件转换案例与仓库数据刷新脚本 | [仅下载本篇](downloads/ai-open-source_v1.0.0.zip) |
-| [Codex桌面版接入DeepSeek V4](articles/2026-09-07-codex-deepseek/) | 官方直连方案、配置检查、Responses 探测、桌面验收练习及六张图解 | [仅下载本篇](downloads/codex-deepseek_v1.0.0.zip) |
-| [36 种图表对照](articles/2026-09-06-36-charts/) | Plotly/Matplotlib 的 36 个绘图案例 | 见文章目录 |
-| [SQL算留存：别把还没到第7天的用户算成流失](articles/2026-09-06-01-retention/) | 注册用户、登录明细 → 用户日去重 → 成熟批次留存及覆盖率 | [仅下载本篇](downloads/01-retention_v1.1.1.zip) |
-| [用Python合并Excel，顺手把数据问题查出来](articles/2026-09-06-02-excel-audit/) | 4 份 Excel → 文件校验 → 原值与来源保留 → 无效/重复/冲突/可用记录 | [仅下载本篇](downloads/02-excel-audit_v1.1.1.zip) |
-| [SQL算连续登录：去重、断档和跨月怎么处理](articles/2026-09-06-03-login-streak/) | 15 条登录日志 → 14 个用户日 → 连续段 → 历史窗口最长与截止日当前连续 | [仅下载本篇](downloads/03-login-streak_v1.1.1.zip) |
-| [pandas合并后金额翻倍，问题出在哪里](articles/2026-09-06-04-merge-validation/) | 订单与重复用户维表 → 扩行诊断 → 多对一校验 → 时间生效渠道匹配 | [仅下载本篇](downloads/04-merge-validation_v1.1.1.zip) |
-| [游戏活动漏斗：人数都对，转化率却错了](articles/2026-09-06-05-ordered-funnel/) | 活动事件 → 首次进入人群 → 24 小时有序路径 → 四类结果明细 | [仅下载本篇](downloads/05-ordered-funnel_v1.1.1.zip) |
-| [游戏LTV怎么算：先把分母和观察天数对齐](articles/2026-09-06-06-cohort-ltv/) | 注册与支付 → 用户日龄 → 成熟累计窗口 → 价值口径和批次加权 | [仅下载本篇](downloads/06-cohort-ltv_v1.1.1.zip) |
-| [各渠道留存都涨了，整体为什么反而下降](articles/2026-09-06-07-channel-mix/) | 渠道新增和回访 → 组内率与权重 → 标准化 → 两条分解路径对照 | [仅下载本篇](downloads/07-channel-mix_v1.1.1.zip) |
+选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
-模拟业务案例使用教学数据；TapTap评价分析使用真实公开评价的汇总结果，各篇数据来源见对应README。作者：才哥AGI。历史材料保留在各目录，当前下载包以其物料清单为准。
+## 最新与专题实操
+
+| 文章 / 当前版本 | 资料内容 | 独立下载 |
+| --- | --- | --- |
+| [Browser Skill：安装与浏览器实操](articles/2026-09-15-browser-skill-guide/README.md) · v1.0.4 | 本地演示站、快照导出、场景提示词、配图与微信排版源码 | [ZIP](downloads/browser-skill-guide_v1.0.4.zip) |
+| [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/README.md) · v1.1.0 | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文 | [ZIP](downloads/taptap-player-review_v1.1.0.zip) |
+| [S44排位复盘：332场，从钻石到荣耀王者](articles/2026-09-14-s44-ranked-review/README.md) · v1.2.5 | 采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入 | [ZIP](downloads/s44-ranked-review_v1.2.5.zip) |
+| [从预测到分群：Python五类模型](articles/2026-09-14-python-data-mining-5/v1.0.0/README.md) · v1.0.0 | 5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验 | [ZIP](downloads/python-data-mining-5_v1.0.0.zip) |
+| [Python数据可视化指南：50例](articles/2026-09-13-python-visualization-50/v1.0.2/README.md) · v1.0.2 | 50份独立源码、模拟CSV、50张PNG与SVG、7个交互图、公众号名标识和241项验收 | [ZIP](downloads/python-visualization-50_v1.0.2.zip) |
+| [只看9月新建：6个AI开源项目](articles/2026-09-08-new-ai-repos/README.md) · v2.0.0 | 本月创建核验、六份独立任务单、真实界面与图解、范围检查脚本 | [ZIP](downloads/new-ai-repos_v2.0.0.zip) |
+| [8个AI开源项目实用指南](articles/2026-09-08-ai-open-source/README.md) · v1.0.0 | 8份独立任务卡、官方数据快照、10张图解、文件转换案例与仓库数据刷新脚本 | [ZIP](downloads/ai-open-source_v1.0.0.zip) |
+| [Codex桌面版接入DeepSeek V4](articles/2026-09-07-codex-deepseek/README.md) · v1.0.0 | 官方直连方案、配置检查、Responses 探测、桌面验收练习及六张图解 | [ZIP](downloads/codex-deepseek_v1.0.0.zip) |
+| [36 种图表对照](articles/2026-09-06-36-charts/README.md) · v1.1.0 | Plotly/Matplotlib 的 36 个绘图案例 | [ZIP](downloads/36-charts_v1.1.0.zip) |
+
+## SQL / pandas / 游戏数据分析基础
+
+| 文章 / 当前版本 | 资料内容 | 独立下载 |
+| --- | --- | --- |
+| [SQL算留存：别把还没到第7天的用户算成流失](articles/2026-09-06-01-retention/README.md) · v1.1.1 | 注册用户、登录明细 → 用户日去重 → 成熟批次留存及覆盖率 | [ZIP](downloads/01-retention_v1.1.1.zip) |
+| [用Python合并Excel，顺手把数据问题查出来](articles/2026-09-06-02-excel-audit/README.md) · v1.1.1 | 4 份 Excel → 文件校验 → 原值与来源保留 → 无效/重复/冲突/可用记录 | [ZIP](downloads/02-excel-audit_v1.1.1.zip) |
+| [SQL算连续登录：去重、断档和跨月怎么处理](articles/2026-09-06-03-login-streak/README.md) · v1.1.1 | 15 条登录日志 → 14 个用户日 → 连续段 → 历史窗口最长与截止日当前连续 | [ZIP](downloads/03-login-streak_v1.1.1.zip) |
+| [pandas合并后金额翻倍，问题出在哪里](articles/2026-09-06-04-merge-validation/README.md) · v1.1.1 | 订单与重复用户维表 → 扩行诊断 → 多对一校验 → 时间生效渠道匹配 | [ZIP](downloads/04-merge-validation_v1.1.1.zip) |
+| [游戏活动漏斗：人数都对，转化率却错了](articles/2026-09-06-05-ordered-funnel/README.md) · v1.1.1 | 活动事件 → 首次进入人群 → 24 小时有序路径 → 四类结果明细 | [ZIP](downloads/05-ordered-funnel_v1.1.1.zip) |
+| [游戏LTV怎么算：先把分母和观察天数对齐](articles/2026-09-06-06-cohort-ltv/README.md) · v1.1.1 | 注册与支付 → 用户日龄 → 成熟累计窗口 → 价值口径和批次加权 | [ZIP](downloads/06-cohort-ltv_v1.1.1.zip) |
+| [各渠道留存都涨了，整体为什么反而下降](articles/2026-09-06-07-channel-mix/README.md) · v1.1.1 | 渠道新增和回访 → 组内率与权重 → 标准化 → 两条分解路径对照 | [ZIP](downloads/07-channel-mix_v1.1.1.zip) |
+
+## 通用工具
+
+| 工具 / 当前版本 | 能力 | 独立下载 |
+| --- | --- | --- |
+| [公众号代码块通用方案](tools/wechat-code-blocks/v1.0.0/README.md) · v1.0.0 | 11px实际字号、Pygments高亮、长行横滑、逐行leaf结构与浏览器验收 | [ZIP](downloads/wechat-code-blocks_v1.0.0.zip) |
+
+## 怎样使用
+
+1. 打开对应资料的 README，查看环境、数据来源和复现范围。
+2. 下载独立 ZIP 并解压；按该篇要求创建 Python 虚拟环境、安装依赖、运行入口。各篇 Python 版本和依赖不同，详情以本篇说明为准。
+3. 图表可直接查看。交互 HTML 需下载到本地打开，并保留同目录资源；GitHub 文件页不执行这些页面。
+
+## 资料边界与更新
+
+教学模拟数据、公开评价汇总和个人战绩聚合分别标注，不混为同一种数据。私人逐局输入、玩家原文、账号标识、登录凭据和未发表文章全文不在公开包中；需自备输入的案例在对应 README 中说明。
+
+每篇只保留**最新完整一套物料**。代码或图片的旧版本号可能仍是当前依赖，不代表废弃；目录与 ZIP 以当前物料清单为准。历史修订通过 Git 提交追溯，不另存多套 README、旧包或备份目录。
+
+[完整下载列表](downloads/README.md) · [维护与更新规则](CONTRIBUTING.md) · [机器可读目录](catalog.json)
+
+仓库维护校验（Python 3.10+，仅标准库）：
+
+```bash
+python tools/repository/validate.py
+```
+
+第三方代码及资源遵循各自许可证；具体来源见对应资料说明。

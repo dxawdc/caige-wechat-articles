@@ -1,6 +1,5 @@
 {
-  "version": "v1.2.5",
-  "article_full_text_included": false,
+  "policy": "latest complete materials only",
   "files": [
     {
       "path": ".gitattributes",
@@ -9,38 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8744,
-      "sha256": "b34818ec71bc90d38b9eb44f159fb84d7e85a89ffba6a9affec05975daa0a0fc"
-    },
-    {
-      "path": "README_v1.2.0.md",
-      "bytes": 6670,
-      "sha256": "bb25029688fb368762285cae88506f830adda88ed0f07a364f40c4636f37e860"
-    },
-    {
-      "path": "README_v1.2.1.md",
-      "bytes": 7622,
-      "sha256": "84b041891fbfdc6deb176a175db0b752b64e2850c7ff7761634d369ec5611850"
-    },
-    {
-      "path": "README_v1.2.2.md",
-      "bytes": 7914,
-      "sha256": "5d9983e9e913f922726c6c99618e25443aaf1745d1e5816c7408548bdfb8a7ca"
-    },
-    {
-      "path": "README_v1.2.3.md",
-      "bytes": 8183,
-      "sha256": "9c71a31674903e0f6edbd998a40aa2b7e5173a71d7e350493d56d53dbedd6988"
-    },
-    {
-      "path": "README_v1.2.4.md",
-      "bytes": 8435,
-      "sha256": "4c74070ff8eae5aab18efbeb6f67ca514a7c7ab59c250c1bff9206503ebbda98"
-    },
-    {
-      "path": "README_v1.2.5.md",
-      "bytes": 8744,
-      "sha256": "b34818ec71bc90d38b9eb44f159fb84d7e85a89ffba6a9affec05975daa0a0fc"
+      "bytes": 7780,
+      "sha256": "fa15f69f92009b5d93f042bbb17d800b99f30b74c799420ca44a19edbd5f43ff"
     },
     {
       "path": "requirements_v1.0.0.txt",
@@ -268,19 +237,9 @@
       "sha256": "5ae21c60fc8ed6d84ee53500db675fd3adba33ef6129eb871cbc451dbe7909dd"
     },
     {
-      "path": "字号修订说明_v1.2.4.md",
-      "bytes": 1178,
-      "sha256": "473fbbaa8ab75008fa102c9371dd86375c374241f9e5991221c7dbcf875c9bd6"
-    },
-    {
       "path": "字号修订说明_v1.2.5.md",
-      "bytes": 1638,
-      "sha256": "acd27c5f6f046375693d70f8db9fe915e86ee11b677296c825f4a3a8d9caeadf"
-    },
-    {
-      "path": "字号验收摘要_v1.2.4.json",
-      "bytes": 2345,
-      "sha256": "45c05ca63a7e4515164f00b1bc19cf039e2e7c11153666721895ddd875bb1652"
+      "bytes": 1644,
+      "sha256": "3497f7d5f1431b433696f86c6ef2df087c4fd52341d1a7a3d811582a0147b640"
     },
     {
       "path": "字号验收摘要_v1.2.5.json",
@@ -293,39 +252,9 @@
       "sha256": "a969270436b367288285f8a580d0fc238e84218ddf9ba8c484364dcab6dc8ed5"
     },
     {
-      "path": "微信排版_v1.2.1.py",
-      "bytes": 7970,
-      "sha256": "54837676f8e6574e8026525a0ab7e4cd25214b6b3d90eb889d36b2ebdff4545b"
-    },
-    {
-      "path": "微信排版_v1.2.2.py",
-      "bytes": 8774,
-      "sha256": "be142306ecb712e234c5337de6c3fd6a662469f48b412614cf379b9c085d1cd5"
-    },
-    {
-      "path": "微信排版_v1.2.3.py",
-      "bytes": 9170,
-      "sha256": "3b1daa930e4bf8f6aba50f7ee0c0ec81ee2ededd6d877317a96fc3cfe2569073"
-    },
-    {
-      "path": "微信排版_v1.2.4.py",
-      "bytes": 9687,
-      "sha256": "f6d47362630e29ce735b1dcbcf37275f85ec1e32d3331062bd1f6d289e226408"
-    },
-    {
       "path": "微信排版_v1.2.5.py",
       "bytes": 10072,
       "sha256": "0c38975604b6e0667afd417ec204bd0193ebc1c23169d4181803950216e8ac9d"
-    },
-    {
-      "path": "横滑修订说明_v1.2.2.md",
-      "bytes": 2034,
-      "sha256": "da952cf2342d4d973f46f25cb0ff28576f9ef03433cffa7684645ba90d383518"
-    },
-    {
-      "path": "横滑验收摘要_v1.2.2.json",
-      "bytes": 2131,
-      "sha256": "c81a5f72eb9f10742b3cd933eae42a04f672e15924801096f2648b15b53e5349"
     },
     {
       "path": "段位映射证据_v1.1.0.json",
@@ -441,16 +370,9 @@
       "path": "采集器_v1.1.0.py",
       "bytes": 12838,
       "sha256": "349862bfe53ffc160e3947f1caa1dddcbc1f2af55b2634b460c557cfa7d52258"
-    },
-    {
-      "path": "高亮修订说明_v1.2.3.md",
-      "bytes": 1442,
-      "sha256": "727a4a7cbb0a59e770ab97ed91ebc22cd53ce665a539e816edadd1792106fa5e"
-    },
-    {
-      "path": "高亮横滑验收摘要_v1.2.3.json",
-      "bytes": 2294,
-      "sha256": "4436813eaf7a484ef5f40c78b50ac035a7c90e608a16ca7107a1bda7915a5dbb"
     }
-  ]
+  ],
+  "version": "1.2.5",
+  "article_full_text_included": false,
+  "material_policy": "latest-complete-set-only"
 }

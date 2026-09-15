@@ -47,3 +47,5 @@ python -X utf8 刷新GitHub数据_v1.0.0.py
 ## 版本说明
 
 v1.0.0：首次整理 8 个项目，提供独立任务卡、来源快照、10 张图解、可复现转换案例和数据刷新脚本。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

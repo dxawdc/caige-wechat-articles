@@ -77,16 +77,12 @@ python 微信排版_v1.0.4.py --input 自己的文章.md --output 阅读输出
 
 本篇固定参考 [cli-v0.2.1](https://github.com/Tencent/BrowserSkill/releases/tag/cli-v0.2.1) 与对应 [Skill](https://github.com/Tencent/BrowserSkill/blob/cli-v0.2.1/skill/SKILL.md)。具体参数以安装版本的 `bsk <command> --help` 为准。该版本截图帮助未提供 `--full-page`，命令清单没有 `bsk replay`。
 
-v1.0.0：首次整理，7张正文配图、1张封面、13个文章代码块对应的使用说明、演示站与CSV导出器。
+当前物料：v1.0.4。目录只保留最新完整一套，历史由Git提交追溯；配图和数据依赖未变化时保留原文件名。
 
+最新排版说明：[字号修订说明](字号修订说明_v1.0.4.md)。
 
-v1.0.1：根据手机微信自动换行反馈，修订代码块原生标记、逐行禁止换行和内部滚动宽度。高亮与代码内容不变。源码及API回读的布局与模拟触摸检查通过，真实手机微信待确认。参见[横滑修订说明](横滑修订说明_v1.0.1.md)。
+## 独立资料包
 
+[仅下载本篇 ZIP](https://raw.githubusercontent.com/dxawdc/caige-wechat-articles/main/downloads/browser-skill-guide_v1.0.4.zip)。解压后进入 `browser-skill-guide_v1.0.4/`，按本页运行步骤使用。
 
-v1.0.2：用户确认上一版手机横滑正常，但手机高亮丢失。本版恢复真实data-lang与高亮类别，保留横滑结构。本地和API回读检查通过；新版本手机高亮待确认。详见[高亮修订说明](高亮修订说明_v1.0.2.md)。
-
-
-v1.0.3：上一版高亮与横滑已获手机确认；本版补齐代码外层11px并禁止代码区自动文字放大。源码、API回读及浏览器布局通过，手机字号待确认。详见[字号修订说明](字号修订说明_v1.0.3.md)。
-
-
-v1.0.4：上一版手机字号仍偏大。本版对照用户确认正常的50例文章，逐行增加span[leaf]的11px字号层；两篇微信实际阅读页已在390px浏览器中确认文字11px、高亮与横滑，手机最终结果待确认。详见[字号修订说明](字号修订说明_v1.0.4.md)。
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)

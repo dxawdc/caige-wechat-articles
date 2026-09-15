@@ -54,3 +54,5 @@ python 验证Responses_v1.0.0.py --online --model deepseek-v4-flash
 本次实际验证了官方 Windows 脚本 1.2.0 在隔离目录的安装、模型切换和恢复，以及 Codex 引擎 0.153.4 读取生成的模型目录。未提供真实 DeepSeek Key，未完成线上 DeepSeek 对话、桌面工具链或视觉能力测试。不要把占位凭据、自测通过或人工答案描述为真实模型联调成功。
 
 版本说明：v1.0.0 首次提供本篇专属配置检查、接口探测、桌面验收练习、图解和来源记录。
+
+[返回资料库](https://github.com/dxawdc/caige-wechat-articles) · [维护与更新规则](https://github.com/dxawdc/caige-wechat-articles/blob/main/CONTRIBUTING.md)
