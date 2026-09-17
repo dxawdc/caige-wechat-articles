@@ -1,0 +1,14 @@
+[
+  {
+    "language": "javascript",
+    "source_file": "extension/src/data.js",
+    "description": "全市场行情按 200 只一批、最多 10 批并发拉取。",
+    "source": "async function fetchAllQuotes(codes, batchSize = 200, maxConcurrent = 10) {\n  const batches = [];\n  for (let i = 0; i < codes.length; i += batchSize) {\n    batches.push(codes.slice(i, i + batchSize));\n  }\n\n  const all = [];\n  for (let i = 0; i < batches.length; i += maxConcurrent) {\n    const chunk = batches.slice(i, i + maxConcurrent);\n    const results = await Promise.all(chunk.map(fetchTencentBatch));\n    for (const rows of results) all.push(...rows);\n  }\n  return all;\n}"
+  },
+  {
+    "language": "python",
+    "source_file": "web/app.py",
+    "description": "网页版并发获取股票行情、大盘指数和申万行业指数。",
+    "source": "def build_heatmap_data(top_n: int, group_by: str, size_by: str) -> dict:\n    \"\"\"3 路并发：腾讯行情 + 大盘指数 + 申万行业\"\"\"\n    size_label, size_unit = SIZE_LABELS.get(size_by, (\"成交额\", \"万元\"))\n\n    with ThreadPoolExecutor(max_workers=3) as ex:\n        f_stocks = ex.submit(_fetch_stock_data, top_n, size_by)\n        f_index = ex.submit(_fetch_market_index)\n        f_sw = ex.submit(_fetch_sw_sector_chg)\n        df, market_count = f_stocks.result()\n        market_chg_index = f_index.result()\n        sw_sector_chg = f_sw.result()"
+  }
+]
