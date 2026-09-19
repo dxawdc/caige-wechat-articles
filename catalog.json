@@ -177,11 +177,11 @@
       "id": "precious-metals",
       "title": "黄金白银这10年：从上金所到周大福柜台",
       "kind": "article",
-      "version": "v1.0.1",
+      "version": "v1.0.2",
       "source": "articles/2026-09-19-precious-metals",
-      "manifest": "物料清单_v1.0.1.json",
-      "download": "downloads/precious-metals_v1.0.1.zip",
-      "summary": "十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本、9张图与近十年走势动图"
+      "manifest": "物料清单_v1.0.2.json",
+      "download": "downloads/precious-metals_v1.0.2.zip",
+      "summary": "十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图/排版/草稿脚本、9张图、近十年走势动图与代码块不折行验收"
     }
   ]
 }

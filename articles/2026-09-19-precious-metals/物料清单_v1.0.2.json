@@ -1,6 +1,6 @@
 {
   "id": "2026-09-19-precious-metals",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "updated": "2026-09-19",
   "files": [
     {
@@ -124,14 +124,19 @@
       "sha256": "ec658b55e16d867ee606cb80012f3e139b638b8f0918cf980f061078e1bd3379"
     },
     {
-      "path": "images/封面_v1.0.0.png",
-      "bytes": 47530,
-      "sha256": "b8c63f1d5d58ca9085b397229269871356a0fb765c4613b625c45c1f0b4aac22"
+      "path": "images/封面_v1.0.1.jpg",
+      "bytes": 29691,
+      "sha256": "c23a92cf9204421e8086f222b583054338408079b1edcddf5aae229aa0209e10"
     },
     {
       "path": "README.md",
-      "bytes": 3110,
-      "sha256": "baa3cbc5bee35a2d8d92b086744ca5a38f96341c51718767413777f59e1617a3"
+      "bytes": 4024,
+      "sha256": "26b2cc7a1bf7421ae8fe27bec35bfdaf4f487d4d079cc3bd54e53a5ab12ed101"
+    },
+    {
+      "path": "scripts/保存公众号草稿.py",
+      "bytes": 18821,
+      "sha256": "9700d160e06a86f8d93ab0d2f0ea4413c0be48ce9a0a266b2139b314478f1412"
     },
     {
       "path": "scripts/制作封面.py",
@@ -145,8 +150,8 @@
     },
     {
       "path": "scripts/微信排版.py",
-      "bytes": 8482,
-      "sha256": "2aec7ebef2e449099af028e997fdf5e21ef2978ea328191a4054782f75d5b6a5"
+      "bytes": 7736,
+      "sha256": "0e30d83a24271327280b4e50bc19d1bc21b381845c921f0fb0e08caf3341283a"
     },
     {
       "path": "scripts/提取叙事关键点.py",
@@ -177,6 +182,16 @@
       "path": "scripts/采集原始数据.py",
       "bytes": 7490,
       "sha256": "1f309b9f7ea9085197397ad50c4404da5b57637a76107b495840e80d950f9a2d"
+    },
+    {
+      "path": "scripts/验收_代码块不折行.py",
+      "bytes": 6071,
+      "sha256": "1cedbe0bc0f3ab2b36e1cff7de2e31a3c538895f6e3aafa2aa53e31540cdc8c9"
+    },
+    {
+      "path": "物料清单_v1.0.2.json",
+      "bytes": 6997,
+      "sha256": "881116982a5b17e26e2c0cd70e3b1cf31c711c8c0d1fb54ec78cab447e53e11e"
     }
   ]
 }

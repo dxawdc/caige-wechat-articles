@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """公众号排版脚本：把 文章.md 转成符合交付规范的微信正文 HTML。
 
-规范要点（公众号交付规范 v1.5.0）：
+规范要点（公众号交付规范 v1.6.0 + 代码块规范与实现方案 v1.0.0）：
 - 正文 15px / 行高 1.85；小标题 17px 加粗；表格 12px；行内代码 12px；
-- 代码块 11px 逐行、语法高亮、保留缩进、内部横滑；
+- 代码块直接调用技能内的通用渲染器：pre > code > span[leaf]，逐行块布局，
+  white-space:pre!important 配合 word-break/word-wrap/overflow-wrap:normal!important，
+  空格转 NBSP，行内左右滑动而不折行（微信编辑器保存后会改写 white-space，缺这三件套就会折行）；
 - 图片与图注同 section，图注 12px #78858F 居中、与图片实际间距 6px；
-- 正文顶部直接进入首段；不重复文章大标题。
+- 正文顶部直接进入首段，首段段前距取最小值 0；不重复文章大标题。
 """
 from __future__ import annotations
 
@@ -13,6 +15,8 @@ import html
 import importlib.util
 import re
 from pathlib import Path
+
+from lxml import etree
 
 BASE = Path(__file__).resolve().parent
 
@@ -40,16 +44,15 @@ TH = TD + "background:#edf5f4;font-weight:700;"
 IMG_SEC = "margin:18px 0 22px;font-size:12px;color:#78858F;text-align:center;"
 IMG = "display:block;width:100%;"
 CAP = "margin:6px 0 0;"
+FIRST_P = "margin:0 0 16px;"   # 首段段前距取最小值
 
 BULLET_RE = re.compile(r"^(\s*)[-*]\s+(.*)$")
 NUMBERED_RE = re.compile(r"^\d+\.\s+")
 
-CODE_FONT = "font-size:11px!important;line-height:18px;"
-PRE = ("display:block!important;margin:0;padding:12px;overflow-x:auto!important;"
-       "font-family:Menlo,Consolas,monospace;background:#152C3D;color:#E6EDF3;"
-       "border-radius:6px;" + CODE_FONT +
-       "white-space:pre;-webkit-text-size-adjust:none;text-size-adjust:none;")
-LINE = "display:block;" + CODE_FONT
+
+def as_first(style: str) -> str:
+    """首段：把段前距压到最小，其余间距不变。"""
+    return re.sub(r"margin:[^;]+;", FIRST_P, style, count=1)
 
 
 def escape_with_code(text: str) -> str:
@@ -97,39 +100,16 @@ def render_image(alt: str, src: str) -> str:
 
 
 def render_code(source: str, language: str) -> str:
-    """紧凑代码块：逐行块级 span，行内 token 带显式字号与高亮颜色。"""
-    src = source.replace("\r\n", "\n").replace("\r", "\n")
-    language = (language or "text").lower().strip()
-    language = {"py": "python", "sh": "bash", "shell": "bash", "txt": "text",
-                "plaintext": "text", "ps1": "powershell", "js": "javascript",
-                "ts": "typescript"}.get(language, language)
-    lexer = wxcode.get_lexer_by_name(language, stripnl=False, ensurenl=False, tabsize=0)
-    rows: list[list[tuple[str, str]]] = [[]]
-    for _, kind, value in lexer.get_tokens_unprocessed(src):
-        for i, part in enumerate(value.split("\n")):
-            if i:
-                rows.append([])
-            if part:
-                name = wxcode.category(kind)
-                if rows[-1] and rows[-1][-1][0] == name:
-                    rows[-1][-1] = (name, rows[-1][-1][1] + part)
-                else:
-                    rows[-1].append((name, part))
-    while rows and not rows[-1]:
-        rows.pop()
-    buf = ['<section class="code-snippet__fix" style="margin:18px 0;padding:0;overflow:hidden;">',
-           f'<pre class="code-snippet__js code-snippet_nowrap" data-lang="{language}" style="{PRE}">']
-    for row in rows:
-        buf.append(f'<span style="{LINE}">')
-        if not row:
-            buf.append('\xa0')
-        for name, value in row:
-            style = f"font-size:11px!important;color:{wxcode.COLORS[name]};"
-            cls = f' class="code-snippet__{name}"' if name != "plain" else ""
-            buf.append(f'<span{cls} style="{style}">{html.escape(value).replace(" ", "\xa0")}</span>')
-        buf.append("</span>")
-    buf.append("</pre></section>")
-    return "".join(buf)
+    """代码块：直接调用技能内的通用渲染器，保证 pre > code > span[leaf] 结构与不折行。
+
+    微信编辑器保存草稿时会重写代码区（把 white-space:pre 改成 pre-wrap 并补 leaf），
+    只有带上 word-break/word-wrap/overflow-wrap 的 normal!important 与 NBSP 空格，
+    整行才是不可断开的整体，长行才会走代码块内部横滑而不是折行。
+    """
+    if source.endswith("\n"):
+        source = source[:-1]
+    return etree.tostring(wxcode.render_block(source, language),
+                          encoding="unicode", method="html")
 
 
 def main() -> None:
@@ -171,13 +151,17 @@ def main() -> None:
                 if not m:
                     break
                 style = BULLET_L2 if len(m.group(1).expandtabs(2)) >= 2 else BULLET
+                if not out:
+                    style = as_first(style)
                 out.append(f'<p style="{style}">\u2022&nbsp;&nbsp;{inline(m.group(2).strip())}</p>')
                 i += 1
             continue
         elif NUMBERED_RE.match(s):
-            out.append(f'<p style="{NUMBERED}">{inline(s)}</p>')
+            style = as_first(NUMBERED) if not out else NUMBERED
+            out.append(f'<p style="{style}">{inline(s)}</p>')
         else:
-            out.append(f'<p style="{P}">{inline(s)}</p>')
+            style = as_first(P) if not out else P
+            out.append(f'<p style="{style}">{inline(s)}</p>')
         i += 1
 
     body = f'<section style="{WRAP}">' + "".join(out) + "</section>"
