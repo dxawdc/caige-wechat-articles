@@ -4,29 +4,34 @@
   "updated": "2026-09-29",
   "files": [
     {
+      "path": "images/五星红旗_正方形.png",
+      "bytes": 29272,
+      "sha256": "be4fac3b43631e236b4878a53dcb1dea3b63568b42bd73bb1d48c9bfd65efade"
+    },
+    {
       "path": "images/对比图_方案总览.png",
-      "bytes": 133982,
-      "sha256": "15f46680a79d982535c7cc2f6e9eb494b8984c6f4c4ac5651f7c34a53ff04808"
+      "bytes": 131723,
+      "sha256": "77d7684111ff4c66ea6f1922cffe23299961f5162e047a6c03b3aa94d7e5da4b"
     },
     {
       "path": "images/方案一_putalpha渐变.png",
-      "bytes": 77241,
-      "sha256": "6d2311b6ac2568151d831e131a5be997bfcb729ac714d60a159976ae1b9cd71e"
+      "bytes": 79182,
+      "sha256": "b08d22caa93547463e05c174a2c7ef9b8b398775368f40f233f99da44153fc89"
     },
     {
       "path": "images/方案三_blend半透明.png",
-      "bytes": 77176,
-      "sha256": "616d614b06e3ed313efa2dc215ff227d29caccaa481670b7f15096320055bcf0"
+      "bytes": 73245,
+      "sha256": "c125b47878b1a4d71dbed71c4b9331db0b1d7457190f30970f5fc66c89778a94"
     },
     {
       "path": "images/真实头像_半透明效果.png",
-      "bytes": 221181,
-      "sha256": "79b5400309114d13e0b431ea531c76c31a2e994a609212cc89db490bc5a391cd"
+      "bytes": 73245,
+      "sha256": "c125b47878b1a4d71dbed71c4b9331db0b1d7457190f30970f5fc66c89778a94"
     },
     {
       "path": "images/真实头像_渐变效果.png",
-      "bytes": 208467,
-      "sha256": "6592fa03e09c8444534879b66f48507939784258e2ebe4bb4bf472b46d5d63fd"
+      "bytes": 79182,
+      "sha256": "b08d22caa93547463e05c174a2c7ef9b8b398775368f40f233f99da44153fc89"
     },
     {
       "path": "images/网页工具_初始界面.png",
@@ -60,8 +65,8 @@
     },
     {
       "path": "scripts/绘图_01_技术方案.py",
-      "bytes": 4309,
-      "sha256": "9401fb33d87b6c5bfd49da65c1596fc92164d6b22d173596c699a2fde3a93123"
+      "bytes": 7193,
+      "sha256": "e1418f971ddaaed6ad61e58c15f3bab2ab9803f79961f994cd4d921d289de184"
     },
     {
       "path": "scripts/绘图_02_性能对比.py",
@@ -75,8 +80,8 @@
     },
     {
       "path": "scripts/绘图_04_真实头像效果.py",
-      "bytes": 2244,
-      "sha256": "5fad3e39aef8089503154efc758a53ca3123037d69d3b0b3ea4fa4625a904807"
+      "bytes": 3117,
+      "sha256": "f7deb5a06f07d3505a4018d7a36c8663f0ef489ff0314655efdaad940d3ef45c"
     }
   ],
   "material_policy": "latest-complete-set-only"

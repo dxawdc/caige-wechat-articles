@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 真实头像效果生成：方案一渐变覆盖 + 方案三整体半透明。
+国旗保持 3:2 原始比例（五星不压缩），等比缩放后垂直居中铺满头像。
 
 用法：
     python 绘图_04_真实头像效果.py [头像路径]
@@ -14,35 +15,55 @@ import numpy as np
 from PIL import Image
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(os.path.dirname(BASE), "images")
+OUT = os.path.join(os.path.dirname(BASE), "素材")
+
+RED = (222, 41, 34)
 
 
-def make_flag_square():
-    """从当前目录的五星红旗.png 裁出左侧正方形（保留完整五星）。"""
-    flag = Image.open(os.path.join(BASE, "五星红旗.png")).convert("RGB")
-    w, h = flag.size
-    side = min(w, h)
-    return flag.crop((0, 0, side, side))
+def make_flag_layer(flag_path, target_size, star_pos=0.55):
+    """国旗等比缩放到 target_size=(w,h)，五星比例保真，五星区落在可见范围。"""
+    flag = Image.open(flag_path).convert("RGB")
+    fw, fh = flag.size
+    w, h = target_size
+    new_w = w
+    new_h = round(fh * w / fw)
+    if new_h > h:
+        new_h = h
+        new_w = round(fw * h / fh)
+    flag = flag.resize((new_w, new_h), Image.LANCZOS)
+    star_center_in_flag = 0.28
+    flag_left = round(star_pos * w - star_center_in_flag * new_w)
+    flag_top = (h - new_h) // 2
+    canvas = Image.new("RGB", (w, h), RED)
+    canvas.paste(flag, (flag_left, flag_top))
+    return canvas
 
 
-def gradient_overlay(avatar, flag_square):
+def make_alpha_gradient(w, h, transparent_until=0.25):
+    """前半段透明露出头像，后半段线性过渡到不透明，五星落在清晰区间。"""
+    n = w
+    start = int(transparent_until * n)
+    ramp_len = n - start
+    ramp = np.linspace(0, 255, ramp_len, dtype=np.uint8)
+    gradient = np.zeros(n, dtype=np.uint8)
+    gradient[start:] = ramp
+    return np.tile(gradient, (h, 1))
+
+
+def gradient_overlay(avatar, flag_layer):
     """方案一：putalpha 渐变覆盖。"""
     w, h = avatar.size
-    flag = flag_square.resize((w, h))
-    gradient = np.linspace(0, 255, w, dtype=np.uint8)
-    alpha = np.tile(gradient, (h, 1))
-    flag = flag.convert("RGBA")
+    alpha = make_alpha_gradient(w, h)
+    flag = flag_layer.convert("RGBA")
     flag.putalpha(Image.fromarray(alpha))
     out = avatar.copy()
     out.paste(flag, (0, 0), flag)
     return out
 
 
-def blend_overlay(avatar, flag_square, a=0.45):
+def blend_overlay(avatar, flag_layer, a=0.45):
     """方案三：Image.blend 整体半透明。"""
-    w, h = avatar.size
-    flag = flag_square.resize((w, h))
-    return Image.blend(avatar, flag, alpha=a)
+    return Image.blend(avatar, flag_layer, alpha=a)
 
 
 def center_square(img):
@@ -59,14 +80,14 @@ def main():
     avatar = Image.open(avatar_path).convert("RGB")
     avatar = center_square(avatar)
     if avatar.size[0] > 1200:
-        avatar = avatar.resize((1200, 1200))
+        avatar = avatar.resize((1200, 1200), Image.LANCZOS)
 
-    fs = make_flag_square()
+    flag_layer = make_flag_layer(os.path.join(BASE, "五星红旗.png"), avatar.size)
     os.makedirs(OUT, exist_ok=True)
 
-    gradient_overlay(avatar, fs).save(os.path.join(OUT, "头像_渐变效果.png"))
-    blend_overlay(avatar, fs).save(os.path.join(OUT, "头像_半透明效果.png"))
-    print("已生成 images/头像_渐变效果.png 与 images/头像_半透明效果.png")
+    gradient_overlay(avatar, flag_layer).save(os.path.join(OUT, "真实头像_渐变效果.png"))
+    blend_overlay(avatar, flag_layer).save(os.path.join(OUT, "真实头像_半透明效果.png"))
+    print("已生成 素材/真实头像_渐变效果.png 与 素材/真实头像_半透明效果.png")
 
 
 if __name__ == "__main__":
