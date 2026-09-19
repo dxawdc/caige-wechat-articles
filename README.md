@@ -1,6 +1,6 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**20篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**21篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
 <!-- 版本：v1.12.1 | 更新时间：2026-09-19 | 状态：仅保留最新完整物料 -->
 
@@ -10,6 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [国庆渐变头像：从20行循环到一句话AI](articles/2026-09-29-flag-avatar/README.md) · v1.0.0 | Python 三种渐变/半透明方案、性能对照脚本、单文件网页版 Canvas 工具与 rembg AI 抠图合成示例 | [ZIP](downloads/flag-avatar_v1.0.0.zip) |
 | [黄金白银这10年：从上金所到周大福柜台](articles/2026-09-19-precious-metals/README.md) · v1.0.2 | 十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本、9张图与近十年走势动图 | [ZIP](downloads/precious-metals_v1.0.2.zip) |
 | [在 WorkBuddy 里说一句话，自动完成数据分析与制图](articles/2026-09-19-data-analysis-viz/README.md) · v1.0.0 | Skill 规则与脚本、七套模拟数据、体检报告、洞察摘要与文中 8 张图 | [ZIP](downloads/data-analysis-viz_v1.0.0.zip) |
 | [在 WorkBuddy 里说一句话，生成 5000+ 只A股的热力树图](articles/2026-09-18-a-share-heatmap-skill/README.md) · v1.0.0 | Skill 本体、生成脚本与 Plotly 模板、演示导出 HTML 与文中配图 | [ZIP](downloads/a-share-heatmap-skill_v1.0.0.zip) |

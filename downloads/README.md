@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [国庆渐变头像：从20行循环到一句话AI](../articles/2026-09-29-flag-avatar/README.md) | v1.0.0 | [flag-avatar_v1.0.0.zip](flag-avatar_v1.0.0.zip) | 0.90 MB |
 | [在 WorkBuddy 里说一句话，自动完成数据分析与制图](../articles/2026-09-19-data-analysis-viz/README.md) | v1.0.0 | [data-analysis-viz_v1.0.0.zip](data-analysis-viz_v1.0.0.zip) | 1.06 MB |
 | [在 WorkBuddy 里说一句话，生成 5000+ 只A股的热力树图](../articles/2026-09-18-a-share-heatmap-skill/README.md) | v1.0.0 | [a-share-heatmap-skill_v1.0.0.zip](a-share-heatmap-skill_v1.0.0.zip) | 0.56 MB |
 | [把5000+只A股塞进一张图：这个实时热力树图是怎样做出来的](../articles/2026-09-17-stock-heatmap/README.md) | v1.0.0 | [stock-heatmap_v1.0.0.zip](stock-heatmap_v1.0.0.zip) | 5.50 MB |
