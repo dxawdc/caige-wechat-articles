@@ -4,16 +4,6 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
-      "id": "flag-avatar",
-      "title": "国庆渐变头像：从20行循环到一句话AI",
-      "kind": "article",
-      "version": "v1.0.0",
-      "source": "articles/2026-09-29-flag-avatar",
-      "manifest": "物料清单_v1.0.0.json",
-      "download": "downloads/flag-avatar_v1.0.0.zip",
-      "summary": "Python 三种渐变/半透明方案、性能对照脚本、单文件网页版 Canvas 工具与 rembg AI 抠图合成示例"
-    },
-    {
       "id": "data-analysis-viz",
       "title": "在 WorkBuddy 里说一句话，自动完成数据分析与制图",
       "kind": "article",
