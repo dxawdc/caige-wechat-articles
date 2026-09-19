@@ -1,0 +1,167 @@
+{
+  "id": "2026-09-19-precious-metals",
+  "version": "v1.0.0",
+  "updated": "2026-09-19",
+  "files": [
+    {
+      "path": "data/clean/01_伦敦金现_近十年.csv",
+      "bytes": 113316,
+      "sha256": "bf944f3e1d4e8dd9ea4001bd61cfcf4009d58b626d641c9d15cb486cad4cdfe1"
+    },
+    {
+      "path": "data/clean/02_伦敦银现_近十年.csv",
+      "bytes": 102383,
+      "sha256": "8745de5072730439c75af949bf6937c40047ed9097b2d8388ec75ea81363ab0f"
+    },
+    {
+      "path": "data/clean/03_上金所Au9999_近十年.csv",
+      "bytes": 89208,
+      "sha256": "e347ad7cbf49083090d1513a52b35941da2e08138f2ee21b32bb7b70d3dd29d0"
+    },
+    {
+      "path": "data/clean/04_上金所Ag9999_近十年.csv",
+      "bytes": 38397,
+      "sha256": "1e34b922335e5fc0ef23de946e81ebe7d221c4ccf7debc6bff394ab002cc502d"
+    },
+    {
+      "path": "data/clean/05_沪金主连_近十年.csv",
+      "bytes": 93914,
+      "sha256": "c9c222de72701771ea683e01e3c9d5213b87855476c51007e7b98048c635b0d1"
+    },
+    {
+      "path": "data/clean/06_品牌金价_近两年.csv",
+      "bytes": 156248,
+      "sha256": "fd0595f116af6e28df4eef99e09a7830871010d5a8ae72892581962a1c681f8e"
+    },
+    {
+      "path": "data/clean/07_金银比_近十年.csv",
+      "bytes": 77447,
+      "sha256": "2b7e32403d2aa9a20830c05e2ad71bb6c7ce034de1b05e22ce0727313d55bd30"
+    },
+    {
+      "path": "data/clean/品牌溢价_周六福.csv",
+      "bytes": 28115,
+      "sha256": "0bbf1cbd3811632f2978453f5f5fa2f0f1ac8505a5c4a2d2323c833d29ad5636"
+    },
+    {
+      "path": "data/clean/品牌溢价_周大福.csv",
+      "bytes": 28009,
+      "sha256": "63847564552634690fadd780380098bc04428fac478b0901158d7a3b2b0f3803"
+    },
+    {
+      "path": "data/clean/品牌溢价_周生生.csv",
+      "bytes": 28109,
+      "sha256": "5bfe07057a5ef7aaeff4e6ab92da369f93f3a63527610b531456dfa1c7bac27c"
+    },
+    {
+      "path": "data/clean/品牌溢价_老凤祥.csv",
+      "bytes": 28125,
+      "sha256": "1d5bc570348e6d9e7b50795339133535e152fe80156ac40236bed1a28ac302c6"
+    },
+    {
+      "path": "data/clean/品牌溢价_老庙黄金.csv",
+      "bytes": 28117,
+      "sha256": "3494f377e0e9faf5211c52fe64d690c199f2274cca8df187748a9ee2ce094836"
+    },
+    {
+      "path": "data/clean/品牌溢价_菜百.csv",
+      "bytes": 28053,
+      "sha256": "687cb0e346efeb1f168c88b77f985a13f1e42a3576366dc9c55548573564a8a9"
+    },
+    {
+      "path": "images/图01_近十年国际金银价格.png",
+      "bytes": 128686,
+      "sha256": "58d0a8034c21d21249d4dd7a973510f8920a42d29042a34f0fe61e96588c98aa"
+    },
+    {
+      "path": "images/图02_近十年上海金价格.png",
+      "bytes": 106509,
+      "sha256": "2e4182a900f1ce2b839841bccfebb8488f4ecb7e40335e7c3c0e5620d40ace89"
+    },
+    {
+      "path": "images/图03_近十年年度涨跌幅.png",
+      "bytes": 72392,
+      "sha256": "93fbdb1608a4bd14d8cab1f401fc1d936c127eff0920cdf0273d5948cbfe21e5"
+    },
+    {
+      "path": "images/图04_近两年国际金银价格.png",
+      "bytes": 125356,
+      "sha256": "b20aea737bdf7afbcf8c879810666b442e3084eeeba85559947b3ec4dd217556"
+    },
+    {
+      "path": "images/图05_2026年内金银走势对比.png",
+      "bytes": 137930,
+      "sha256": "4347e39bac4c2f2fa475000883423ed837e4f3a9c60f32ce0f59ab3c97c860bd"
+    },
+    {
+      "path": "images/图06_品牌金饰零售价近两年.png",
+      "bytes": 137361,
+      "sha256": "062454196de68c4d588e8cf1c7193941cfe8c5cbeca7a0fa2a1e3cfeee23ffd7"
+    },
+    {
+      "path": "images/图07_品牌零售价与基准金价差额.png",
+      "bytes": 127766,
+      "sha256": "ded55e8018bdd136f1b2754cb754cee90eac2b8427ce55de0e95e18a1d6f62aa"
+    },
+    {
+      "path": "images/图08_品牌溢价与两年涨幅.png",
+      "bytes": 81708,
+      "sha256": "198ece61f149e569e6f1a8b51fa919884d43a637324a7537f99807881f537d02"
+    },
+    {
+      "path": "images/图09_近十年金银比.png",
+      "bytes": 103443,
+      "sha256": "ec658b55e16d867ee606cb80012f3e139b638b8f0918cf980f061078e1bd3379"
+    },
+    {
+      "path": "images/封面_v1.0.0.png",
+      "bytes": 47530,
+      "sha256": "b8c63f1d5d58ca9085b397229269871356a0fb765c4613b625c45c1f0b4aac22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2692,
+      "sha256": "2ecce95349e076b280502afbad4d726a7eae0997b5b21126f25527ac317d5987"
+    },
+    {
+      "path": "scripts/制作封面.py",
+      "bytes": 1836,
+      "sha256": "f3e038f92ff3ad0cbaef52fed772570cebcbc4fb648a10fe0778ec56f70b879d"
+    },
+    {
+      "path": "scripts/图表风格.py",
+      "bytes": 2453,
+      "sha256": "d613d3749d811412bae9dbad68de826c099aedc00d76e124d009c370e8315a4b"
+    },
+    {
+      "path": "scripts/微信排版.py",
+      "bytes": 8482,
+      "sha256": "2aec7ebef2e449099af028e997fdf5e21ef2978ea328191a4054782f75d5b6a5"
+    },
+    {
+      "path": "scripts/提取叙事关键点.py",
+      "bytes": 3580,
+      "sha256": "3673f8ba1ffa63a5fe80085bd48b4f93c1c8c89efd8f7388e82e9e632fa1073b"
+    },
+    {
+      "path": "scripts/清洗与指标.py",
+      "bytes": 14959,
+      "sha256": "68356634eddfaaa9c64b21759ceebb05b792901d164d5a07f67e599569c679d6"
+    },
+    {
+      "path": "scripts/绘图_01至05.py",
+      "bytes": 13516,
+      "sha256": "43ae4fe636995ac9da9f0382f8699947b116d95c65caf4d6b7832ae54ee73976"
+    },
+    {
+      "path": "scripts/绘图_06至09.py",
+      "bytes": 9396,
+      "sha256": "70e05a7aea5ac5ed60bf3a22ee2d7ec9edf600aca6ab8ec86352adb4a788bc3d"
+    },
+    {
+      "path": "scripts/采集原始数据.py",
+      "bytes": 7490,
+      "sha256": "1f309b9f7ea9085197397ad50c4404da5b57637a76107b495840e80d950f9a2d"
+    }
+  ]
+}

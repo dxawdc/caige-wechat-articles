@@ -10,6 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [黄金白银这10年：从上金所到周大福柜台](articles/2026-09-19-precious-metals/README.md) · v1.0.0 | 十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本与9张图 | [ZIP](downloads/precious-metals_v1.0.0.zip) |
 | [Browser Skill：安装与浏览器实操](articles/2026-09-15-browser-skill-guide/README.md) · v1.0.4 | 本地演示站、快照导出、场景提示词、配图与微信排版源码 | [ZIP](downloads/browser-skill-guide_v1.0.4.zip) |
 | [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/README.md) · v1.1.0 | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文 | [ZIP](downloads/taptap-player-review_v1.1.0.zip) |
 | [S44排位复盘：332场，从钻石到荣耀王者](articles/2026-09-14-s44-ranked-review/README.md) · v1.2.5 | 采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入 | [ZIP](downloads/s44-ranked-review_v1.2.5.zip) |
