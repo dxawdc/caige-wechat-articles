@@ -51,7 +51,7 @@
       "source": "articles/2026-09-14-taptap-player-review/v1.1.0",
       "manifest": "物料清单_v1.1.0.json",
       "download": "downloads/taptap-player-review_v1.1.0.zip",
-      "summary": "2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文"
+      "summary": "2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF"
     },
     {
       "id": "s44-ranked-review",
@@ -61,7 +61,7 @@
       "source": "articles/2026-09-14-s44-ranked-review",
       "manifest": "物料清单_v1.2.5.json",
       "download": "downloads/s44-ranked-review_v1.2.5.zip",
-      "summary": "采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入"
+      "summary": "采集与分析代码、聚合统计、19张图、段位动画和海报"
     },
     {
       "id": "python-data-mining-5",

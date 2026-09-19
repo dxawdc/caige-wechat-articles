@@ -45,7 +45,7 @@ python 检查配置_v1.0.0.py --config "$env:USERPROFILE\.codex\config.toml"
 python 验证Responses_v1.0.0.py --online --model deepseek-v4-flash
 ```
 
-这一命令会发送一次可能计费的线上请求。Key 从 `DEEPSEEK_API_KEY` 读取，缺失时不回显输入；本包不含真实 Key。返回状态 `completed` 且 `markerReceived=true`，才是本脚本的通过条件。普通文本探测不能证明图片、工具或桌面端整套流程可用。
+这一命令会发送一次可能计费的线上请求。Key 从 `DEEPSEEK_API_KEY` 读取，缺失时不回显输入，需自行配置。返回状态 `completed` 且 `markerReceived=true`，才是本脚本的通过条件。普通文本探测不能证明图片、工具或桌面端整套流程可用。
 
 ## 官方配置入口
 

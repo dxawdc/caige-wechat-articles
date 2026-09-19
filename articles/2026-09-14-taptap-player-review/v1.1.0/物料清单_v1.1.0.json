@@ -2,7 +2,6 @@
   "version": "1.1.0",
   "review_count": 2142,
   "contextual_sample_count": 80,
-  "raw_review_bodies_included": false,
   "annotation_method": "Codex contextual reading; one annotator, no independent human validation",
   "files": [
     {
@@ -212,8 +211,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8189,
-      "sha256": "e15f5e6e082990bf98a08afc8a06702c2220a37f860160f2ea178d78d2c6f232"
+      "bytes": 7933,
+      "sha256": "851737e3c5188d5f2286374e04d83c142b464d962a4689ce6cbdf422ef8dae78"
     },
     {
       "path": "requirements_v1.0.0.txt",
@@ -227,8 +226,8 @@
     },
     {
       "path": "数据字典_v1.0.0.md",
-      "bytes": 2749,
-      "sha256": "739c33f6693941e80fcad5dcf1d17b198d1751ad5351b3fffdaa54035ed16985"
+      "bytes": 2698,
+      "sha256": "8c49af2d62b590c2e66e1dc5384923c79b505193b1064ee648e3163506662a29"
     }
   ],
   "material_policy": "latest-complete-set-only"

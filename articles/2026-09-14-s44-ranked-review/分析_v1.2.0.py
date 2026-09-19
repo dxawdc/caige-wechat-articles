@@ -232,7 +232,7 @@ def main():
     for name,f in frames.items():f.to_csv(tables/f'{name}_v1.2.0.csv',index=False,encoding='utf-8-sig')
     heat.to_csv(tables/'星期小时矩阵_v1.2.0.csv',encoding='utf-8-sig')
     d.to_csv(out/'S44排位分析明细_私有_v1.2.0.csv',index=False,encoding='utf-8-sig')
-    # 无角色、选手、对局ID；可视化所需的逐局轨迹保留本地，不随公开资料发布。
+    # 输出不含角色、选手、对局ID；轨迹字段供绘图脚本使用。
     payload={'summary':summary,'tables':{k:records(v) for k,v in frames.items()},'heatmap':heat.values.tolist(),
         'trajectory':records(d[['seq','date','settle_date','rank_score','rank_delta','cumulative_net','cumulative_up','cumulative_down','历史段位含星','win','rolling20']])}
     (out/'分析结果_私有_v1.2.0.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')

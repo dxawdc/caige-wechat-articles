@@ -6,7 +6,7 @@
 
 公众号：可以叫我才哥。本文资料由才哥AGI整理。
 
-这里提供本篇自行制作的演示源码与素材，不包含未发表文章全文、私人浏览器资料、Cookie、Token 或草稿标识。BrowserSkill 是独立的第三方开源项目：[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)，官方许可证为 MIT；本目录没有打包其程序或官方文档副本。
+这里提供本篇自行制作的演示源码与素材。BrowserSkill 是独立的第三方开源项目：[Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill)，官方许可证为 MIT，程序与文档请以官方仓库为准。
 
 ## 1. 浏览器环境
 

@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4498,
-      "sha256": "8f1be513debeee71056b154dc5dcfbeb9140d829d990189e1ad9b5be3defbf48"
+      "bytes": 4396,
+      "sha256": "4bea6788c428df2ac844bcf6188044faca4741068985eda013bb423ae07a3d53"
     },
     {
       "path": "requirements_v1.0.0.txt",
@@ -78,6 +78,5 @@
     }
   ],
   "version": "1.0.4",
-  "article_full_text_included": false,
   "material_policy": "latest-complete-set-only"
 }

@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6987,
-      "sha256": "a8f91258caaed670a709d90f694e346446ec5f3acf16ab409ed0f454fc87a3be"
+      "bytes": 6808,
+      "sha256": "8bea8c64028603c8f3416733f39f073fdf822ce9ecdd613b256c30c2340220fb"
     },
     {
       "path": "requirements_v1.0.0.txt",
@@ -33,8 +33,8 @@
     },
     {
       "path": "分析_v1.2.0.py",
-      "bytes": 19834,
-      "sha256": "9fc3804c2a251aee5176ae2ed8ce03c26ad56d02cca6fdf7f857fd46a54438c3"
+      "bytes": 19807,
+      "sha256": "c58bbf91ec8bd15deed12596e316a3cb92958ad5d90916a1381cafea24e7237e"
     },
     {
       "path": "图表_v1.2.0/01_赛季总览_v1.2.0.png",
@@ -348,6 +348,5 @@
     }
   ],
   "version": "1.2.5",
-  "article_full_text_included": false,
   "material_policy": "latest-complete-set-only"
 }

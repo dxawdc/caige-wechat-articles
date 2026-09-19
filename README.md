@@ -1,8 +1,8 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**20篇文章**。只收录可运行的代码、教学与模拟数据、图表和复现说明；公众号文稿、排版与发布工具、写作与配图过程记录不进公开包。
+微信公众号「可以叫我才哥」的公开配套资料：**20篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
-<!-- 版本：v1.12.0 | 更新时间：2026-09-19 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.12.1 | 更新时间：2026-09-19 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -15,8 +15,8 @@
 | [在 WorkBuddy 里说一句话，生成 5000+ 只A股的热力树图](articles/2026-09-18-a-share-heatmap-skill/README.md) · v1.0.0 | Skill 本体、生成脚本与 Plotly 模板、演示导出 HTML 与文中配图 | [ZIP](downloads/a-share-heatmap-skill_v1.0.0.zip) |
 | [把5000+只A股塞进一张图：这个实时热力树图是怎样做出来的](articles/2026-09-17-stock-heatmap/README.md) · v1.0.0 | 文中代码片段、Plotly/ECharts 闭市导出图与运行方式 | [ZIP](downloads/stock-heatmap_v1.0.0.zip) |
 | [Browser Skill：安装与浏览器实操](articles/2026-09-15-browser-skill-guide/README.md) · v1.0.4 | 本地演示站、快照导出、演示数据、讲解配图与导出脚本 | [ZIP](downloads/browser-skill-guide_v1.0.4.zip) |
-| [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/README.md) · v1.1.0 | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文 | [ZIP](downloads/taptap-player-review_v1.1.0.zip) |
-| [S44排位复盘：332场，从钻石到荣耀王者](articles/2026-09-14-s44-ranked-review/README.md) · v1.2.5 | 采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入 | [ZIP](downloads/s44-ranked-review_v1.2.5.zip) |
+| [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/README.md) · v1.1.0 | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF | [ZIP](downloads/taptap-player-review_v1.1.0.zip) |
+| [S44排位复盘：332场，从钻石到荣耀王者](articles/2026-09-14-s44-ranked-review/README.md) · v1.2.5 | 采集与分析代码、聚合统计、19张图、段位动画和海报 | [ZIP](downloads/s44-ranked-review_v1.2.5.zip) |
 | [从预测到分群：Python五类模型](articles/2026-09-14-python-data-mining-5/v1.0.0/README.md) · v1.0.0 | 5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验 | [ZIP](downloads/python-data-mining-5_v1.0.0.zip) |
 | [Python数据可视化指南：50例](articles/2026-09-13-python-visualization-50/v1.0.2/README.md) · v1.0.2 | 50份独立源码、模拟CSV、50张PNG与SVG、7个交互图、公众号名标识和241项验收 | [ZIP](downloads/python-visualization-50_v1.0.2.zip) |
 | [只看9月新建：6个AI开源项目](articles/2026-09-08-new-ai-repos/README.md) · v2.0.0 | 本月创建核验、六份独立任务单、真实界面与图解、范围检查脚本 | [ZIP](downloads/new-ai-repos_v2.0.0.zip) |
@@ -42,9 +42,9 @@
 2. 下载独立 ZIP 并解压；按该篇要求创建 Python 虚拟环境、安装依赖、运行入口。各篇 Python 版本和依赖不同，详情以本篇说明为准。
 3. 图表可直接查看。交互 HTML 需下载到本地打开，并保留同目录资源；GitHub 文件页不执行这些页面。
 
-## 资料边界与更新
+## 资料与更新
 
-这个仓库只放可复用的资料：**代码、教学与模拟数据、图表、技能本体**。公众号文稿与正文、排版与发布工具、写作与配图过程记录（修订说明、提示词、验收记录）都不收录——文章常是先写后发，资料先上线也不会提前披露内容。教学模拟数据、公开评价汇总和个人战绩聚合分别标注，不混为同一种数据。私人逐局输入、玩家原文、账号标识、登录凭据和未发表文章全文不在公开包中；需自备输入的案例在对应 README 中说明。
+仓库内容以可直接复用的资料为主：**代码、教学与模拟数据、图表、技能本体**。每篇的 README 写明数据来源、口径、环境依赖、运行入口和产出。
 
 每篇只保留**最新完整一套物料**。代码或图片的旧版本号可能仍是当前依赖，不代表废弃；目录与 ZIP 以当前物料清单为准。历史修订通过 Git 提交追溯，不另存多套 README、旧包或备份目录。
 

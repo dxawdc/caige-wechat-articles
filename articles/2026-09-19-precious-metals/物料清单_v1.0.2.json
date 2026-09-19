@@ -130,8 +130,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3401,
-      "sha256": "46d3ccde0304f6b65b8a9b35d90979086a97947e7ad7e1302f498fd1337f5eb9"
+      "bytes": 3262,
+      "sha256": "a27fa6900342da13d700fd774bacac78ec283211a0a189a8540ad2867c0cd546"
     },
     {
       "path": "scripts/制作封面.py",
