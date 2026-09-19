@@ -56,7 +56,7 @@ python 导出可见资料_v1.0.0.py 筛选快照_v1.0.0.txt --output 复现资�
 
 浏览器实拍使用网页截图，不包含工具栏和书签。`00`、`01`、`02`为明确标注的原创示意图/输出摘要，不是软件截图。控制台曾出现扩展资源错误，没有声称零错误。
 
-## 5. 配图与排版源码
+## 5. 配图源码
 
 `生成讲解配图_v1.0.0.py` 生成封面和3张讲解图，默认使用Windows微软雅黑；其他系统需替换脚本内字体路径。不会修改真实软件截图。
 
@@ -65,21 +65,11 @@ python -m pip install -r requirements_v1.0.0.txt
 python 生成讲解配图_v1.0.0.py
 ```
 
-`微信排版_v1.0.4.py` 支持 Markdown 转内联HTML、Pygments分词高亮、11px逐行代码与6px图注间距。使用者需要提供自己的Markdown原稿；本目录不提供未发表文章全文。
-
-```bash
-python 微信排版_v1.0.4.py --input 自己的文章.md --output 阅读输出
-```
-
-单独图片段落的 alt 会作为图下注释，图片路径应位于Markdown所在目录之内。复用前修改脚本中的 TITLE、URL 和 VERSION。手机尺寸浏览器验收不代表真实微信客户端验收。
-
 ## 6. 版本与入口
 
 本篇固定参考 [cli-v0.2.1](https://github.com/Tencent/BrowserSkill/releases/tag/cli-v0.2.1) 与对应 [Skill](https://github.com/Tencent/BrowserSkill/blob/cli-v0.2.1/skill/SKILL.md)。具体参数以安装版本的 `bsk <command> --help` 为准。该版本截图帮助未提供 `--full-page`，命令清单没有 `bsk replay`。
 
 当前物料：v1.0.4。目录只保留最新完整一套，历史由Git提交追溯；配图和数据依赖未变化时保留原文件名。
-
-最新排版说明：[字号修订说明](字号修订说明_v1.0.4.md)。
 
 ## 独立资料包
 

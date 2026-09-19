@@ -4,6 +4,36 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
+      "id": "data-analysis-viz",
+      "title": "在 WorkBuddy 里说一句话，自动完成数据分析与制图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-19-data-analysis-viz",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/data-analysis-viz_v1.0.0.zip",
+      "summary": "Skill 六份方法参考与三个脚本、七套模拟数据、体检报告、洞察摘要与文中 8 张图"
+    },
+    {
+      "id": "a-share-heatmap-skill",
+      "title": "在 WorkBuddy 里说一句话，生成 5000+ 只A股的热力树图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-18-a-share-heatmap-skill",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/a-share-heatmap-skill_v1.0.0.zip",
+      "summary": "Skill 本体（触发词与工作流）、生成脚本与 Plotly 模板、演示导出 HTML 与文中配图"
+    },
+    {
+      "id": "stock-heatmap",
+      "title": "把5000+只A股塞进一张图：这个实时热力树图是怎样做出来的",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-17-stock-heatmap",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/stock-heatmap_v1.0.0.zip",
+      "summary": "文中代码片段、Plotly/ECharts 闭市导出图与项目运行方式；源码见独立仓库"
+    },
+    {
       "id": "browser-skill-guide",
       "title": "Browser Skill：安装与浏览器实操",
       "kind": "article",
@@ -11,7 +41,7 @@
       "source": "articles/2026-09-15-browser-skill-guide",
       "manifest": "物料清单_v1.0.4.json",
       "download": "downloads/browser-skill-guide_v1.0.4.zip",
-      "summary": "本地演示站、快照导出、场景提示词、配图与微信排版源码"
+      "summary": "本地演示站、快照导出、演示数据、讲解配图与导出脚本"
     },
     {
       "id": "taptap-player-review",
@@ -164,16 +194,6 @@
       "summary": "注册用户、登录明细 → 用户日去重 → 成熟批次留存及覆盖率"
     },
     {
-      "id": "wechat-code-blocks",
-      "title": "公众号代码块通用方案",
-      "kind": "tool",
-      "version": "v1.0.0",
-      "source": "tools/wechat-code-blocks/v1.0.0",
-      "manifest": "物料清单_v1.0.0.json",
-      "download": "downloads/wechat-code-blocks_v1.0.0.zip",
-      "summary": "11px实际字号、Pygments高亮、长行横滑、逐行leaf结构与浏览器验收"
-    },
-    {
       "id": "precious-metals",
       "title": "黄金白银这10年：从上金所到周大福柜台",
       "kind": "article",
@@ -181,7 +201,7 @@
       "source": "articles/2026-09-19-precious-metals",
       "manifest": "物料清单_v1.0.2.json",
       "download": "downloads/precious-metals_v1.0.2.zip",
-      "summary": "十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图/排版/草稿脚本、9张图、近十年走势动图与代码块不折行验收"
+      "summary": "十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本、9张图与近十年走势动图"
     }
   ]
 }

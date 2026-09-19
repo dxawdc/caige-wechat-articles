@@ -1,0 +1,34 @@
+{
+  "id": "stock-heatmap",
+  "version": "v1.0.0",
+  "updated": "2026-09-17",
+  "note": "文中代码片段与两张闭市导出图；源码见独立仓库 dxawdc/stock-heatmap。",
+  "files": [
+    {
+      "path": "images/echarts.png",
+      "bytes": 1323244,
+      "sha256": "60039d37eb53e7f603c58b23afeb79dd4c6b284ebe71e45e2e9c00083f1c4ff1"
+    },
+    {
+      "path": "images/fullscreen.png",
+      "bytes": 468192,
+      "sha256": "6187864a78b557d2cb74b9813c253f3adc69e3eb2afc50ce1431ef5604f4642e"
+    },
+    {
+      "path": "images/plotly.png",
+      "bytes": 4488301,
+      "sha256": "0b1379f7deb88e895a543f71d7ae4a27289581965df55f0c06371d03b8d852bb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1342,
+      "sha256": "49a44c98362077604ce4b64ca27f63ce15d29f09812466f98bfaf2cc14296172"
+    },
+    {
+      "path": "代码片段.json",
+      "bytes": 1435,
+      "sha256": "ad1817acf3d6de09575f8325c671df44fd7141037549073c50ee795e2db58162"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

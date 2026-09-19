@@ -1,0 +1,194 @@
+{
+  "id": "data-analysis-viz",
+  "version": "v1.0.0",
+  "updated": "2026-09-19",
+  "note": "Skill 规则与脚本、七套模拟数据、体检报告与洞察摘要、文中八张图。",
+  "files": [
+    {
+      "path": "data/raw/01_渠道月度.csv",
+      "bytes": 4988,
+      "sha256": "790c1737f0839b629a102558906574cde8076ca80221aa56ac29a67fddb4da16"
+    },
+    {
+      "path": "data/raw/02_用户使用时长.csv",
+      "bytes": 360273,
+      "sha256": "a83d8611a215d019995b66dbbed488538379cfb1e868570be6174b3c585a379f"
+    },
+    {
+      "path": "data/raw/03_月度经营.csv",
+      "bytes": 1079,
+      "sha256": "03b26d5e921b43e4ce4646f1a0068f21a84ace912a352960bbe59ba89b7d1acc"
+    },
+    {
+      "path": "data/raw/04_城市指标.csv",
+      "bytes": 13345,
+      "sha256": "5e93acbe68576da6f280c0a8c8ccbd4210188d776f7e1a7e8bc21410610b51b5"
+    },
+    {
+      "path": "data/raw/06_活跃时段.csv",
+      "bytes": 2820,
+      "sha256": "c92b72c2e905635881635c5f0932ba157ff353c1d50fdc70cf256767311d89cb"
+    },
+    {
+      "path": "data/raw/07_品类构成.csv",
+      "bytes": 4609,
+      "sha256": "425a899db5834475e7cc8dc8cb216bd274bd8f9586b6e01ca9ffc1ab15a661bd"
+    },
+    {
+      "path": "demo/reports/体检_01_渠道月度.md",
+      "bytes": 2732,
+      "sha256": "329ff8f7d63c6cff6679ae472044d682487d20c41bac6ac291019461803563f1"
+    },
+    {
+      "path": "demo/reports/体检_02_用户使用时长.md",
+      "bytes": 2149,
+      "sha256": "56e232593449e1a645cc6c7f7d37f7ef3f2eb4e0ee8614632fcffa331fe8dda4"
+    },
+    {
+      "path": "demo/reports/体检_03_月度经营.md",
+      "bytes": 1453,
+      "sha256": "ed9f6db837e1208fe29cb31e0046e3a66399c1ccc7870573d9cafa5d4df1b924"
+    },
+    {
+      "path": "demo/reports/体检_04_城市指标.md",
+      "bytes": 2095,
+      "sha256": "00d8e3db7ddf7e4519e1313a4c4f2e5a10e812cad9310736fc5ecb65d2c7bee3"
+    },
+    {
+      "path": "demo/reports/体检_05_订单流水.md",
+      "bytes": 1972,
+      "sha256": "e15427ce6e6f08c295e2f3253c87ff2b192474e5194244f2a343c6cbde0f2c6a"
+    },
+    {
+      "path": "demo/reports/体检_06_活跃时段.md",
+      "bytes": 1189,
+      "sha256": "cf5c37b1f75538539d66678f4e67a98e6fecf33c2e337f87f1f34b2fce724430"
+    },
+    {
+      "path": "demo/reports/体检_07_品类构成.md",
+      "bytes": 1457,
+      "sha256": "41b9c304f565c33996291b93f2cbdec6ed9d920b927949a0dd3302946445dcf5"
+    },
+    {
+      "path": "demo/reports/统计特征.json",
+      "bytes": 4171,
+      "sha256": "d07f6b309d9568062b7fa1574983f00fcf9eba72fba95ed8e808b33f7f7694e3"
+    },
+    {
+      "path": "demo/数据分析.py",
+      "bytes": 23661,
+      "sha256": "7a08334ab333027cbf23357480a84e9d74ec3dcea612ee6223f033d6ec86a690"
+    },
+    {
+      "path": "demo/数据模拟.py",
+      "bytes": 12710,
+      "sha256": "9abafabb21556377028d7983fbfc3dcc52350d6f340ce3f081bc3f2d5f8d3faf"
+    },
+    {
+      "path": "demo/洞察摘要.md",
+      "bytes": 6869,
+      "sha256": "bbb5496f242e148e9b165351dedd208e395c2abe074d74bd4fc661234bad777d"
+    },
+    {
+      "path": "images/图01_渠道新增用户排序.png",
+      "bytes": 90642,
+      "sha256": "c549057dabf3c367e49877fc6a26d5480fb260c6d7000c590fee7cb538be52b5"
+    },
+    {
+      "path": "images/图02_使用时长分布.png",
+      "bytes": 109705,
+      "sha256": "4e1bf23d13268c260691f3dfcb6b6745549acf37da38677628cf608f345f403e"
+    },
+    {
+      "path": "images/图03_平台设备时长分布.png",
+      "bytes": 90297,
+      "sha256": "923e5ef7a68172904abd256f93b01955b781058f2f173707b52c2faec79bdf49"
+    },
+    {
+      "path": "images/图04_月度订单趋势.png",
+      "bytes": 176354,
+      "sha256": "76fb265eb0bfacfd09630ccf796c3fa050b36275d996815c490765f8a1a21c86"
+    },
+    {
+      "path": "images/图05_城市收入与消费.png",
+      "bytes": 223874,
+      "sha256": "fc24dbf3a949d0bf3fa736ec069eb6a775f367b01a7c8415f7c72b7d0dbe6fed"
+    },
+    {
+      "path": "images/图06_用户消费帕累托.png",
+      "bytes": 126894,
+      "sha256": "ca0bb305fcabe8ea1380c6318ea0a66869099ad3cc8298921dd45ab84b5a627e"
+    },
+    {
+      "path": "images/图07_活跃时段热力图.png",
+      "bytes": 74734,
+      "sha256": "6bcbc80ad7d24f65b1528f76bb0d2c95fad48d16b3ee007153677afd32c14935"
+    },
+    {
+      "path": "images/图08_品类构成变化.png",
+      "bytes": 111162,
+      "sha256": "b384172b878664244214dadaaac4b56c252aa21e78df9fddaab90df2461a0526"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4023,
+      "sha256": "5111f21a572de1b3f1ecfdbb99dc84a80849b10c60fad0643316199ec059eaaa"
+    },
+    {
+      "path": "skill/references/01-数据概览与清洗.md",
+      "bytes": 9242,
+      "sha256": "dbca50822692f074953175053e910c8cc1650b1c1eb80f800829eb597ced39fc"
+    },
+    {
+      "path": "skill/references/02-统计特征提取.md",
+      "bytes": 9383,
+      "sha256": "9e2af1276ef809190ef7861cfe0fd182b7ca115c064b3479d2df34071f6b8aac"
+    },
+    {
+      "path": "skill/references/03-关键指标识别.md",
+      "bytes": 9646,
+      "sha256": "fb52a2defc5ef83ec12e2fce0d7008174ab5a54ad71aafcaa8282df91bb0b2b2"
+    },
+    {
+      "path": "skill/references/04-图表匹配.md",
+      "bytes": 18750,
+      "sha256": "66acf0b6fc8bca3d8c0c7584eda68ce09c7dc088cca337a8f6dbdd60e0a430c5"
+    },
+    {
+      "path": "skill/references/05-可视化设计原则.md",
+      "bytes": 14894,
+      "sha256": "0866588e3e9ebf74a079f8f794aca2bf7ea2221f85f737d0533a87a55fcd7296"
+    },
+    {
+      "path": "skill/references/06-洞察摘要与交付.md",
+      "bytes": 6838,
+      "sha256": "985bc4af556372a6dd0d52233fe26d935e7e29e9cbd7dd4ed9b7adaecd8e985b"
+    },
+    {
+      "path": "skill/references/source-synthesis.md",
+      "bytes": 7974,
+      "sha256": "1f16f23fe085c0cf2e150ae9dade34c3e0f00d7e725f9598f16d4e88aeb58f78"
+    },
+    {
+      "path": "skill/scripts/profile_data.py",
+      "bytes": 19351,
+      "sha256": "e5fbf74e87b8f9c848eff6de6a12f11df0be55fdededf40a5b5b85eb27a142b9"
+    },
+    {
+      "path": "skill/scripts/suggest_chart.py",
+      "bytes": 18023,
+      "sha256": "75c7ddfe6143db2158adab541ddc08fc947a560034caca29bd50406306280f7a"
+    },
+    {
+      "path": "skill/scripts/viz_style.py",
+      "bytes": 7166,
+      "sha256": "2409b0b7ef92a98e881e69fa18a482216a0b1e3a368661e25b9c943568d35a40"
+    },
+    {
+      "path": "skill/SKILL.md",
+      "bytes": 11072,
+      "sha256": "20dc5e0b9e6b724548874f45df7dfa6f1260b30305cde5b897be6b599a8b8c33"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

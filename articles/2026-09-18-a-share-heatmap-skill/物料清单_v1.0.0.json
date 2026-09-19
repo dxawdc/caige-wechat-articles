@@ -1,0 +1,44 @@
+{
+  "id": "a-share-heatmap-skill",
+  "version": "v1.0.0",
+  "updated": "2026-09-18",
+  "note": "Skill 本体、生成脚本与 Plotly 模板，以及文中配图与演示导出 HTML。",
+  "files": [
+    {
+      "path": "demo/heatmap.html",
+      "bytes": 1182656,
+      "sha256": "ee4b6bb6d61a72b4ca28de34428474361779add0ea35d43991008bcd3750a1c6"
+    },
+    {
+      "path": "images/skill.jpg",
+      "bytes": 398566,
+      "sha256": "804e5b988210d57dc3a8195da4d5b14511cff1bd9a98b27eb6c12dfd927d394b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2967,
+      "sha256": "a7e0dd9c25abd1eddbb10ee2cb83706b6dd1e5767d2de3d19e5e867dfad6cc57"
+    },
+    {
+      "path": "skill/generate_heatmap.py",
+      "bytes": 27960,
+      "sha256": "92288d3beb32e7b232bf3a0acf9a44a8f6c22801e79700961a99f737a67be07b"
+    },
+    {
+      "path": "skill/implementation.md",
+      "bytes": 9179,
+      "sha256": "8825ca35675b93cfb6eb2f4fc045f3811f163302a26e71ba36c593ea11f33695"
+    },
+    {
+      "path": "skill/SKILL.md",
+      "bytes": 5640,
+      "sha256": "2ebc87fcc6a913a9a7f3cd9cdb31083c07da28efeb0e71f272225d8d18cfaf18"
+    },
+    {
+      "path": "skill/template.html",
+      "bytes": 13160,
+      "sha256": "f0c84be8d14b2d0b883c8b26cee3e8b855196e2703852b9d6e590e7d56e4f7d8"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

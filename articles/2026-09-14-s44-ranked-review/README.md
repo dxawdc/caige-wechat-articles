@@ -4,16 +4,7 @@
 
 本版保留米白背景，优化青绿、金色、蓝灰配色；每日星数只保留一张净变化图；增加牌子分布、对局评分分布与极值，以及3连胜/3连败后的下一局胜率。当前仅保留最新完整物料。
 
-当前排版使用Pygments内联高亮、逐行span[leaf]的11px字号层与内部横滑；图片与图注间距6px。数据、图表及分析脚本沿用当前有效版本，数值无变动。
-
-## 排版复现
-
-```bash
-python -m pip install -r requirements_排版_v1.2.1.txt
-python 微信排版_v1.2.5.py --input 本地文章.md --output 排版输出
-```
-
-未发表文章不在公开目录中，运行时传入本地Markdown。图片须为文档目录内的相对路径。输出为内联样式HTML、阅读HTML和代码/图片映射；不调用微信接口。11个代码块与原始代码逐字一致，21张图注间距均经浏览器实测；API回读确认颜色保留，真实微信手机显示仍由作者预览。
+数据、图表及分析脚本沿用当前有效版本，数值无变动。
 
 ## 核心口径与结果
 
@@ -71,7 +62,6 @@ python 分析_v1.2.0.py --input 本人分析输入_v1.0.0.csv --mapping 段位�
 - `图表_v1.2.0/`：19张PNG/SVG+1个GIF。文件编号保留主题编号，15和16已按用户要求取消。
 - `统计表_v1.2.0/`：可核对的聚合数据，包括三连后胜率、金银牌分路/英雄、完整详情牌子分布。
 - `S44赛季排位海报_v1.1.0.png`：971×1619，内置ImageGen制作并逐项核对，未变化故沿用版本号；山路只是装饰，不承担定量比例。
-- `海报提示词_v1.1.0.md`：实际编辑提示词及核对清单。
 - `公众号封面_v1.2.0.png`：1800×765横版封面，Python绘制。
 - 本地另有文章Markdown、阅读HTML、统计明细与验收记录；公开仅放源码、图表和脱敏汇总，不含未发表全文、会话或逐局私有数据。
 
@@ -82,8 +72,6 @@ python 分析_v1.2.0.py --input 本人分析输入_v1.0.0.csv --mapping 段位�
 数据：本人王者营地实际响应及本机App10.114.0826。段位证据JSON带完整枚举和来源哈希。官方英雄字典快照：https://pvp.qq.com/web201605/js/herolist.json 。存储实现参考：https://github.com/Tencent/MMKV 。技术文档：[pandas分组](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)、[Matplotlib动画](https://matplotlib.org/stable/api/_as_gen/matplotlib.animation.FuncAnimation.html)。
 
 当前物料：v1.2.5。目录只保留最新完整一套，历史由Git提交追溯；配图和数据依赖未变化时保留原文件名。
-
-最新排版说明：[字号修订说明](字号修订说明_v1.2.5.md)。
 
 ## 独立资料包
 

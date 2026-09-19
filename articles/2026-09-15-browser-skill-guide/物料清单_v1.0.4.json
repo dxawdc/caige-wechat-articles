@@ -3,8 +3,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 5105,
-      "sha256": "fd21b85265d2f75113c318819c3f970464bf8ab1d003ebf40c6ae535a3091cd8"
+      "bytes": 4498,
+      "sha256": "8f1be513debeee71056b154dc5dcfbeb9140d829d990189e1ad9b5be3defbf48"
     },
     {
       "path": "requirements_v1.0.0.txt",
@@ -52,29 +52,9 @@
       "sha256": "8aeb595e54f7e4c61091978691fddff5383ddcc4a97f716b372a0a837580e64c"
     },
     {
-      "path": "场景提示词_v1.0.0.md",
-      "bytes": 1871,
-      "sha256": "f5f145a4bd49f16b330b6b2c67abb873918e144f23c14ad611f968a6317ee63b"
-    },
-    {
-      "path": "字号修订说明_v1.0.4.md",
-      "bytes": 1644,
-      "sha256": "2d06e91154df2c99d489bd50ea811d4eb82a19266ee0d872c2c76cb328bd54ad"
-    },
-    {
-      "path": "字号验收摘要_v1.0.4.json",
-      "bytes": 2116,
-      "sha256": "5736fce20bb94126cec7df9552afe5dbc65da946f6c1653c204d6cf016019361"
-    },
-    {
       "path": "导出可见资料_v1.0.0.py",
       "bytes": 922,
       "sha256": "a4c17ca6af2ba1a9816b1375ab0725e428d61b2b41f7671e317f388ce0f93bb9"
-    },
-    {
-      "path": "微信排版_v1.0.4.py",
-      "bytes": 10621,
-      "sha256": "609067cae4308f2720f0d81b858b12f2a06c96c40c49dc618d0358304ed8d692"
     },
     {
       "path": "演示站_v1.0.0/index.html",

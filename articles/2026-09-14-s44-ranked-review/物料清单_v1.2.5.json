@@ -8,18 +8,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7780,
-      "sha256": "fa15f69f92009b5d93f042bbb17d800b99f30b74c799420ca44a19edbd5f43ff"
+      "bytes": 6987,
+      "sha256": "a8f91258caaed670a709d90f694e346446ec5f3acf16ab409ed0f454fc87a3be"
     },
     {
       "path": "requirements_v1.0.0.txt",
       "bytes": 61,
       "sha256": "d36f5e2db3f3039a41f3e5beb55c55b868436825c10ce1da2c010981d39189a9"
-    },
-    {
-      "path": "requirements_排版_v1.2.1.txt",
-      "bytes": 46,
-      "sha256": "da89c8ab001e3502b7a69ac56e7a48d6894b995f75bb31e56366a6217edda6d7"
     },
     {
       "path": "requirements_采集_v1.0.0.txt",
@@ -237,34 +232,14 @@
       "sha256": "5ae21c60fc8ed6d84ee53500db675fd3adba33ef6129eb871cbc451dbe7909dd"
     },
     {
-      "path": "字号修订说明_v1.2.5.md",
-      "bytes": 1644,
-      "sha256": "3497f7d5f1431b433696f86c6ef2df087c4fd52341d1a7a3d811582a0147b640"
-    },
-    {
-      "path": "字号验收摘要_v1.2.5.json",
-      "bytes": 2117,
-      "sha256": "7f434a7441ef04bbf9c086d43ca5d0b82fb9260acf261ab1da53dc16098c9d65"
-    },
-    {
       "path": "官方英雄字典_v1.0.0.json",
       "bytes": 42840,
       "sha256": "a969270436b367288285f8a580d0fc238e84218ddf9ba8c484364dcab6dc8ed5"
     },
     {
-      "path": "微信排版_v1.2.5.py",
-      "bytes": 10072,
-      "sha256": "0c38975604b6e0667afd417ec204bd0193ebc1c23169d4181803950216e8ac9d"
-    },
-    {
       "path": "段位映射证据_v1.1.0.json",
       "bytes": 5060,
       "sha256": "25d8be8c19d6d1ca0dfd92cfa4640332b68dd0a539b71dfd62ae45e193f8f8d7"
-    },
-    {
-      "path": "海报提示词_v1.1.0.md",
-      "bytes": 2638,
-      "sha256": "c839265e443fbaded3b00579cca236f5ff6e9b7309264cc5dad164c1389f4e3b"
     },
     {
       "path": "清洗列表_v1.1.0.py",

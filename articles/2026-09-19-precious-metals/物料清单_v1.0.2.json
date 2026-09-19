@@ -130,13 +130,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4024,
-      "sha256": "26b2cc7a1bf7421ae8fe27bec35bfdaf4f487d4d079cc3bd54e53a5ab12ed101"
-    },
-    {
-      "path": "scripts/保存公众号草稿.py",
-      "bytes": 18821,
-      "sha256": "9700d160e06a86f8d93ab0d2f0ea4413c0be48ce9a0a266b2139b314478f1412"
+      "bytes": 3401,
+      "sha256": "46d3ccde0304f6b65b8a9b35d90979086a97947e7ad7e1302f498fd1337f5eb9"
     },
     {
       "path": "scripts/制作封面.py",
@@ -147,11 +142,6 @@
       "path": "scripts/图表风格.py",
       "bytes": 2453,
       "sha256": "d613d3749d811412bae9dbad68de826c099aedc00d76e124d009c370e8315a4b"
-    },
-    {
-      "path": "scripts/微信排版.py",
-      "bytes": 7736,
-      "sha256": "0e30d83a24271327280b4e50bc19d1bc21b381845c921f0fb0e08caf3341283a"
     },
     {
       "path": "scripts/提取叙事关键点.py",
@@ -182,16 +172,7 @@
       "path": "scripts/采集原始数据.py",
       "bytes": 7490,
       "sha256": "1f309b9f7ea9085197397ad50c4404da5b57637a76107b495840e80d950f9a2d"
-    },
-    {
-      "path": "scripts/验收_代码块不折行.py",
-      "bytes": 6071,
-      "sha256": "1cedbe0bc0f3ab2b36e1cff7de2e31a3c538895f6e3aafa2aa53e31540cdc8c9"
-    },
-    {
-      "path": "物料清单_v1.0.2.json",
-      "bytes": 6997,
-      "sha256": "881116982a5b17e26e2c0cd70e3b1cf31c711c8c0d1fb54ec78cab447e53e11e"
     }
-  ]
+  ],
+  "material_policy": "latest-complete-set-only"
 }

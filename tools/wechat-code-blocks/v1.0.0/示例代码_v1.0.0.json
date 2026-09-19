@@ -1,7 +1,0 @@
-[
-  {"language":"python","source":"# 按组统计，保留空行和缩进\nsummary = df.groupby('team_size').agg(games=('win', 'size'), wins=('win', 'sum'), mvp_count=('mvp', 'sum'))\n\nprint(summary)"},
-  {"language":"bash","source":"python analyze.py --input sample.csv --output report --include-mvp --timezone Asia/Shanghai"},
-  {"language":"powershell","source":"# 演示路径\nGet-ChildItem -LiteralPath 'D:/examples' -Filter '*.csv' | Select-Object Name, Length"},
-  {"language":"javascript","source":"const label = '<tag>& \"demo\"';\nconsole.log(label);"},
-  {"language":"text","source":"这是真正的纯文本，不强求多色。\n\n末行保留。"}
-]

@@ -1,8 +1,8 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**16篇文章、1套通用工具**。包含可运行代码、教学数据、公开汇总、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**20篇文章**。只收录可运行的代码、教学与模拟数据、图表和复现说明；公众号文稿、排版与发布工具、写作与配图过程记录不进公开包。
 
-<!-- 版本：v1.11.0 | 更新时间：2026-09-15 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.12.0 | 更新时间：2026-09-19 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -10,8 +10,11 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [黄金白银这10年：从上金所到周大福柜台](articles/2026-09-19-precious-metals/README.md) · v1.0.0 | 十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本与9张图 | [ZIP](downloads/precious-metals_v1.0.0.zip) |
-| [Browser Skill：安装与浏览器实操](articles/2026-09-15-browser-skill-guide/README.md) · v1.0.4 | 本地演示站、快照导出、场景提示词、配图与微信排版源码 | [ZIP](downloads/browser-skill-guide_v1.0.4.zip) |
+| [黄金白银这10年：从上金所到周大福柜台](articles/2026-09-19-precious-metals/README.md) · v1.0.2 | 十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本、9张图与近十年走势动图 | [ZIP](downloads/precious-metals_v1.0.2.zip) |
+| [在 WorkBuddy 里说一句话，自动完成数据分析与制图](articles/2026-09-19-data-analysis-viz/README.md) · v1.0.0 | Skill 规则与脚本、七套模拟数据、体检报告、洞察摘要与文中 8 张图 | [ZIP](downloads/data-analysis-viz_v1.0.0.zip) |
+| [在 WorkBuddy 里说一句话，生成 5000+ 只A股的热力树图](articles/2026-09-18-a-share-heatmap-skill/README.md) · v1.0.0 | Skill 本体、生成脚本与 Plotly 模板、演示导出 HTML 与文中配图 | [ZIP](downloads/a-share-heatmap-skill_v1.0.0.zip) |
+| [把5000+只A股塞进一张图：这个实时热力树图是怎样做出来的](articles/2026-09-17-stock-heatmap/README.md) · v1.0.0 | 文中代码片段、Plotly/ECharts 闭市导出图与运行方式 | [ZIP](downloads/stock-heatmap_v1.0.0.zip) |
+| [Browser Skill：安装与浏览器实操](articles/2026-09-15-browser-skill-guide/README.md) · v1.0.4 | 本地演示站、快照导出、演示数据、讲解配图与导出脚本 | [ZIP](downloads/browser-skill-guide_v1.0.4.zip) |
 | [Python爬虫与玩家评价文本分析](articles/2026-09-14-taptap-player-review/v1.1.0/README.md) · v1.1.0 | 2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文 | [ZIP](downloads/taptap-player-review_v1.1.0.zip) |
 | [S44排位复盘：332场，从钻石到荣耀王者](articles/2026-09-14-s44-ranked-review/README.md) · v1.2.5 | 采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入 | [ZIP](downloads/s44-ranked-review_v1.2.5.zip) |
 | [从预测到分群：Python五类模型](articles/2026-09-14-python-data-mining-5/v1.0.0/README.md) · v1.0.0 | 5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验 | [ZIP](downloads/python-data-mining-5_v1.0.0.zip) |
@@ -33,12 +36,6 @@
 | [游戏LTV怎么算：先把分母和观察天数对齐](articles/2026-09-06-06-cohort-ltv/README.md) · v1.1.1 | 注册与支付 → 用户日龄 → 成熟累计窗口 → 价值口径和批次加权 | [ZIP](downloads/06-cohort-ltv_v1.1.1.zip) |
 | [各渠道留存都涨了，整体为什么反而下降](articles/2026-09-06-07-channel-mix/README.md) · v1.1.1 | 渠道新增和回访 → 组内率与权重 → 标准化 → 两条分解路径对照 | [ZIP](downloads/07-channel-mix_v1.1.1.zip) |
 
-## 通用工具
-
-| 工具 / 当前版本 | 能力 | 独立下载 |
-| --- | --- | --- |
-| [公众号代码块通用方案](tools/wechat-code-blocks/v1.0.0/README.md) · v1.0.0 | 11px实际字号、Pygments高亮、长行横滑、逐行leaf结构与浏览器验收 | [ZIP](downloads/wechat-code-blocks_v1.0.0.zip) |
-
 ## 怎样使用
 
 1. 打开对应资料的 README，查看环境、数据来源和复现范围。
@@ -47,7 +44,7 @@
 
 ## 资料边界与更新
 
-教学模拟数据、公开评价汇总和个人战绩聚合分别标注，不混为同一种数据。私人逐局输入、玩家原文、账号标识、登录凭据和未发表文章全文不在公开包中；需自备输入的案例在对应 README 中说明。
+这个仓库只放可复用的资料：**代码、教学与模拟数据、图表、技能本体**。公众号文稿与正文、排版与发布工具、写作与配图过程记录（修订说明、提示词、验收记录）都不收录——文章常是先写后发，资料先上线也不会提前披露内容。教学模拟数据、公开评价汇总和个人战绩聚合分别标注，不混为同一种数据。私人逐局输入、玩家原文、账号标识、登录凭据和未发表文章全文不在公开包中；需自备输入的案例在对应 README 中说明。
 
 每篇只保留**最新完整一套物料**。代码或图片的旧版本号可能仍是当前依赖，不代表废弃；目录与 ZIP 以当前物料清单为准。历史修订通过 Git 提交追溯，不另存多套 README、旧包或备份目录。
 
