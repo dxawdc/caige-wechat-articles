@@ -13,21 +13,23 @@ precious-metals_v1.0.0/
 │   ├── 清洗与指标.py         去重、剔除越界、修正离群值、计算指标
 │   ├── 提取叙事关键点.py     输出文中引用的关键节点
 │   ├── 图表风格.py           matplotlib 统一配色与字体
+│   ├── 绘图_00_动图.py       近十年金银走势动态曲线图（GIF，需 Pillow）
 │   ├── 绘图_01至05.py        图01~图06
 │   ├── 绘图_06至09.py        图05/图07~图09
 │   ├── 微信排版.py           文章.md → 微信正文 HTML
 │   └── 制作封面.py           1200x510 封面
 ├── data/clean/              清洗后的整洁 CSV（可直接复现全部图表）
-├── images/                  正文 9 张图与封面
+├── images/                  正文 9 张图、近十年走势动图 GIF 与封面
 └── 物料清单_v1.0.0.json     文件清单与 SHA-256
 ```
 
 ## 使用方法
 
 ```bash
-python -m pip install pandas numpy matplotlib lxml
+python -m pip install pandas numpy matplotlib lxml pillow
 python scripts/采集原始数据.py     # 联网采集，输出 data/raw/
 python scripts/清洗与指标.py       # 输出 data/clean/ 与 输出/
+python scripts/绘图_00_动图.py     # 输出配图/动图01_*.gif 与末帧 PNG
 python scripts/绘图_01至05.py
 python scripts/绘图_06至09.py
 ```
@@ -45,3 +47,4 @@ python scripts/绘图_06至09.py
 ## 版本说明
 
 - v1.0.0（2026-09-19）：首次发布。采集 2016-09 至 2026-09-18 交易所与期货数据、2023-05 至 2026-09-19 六品牌挂牌价，输出 9 张图与统计指标。
+- v1.0.1（2026-09-19）：新增近十年国际金银走势动态曲线图（动图01 GIF，110 帧 / 约 10 秒）与末帧静态 PNG、绘图_00_动图.py 脚本；文章开篇引用该动图。

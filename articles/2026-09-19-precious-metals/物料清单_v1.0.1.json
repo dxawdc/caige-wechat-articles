@@ -1,6 +1,6 @@
 {
   "id": "2026-09-19-precious-metals",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "updated": "2026-09-19",
   "files": [
     {
@@ -69,6 +69,16 @@
       "sha256": "687cb0e346efeb1f168c88b77f985a13f1e42a3576366dc9c55548573564a8a9"
     },
     {
+      "path": "images/动图01_近十年金银价格走势.gif",
+      "bytes": 4187558,
+      "sha256": "842181c79b13f90a5c7b49339ff73f48348e7c36c38b1f0d3d6e97a9ee9632cf"
+    },
+    {
+      "path": "images/动图01_近十年金银价格走势_末帧.png",
+      "bytes": 151787,
+      "sha256": "6b413a0fdbbdfa2ba4f4b6595c9f1173e525a4182a45d392d07447bc121065ba"
+    },
+    {
       "path": "images/图01_近十年国际金银价格.png",
       "bytes": 128686,
       "sha256": "58d0a8034c21d21249d4dd7a973510f8920a42d29042a34f0fe61e96588c98aa"
@@ -120,8 +130,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2692,
-      "sha256": "2ecce95349e076b280502afbad4d726a7eae0997b5b21126f25527ac317d5987"
+      "bytes": 3110,
+      "sha256": "baa3cbc5bee35a2d8d92b086744ca5a38f96341c51718767413777f59e1617a3"
     },
     {
       "path": "scripts/制作封面.py",
@@ -147,6 +157,11 @@
       "path": "scripts/清洗与指标.py",
       "bytes": 14959,
       "sha256": "68356634eddfaaa9c64b21759ceebb05b792901d164d5a07f67e599569c679d6"
+    },
+    {
+      "path": "scripts/绘图_00_动图.py",
+      "bytes": 7310,
+      "sha256": "33b64c23202824bb478f684751ce57b805670c32b102a3f39fdfda1bf6d8c69a"
     },
     {
       "path": "scripts/绘图_01至05.py",

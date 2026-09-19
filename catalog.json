@@ -1,187 +1,187 @@
 {
- "schema_version": 1,
- "updated": "2026-09-19",
- "policy": "latest-complete-set-only",
- "items": [
-  {
-   "id": "browser-skill-guide",
-   "title": "Browser Skill：安装与浏览器实操",
-   "kind": "article",
-   "version": "v1.0.4",
-   "source": "articles/2026-09-15-browser-skill-guide",
-   "manifest": "物料清单_v1.0.4.json",
-   "download": "downloads/browser-skill-guide_v1.0.4.zip",
-   "summary": "本地演示站、快照导出、场景提示词、配图与微信排版源码"
-  },
-  {
-   "id": "taptap-player-review",
-   "title": "Python爬虫与玩家评价文本分析",
-   "kind": "article",
-   "version": "v1.1.0",
-   "source": "articles/2026-09-14-taptap-player-review/v1.1.0",
-   "manifest": "物料清单_v1.1.0.json",
-   "download": "downloads/taptap-player-review_v1.1.0.zip",
-   "summary": "2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文"
-  },
-  {
-   "id": "s44-ranked-review",
-   "title": "S44排位复盘：332场，从钻石到荣耀王者",
-   "kind": "article",
-   "version": "v1.2.5",
-   "source": "articles/2026-09-14-s44-ranked-review",
-   "manifest": "物料清单_v1.2.5.json",
-   "download": "downloads/s44-ranked-review_v1.2.5.zip",
-   "summary": "采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入"
-  },
-  {
-   "id": "python-data-mining-5",
-   "title": "从预测到分群：Python五类模型",
-   "kind": "article",
-   "version": "v1.0.0",
-   "source": "articles/2026-09-14-python-data-mining-5/v1.0.0",
-   "manifest": "物料清单_v1.0.0.json",
-   "download": "downloads/python-data-mining-5_v1.0.0.zip",
-   "summary": "5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验"
-  },
-  {
-   "id": "python-visualization-50",
-   "title": "Python数据可视化指南：50例",
-   "kind": "article",
-   "version": "v1.0.2",
-   "source": "articles/2026-09-13-python-visualization-50/v1.0.2",
-   "manifest": "manifest_v1.0.2.json",
-   "download": "downloads/python-visualization-50_v1.0.2.zip",
-   "summary": "50份独立源码、模拟CSV、50张PNG与SVG、7个交互图、公众号名标识和241项验收"
-  },
-  {
-   "id": "new-ai-repos",
-   "title": "只看9月新建：6个AI开源项目",
-   "kind": "article",
-   "version": "v2.0.0",
-   "source": "articles/2026-09-08-new-ai-repos",
-   "manifest": "物料清单_v2.0.0.json",
-   "download": "downloads/new-ai-repos_v2.0.0.zip",
-   "summary": "本月创建核验、六份独立任务单、真实界面与图解、范围检查脚本"
-  },
-  {
-   "id": "ai-open-source",
-   "title": "8个AI开源项目实用指南",
-   "kind": "article",
-   "version": "v1.0.0",
-   "source": "articles/2026-09-08-ai-open-source",
-   "manifest": "物料清单_v1.0.0.json",
-   "download": "downloads/ai-open-source_v1.0.0.zip",
-   "summary": "8份独立任务卡、官方数据快照、10张图解、文件转换案例与仓库数据刷新脚本"
-  },
-  {
-   "id": "codex-deepseek",
-   "title": "Codex桌面版接入DeepSeek V4",
-   "kind": "article",
-   "version": "v1.0.0",
-   "source": "articles/2026-09-07-codex-deepseek",
-   "manifest": "物料清单_v1.0.0.json",
-   "download": "downloads/codex-deepseek_v1.0.0.zip",
-   "summary": "官方直连方案、配置检查、Responses 探测、桌面验收练习及六张图解"
-  },
-  {
-   "id": "36-charts",
-   "title": "36 种图表对照",
-   "kind": "article",
-   "version": "v1.1.0",
-   "source": "articles/2026-09-06-36-charts",
-   "manifest": "资料清单_v1.1.0.json",
-   "download": "downloads/36-charts_v1.1.0.zip",
-   "summary": "Plotly/Matplotlib 的 36 个绘图案例"
-  },
-  {
-   "id": "07-channel-mix",
-   "title": "各渠道留存都涨了，整体为什么反而下降",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-07-channel-mix",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/07-channel-mix_v1.1.1.zip",
-   "summary": "渠道新增和回访 → 组内率与权重 → 标准化 → 两条分解路径对照"
-  },
-  {
-   "id": "06-cohort-ltv",
-   "title": "游戏LTV怎么算：先把分母和观察天数对齐",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-06-cohort-ltv",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/06-cohort-ltv_v1.1.1.zip",
-   "summary": "注册与支付 → 用户日龄 → 成熟累计窗口 → 价值口径和批次加权"
-  },
-  {
-   "id": "05-ordered-funnel",
-   "title": "游戏活动漏斗：人数都对，转化率却错了",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-05-ordered-funnel",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/05-ordered-funnel_v1.1.1.zip",
-   "summary": "活动事件 → 首次进入人群 → 24 小时有序路径 → 四类结果明细"
-  },
-  {
-   "id": "04-merge-validation",
-   "title": "pandas合并后金额翻倍，问题出在哪里",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-04-merge-validation",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/04-merge-validation_v1.1.1.zip",
-   "summary": "订单与重复用户维表 → 扩行诊断 → 多对一校验 → 时间生效渠道匹配"
-  },
-  {
-   "id": "03-login-streak",
-   "title": "SQL算连续登录：去重、断档和跨月怎么处理",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-03-login-streak",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/03-login-streak_v1.1.1.zip",
-   "summary": "15 条登录日志 → 14 个用户日 → 连续段 → 历史窗口最长与截止日当前连续"
-  },
-  {
-   "id": "02-excel-audit",
-   "title": "用Python合并Excel，顺手把数据问题查出来",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-02-excel-audit",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/02-excel-audit_v1.1.1.zip",
-   "summary": "4 份 Excel → 文件校验 → 原值与来源保留 → 无效/重复/冲突/可用记录"
-  },
-  {
-   "id": "01-retention",
-   "title": "SQL算留存：别把还没到第7天的用户算成流失",
-   "kind": "article",
-   "version": "v1.1.1",
-   "source": "articles/2026-09-06-01-retention",
-   "manifest": "物料清单_v1.1.1.json",
-   "download": "downloads/01-retention_v1.1.1.zip",
-   "summary": "注册用户、登录明细 → 用户日去重 → 成熟批次留存及覆盖率"
-  },
-  {
-   "id": "wechat-code-blocks",
-   "title": "公众号代码块通用方案",
-   "kind": "tool",
-   "version": "v1.0.0",
-   "source": "tools/wechat-code-blocks/v1.0.0",
-   "manifest": "物料清单_v1.0.0.json",
-   "download": "downloads/wechat-code-blocks_v1.0.0.zip",
-   "summary": "11px实际字号、Pygments高亮、长行横滑、逐行leaf结构与浏览器验收"
-  },
-  {
-   "id": "precious-metals",
-   "title": "黄金白银这10年：从上金所到周大福柜台",
-   "kind": "article",
-   "version": "v1.0.0",
-   "source": "articles/2026-09-19-precious-metals",
-   "manifest": "物料清单_v1.0.0.json",
-   "download": "downloads/precious-metals_v1.0.0.zip",
-   "summary": "十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本与9张图"
-  }
- ]
+  "schema_version": 1,
+  "updated": "2026-09-19",
+  "policy": "latest-complete-set-only",
+  "items": [
+    {
+      "id": "browser-skill-guide",
+      "title": "Browser Skill：安装与浏览器实操",
+      "kind": "article",
+      "version": "v1.0.4",
+      "source": "articles/2026-09-15-browser-skill-guide",
+      "manifest": "物料清单_v1.0.4.json",
+      "download": "downloads/browser-skill-guide_v1.0.4.zip",
+      "summary": "本地演示站、快照导出、场景提示词、配图与微信排版源码"
+    },
+    {
+      "id": "taptap-player-review",
+      "title": "Python爬虫与玩家评价文本分析",
+      "kind": "article",
+      "version": "v1.1.0",
+      "source": "articles/2026-09-14-taptap-player-review/v1.1.0",
+      "manifest": "物料清单_v1.1.0.json",
+      "download": "downloads/taptap-player-review_v1.1.0.zip",
+      "summary": "2142条评价汇总、80条语境标注、点赞与吐槽分析、12张图及爬虫/TF-IDF/NMF；不含玩家原文"
+    },
+    {
+      "id": "s44-ranked-review",
+      "title": "S44排位复盘：332场，从钻石到荣耀王者",
+      "kind": "article",
+      "version": "v1.2.5",
+      "source": "articles/2026-09-14-s44-ranked-review",
+      "manifest": "物料清单_v1.2.5.json",
+      "download": "downloads/s44-ranked-review_v1.2.5.zip",
+      "summary": "采集与分析代码、聚合统计、19张图、段位动画和海报；不含私人逐局输入"
+    },
+    {
+      "id": "python-data-mining-5",
+      "title": "从预测到分群：Python五类模型",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-14-python-data-mining-5/v1.0.0",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/python-data-mining-5_v1.0.0.zip",
+      "summary": "5个案例、4份模拟数据、9张结果图、预测明细与独立指标校验"
+    },
+    {
+      "id": "python-visualization-50",
+      "title": "Python数据可视化指南：50例",
+      "kind": "article",
+      "version": "v1.0.2",
+      "source": "articles/2026-09-13-python-visualization-50/v1.0.2",
+      "manifest": "manifest_v1.0.2.json",
+      "download": "downloads/python-visualization-50_v1.0.2.zip",
+      "summary": "50份独立源码、模拟CSV、50张PNG与SVG、7个交互图、公众号名标识和241项验收"
+    },
+    {
+      "id": "new-ai-repos",
+      "title": "只看9月新建：6个AI开源项目",
+      "kind": "article",
+      "version": "v2.0.0",
+      "source": "articles/2026-09-08-new-ai-repos",
+      "manifest": "物料清单_v2.0.0.json",
+      "download": "downloads/new-ai-repos_v2.0.0.zip",
+      "summary": "本月创建核验、六份独立任务单、真实界面与图解、范围检查脚本"
+    },
+    {
+      "id": "ai-open-source",
+      "title": "8个AI开源项目实用指南",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-08-ai-open-source",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/ai-open-source_v1.0.0.zip",
+      "summary": "8份独立任务卡、官方数据快照、10张图解、文件转换案例与仓库数据刷新脚本"
+    },
+    {
+      "id": "codex-deepseek",
+      "title": "Codex桌面版接入DeepSeek V4",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-07-codex-deepseek",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/codex-deepseek_v1.0.0.zip",
+      "summary": "官方直连方案、配置检查、Responses 探测、桌面验收练习及六张图解"
+    },
+    {
+      "id": "36-charts",
+      "title": "36 种图表对照",
+      "kind": "article",
+      "version": "v1.1.0",
+      "source": "articles/2026-09-06-36-charts",
+      "manifest": "资料清单_v1.1.0.json",
+      "download": "downloads/36-charts_v1.1.0.zip",
+      "summary": "Plotly/Matplotlib 的 36 个绘图案例"
+    },
+    {
+      "id": "07-channel-mix",
+      "title": "各渠道留存都涨了，整体为什么反而下降",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-07-channel-mix",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/07-channel-mix_v1.1.1.zip",
+      "summary": "渠道新增和回访 → 组内率与权重 → 标准化 → 两条分解路径对照"
+    },
+    {
+      "id": "06-cohort-ltv",
+      "title": "游戏LTV怎么算：先把分母和观察天数对齐",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-06-cohort-ltv",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/06-cohort-ltv_v1.1.1.zip",
+      "summary": "注册与支付 → 用户日龄 → 成熟累计窗口 → 价值口径和批次加权"
+    },
+    {
+      "id": "05-ordered-funnel",
+      "title": "游戏活动漏斗：人数都对，转化率却错了",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-05-ordered-funnel",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/05-ordered-funnel_v1.1.1.zip",
+      "summary": "活动事件 → 首次进入人群 → 24 小时有序路径 → 四类结果明细"
+    },
+    {
+      "id": "04-merge-validation",
+      "title": "pandas合并后金额翻倍，问题出在哪里",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-04-merge-validation",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/04-merge-validation_v1.1.1.zip",
+      "summary": "订单与重复用户维表 → 扩行诊断 → 多对一校验 → 时间生效渠道匹配"
+    },
+    {
+      "id": "03-login-streak",
+      "title": "SQL算连续登录：去重、断档和跨月怎么处理",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-03-login-streak",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/03-login-streak_v1.1.1.zip",
+      "summary": "15 条登录日志 → 14 个用户日 → 连续段 → 历史窗口最长与截止日当前连续"
+    },
+    {
+      "id": "02-excel-audit",
+      "title": "用Python合并Excel，顺手把数据问题查出来",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-02-excel-audit",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/02-excel-audit_v1.1.1.zip",
+      "summary": "4 份 Excel → 文件校验 → 原值与来源保留 → 无效/重复/冲突/可用记录"
+    },
+    {
+      "id": "01-retention",
+      "title": "SQL算留存：别把还没到第7天的用户算成流失",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-09-06-01-retention",
+      "manifest": "物料清单_v1.1.1.json",
+      "download": "downloads/01-retention_v1.1.1.zip",
+      "summary": "注册用户、登录明细 → 用户日去重 → 成熟批次留存及覆盖率"
+    },
+    {
+      "id": "wechat-code-blocks",
+      "title": "公众号代码块通用方案",
+      "kind": "tool",
+      "version": "v1.0.0",
+      "source": "tools/wechat-code-blocks/v1.0.0",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/wechat-code-blocks_v1.0.0.zip",
+      "summary": "11px实际字号、Pygments高亮、长行横滑、逐行leaf结构与浏览器验收"
+    },
+    {
+      "id": "precious-metals",
+      "title": "黄金白银这10年：从上金所到周大福柜台",
+      "kind": "article",
+      "version": "v1.0.1",
+      "source": "articles/2026-09-19-precious-metals",
+      "manifest": "物料清单_v1.0.1.json",
+      "download": "downloads/precious-metals_v1.0.1.zip",
+      "summary": "十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本、9张图与近十年走势动图"
+    }
+  ]
 }
