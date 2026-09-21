@@ -1,0 +1,235 @@
+{
+  "id": "2026-09-21-a-share-fund-flow",
+  "version": "v1.0.0",
+  "updated": "2026-09-21",
+  "entrypoint": "scripts/合并数据源.py",
+  "basic": "scripts/绘图_资金结构图.py",
+  "files": [
+    {
+      "path": "data/一级行业代码表.csv",
+      "bytes": 605,
+      "sha256": "4445d75426042b36f8733762c636468d00f205550db73ceb06f802b32484b47b"
+    },
+    {
+      "path": "data/分时缓存_慢速.json",
+      "bytes": 591342,
+      "sha256": "47c7398170a7515d9fa1de73dc9b67e304f2f970426bd83bb3eba5463e67807d"
+    },
+    {
+      "path": "data/分时资金流_候选股.json",
+      "bytes": 798288,
+      "sha256": "d344b36720d987ea2170fed6770cc1928af3ff32f51e31db832cf7f2109e5264"
+    },
+    {
+      "path": "data/分时资金流_全市场.json",
+      "bytes": 26449,
+      "sha256": "2bec84b62f323c3a6bc7d64a3782845672fc8ce6b8e2eddbb9665d8c8df16c76"
+    },
+    {
+      "path": "data/市值成交额_腾讯.csv",
+      "bytes": 286880,
+      "sha256": "f35b7d78631ad3508878ecac021f8d511ab24bfe5321850b08ff2b210866588b"
+    },
+    {
+      "path": "data/数据中心_当日个股.csv",
+      "bytes": 524285,
+      "sha256": "81fd6a9f1e99684bfd11060d3718ea33a6c1a86e0cc4b81382fdffee26655163"
+    },
+    {
+      "path": "data/资金流向_全市场.csv",
+      "bytes": 391385,
+      "sha256": "9799b39e77861b5bfd6d91f9bcf71a884f5357632a179e551c35127fefb99202"
+    },
+    {
+      "path": "data/资金流向_全市场.json",
+      "bytes": 1282106,
+      "sha256": "8b551d2f74a00465a3d70d1ae4c014fe4f04bd80a02351c0e3faec27f22def15"
+    },
+    {
+      "path": "data/资金流向_全市场_扩展.csv",
+      "bytes": 616482,
+      "sha256": "636bcbef2f7f8f693598eeecc658f16b72a293d508587cbaef8d7c84fb4052c1"
+    },
+    {
+      "path": "data/资金流向_行业.csv",
+      "bytes": 3779,
+      "sha256": "0f0dee1cbef7ed65481454b3c1f170a4b7d1346db69384d6b53b4f9548dd1238"
+    },
+    {
+      "path": "data/资金流向_行业_全量.csv",
+      "bytes": 2607,
+      "sha256": "19813299fbf689c974cce363908c32dbb4d2e17e3170da13eb73b0589d7e6032"
+    },
+    {
+      "path": "images/全市场资金坐标.png",
+      "bytes": 323989,
+      "sha256": "2d34db1d91a3e53223a03223aedd47d65eae830b54abe45576e0669f57c3517e"
+    },
+    {
+      "path": "images/四档总览_零和对手盘.png",
+      "bytes": 75523,
+      "sha256": "74af152018f46d648c7d1629ae17d423ccf92e73481a4ac5153e456db8d52a92"
+    },
+    {
+      "path": "images/四档结构_谁卖给谁.png",
+      "bytes": 132102,
+      "sha256": "db397193075cbd9090490ebed8c48fc49ba8d2f93a7d9b1e57a6e3d2ef1b5f02"
+    },
+    {
+      "path": "images/封面_v1.0.0.png",
+      "bytes": 54083,
+      "sha256": "ba1f0c267470d9380ada57ec6a18b3d7b69fbf1c9ee39f8ffdc08c40a3be6002"
+    },
+    {
+      "path": "images/市值分层_钱去哪.png",
+      "bytes": 99502,
+      "sha256": "cf80171b124aadba3153b5bf5b41987adb7abd71b18f957c41240611bf3177a2"
+    },
+    {
+      "path": "images/榜首分时对比.png",
+      "bytes": 97113,
+      "sha256": "7bebe82cca98672df22de8107cf7ca35e956bc157d7e822c382800102b1400c4"
+    },
+    {
+      "path": "images/涨停股解剖_两种钱.png",
+      "bytes": 170974,
+      "sha256": "8c5f6b382eae069f8c00952f395eab9f14ab651cc93eca27884de9e6f92cdda5"
+    },
+    {
+      "path": "images/瀑布图_plotly.png",
+      "bytes": 209285,
+      "sha256": "087ec776312fdb385362f1fc9e9181ef1dbd6bf496ac3784094b666f237a25df"
+    },
+    {
+      "path": "images/瀑布图_主力资金流.png",
+      "bytes": 147018,
+      "sha256": "d45624e8c1afa1897045ce5261e66bb655be8048f5e3d65f444d6e54a7a23a4a"
+    },
+    {
+      "path": "images/瀑布图_交互.html",
+      "bytes": 9888,
+      "sha256": "2051cae4001c3a5818ea334a7371f00f1038088a09a01d64f467bf08f461764e"
+    },
+    {
+      "path": "images/蝴蝶榜_净额TOP10.png",
+      "bytes": 157910,
+      "sha256": "783c6a844e01037844b884048d6d48edf603940c5a0f8d9da3ab60831edfe8b6"
+    },
+    {
+      "path": "images/行业资金流.png",
+      "bytes": 94412,
+      "sha256": "0f4ef3e2c07de92962a2f3d0915e29bfca059f930f940f2fdcac29efb7df650c"
+    },
+    {
+      "path": "images/资金榜演变_动图.gif",
+      "bytes": 2920754,
+      "sha256": "4028e981b005cf6740467f3052bbafb8ee998bb4bf2b879456b74acb9fec2adc"
+    },
+    {
+      "path": "images/资金榜演变_动图_末帧.png",
+      "bytes": 53279,
+      "sha256": "813b1c7bea1b286439b2f11a04750f9e266e0d65088a505e7f397a26f4a63c0b"
+    },
+    {
+      "path": "images/资金节奏_全天.png",
+      "bytes": 119958,
+      "sha256": "e1352d5098a20a38ba2a9717dce76f335363b5b9a642d8d5569086bebbfd34d5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2419,
+      "sha256": "b7f8f3fc5f5ea07064ab9e56c17a086fb6a017bcd641b04706d4636335ad9f3f"
+    },
+    {
+      "path": "scripts/制作封面.py",
+      "bytes": 2652,
+      "sha256": "327dd3109e7ba41f233571c3e48da3a4c2395fcb074e279dbc6bbed6053a8671"
+    },
+    {
+      "path": "scripts/合并数据源.py",
+      "bytes": 6075,
+      "sha256": "b59b94a8b5c65bdd2aaf03b445599b6eea49d2b7bc91144ced0709dc89cb2f8c"
+    },
+    {
+      "path": "scripts/绘图_common.py",
+      "bytes": 3883,
+      "sha256": "ae5556441fcadef2424826b1b449a09f0dd34970d542bb8c4ea51b2b2b9f17c0"
+    },
+    {
+      "path": "scripts/绘图_扩展图表.py",
+      "bytes": 11934,
+      "sha256": "7cba6b352ab8255d3415f8addb286567e32b39e1cd483ea40a8a910ea5fcfe69"
+    },
+    {
+      "path": "scripts/绘图_瀑布图.py",
+      "bytes": 5225,
+      "sha256": "c4fdb384dd469f9651fe5d24615f0b361b8fdb3abb0320546086f4b199b8ad19"
+    },
+    {
+      "path": "scripts/绘图_蝴蝶榜.py",
+      "bytes": 4255,
+      "sha256": "fd8d4eb308ca0d6798dcddb0d4d1c56b09e4ddb532f485ff3b072c05a3365246"
+    },
+    {
+      "path": "scripts/绘图_资金榜演变动图.py",
+      "bytes": 15452,
+      "sha256": "968c1e737208ea43d90abd854123cfa3753f2138738e83d34fc98bf7bf019854"
+    },
+    {
+      "path": "scripts/绘图_资金结构图.py",
+      "bytes": 23412,
+      "sha256": "53ffecb720734e6ce5d60adb998e19d23cbaa4da3de7db8185b0174247eea1f2"
+    },
+    {
+      "path": "scripts/转换上证指数_全市场.py",
+      "bytes": 2684,
+      "sha256": "04310630180136229819e617b8aec57bfa6546d2f962dd351b52003438f8e519"
+    },
+    {
+      "path": "scripts/转换分时格式.py",
+      "bytes": 2365,
+      "sha256": "be4c5fc9b8c7e14fbfe2c77176615523235508ac779432412504605459513838"
+    },
+    {
+      "path": "scripts/采集分时_慢速分批.py",
+      "bytes": 5854,
+      "sha256": "3a72ce4c2e328d81efae84cfddbef0042532f2291549badde1992d5ca956c951"
+    },
+    {
+      "path": "scripts/采集分时资金流.py",
+      "bytes": 5413,
+      "sha256": "669ac2d1f01349c1e3c7e338c922951e420c335250af350916a874b36a8fece5"
+    },
+    {
+      "path": "scripts/采集市值成交额_腾讯.py",
+      "bytes": 3847,
+      "sha256": "e7e8bc7f12f2a460df754a9b25b83aa5d3f9c5bb90cfc9514936cb0df3af7614"
+    },
+    {
+      "path": "scripts/采集扩展字段.py",
+      "bytes": 3143,
+      "sha256": "fd12b97f250ee085f32c81d213891283fc3561a2812ab40fedda76736e0cdd85"
+    },
+    {
+      "path": "scripts/采集指数分时_全市场.py",
+      "bytes": 6599,
+      "sha256": "e96f9e76f31f284950ceec08d14f574b7e8cc6430fef637ceb3ae6ff8082a91b"
+    },
+    {
+      "path": "scripts/采集行业资金流.py",
+      "bytes": 2963,
+      "sha256": "0b943381fb589274be9846cbf267a4c2e958dbefccf3e65b3c18f3409d7295b1"
+    },
+    {
+      "path": "scripts/采集行业资金流_分时.py",
+      "bytes": 5539,
+      "sha256": "28d57ce359f0e825a8676aed88f232ff2a044d3d8a7af050f6a565a0132d2346"
+    },
+    {
+      "path": "scripts/采集资金流向.py",
+      "bytes": 7923,
+      "sha256": "789897ca7fc0fb7de7b5cdfea5a24f3483313adb658951e744dd42bce55dbd7d"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

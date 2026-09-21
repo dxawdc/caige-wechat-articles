@@ -4,6 +4,16 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
+      "id": "a-share-fund-flow",
+      "title": "我把A股一天的资金流向，做成了一组图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-21-a-share-fund-flow",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/a-share-fund-flow_v1.0.0.zip",
+      "summary": "全市场 5195 只票四档资金流、行业资金流、上证指数分时资金流，采集/绘图脚本与 10 张图（含动图）"
+    },
+    {
       "id": "data-analysis-viz",
       "title": "在 WorkBuddy 里说一句话，自动完成数据分析与制图",
       "kind": "article",
