@@ -166,14 +166,14 @@
       "sha256": "c359183cb803debbd72c11ca7488646e3599ca158e17d3a08c34b3e1906ffef5"
     },
     {
-      "path": "images/封面_v1.0.0.png",
-      "bytes": 50350,
-      "sha256": "d69b50f66b4aeafaa78c3eb55e4b7479d05493d42b50965af4c04d028dbeb3c6"
+      "path": "images/封面_v1.1.0.png",
+      "bytes": 48493,
+      "sha256": "0abd52cd23343a1a866787509628a846fc4e81eb657f9b633dc42db64bfc5fdd"
     },
     {
       "path": "README.md",
-      "bytes": 2685,
-      "sha256": "f737e61b0b89f452fdac4e29e9cf4d3e5ca95340379054b9807e5d1cd053fe21"
+      "bytes": 2688,
+      "sha256": "73e899ec8de77f10596a00e654fdf3409d2fe14c71597b0b30a346e930cb8b07"
     },
     {
       "path": "scripts/分析.py",
