@@ -192,13 +192,13 @@
     },
     {
       "path": "images/15_破纪录.png",
-      "bytes": 171959,
-      "sha256": "85d0c896fedda1a3ed54926caa130d94d4f8514176191d684c6b036eba85d6a1"
+      "bytes": 198941,
+      "sha256": "5433e9cb21219762a3254ff67dff0c3ae4500b2dda79473b5647b22a663dda8a"
     },
     {
-      "path": "images/封面_v1.2.0.png",
-      "bytes": 53801,
-      "sha256": "601ec0cb488196535ae9dc6b3dc7f9f848181f6c99057a17fc604c09781ca5c5"
+      "path": "images/封面_v1.4.0.png",
+      "bytes": 195024,
+      "sha256": "126d0856182e7077de81b4ee7950d35fe003d7acb3296b53156acb7da975d124"
     },
     {
       "path": "README.md",
@@ -212,13 +212,13 @@
     },
     {
       "path": "scripts/映射.py",
-      "bytes": 7208,
-      "sha256": "bbb0a8338c04e114d1b39078264c793cc5bfbc19a2e58ebe805e178d7371043a"
+      "bytes": 7251,
+      "sha256": "e30f99b2709e81b3a6f8e23672a6d0482de9ea65be0792893c358474858c784b"
     },
     {
       "path": "scripts/绘图.py",
-      "bytes": 31953,
-      "sha256": "a2cdc99949279e78d099cba800986027da23eb75aff46e68331a242009483910"
+      "bytes": 31912,
+      "sha256": "e965a4ffb29ad71af4c82aaec851788ec25b8ef91a052e7354b88894a17b1fcb"
     },
     {
       "path": "scripts/补全奖牌明细.py",

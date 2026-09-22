@@ -25,8 +25,8 @@ apply_style()
 MADE = []
 
 
-def out(fig, name):
-    p = save(fig, name)
+def out(fig, name, dpi=None):
+    p = save(fig, name, dpi=dpi)
     MADE.append(os.path.basename(p))
     return p
 
@@ -584,7 +584,7 @@ def _group_label(ath, dsc, rows):
 items = sorted(groups.items(),
                key=lambda kv: (-len(kv[1]), _top_rank(kv[1]), kv[0][0]))
 
-fig, (axL, axR) = plt.subplots(1, 2, figsize=(13.6, 6.1),
+fig, (axL, axR) = plt.subplots(1, 2, figsize=(10.23, 4.21),
                                gridspec_kw={"width_ratios": [0.70, 1.85]})
 
 # 左：各代表团纪录条数（按级别堆叠）
@@ -643,11 +643,11 @@ top = head(fig, "前 3 个出金日 %d 条纪录，中国一家占 %d 条"
            % (len(recs), R["H_破纪录"]["中国条数"]),
            "2 项世界纪录都来自射击团体：女子 1904.2、男子 1899.0；日本 2 条、韩国 2 条；"
            "全部 %d 条只出自%s" % (len(recs), "和".join(_dc)),
-           gap=0.12, main_size=17)
-fig.subplots_adjust(top=top, left=0.075, right=0.985, bottom=0.105, wspace=0.26)
-note(fig, "缩写：WR 世界纪录 / AR 亚洲纪录 / GR 赛会纪录；同一次成绩同时刷新多级时以「+」相连 · "
-          "数据来源：OCA 官方成绩系统 records 接口 · 截至 2026-09-22")
-out(fig, "15_破纪录.png")
+           gap=0.115, main_size=19)
+fig.subplots_adjust(top=top, left=0.075, right=0.985, bottom=0.105, wspace=0.42)
+note(fig, "缩写 WR 世界纪录 / AR 亚洲纪录 / GR 赛会纪录 · 数据来源：OCA 官方成绩系统 · "
+          "截至 2026-09-22")
+out(fig, "15_破纪录.png", dpi=200)
 
 
 print("已生成 %d 张图表:" % len(MADE))

@@ -164,9 +164,9 @@ def apply_style():
     })
 
 
-def save(fig, name):
+def save(fig, name, dpi=None):
     os.makedirs(CHART_DIR, exist_ok=True)
     p = os.path.join(CHART_DIR, name)
-    fig.savefig(p, facecolor="white")
+    fig.savefig(p, facecolor="white", **({"dpi": dpi} if dpi else {}))
     plt.close(fig)
     return p
