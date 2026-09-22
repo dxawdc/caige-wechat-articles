@@ -542,67 +542,111 @@ recs = R["H_破纪录"]["全部纪录"]
 cn_recs = R["H_破纪录"]["中国纪录"]
 LEVEL_COLOR = {"世界纪录": "#C8102E", "亚洲纪录": "#D9A21B", "赛会纪录": "#2F6FED"}
 LEVELS = ["世界纪录", "亚洲纪录", "赛会纪录"]
+ABBR = {"世界纪录": "WR", "亚洲纪录": "AR", "赛会纪录": "GR"}
+RANK = {lv: i for i, lv in enumerate(LEVELS)}
 
-by_disc = defaultdict(Counter)
+# 左：代表团 × 级别
+by_org = defaultdict(Counter)
 for r in recs:
-    by_disc[r["项目"]][r["纪录级别"]] += 1
-discs_sorted = sorted(by_disc, key=lambda k: -sum(by_disc[k].values()))
+    by_org[r["代表团"]][r["纪录级别"]] += 1
+orgs_sorted = sorted(by_org, key=lambda k: -sum(by_org[k].values()))
 
-by_athlete = Counter(r["选手中文"] for r in cn_recs)
-athletes_sorted = by_athlete.most_common()
+# 右：选手 × 项目（团体 / 接力单独成行）
+groups = defaultdict(list)
+for r in cn_recs:
+    groups[(r["选手中文"], r["项目"])].append(r)
 
-fig, (axL, axR) = plt.subplots(1, 2, figsize=(13.0, 5.0),
-                               gridspec_kw={"width_ratios": [1, 1.25]})
 
-# 左：按项目 × 级别
-yy = np.arange(len(discs_sorted))
-left = np.zeros(len(discs_sorted))
+def _perf_combo(rows):
+    """同一次成绩可能同时刷新多级 → 按场次汇总成「WR+AR+GR」，重复场次记 ×n。"""
+    perf = defaultdict(set)
+    for r in rows:
+        perf[(r["小项"], r["成绩"])].add(r["纪录级别"])
+    cnt = Counter("+".join(ABBR[lv] for lv in LEVELS if lv in lvs)
+                  for lvs in perf.values())
+    return " · ".join("%s ×%d" % (k, v) if v > 1 else k
+                      for k, v in sorted(cnt.items(), key=lambda kv: -len(kv[0])))
+
+
+def _top_rank(rows):
+    return min(RANK[r["纪录级别"]] for r in rows)
+
+
+def _group_label(ath, dsc, rows):
+    kind = ""
+    if all("Relay" in r["小项"] for r in rows):
+        kind = "接力"
+    elif all("Team" in r["小项"] for r in rows):
+        kind = "团体"
+    return "%s · %s%s" % (ath, dsc, kind)
+
+
+items = sorted(groups.items(),
+               key=lambda kv: (-len(kv[1]), _top_rank(kv[1]), kv[0][0]))
+
+fig, (axL, axR) = plt.subplots(1, 2, figsize=(13.6, 6.1),
+                               gridspec_kw={"width_ratios": [0.70, 1.85]})
+
+# 左：各代表团纪录条数（按级别堆叠）
+xx = np.arange(len(orgs_sorted))
+bot = np.zeros(len(orgs_sorted))
 for lv in LEVELS:
-    vals = np.array([by_disc[k].get(lv, 0) for k in discs_sorted], dtype=float)
-    axL.barh(yy, vals, 0.5, left=left, color=LEVEL_COLOR[lv], label=lv, zorder=3)
-    for i, (v, b) in enumerate(zip(vals, left)):
+    vals = np.array([by_org[k].get(lv, 0) for k in orgs_sorted], dtype=float)
+    axL.bar(xx, vals, 0.5, bottom=bot, color=LEVEL_COLOR[lv], label=lv, zorder=3)
+    for i, (v, b) in enumerate(zip(vals, bot)):
         if v:
-            axL.text(b + v / 2, i, "%d" % v, ha="center", va="center", fontsize=10.5,
+            axL.text(i, b + v / 2, "%d" % v, ha="center", va="center", fontsize=10.5,
                      color="white", fontweight="bold")
-    left += vals
-axL.set_yticks(yy)
-axL.set_yticklabels(discs_sorted, fontsize=12)
-axL.set_xlim(0, 17)
-axL.set_xlabel("破纪录条数")
-axL.grid(axis="y", visible=False)
+    bot += vals
+for i in range(len(orgs_sorted)):
+    axL.text(i, bot[i] + 0.75, "%d" % bot[i], ha="center", fontsize=12.5,
+             fontweight="bold", color=TEXT)
+axL.set_xticks(xx)
+axL.set_xticklabels(orgs_sorted, fontsize=12)
+axL.set_ylim(0, max(bot) * 1.18)
+axL.set_ylabel("破纪录条数")
+axL.grid(axis="y", color=GRID, zorder=0)
+axL.grid(axis="x", visible=False)
 axL.tick_params(length=0)
-axL.legend(loc="upper right", fontsize=10)
-axL.set_title("全部 %d 条：只在游泳和射击" % len(recs), fontsize=13.5,
-              fontweight="bold", loc="left", pad=10)
+axL.legend(loc="upper right", fontsize=10.5)
+axL.set_title("%d 条里中国占 %d 条\n世界、亚洲纪录全部来自中国"
+              % (len(recs), len(cn_recs)), fontsize=12.5, loc="left", pad=10)
 
-# 右：中国 24 条是谁破的
-names = [k for k, _ in athletes_sorted]
-vals = [v for _, v in athletes_sorted]
-yy2 = np.arange(len(names))
-colors = ["#C8102E" if n == "中国队" else "#2F6FED" for n in names]
-axR.barh(yy2, vals, 0.6, color=colors, zorder=3)
-for i, v in enumerate(vals):
-    axR.text(v + 0.16, i, str(v), va="center", fontsize=11, fontweight="bold",
-             color=TEXT)
+# 右：中国 24 条是谁破的（带项目与刷新级别）
+names = [_group_label(a, d, rows) for (a, d), rows in items]
+counts = [len(rows) for _, rows in items]
+combos = [_perf_combo(rows) for _, rows in items]
+lvcol = [LEVEL_COLOR[LEVELS[_top_rank(rows)]] for _, rows in items]
+NUM_X = max(counts) + 0.45
+CBO_X = NUM_X + 1.25
+yy2 = np.arange(len(items))
+axR.barh(yy2, counts, 0.62, color="#177F82", zorder=3)
+for i, (c, cb, col) in enumerate(zip(counts, combos, lvcol)):
+    axR.text(NUM_X, i, str(c), va="center", ha="left", fontsize=11.5,
+             fontweight="bold", color=TEXT)
+    axR.text(CBO_X, i, cb, va="center", ha="left", fontsize=11.5,
+             fontweight="bold", color=col)
+axR.text(NUM_X, -0.95, "条数", va="center", ha="left", fontsize=10, color="#6B7A90")
+axR.text(CBO_X, -0.95, "刷新了哪几级纪录", va="center", ha="left",
+         fontsize=10, color="#6B7A90")
 axR.set_yticks(yy2)
 axR.set_yticklabels(names, fontsize=11.5)
-axR.invert_yaxis()
-axR.set_xlim(0, max(vals) + 1.6)
-axR.set_xlabel("破纪录条数")
-axR.grid(axis="y", visible=False)
+axR.set_ylim(len(items) - 0.5, -1.55)
+axR.set_xlim(0, 11.8)
+axR.set_xticks([])
+axR.grid(visible=False)
 axR.tick_params(length=0)
-axR.set_title("中国 24 条：团体 9 条 + 个人 15 条", fontsize=13.5, fontweight="bold",
-              loc="left", pad=10)
-axR.legend(handles=[mpatches.Patch(color="#C8102E", label="团体纪录（射击团体、游泳接力）"),
-                    mpatches.Patch(color="#2F6FED", label="个人纪录")],
-           loc="lower right", fontsize=10)
 
-top = head(fig, "开赛 3 天破了 %d 条纪录，中国一家占 %d 条"
+_dc = Counter(r["项目"] for r in cn_recs)
+_tm = sum(len(rows) for (a, _), rows in items if a == "中国队")
+top = head(fig, "前 3 个出金日 %d 条纪录，中国一家占 %d 条"
            % (len(recs), R["H_破纪录"]["中国条数"]),
-           "另含 2 项世界纪录：射击女子 10 米气步枪团体 1904.2、男子团体 1899.0；"
-           "日本 2 条、韩国 2 条", gap=0.10, main_size=17)
-fig.subplots_adjust(top=top, left=0.075, right=0.985, bottom=0.14, wspace=0.30)
-note(fig, "同一次成绩可同时刷新世界/亚洲/赛会纪录，故按「条」计数 · 数据来源：OCA 官方成绩系统 records 接口 · 截至 2026-09-22")
+           "2 项世界纪录都来自射击团体：女子 1904.2、男子 1899.0；日本 2 条、韩国 2 条；"
+           "全部 %d 条只出自%s" % (len(recs), "和".join(_dc)),
+           gap=0.12, main_size=17)
+fig.subplots_adjust(top=top, left=0.075, right=0.985, bottom=0.105, wspace=0.26)
+note(fig, "缩写：WR 世界纪录 / AR 亚洲纪录 / GR 赛会纪录；同一次成绩同时刷新多级时以「+」相连 · "
+          "数据来源：OCA 官方成绩系统 records 接口 · 截至 2026-09-22")
 out(fig, "15_破纪录.png")
 
 

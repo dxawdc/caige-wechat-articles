@@ -192,8 +192,8 @@
     },
     {
       "path": "images/15_破纪录.png",
-      "bytes": 136526,
-      "sha256": "6ec4844ea44b5590278c04b964a9b75899a710ee87753cb7c3fb38d177d5abad"
+      "bytes": 171959,
+      "sha256": "85d0c896fedda1a3ed54926caa130d94d4f8514176191d684c6b036eba85d6a1"
     },
     {
       "path": "images/封面_v1.2.0.png",
@@ -217,8 +217,8 @@
     },
     {
       "path": "scripts/绘图.py",
-      "bytes": 30226,
-      "sha256": "c5fe2c6927feb283b39f93df0c49bf229f22db213213135a6af92761db8850fc"
+      "bytes": 31953,
+      "sha256": "a2cdc99949279e78d099cba800986027da23eb75aff46e68331a242009483910"
     },
     {
       "path": "scripts/补全奖牌明细.py",
