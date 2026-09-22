@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [亚运会开赛 4 天，我把官方 12753 名选手的数据拉下来看了一遍](articles/2026-09-22-asian-games/README.md) · v1.0.0 | 亚奥理事会官方成绩全量数据：46 个代表团、59 个项目、12753 名选手、251 枚奖牌，采集与分析绘图脚本、14 张图表 | [ZIP](downloads/asian-games_v1.0.0.zip) |
+| [今年亚运会好像没什么热度，只知道名古屋被骂上热搜](articles/2026-09-22-asian-games/README.md) · v1.0.0 | 亚奥理事会官方成绩全量数据：46 个代表团、59 个项目、12753 名选手、251 枚奖牌，全程 450 枚金牌日程与 28 条破纪录，采集与分析绘图脚本、15 张图表 | [ZIP](downloads/asian-games_v1.0.0.zip) |
 | [我把A股一天的资金流向，做成了一组图](articles/2026-09-21-a-share-fund-flow/README.md) · v1.0.0 | 全市场 5195 只票四档资金流、行业资金流、上证指数分时资金流，采集/绘图脚本与 10 张图（含动图） | [ZIP](downloads/a-share-fund-flow_v1.0.0.zip) |
 | [黄金白银这10年：从上金所到周大福柜台](articles/2026-09-19-precious-metals/README.md) · v1.0.2 | 十年金银日线、上金所官方日行情、6家金店近两年挂牌价，采集/清洗/绘图脚本、9张图与近十年走势动图 | [ZIP](downloads/precious-metals_v1.0.2.zip) |
 | [在 WorkBuddy 里说一句话，自动完成数据分析与制图](articles/2026-09-19-data-analysis-viz/README.md) · v1.0.0 | Skill 规则与脚本、七套模拟数据、体检报告、洞察摘要与文中 8 张图 | [ZIP](downloads/data-analysis-viz_v1.0.0.zip) |

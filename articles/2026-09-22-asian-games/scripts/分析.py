@@ -13,7 +13,7 @@ import json
 import os
 from collections import Counter, defaultdict
 
-from 映射 import org, org_code, disc, city, MEDAL_SHORT
+from 映射 import org, org_code, disc, city, athlete, MEDAL_SHORT
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, "数据")
@@ -56,6 +56,8 @@ medals = load_csv("官方_奖牌明细_全量.csv")
 entry = load_json("官方_参赛名单.json")
 venues = load_json("官方_场馆.json")
 matrix = load_json("官方_赛程矩阵.json")
+finals = load_json("官方_每日决赛日程.json")   # 小项级决赛日程（含 Medal 标记）
+records = load_csv("官方_破纪录明细.csv")      # 官方破纪录明细
 
 DISC_NAME = {d["Key"]: d["Desc"] for d in discs}
 participants = entry["participants"]
@@ -506,6 +508,134 @@ R["F_参赛规模与产出效率"] = {
     "规模大但产出低": sorted([e for e in eff if e["参赛人数"] >= 150 and e["人均奖牌(万分之)"] < 20],
                                 key=lambda x: x["参赛人数"])[-10:][::-1],
     "全部": eff,
+}
+
+# ================================================================ G 全程金牌节奏（实际 + 预排）
+# 官方日程接口在每条场次上带 Medal 标记（"1" = 金牌场次），据此算出每日预排金牌数，
+# 累加即整届金牌总数；截止日之后为「预排值」，与「实际值」分开呈现。
+# 口径校验：9/20 预排 31 = 实际 30（有日期）+ 1 枚未标日期的现代五项男子个人金；
+#           9/21 预排 18 → 实发 19 金（男子 100 米蛙泳并列冠军）；9/22 预排 = 实际 25。
+plan_total = sum(v["金牌小项数"] for v in finals.values())
+gold_days = [d for d in sorted(finals) if finals[d]["金牌小项数"] > 0]
+actual_gold = Counter(r["时间"][:10] for r in medals if r["奖牌"] == "ME_GOLD" and r["时间"])
+undated_gold = sum(1 for r in medals if r["奖牌"] == "ME_GOLD" and not r["时间"])
+gold_total_actual = sum(1 for r in medals if r["奖牌"] == "ME_GOLD")
+
+timeline, cum_plan, cum_real = [], 0, 0
+for d in gold_days:
+    plan = finals[d]["金牌小项数"]
+    real = actual_gold.get(d, 0) if d <= REF_DATE else None
+    cum_plan += plan
+    if real is not None:
+        cum_real += real
+    timeline.append({
+        "日期": d, "预排金牌": plan,
+        "实际金牌": real if real is not None else "",
+        "出金项目数": finals[d]["出金项目数"],
+        "累计预排": cum_plan,
+        "累计实际": cum_real if real is not None else "",
+        "状态": "已开赛" if real is not None else "预排",
+    })
+save_csv("G_每日金牌实际与预排.csv", timeline,
+         ["日期", "预排金牌", "实际金牌", "出金项目数", "累计预排", "累计实际", "状态"])
+
+# 各项目的出金日，用于说明「后面还有哪些大项没开赛」
+disc_gold_days = defaultdict(list)
+for d in gold_days:
+    for k in finals[d]["出金项目"]:
+        disc_gold_days[k].append(d)
+not_started = sorted(
+    [(disc(k), min(v), max(v), len(v)) for k, v in disc_gold_days.items() if min(v) > REF_DATE],
+    key=lambda x: x[1])
+finishing = sorted(
+    [(disc(k), max(v)) for k, v in disc_gold_days.items()
+     if min(v) <= REF_DATE <= max(v)], key=lambda x: x[1])
+
+R["G_全程金牌节奏"] = {
+    "口径": "预排金牌数 = 官方日程中 Medal 标记为金牌场次的唯一小项数；实际金牌数取自奖牌明细（按 DateRaw 归类）",
+    "整届预排金牌总数": plan_total,
+    "已产生金牌": gold_total_actual,
+    "已完成比例%": round(gold_total_actual / plan_total * 100, 1),
+    "官方未给日期的金牌": undated_gold,
+    "已开赛比赛日": len([t for t in timeline if t["状态"] == "已开赛"]),
+    "剩余比赛日": len([t for t in timeline if t["状态"] == "预排"]),
+    "预排峰值日": max(timeline, key=lambda t: t["预排金牌"]),
+    "剩余日预排前三": sorted([t for t in timeline if t["状态"] == "预排"],
+                              key=lambda t: -t["预排金牌"])[:3],
+    "每日节奏": timeline,
+    "尚未开赛的项目": [{"项目": n, "首金日": a, "末金日": b, "出金天数": c}
+                        for n, a, b, c in not_started],
+    "进行中且将收尾的项目": [{"项目": n, "末金日": b} for n, b in finishing],
+}
+
+# ================================================================ H 破纪录
+def record_level(name: str) -> str:
+    low = (name or "").strip().lower()
+    if not low:
+        return "其他"
+    if "world" in low:
+        return "世界纪录"
+    if low in ("gr",) or "games" in low:
+        return "赛会纪录"
+    if low in ("ar",) or "asian" in low:
+        return "亚洲纪录"
+    return "其他"
+
+
+# 官方 records 接口返回的 Org / Disc 是英文全称，用官方清单建反向映射再转中文
+ORG_BY_DESC = {o.get("Desc"): o["Key"] for o in orgs}
+DISC_BY_EN = {d.get("Desc"): d["Key"] for d in discs}
+
+for r in records:
+    r["纪录级别"] = record_level(r["记录类型"])
+    r["代码"] = ORG_BY_DESC.get(r["代码"], r["代码"])
+    r["代表团"] = org(r["代码"])
+    r["项目"] = disc(DISC_BY_EN.get(r["项目"], r["项目"]))
+    r["项目代码"] = DISC_BY_EN.get(r["项目代码"], r["项目代码"])
+    r["选手中文"] = athlete(r["选手"])
+
+LEVEL_ORDER = ["世界纪录", "亚洲纪录", "赛会纪录", "其他"]
+rec_by_level = Counter(r["纪录级别"] for r in records)
+rec_by_org = Counter(r["代表团"] for r in records)
+rec_by_disc = Counter(r["项目"] for r in records)
+CODE_BY_NAME = {org(o["Key"]): o["Key"] for o in orgs}   # 中文名 -> 三字码
+
+# 按「选手 + 小项 + 级别」去重，避免同一次成绩被多次计入
+seen, athletes = set(), Counter()
+for r in records:
+    key = (r["选手"], r["小项"], r["纪录级别"])
+    if key in seen:
+        continue
+    seen.add(key)
+    athletes[r["选手"]] += 1
+
+raw_by_athlete = Counter(r["选手"] for r in records)
+team_records = [r for r in records if r["选手"] == "People's Republic of China"]
+
+save_csv("H_破纪录明细.csv", records,
+         ["时间", "项目", "小项", "轮次", "纪录级别", "记录类型", "成绩",
+          "选手", "选手中文", "代码", "代表团", "地点", "小项代码", "项目代码"])
+
+china_rec = [r for r in records if r["代码"] == "CHN"]
+R["H_破纪录"] = {
+    "口径": "官方 records-v2/broken 接口；同一次成绩可能同时刷新多个级别的纪录，故按「条」计数",
+    "总数": len(records),
+    "按级别": [{"级别": k, "条数": rec_by_level.get(k, 0)} for k in LEVEL_ORDER if rec_by_level.get(k)],
+    "按代表团": [{"代表团": k, "代码": CODE_BY_NAME.get(k, k), "条数": n}
+                  for k, n in rec_by_org.most_common()],
+    "按项目": [{"项目": k, "条数": n} for k, n in rec_by_disc.most_common()],
+    "中国条数": len(china_rec),
+    "中国占全部纪录比%": round(len(china_rec) / len(records) * 100, 1),
+    "世界纪录": [r for r in records if r["纪录级别"] == "世界纪录"],
+    "选手榜_原始条数": [{"选手": k, "选手中文": athlete(k), "纪录条数": v}
+                        for k, v in raw_by_athlete.most_common(10)],
+    "选手榜_去重条数": [{"选手": k, "选手中文": athlete(k), "纪录条数": v}
+                        for k, v in athletes.most_common(10)],
+    "中国队团体纪录条数": len(team_records),
+    "中国个人纪录条数": len(china_rec) - len(team_records),
+    "全部纪录": records,
+    "中国纪录": china_rec,
+    "中国合计场次": len(records) - len(china_rec),
 }
 
 # ================================================================ 输出

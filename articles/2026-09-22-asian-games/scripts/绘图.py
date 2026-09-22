@@ -384,46 +384,69 @@ fig.subplots_adjust(top=top, left=0.085, right=0.97, bottom=0.12)
 note(fig, "虚线为“每万人 200/500/1000 枚奖牌”的等产出率参考线 · 仅展示已有奖牌的代表团")
 out(fig, "10_规模与产出.png")
 
-# ============================================================ 11 每日节奏
-E = R["E_赛事节奏与场馆"]
-dates = E["赛程日期"]
-comp = [x["项目数"] for x in E["每日有比赛的项目数"]]
-medl = [x["项目数"] for x in E["每日产生奖牌的项目数"]]
-act = {x["日期"]: x["金牌"] for x in E["每日实际金牌(已开赛部分)"]}
-short = [d[5:].replace("-", "/") for d in dates]
-xi = np.arange(len(dates))
-fig, ax = plt.subplots(figsize=(12.6, 5.8))
-ax.axvspan(-0.5, 8.5, color="#F5F7FA", zorder=0)
-ax.bar(xi, comp, 0.72, color="#DCE4EF", label="当日有比赛的项目数", zorder=3)
-ax.bar(xi, medl, 0.72, color="#E9C363", label="当日产生奖牌的项目数", zorder=4)
+# ============================================================ 11 每日金牌：实际 + 预排
+d = R["G_全程金牌节奏"]
+tl = d["每日节奏"]
+labels = [x["日期"][5:].replace("-", "/") for x in tl]
+plan = [x["预排金牌"] for x in tl]
+real = [x["实际金牌"] if x["实际金牌"] != "" else None for x in tl]
+cum_plan = [x["累计预排"] for x in tl]
+cum_real = [x["累计实际"] if x["累计实际"] != "" else None for x in tl]
+past = [i for i, v in enumerate(real) if v is not None]
+x = np.arange(len(tl))
+
+fig, ax = plt.subplots(figsize=(12.6, 6.4))
 ax2 = ax.twinx()
-gold_line = [act.get(d, 0) for d in dates]
-ax2.plot(xi, gold_line, "-o", ms=5.5, color="#C8102E", lw=2.2,
-         label="当日实际金牌数", zorder=6)
-for i, v in enumerate(gold_line):
-    if v:
-        ax2.annotate(str(v), (i, v), textcoords="offset points", xytext=(0, 9),
-                     ha="center", fontsize=10, color="#C8102E", fontweight="bold")
-ax2.set_ylim(0, 40)
-ax2.set_ylabel("当日实际金牌数（枚）", color="#C8102E")
-ax2.tick_params(axis="y", colors="#C8102E", length=0)
-ax2.grid(False)
-ax.set_xticks(xi)
-ax.set_xticklabels(short, rotation=60, ha="right", fontsize=9)
-ax.set_ylabel("项目数（个）")
-ax.set_ylim(0, 34)
-ax.set_xlabel("赛程日期")
+ax2.plot(x, cum_plan, color="#2F6FED", lw=2.0, ls=(0, (5, 3)), zorder=4,
+         label="累计预排（全程 %d 枚）" % d["整届预排金牌总数"])
+ax2.plot(past, [cum_real[i] for i in past], color="#2F6FED", lw=2.6, zorder=5,
+         marker="o", ms=5, label="累计实际")
+ax2.annotate("%d 枚" % d["整届预排金牌总数"], (x[-1], cum_plan[-1]),
+             xytext=(-6, -16), textcoords="offset points", fontsize=10.5,
+             fontweight="bold", color="#2F6FED", ha="right")
+
+ax.bar(x, [np.nan if v is None else v for v in real], 0.74, color=C_GOLD, zorder=3,
+       label="实际已产生金牌")
+ax.bar(x, [np.nan if v is not None else p for v, p in zip(real, plan)], 0.74,
+       facecolor="#FFFFFF", edgecolor="#8A97A8", lw=1.5, ls=(0, (3, 2)), zorder=3,
+       label="预排金牌（按官方决赛日程推算）")
+for i, (v, p) in enumerate(zip(real, plan)):
+    val = v if v is not None else p
+    ax.text(i, val + 0.9, str(val), ha="center", fontsize=9.5,
+            fontweight="bold" if v is not None else "normal",
+            color=TEXT if v is not None else "#8A97A8")
+
+ax.axvline(2.5, color="#C8102E", lw=1.4, ls=":", zorder=6)
+ax.text(2.62, 76, "已开赛 3 天｜今日 9/22", color="#C8102E", fontsize=10.5,
+        fontweight="bold", va="top")
+ax.text(3.15, 70.6, "以下为按官方日程推算的预排值", color="#8A97A8", fontsize=10, va="top")
+peak = max(range(len(tl)), key=lambda i: plan[i])
+ax.annotate("单日峰值 %d 枚" % plan[peak], (peak, plan[peak]),
+            xytext=(0, 30), textcoords="offset points", fontsize=10.5,
+            fontweight="bold", color=TEXT, ha="center",
+            arrowprops=dict(arrowstyle="-", color="#8A97A8", lw=1.0))
+
+ax.set_xticks(x)
+ax.set_xticklabels(labels, fontsize=10)
+ax.set_ylabel("当日金牌（枚）")
+ax.set_ylim(0, 80)
+ax2.set_ylim(0, 500)
+ax2.set_ylabel("累计金牌（枚）", color="#2F6FED")
+ax2.tick_params(axis="y", colors="#2F6FED")
 ax.grid(axis="x", visible=False)
 ax.tick_params(length=0)
+ax2.grid(False)
 h1, l1 = ax.get_legend_handles_labels()
 h2, l2 = ax2.get_legend_handles_labels()
-ax.legend(h1 + h2, l1 + l2, loc="lower left", bbox_to_anchor=(0.0, 1.005), ncol=3,
-          fontsize=10)
-top = head(fig, "25 天赛程节奏：9/26 与 9/27 是最忙的两天",
-           "灰柱=当日开赛项目数，黄柱=当日出奖牌的项目数，红线=实际已产生金牌（数据截止 9/22）",
-           gap=0.078)
-fig.subplots_adjust(top=top, left=0.06, right=0.93, bottom=0.22)
-note(fig, "赛程来自官方赛程矩阵；实际金牌按奖牌明细的完赛日期统计 · 灰色带为 9/10-9/18 开幕前提前开赛的足球、篮球等项目 · 9/19 为开幕式日")
+ax.legend(h1 + h2, l1 + l2, loc="lower left", bbox_to_anchor=(0.0, 1.005), ncol=2,
+          fontsize=10.5)
+top = head(fig, "全程 450 枚金牌，现在只发出 %d 枚（%.1f%%）"
+           % (d["已产生金牌"], d["已完成比例%"]),
+           "实心柱 = 实际已产生；虚线空心柱 = 按官方决赛日程推算的预排值（9/23 起）；"
+           "折线为累计", gap=0.082, main_size=17)
+fig.subplots_adjust(top=top, left=0.065, right=0.925, bottom=0.19)
+note(fig, "预排口径 = 官方日程中「金牌场次」的唯一小项数（实测 9/20 预排 31＝归类 30 枚＋1 枚未标日期、9/21 因并列冠军 18 场发 19 金、9/22 预排 25＝25 枚）· "
+          "9/10-9/19 无金牌安排故不展示 · 1 枚现代五项金牌官方未给日期，故累计实际止于 74", y=0.012)
 out(fig, "11_每日节奏.png")
 
 # ============================================================ 12 项目赛程热力图
@@ -464,6 +487,7 @@ note(fig, "红色竖线 = 9/19 开幕式 · 数据来源：OCA 官方成绩系�
 out(fig, "12_项目赛程热力图.png")
 
 # ============================================================ 13 场馆城市
+E = R["E_赛事节奏与场馆"]
 vc = sorted(E["场馆"]["城市分布"], key=lambda x: -x["场馆数"])
 fig, ax = plt.subplots(figsize=(10.6, 5.4))
 names = [x["城市"] for x in vc][::-1]
@@ -508,6 +532,79 @@ top = head(fig, "哪些项目人最多：田径 851 人、电子竞技 722 人",
 fig.subplots_adjust(top=top, left=0.12, right=0.97, bottom=0.12)
 note(fig, "按参赛选手注册号去重；同一选手兼项时只计一次")
 out(fig, "14_项目参赛人数.png")
+
+
+
+# ============================================================ 15 破纪录：谁在破纪录
+from collections import Counter, defaultdict          # noqa: E402
+
+recs = R["H_破纪录"]["全部纪录"]
+cn_recs = R["H_破纪录"]["中国纪录"]
+LEVEL_COLOR = {"世界纪录": "#C8102E", "亚洲纪录": "#D9A21B", "赛会纪录": "#2F6FED"}
+LEVELS = ["世界纪录", "亚洲纪录", "赛会纪录"]
+
+by_disc = defaultdict(Counter)
+for r in recs:
+    by_disc[r["项目"]][r["纪录级别"]] += 1
+discs_sorted = sorted(by_disc, key=lambda k: -sum(by_disc[k].values()))
+
+by_athlete = Counter(r["选手中文"] for r in cn_recs)
+athletes_sorted = by_athlete.most_common()
+
+fig, (axL, axR) = plt.subplots(1, 2, figsize=(13.0, 5.0),
+                               gridspec_kw={"width_ratios": [1, 1.25]})
+
+# 左：按项目 × 级别
+yy = np.arange(len(discs_sorted))
+left = np.zeros(len(discs_sorted))
+for lv in LEVELS:
+    vals = np.array([by_disc[k].get(lv, 0) for k in discs_sorted], dtype=float)
+    axL.barh(yy, vals, 0.5, left=left, color=LEVEL_COLOR[lv], label=lv, zorder=3)
+    for i, (v, b) in enumerate(zip(vals, left)):
+        if v:
+            axL.text(b + v / 2, i, "%d" % v, ha="center", va="center", fontsize=10.5,
+                     color="white", fontweight="bold")
+    left += vals
+axL.set_yticks(yy)
+axL.set_yticklabels(discs_sorted, fontsize=12)
+axL.set_xlim(0, 17)
+axL.set_xlabel("破纪录条数")
+axL.grid(axis="y", visible=False)
+axL.tick_params(length=0)
+axL.legend(loc="upper right", fontsize=10)
+axL.set_title("全部 %d 条：只在游泳和射击" % len(recs), fontsize=13.5,
+              fontweight="bold", loc="left", pad=10)
+
+# 右：中国 24 条是谁破的
+names = [k for k, _ in athletes_sorted]
+vals = [v for _, v in athletes_sorted]
+yy2 = np.arange(len(names))
+colors = ["#C8102E" if n == "中国队" else "#2F6FED" for n in names]
+axR.barh(yy2, vals, 0.6, color=colors, zorder=3)
+for i, v in enumerate(vals):
+    axR.text(v + 0.16, i, str(v), va="center", fontsize=11, fontweight="bold",
+             color=TEXT)
+axR.set_yticks(yy2)
+axR.set_yticklabels(names, fontsize=11.5)
+axR.invert_yaxis()
+axR.set_xlim(0, max(vals) + 1.6)
+axR.set_xlabel("破纪录条数")
+axR.grid(axis="y", visible=False)
+axR.tick_params(length=0)
+axR.set_title("中国 24 条：团体 9 条 + 个人 15 条", fontsize=13.5, fontweight="bold",
+              loc="left", pad=10)
+axR.legend(handles=[mpatches.Patch(color="#C8102E", label="团体纪录（射击团体、游泳接力）"),
+                    mpatches.Patch(color="#2F6FED", label="个人纪录")],
+           loc="lower right", fontsize=10)
+
+top = head(fig, "开赛 3 天破了 %d 条纪录，中国一家占 %d 条"
+           % (len(recs), R["H_破纪录"]["中国条数"]),
+           "另含 2 项世界纪录：射击女子 10 米气步枪团体 1904.2、男子团体 1899.0；"
+           "日本 2 条、韩国 2 条", gap=0.10, main_size=17)
+fig.subplots_adjust(top=top, left=0.075, right=0.985, bottom=0.14, wspace=0.30)
+note(fig, "同一次成绩可同时刷新世界/亚洲/赛会纪录，故按「条」计数 · 数据来源：OCA 官方成绩系统 records 接口 · 截至 2026-09-22")
+out(fig, "15_破纪录.png")
+
 
 print("已生成 %d 张图表:" % len(MADE))
 for m in MADE:

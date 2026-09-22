@@ -70,6 +70,23 @@ CITY_ZH = {
     "Ichinomiya": "一宫", "Inazawa": "稻泽", "Kariya": "刈谷", "Osaka": "大阪",
 }
 
+# ---------------------------------------------------------------- 选手
+# 只收录有权威媒体中文名的运动员（新华社 / 央视 / 腾讯等报道口径）；
+# 没有把握的一律保留官方英文名，不自行音译。
+ATHLETE_ZH = {
+    "TANG Qianting": "唐钱婷", "XU Jiayu": "徐嘉余", "YU Zidi": "于子迪",
+    "PENG Xuwei": "彭旭玮", "SHENG Lihao": "盛李豪", "WANG Zifei": "王子菲",
+    "PAN Zhanle": "潘展乐", "LI Bingjie": "李冰洁", "ZHANG Zhanshu": "张展硕",
+    "DONG Zhihao": "董志豪", "LI Liuchang": "李刘畅",
+    "People's Republic of China": "中国队",
+    "China": "中国队",
+}
+
+
+def athlete(name):
+    return ATHLETE_ZH.get((name or "").strip(), (name or "").strip())
+
+
 # ---------------------------------------------------------------- 奖牌
 MEDAL_ZH = {"ME_GOLD": "金牌", "ME_SILVER": "银牌", "ME_BRONZE": "铜牌"}
 MEDAL_SHORT = {"ME_GOLD": "金", "ME_SILVER": "银", "ME_BRONZE": "铜"}

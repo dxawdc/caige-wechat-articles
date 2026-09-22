@@ -5,13 +5,13 @@
   "items": [
     {
       "id": "asian-games",
-      "title": "我把亚运会 12753 名选手的数据全拉了下来，发现榜单只讲了一半",
+      "title": "今年亚运会好像没什么热度，只知道名古屋被骂上热搜",
       "kind": "article",
       "version": "v1.0.0",
       "source": "articles/2026-09-22-asian-games",
       "manifest": "物料清单_v1.0.0.json",
       "download": "downloads/asian-games_v1.0.0.zip",
-      "summary": "亚奥理事会官方成绩系统全量数据（46 代表团 / 59 项目 / 12753 选手 / 251 枚奖牌），采集、分析与绘图脚本，14 张图表"
+      "summary": "亚奥理事会官方成绩系统全量数据（46 代表团 / 59 项目 / 12753 选手 / 251 枚奖牌 / 全程 450 枚金牌日程 / 28 条破纪录），采集、分析与绘图脚本，15 张图表"
     },
     {
       "id": "a-share-fund-flow",
