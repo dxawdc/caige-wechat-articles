@@ -1,0 +1,499 @@
+[
+  {
+    "Discipline": "MTB",
+    "Key": "ORP",
+    "Desc": "Obata Ryokuchi Park",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "SKB",
+    "Key": "SKEB",
+    "Desc": "Aichi Sky Expo Hall B",
+    "MapLink": null,
+    "City": "Tokoname"
+  },
+  {
+    "Discipline": "SHO",
+    "Key": "PGS",
+    "Desc": "Aichi Prefectural General Shooting Gallery",
+    "MapLink": null,
+    "City": "Toyota"
+  },
+  {
+    "Discipline": "SEW",
+    "Key": "MPG",
+    "Desc": "Nagoya City Mizuho Park Gymnasium",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "SBL",
+    "Key": "ASG",
+    "Desc": "Anjo Softball Ground",
+    "MapLink": null,
+    "City": "Anjo"
+  },
+  {
+    "Discipline": "SAL",
+    "Key": "KYH",
+    "Desc": "Kaiyoh Yacht Harbor",
+    "MapLink": null,
+    "City": "Gamagori"
+  },
+  {
+    "Discipline": "RU7",
+    "Key": "MPR",
+    "Desc": "Nagoya City Mizuho Park Rugby Field",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "ROW",
+    "Key": "NRC",
+    "Desc": "Nagaragawa International Regatta Course(Gifu)",
+    "MapLink": null,
+    "City": "Aisai"
+  },
+  {
+    "Discipline": "PDL",
+    "Key": "PDL",
+    "Desc": "Nagoya City Higashi Sports Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "SQU",
+    "Key": "KFA",
+    "Desc": "Nagoya Kinjo Futo Arena",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "MPN",
+    "Key": "ASP",
+    "Desc": "Anjo Sports Park",
+    "MapLink": null,
+    "City": "Anjo"
+  },
+  {
+    "Discipline": "MMA",
+    "Key": "ISC",
+    "Desc": "Nagoya City Inae Sports Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "KUR",
+    "Key": "PMA",
+    "Desc": "Aichi Prefectural Martial Arts Hall",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "KTE",
+    "Key": "TYH",
+    "Desc": "Toyohashi Gymnasium",
+    "MapLink": null,
+    "City": "Toyohashi"
+  },
+  {
+    "Discipline": "KAB",
+    "Key": "TCG",
+    "Desc": "Tokai Citizen Gymnasium",
+    "MapLink": null,
+    "City": "Tokai"
+  },
+  {
+    "Discipline": "JUD",
+    "Key": "AIA",
+    "Desc": "Aichi International Arena",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "JJI",
+    "Key": "PMA",
+    "Desc": "Aichi Prefectural Martial Arts Hall",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "HOC",
+    "Key": "GPG",
+    "Desc": "Gifu Prefectural Green Stadium(Gifu)",
+    "MapLink": null,
+    "City": "Gifu"
+  },
+  {
+    "Discipline": "TST",
+    "Key": "HPT",
+    "Desc": "Nagoya City Higashiyama Park Tennis Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "WSU",
+    "Key": "PMA",
+    "Desc": "Aichi Prefectural Martial Arts Hall",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "WRE",
+    "Key": "ISC",
+    "Desc": "Nagoya City Inae Sports Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "WPO",
+    "Key": "GEG",
+    "Desc": "Nagoya City General Gymnasium [Rainbow Pool]",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "WLF",
+    "Key": "TIC",
+    "Desc": "Nagoya City Trade and Industry Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "VVO",
+    "Key": "PKA",
+    "Desc": "Park Arena Komaki",
+    "MapLink": null,
+    "City": "Komaki"
+  },
+  {
+    "Discipline": "VVO",
+    "Key": "OCG",
+    "Desc": "Okazaki Chuo Sogo Park Gymnasium",
+    "MapLink": null,
+    "City": "Okazaki"
+  },
+  {
+    "Discipline": "VBV",
+    "Key": "HRB",
+    "Desc": "Hekinan Ryokuchi Beach Court",
+    "MapLink": null,
+    "City": "Hekinan"
+  },
+  {
+    "Discipline": "TTE",
+    "Key": "SHT",
+    "Desc": "SKY HALL TOYOTA",
+    "MapLink": null,
+    "City": "Toyota"
+  },
+  {
+    "Discipline": "HBL",
+    "Key": "KCG",
+    "Desc": "Kasugai City Gymnasium",
+    "MapLink": null,
+    "City": "Kasugai"
+  },
+  {
+    "Discipline": "TRI",
+    "Key": "GCT",
+    "Desc": "Gamagori City Triathlon Venue",
+    "MapLink": null,
+    "City": "Gamagori"
+  },
+  {
+    "Discipline": "TKW",
+    "Key": "TYH",
+    "Desc": "Toyohashi Gymnasium",
+    "MapLink": null,
+    "City": "Toyohashi"
+  },
+  {
+    "Discipline": "TEQ",
+    "Key": "TEQ",
+    "Desc": "Nagoya City Higashi Sports Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "TEN",
+    "Key": "HPT",
+    "Desc": "Nagoya City Higashiyama Park Tennis Center",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "SWM",
+    "Key": "TAC",
+    "Desc": "Tokyo Aquatics Centre",
+    "MapLink": null,
+    "City": "Tokyo"
+  },
+  {
+    "Discipline": "SWA",
+    "Key": "HSC",
+    "Desc": "“ToBiO” Furuhashi Hironoshin Memorial Hamamatsu Swimming Center(Shizuoka)",
+    "MapLink": null,
+    "City": "Shizuoka"
+  },
+  {
+    "Discipline": "SRF",
+    "Key": "PLB",
+    "Desc": "Pacific Long Beach (Tahara, Aichi, Japan)",
+    "MapLink": null,
+    "City": "Tahara"
+  },
+  {
+    "Discipline": "SQU",
+    "Key": "KFS",
+    "Desc": "Kinjo Futo Station Square Venue",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "BMF",
+    "Key": "SKEC",
+    "Desc": "Aichi Sky Expo Hall C",
+    "MapLink": null,
+    "City": "Tokoname"
+  },
+  {
+    "Discipline": "CTR",
+    "Key": "IVD",
+    "Desc": "Izu Velodrome(Shizuoka)",
+    "MapLink": null,
+    "City": "Shizuoka"
+  },
+  {
+    "Discipline": "CSP",
+    "Key": "MYC",
+    "Desc": "Miyoshi Lake Canoe Course",
+    "MapLink": null,
+    "City": "Miyoshi"
+  },
+  {
+    "Discipline": "CSL",
+    "Key": "YSC",
+    "Desc": "Yahagigawa Canoe Slalom Course",
+    "MapLink": null,
+    "City": "Toyota"
+  },
+  {
+    "Discipline": "CRD",
+    "Key": "SRC",
+    "Desc": "Shinshiro Cycling Road Course",
+    "MapLink": null,
+    "City": "Shinshiro"
+  },
+  {
+    "Discipline": "CLB",
+    "Key": "POMH",
+    "Desc": "Nagoya International Exhibition Hall [Portmesse Nagoya] Exhibition Hall 1",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "CKT",
+    "Key": "KAP",
+    "Desc": "Korogi Athletic Park",
+    "MapLink": null,
+    "City": "Nissin"
+  },
+  {
+    "Discipline": "BOX",
+    "Key": "NIS",
+    "Desc": "Nishio Gymnasium",
+    "MapLink": null,
+    "City": "Nishio"
+  },
+  {
+    "Discipline": "BMX",
+    "Key": "VBR",
+    "Desc": "Nagoya Velodrome BMX Race Course",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "DIV",
+    "Key": "TAC",
+    "Desc": "Tokyo Aquatics Centre(Tokyo)",
+    "MapLink": null,
+    "City": "Tokyo"
+  },
+  {
+    "Discipline": "BKG",
+    "Key": "SKEF",
+    "Desc": "Aichi Sky Expo Hall F",
+    "MapLink": null,
+    "City": "Tokoname"
+  },
+  {
+    "Discipline": "BKB",
+    "Key": "AIA",
+    "Desc": "Aichi International Arena",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "BK3",
+    "Key": "KFS",
+    "Desc": "Kinjo Futo Station Square Venue",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "BDM",
+    "Key": "IMG",
+    "Desc": "Ichinomiya City Municipal Gymnasium",
+    "MapLink": null,
+    "City": "Ichinomiya"
+  },
+  {
+    "Discipline": "BBL",
+    "Key": "TMB",
+    "Desc": "Toyohashi Municipal Baseball Stadium",
+    "MapLink": null,
+    "City": "Toyohashi"
+  },
+  {
+    "Discipline": "BBL",
+    "Key": "OCB",
+    "Desc": "Okazaki Chuo Sogo Park Baseball Stadium",
+    "MapLink": null,
+    "City": "Okazaki"
+  },
+  {
+    "Discipline": "ATH",
+    "Key": "MPA",
+    "Desc": "Nagoya City Mizuho Park Athletic Stadium",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "ATH",
+    "Key": "CGC",
+    "Desc": "Circular course around the Aichi Prefectural Government office and the Nagoya City Hall",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "TOS",
+    "Desc": "TOYOTA STADIUM",
+    "MapLink": null,
+    "City": "Toyota"
+  },
+  {
+    "Discipline": "HBL",
+    "Key": "ENT",
+    "Desc": "ENTRIO",
+    "MapLink": null,
+    "City": "Inazawa"
+  },
+  {
+    "Discipline": "GTR",
+    "Key": "GGH",
+    "Desc": "Nagoya City General Gymnasium [Rainbow Hall]",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "GRY",
+    "Key": "GGH",
+    "Desc": "Nagoya City General Gymnasium [Rainbow Hall]",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "GLF",
+    "Key": "CCE",
+    "Desc": "Kasugai Country Club East Course",
+    "MapLink": null,
+    "City": "Kasugai"
+  },
+  {
+    "Discipline": "GAR",
+    "Key": "GGH",
+    "Desc": "Nagoya City General Gymnasium [Rainbow Hall]",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "FEN",
+    "Key": "SKEF",
+    "Desc": "Aichi Sky Expo Hall F",
+    "MapLink": null,
+    "City": "Tokoname"
+  },
+  {
+    "Discipline": "FEN",
+    "Key": "SKEE",
+    "Desc": "Aichi Sky Expo Hall E",
+    "MapLink": null,
+    "City": "Tokoname"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "WAV",
+    "Desc": "WAVE STADIUM KARIYA",
+    "MapLink": null,
+    "City": "Kariya"
+  },
+  {
+    "Discipline": "ARC",
+    "Key": "OCM",
+    "Desc": "Okazaki Chuo Sogo Park Multipurpose Square",
+    "MapLink": null,
+    "City": "Okazaki"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "SSE",
+    "Desc": "Shizuoka Stadium Ecopa",
+    "MapLink": null,
+    "City": "Shizuoka"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "NAG",
+    "Desc": "Nagai Stadium",
+    "MapLink": null,
+    "City": "Osaka"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "MSF",
+    "Desc": "Nagoya City Minato Soccer Field",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "MPR",
+    "Desc": "Nagoya City Mizuho Park Rugby Field",
+    "MapLink": null,
+    "City": "Nagoya"
+  },
+  {
+    "Discipline": "FBL",
+    "Key": "GNS",
+    "Desc": "Gifu Nagaragawa Stadium",
+    "MapLink": null,
+    "City": "Gifu"
+  },
+  {
+    "Discipline": "EQU",
+    "Key": "EQP",
+    "Desc": "Equestrian Park(Tokyo)",
+    "MapLink": null,
+    "City": "Tokyo"
+  },
+  {
+    "Discipline": "ELS",
+    "Key": "SKED",
+    "Desc": "Aichi Sky Expo Hall D",
+    "MapLink": null,
+    "City": "Tokoname"
+  }
+]

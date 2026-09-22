@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-19",
+  "updated": "2026-09-22",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "asian-games",
+      "title": "亚运会开赛 4 天，我把官方 12753 名选手的数据拉下来看了一遍",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-22-asian-games",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/asian-games_v1.0.0.zip",
+      "summary": "亚奥理事会官方成绩系统全量数据（46 代表团 / 59 项目 / 12753 选手 / 251 枚奖牌），采集、分析与绘图脚本，14 张图表"
+    },
     {
       "id": "a-share-fund-flow",
       "title": "我把A股一天的资金流向，做成了一组图",

@@ -1,0 +1,205 @@
+{
+  "id": "2026-09-22-asian-games",
+  "version": "v1.0.0",
+  "updated": "2026-09-22",
+  "entrypoint": "scripts/采集_官方成绩.py",
+  "basic": "scripts/绘图.py",
+  "files": [
+    {
+      "path": "data/A_奖牌榜_含性别.csv",
+      "bytes": 2081,
+      "sha256": "91e506b8dc18b8ec743794b0f47a7174b44c93fac7f8e09b42bbebf45fa28279"
+    },
+    {
+      "path": "data/B_夺金结构集中度.csv",
+      "bytes": 1467,
+      "sha256": "29fe57c0140f805cfcc69df48e38b988b9dbd899646a0b1f4029929f12ac3b66"
+    },
+    {
+      "path": "data/B_金牌项目矩阵.csv",
+      "bytes": 754,
+      "sha256": "f1d364ba2f55a169275658778223af907af4fbae65d8d5513add54c4f8dc1f72"
+    },
+    {
+      "path": "data/B_项目金牌归属.csv",
+      "bytes": 1035,
+      "sha256": "f5e7c040a0d89e516436ca7a4c32db75ce4768fc8d1dc5b20a8728fccd7498e8"
+    },
+    {
+      "path": "data/D_奖牌选手年龄.csv",
+      "bytes": 15410,
+      "sha256": "fcca61f605bf786df4774c1edf34b5fb388cd4fc7ada9cf87b29cf96509783cb"
+    },
+    {
+      "path": "data/E_项目赛程天数.csv",
+      "bytes": 4629,
+      "sha256": "ebe4ebe59b9363f2a5689692ea63301b6cf30d2e75b8e2d80464e99c611cf90c"
+    },
+    {
+      "path": "data/F_规模与产出.csv",
+      "bytes": 2278,
+      "sha256": "c82c3c75d5db685695026bfe460078a750c4831a9713a99aa74820dcfaf8ed03"
+    },
+    {
+      "path": "data/官方_代表团.json",
+      "bytes": 6910,
+      "sha256": "29cf811911e89481dcfeac7225945ee4c538924acf7a5d32fb435515411154b0"
+    },
+    {
+      "path": "data/官方_参赛名单_精简.csv",
+      "bytes": 1210895,
+      "sha256": "be494bf5ba672f743aac735b9f4ae42f1c882641290a922be69e8a1616ecbdb8"
+    },
+    {
+      "path": "data/官方_场馆.json",
+      "bytes": 10518,
+      "sha256": "d6cb1cb0b6e708f2e61bac3e24501f59ed3b045903eb8f27b19ab38540dcfbfe"
+    },
+    {
+      "path": "data/官方_多牌选手明细.csv",
+      "bytes": 35584,
+      "sha256": "9c86e067a4e5f0e21b989b2daecaf5f5fbcda94b72dae83cbd5392706760a299"
+    },
+    {
+      "path": "data/官方_奖牌明细_全量.csv",
+      "bytes": 40913,
+      "sha256": "a5e0f142d97ae3bf356117208d6c09e08c6df6764ccf9667b4f627a7eb7517b7"
+    },
+    {
+      "path": "data/官方_奖牌榜.csv",
+      "bytes": 1414,
+      "sha256": "1b5f621bb97ded9e10dbe64083cd29e828d255e1bac56eb35564e6ae065a13ce"
+    },
+    {
+      "path": "data/官方_奖牌榜.json",
+      "bytes": 24013,
+      "sha256": "8fe86ba13fdc87547aa1373248454f8744dd6a1337b30ce0e5623c1ea0a8eeb6"
+    },
+    {
+      "path": "data/官方_赛程矩阵.json",
+      "bytes": 43499,
+      "sha256": "d06905c1762c0f01c1cc85a002193d9ee4ba9b9d0ffc7d5df383942e34725c5b"
+    },
+    {
+      "path": "data/官方_项目.json",
+      "bytes": 16289,
+      "sha256": "79cff4d967417780249f34d9a85e7277cbe88096eb4760425af65d6205da2742"
+    },
+    {
+      "path": "data/数据规模统计.json",
+      "bytes": 2494,
+      "sha256": "b3aa9bb779883a3ec80caf0ef4b2b88047abd7753202ddaefe2f462ea66986da"
+    },
+    {
+      "path": "data/统计结果.json",
+      "bytes": 115426,
+      "sha256": "be5bb862e009ada3896813f241fbeb8f5464dd36a718990c4b9d7de6da0f574c"
+    },
+    {
+      "path": "images/01_奖牌榜前12.png",
+      "bytes": 83273,
+      "sha256": "52f570957c402286971bcb0819547ef01c3ab55d38360e9e6e87f5b015ade071"
+    },
+    {
+      "path": "images/02_中日韩对比.png",
+      "bytes": 111101,
+      "sha256": "ba317a1d8364030e3401f33c54adc9ec7f9ade225f6d2cd819cf2dd7a5faf06b"
+    },
+    {
+      "path": "images/03_奖牌性别结构.png",
+      "bytes": 127266,
+      "sha256": "90427c1f8b91a745faf2c15585250f7180428d99ec993bc204be837907c462bd"
+    },
+    {
+      "path": "images/04_奖牌集中度.png",
+      "bytes": 127579,
+      "sha256": "4975e490b3ac9db81884762c97ee40999aff864a4f3738bac6b6e142f69538a0"
+    },
+    {
+      "path": "images/05_优势项目热力图.png",
+      "bytes": 143879,
+      "sha256": "18114c0496b07315de75eb98212c233210499ef871943cff43193791269f8dd4"
+    },
+    {
+      "path": "images/06_夺金广度.png",
+      "bytes": 117365,
+      "sha256": "4da41bb14ed2c2cdad08365d56c3c95444115cea0904e773b745e8df34411088"
+    },
+    {
+      "path": "images/07_中国金牌结构.png",
+      "bytes": 118419,
+      "sha256": "d732d354135b0fc3eeedb9e7153a0b2c71d21ca263ec14f0160a48bb95516596"
+    },
+    {
+      "path": "images/08_中国统治力.png",
+      "bytes": 90173,
+      "sha256": "14d6712194fe99fbbf056f3a04f42936430814f39893547b83bc883d05161dc1"
+    },
+    {
+      "path": "images/09_奖牌选手年龄.png",
+      "bytes": 161487,
+      "sha256": "90bfb82a6b1c8491314bb17f2c2ebb4549389d75e6429ca8634d071b73dd03ed"
+    },
+    {
+      "path": "images/10_规模与产出.png",
+      "bytes": 158021,
+      "sha256": "7e99158ee4c8096f02a683fac65e6130615dbd2df7b11f558c235ccaff606373"
+    },
+    {
+      "path": "images/11_每日节奏.png",
+      "bytes": 153485,
+      "sha256": "d36e4f256e85ec492051b49baf5dfed4bc41f500c555488ae53d978fa79df6b3"
+    },
+    {
+      "path": "images/12_项目赛程热力图.png",
+      "bytes": 245913,
+      "sha256": "d0b9f0efbb7929b07f346530e174c5218dddb8a79a6180a35744aa1e4ce7a98a"
+    },
+    {
+      "path": "images/13_场馆城市分布.png",
+      "bytes": 105127,
+      "sha256": "8e5e6d0d3327158e9b2b01de57a60dd40d49bdf770655b00aeb92067838807b1"
+    },
+    {
+      "path": "images/14_项目参赛人数.png",
+      "bytes": 93547,
+      "sha256": "c359183cb803debbd72c11ca7488646e3599ca158e17d3a08c34b3e1906ffef5"
+    },
+    {
+      "path": "images/封面_v1.0.0.png",
+      "bytes": 50350,
+      "sha256": "d69b50f66b4aeafaa78c3eb55e4b7479d05493d42b50965af4c04d028dbeb3c6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2685,
+      "sha256": "f737e61b0b89f452fdac4e29e9cf4d3e5ca95340379054b9807e5d1cd053fe21"
+    },
+    {
+      "path": "scripts/分析.py",
+      "bytes": 24642,
+      "sha256": "0c66208c4a5ad0a0ecd23669581e1f7f4b98ec5056acfcbbbf34d8da2e826d14"
+    },
+    {
+      "path": "scripts/映射.py",
+      "bytes": 6469,
+      "sha256": "2a9f61dff5326b7c01cfc6dad49f5132529e9afedbe763606b13a9274633654c"
+    },
+    {
+      "path": "scripts/绘图.py",
+      "bytes": 25610,
+      "sha256": "f8b435bc453fdfbabd569c88b9a3a294d4ed63723aec7c340512049be166b412"
+    },
+    {
+      "path": "scripts/补全奖牌明细.py",
+      "bytes": 3794,
+      "sha256": "0a7c1d8408f7733e46851fa66ecbb9ccd9df88e18aed5c2986e29af0386653f0"
+    },
+    {
+      "path": "scripts/采集_官方成绩.py",
+      "bytes": 7447,
+      "sha256": "a06db6dd7700cbcb400fceed7e55bfedddabb2b83c4ffe35aa03013757c92e92"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

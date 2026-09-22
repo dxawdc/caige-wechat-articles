@@ -1,0 +1,1362 @@
+[
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "CHN",
+    "Count": {
+      "ME_GOLD": {
+        "M": 13,
+        "W": 17,
+        "X": 2,
+        "total": 32
+      },
+      "ME_SILVER": {
+        "M": 3,
+        "W": 10,
+        "X": 0,
+        "total": 13
+      },
+      "ME_BRONZE": {
+        "M": 3,
+        "W": 5,
+        "X": 0,
+        "total": 8
+      },
+      "total": {
+        "M": 19,
+        "W": 32,
+        "X": 2,
+        "total": 53
+      }
+    },
+    "RkPo": 1,
+    "Rk": "1",
+    "RkEq": false,
+    "RkPoTotal": 1,
+    "RkTotal": "1",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "People's Republic of China"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "JPN",
+    "Count": {
+      "ME_GOLD": {
+        "M": 7,
+        "W": 4,
+        "X": 0,
+        "total": 11
+      },
+      "ME_SILVER": {
+        "M": 10,
+        "W": 3,
+        "X": 3,
+        "total": 16
+      },
+      "ME_BRONZE": {
+        "M": 4,
+        "W": 13,
+        "X": 2,
+        "total": 19
+      },
+      "total": {
+        "M": 21,
+        "W": 20,
+        "X": 5,
+        "total": 46
+      }
+    },
+    "Rk": "2",
+    "RkEq": false,
+    "RkPo": 2,
+    "RkTotal": "2",
+    "RkEqTotal": false,
+    "RkPoTotal": 2,
+    "id": null,
+    "OrgDesc": "Japan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "KOR",
+    "Count": {
+      "ME_GOLD": {
+        "M": 4,
+        "W": 2,
+        "X": 0,
+        "total": 6
+      },
+      "ME_SILVER": {
+        "M": 2,
+        "W": 1,
+        "X": 1,
+        "total": 4
+      },
+      "ME_BRONZE": {
+        "M": 11,
+        "W": 5,
+        "X": 1,
+        "total": 17
+      },
+      "total": {
+        "M": 17,
+        "W": 8,
+        "X": 2,
+        "total": 27
+      }
+    },
+    "RkPo": 3,
+    "Rk": "3",
+    "RkEq": false,
+    "RkPoTotal": 3,
+    "RkTotal": "3",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Republic of Korea"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "KAZ",
+    "Count": {
+      "ME_GOLD": {
+        "M": 4,
+        "W": 2,
+        "X": 0,
+        "total": 6
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 4,
+        "W": 1,
+        "X": 0,
+        "total": 5
+      },
+      "total": {
+        "M": 8,
+        "W": 4,
+        "X": 0,
+        "total": 12
+      }
+    },
+    "RkPo": 4,
+    "Rk": "4",
+    "RkEq": false,
+    "RkPoTotal": 4,
+    "RkTotal": "4",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Kazakhstan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "THA",
+    "Count": {
+      "ME_GOLD": {
+        "M": 1,
+        "W": 2,
+        "X": 1,
+        "total": 4
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 1,
+        "W": 4,
+        "X": 1,
+        "total": 6
+      }
+    },
+    "RkPo": 5,
+    "Rk": "5",
+    "RkEq": false,
+    "RkPoTotal": 9,
+    "RkTotal": "9",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Thailand"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "HKG",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 3,
+        "X": 0,
+        "total": 3
+      },
+      "ME_SILVER": {
+        "M": 3,
+        "W": 2,
+        "X": 0,
+        "total": 5
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 2,
+        "X": 1,
+        "total": 4
+      },
+      "total": {
+        "M": 4,
+        "W": 7,
+        "X": 1,
+        "total": 12
+      }
+    },
+    "RkPo": 6,
+    "Rk": "6",
+    "RkEq": false,
+    "RkPoTotal": 5,
+    "RkTotal": "5",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Hong Kong, China"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "TJK",
+    "Count": {
+      "ME_GOLD": {
+        "M": 2,
+        "W": 0,
+        "X": 0,
+        "total": 2
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 4,
+        "W": 0,
+        "X": 0,
+        "total": 4
+      }
+    },
+    "RkPo": 7,
+    "Rk": "7",
+    "RkEq": false,
+    "RkPoTotal": 13,
+    "RkTotal": "13",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Tajikistan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "IND",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 2,
+        "W": 2,
+        "X": 0,
+        "total": 4
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      },
+      "total": {
+        "M": 3,
+        "W": 4,
+        "X": 0,
+        "total": 7
+      }
+    },
+    "RkPo": 8,
+    "Rk": "8",
+    "RkEq": false,
+    "RkPoTotal": 8,
+    "RkTotal": "8",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "India"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "UZB",
+    "Count": {
+      "ME_GOLD": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 2,
+        "W": 2,
+        "X": 0,
+        "total": 4
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 4,
+        "W": 2,
+        "X": 0,
+        "total": 6
+      }
+    },
+    "RkPo": 9,
+    "Rk": "9",
+    "RkEq": false,
+    "RkPoTotal": 10,
+    "RkTotal": "10",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Uzbekistan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "TPE",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 1,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 2,
+        "W": 1,
+        "X": 0,
+        "total": 3
+      },
+      "ME_BRONZE": {
+        "M": 3,
+        "W": 2,
+        "X": 0,
+        "total": 5
+      },
+      "total": {
+        "M": 5,
+        "W": 3,
+        "X": 1,
+        "total": 9
+      }
+    },
+    "RkPo": 10,
+    "Rk": "10",
+    "RkEq": false,
+    "RkPoTotal": 6,
+    "RkTotal": "6",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Chinese Taipei"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "IRI",
+    "Count": {
+      "ME_GOLD": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 2,
+        "X": 0,
+        "total": 3
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 3,
+        "W": 2,
+        "X": 0,
+        "total": 5
+      }
+    },
+    "RkPo": 11,
+    "Rk": "11",
+    "RkEq": true,
+    "RkPoTotal": 11,
+    "RkTotal": "11",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Islamic Republic of Iran"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "SGP",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 3,
+        "X": 0,
+        "total": 3
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 0,
+        "W": 5,
+        "X": 0,
+        "total": 5
+      }
+    },
+    "RkPo": 12,
+    "Rk": "11",
+    "RkEq": true,
+    "RkPoTotal": 12,
+    "RkTotal": "11",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Singapore"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "MAC",
+    "Count": {
+      "ME_GOLD": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 2,
+        "W": 1,
+        "X": 0,
+        "total": 3
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "total": {
+        "M": 3,
+        "W": 1,
+        "X": 0,
+        "total": 4
+      }
+    },
+    "Rk": "13",
+    "RkEq": false,
+    "RkPo": 13,
+    "RkTotal": "14",
+    "RkEqTotal": false,
+    "RkPoTotal": 14,
+    "id": null,
+    "OrgDesc": "Macao, China"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "JOR",
+    "Count": {
+      "ME_GOLD": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 2,
+        "W": 1,
+        "X": 0,
+        "total": 3
+      }
+    },
+    "RkPo": 14,
+    "Rk": "14",
+    "RkEq": true,
+    "RkPoTotal": 19,
+    "RkTotal": "19",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Jordan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "MYA",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 1,
+        "W": 2,
+        "X": 0,
+        "total": 3
+      }
+    },
+    "RkPo": 15,
+    "Rk": "14",
+    "RkEq": true,
+    "RkPoTotal": 20,
+    "RkTotal": "14",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Myanmar"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "MAS",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 2,
+        "W": 1,
+        "X": 0,
+        "total": 3
+      },
+      "total": {
+        "M": 2,
+        "W": 2,
+        "X": 0,
+        "total": 4
+      }
+    },
+    "RkPo": 16,
+    "Rk": "16",
+    "RkEq": true,
+    "RkPoTotal": 15,
+    "RkTotal": "15",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Malaysia"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "VIE",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 2,
+        "X": 1,
+        "total": 3
+      },
+      "total": {
+        "M": 0,
+        "W": 3,
+        "X": 1,
+        "total": 4
+      }
+    },
+    "RkPo": 17,
+    "Rk": "16",
+    "RkEq": true,
+    "RkPoTotal": 16,
+    "RkTotal": "16",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Vietnam"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "KUW",
+    "Count": {
+      "ME_GOLD": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 2,
+        "W": 0,
+        "X": 0,
+        "total": 2
+      },
+      "total": {
+        "M": 3,
+        "W": 0,
+        "X": 0,
+        "total": 3
+      }
+    },
+    "RkPo": 18,
+    "Rk": "18",
+    "RkEq": false,
+    "RkPoTotal": 21,
+    "RkTotal": "21",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Kuwait"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "BRN",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "total": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      }
+    },
+    "RkPo": 19,
+    "Rk": "19",
+    "RkEq": false,
+    "RkPoTotal": 24,
+    "RkTotal": "24",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Bahrain"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "INA",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 3,
+        "W": 4,
+        "X": 0,
+        "total": 7
+      },
+      "total": {
+        "M": 3,
+        "W": 5,
+        "X": 0,
+        "total": 8
+      }
+    },
+    "RkPo": 20,
+    "Rk": "20",
+    "RkEq": false,
+    "RkPoTotal": 7,
+    "RkTotal": "7",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Indonesia"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "PHI",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 2,
+        "X": 0,
+        "total": 3
+      },
+      "total": {
+        "M": 2,
+        "W": 2,
+        "X": 0,
+        "total": 4
+      }
+    },
+    "RkPo": 21,
+    "Rk": "21",
+    "RkEq": false,
+    "RkPoTotal": 17,
+    "RkTotal": "17",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Philippines"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "IRQ",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 1,
+        "total": 2
+      },
+      "total": {
+        "M": 2,
+        "W": 0,
+        "X": 1,
+        "total": 3
+      }
+    },
+    "RkPo": 22,
+    "Rk": "22",
+    "RkEq": false,
+    "RkPoTotal": 22,
+    "RkTotal": "22",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Iraq"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "LBN",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      }
+    },
+    "RkPo": 23,
+    "Rk": "23",
+    "RkEq": true,
+    "RkPoTotal": 25,
+    "RkTotal": "25",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Lebanon"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "QAT",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 2,
+        "W": 0,
+        "X": 0,
+        "total": 2
+      }
+    },
+    "RkPo": 24,
+    "Rk": "23",
+    "RkEq": true,
+    "RkPoTotal": 26,
+    "RkTotal": "23",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Qatar"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "AFG",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "total": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      }
+    },
+    "RkPo": 25,
+    "Rk": "25",
+    "RkEq": true,
+    "RkPoTotal": 29,
+    "RkTotal": "29",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Afghanistan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "SRI",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "total": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      }
+    },
+    "RkPo": 26,
+    "Rk": "25",
+    "RkEq": true,
+    "RkPoTotal": 30,
+    "RkTotal": "25",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Sri Lanka"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "TKM",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "total": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      }
+    },
+    "RkPo": 27,
+    "Rk": "25",
+    "RkEq": true,
+    "RkPoTotal": 31,
+    "RkTotal": "25",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Turkmenistan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "CAM",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 4,
+        "X": 0,
+        "total": 4
+      },
+      "total": {
+        "M": 0,
+        "W": 4,
+        "X": 0,
+        "total": 4
+      }
+    },
+    "RkPo": 28,
+    "Rk": "28",
+    "RkEq": false,
+    "RkPoTotal": 18,
+    "RkTotal": "18",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Cambodia"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "KGZ",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 3,
+        "W": 0,
+        "X": 0,
+        "total": 3
+      },
+      "total": {
+        "M": 3,
+        "W": 0,
+        "X": 0,
+        "total": 3
+      }
+    },
+    "RkPo": 29,
+    "Rk": "29",
+    "RkEq": false,
+    "RkPoTotal": 23,
+    "RkTotal": "23",
+    "RkEqTotal": false,
+    "id": null,
+    "OrgDesc": "Kyrgyzstan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "KSA",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      },
+      "total": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      }
+    },
+    "RkPo": 30,
+    "Rk": "30",
+    "RkEq": true,
+    "RkPoTotal": 27,
+    "RkTotal": "27",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Saudi Arabia"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "PAK",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      },
+      "total": {
+        "M": 1,
+        "W": 1,
+        "X": 0,
+        "total": 2
+      }
+    },
+    "RkPo": 31,
+    "Rk": "30",
+    "RkEq": true,
+    "RkPoTotal": 28,
+    "RkTotal": "30",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Pakistan"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "BRU",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 0,
+        "W": 1,
+        "X": 0,
+        "total": 1
+      }
+    },
+    "RkPo": 32,
+    "Rk": "32",
+    "RkEq": true,
+    "RkPoTotal": 32,
+    "RkTotal": "32",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Brunei Darussalam"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "MGL",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      }
+    },
+    "RkPo": 33,
+    "Rk": "32",
+    "RkEq": true,
+    "RkPoTotal": 33,
+    "RkTotal": "32",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Mongolia"
+  },
+  {
+    "Enabled": true,
+    "Championship": "AG2026",
+    "Discipline": "ALL",
+    "Org": "SYR",
+    "Count": {
+      "ME_GOLD": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_SILVER": {
+        "M": 0,
+        "W": 0,
+        "X": 0,
+        "total": 0
+      },
+      "ME_BRONZE": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      },
+      "total": {
+        "M": 1,
+        "W": 0,
+        "X": 0,
+        "total": 1
+      }
+    },
+    "RkPo": 34,
+    "Rk": "32",
+    "RkEq": true,
+    "RkPoTotal": 34,
+    "RkTotal": "32",
+    "RkEqTotal": true,
+    "id": null,
+    "OrgDesc": "Syrian Arab Republic"
+  }
+]

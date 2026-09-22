@@ -1,0 +1,506 @@
+﻿姓名,简写,代表团代码,金,银,铜,合计,项目,小项,奖牌
+KIM Youngbeom,KIM Y,KOR,1,1,2,4,SWM,Men's 50m Freestyle,ME_GOLD
+KIM Youngbeom,KIM Y,KOR,1,1,2,4,SWM,Men's 100m Freestyle,ME_SILVER
+KIM Youngbeom,KIM Y,KOR,1,1,2,4,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+KIM Youngbeom,KIM Y,KOR,1,1,2,4,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+LI Bingjie,LI B,CHN,3,0,0,3,SWM,Women's 1500m Freestyle,ME_GOLD
+LI Bingjie,LI B,CHN,3,0,0,3,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+LI Bingjie,LI B,CHN,3,0,0,3,SWM,Women's 400m Freestyle,ME_GOLD
+SHENG Lihao,SHENG L,CHN,3,0,0,3,SHO,10m Air Rifle Men Individual,ME_GOLD
+SHENG Lihao,SHENG L,CHN,3,0,0,3,SHO,10m Air Rifle Men Team,ME_GOLD
+SHENG Lihao,SHENG L,CHN,3,0,0,3,SHO,10m Air Rifle Mixed Team,ME_GOLD
+XU Jiayu,XU J,CHN,3,0,0,3,SWM,Men's 100m Backstroke,ME_GOLD
+XU Jiayu,XU J,CHN,3,0,0,3,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+XU Jiayu,XU J,CHN,3,0,0,3,SWM,Men's 50m Backstroke,ME_GOLD
+PAN Zhanle,PAN Z,CHN,3,0,0,3,SWM,Men's 100m Freestyle,ME_GOLD
+PAN Zhanle,PAN Z,CHN,3,0,0,3,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+PAN Zhanle,PAN Z,CHN,3,0,0,3,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+ZHANG Zhanshuo,ZHANG Z,CHN,3,0,0,3,SWM,Men's 1500m Freestyle,ME_GOLD
+ZHANG Zhanshuo,ZHANG Z,CHN,3,0,0,3,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+ZHANG Zhanshuo,ZHANG Z,CHN,3,0,0,3,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+HAUGHEY Siobhan,HAUGHEY S,HKG,2,1,0,3,SWM,Women's 100m Freestyle,ME_GOLD
+HAUGHEY Siobhan,HAUGHEY S,HKG,2,1,0,3,SWM,Women's 200m Freestyle,ME_GOLD
+HAUGHEY Siobhan,HAUGHEY S,HKG,2,1,0,3,SWM,Women's 4 x 100m Freestyle Relay,ME_SILVER
+YU Yiting,YU Y,CHN,1,2,0,3,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+YU Yiting,YU Y,CHN,1,2,0,3,SWM,Women's 100m Freestyle,ME_SILVER
+YU Yiting,YU Y,CHN,1,2,0,3,SWM,Women's 200m Individual Medley,ME_SILVER
+MATSUSHITA Tomoyuki,MATSUSHITA T,JPN,1,2,0,3,SWM,Men's 200m Individual Medley,ME_GOLD
+MATSUSHITA Tomoyuki,MATSUSHITA T,JPN,1,2,0,3,SWM,Men's 4 x 200m Freestyle Relay,ME_SILVER
+MATSUSHITA Tomoyuki,MATSUSHITA T,JPN,1,2,0,3,SWM,Men's 400m Individual Medley,ME_SILVER
+WANG Shun,WANG S,CHN,1,0,2,3,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+WANG Shun,WANG S,CHN,1,0,2,3,SWM,Men's 200m Individual Medley,ME_BRONZE
+WANG Shun,WANG S,CHN,1,0,2,3,SWM,Men's 400m Individual Medley,ME_BRONZE
+HWANG Sunwoo,HWANG S,KOR,0,0,3,3,SWM,Men's 100m Freestyle,ME_BRONZE
+HWANG Sunwoo,HWANG S,KOR,0,0,3,3,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+HWANG Sunwoo,HWANG S,KOR,0,0,3,3,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+WANG Zifei,WANG Z,CHN,2,0,0,2,SHO,10m Air Rifle Mixed Team,ME_GOLD
+WANG Zifei,WANG Z,CHN,2,0,0,2,SHO,10m Air Rifle Women Team,ME_GOLD
+DONG Zhihao,DONG Z,CHN,2,0,0,2,SWM,Men's 100m Breaststroke,ME_GOLD
+DONG Zhihao,DONG Z,CHN,2,0,0,2,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+YU Zidi,YU Z,CHN,2,0,0,2,SWM,Women's 200m Butterfly,ME_GOLD
+YU Zidi,YU Z,CHN,2,0,0,2,SWM,Women's 200m Individual Medley,ME_GOLD
+LIN Xinyu,LIN X,CHN,2,0,0,2,TRI,Mixed Relay,ME_GOLD
+LIN Xinyu,LIN X,CHN,2,0,0,2,TRI,Women's Individual,ME_GOLD
+WONGKHAMCHAN Suphawadi,WONGKHAMCHAN S,THA,2,0,0,2,TEQ,Mixed Doubles,ME_GOLD
+WONGKHAMCHAN Suphawadi,WONGKHAMCHAN S,THA,2,0,0,2,TEQ,Women's Doubles,ME_GOLD
+ZHANG Mingyu,ZHANG M,CHN,1,1,0,2,MPN,Women's Team,ME_GOLD
+ZHANG Mingyu,ZHANG M,CHN,1,1,0,2,MPN,Women's Individual,ME_SILVER
+LI Liuchang,LI L,CHN,1,1,0,2,MPN,Men's Individual,ME_GOLD
+LI Liuchang,LI L,CHN,1,1,0,2,MPN,Men's Team,ME_SILVER
+LI Jiaping,LI J,CHN,1,1,0,2,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+LI Jiaping,LI J,CHN,1,1,0,2,SWM,Women's 200m Freestyle,ME_SILVER
+ZHANG Xirui,ZHANG X,CHN,1,1,0,2,TRI,Mixed Relay,ME_GOLD
+ZHANG Xirui,ZHANG X,CHN,1,1,0,2,TRI,Men's Individual,ME_SILVER
+HUANG Anqi,HUANG A,CHN,1,1,0,2,TRI,Mixed Relay,ME_GOLD
+HUANG Anqi,HUANG A,CHN,1,1,0,2,TRI,Women's Individual,ME_SILVER
+HOJO Takumi,HOJO T,JPN,1,1,0,2,TRI,Men's Individual,ME_GOLD
+HOJO Takumi,HOJO T,JPN,1,1,0,2,TRI,Mixed Relay,ME_SILVER
+TEMMA Rena,TEMMA R,JPN,1,1,0,2,TST,Women's Team,ME_GOLD
+TEMMA Rena,TEMMA R,JPN,1,1,0,2,TST,Mixed Doubles,ME_SILVER
+UEMATSU Toshiki,UEMATSU T,JPN,1,1,0,2,TST,Men's Team,ME_GOLD
+UEMATSU Toshiki,UEMATSU T,JPN,1,1,0,2,TST,Mixed Doubles,ME_SILVER
+KOJIMA Yumeki,KOJIMA Y,JPN,1,1,0,2,SWM,Men's 400m Individual Medley,ME_GOLD
+KOJIMA Yumeki,KOJIMA Y,JPN,1,1,0,2,SWM,Men's 200m Individual Medley,ME_SILVER
+OHASHI Shin,OHASHI S,JPN,1,1,0,2,SWM,Men's 100m Breaststroke,ME_GOLD
+OHASHI Shin,OHASHI S,JPN,1,1,0,2,SWM,Men's 4 x 100m Medley Relay,ME_SILVER
+JUN Woongtae,JUN W,KOR,1,1,0,2,MPN,Men's Team,ME_GOLD
+JUN Woongtae,JUN W,KOR,1,1,0,2,MPN,Men's Individual,ME_SILVER
+SEONG Seungmin,SEONG S,KOR,1,1,0,2,MPN,Women's Individual,ME_GOLD
+SEONG Seungmin,SEONG S,KOR,1,1,0,2,MPN,Women's Team,ME_SILVER
+HUANG Shih-yuan,HUANG S,TPE,1,1,0,2,TST,Mixed Doubles,ME_GOLD
+HUANG Shih-yuan,HUANG S,TPE,1,1,0,2,TST,Women's Team,ME_SILVER
+YU Kai-wen,YU K,TPE,1,1,0,2,TST,Mixed Doubles,ME_GOLD
+YU Kai-wen,YU K,TPE,1,1,0,2,TST,Men's Team,ME_SILVER
+WU Xiyao,WU X,CHN,1,0,1,2,MPN,Women's Team,ME_GOLD
+WU Xiyao,WU X,CHN,1,0,1,2,MPN,Women's Individual,ME_BRONZE
+QIN Haiyang,QIN H,CHN,1,0,1,2,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+QIN Haiyang,QIN H,CHN,1,0,1,2,SWM,Men's 100m Breaststroke,ME_BRONZE
+LIU Yaxin,LIU Y,CHN,1,0,1,2,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+LIU Yaxin,LIU Y,CHN,1,0,1,2,SWM,Women's 200m Freestyle,ME_BRONZE
+CHENG Yujie,CHENG Y,CHN,1,0,1,2,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+CHENG Yujie,CHENG Y,CHN,1,0,1,2,SWM,Women's 100m Freestyle,ME_BRONZE
+TAICHI Hinata,TAICHI H,JPN,1,0,1,2,SHO,10m Air Rifle Women Individual,ME_GOLD
+TAICHI Hinata,TAICHI H,JPN,1,0,1,2,SHO,10m Air Rifle Women Team,ME_BRONZE
+MAEDA Rio,MAEDA R,JPN,1,0,1,2,TST,Women's Team,ME_GOLD
+MAEDA Rio,MAEDA R,JPN,1,0,1,2,TST,Mixed Doubles,ME_BRONZE
+MARUYAMA Kaito,MARUYAMA K,JPN,1,0,1,2,TST,Men's Team,ME_GOLD
+MARUYAMA Kaito,MARUYAMA K,JPN,1,0,1,2,TST,Mixed Doubles,ME_BRONZE
+LEE Jonghyeon,LEE J,KOR,1,0,1,2,MPN,Men's Team,ME_GOLD
+LEE Jonghyeon,LEE J,KOR,1,0,1,2,MPN,Men's Individual,ME_BRONZE
+BUI Ngoc Nhi,BUI NN,VIE,1,0,1,2,KTE,Women's Team Kata - Final,ME_GOLD
+BUI Ngoc Nhi,BUI NN,VIE,1,0,1,2,KTE,Women's Individual Kata - Final,ME_BRONZE
+DHILLON Himanshu,DHILLON H,IND,0,2,0,2,SHO,10m Air Rifle Men Individual,ME_SILVER
+DHILLON Himanshu,DHILLON H,IND,0,2,0,2,SHO,10m Air Rifle Men Team,ME_SILVER
+VALARIVAN Elavenil,VALARIVAN E,IND,0,2,0,2,SHO,10m Air Rifle Women Individual,ME_SILVER
+VALARIVAN Elavenil,VALARIVAN E,IND,0,2,0,2,SHO,10m Air Rifle Women Team,ME_SILVER
+MURASA Tatsuya,MURASA T,JPN,0,2,0,2,SWM,Men's 4 x 100m Medley Relay,ME_SILVER
+MURASA Tatsuya,MURASA T,JPN,0,2,0,2,SWM,Men's 4 x 200m Freestyle Relay,ME_SILVER
+TAKEHARA Hidekazu,TAKEHARA H,JPN,0,2,0,2,SWM,Men's 100m Backstroke,ME_SILVER
+TAKEHARA Hidekazu,TAKEHARA H,JPN,0,2,0,2,SWM,Men's 4 x 100m Medley Relay,ME_SILVER
+MATSUMOTO Katsuhiro,MATSUMOTO K,JPN,0,2,0,2,SWM,Men's 4 x 100m Medley Relay,ME_SILVER
+MATSUMOTO Katsuhiro,MATSUMOTO K,JPN,0,2,0,2,SWM,Men's 4 x 200m Freestyle Relay,ME_SILVER
+GAN Ching Hwee,GAN C,SGP,0,2,0,2,SWM,Women's 1500m Freestyle,ME_SILVER
+GAN Ching Hwee,GAN C,SGP,0,2,0,2,SWM,Women's 400m Freestyle,ME_SILVER
+PATIL Rudrankksh Balasaheb,PATIL RB,IND,0,1,1,2,SHO,10m Air Rifle Men Team,ME_SILVER
+PATIL Rudrankksh Balasaheb,PATIL RB,IND,0,1,1,2,SHO,10m Air Rifle Men Individual,ME_BRONZE
+ALELAYAWI Ali Jalil Mezher,ALELAYAWI A,IRQ,0,1,1,2,TEQ,Men's Singles,ME_SILVER
+ALELAYAWI Ali Jalil Mezher,ALELAYAWI A,IRQ,0,1,1,2,TEQ,Men's Doubles,ME_BRONZE
+HAYASHI Manami,HAYASHI M,JPN,0,1,1,2,TRI,Mixed Relay,ME_SILVER
+HAYASHI Manami,HAYASHI M,JPN,0,1,1,2,TRI,Women's Individual,ME_BRONZE
+SAKAMOTO Yuina,SAKAMOTO Y,JPN,0,1,1,2,TEQ,Mixed Doubles,ME_SILVER
+SAKAMOTO Yuina,SAKAMOTO Y,JPN,0,1,1,2,TEQ,Women's Singles,ME_BRONZE
+IMAFUKU Kazushi,IMAFUKU K,JPN,0,1,1,2,SWM,Men's 4 x 200m Freestyle Relay,ME_SILVER
+IMAFUKU Kazushi,IMAFUKU K,JPN,0,1,1,2,SWM,Men's 1500m Freestyle,ME_BRONZE
+BAN Hyojin,BAN H,KOR,0,1,1,2,SHO,10m Air Rifle Mixed Team,ME_SILVER
+BAN Hyojin,BAN H,KOR,0,1,1,2,SHO,10m Air Rifle Women Individual,ME_BRONZE
+PARK Hajun,PARK H,KOR,0,1,1,2,SHO,10m Air Rifle Mixed Team,ME_SILVER
+PARK Hajun,PARK H,KOR,0,1,1,2,SHO,10m Air Rifle Men Team,ME_BRONZE
+RADHI Abdulrahman Ahmed Radhi,RADHI A,IRQ,0,0,2,2,TEQ,Men's Doubles,ME_BRONZE
+RADHI Abdulrahman Ahmed Radhi,RADHI A,IRQ,0,0,2,2,TEQ,Mixed Doubles,ME_BRONZE
+NOBATA Misaki,NOBATA M,JPN,0,0,2,2,SHO,10m Air Rifle Mixed Team,ME_BRONZE
+NOBATA Misaki,NOBATA M,JPN,0,0,2,2,SHO,10m Air Rifle Women Team,ME_BRONZE
+KAJIMOTO Ichika,KAJIMOTO I,JPN,0,0,2,2,SWM,Women's 1500m Freestyle,ME_BRONZE
+KAJIMOTO Ichika,KAJIMOTO I,JPN,0,0,2,2,SWM,Women's 400m Freestyle,ME_BRONZE
+SHIRAI Rio,SHIRAI R,JPN,0,0,2,2,SWM,Women's 200m Backstroke,ME_BRONZE
+SHIRAI Rio,SHIRAI R,JPN,0,0,2,2,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+KIM Yeon-hwa,KIM Y,KOR,0,0,2,2,TST,Mixed Doubles,ME_BRONZE
+KIM Yeon-hwa,KIM Y,KOR,0,0,2,2,TST,Women's Team,ME_BRONZE
+PARK Jaekyu,PARK J,KOR,0,0,2,2,TST,Men's Team,ME_BRONZE
+PARK Jaekyu,PARK J,KOR,0,0,2,2,TST,Mixed Doubles,ME_BRONZE
+LEE Juho,LEE J,KOR,0,0,2,2,SWM,Men's 100m Backstroke,ME_BRONZE
+LEE Juho,LEE J,KOR,0,0,2,2,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+KIM Woomin,KIM W,KOR,0,0,2,2,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+KIM Woomin,KIM W,KOR,0,0,2,2,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+YANG Jaehoon,YANG J,KOR,0,0,2,2,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+YANG Jaehoon,YANG J,KOR,0,0,2,2,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+YOON Jihwan,YOON J,KOR,0,0,2,2,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+YOON Jihwan,YOON J,KOR,0,0,2,2,SWM,Men's 50m Backstroke,ME_BRONZE
+CHIEN Hui-hsuan,CHIEN H,TPE,0,0,2,2,KTE,Women's Individual Kata - Final,ME_BRONZE
+CHIEN Hui-hsuan,CHIEN H,TPE,0,0,2,2,KTE,Women's Team Kata - Final,ME_BRONZE
+DU Yuchen,DU Y,CHN,1,0,0,1,SHO,10m Air Rifle Women Team,ME_GOLD
+HAN Jiayu,HAN J,CHN,1,0,0,1,SHO,10m Air Rifle Women Team,ME_GOLD
+LIU Dewen,LIU D,CHN,1,0,0,1,WSU,Men's Taijiquan & Taijijian - Final,ME_GOLD
+ZHANG Yaling,ZHANG Y,CHN,1,0,0,1,WSU,Women's Nanquan & Nandao - Final,ME_GOLD
+TONG Xin,TONG X,CHN,1,0,0,1,WSU,Women's Taijiquan & Taijijian - Final,ME_GOLD
+LI Jianming,LI J,CHN,1,0,0,1,WSU,Men's Nanquan & Nangun - Final,ME_GOLD
+ZHANG Boheng,ZHANG B,CHN,1,0,0,1,GAR,Men's All-Around,ME_GOLD
+ZHANG Changhong,ZHANG C,CHN,1,0,0,1,SHO,10m Air Rifle Men Team,ME_GOLD
+MA Sihan,MA S,CHN,1,0,0,1,SHO,10m Air Rifle Men Team,ME_GOLD
+MENG Xin,MENG X,CHN,1,0,0,1,MPN,Women's Team,ME_GOLD
+CHEN Houyu,CHEN H,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+DONG Yuhan,DONG Y,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+GONG Xiangyu,GONG X,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+GUO Zhongnan,GUO Z,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+XIE Shengyu,XIE S,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+TANG Xin,TANG X,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+WANG Aoqian,WANG A,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+WANG Mengjie,WANG M,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+WU Mengjie,WU M,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+YANG Shuming,YANG S,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+ZHANG Zixuan,ZHANG Z,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+ZHUANG Yushan,ZHUANG Y,CHN,1,0,0,1,VVO,Women - Finals,ME_GOLD
+GUO Li,GUO L,CHN,1,0,0,1,CRD,Women's Road Race,ME_GOLD
+XU Fang,XU F,CHN,1,0,0,1,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+WANG Haoyu,WANG H,CHN,1,0,0,1,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+FEI Liwei,FEI L,CHN,1,0,0,1,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+WANG Xizhe,WANG X,CHN,1,0,0,1,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+XU Haibo,XU H,CHN,1,0,0,1,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+JIANG Chenglin,JIANG C,CHN,1,0,0,1,SWM,Men's 4 x 100m Medley Relay,ME_GOLD
+ZHAO Jiayue,ZHAO J,CHN,1,0,0,1,SWM,Men's 4 x 200m Freestyle Relay,ME_GOLD
+WU Qingfeng,WU Q,CHN,1,0,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+WAN Letian,WAN L,CHN,1,0,0,1,SWM,Women's 50m Backstroke,ME_GOLD
+ZHANG Yufei,ZHANG Y,CHN,1,0,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+TANG Qianting,TANG Q,CHN,1,0,0,1,SWM,Women's 50m Breaststroke,ME_GOLD
+PENG Xuwei,PENG X,CHN,1,0,0,1,SWM,Women's 200m Backstroke,ME_GOLD
+FAN Yaqi,FAN Y,CHN,1,0,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_GOLD
+GONG Li,GONG L,CHN,1,0,0,1,KTE,Women's Kumite -61kg - Final,ME_GOLD
+LI Qiaoqiao,LI Q,CHN,1,0,0,1,KTE,Women's Kumite -68kg - Final,ME_GOLD
+LI Mingxu,LI M,CHN,1,0,0,1,TRI,Mixed Relay,ME_GOLD
+SHAM Hui Yu Lydia,SHAM HYL,HKG,1,0,0,1,WSU,Women's Changquan - Final,ME_GOLD
+FULMALI Bharti Shrikrushna,FULMALI BS,IND,1,0,0,1,CKT,Women,ME_GOLD
+GHOSH Richa,GHOSH R,IND,1,0,0,1,CKT,Women,ME_GOLD
+SHARMA Deepti,SHARMA D,IND,1,0,0,1,CKT,Women,ME_GOLD
+BHULLAR Harmanpreet Kaur,BHULLAR HK,IND,1,0,0,1,CKT,Women,ME_GOLD
+YADAV Radha Omprakash,YADAV RO,IND,1,0,0,1,CKT,Women,ME_GOLD
+Renuka,Renuka,IND,1,0,0,1,CKT,Women,ME_GOLD
+RAJESH PATIL Shreyanka,RAJESH PATIL S,IND,1,0,0,1,CKT,Women,ME_GOLD
+Arundhati Reddy,Arundhati Reddy,IND,1,0,0,1,CKT,Women,ME_GOLD
+GUNALAN Kamalini,GUNALAN K,IND,1,0,0,1,CKT,Women,ME_GOLD
+Shafali,Shafali,IND,1,0,0,1,CKT,Women,ME_GOLD
+MANDHANA Smriti Shriniwas,MANDHANA SS,IND,1,0,0,1,CKT,Women,ME_GOLD
+NALLAPUREDDY Sree Charani,NALLAPUREDDY SC,IND,1,0,0,1,CKT,Women,ME_GOLD
+GAUD Kranti Devi,GAUD KD,IND,1,0,0,1,CKT,Women,ME_GOLD
+SHARMA Nandani,SHARMA N,IND,1,0,0,1,CKT,Women,ME_GOLD
+RAWAL Pratika,RAWAL P,IND,1,0,0,1,CKT,Women,ME_GOLD
+NEMATI Morteza,NEMATI M,IRI,1,0,0,1,KTE,Men's Kumite -75kg - Final,ME_GOLD
+ALJA'FARI Mohammad,ALJA'FARI M,JOR,1,0,0,1,KTE,Men's Kumite -84kg - Final,ME_GOLD
+NISHIYAMA Kakeru,NISHIYAMA K,JPN,1,0,0,1,KTE,Men's Individual Kata - Final,ME_GOLD
+ONO Maho,ONO M,JPN,1,0,0,1,KTE,Women's Individual Kata - Final,ME_GOLD
+IIMURA Kazuki,IIMURA K,JPN,1,0,0,1,FEN,Men's Foil Individual,ME_GOLD
+SUGIHARA Aiko,SUGIHARA A,JPN,1,0,0,1,GAR,Women's All-Around,ME_GOLD
+MIYAMAE Kiho,MIYAMAE K,JPN,1,0,0,1,TST,Women's Team,ME_GOLD
+NAKATANI Sakura,NAKATANI S,JPN,1,0,0,1,TST,Women's Team,ME_GOLD
+IWAKURA Ayaka,IWAKURA A,JPN,1,0,0,1,TST,Women's Team,ME_GOLD
+KUROSAKA Takuya,KUROSAKA T,JPN,1,0,0,1,TST,Men's Team,ME_GOLD
+UCHIMOTO Takafumi,UCHIMOTO T,JPN,1,0,0,1,TST,Men's Team,ME_GOLD
+HIROOKA Sora,HIROOKA S,JPN,1,0,0,1,TST,Men's Team,ME_GOLD
+LUTSENKO Alexey,LUTSENKO A,KAZ,1,0,0,1,CRD,Men's Individual Time Trial,ME_GOLD
+SULTANOVA Rinata,SULTANOVA R,KAZ,1,0,0,1,CRD,Women's Individual Time Trial,ME_GOLD
+BERULTSEVA Sofya,BERULTSEVA S,KAZ,1,0,0,1,KTE,Women's Kumite +68kg - Final,ME_GOLD
+BIGABYL Zholaman,BIGABYL Z,KAZ,1,0,0,1,KTE,Men's Kumite -55kg - Final,ME_GOLD
+BURKUTALIN Yerkingali,BURKUTALIN Y,KAZ,1,0,0,1,MMA,Men's Traditional -77kg - Final,ME_GOLD
+SHINBAYEV Kadyrbek,SHINBAYEV K,KAZ,1,0,0,1,MMA,Men's Modern -71kg - Final,ME_GOLD
+SONG Sera,SONG S,KOR,1,0,0,1,FEN,Women's Épée Individual,ME_GOLD
+LEE Hyunjung,LEE H,KOR,1,0,0,1,BKB,Men,ME_GOLD
+EDI Daniel,EDI D,KOR,1,0,0,1,BKB,Men,ME_GOLD
+LEE Junghyun,LEE J,KOR,1,0,0,1,BKB,Men,ME_GOLD
+LEE Seounghyun,LEE S,KOR,1,0,0,1,BKB,Men,ME_GOLD
+MOON Yuhyeon,MOON Y,KOR,1,0,0,1,BKB,Men,ME_GOLD
+YU Kisang,YU K,KOR,1,0,0,1,BKB,Men,ME_GOLD
+YEO Jun Seok,YEO J,KOR,1,0,0,1,BKB,Men,ME_GOLD
+BYEON Junhyeong,BYEON J,KOR,1,0,0,1,BKB,Men,ME_GOLD
+LEE Woosuk,LEE W,KOR,1,0,0,1,BKB,Men,ME_GOLD
+MOON Jeonghyeon,MOON J,KOR,1,0,0,1,BKB,Men,ME_GOLD
+JANG Jaeseok,JANG J,KOR,1,0,0,1,BKB,Men,ME_GOLD
+CHOI Junyong,CHOI J,KOR,1,0,0,1,BKB,Men,ME_GOLD
+LEE Junsuk,LEE J,KOR,1,0,0,1,TEQ,Men's Singles,ME_GOLD
+SEO Changwan,SEO C,KOR,1,0,0,1,MPN,Men's Team,ME_GOLD
+SHAABAN Abdullah,SHAABAN A,KUW,1,0,0,1,KTE,Men's Kumite -60kg - Final,ME_GOLD
+KUONG Chi Hin,KUONG CH,MAC,1,0,0,1,WSU,Men's Changquan - Final,ME_GOLD
+ROBERT Adeola Fay,ROBERT AF,MAS,1,0,0,1,KTE,Women's Kumite -55kg - Final,ME_GOLD
+KHIN HNIN Wai,KHIN HNIN W,MYA,1,0,0,1,TEQ,Women's Singles,ME_GOLD
+TEO Hui Hoon,TEO HH,SGP,1,0,0,1,MMA,Women's Traditional -60kg - Final,ME_GOLD
+PHATTARABOONSORN Kanjutha,PHATTARABOONSORN K,THA,1,0,0,1,MMA,Women's Modern -54kg - Final,ME_GOLD
+THAOSIRI Sorrasak,THAOSIRI S,THA,1,0,0,1,TEQ,Men's Doubles,ME_GOLD
+CHANLIANG Jirati,CHANLIANG J,THA,1,0,0,1,TEQ,Men's Doubles,ME_GOLD
+DEJAROEN Phakpong,DEJAROEN P,THA,1,0,0,1,TEQ,Mixed Doubles,ME_GOLD
+KUNTATONG Jutatip,KUNTATONG J,THA,1,0,0,1,TEQ,Women's Doubles,ME_GOLD
+UMAROV Mirzobek,UMAROV M,TJK,1,0,0,1,MMA,Men's Modern -60kg - Final,ME_GOLD
+RAJABOV Otabek,RAJABOV O,TJK,1,0,0,1,MMA,Men's Traditional -65kg - Final,ME_GOLD
+RASHIDOV Abdul Vakhkhob,RASHIDOV AV,UZB,1,0,0,1,KTE,Men's Kumite -67kg - Final,ME_GOLD
+NGUYEN Ngoc Tram,NGUYEN NT,VIE,1,0,0,1,KTE,Women's Team Kata - Final,ME_GOLD
+HOANG Thi Thu Uyen,HOANG TTU,VIE,1,0,0,1,KTE,Women's Team Kata - Final,ME_GOLD
+HASHIMI Fariba,HASHIMI F,AFG,0,1,0,1,CRD,Women's Road Race,ME_SILVER
+NABIEV Mukhammad,NABIEV M,BRN,0,1,0,1,MMA,Men's Traditional -77kg - Final,ME_SILVER
+POGOSIAN Diana,POGOSIAN D,BRN,0,1,0,1,MMA,Women's Modern -54kg - Final,ME_SILVER
+KE Qinqin,KE Q,CHN,0,1,0,1,GAR,Women's All-Around,ME_SILVER
+LUO Shuai,LUO S,CHN,0,1,0,1,MPN,Men's Team,ME_SILVER
+MA Yuang,MA Y,CHN,0,1,0,1,MPN,Men's Team,ME_SILVER
+ZHANG Hao,ZHANG H,CHN,0,1,0,1,CRD,Women's Individual Time Trial,ME_SILVER
+WANG Zicheng,WANG Z,CHN,0,1,0,1,SWM,Men's 50m Backstroke,ME_SILVER
+WANG Xueer,WANG X,CHN,0,1,0,1,SWM,Women's 50m Backstroke,ME_SILVER
+CHANG Mohan,CHANG M,CHN,0,1,0,1,SWM,Women's 200m Butterfly,ME_SILVER
+SUN Mingxia,SUN M,CHN,0,1,0,1,SWM,Women's 200m Backstroke,ME_SILVER
+HO Ian Yentou,HO I,HKG,0,1,0,1,SWM,Men's 50m Freestyle,ME_SILVER
+KAN Cheuk Tung Natalie,KAN C,HKG,0,1,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_SILVER
+LI Sum Yiu,LI S,HKG,0,1,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_SILVER
+MA Gilaine,MA G,HKG,0,1,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_SILVER
+WANG Xintong,WANG X,HKG,0,1,0,1,SWM,Women's 4 x 100m Freestyle Relay,ME_SILVER
+CHOI Chun Yin Ryan,CHOI CYR,HKG,0,1,0,1,FEN,Men's Foil Individual,ME_SILVER
+LAU Chi Lung,LAU CL,HKG,0,1,0,1,WSU,Men's Nanquan & Nangun - Final,ME_SILVER
+LAU Mo Sheung Grace,LAU MSG,HKG,0,1,0,1,KTE,Women's Individual Kata - Final,ME_SILVER
+SUMAYA,SUMAYA,INA,0,1,0,1,TEQ,Women's Singles,ME_SILVER
+MASKAR Sonam Uttam,MASKAR SU,IND,0,1,0,1,SHO,10m Air Rifle Women Team,ME_SILVER
+MANE Parth Rakesh,MANE PR,IND,0,1,0,1,SHO,10m Air Rifle Men Team,ME_SILVER
+KOCHALUMKAL VINOD Vidarsa,KOCHALUMKAL VINOD V,IND,0,1,0,1,SHO,10m Air Rifle Women Team,ME_SILVER
+ASIABARI Ali Asghar,ASIABARI AA,IRI,0,1,0,1,KTE,Men's Kumite -84kg - Final,ME_SILVER
+SAEIDABADI Fatemehzahra,SAEIDABADI F,IRI,0,1,0,1,KTE,Women's Kumite -55kg - Final,ME_SILVER
+SADEGHI DASTAK Fatemeh,SADEGHI DASTAK F,IRI,0,1,0,1,KTE,Women's Team Kata - Final,ME_SILVER
+HOSSEINI Zeynabalsadat,HOSSEINI Z,IRI,0,1,0,1,KTE,Women's Team Kata - Final,ME_SILVER
+AMINI SOUMEH KABODIN Sepideh,AMINI SOUMEH KABODIN S,IRI,0,1,0,1,KTE,Women's Team Kata - Final,ME_SILVER
+ALDROUS Joud,ALDROUS J,JOR,0,1,0,1,KTE,Women's Kumite -68kg - Final,ME_SILVER
+KITAMADO Ayane,KITAMADO A,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+HIROTA Ai,HIROTA A,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+SHIGIHARA Hinata,SHIGIHARA H,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+YAMAGUCHI Maki,YAMAGUCHI M,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+NISHIZAKI Mana,NISHIZAKI M,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+AKIMOTO Miku,AKIMOTO M,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+WADA Yukiko,WADA Y,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+SEKI Nanami,SEKI N,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+SHIODE Hitomi,SHIODE H,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+SATO Yoshino,SATO Y,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+YAMADA Nichika,YAMADA N,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+HIRAIZUMI Mako,HIRAIZUMI M,JPN,0,1,0,1,TRI,Mixed Relay,ME_SILVER
+JOZUKA Kazushi,JOZUKA K,JPN,0,1,0,1,TRI,Mixed Relay,ME_SILVER
+SAITO Shiho,SAITO S,JPN,0,1,0,1,WSU,Women's Taijiquan & Taijijian - Final,ME_SILVER
+WASE Akinori,WASE A,JPN,0,1,0,1,TEQ,Mixed Doubles,ME_SILVER
+KOZAKI Yugo,KOZAKI Y,JPN,0,1,0,1,KTE,Men's Kumite -67kg - Final,ME_SILVER
+IMAMURA Shunsuke,IMAMURA S,JPN,0,1,0,1,CRD,Men's Individual Time Trial,ME_SILVER
+OKA Shinnosuke,OKA S,JPN,0,1,0,1,GAR,Men's All-Around,ME_SILVER
+KURODA Kazusa,KURODA K,JPN,0,1,0,1,SWM,Men's 4 x 200m Freestyle Relay,ME_SILVER
+MITSUNAGA Shoon,MITSUNAGA S,JPN,0,1,0,1,SWM,Men's 4 x 100m Medley Relay,ME_SILVER
+MATSUMOTO Shuya,MATSUMOTO S,JPN,0,1,0,1,SWM,Men's 4 x 100m Medley Relay,ME_SILVER
+TABUCHI Kaito,TABUCHI K,JPN,0,1,0,1,SWM,Men's 1500m Freestyle,ME_SILVER
+SUZUKI Satomi,SUZUKI S,JPN,0,1,0,1,SWM,Women's 50m Breaststroke,ME_SILVER
+YANAGIMOTO Konosuke,YANAGIMOTO K,JPN,0,1,0,1,SWM,Men's 4 x 200m Freestyle Relay,ME_SILVER
+INOUE Miina,INOUE M,JPN,0,1,0,1,VVO,Women - Finals,ME_SILVER
+TSUYA Kazuma,TSUYA K,JPN,0,1,0,1,BKB,Men,ME_SILVER
+KANO Toyoshige,KANO T,JPN,0,1,0,1,BKB,Men,ME_SILVER
+KIRK Alex,KIRK A,JPN,0,1,0,1,BKB,Men,ME_SILVER
+KAWASHIMA Yuto,KAWASHIMA Y,JPN,0,1,0,1,BKB,Men,ME_SILVER
+YAMAZAKI Ibu,YAMAZAKI I,JPN,0,1,0,1,BKB,Men,ME_SILVER
+HARPER JR John,HARPER JR J,JPN,0,1,0,1,BKB,Men,ME_SILVER
+YAMAUCHI Jaheru,YAMAUCHI J,JPN,0,1,0,1,BKB,Men,ME_SILVER
+KUROKAWA Kotetsu,KUROKAWA K,JPN,0,1,0,1,BKB,Men,ME_SILVER
+TAKASHIMA Shinji,TAKASHIMA S,JPN,0,1,0,1,BKB,Men,ME_SILVER
+KANECHIKA Ren,KANECHIKA R,JPN,0,1,0,1,BKB,Men,ME_SILVER
+OGAWA Atsuya,OGAWA A,JPN,0,1,0,1,BKB,Men,ME_SILVER
+SCHAFER Avi,SCHAFER A,JPN,0,1,0,1,BKB,Men,ME_SILVER
+KANAY Assel,KANAY A,KAZ,0,1,0,1,KTE,Women's Kumite -61kg - Final,ME_SILVER
+KIM Unju,KIM U,KOR,0,1,0,1,MPN,Women's Team,ME_SILVER
+SHIN Sumin,SHIN S,KOR,0,1,0,1,MPN,Women's Team,ME_SILVER
+ARABI Ahmad Kassem,ARABI A,LBN,0,1,0,1,TEQ,Men's Doubles,ME_SILVER
+HAFEZ Mohamad,HAFEZ M,LBN,0,1,0,1,TEQ,Men's Doubles,ME_SILVER
+FONG Man Hou,FONG MH,MAC,0,1,0,1,KTE,Men's Individual Kata - Final,ME_SILVER
+SOU Cho Man,SOU CM,MAC,0,1,0,1,WSU,Women's Changquan - Final,ME_SILVER
+SONG Chi Kuan,SONG CK,MAC,0,1,0,1,WSU,Men's Changquan - Final,ME_SILVER
+PHYU PHYU Than,PHYU PHYU T,MYA,0,1,0,1,TEQ,Women's Doubles,ME_SILVER
+HSU MON Aung,HSU MON A,MYA,0,1,0,1,TEQ,Women's Doubles,ME_SILVER
+SACLAG Jean Claude,SACLAG JC,PHI,0,1,0,1,MMA,Men's Traditional -65kg - Final,ME_SILVER
+ABDELHAMID Abdelrahman,ABDELHAMID A,QAT,0,1,0,1,KTE,Men's Kumite -60kg - Final,ME_SILVER
+KIRIA Tikanah Abdul Rahman,KIRIA TAR,SGP,0,1,0,1,FEN,Women's Épée Individual,ME_SILVER
+ATHAPATHTHU MUDIYANSELAGE CJK,ATHAPATHTHU M. CJK,SRI,0,1,0,1,CKT,Women,ME_SILVER
+GAMAACHCHI WITHANAGE HMP,GAMAACHCHI W. HMP,SRI,0,1,0,1,CKT,Women,ME_SILVER
+EDIRIMUNI Sanjana Kavindi De Silva,EDIRIMUNI SKDS,SRI,0,1,0,1,CKT,Women,ME_SILVER
+WITHARANA Imesha Dulani,WITHARANA ID,SRI,0,1,0,1,CKT,Women,ME_SILVER
+KARUNARATNE Hansima,KARUNARATNE H,SRI,0,1,0,1,CKT,Women,ME_SILVER
+SERAM SENEVIRATHNE EDIRIS KN,SERAM S. EDIRIS KN,SRI,0,1,0,1,CKT,Women,ME_SILVER
+DISSANAYAKA SAMARAWICKRAM HM,DISSANAYAKA S. HM,SRI,0,1,0,1,CKT,Women,ME_SILVER
+SANJEEWANI Anushka,SANJEEWANI A,SRI,0,1,0,1,CKT,Women,ME_SILVER
+WALIKONTHAGEI Kaveesha Dilhari,WALIKONTHAGEI KD,SRI,0,1,0,1,CKT,Women,ME_SILVER
+HEWA LANKA GEEGANAGE RS,HEWA LANKA G. RS,SRI,0,1,0,1,CKT,Women,ME_SILVER
+DASANAYAKA Sugandika Manel Kumari,DASANAYAKA SMK,SRI,0,1,0,1,CKT,Women,ME_SILVER
+MEEPAGE Nimasha Madushani,MEEPAGE NM,SRI,0,1,0,1,CKT,Women,ME_SILVER
+HEWA MUNASINHAGE CPM,HEWA M. CPM,SRI,0,1,0,1,CKT,Women,ME_SILVER
+HIKKADUWA GAMAGE Kawya Kavindi,HIKKADUWA G. KK,SRI,0,1,0,1,CKT,Women,ME_SILVER
+THATUWEL ARAWE GEDARA MAB,THATUWEL A. G. MAB,SRI,0,1,0,1,CKT,Women,ME_SILVER
+BUTSUWAN Maneevan,BUTSUWAN M,THA,0,1,0,1,KTE,Women's Kumite +68kg - Final,ME_SILVER
+KHURSHEDZODA Behruz,KHURSHEDZODA B,TJK,0,1,0,1,MMA,Men's Modern -71kg - Final,ME_SILVER
+NAZMYRADOV Davut,NAZMYRADOV D,TKM,0,1,0,1,KTE,Men's Kumite -75kg - Final,ME_SILVER
+CHEN Yu-hsun,CHEN Y,TPE,0,1,0,1,TST,Men's Team,ME_SILVER
+HSU Chiao-ying,HSU C,TPE,0,1,0,1,TST,Women's Team,ME_SILVER
+CHANG Yu-sung,CHANG Y,TPE,0,1,0,1,TST,Men's Team,ME_SILVER
+SUN Chia-hung,SUN C,TPE,0,1,0,1,WSU,Men's Taijiquan & Taijijian - Final,ME_SILVER
+LIN Wei-chieh,LIN W,TPE,0,1,0,1,TST,Men's Team,ME_SILVER
+CHEN Po-yi,CHEN P,TPE,0,1,0,1,TST,Men's Team,ME_SILVER
+ZHOU Yan-zhen,ZHOU Y,TPE,0,1,0,1,TST,Women's Team,ME_SILVER
+CHIANG Min-yu,CHIANG M,TPE,0,1,0,1,TST,Women's Team,ME_SILVER
+LO Shu-ting,LO S,TPE,0,1,0,1,TST,Women's Team,ME_SILVER
+LATISHEVA Darya,LATISHEVA D,UZB,0,1,0,1,WSU,Women's Nanquan & Nandao - Final,ME_SILVER
+KHALIMOV Khumoyunmirzo,KHALIMOV K,UZB,0,1,0,1,KTE,Men's Kumite -55kg - Final,ME_SILVER
+KHIOLA SOBIROVA,KHIOLA SOBIROVA,UZB,0,1,0,1,MMA,Women's Traditional -60kg - Final,ME_SILVER
+ATAMURATOV Firdavs,ATAMURATOV F,UZB,0,1,0,1,MMA,Men's Modern -60kg - Final,ME_SILVER
+LACHKAR Basma,LACHKAR B,BRU,0,0,1,1,WSU,Women's Taijiquan & Taijijian - Final,ME_BRONZE
+VANN Chakriya,VANN C,CAM,0,0,1,1,KTE,Women's Kumite -61kg - Final,ME_BRONZE
+YORN Sophornraksmey,YORN S,CAM,0,0,1,1,TEQ,Women's Doubles,ME_BRONZE
+MEY Sreymeas,MEY S,CAM,0,0,1,1,TEQ,Women's Doubles,ME_BRONZE
+DY Koemyean,DY K,CAM,0,0,1,1,TEQ,Women's Singles,ME_BRONZE
+CHENG Dalin,CHENG D,CAM,0,0,1,1,MMA,Women's Traditional -60kg - Final,ME_BRONZE
+YANG Jingwen,YANG J,CHN,0,0,1,1,FEN,Women's Épée Individual,ME_BRONZE
+YANG Chang,YANG C,CHN,0,0,1,1,SWM,Women's 50m Breaststroke,ME_BRONZE
+COGGINS Oscar Louis,COGGINS OL,HKG,0,0,1,1,TRI,Mixed Relay,ME_BRONZE
+ELG Robin Bent Edvin Thomas,ELG RBET,HKG,0,0,1,1,TRI,Mixed Relay,ME_BRONZE
+BROWN Bailee Briana,BROWN BB,HKG,0,0,1,1,TRI,Mixed Relay,ME_BRONZE
+WRIGHT Cade Cameron,WRIGHT CC,HKG,0,0,1,1,TRI,Mixed Relay,ME_BRONZE
+LEUNG Wing Yee,LEUNG WY,HKG,0,0,1,1,CRD,Women's Road Race,ME_BRONZE
+HUNG Ho Wai Howard,HUNG HWH,HKG,0,0,1,1,KTE,Men's Individual Kata - Final,ME_BRONZE
+WONG Cheuk Lee,WONG CL,HKG,0,0,1,1,KTE,Women's Kumite -68kg - Final,ME_BRONZE
+HUTAURUK Tio,HUTAURUK T,INA,0,0,1,1,TST,Men's Team,ME_BRONZE
+PUTRA Yoga Ardika,PUTRA Y,INA,0,0,1,1,TEQ,Men's Singles,ME_BRONZE
+PRADEWA Bagus,PRADEWA B,INA,0,0,1,1,TST,Men's Team,ME_BRONZE
+HOTMAULI Vallensia Fahira,HOTMAULI VF,INA,0,0,1,1,MMA,Women's Modern -54kg - Final,ME_BRONZE
+SANISTYARANI Cok Istri Agung,SANISTYARANI CIA,INA,0,0,1,1,KTE,Women's Kumite -55kg - Final,ME_BRONZE
+SANGER Fernando,SANGER F,INA,0,0,1,1,TST,Men's Team,ME_BRONZE
+FALEVI Muhammad,FALEVI M,INA,0,0,1,1,TST,Men's Team,ME_BRONZE
+LALUYAN Rizky,LALUYAN R,INA,0,0,1,1,TST,Men's Team,ME_BRONZE
+WIDODO Eugenia Diva,WIDODO ED,INA,0,0,1,1,WSU,Women's Changquan - Final,ME_BRONZE
+SIREGAR Seraf Naro,SIREGAR SN,INA,0,0,1,1,WSU,Men's Changquan - Final,ME_BRONZE
+LUBIS Leica Al Humaira,LUBIS LAH,INA,0,0,1,1,KTE,Women's Kumite +68kg - Final,ME_BRONZE
+TARIYAL Suchika,TARIYAL S,IND,0,0,1,1,MMA,Women's Traditional -60kg - Final,ME_BRONZE
+GIRGOORIAN Piter,GIRGOORIAN P,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+REZAEIFAR Navid,REZAEIFAR N,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+JAMSHIDIJAFARABADI Mohammad,JAMSHIDIJAFARABADI M,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+KAZEMI Arsalan,KAZEMI A,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+ZANGANEH Arman,ZANGANEH A,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+JAFARI Mahdi,JAFARI M,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+HEYDARI Mohammad,HEYDARI M,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+MONJI Salar,MONJI S,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+AGHAJANPOUR Matin,AGHAJANPOUR M,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+SHEIKHI Mobin,SHEIKHI M,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+SHARIFI Alireza,SHARIFI A,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+ALIAKBARINAMGHI Khashayar,ALIAKBARINAMGHI K,IRI,0,0,1,1,BKB,Men,ME_BRONZE
+ABED Samah Shakir Abed,ABED S,IRQ,0,0,1,1,TEQ,Mixed Doubles,ME_BRONZE
+ALMASATFA Abdel Rahman,ALMASATFA AR,JOR,0,0,1,1,KTE,Men's Kumite -67kg - Final,ME_BRONZE
+HANAKAWA Naoki,HANAKAWA N,JPN,0,0,1,1,SHO,10m Air Rifle Mixed Team,ME_BRONZE
+HIRATA Shiori,HIRATA S,JPN,0,0,1,1,SHO,10m Air Rifle Women Team,ME_BRONZE
+MURAYAMA Daisuke,MURAYAMA D,JPN,0,0,1,1,MMA,Men's Traditional -65kg - Final,ME_BRONZE
+SHIMADA Sarara,SHIMADA S,JPN,0,0,1,1,KTE,Women's Kumite -61kg - Final,ME_BRONZE
+TERAYAMA Tamaki,TERAYAMA T,JPN,0,0,1,1,FEN,Women's Épée Individual,ME_BRONZE
+MATSUYAMA Kyosuke,MATSUYAMA K,JPN,0,0,1,1,FEN,Men's Foil Individual,ME_BRONZE
+HASHIMOTO Daiki,HASHIMOTO D,JPN,0,0,1,1,GAR,Men's All-Around,ME_BRONZE
+NISHIYAMA Misa,NISHIYAMA M,JPN,0,0,1,1,GAR,Women's All-Around,ME_BRONZE
+YANO Yuho,YANO Y,JPN,0,0,1,1,MPN,Women's Team,ME_BRONZE
+SAITO Ayumu,SAITO A,JPN,0,0,1,1,MPN,Women's Team,ME_BRONZE
+UCHIDA Misaki,UCHIDA M,JPN,0,0,1,1,MPN,Women's Team,ME_BRONZE
+FUKUOKA Yui,FUKUOKA Y,JPN,0,0,1,1,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+SUZUKI Rio,SUZUKI R,JPN,0,0,1,1,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+MIZOGUCHI Ayu,MIZOGUCHI A,JPN,0,0,1,1,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+OKUZONO Misa,OKUZONO M,JPN,0,0,1,1,SWM,Women's 200m Butterfly,ME_BRONZE
+MATSUMOTO Shiho,MATSUMOTO S,JPN,0,0,1,1,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+NARITA Mio,NARITA M,JPN,0,0,1,1,SWM,Women's 200m Individual Medley,ME_BRONZE
+IKEMOTO Nagisa,IKEMOTO N,JPN,0,0,1,1,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+NAMBA Miyu,NAMBA M,JPN,0,0,1,1,SWM,Women's 4 x 100m Freestyle Relay,ME_BRONZE
+ABDRAIMOV Temirlan,ABDRAIMOV T,KAZ,0,0,1,1,MPN,Men's Team,ME_BRONZE
+CHUVASHOV Lev,CHUVASHOV L,KAZ,0,0,1,1,MPN,Men's Team,ME_BRONZE
+AZHIKANOV Nurkanat,AZHIKANOV N,KAZ,0,0,1,1,KTE,Men's Kumite -75kg - Final,ME_BRONZE
+SAMASHEVA Bella,SAMASHEVA B,KAZ,0,0,1,1,KTE,Women's Kumite -55kg - Final,ME_BRONZE
+ZHANABAY Arlan,ZHANABAY A,KAZ,0,0,1,1,TRI,Men's Individual,ME_BRONZE
+VARYOKHIN Tikhon,VARYOKHIN T,KAZ,0,0,1,1,MPN,Men's Team,ME_BRONZE
+ADILOV Sanzhar,ADILOV S,KAZ,0,0,1,1,MMA,Men's Traditional -65kg - Final,ME_BRONZE
+KANYBEK UULU Dastan,KANYBEK UULU D,KGZ,0,0,1,1,MMA,Men's Modern -60kg - Final,ME_BRONZE
+ZHANYBEK UULU Syimyk,ZHANYBEK UULU S,KGZ,0,0,1,1,MMA,Men's Traditional -77kg - Final,ME_BRONZE
+DUISHEEV Yryskeldi,DUISHEEV Y,KGZ,0,0,1,1,MMA,Men's Modern -71kg - Final,ME_BRONZE
+SHIN Jieun,SHIN J,KOR,0,0,1,1,CRD,Women's Individual Time Trial,ME_BRONZE
+LEE Bomi,LEE B,KOR,0,0,1,1,MMA,Women's Modern -54kg - Final,ME_BRONZE
+YOUN Jeonghyun,YOUN J,KOR,0,0,1,1,FEN,Men's Foil Individual,ME_BRONZE
+AN Hyeon-gi,AN H,KOR,0,0,1,1,WSU,Men's Taijiquan & Taijijian - Final,ME_BRONZE
+SHIN Minki,SHIN M,KOR,0,0,1,1,SHO,10m Air Rifle Men Team,ME_BRONZE
+GWON Hyeopjun,GWON H,KOR,0,0,1,1,SHO,10m Air Rifle Men Team,ME_BRONZE
+EOM Yejin,EOM Y,KOR,0,0,1,1,TST,Women's Team,ME_BRONZE
+KIM Hansul,KIM H,KOR,0,0,1,1,TST,Women's Team,ME_BRONZE
+KIM Jinwoong,KIM J,KOR,0,0,1,1,TST,Men's Team,ME_BRONZE
+LEE Hyungwon,LEE H,KOR,0,0,1,1,TST,Men's Team,ME_BRONZE
+KIM Hyunsoo,KIM H,KOR,0,0,1,1,TST,Men's Team,ME_BRONZE
+LEE Haneul,LEE H,KOR,0,0,1,1,TST,Men's Team,ME_BRONZE
+HWANG Jeongmi,HWANG J,KOR,0,0,1,1,TST,Women's Team,ME_BRONZE
+LEE Sujin,LEE S,KOR,0,0,1,1,TST,Women's Team,ME_BRONZE
+KIM Junwoo,KIM J,KOR,0,0,1,1,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+KIM Minseop,KIM M,KOR,0,0,1,1,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+LEE Hojoon,LEE H,KOR,0,0,1,1,SWM,Men's 4 x 200m Freestyle Relay,ME_BRONZE
+JI Yuchan,JI Y,KOR,0,0,1,1,SWM,Men's 50m Freestyle,ME_BRONZE
+CHO Sung Jae,CHO S,KOR,0,0,1,1,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+KIM Seungwon,KIM S,KOR,0,0,1,1,SWM,Women's 50m Backstroke,ME_BRONZE
+CHOI Dongyeol,CHOI D,KOR,0,0,1,1,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+KIM Jihun,KIM J,KOR,0,0,1,1,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+HWANG Sunwoo,HWANG S,KOR,0,0,1,1,SWM,Men's 4 x 100m Medley Relay,ME_BRONZE
+MOSTAFA Dina Ahmed S,MOSTAFA DAS,KSA,0,0,1,1,KTE,Women's Kumite +68kg - Final,ME_BRONZE
+ALBASHER Saud Abdulaziz B,ALBASHER SAB,KSA,0,0,1,1,KTE,Men's Kumite -60kg - Final,ME_BRONZE
+ALMOSAWI Sayed Mohammed,ALMOSAWI SM,KUW,0,0,1,1,KTE,Men's Individual Kata - Final,ME_BRONZE
+AHMAD Basel,AHMAD B,KUW,0,0,1,1,TEQ,Men's Doubles,ME_BRONZE
+ALQATTAN Abdulwahab,ALQATTAN A,KUW,0,0,1,1,TEQ,Men's Doubles,ME_BRONZE
+DANDAL Kamar,DANDAL K,LBN,0,0,1,1,TEQ,Women's Doubles,ME_BRONZE
+CHEDID Maria,CHEDID M,LBN,0,0,1,1,TEQ,Women's Doubles,ME_BRONZE
+TAN Cheong Min,TAN CM,MAS,0,0,1,1,WSU,Women's Nanquan & Nandao - Final,ME_BRONZE
+HARI SANKAR Sureeya Sankar,HARI SANKAR SS,MAS,0,0,1,1,KTE,Men's Kumite -60kg - Final,ME_BRONZE
+KALIANA SUNDRAM Thevendran,KALIANA SUNDRAM T,MAS,0,0,1,1,KTE,Men's Kumite -55kg - Final,ME_BRONZE
+SAINBAYAR Jambaljamts,SAINBAYAR J,MGL,0,0,1,1,CRD,Men's Individual Time Trial,ME_BRONZE
+SAW Friday,SAW F,MYA,0,0,1,1,TEQ,Men's Singles,ME_BRONZE
+NASEER Eman,NASEER E,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+HANI Umme,HANI U,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+RIAZ Aliya,RIAZ A,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+FEROZA Gull,FEROZA G,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+BILAL Humna,BILAL H,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+SUNDHU Nashra,SUNDHU N,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+KHAN Asim,KHAN A,PAK,0,0,1,1,MMA,Men's Modern -60kg - Final,ME_BRONZE
+FATIMA Eyman,FATIMA E,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+KHAN Fatima Sana,KHAN FS,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+JABEEN Saira,JABEEN S,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+RUBAB Tasmia,RUBAB T,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+HASSAN Tuba,HASSAN T,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+ZAFAR Ayesha,ZAFAR A,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+RIASAT Momina,RIASAT M,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+ZULFIQAR Shawaal,ZULFIQAR S,PAK,0,0,1,1,CKT,Women,ME_BRONZE
+ARROGANTE Ysabielle,ARROGANTE Y,PHI,0,0,1,1,KTE,Women's Team Kata - Final,ME_BRONZE
+TORRES Rebecca Cyril,TORRES RC,PHI,0,0,1,1,KTE,Women's Team Kata - Final,ME_BRONZE
+PAAS Hilary,PAAS H,PHI,0,0,1,1,TST,Women's Team,ME_BRONZE
+ALVAREZ Carlos,ALVAREZ C,PHI,0,0,1,1,MMA,Men's Traditional -77kg - Final,ME_BRONZE
+VEGUILLAS Samantha Emmanuelle,VEGUILLAS SE,PHI,0,0,1,1,KTE,Women's Team Kata - Final,ME_BRONZE
+CATINDIG Princess,CATINDIG P,PHI,0,0,1,1,TST,Women's Team,ME_BRONZE
+MANALAC Noelle,MANALAC N,PHI,0,0,1,1,TST,Women's Team,ME_BRONZE
+SANOSA Christy,SANOSA C,PHI,0,0,1,1,TST,Women's Team,ME_BRONZE
+SALAZAR Shyryn,SALAZAR S,PHI,0,0,1,1,TST,Women's Team,ME_BRONZE
+BABIKR Abdulla,BABIKR A,QAT,0,0,1,1,KTE,Men's Kumite -84kg - Final,ME_BRONZE
+LAW Zeanne Zhi Ning,LAW ZZN,SGP,0,0,1,1,WSU,Women's Taijiquan & Taijijian - Final,ME_BRONZE
+BANI ALMARJEH Fawaz,BANI ALMARJEH F,SYR,0,0,1,1,KTE,Men's Kumite -75kg - Final,ME_BRONZE
+KAMULTHALA Kaewkalaya,KAMULTHALA K,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+KONGYOT Ajcharaporn,KONGYOT A,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+MOKSRI Chatchu-on,MOKSRI C,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+KHAMWONG Kalyarat,KHAMWONG K,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+GUEDPARD Pornpun,GUEDPARD P,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+JANTHAWISUT Sasipapron,JANTHAWISUT S,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+KUNMUEANG Kanyarat,KUNMUEANG K,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+JAISAEN Natthanicha,JAISAEN N,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+KOKRAM Pimpichaya,KOKRAM P,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+PANNOY Piyanut,PANNOY P,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+NUEKJANG Thatdao,NUEKJANG T,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+SEETALOED Warisara,SEETALOED W,THA,0,0,1,1,VVO,Women - Finals,ME_BRONZE
+MUMINOV Makhsatullo,MUMINOV M,TJK,0,0,1,1,KTE,Men's Kumite -55kg - Final,ME_BRONZE
+TIEN Hsin-erh,TIEN H,TPE,0,0,1,1,KTE,Women's Team Kata - Final,ME_BRONZE
+CHUNG Meng-yu,CHUNG M,TPE,0,0,1,1,KTE,Men's Kumite -84kg - Final,ME_BRONZE
+LIU Chang-min,LIU C,TPE,0,0,1,1,WSU,Men's Nanquan & Nangun - Final,ME_BRONZE
+HUNG Chih-hsuan,HUNG C,TPE,0,0,1,1,KTE,Women's Team Kata - Final,ME_BRONZE
+SHIH Cheng-chung,SHIH C,TPE,0,0,1,1,KTE,Men's Kumite -67kg - Final,ME_BRONZE
+SHAVKATOV Nodirbek,SHAVKATOV N,UZB,0,0,1,1,MMA,Men's Modern -71kg - Final,ME_BRONZE
+NGUYEN Thi Dieu Ly,NGUYEN TDL,VIE,0,0,1,1,KTE,Women's Kumite -68kg - Final,ME_BRONZE
+NGUYEN Hoang Minh Tan,NGUYEN H,VIE,0,0,1,1,TEQ,Mixed Doubles,ME_BRONZE
+TRINH Gia Nghi,TRINH G,VIE,0,0,1,1,TEQ,Mixed Doubles,ME_BRONZE

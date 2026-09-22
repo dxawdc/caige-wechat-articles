@@ -1,0 +1,178 @@
+{
+  "清理文件数": 3,
+  "选手总数": 12781,
+  "性别分布": {
+    "W": 5265,
+    "M": 7046,
+    "X": 323,
+    "O": 147
+  },
+  "选手最多的10个代表团": [
+    [
+      "Japan",
+      1082
+    ],
+    [
+      "China",
+      939
+    ],
+    [
+      "Korea",
+      927
+    ],
+    [
+      "Thailand",
+      804
+    ],
+    [
+      "Hong Kong, China",
+      682
+    ],
+    [
+      "Kazakhstan",
+      670
+    ],
+    [
+      "India",
+      588
+    ],
+    [
+      "Chinese Taipei",
+      564
+    ],
+    [
+      "Indonesia",
+      530
+    ],
+    [
+      "Philippines",
+      530
+    ]
+  ],
+  "选手最多的10个项目": [
+    [
+      "Athletics",
+      851
+    ],
+    [
+      "Esports",
+      722
+    ],
+    [
+      "Football",
+      681
+    ],
+    [
+      "Shooting",
+      634
+    ],
+    [
+      "Swimming",
+      499
+    ],
+    [
+      "Hockey",
+      488
+    ],
+    [
+      "Volleyball",
+      389
+    ],
+    [
+      "Fencing",
+      385
+    ],
+    [
+      "Badminton",
+      365
+    ],
+    [
+      "Table Tennis",
+      359
+    ]
+  ],
+  "奖牌选手年龄中位数": 25,
+  "奖牌选手年龄区间": [
+    13,
+    36
+  ],
+  "中国金牌项目分布": {
+    "Swimming": 15,
+    "Shooting": 4,
+    "Wushu": 4,
+    "Karate": 2,
+    "Modern Pentathlon": 2,
+    "Triathlon": 2,
+    "Cycling Road": 1,
+    "Artistic Gymnastics": 1,
+    "Volleyball": 1
+  },
+  "全球金牌项目分布": {
+    "Swimming": 21,
+    "Karate": 12,
+    "Wushu": 6,
+    "Mixed Martial Arts": 6,
+    "Shooting": 5,
+    "Teqball": 5,
+    "Modern Pentathlon": 4,
+    "Cycling Road": 3,
+    "Triathlon": 3,
+    "Soft Tennis": 3,
+    "Artistic Gymnastics": 2,
+    "Fencing": 2,
+    "Volleyball": 1,
+    "Cricket": 1,
+    "Basketball": 1
+  },
+  "多牌选手人数": 429,
+  "top组织者": [
+    [
+      "People's Republic of China",
+      "32",
+      "13",
+      "8"
+    ],
+    [
+      "Japan",
+      "11",
+      "16",
+      "19"
+    ],
+    [
+      "Republic of Korea",
+      "6",
+      "4",
+      "17"
+    ],
+    [
+      "Kazakhstan",
+      "6",
+      "1",
+      "5"
+    ],
+    [
+      "Thailand",
+      "4",
+      "1",
+      "1"
+    ],
+    [
+      "Hong Kong, China",
+      "3",
+      "5",
+      "4"
+    ],
+    [
+      "Tajikistan",
+      "2",
+      "1",
+      "1"
+    ],
+    [
+      "India",
+      "1",
+      "4",
+      "2"
+    ]
+  ]
+}

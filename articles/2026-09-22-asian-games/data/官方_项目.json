@@ -1,0 +1,787 @@
+[
+  {
+    "Key": "ARC",
+    "Order": 5,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Archery",
+    "DescL": "Archery"
+  },
+  {
+    "Key": "ATH",
+    "Order": 6,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Athletics",
+    "DescL": "Athletics",
+    "Extensions": []
+  },
+  {
+    "Key": "BBL",
+    "Order": 8,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Baseball",
+    "DescL": "Baseball",
+    "Extensions": []
+  },
+  {
+    "Key": "BDM",
+    "Order": 7,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Badminton",
+    "DescL": "Badminton",
+    "Extensions": []
+  },
+  {
+    "Key": "BK3",
+    "Order": 11,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "3x3 Basketball",
+    "DescL": "3x3 Basketball",
+    "Extensions": []
+  },
+  {
+    "Key": "BKB",
+    "Order": 10,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Basketball",
+    "DescL": "Basketball",
+    "Extensions": []
+  },
+  {
+    "Key": "BKG",
+    "Order": 13,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Breaking",
+    "DescL": "Breaking"
+  },
+  {
+    "Key": "BMF",
+    "Order": 24,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Cycling BMX Freestyle",
+    "DescL": "Cycling BMX Freestyle"
+  },
+  {
+    "Key": "BMX",
+    "Order": 23,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Cycling BMX Racing",
+    "DescL": "Cycling BMX Racing"
+  },
+  {
+    "Key": "BOX",
+    "Order": 12,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Boxing",
+    "DescL": "Boxing",
+    "Extensions": []
+  },
+  {
+    "Key": "CKT",
+    "Order": 19,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Cricket",
+    "DescL": "Cricket",
+    "Extensions": []
+  },
+  {
+    "Key": "CLB",
+    "Order": 46,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Sport Climbing",
+    "DescL": "Sport Climbing"
+  },
+  {
+    "Key": "CRD",
+    "Order": 21,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Cycling Road",
+    "DescL": "Cycling Road",
+    "Extensions": []
+  },
+  {
+    "Key": "CSL",
+    "Order": 15,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Canoe Slalom",
+    "DescL": "Canoe Slalom"
+  },
+  {
+    "Key": "CSP",
+    "Order": 14,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Canoe Sprint",
+    "DescL": "Canoe Sprint",
+    "Extensions": [
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "Distance",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "NMembers",
+        "Pos": 0,
+        "Value": "122",
+        "Extensions": []
+      }
+    ]
+  },
+  {
+    "Key": "CTR",
+    "Order": 20,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Cycling Track",
+    "DescL": "Cycling Track"
+  },
+  {
+    "Key": "DIV",
+    "Order": 2,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Diving",
+    "DescL": "Diving"
+  },
+  {
+    "Key": "ELS",
+    "Order": 26,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Esports",
+    "DescL": "Esports",
+    "Extensions": []
+  },
+  {
+    "Key": "EQU",
+    "Order": 25,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Equestrian",
+    "DescL": "Equestrian",
+    "Extensions": []
+  },
+  {
+    "Key": "FBL",
+    "Order": 28,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Football",
+    "DescL": "Football",
+    "Extensions": []
+  },
+  {
+    "Key": "FEN",
+    "Order": 27,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Fencing",
+    "DescL": "Fencing",
+    "Extensions": []
+  },
+  {
+    "Key": "GAR",
+    "Order": 30,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Artistic Gymnastics",
+    "DescL": "Artistic Gymnastics"
+  },
+  {
+    "Key": "GLF",
+    "Order": 29,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Golf",
+    "DescL": "Golf"
+  },
+  {
+    "Key": "GRY",
+    "Order": 31,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Rhythmic Gymnastics",
+    "DescL": "Rhythmic Gymnastics"
+  },
+  {
+    "Key": "GTR",
+    "Order": 32,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Trampoline Gymnastics",
+    "DescL": "Trampoline Gymnastics"
+  },
+  {
+    "Key": "HBL",
+    "Order": 33,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Handball",
+    "DescL": "Handball",
+    "Extensions": [
+      {
+        "Type": "DISCIPLINE_INFO",
+        "Code": "ShowAVG",
+        "Pos": 0,
+        "Value": "True",
+        "Extensions": []
+      }
+    ]
+  },
+  {
+    "Key": "HOC",
+    "Order": 34,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Hockey",
+    "DescL": "Hockey",
+    "Extensions": [
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "ShootOut",
+        "Pos": 0,
+        "Value": "Y",
+        "Extensions": []
+      },
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "ShootOutPeriod",
+        "Pos": 0,
+        "Value": "5",
+        "Extensions": []
+      },
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "ShootsOnChallenge",
+        "Pos": 0,
+        "Value": "5",
+        "Extensions": []
+      }
+    ]
+  },
+  {
+    "Key": "JJI",
+    "Order": 16,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Jiu Jitsu",
+    "DescL": "Jiu Jitsu"
+  },
+  {
+    "Key": "JUD",
+    "Order": 35,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Judo",
+    "DescL": "Judo"
+  },
+  {
+    "Key": "KAB",
+    "Order": 36,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Kabaddi",
+    "DescL": "Kabaddi",
+    "Extensions": []
+  },
+  {
+    "Key": "KTE",
+    "Order": 37,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Karate",
+    "DescL": "Karate",
+    "Extensions": []
+  },
+  {
+    "Key": "KUR",
+    "Order": 17,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Kurash",
+    "DescL": "Kurash"
+  },
+  {
+    "Key": "MMA",
+    "Order": 18,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Mixed Martial Arts",
+    "DescL": "Mixed Martial Arts",
+    "Extensions": []
+  },
+  {
+    "Key": "MPN",
+    "Order": 38,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Modern Pentathlon",
+    "DescL": "Modern Pentathlon",
+    "Extensions": []
+  },
+  {
+    "Key": "MTB",
+    "Order": 22,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Cycling Mountain Bike",
+    "DescL": "Cycling Mountain Bike",
+    "Extensions": []
+  },
+  {
+    "Key": "PDL",
+    "Order": 39,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Padel",
+    "DescL": "Padel"
+  },
+  {
+    "Key": "ROW",
+    "Order": 40,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Rowing",
+    "DescL": "Rowing",
+    "Extensions": [
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "Distance",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "COMPETITION_INFO",
+        "Code": "NMembers",
+        "Pos": 0,
+        "Value": "110",
+        "Extensions": []
+      }
+    ]
+  },
+  {
+    "Key": "RU7",
+    "Order": 41,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Rugby Sevens",
+    "DescL": "Rugby Sevens",
+    "Extensions": []
+  },
+  {
+    "Key": "SAL",
+    "Order": 42,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Sailing",
+    "DescL": "Sailing"
+  },
+  {
+    "Key": "SBL",
+    "Order": 9,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Softball",
+    "DescL": "Softball"
+  },
+  {
+    "Key": "SHO",
+    "Order": 44,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Shooting",
+    "DescL": "Shooting",
+    "Extensions": []
+  },
+  {
+    "Key": "SKB",
+    "Order": 45,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Skateboarding",
+    "DescL": "Skateboarding"
+  },
+  {
+    "Key": "SPK",
+    "Order": 43,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Sepaktakraw",
+    "DescL": "Sepaktakraw",
+    "Extensions": []
+  },
+  {
+    "Key": "SQU",
+    "Order": 47,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Squash",
+    "DescL": "Squash",
+    "Extensions": []
+  },
+  {
+    "Key": "SRF",
+    "Order": 48,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Surfing",
+    "DescL": "Surfing"
+  },
+  {
+    "Key": "SWA",
+    "Order": 3,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Artistic Swimming",
+    "DescL": "Artistic Swimming",
+    "Extensions": []
+  },
+  {
+    "Key": "SWM",
+    "Order": 1,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Swimming",
+    "DescL": "Swimming",
+    "Extensions": []
+  },
+  {
+    "Key": "TEN",
+    "Order": 51,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Tennis",
+    "DescL": "Tennis"
+  },
+  {
+    "Key": "TEQ",
+    "Order": 53,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Teqball",
+    "DescL": "Teqball",
+    "Extensions": []
+  },
+  {
+    "Key": "TKW",
+    "Order": 50,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Taekwondo",
+    "DescL": "Taekwondo"
+  },
+  {
+    "Key": "TRI",
+    "Order": 54,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Triathlon",
+    "DescL": "Triathlon",
+    "Extensions": []
+  },
+  {
+    "Key": "TST",
+    "Order": 52,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Soft Tennis",
+    "DescL": "Soft Tennis",
+    "Extensions": []
+  },
+  {
+    "Key": "TTE",
+    "Order": 49,
+    "NonSport": false,
+    "EventOrder": "LOC",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Table Tennis",
+    "DescL": "Table Tennis",
+    "Extensions": []
+  },
+  {
+    "Key": "VBV",
+    "Order": 56,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Beach Volleyball",
+    "DescL": "Beach Volleyball",
+    "Extensions": []
+  },
+  {
+    "Key": "VVO",
+    "Order": 55,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Volleyball",
+    "DescL": "Volleyball",
+    "Extensions": []
+  },
+  {
+    "Key": "WLF",
+    "Order": 57,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": true,
+    "HasReports": true,
+    "Desc": "Weightlifting",
+    "DescL": "Weightlifting",
+    "Extensions": [
+      {
+        "Type": "MEDALS_INFO",
+        "Code": "TOTAL_EVENTS",
+        "Pos": 0,
+        "Value": "16",
+        "Extensions": []
+      },
+      {
+        "Type": "MEDALS_INFO",
+        "Code": "END_EVENTS",
+        "Pos": 0,
+        "Value": "0",
+        "Extensions": []
+      },
+      {
+        "Type": "MEDALS",
+        "Code": "EV_SON",
+        "Pos": 0,
+        "Value": "F",
+        "Extensions": []
+      },
+      {
+        "Type": "MEDALS",
+        "Code": "EV_TOT",
+        "Pos": 0,
+        "Value": "T",
+        "Extensions": []
+      },
+      {
+        "Type": "GROUPS_INFO",
+        "Code": "offGroup.key",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_GROUP",
+        "Code": "scheduledUnit.key",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "ChiefMarshalGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "JuryGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "DoctorGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "RefereeGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "SecrGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "TDGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "TechContrlGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      },
+      {
+        "Type": "OFFICIALS_INFO",
+        "Code": "TimekeeperGroupId",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+      }
+    ]
+  },
+  {
+    "Key": "WPO",
+    "Order": 4,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Water Polo",
+    "DescL": "Water Polo",
+    "Extensions": []
+  },
+  {
+    "Key": "WRE",
+    "Order": 58,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Wrestling",
+    "DescL": "Wrestling"
+  },
+  {
+    "Key": "WSU",
+    "Order": 59,
+    "NonSport": false,
+    "EventOrder": "DATE",
+    "HasRecords": false,
+    "HasReports": true,
+    "Desc": "Wushu",
+    "DescL": "Wushu",
+    "Extensions": []
+  }
+]
