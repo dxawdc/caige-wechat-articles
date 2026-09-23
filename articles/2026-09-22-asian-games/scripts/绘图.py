@@ -341,7 +341,7 @@ axes[1].grid(axis="y", visible=False)
 axes[1].tick_params(length=0)
 
 top = head(fig, "夺牌选手年龄：中位数 25 岁，最小 13 岁",
-           "中国 13 岁小将已拿 2 金；游泳夺牌选手最年轻（22.4 岁），综合格斗最年长（27.5 岁）",
+           "中国 13 岁小将已拿 2 金；射击夺牌选手最年轻（21.8 岁），公路自行车最年长（28.5 岁）",
            y=0.99, gap=0.065)
 fig.subplots_adjust(top=top, bottom=0.13, left=0.075, right=0.97, wspace=0.42)
 note(fig, "样本为 251 条奖牌记录中 187 条有出生日期的记录；年龄按比赛日推算")

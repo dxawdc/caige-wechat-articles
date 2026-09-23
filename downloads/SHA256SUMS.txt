@@ -6,7 +6,7 @@ ead0478ee7bffde98d852809cbc947cd029a2204a107d9300c53eebb98b705c7  nobel-prize_v1
 313b89b82ac858eafcfac4bd362fbd2e99f08c5c85079926668fbe1afbdba21e  asian-games-final_v1.2.2.zip
 4efcfdcdbe3f0a2ee6428aca5a30b47e60245f63e9055e2f7a0a23cd6eb44bd5  flow-visualization_v1.1.1.zip
 1627aee6b76aaeaa2aede2fc876572ab71e6d6db9501e2ed7ea07a3a02d9b38a  a-share-sector-race_v1.1.1.zip
-d25e57b4a1b7cc1d39ddf5b3764e36d5c8010e1b85255c6aa87a54fd10e9433b  asian-games_v1.0.0.zip
+73044359261f060a528c7d73e3143789b8524ddd1d15207f0e2c321815834e5f  asian-games_v1.0.0.zip
 f188016255f004889870a60d8941d9c3ae3f0d16e6e7338294e8dfca0ef1e031  a-share-fund-flow_v1.0.0.zip
 8dbc89c10e8ed8d949bb6fe6260386bd41945b4199369111d9b1dfd6064ec11d  data-analysis-viz_v1.0.0.zip
 9b1b6ee96b07a3d529f21678e82978ce6dd52404fcc162d046d3eef74e7495e7  a-share-heatmap-skill_v1.0.0.zip

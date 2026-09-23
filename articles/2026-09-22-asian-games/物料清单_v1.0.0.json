@@ -162,8 +162,8 @@
     },
     {
       "path": "images/09_奖牌选手年龄.png",
-      "bytes": 161487,
-      "sha256": "90bfb82a6b1c8491314bb17f2c2ebb4549389d75e6429ca8634d071b73dd03ed"
+      "bytes": 160785,
+      "sha256": "3fdc4f61e4c6dd5025fdf8b932b9cb77aeeab51158ed251b83f8cc33111c9ab6"
     },
     {
       "path": "images/10_规模与产出.png",
@@ -217,8 +217,8 @@
     },
     {
       "path": "scripts/绘图.py",
-      "bytes": 31912,
-      "sha256": "e965a4ffb29ad71af4c82aaec851788ec25b8ef91a052e7354b88894a17b1fcb"
+      "bytes": 31915,
+      "sha256": "ae465665739f0cf752ba7a4d27ccec09bbf512b7502c0132370f6001a2657063"
     },
     {
       "path": "scripts/补全奖牌明细.py",
