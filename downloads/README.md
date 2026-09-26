@@ -4,7 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
-| [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](../articles/2026-09-26-a-share-sector-race/README.md) | v1.0.0 | [a-share-sector-race_v1.0.0.zip](a-share-sector-race_v1.0.0.zip) | 2.59 MB |
+| [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](../articles/2026-09-26-a-share-sector-race/README.md) | v1.1.0 | [a-share-sector-race_v1.1.0.zip](a-share-sector-race_v1.1.0.zip) | 3.15 MB |
 | [今年亚运会好像没什么热度，只知道名古屋被骂上热搜](../articles/2026-09-22-asian-games/README.md) | v1.0.0 | [asian-games_v1.0.0.zip](asian-games_v1.0.0.zip) | 2.36 MB |
 | [我把A股一天的资金流向，做成了一组图](../articles/2026-09-21-a-share-fund-flow/README.md) | v1.0.0 | [a-share-fund-flow_v1.0.0.zip](a-share-fund-flow_v1.0.0.zip) | 5.53 MB |
 | [在 WorkBuddy 里说一句话，自动完成数据分析与制图](../articles/2026-09-19-data-analysis-viz/README.md) | v1.0.0 | [data-analysis-viz_v1.0.0.zip](data-analysis-viz_v1.0.0.zip) | 1.06 MB |

@@ -7,11 +7,11 @@
       "id": "a-share-sector-race",
       "title": "“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
       "source": "articles/2026-09-26-a-share-sector-race",
-      "manifest": "物料清单_v1.0.0.json",
-      "download": "downloads/a-share-sector-race_v1.0.0.zip",
-      "summary": "东方财富30主题板块日线（13,932条）、采集和赛马图制作脚本、两份交互HTML与文中配图"
+      "manifest": "物料清单_v1.1.0.json",
+      "download": "downloads/a-share-sector-race_v1.1.0.zip",
+      "summary": "东方财富30主题板块日线（13,932条）、赛马图制作脚本、手机竖屏预览、两份交互HTML与文中配图"
     },
     {
       "id": "asian-games",

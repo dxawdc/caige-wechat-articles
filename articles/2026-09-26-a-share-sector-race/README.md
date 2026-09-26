@@ -1,6 +1,6 @@
 # “9·24”之后，谁跑在前面？30个A股主题板块赛马图
 
-公众号文章配套资料，版本 v1.0.0，数据截至 **2026年9月24日收盘**。从东方财富30个主题板块指数的日收盘点位出发，生成“9·24”以来、2026年初以来和滚动20个交易日三种视角的赛马图。
+公众号文章配套资料，版本 v1.1.0，数据截至 **2026年9月24日收盘**。从东方财富30个主题板块指数的日收盘点位出发，生成“9·24”以来、2026年初以来和滚动20个交易日三种视角的赛马图。
 
 ## 目录
 
@@ -10,13 +10,13 @@
 | [data/原始日线](data/原始日线) | 逐板块保存的30份日线CSV |
 | [data/交易日历.csv](data/交易日历.csv)、[data/行情.csv](data/行情.csv) | 交易日期参考表与校验后主表 |
 | [prepare_data.py](prepare_data.py)、[phone_collect.py](phone_collect.py) | 网页行情采集、导入、检查和合并脚本 |
-| [render_videos.py](render_videos.py)、[palette.py](palette.py) | 六段赛马视频的制作逻辑与配色 |
+| [render_videos.py](render_videos.py)、[palette.py](palette.py) | 六段标准版和一段手机竖屏版的制作逻辑与配色 |
 | [export_html.py](export_html.py)、[html_src](html_src) | 两份单文件交互网页的生成逻辑 |
 | [A股板块轮动赛马图.html](A股板块轮动赛马图.html)、[动态坐标轴版](A股板块轮动赛马图_动态坐标轴.html) | 可下载后直接打开的交互成品 |
 | [配图](配图)、[videos](videos) | 文章配图、视频预览图 |
 | [validate_outputs.py](validate_outputs.py) | 视频和交互网页验收脚本 |
 
-资料可从[独立ZIP](../../downloads/a-share-sector-race_v1.0.0.zip)一次下载。GitHub文件预览页不运行交互网页，下载HTML到本地后可直接打开。
+资料可从[独立ZIP](../../downloads/a-share-sector-race_v1.1.0.zip)一次下载。下载HTML到本地后可直接打开交互页面；GitHub文件页可查看源码和图片。
 
 ## 数据与计算口径
 
@@ -34,11 +34,14 @@ python -m pip install numpy matplotlib
 python .\prepare_data.py --import-dir .\data\原始日线
 python .\render_videos.py
 python .\render_videos.py --axis-follow
+python .\render_videos.py --window 2024-09-24 --axis-follow --portrait
 python .\export_html.py
 python .\export_html.py --axis-follow
 python .\validate_outputs.py
 ```
 
-视频为三种视角乘两种坐标轴的六段 1440×1300 MP4；两份HTML都可切换三种视角、暂停、调速和拖动日期。先查看短窗口效果可运行 `python .\render_videos.py --window 20d`。重新请求网页接口可运行 `python .\prepare_data.py --fetch`。更新数据截点时，同步调整 `prepare_data.py` 的 `AS_OF` 和交易日列表，再重新采集与验收。
+标准版视频为三种视角乘两种坐标轴的六段 1440×1300 MP4；手机竖屏版采用1080×1920画布、动态坐标轴和12帧/交易日的过渡，时长166秒。两份HTML都可切换三种视角、暂停、调速和拖动日期。先查看短窗口效果可运行 `python .\render_videos.py --window 20d`。重新请求网页接口可运行 `python .\prepare_data.py --fetch`。更新数据截点时，同步调整 `prepare_data.py` 的 `AS_OF` 和交易日列表，再重新采集与验收。
+
+手机播放布局可先看[竖屏末帧预览](videos/预览_2024年9月24日至今_手机竖屏.png)。
 
 2024年9月24日作为市场节点的背景，可参阅[国新办发布会记录](https://www.csrc.gov.cn/csrc/c106311/c7508374/content.shtml)与[新华社当周行情回顾](https://www.news.cn/20240927/c2676c277f2943a4a8d3e3c4965c36f4/c.html)。本资料用于复盘和可视化练习，历史排名不构成未来收益预测。

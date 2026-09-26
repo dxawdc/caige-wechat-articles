@@ -1,6 +1,6 @@
 {
   "id": "2026-09-26-a-share-sector-race",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "updated": "2026-09-26",
   "entrypoint": "prepare_data.py",
   "basic": "render_videos.py",
@@ -222,18 +222,23 @@
     },
     {
       "path": "README.md",
-      "bytes": 3766,
-      "sha256": "6593149c3a00c647b07cdab4e1f79d97fe349168eeca7c3446a9151cbdf8d7c1"
+      "bytes": 4083,
+      "sha256": "5d00aadc656a9f2362fb467c51942a2d71f4b15bb5577e817c736f359ff5637b"
     },
     {
       "path": "render_videos.py",
-      "bytes": 18066,
-      "sha256": "f7230e3ae4197e653255dfe0347cc9d2ec9705625587101d0ef8adf213534a82"
+      "bytes": 20402,
+      "sha256": "2ba926f7bbccabccd9516a6825be308f6736a55a629d7f1a65ce400d4f5f4d43"
     },
     {
       "path": "validate_outputs.py",
-      "bytes": 7379,
-      "sha256": "f0e305432f2e47514f9e715e34ffdd4ef528d8ea7e9d9125072afc7c3ff412a1"
+      "bytes": 8700,
+      "sha256": "140fb2e8d1cbaf17185fa64c91705ce25fd399e66484b922c4d9ce288713b2e7"
+    },
+    {
+      "path": "videos/预览_2024年9月24日至今_手机竖屏.png",
+      "bytes": 591219,
+      "sha256": "03c96a3e37b8409359520f2549b5bdb89d91f5cd876fb4361d0ee1d9c7d5242b"
     },
     {
       "path": "videos/预览_动态坐标轴_滚动20日.png",

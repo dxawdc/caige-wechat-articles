@@ -11,7 +11,9 @@ from pathlib import Path
 import numpy as np
 
 from palette import BOARD_COLORS
-from render_videos import ROOT, VIDEOS, VIDEO_FPS, TWEEN_FRAMES, load, rolling_returns, values
+from render_videos import (ROOT, VIDEOS, VIDEO_FPS, TWEEN_FRAMES, PORTRAIT_SIZE,
+                           PORTRAIT_TWEEN_FRAMES, PORTRAIT_INTRO_SECONDS,
+                           PORTRAIT_OUTRO_SECONDS, load, rolling_returns, values)
 
 
 WINDOWS = (
@@ -27,7 +29,9 @@ def run(*args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(args, check=True, capture_output=True, text=True)
 
 
-def validate_video(path: Path, trading_days: int) -> dict:
+def validate_video(path: Path, trading_days: int, size: tuple[int, int] = SIZE,
+                   tween_frames: int = TWEEN_FRAMES,
+                   intro_frames: int = FPS // 2, outro_frames: int = FPS) -> dict:
     if not path.is_file():
         raise FileNotFoundError(path)
     probe = json.loads(run(
@@ -37,9 +41,9 @@ def validate_video(path: Path, trading_days: int) -> dict:
     ).stdout)
     stream = probe["streams"][0]
     frames = int(stream["nb_frames"])
-    expected_frames = FPS // 2 + (trading_days - 1) * TWEEN_FRAMES + FPS
+    expected_frames = intro_frames + (trading_days - 1) * tween_frames + outro_frames
     assert stream["codec_name"] == "h264", path
-    assert (stream["width"], stream["height"]) == SIZE, path
+    assert (stream["width"], stream["height"]) == size, path
     assert Fraction(stream["avg_frame_rate"]) == FPS, path
     assert frames == expected_frames, (path, frames, expected_frames)
     run("ffmpeg", "-v", "error", "-xerror", "-i", str(path), "-f", "null", "-")
@@ -109,7 +113,7 @@ def main() -> None:
     }
     manifest = {
         "as_of": days[-1],
-        "source": "Eastmoney daily K-line, fqt=0, via phone browser",
+        "source": "Eastmoney board-index daily K-line, fqt=0",
         "boards": len(pairs),
         "reference_trading_days": len(days),
         "daily_rows": len(prices),
@@ -152,6 +156,23 @@ def main() -> None:
         print(f"Validated {video.name}", flush=True)
     manifest["axis_follow_html"] = validate_html(days, pairs, prices, axis_follow=True)
     print("Validated A股板块轮动赛马图_动态坐标轴.html", flush=True)
+    portrait = VIDEOS / "2024年9月24日至今_累计涨跌幅_动态坐标轴_手机竖屏.mp4"
+    portrait_days = values(days, pairs, prices, "2024-09-24")[0]
+    manifest["portrait_video"] = validate_video(
+        portrait, len(portrait_days), size=PORTRAIT_SIZE,
+        tween_frames=PORTRAIT_TWEEN_FRAMES,
+        intro_frames=FPS * PORTRAIT_INTRO_SECONDS,
+        outro_frames=FPS * PORTRAIT_OUTRO_SECONDS,
+    )
+    manifest["portrait_video"]["axis_follow"] = True
+    manifest["portrait_video"]["transition_frames_per_day"] = PORTRAIT_TWEEN_FRAMES
+    print(f"Validated {portrait.name}", flush=True)
+    portrait_preview = VIDEOS / "预览_2024年9月24日至今_手机竖屏.png"
+    run("ffmpeg", "-v", "error", "-y", "-sseof", "-0.1", "-i",
+        str(portrait), "-frames:v", "1", str(portrait_preview))
+    with portrait_preview.open("rb") as file:
+        assert file.read(8) == b"\x89PNG\r\n\x1a\n", portrait_preview
+    manifest["portrait_preview"] = portrait_preview.relative_to(ROOT).as_posix()
     preview = VIDEOS / "预览_滚动20日.png"
     run("ffmpeg", "-v", "error", "-y", "-sseof", "-1", "-i",
         str(VIDEOS / "滚动20个交易日_累计涨跌幅.mp4"),

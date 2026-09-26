@@ -1,4 +1,4 @@
-"""Render three cumulative-return racing videos from verified daily closes."""
+"""Render sector-return racing videos from verified daily closes."""
 from __future__ import annotations
 
 import argparse
@@ -21,6 +21,10 @@ ROOT = Path(__file__).resolve().parent
 VIDEOS = ROOT / "videos"
 VIDEO_FPS = 36
 TWEEN_FRAMES = 8
+PORTRAIT_SIZE = (1080, 1920)
+PORTRAIT_TWEEN_FRAMES = 12
+PORTRAIT_INTRO_SECONDS = 1
+PORTRAIT_OUTRO_SECONDS = 3
 
 
 def load() -> tuple[list[str], list[tuple[str, str]], dict[tuple[str, str], float]]:
@@ -103,7 +107,8 @@ def smooth_value(previous: float | None, start: float, end: float,
 
 def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
                       fps: int = VIDEO_FPS, tween_frames: int = TWEEN_FRAMES,
-                      axis_follow: bool = False):
+                      axis_follow: bool = False, portrait: bool = False,
+                      preview_at: int | None = None):
     """Animate line endpoints and all available bars between actual trading days."""
     plt.rcParams.update({
         "font.family": "Microsoft YaHei", "axes.unicode_minus": False,
@@ -111,19 +116,36 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
         "text.color": "#263841", "axes.labelcolor": "#607276",
         "xtick.color": "#819093", "ytick.color": "#819093",
     })
-    fig = plt.figure(figsize=(14.4, 13), dpi=100)
-    ax = fig.add_axes([.075, .625, .85, .245])
-    race = fig.add_axes([.18, .05, .745, .49])
+    if portrait:
+        fig = plt.figure(figsize=(10.8, 19.2), dpi=100)
+        ax = fig.add_axes([.095, .655, .83, .18])
+        race = fig.add_axes([.31, .045, .615, .535])
+    else:
+        fig = plt.figure(figsize=(14.4, 13), dpi=100)
+        ax = fig.add_axes([.075, .625, .85, .245])
+        race = fig.add_axes([.18, .05, .745, .49])
     rolling = rolling_starts is not None
     heading = "A股主题板块轮动｜滚动20日涨跌幅" if rolling else "A股主题板块轮动｜累计涨跌幅"
     subtitle = (f"{start} 至 {AS_OF}  ·  最近20交易日累计收益" if rolling
                 else f"{start} 至 {AS_OF}  ·  东方财富板块指数")
     if axis_follow:
         subtitle += "  ·  动态坐标轴"
-    fig.text(.075, .952, heading, fontsize=24, weight="bold")
-    fig.text(.075, .919, subtitle, fontsize=11, color="#718083")
-    date_artist = fig.text(.925, .952, "", ha="right", fontsize=21, weight="bold", color="#a86b43")
-    note_artist = fig.text(.925, .919, "", ha="right", fontsize=11, color="#718083")
+    if portrait:
+        fig.text(.095, .978, "9·24之后，谁跑在前面？", fontsize=31, weight="bold")
+        fig.text(.095, .947,
+                 f"{start.replace('-', '.')}—{AS_OF.replace('-', '.')} · 东方财富主题板块指数",
+                 fontsize=14.5, color="#718083")
+        date_artist = fig.text(.095, .910, "", ha="left", fontsize=30,
+                               weight="bold", color="#a86b43")
+        note_artist = fig.text(.925, .910, "", ha="right", fontsize=12.5,
+                               color="#718083")
+        fig.text(.095, .881, "累计涨跌幅 · 动态坐标轴" if axis_follow else "累计涨跌幅 · 固定坐标轴",
+                 fontsize=13.5, color="#718083")
+    else:
+        fig.text(.075, .952, heading, fontsize=24, weight="bold")
+        fig.text(.075, .919, subtitle, fontsize=11, color="#718083")
+        date_artist = fig.text(.925, .952, "", ha="right", fontsize=21, weight="bold", color="#a86b43")
+        note_artist = fig.text(.925, .919, "", ha="right", fontsize=11, color="#718083")
 
     n = len(pairs)
     names = [name for _, name in pairs]
@@ -143,16 +165,20 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
     ax.axhline(0, color="#89969a", linewidth=1.1)
     ax.grid(axis="y", color="#e7ebe9", linewidth=.8)
     ax.spines[["top", "right"]].set_visible(False)
-    ax.set_ylabel("涨跌幅 %", fontsize=10)
+    ax.set_ylabel("涨跌幅 %", fontsize=13 if portrait else 10)
+    if portrait:
+        ax.tick_params(axis="both", labelsize=12, pad=7)
     curve_title = "滚动20日涨跌幅曲线" if rolling else "板块累计涨跌幅曲线"
-    ax.set_title(curve_title, loc="left", fontsize=14, weight="bold", pad=12)
+    ax.set_title(curve_title, loc="left", fontsize=19 if portrait else 14,
+                 weight="bold", pad=16 if portrait else 12)
     lines = [ax.plot([], [], color=hues[i], linewidth=1, alpha=.3, zorder=2)[0] for i in range(n)]
     cursor = ax.axvline(0, color="#9da9aa", linewidth=1, alpha=.47)
 
     race.set_ylim(n - .45, -.6)
     race.set_yticks([])
     race.xaxis.set_ticks_position("top")
-    race.tick_params(axis="x", labeltop=True, labelbottom=False, labelsize=10, pad=5)
+    race.tick_params(axis="x", labeltop=True, labelbottom=False,
+                     labelsize=13 if portrait else 10, pad=6 if portrait else 5)
     race.xaxis.set_major_locator(MaxNLocator(nbins=7))
     race.xaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x:g}%"))
     race.grid(axis="x", linestyle="--", color="#e5eae8", linewidth=.8)
@@ -160,7 +186,8 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
     race.axvline(0, color="#778587", linewidth=1.2)
     race.spines[["top", "right", "bottom", "left"]].set_visible(False)
     ranking_title = "当前20日涨跌幅排名" if rolling else "当前累计涨跌幅排名"
-    fig.text(.075, .565, ranking_title, fontsize=14, weight="bold")
+    fig.text(.095 if portrait else .075, .618 if portrait else .565,
+             ranking_title, fontsize=19 if portrait else 14, weight="bold")
     for rank in range(1, n, 2):
         race.axhspan(rank - .5, rank + .5, color="#f7f9f8", zorder=0)
     name_transform = blended_transform_factory(race.transAxes, race.transData)
@@ -168,8 +195,10 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
     for i in range(n):
         bars.append(race.barh(i, 0, height=.72, color=hues[i], edgecolor="white", linewidth=.35)[0])
         name_artists.append(race.text(-.012, i, names[i], ha="right", va="center",
-                                      transform=name_transform, fontsize=10.5, color="#293b42"))
-        value_artists.append(race.text(0, i, "", ha="left", va="center", fontsize=9.5, color="#42525a"))
+                                      transform=name_transform, fontsize=19 if portrait else 10.5,
+                                      color="#293b42"))
+        value_artists.append(race.text(0, i, "", ha="left", va="center",
+                                         fontsize=17 if portrait else 9.5, color="#42525a"))
 
     def ranks(values):
         order = sorted(range(n), key=lambda i: (not np.isfinite(values[i]),
@@ -296,7 +325,7 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
             line.set_data(xdata, ydata)
             focus = max(0, min(1, (7 - rank) / 4))
             line.set_alpha((.17 + .75 * focus) * visibility[i])
-            line.set_linewidth(.9 + 1.35 * focus)
+            line.set_linewidth((1.25 + 1.65 * focus) if portrait else (.9 + 1.35 * focus))
         cursor.set_xdata([previous_index + fraction] * 2)
         if day_index > 0 and fraction < 1:
             date_artist.set_text(window[previous_index])
@@ -306,20 +335,26 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
             date_artist.set_text(window[day_index])
             note_artist.set_text(f"当前窗口 {rolling_starts[day_index]} 至 {window[day_index]}" if rolling else "")
 
-    writer = FFMpegWriter(fps=fps, codec="libx264", bitrate=5600,
+    if preview_at is not None:
+        update(preview_at, 1)
+        fig.savefig(target, dpi=100)
+        plt.close(fig)
+        return
+
+    writer = FFMpegWriter(fps=fps, codec="libx264", bitrate=4800 if portrait else 5600,
                           extra_args=["-preset", "veryfast", "-pix_fmt", "yuv420p",
                                       "-movflags", "+faststart"])
     with writer.saving(fig, str(target), dpi=100):
         for day_index in range(len(window)):
             if day_index == 0:
                 update(0, 1)
-                for _ in range(max(1, fps // 2)):
+                for _ in range(fps * PORTRAIT_INTRO_SECONDS if portrait else max(1, fps // 2)):
                     writer.grab_frame()
             else:
                 for step in range(1, tween_frames + 1):
                     update(day_index, step / tween_frames)
                     writer.grab_frame()
-        for _ in range(fps):
+        for _ in range(fps * PORTRAIT_OUTRO_SECONDS if portrait else fps):
             update(len(window) - 1, 1)
             writer.grab_frame()
     plt.close(fig)
@@ -331,7 +366,11 @@ def main() -> None:
                         help="Render one window; by default render all three")
     parser.add_argument("--axis-follow", action="store_true",
                         help="Write a separate version whose line axes expand with observed history")
+    parser.add_argument("--portrait", action="store_true",
+                        help="Render a 1080x1920 phone video with a slower 2024-09-24 timeline")
     args = parser.parse_args()
+    if args.portrait and args.window != "2024-09-24":
+        parser.error("--portrait requires --window 2024-09-24")
     days, pairs, prices = load()
     if len(days) < 21:
         raise ValueError("At least 21 trading days are needed for a 20-day return window")
@@ -349,11 +388,15 @@ def main() -> None:
             window, arr, _ = values(days, pairs, prices, start)
             rolling_starts = None
         suffix = "_动态坐标轴" if args.axis_follow else ""
+        if args.portrait:
+            suffix += "_手机竖屏"
         target = VIDEOS / f"{label}_累计涨跌幅{suffix}.mp4"
         temp = target.with_name(target.stem + ".tmp.mp4")
-        print(f"Rendering {target.name}: {len(window)} dates at 0.75x", flush=True)
+        frames = PORTRAIT_TWEEN_FRAMES if args.portrait else TWEEN_FRAMES
+        print(f"Rendering {target.name}: {len(window)} dates, {frames} transition frames per day", flush=True)
         draw_video_smooth(window, pairs, arr, start, temp, rolling_starts,
-                          axis_follow=args.axis_follow)
+                          tween_frames=frames, axis_follow=args.axis_follow,
+                          portrait=args.portrait)
         temp.replace(target)
         print(f"Saved {target}", flush=True)
 
