@@ -1,0 +1,279 @@
+{
+  "id": "2026-09-26-a-share-sector-race",
+  "version": "v1.0.0",
+  "updated": "2026-09-26",
+  "entrypoint": "prepare_data.py",
+  "basic": "render_videos.py",
+  "files": [
+    {
+      "path": "A股板块轮动赛马图.html",
+      "bytes": 310483,
+      "sha256": "e28d19f7ee9e3d69a80e0b3ff0e3aa036b6c34175e7797b4cb58edf9ab47b5aa"
+    },
+    {
+      "path": "A股板块轮动赛马图_动态坐标轴.html",
+      "bytes": 310504,
+      "sha256": "b8a61212783e8b54b5adaf698caf81a5c65543cb49beef73151a51c42456f45a"
+    },
+    {
+      "path": "data/交易日历.csv",
+      "bytes": 5865,
+      "sha256": "87a1e048fdb4db8bf64748614c3eb84998357da8c474a9cb3c844f6422d2e4b1"
+    },
+    {
+      "path": "data/原始日线/BK0438.csv",
+      "bytes": 15636,
+      "sha256": "beaa7e2f4549c500a4f2e90f4c562bca0e07cc8d81d929fec8cf71cd3a836d6f"
+    },
+    {
+      "path": "data/原始日线/BK0464.csv",
+      "bytes": 15148,
+      "sha256": "ce5db8f5746d960b415907d496d2846ef92a078a450be9d0e4c4880897d6ce62"
+    },
+    {
+      "path": "data/原始日线/BK0475.csv",
+      "bytes": 15148,
+      "sha256": "2523eba2b2ce601e8992511dc49f1362e3d32c163f1f85a47e0b8bb53ca4bf71"
+    },
+    {
+      "path": "data/原始日线/BK0478.csv",
+      "bytes": 15636,
+      "sha256": "b3f4eb0fede8d5ef782efd3c4e0aadc18e27da272b8f7d8d2dfdcea3f8b3e919"
+    },
+    {
+      "path": "data/原始日线/BK0490.csv",
+      "bytes": 15637,
+      "sha256": "33706fc875895e4ad10a2484de8042436f631546e6d0710baa4ae56f4faab7a0"
+    },
+    {
+      "path": "data/原始日线/BK0493.csv",
+      "bytes": 15636,
+      "sha256": "1ecf40c40678477b768ca95c45cf4861dc090626b4c52d704d14b3535f9dd62e"
+    },
+    {
+      "path": "data/原始日线/BK0547.csv",
+      "bytes": 15633,
+      "sha256": "9bada2d578c8613d29dcff3a154261418deefeba8ede7d7e436d6bb036bba25d"
+    },
+    {
+      "path": "data/原始日线/BK0574.csv",
+      "bytes": 15148,
+      "sha256": "f840b1c3901f12af87957ca3257afca518f035c55e8af84a27ae7e11f5356a97"
+    },
+    {
+      "path": "data/原始日线/BK0577.csv",
+      "bytes": 15148,
+      "sha256": "a781f6cd3a966f6f09fd0a5671664ad0bbf11f40588ddb8b8b5f889f91e1c4a3"
+    },
+    {
+      "path": "data/原始日线/BK0578.csv",
+      "bytes": 15148,
+      "sha256": "c7f41e32453d1f8d8843f8d8d900798f4c03e7524c6b6b435e6de637e42b0811"
+    },
+    {
+      "path": "data/原始日线/BK0579.csv",
+      "bytes": 15148,
+      "sha256": "645c11ebbafb250bd3191cb7621d6d6207bbd5f379b15b0b07db645aa127a2fd"
+    },
+    {
+      "path": "data/原始日线/BK0588.csv",
+      "bytes": 15148,
+      "sha256": "540fec247262e63bf013ffa4110a4062e59d8dae246a2662155635640697f883"
+    },
+    {
+      "path": "data/原始日线/BK0668.csv",
+      "bytes": 15148,
+      "sha256": "572471a5fdc1fa00608609604bc1e86b01e2e076675140827dbbc3e0bfd7b325"
+    },
+    {
+      "path": "data/原始日线/BK0710.csv",
+      "bytes": 15148,
+      "sha256": "f039d20c51b674238fde09150903c9681a767009690d25d6a695bf733d0058e5"
+    },
+    {
+      "path": "data/原始日线/BK0802.csv",
+      "bytes": 15148,
+      "sha256": "795f3da9280fb61dd51d9e085c455256e796ecc4636a960a42096aef282cdb87"
+    },
+    {
+      "path": "data/原始日线/BK0843.csv",
+      "bytes": 15148,
+      "sha256": "14617208e02c06ac4dc8952c08093b67c3f64ef58cfab32191dc287cfc57060a"
+    },
+    {
+      "path": "data/原始日线/BK0917.csv",
+      "bytes": 15147,
+      "sha256": "a2b2bc35c709ffe6fa155d0534b62b2735cd6a97018f6d8209649dbf74604824"
+    },
+    {
+      "path": "data/原始日线/BK0921.csv",
+      "bytes": 15144,
+      "sha256": "b80b9a604c94edf2263f6b46476316be1059765c4ae3a6c8176852c9067254ba"
+    },
+    {
+      "path": "data/原始日线/BK0922.csv",
+      "bytes": 15148,
+      "sha256": "407df22898a67ea7c85f3a02c15349dd643d12d60589be840d94927911bc35a3"
+    },
+    {
+      "path": "data/原始日线/BK0963.csv",
+      "bytes": 15147,
+      "sha256": "acb7fb04bca94839e3ed54065e6c7e1f44010740443e178036b679558b1398ff"
+    },
+    {
+      "path": "data/原始日线/BK0968.csv",
+      "bytes": 15148,
+      "sha256": "aedf07ea9e424d55e895d2c24c28d7b2568e506fa1b21495a362f8687a6bfe1a"
+    },
+    {
+      "path": "data/原始日线/BK1090.csv",
+      "bytes": 15145,
+      "sha256": "d5c15006872e6fc5c5e211f927529dcab98ace98d47c17b9003f7e77f4a8f311"
+    },
+    {
+      "path": "data/原始日线/BK1106.csv",
+      "bytes": 15128,
+      "sha256": "9b68d2a9084ba89791c58d0f4a39b6cc68a6fd39da6fb774c5d8d610f1181f97"
+    },
+    {
+      "path": "data/原始日线/BK1128.csv",
+      "bytes": 15164,
+      "sha256": "e5652a0780f80955c9fc6ec632f0ea1734e5a5111fdf86047b6d5457f4bb4f28"
+    },
+    {
+      "path": "data/原始日线/BK1134.csv",
+      "bytes": 15143,
+      "sha256": "48affef4469d851ccac21645d56cf7ae4f1128d55c10bfaa6904d00f5db35789"
+    },
+    {
+      "path": "data/原始日线/BK1137.csv",
+      "bytes": 15143,
+      "sha256": "47de8fe278a06a74cebb0e3841f1f4023161d202431a27e96837c1264d9c260e"
+    },
+    {
+      "path": "data/原始日线/BK1166.csv",
+      "bytes": 15143,
+      "sha256": "5e6e2ed0e04682eb0885d283f9c5db0084a0a66445922b744af542aa03d0bf98"
+    },
+    {
+      "path": "data/原始日线/BK1216.csv",
+      "bytes": 15148,
+      "sha256": "58b67088ae10ce433ea160616756164eea89146bbf12277649faba29a51d5dff"
+    },
+    {
+      "path": "data/原始日线/BK1646.csv",
+      "bytes": 4138,
+      "sha256": "0fe8119fc6aa384d316c95e7ff6365e748189173e2e5e7d146ab1dd407b84b04"
+    },
+    {
+      "path": "data/原始日线/BK1647.csv",
+      "bytes": 4045,
+      "sha256": "4828481b9b78f6ddc7fa46879598d008efa90a3d9caf0ce4490dcd77df83fb5a"
+    },
+    {
+      "path": "data/板块清单.csv",
+      "bytes": 577,
+      "sha256": "2f9edce64705513460628bd4f554ca1d4cb7a08d13f270ade50d40b836b95f95"
+    },
+    {
+      "path": "data/行情.csv",
+      "bytes": 573970,
+      "sha256": "11b8a35a0db541fcbe9e83af29512e4650d7f88e6ce559b2e413acb6395cda49"
+    },
+    {
+      "path": "data/行情元数据.json",
+      "bytes": 425,
+      "sha256": "a00b4048e1c7d7186b4de7e6ea567c18de4cdf6f506c87bd0002e3bef78e636c"
+    },
+    {
+      "path": "export_html.py",
+      "bytes": 2928,
+      "sha256": "3e98a12e2f731a79e7f4913bd7f7ed8a991d8ef9ac78fbe63bcb15b9ab05818c"
+    },
+    {
+      "path": "html_src/app.js",
+      "bytes": 18144,
+      "sha256": "22c06328c136e84c7bdbc197fdb12884898daf4d530a17827ca7abe740cab3d5"
+    },
+    {
+      "path": "html_src/style.css",
+      "bytes": 6001,
+      "sha256": "ad2a415acf34427e31026ee4db51842363546c8b2c388ee8ebee6d665338d02a"
+    },
+    {
+      "path": "html_src/template.html",
+      "bytes": 3416,
+      "sha256": "7c2363c7b26c9a39f5d3730b063a9c1dc914cf0a021bcd05ca395430b5f50a0c"
+    },
+    {
+      "path": "palette.py",
+      "bytes": 573,
+      "sha256": "b54bca9283ba0ee10737b7d842a198577fc07b6da990f0ffa7e4d72ee8177b01"
+    },
+    {
+      "path": "phone_collect.py",
+      "bytes": 10000,
+      "sha256": "74ab26879eca516285d4a82ac5f1596be74148c22de62695898ccf8d7d6fbad5"
+    },
+    {
+      "path": "prepare_data.py",
+      "bytes": 8265,
+      "sha256": "07d3ef834a17700af40f5ff324da1d990755cbc0e15b4f3a7e7fd845f1bf61aa"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3766,
+      "sha256": "6593149c3a00c647b07cdab4e1f79d97fe349168eeca7c3446a9151cbdf8d7c1"
+    },
+    {
+      "path": "render_videos.py",
+      "bytes": 18066,
+      "sha256": "f7230e3ae4197e653255dfe0347cc9d2ec9705625587101d0ef8adf213534a82"
+    },
+    {
+      "path": "validate_outputs.py",
+      "bytes": 7379,
+      "sha256": "f0e305432f2e47514f9e715e34ffdd4ef528d8ea7e9d9125072afc7c3ff412a1"
+    },
+    {
+      "path": "videos/预览_动态坐标轴_滚动20日.png",
+      "bytes": 462975,
+      "sha256": "7758bf02ae30971673f46734fe64ef3033cf8dde00f2c7e728457096cef3dad8"
+    },
+    {
+      "path": "videos/预览_滚动20日.png",
+      "bytes": 452884,
+      "sha256": "f1933096151fca4aa8607b48bdcb37717bd5a37f647118ffe43f00f3ae8835bd"
+    },
+    {
+      "path": "绘制封面.py",
+      "bytes": 1845,
+      "sha256": "9b67957a7db7e39a2eac52e4f2cb1d8dce36649e095972efd79398bc7ddf8564"
+    },
+    {
+      "path": "配图/00-封面.png",
+      "bytes": 80579,
+      "sha256": "4054469337d0cdaaac890441eb48feeb7de66d4a9cc3354c8e1bf6d327fa8856"
+    },
+    {
+      "path": "配图/01-924赛马图.png",
+      "bytes": 363649,
+      "sha256": "9503ec417fb6f459671198464b0bde6dd190fefcf4bc9b08ec62b480bf6b3ae7"
+    },
+    {
+      "path": "配图/01-赛马图成品.png",
+      "bytes": 452884,
+      "sha256": "f1933096151fca4aa8607b48bdcb37717bd5a37f647118ffe43f00f3ae8835bd"
+    },
+    {
+      "path": "配图/02-动态坐标轴.png",
+      "bytes": 180643,
+      "sha256": "ef486efdd6625d896aafc9b3d577c64d005706d01bd6a0eeae12fcde71c0224b"
+    },
+    {
+      "path": "配图/03-交互网页版.png",
+      "bytes": 272587,
+      "sha256": "9c64eed61e9bd90dc16f85528451636ae35afd07336bb3a873c74bd975eaf844"
+    }
+  ]
+}

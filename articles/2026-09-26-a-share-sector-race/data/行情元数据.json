@@ -1,0 +1,12 @@
+{
+  "source": "https://91.push2his.eastmoney.com/api/qt/stock/kline/get",
+  "source_type": "Eastmoney board index daily K-line",
+  "adjustment": "unadjusted (fqt=0)",
+  "calendar_source": "data/交易日历.csv（日期源：申万A指801003）",
+  "first_reference_date": "2024-09-23",
+  "last_verified_date": "2026-09-24",
+  "trading_days": 488,
+  "boards": 30,
+  "rows": 13932,
+  "captured_at": "2026-09-26"
+}

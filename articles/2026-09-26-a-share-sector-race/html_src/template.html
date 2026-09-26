@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <link rel="icon" href="data:,">
+  <title>A股主题板块轮动赛马图</title>
+  <style>/*__INLINE_CSS__*/</style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="eyebrow"><span class="pulse"></span> 东方财富板块日线 · 截至 <span id="as-of">—</span></div>
+      <h1>A股主题板块<span>轮动赛马图</span></h1>
+      <p class="intro">三种累计涨跌幅视角。沿交易日时间轴观察曲线、排名与领涨板块的变化。</p>
+    </header>
+
+    <section class="dashboard" aria-label="板块轮动动态图">
+      <div class="toolbar">
+        <div class="mode-tabs" id="mode-tabs" role="tablist" aria-label="时间区间"></div>
+        <div class="toolbar-note">收盘价计算 · 单位 %</div>
+      </div>
+
+      <div class="stage-header">
+        <div>
+          <div class="stage-kicker" id="mode-kicker">累计涨跌幅</div>
+          <div class="date-line"><strong id="current-date">—</strong><span id="current-window"></span></div>
+        </div>
+      </div>
+
+      <div class="metrics" aria-live="off">
+        <div class="metric"><span>当前领涨</span><strong id="leader-name">—</strong></div>
+        <div class="metric"><span>领涨幅度</span><strong id="leader-value">—</strong></div>
+        <div class="metric"><span>覆盖交易日</span><strong id="day-count">—</strong></div>
+      </div>
+
+      <section class="chart-section" aria-label="历史曲线">
+        <div class="section-heading"><h2 id="line-title">板块累计涨跌幅曲线</h2><span>曲线随日期推进</span></div>
+        <canvas id="line-chart" role="img" aria-label="主题板块涨跌幅历史曲线"></canvas>
+      </section>
+
+      <div class="playback" aria-label="动画播放控制">
+        <button class="play-button" id="play-button" type="button" aria-label="播放动画">▶ <span>播放</span></button>
+        <button class="reset-button" id="reset-button" type="button" aria-label="回到首日">↺ <span>重播</span></button>
+        <div class="timeline-wrap"><input id="timeline" type="range" min="0" max="0" step="1" value="0" aria-label="选择交易日"><div class="timeline-labels"><span id="timeline-start">—</span><span id="timeline-end">—</span></div></div>
+        <label class="speed-control">速度 <select id="speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="0.75" selected>0.75×</option><option value="1">1×</option><option value="2">2×</option></select></label>
+      </div>
+
+      <section class="chart-section race-section" aria-label="板块排名">
+        <div class="section-heading"><h2 id="race-title">当前累计涨跌幅排名</h2></div>
+        <canvas id="race-chart" role="img" aria-label="当前日期各主题板块涨跌幅排名条形图"></canvas>
+      </section>
+    </section>
+
+    <footer class="footer"><span>数据：东方财富板块日 K 线 · fqt=0</span><span>累计涨跌幅 = 当前收盘价 ÷ 基准收盘价 − 1</span><span>动画过渡帧用于展示，日期值为真实日线计算结果</span></footer>
+  </main>
+  <script id="race-data" type="application/json">__EMBEDDED_DATA__</script>
+  <script>/*__INLINE_JS__*/</script>
+</body>
+</html>
