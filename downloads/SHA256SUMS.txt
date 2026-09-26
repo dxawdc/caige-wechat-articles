@@ -1,4 +1,4 @@
-dec7f856af684e4a14b3089e1d74c0e85e47fe2745115e3ece0e47b084a41c3f  a-share-sector-race_v1.1.0.zip
+1627aee6b76aaeaa2aede2fc876572ab71e6d6db9501e2ed7ea07a3a02d9b38a  a-share-sector-race_v1.1.1.zip
 d25e57b4a1b7cc1d39ddf5b3764e36d5c8010e1b85255c6aa87a54fd10e9433b  asian-games_v1.0.0.zip
 f188016255f004889870a60d8941d9c3ae3f0d16e6e7338294e8dfca0ef1e031  a-share-fund-flow_v1.0.0.zip
 8dbc89c10e8ed8d949bb6fe6260386bd41945b4199369111d9b1dfd6064ec11d  data-analysis-viz_v1.0.0.zip

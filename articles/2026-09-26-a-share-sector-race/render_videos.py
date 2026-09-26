@@ -119,7 +119,7 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
     if portrait:
         fig = plt.figure(figsize=(10.8, 19.2), dpi=100)
         ax = fig.add_axes([.095, .655, .83, .18])
-        race = fig.add_axes([.31, .045, .615, .535])
+        race = fig.add_axes([.225, .045, .70, .535])
     else:
         fig = plt.figure(figsize=(14.4, 13), dpi=100)
         ax = fig.add_axes([.075, .625, .85, .245])
@@ -190,11 +190,13 @@ def draw_video_smooth(window, pairs, arr, start, target, rolling_starts=None,
              ranking_title, fontsize=19 if portrait else 14, weight="bold")
     for rank in range(1, n, 2):
         race.axhspan(rank - .5, rank + .5, color="#f7f9f8", zorder=0)
-    name_transform = blended_transform_factory(race.transAxes, race.transData)
+    name_transform = blended_transform_factory(
+        fig.transFigure if portrait else race.transAxes, race.transData)
     bars, name_artists, value_artists = [], [], []
     for i in range(n):
         bars.append(race.barh(i, 0, height=.72, color=hues[i], edgecolor="white", linewidth=.35)[0])
-        name_artists.append(race.text(-.012, i, names[i], ha="right", va="center",
+        name_artists.append(race.text(.095 if portrait else -.012, i, names[i],
+                                      ha="left" if portrait else "right", va="center",
                                       transform=name_transform, fontsize=19 if portrait else 10.5,
                                       color="#293b42"))
         value_artists.append(race.text(0, i, "", ha="left", va="center",

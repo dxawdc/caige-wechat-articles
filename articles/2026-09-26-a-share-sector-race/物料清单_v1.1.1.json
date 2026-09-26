@@ -1,6 +1,6 @@
 {
   "id": "2026-09-26-a-share-sector-race",
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "updated": "2026-09-26",
   "entrypoint": "prepare_data.py",
   "basic": "render_videos.py",
@@ -223,12 +223,12 @@
     {
       "path": "README.md",
       "bytes": 4083,
-      "sha256": "5d00aadc656a9f2362fb467c51942a2d71f4b15bb5577e817c736f359ff5637b"
+      "sha256": "4b62e82a2bab04b3f13af237e7484a6d3688367618e242434ee5c0ad3348824a"
     },
     {
       "path": "render_videos.py",
-      "bytes": 20402,
-      "sha256": "2ba926f7bbccabccd9516a6825be308f6736a55a629d7f1a65ce400d4f5f4d43"
+      "bytes": 20528,
+      "sha256": "97a1b62055428d3b0d10353b40db4f2b6b01b0339eb4e3c4aec32666c40cb0d3"
     },
     {
       "path": "validate_outputs.py",
@@ -237,8 +237,8 @@
     },
     {
       "path": "videos/预览_2024年9月24日至今_手机竖屏.png",
-      "bytes": 591219,
-      "sha256": "03c96a3e37b8409359520f2549b5bdb89d91f5cd876fb4361d0ee1d9c7d5242b"
+      "bytes": 592467,
+      "sha256": "03041388ede7aa9bdb2049994a2bc012b466aa226a9809990f015088f0c1e259"
     },
     {
       "path": "videos/预览_动态坐标轴_滚动20日.png",
@@ -280,5 +280,6 @@
       "bytes": 272587,
       "sha256": "9c64eed61e9bd90dc16f85528451636ae35afd07336bb3a873c74bd975eaf844"
     }
-  ]
+  ],
+  "material_policy": "latest-complete-set-only"
 }
