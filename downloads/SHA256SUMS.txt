@@ -21,4 +21,4 @@ ce1871db100d8a69df91d30c14886a57fc094acd5e15f63be451aec03ef37443  03-login-strea
 42c3bbe20228875bb7a88635950054d03aa09e031ef564edcf582cd2bba56df8  02-excel-audit_v1.1.1.zip
 764616999fdd8200adb09c04f81c0f43fc029458e94a3b69ffd4e3c3b154d9eb  01-retention_v1.1.1.zip
 3aa5195cc24a5ec8e92c8480fea7ce03feeb9c0e500255e9c3babf509fda8cd4  precious-metals_v1.0.2.zip
-9e3d6aa50a76fc7aea9387bed5e9977ba3831796fe76911ae606507b112f30b5  driving-first-year_v1.0.0.zip
+8b61cdf764dde225a7353610497dc870fb8c45a2a7bf5dbfc34fcd301efee503  driving-first-year_v1.0.1.zip

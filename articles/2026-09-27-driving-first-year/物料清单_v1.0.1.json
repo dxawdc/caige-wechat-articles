@@ -1,13 +1,13 @@
 {
   "id": "2026-09-27-driving-first-year",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "updated": "2026-09-27",
   "entrypoint": "绘制图表.py",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2127,
-      "sha256": "cebc264714f7dddbf718e8f149c415a3ab03130ca0a11fc12f085dfa09fd7951"
+      "bytes": 2181,
+      "sha256": "7fec0e690c06ef2c10adccd140cb099bd17dafc490a721eea53901ad744c86ad"
     },
     {
       "path": "requirements.txt",
@@ -88,6 +88,16 @@
       "path": "配图/封面.png",
       "bytes": 113049,
       "sha256": "4bd60341e2e5d27e1b6ef609ddc27dcd5f88e7b91be5040358761c604bd2ccab"
+    },
+    {
+      "path": "配图/文末动图.gif",
+      "bytes": 1497023,
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "配图/顶部横幅.gif",
+      "bytes": 1284334,
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
     }
   ]
 }
