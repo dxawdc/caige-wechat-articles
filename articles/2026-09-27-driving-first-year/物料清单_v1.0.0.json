@@ -1,0 +1,93 @@
+{
+  "id": "2026-09-27-driving-first-year",
+  "version": "v1.0.0",
+  "updated": "2026-09-27",
+  "entrypoint": "绘制图表.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2127,
+      "sha256": "cebc264714f7dddbf718e8f149c415a3ab03130ca0a11fc12f085dfa09fd7951"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 87,
+      "sha256": "aad36a21d2b0808f4afe2aad3ada63b5570236a37e1b05116d3a12833295132c"
+    },
+    {
+      "path": "数据/匿名统计摘要.json",
+      "bytes": 2444,
+      "sha256": "9768a837653b4cfee09b9f6796e21caf5c7b952f26963dbd398ecc0d56ff4501"
+    },
+    {
+      "path": "数据/演示行程.csv",
+      "bytes": 15872,
+      "sha256": "5a7a4faa5b6c215de723d5193c6306a2f9215a1a9cd69ff9d8d7c126d2dead09"
+    },
+    {
+      "path": "生成演示数据.py",
+      "bytes": 2429,
+      "sha256": "67fb84196c6cfee89a0e17749880d016383afca0809dbed91403378e82803b12"
+    },
+    {
+      "path": "绘制图表.py",
+      "bytes": 28090,
+      "sha256": "3906d5045ae57a3b396f6d997d4a7a5405bde153e78dcbad43d97dacbb6aeaad"
+    },
+    {
+      "path": "配图/图01_年度驾驶日历.png",
+      "bytes": 603265,
+      "sha256": "a8ef1614507f8adcc3a0c3037612d42f1940778ff1981850d877171376f97b77"
+    },
+    {
+      "path": "配图/图02_累计里程动态曲线.gif",
+      "bytes": 571082,
+      "sha256": "2734ef7cc3b580f1d24e9d77283a3401d5c66c13ca357a53227b6560fac323c1"
+    },
+    {
+      "path": "配图/图03_月度记录与里程.png",
+      "bytes": 200117,
+      "sha256": "959ca6d9023b485974b3ad875ccae1fac293bd7815165ef39065a4aed1f70d9d"
+    },
+    {
+      "path": "配图/图04_一天出发时间分布.png",
+      "bytes": 138266,
+      "sha256": "7c15e62cb2e7f45818c7be4a40e8f86a2ebe3d6c14c74d15e9c7c4b6e2cb35b1"
+    },
+    {
+      "path": "配图/图05_星期小时热力图.png",
+      "bytes": 154127,
+      "sha256": "02e335356b5b3a5843eadbae1bc2516db959da309ce54da1be2030c24113f3b4"
+    },
+    {
+      "path": "配图/图06_单次里程分布.png",
+      "bytes": 171505,
+      "sha256": "6fb24ea7c01b8ddf0774d1e375002c2ba01705e2ca3e755b51df7354cf8739de"
+    },
+    {
+      "path": "配图/图07_常见线路匿名排行.png",
+      "bytes": 187792,
+      "sha256": "9679c7848d0e5ec986d048e5777a665b6749dda1aadd218771ae5bcb19e2c813"
+    },
+    {
+      "path": "配图/图08_高频线路出发小时.png",
+      "bytes": 159950,
+      "sha256": "6373d151ce61737cf6e2c2da695e9704448dd0bdfecef247cef9505119a6e43e"
+    },
+    {
+      "path": "配图/图09_里程速度时长散点.png",
+      "bytes": 239314,
+      "sha256": "125b825c5e4d4dadc2a35eb369a2a0b287c52287c586df3d72d6fd9777f1bed1"
+    },
+    {
+      "path": "配图/图10_月度平均速度.png",
+      "bytes": 162141,
+      "sha256": "1502394a730fd68d706c3ad02e5b966dcfd570350263fca002b140f68e04e52d"
+    },
+    {
+      "path": "配图/封面.png",
+      "bytes": 113049,
+      "sha256": "4bd60341e2e5d27e1b6ef609ddc27dcd5f88e7b91be5040358761c604bd2ccab"
+    }
+  ]
+}

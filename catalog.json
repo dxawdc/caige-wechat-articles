@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "driving-first-year",
+      "title": "拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-09-27-driving-first-year",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/driving-first-year_v1.0.0.zip",
+      "summary": "绘图源码、180 条虚构演示行程、匿名统计摘要、年度驾驶日历与累计里程动画等 10 张正文图"
+    },
     {
       "id": "a-share-sector-race",
       "title": "“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图",

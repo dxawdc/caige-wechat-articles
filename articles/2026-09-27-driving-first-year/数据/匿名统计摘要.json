@@ -1,0 +1,108 @@
+{
+  "period_start": "2025-09-27",
+  "period_end_exclusive": "2026-09-27",
+  "visible_start": "2025-11-14",
+  "visible_end": "2026-09-24",
+  "records": 566,
+  "active_dates": 257,
+  "estimated_km": 3273.4,
+  "recorded_hours": 182.2,
+  "median_distance_km": 5.0,
+  "under_10_km": 524,
+  "weekday_records": 430,
+  "weekend_records": 136,
+  "hour_10": 177,
+  "hour_20": 132,
+  "top_two_route_records": 264,
+  "top_route_counts_anonymous": {
+    "线路01": 133,
+    "线路02": 131,
+    "线路03": 15,
+    "线路04": 14,
+    "线路05": 13,
+    "线路06": 10,
+    "线路07": 9,
+    "线路08": 8
+  },
+  "longest_record_km": 50.8,
+  "under_one_count": 14,
+  "monthly": [
+    {
+      "month": "2025-11",
+      "records": 45,
+      "estimated_km": 207.5,
+      "mean_page_speed_kmh": 13.8,
+      "median_page_speed_kmh": 14.0
+    },
+    {
+      "month": "2025-12",
+      "records": 58,
+      "estimated_km": 242.9,
+      "mean_page_speed_kmh": 14.83,
+      "median_page_speed_kmh": 15.0
+    },
+    {
+      "month": "2026-01",
+      "records": 57,
+      "estimated_km": 285.0,
+      "mean_page_speed_kmh": 16.88,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-02",
+      "records": 49,
+      "estimated_km": 303.3,
+      "mean_page_speed_kmh": 17.65,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-03",
+      "records": 70,
+      "estimated_km": 436.0,
+      "mean_page_speed_kmh": 17.74,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-04",
+      "records": 57,
+      "estimated_km": 405.9,
+      "mean_page_speed_kmh": 19.07,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-05",
+      "records": 53,
+      "estimated_km": 365.1,
+      "mean_page_speed_kmh": 18.38,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-06",
+      "records": 39,
+      "estimated_km": 205.7,
+      "mean_page_speed_kmh": 17.59,
+      "median_page_speed_kmh": 18.0
+    },
+    {
+      "month": "2026-07",
+      "records": 53,
+      "estimated_km": 276.4,
+      "mean_page_speed_kmh": 16.74,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-08",
+      "records": 54,
+      "estimated_km": 386.8,
+      "mean_page_speed_kmh": 18.13,
+      "median_page_speed_kmh": 17.0
+    },
+    {
+      "month": "2026-09",
+      "records": 31,
+      "estimated_km": 158.8,
+      "mean_page_speed_kmh": 17.65,
+      "median_page_speed_kmh": 17.0
+    }
+  ]
+}
