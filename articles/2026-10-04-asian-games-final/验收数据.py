@@ -4,6 +4,7 @@ import json
 import pandas as pd
 from PIL import Image
 from 图表工具 import ROOT, D, map_features
+from 代表团地图工具 import mapping
 
 def main():
     noc=pd.read_csv(D/'国家地区奖牌榜.csv')
@@ -41,14 +42,28 @@ def main():
     for code in sums.index:assert sums[code]==noc.set_index('noc').loc[code,'gold']
     for path in (ROOT/'配图').glob('*.png'):
         with Image.open(path) as im:assert im.width>=1000 and im.height>=1000
-    assert len(list((ROOT/'配图').glob('*.png')))==6
+    assert len(list((ROOT/'配图').glob('*.png')))==7
+    country_map=mapping()
+    assert len(country_map)==46 and country_map.index.is_unique
+    assert country_map.geometry_type.ne('nonterritorial').sum()==45
+    assert country_map[country_map.geometry_type=='nonterritorial'].index.to_list()==['ART']
+    assert country_map.gold.eq(noc.set_index('noc').gold).all()
+    audit=json.loads((D/'运动员字段核验.json').read_text(encoding='utf-8'))
+    assert audit['biography_samples']==51 and not audit['roster_has_geographic_fields']
+    assert audit['biography_geographic_field_samples']==0
+    assert all(not r['info_has_geography_terms'] for r in audit['samples'])
+    for row in audit['samples']:
+        profile=json.loads((D/f'官方原始/运动员简介_{row["discipline"]}_{row["reg"]}.json').read_text(encoding='utf-8'))
+        assert sorted(profile)==row['fields']
     with Image.open(ROOT/'封面/亚运会封面.png') as im:assert im.size==(900,383)
-    result={'status':'passed','date':'2026-10-04','version':'v1.0.0',
+    result={'status':'passed','date':'2026-10-04','version':'v1.1.0',
         'orgs':46,'medal_records':1568,'gold_records':470,'gold_event_keys':469,
         'china_gold':169,'china_gold_disciplines':38,'all_noc_colors_match':True,
         'gold_dates_verified':True,'region_rows':34,'verified_regions':12,'pending_regions':22,
         'ranking_scope':'已核验地区比较；全国省级完整排名需补齐22地区来源',
-        'missing_kept_null':True,'charts':6,'cover_pixels':[900,383]}
+        'missing_kept_null':True,'charts':7,'country_map_territories':45,
+        'country_map_gold':int(country_map.gold.sum()),'athlete_geography':'roster absent; 51 biography samples absent',
+        'cover_pixels':[900,383]}
     (ROOT/'数据验收.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(result,ensure_ascii=False))
 

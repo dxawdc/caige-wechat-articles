@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "date": "2026-10-04",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "orgs": 46,
   "medal_records": 1568,
   "gold_records": 470,
@@ -15,7 +15,10 @@
   "pending_regions": 22,
   "ranking_scope": "已核验地区比较；全国省级完整排名需补齐22地区来源",
   "missing_kept_null": true,
-  "charts": 6,
+  "charts": 7,
+  "country_map_territories": 45,
+  "country_map_gold": 470,
+  "athlete_geography": "roster absent; 51 biography samples absent",
   "cover_pixels": [
     900,
     383

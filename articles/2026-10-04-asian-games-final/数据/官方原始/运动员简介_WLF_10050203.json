@@ -1,0 +1,20 @@
+{
+  "Reg": "10050203",
+  "Disc": "WLF",
+  "DiscDesc": "Weightlifting",
+  "hasMembers": false,
+  "Org": "CHN",
+  "OrgDesc": "People's Republic of China",
+  "Type": "A",
+  "MedClass": "",
+  "Gender": "M",
+  "BirthDateRaw": "2005-08-24",
+  "Name": "CHEN Shunnan",
+  "NameS": "CHEN S",
+  "GivenName": "Shunnan",
+  "FamilyName": "CHEN",
+  "IFId": "",
+  "Height": null,
+  "Weight": 84.55,
+  "Info": ""
+}

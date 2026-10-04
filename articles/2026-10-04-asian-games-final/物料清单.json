@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "updated": "2026-10-04",
   "articleId": "asian-games-final",
   "entrypoint": "绘制图表.py",
@@ -13,13 +13,13 @@
     },
     {
       "path": "02_地区榜单.py",
-      "bytes": 1487,
-      "sha256": "0ee347164a838954f5a812337b3457fb55bd27701d8233bc9cc182c57354734b"
+      "bytes": 1433,
+      "sha256": "546e0c32a7e57cbca00fd9b9288473ccada0e3fd7ae647e650a567d76e1c5d14"
     },
     {
       "path": "03_地区金牌地图.py",
-      "bytes": 2929,
-      "sha256": "cafc327eae1461db238a27418f15891221c0f2d34bbd03f5cb65493aef190a7b"
+      "bytes": 2925,
+      "sha256": "feef955e0442a145670a75ad9adfe058142fc3c1abefd06275b25ba824127076"
     },
     {
       "path": "04_项目热力矩阵.py",
@@ -42,14 +42,24 @@
       "sha256": "107e8b92e549ac84fb2ae65da69485ac965e555a54b9260d4dfee495eee521b2"
     },
     {
+      "path": "08_代表团金牌地图.py",
+      "bytes": 2021,
+      "sha256": "47df1260baedcd41bd3f8f137530e49188dc12308260852530c21308c4dcd08a"
+    },
+    {
       "path": "README.md",
-      "bytes": 7380,
-      "sha256": "ba8fe751e6ef83d1f1d3d0ab37f08a9788747bf914c7bae86cab02469a7ea698"
+      "bytes": 9585,
+      "sha256": "7c78c95016a3269deb4be9229875050be9b2a41ebbeeb2c532917b7283471bc0"
     },
     {
       "path": "requirements.txt",
       "bytes": 88,
       "sha256": "bb0e68df757b1375c0b27d5fb5d48c9f4f9da0891dfa7da5726aa0c41385a9f1"
+    },
+    {
+      "path": "代表团地图工具.py",
+      "bytes": 2397,
+      "sha256": "11a49d935a42bbe9dcd5108d1e4536270fb86ed33aafb609dbb62fb329d77e5f"
     },
     {
       "path": "图表工具.py",
@@ -72,6 +82,16 @@
       "sha256": "47226eea110e51ca7d434b17d520afe291e4b513d9fdc5201fb4302457c7438e"
     },
     {
+      "path": "数据/世界边界.geojson",
+      "bytes": 1010239,
+      "sha256": "049b334579e5a42d5d16c72d014d380e048e39fc1504049f212acb589484d2fa"
+    },
+    {
+      "path": "数据/世界边界.来源.json",
+      "bytes": 239,
+      "sha256": "fcd3ec93afab679ef2d3ba29816ff1d3d98bcd0cadd7cf38f5f9bf5f815e8a76"
+    },
+    {
       "path": "数据/中国分项目金牌.csv",
       "bytes": 698,
       "sha256": "78387eae93a3a23f8c5687433c4f82f79bf9dcbefae3f3f4ae086582cc9713a2"
@@ -85,6 +105,11 @@
       "path": "数据/中国省级边界.来源.json",
       "bytes": 321,
       "sha256": "d6ee6cba2079a533cdc53d6137f0eeb2e87eda680cf760ba162db59904b688d8"
+    },
+    {
+      "path": "数据/代表团地图映射.csv",
+      "bytes": 4813,
+      "sha256": "a98cd6f31efc82080dde7fa865c7ab05cf17ce7deab9da5e0b73387ae569a2e8"
     },
     {
       "path": "数据/代表团项目热力矩阵.csv",
@@ -135,6 +160,16 @@
       "path": "数据/官方原始/代表团.来源.json",
       "bytes": 216,
       "sha256": "be27e2afb30fac7668367fa1ead53d5045bb45b59f404652bcaa894ae99c8497"
+    },
+    {
+      "path": "数据/官方原始/参赛名单.json",
+      "bytes": 5521414,
+      "sha256": "b5e6aacc81b881ed2e4b4ac74dc111ae38f73bc3fe335ba2825195b70ccf1db1"
+    },
+    {
+      "path": "数据/官方原始/参赛名单.来源.json",
+      "bytes": 219,
+      "sha256": "7889a64bbc846d3f44cc40956a40637adab21f4717903c8d82300f441f84ce5a"
     },
     {
       "path": "数据/官方原始/奖牌明细_AFG.json",
@@ -617,6 +652,516 @@
       "sha256": "7b163e6736c044b980473ea93a757d4e910656b274582b60b7bcfcdc07d78709"
     },
     {
+      "path": "数据/官方原始/运动员简介_ARC_10804218.json",
+      "bytes": 394,
+      "sha256": "af8e1567c48681100f19610916901a08ba53d50b6b1e1aa6bea90cfae148f062"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ARC_10804218.来源.json",
+      "bytes": 232,
+      "sha256": "29c8519c9b49160f6d7703b559b37ae72b47f4cd48053179ce3189f33cd6314b"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ATH_4270665.json",
+      "bytes": 406,
+      "sha256": "b8ea382f73b485284f07eb291229643c0d80eeb2b408b86126e80868c6852a46"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ATH_4270665.来源.json",
+      "bytes": 231,
+      "sha256": "f9be7ffe1007556ca2490413432add13571476ca2d3212a99042e27c7c90eb59"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BBL_8408054.json",
+      "bytes": 707,
+      "sha256": "3f14e871e4e3ce61a477575ad35cfbc0cc1219b37a9ecd3502ef14752bb70e28"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BBL_8408054.来源.json",
+      "bytes": 231,
+      "sha256": "583e108e051fc6d0cb4809a1eda9fa88c8345278f450db74591c0af31ac605b1"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BDM_14649534.json",
+      "bytes": 1393,
+      "sha256": "beafb0612e895558c33278bc734fbde831b9d34a8ad8da8bf4b320db2b7d6139"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BDM_14649534.来源.json",
+      "bytes": 232,
+      "sha256": "3b7da714e62e2a03bf97e3a57e18340e3b06fab901eb6fb6be70e3feb412e44a"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BK3_557199.json",
+      "bytes": 370,
+      "sha256": "daffbe607464fc59a338663446a0bf1d4bd7bc0e18134576910bca4d6eb84582"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BK3_557199.来源.json",
+      "bytes": 230,
+      "sha256": "06f6720e76743337fce5c3448e67287dff03f2e2f0e36e48cb547d7eeb9cacf5"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BKB_12707249.json",
+      "bytes": 1115,
+      "sha256": "5463f5ce30101fba1cd6ce235631dbb4b67bc9d57ad2d7aeec3735a1344421ee"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BKB_12707249.来源.json",
+      "bytes": 232,
+      "sha256": "fc8dfa3e2690acc7d6c557c605744a2e1e217f1b1d5ab4fb9ccc7312c958d4fe"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BKG_8295944.json",
+      "bytes": 1087,
+      "sha256": "c72f3764e5a238cf961d5f1e7af050e5dc8bdb165a10b46c8fed8f8e9a35d753"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BKG_8295944.来源.json",
+      "bytes": 231,
+      "sha256": "6d71d037c162379630c7d6b8945df82680022907a2e0cb16b47489dd1b191316"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BMF_11976297.json",
+      "bytes": 388,
+      "sha256": "7575f6369ab156dcf09ae91d4ff8047819d50ced34d8a341ca9ee7a5bc580fef"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BMF_11976297.来源.json",
+      "bytes": 232,
+      "sha256": "4bc3a0d111dae1637351405feec900427803ab8f2b893e380489fd36fa94b8e6"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BMX_12075954.json",
+      "bytes": 731,
+      "sha256": "bd7ccbdad2688ecead121097a4eb5c40ae525d4d15af9763bffc65dfcce55998"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BMX_12075954.来源.json",
+      "bytes": 232,
+      "sha256": "dcf8caebd77a949146705f77a2454d9d7ce57a941b426ddd4106a4d1e0dd7ef4"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BOX_4356307.json",
+      "bytes": 373,
+      "sha256": "d3daae0813783d28069f3c86420ad9596b16625faf99c113c5ea214121050ff5"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_BOX_4356307.来源.json",
+      "bytes": 231,
+      "sha256": "69876872424b4f94db7f097760a76df1006e120d1fb623e53b4da2bc865ca06f"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CKT_8252938.json",
+      "bytes": 376,
+      "sha256": "057dda2642ec7de932417a681343c7593ca0ea15cc4f5ec6f4b72bf09c990cab"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CKT_8252938.来源.json",
+      "bytes": 231,
+      "sha256": "a027d8e0eaec5ce699bc3181d683695e35dbc86adf314362f627244991ca0307"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CLB_7632008.json",
+      "bytes": 411,
+      "sha256": "a61cbfb84478b175bd1f4f7cab5d68f5275b5cdc15045a85c3dd98ad0d1b4913"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CLB_7632008.来源.json",
+      "bytes": 231,
+      "sha256": "c0a245de5eb166d7fee9e91d79565ac292546ea9c451690824cf12b928caecf2"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CRD_12091019.json",
+      "bytes": 393,
+      "sha256": "f22f2f1a901b1f736293fba97a28d5367e524e92d58ac0b6d87f3e70ef9c9588"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CRD_12091019.来源.json",
+      "bytes": 232,
+      "sha256": "784fa842646fb1474ee8f98ec82a37fc78975823e4f699c63f3a1f4a7b8dfdf9"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CSL_741549.json",
+      "bytes": 379,
+      "sha256": "420f7e703e0db59bf961093ebf7ebcc6658e467cf21679b006214ce13f89079a"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CSL_741549.来源.json",
+      "bytes": 230,
+      "sha256": "8bc59cd03d08c69dd933df8bf1c45e558c99504c7099e80e885420105c6ae4eb"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CSP_4704966.json",
+      "bytes": 388,
+      "sha256": "bc24db60e39f9da44344332f2b549b55d29329e29ca0c92ef59fc3805c7770af"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CSP_4704966.来源.json",
+      "bytes": 231,
+      "sha256": "88631592d14050608ec1c8d0d46e9135dc49a2f1ab710b74318bd6eeafc9b944"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CTR_8064266.json",
+      "bytes": 400,
+      "sha256": "f6b7bab051a0483be6de61535ff4f0abed494d3639088e21dc3bd1a722357f35"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_CTR_8064266.来源.json",
+      "bytes": 231,
+      "sha256": "a474d57570e6313173bc51c43677404fb3621769cc03cd878c91a166251d8397"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_DIV_8221952.json",
+      "bytes": 368,
+      "sha256": "9ce024e8fa89bdc559bb0dbcd0806721e4b6d9b7d1535adc6c75654a29ace0a7"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_DIV_8221952.来源.json",
+      "bytes": 231,
+      "sha256": "87f2caf466ff658a41678d291d12a6b36135a829137d1b90eb62234dea045e20"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ELS_6716820.json",
+      "bytes": 392,
+      "sha256": "a29668dd8506078d1a1d71ab3ce7bbc31efad69e0750d68fb6c6947fab02783b"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ELS_6716820.来源.json",
+      "bytes": 231,
+      "sha256": "71d7ec97a6c6603323011f201a2ae2913f815128502ca42290cc3c1a0df33a7b"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_EQU_7934547.json",
+      "bytes": 372,
+      "sha256": "ef2cbb4ea472e11a1bfb2d37b70ddd9a5c82a9d4717f24eb8e12172a826eba18"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_EQU_7934547.来源.json",
+      "bytes": 231,
+      "sha256": "3d2eb4707280f0b370aa4c03ccd9fc3db21dea6c81be771c4aa824a52b858ca1"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_FBL_5336029.json",
+      "bytes": 406,
+      "sha256": "6eef5cfdb82f49a32fb0589e2a5c56cdeb2fa9fe632c6d4699f149c86c4a3dc7"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_FBL_5336029.来源.json",
+      "bytes": 231,
+      "sha256": "24be5a47e5501d5da230cd5228d0bd2c15c2724b87546c518f8ee0712a8b3b15"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_FEN_3975112.json",
+      "bytes": 372,
+      "sha256": "2c5dfbcba66166b22e2e1bf5727a112f9877330b802126897359a611ed0522b6"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_FEN_3975112.来源.json",
+      "bytes": 231,
+      "sha256": "c8110885088d1a3883ed7045cd23e8645f1c71639718ae1143e9230c13adc470"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GAR_8123551.json",
+      "bytes": 388,
+      "sha256": "a0b5c651a60b1c069890235b5fdd65640eff907629984667081ed2dc8cebedc2"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GAR_8123551.来源.json",
+      "bytes": 231,
+      "sha256": "2f3e2eaeb4b250c07db99220435bf789fb654bac9329580d2cd2fedd650a3f29"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GLF_11354563.json",
+      "bytes": 897,
+      "sha256": "2af3bc15cc26a6a891cefa61dce6af3562b0c7650201541a8ddbd11409a6c91a"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GLF_11354563.来源.json",
+      "bytes": 232,
+      "sha256": "5b559d81f3662d09ccfdbb5d486947f3de24b9eb09ce8cbcaf38e6af4fe51772"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GRY_8118282.json",
+      "bytes": 808,
+      "sha256": "e22e9a0e046cf434c58e9eae31345405609a0a22e751de6f06d12051895a2966"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GRY_8118282.来源.json",
+      "bytes": 231,
+      "sha256": "3326937c75c1fd36584f1328f433733fcdee1b2ce76c8f2b4be80770552e6779"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GTR_8114722.json",
+      "bytes": 395,
+      "sha256": "c458b47ee24b8cbb470f60bc723a63db3ce9e52644ee81a8d3cd86349af4ad05"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_GTR_8114722.来源.json",
+      "bytes": 231,
+      "sha256": "793eb2186efaceaa6e534c7b329189e9948d15d155e26bca33243086529c9506"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_HBL_12430569.json",
+      "bytes": 372,
+      "sha256": "2e2079ec0c47f37bf266afb8965b9ac43733409ee35f00af1d83b4daebfa4ed8"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_HBL_12430569.来源.json",
+      "bytes": 232,
+      "sha256": "51272b28a43e24e8e8127e3b6bebbf5a7772e31291d7b2fbbfb8fce225b7514a"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_HOC_1027131.json",
+      "bytes": 371,
+      "sha256": "40eb11d2b93d994b7f574c8ba3bc49edde51b6dbebaf6e30065bf3dc4ee15dae"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_HOC_1027131.来源.json",
+      "bytes": 231,
+      "sha256": "27c0d467f720ee1c1b587911e24a7056df5e96dfc364260b4469718eee4c3a5f"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_JUD_11269487.json",
+      "bytes": 382,
+      "sha256": "a6c0b7ec5ef5c530087315f223e398852f8d61aecb0342c8cf43af35ecd13c35"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_JUD_11269487.来源.json",
+      "bytes": 232,
+      "sha256": "69d09413624ef439ffc0c87821728a27893b772b0d4ddedc42160f39d35832eb"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_KTE_12582744.json",
+      "bytes": 1067,
+      "sha256": "8f9c0b5e39d5fd09fea3bba86c6326672befa9d3abd5fb0531138cbd37a2a731"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_KTE_12582744.来源.json",
+      "bytes": 232,
+      "sha256": "b72f991d4adbed4ac22298ef181804c5ba9dca88b2ace8dbc2286a68c4778da5"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_MPN_11096401.json",
+      "bytes": 385,
+      "sha256": "2c3602b9b27762b891704e73bb0f9839fc27888736509e931f29faf7f04942ec"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_MPN_11096401.来源.json",
+      "bytes": 232,
+      "sha256": "b33dc043a8f4df2a28ea20eef9958053d4137333c2916c4e9a02a2bca5b91a69"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_MTB_5139893.json",
+      "bytes": 401,
+      "sha256": "cdcb4306eec8307deddc1381696696f2567a69cc091fed9854ed5b6186f475b5"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_MTB_5139893.来源.json",
+      "bytes": 231,
+      "sha256": "a2c98d39ee8bab30b1900edb292c5bcd385ab573e91d58ca873a97d17b64619f"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ROW_5633738.json",
+      "bytes": 385,
+      "sha256": "399c583a3ed6c1ad61e84c39d317f65c9b78c53d0a3c1c6c73c0c1378d096b69"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_ROW_5633738.来源.json",
+      "bytes": 231,
+      "sha256": "866f454b5e203135a931b9e630ebfde355ead732d81248f9240e8a36672e6be3"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_RU7_888375.json",
+      "bytes": 364,
+      "sha256": "040593097129b21d5f4434010a4105583312a5443a2cc759ebc3d29c4d321986"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_RU7_888375.来源.json",
+      "bytes": 230,
+      "sha256": "4b5899ba9837c3ba19ff005c098032b9f679085fbe46c0177131584ce18e2881"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SAL_325339.json",
+      "bytes": 1108,
+      "sha256": "ef1d827713b3d2ffdde895c9b3a5bbace90ac734ec6a4425727e885d5517db30"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SAL_325339.来源.json",
+      "bytes": 230,
+      "sha256": "bec8048b2a0c7e001c6ad54333c424b47c37182961484837b88828c349b81581"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SBL_15115381.json",
+      "bytes": 805,
+      "sha256": "f1823c95a11e4419c2ee77124bba5c0b5f73ec7d8d77927d8df62ea6c63a7945"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SBL_15115381.来源.json",
+      "bytes": 232,
+      "sha256": "57049b06db102a990254968d7c4974f7961ee48ea8790c2a6cf79f9c0d8672f7"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SHO_12486043.json",
+      "bytes": 399,
+      "sha256": "3ba61d502bf4385f1c7d06d279f95756fecd20b87d3ba8f687ba62c24b57c6ed"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SHO_12486043.来源.json",
+      "bytes": 232,
+      "sha256": "218aab4de18e727bfdcb4d4d9a04311f0e2e50fedd48aab370c5c8d0eb667ee8"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SKB_710577.json",
+      "bytes": 390,
+      "sha256": "ede60d666bc305ed660c0baff8d09ea48e72aaa3a2427924b650498afb15186d"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SKB_710577.来源.json",
+      "bytes": 230,
+      "sha256": "314bcedebfcd2925c34d2e0ada88ea729b2c26a58baf6d8d1bf7eca8d0c91fba"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SQU_989286.json",
+      "bytes": 370,
+      "sha256": "0acb7ce53bd0ce793b76833c008fc5589a268c35ede07b1da0e1a719c6c38cff"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SQU_989286.来源.json",
+      "bytes": 230,
+      "sha256": "3820561126444173acf9f51964b6a972a7b461c0580b01eee9c4010dd15a49f5"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SRF_8431343.json",
+      "bytes": 378,
+      "sha256": "d96c39bfae60d3363c42d293d001a1375276f7ccfb56a9968ba63d2d4a4c8dd0"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SRF_8431343.来源.json",
+      "bytes": 231,
+      "sha256": "3a87749b9687a3da3f1ae52123a028fef1581dde7430ff0c662803de9631a128"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SWA_14072369.json",
+      "bytes": 1315,
+      "sha256": "eef40cdfef79e5e488bc57b62b7681aacd15399c68a0409841b6095309697714"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SWA_14072369.来源.json",
+      "bytes": 232,
+      "sha256": "22b43d11b4d9b098d1a25e031011d5248d93eb72df21ceb42db34cd249b7dae8"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SWM_12381110.json",
+      "bytes": 372,
+      "sha256": "1a54d7ed93c3db098544f02410365d8417b49e314d85d0cc0889e6a0d031e828"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_SWM_12381110.来源.json",
+      "bytes": 232,
+      "sha256": "2ec81804562b2eb88b315fc7cae96137c0d6131440f13ddaaf0c5455e6675cf7"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TEN_10337694.json",
+      "bytes": 364,
+      "sha256": "2e036be26909f088f72c2c0453e60027cd22245710e9d3b06a4233e03ba92ba4"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TEN_10337694.来源.json",
+      "bytes": 232,
+      "sha256": "b2c19faae3e95e61f2767207b90dd00994456acedaf776206bfc2100ef513792"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TKW_943024.json",
+      "bytes": 396,
+      "sha256": "ffbe4a6664a1c6567d9fa7f003482614d2f50d86541dc8992c57eda533cbed6e"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TKW_943024.来源.json",
+      "bytes": 230,
+      "sha256": "b4febb9992e21a295c7db8e99a6dd40c9d280ecb7eec0ee0cca3408e1371ac12"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TRI_12740957.json",
+      "bytes": 925,
+      "sha256": "73c28bcd7ee395ce9b3f1d37e2b4c7a29564e62ef7586563fbeb17ce95be82a4"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TRI_12740957.来源.json",
+      "bytes": 232,
+      "sha256": "527faae352d634f6b97c48acf37cb992b20d4587b0cc04843ac6fc9b2979f3bc"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TTE_16276085.json",
+      "bytes": 373,
+      "sha256": "b42ff47647e092b8d418d075db9aaa9c2fd81c435cb15568a888e6b8a5118088"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_TTE_16276085.来源.json",
+      "bytes": 232,
+      "sha256": "8e964ff9f3cf2b2522469a7db5ddda24270e5781009066d294ae2901ae145683"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_VBV_15196232.json",
+      "bytes": 401,
+      "sha256": "e713ff88db6b92fcb3340c12ab87b01f8b4b3e7c7fe7b43b9617426ace5209db"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_VBV_15196232.来源.json",
+      "bytes": 232,
+      "sha256": "d33bc799cce9ec88c4d1c3eb9ba08550b79d98df9d1cb63e570716d618b8f73a"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_VVO_11980091.json",
+      "bytes": 394,
+      "sha256": "1b62ebf91f522724e5e6b307aa425dcda4a37355f8208578ab999ca991d7aa23"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_VVO_11980091.来源.json",
+      "bytes": 232,
+      "sha256": "3a13f42ea0890a468c42d3c4b7ee8edf0755ee2aff85ee37b3288cdcbb5098df"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WLF_10050203.json",
+      "bytes": 397,
+      "sha256": "8debb17f425676f1cdba60f4068525edab86ee21affd3b796eed81f2f6c11e28"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WLF_10050203.来源.json",
+      "bytes": 232,
+      "sha256": "e80e8472d32a0fdf3dbc4a64eea7ae99fc3df2363e7ba8c84fb2e63da8d2e39f"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WPO_10855134.json",
+      "bytes": 374,
+      "sha256": "ca3f69cb505ff6522b2b0303a799136dbc6f578eadff4a348a3154fe1c5c340d"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WPO_10855134.来源.json",
+      "bytes": 232,
+      "sha256": "6e787685cb68bcc30010422d2c2f6131bec5ba1414ddf9ef9141a5f0194be009"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WRE_8095567.json",
+      "bytes": 753,
+      "sha256": "a79727d61e05d4b9b5ec8560bb4f975707853145e4722ba529a1c0219cd8d7c6"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WRE_8095567.来源.json",
+      "bytes": 231,
+      "sha256": "78cc0cfb624cd41036758ce383b95ccb37ac44cbae8717cda3bf93e07fef6aaa"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WSU_4582552.json",
+      "bytes": 384,
+      "sha256": "dd8b845248e16ed1fff7adaa7e6e15b4c7f4d8655f660b8e600eeefab52e91ea"
+    },
+    {
+      "path": "数据/官方原始/运动员简介_WSU_4582552.来源.json",
+      "bytes": 231,
+      "sha256": "d9a66fbcc080b3b899c7d64c14afb6128b92ca3968a5164732d3017f9b719b8c"
+    },
+    {
       "path": "数据/官方原始/项目.json",
       "bytes": 15943,
       "sha256": "e2e8eafb4c78eb7e2e0650e27b130fc1e67cb5e42585e4d578b1cdd5258eafc5"
@@ -652,14 +1197,19 @@
       "sha256": "f2f84812ca15651719b34ae0d63ba8e32d4d4aa2e36044fdb9c5534dccc68ef5"
     },
     {
+      "path": "数据/运动员字段核验.json",
+      "bytes": 33332,
+      "sha256": "3acd03203b709db0a166af50fe1dd5e7e1219ae3b231c32ee4dc462a3925add1"
+    },
+    {
       "path": "数据/金牌日期补核.csv",
       "bytes": 239,
       "sha256": "fb4efef68d6ee09f10174d65c0c7d802fd46e089ebe9d062548cc1165ffb9346"
     },
     {
       "path": "数据验收.json",
-      "bytes": 549,
-      "sha256": "a9522a81869d1c3457d956f5224d564892f13e4c889486e7c86aea215cf2bb3a"
+      "bytes": 681,
+      "sha256": "9448756411c924e4ae4c3df4f1115f3c39493900213e0e636a35a0dec3a61895"
     },
     {
       "path": "整理数据.py",
@@ -672,9 +1222,14 @@
       "sha256": "1a2a1abf083868e4ecf229ea9cfe5e1fc2427d86cc946b79dc8d2418b60bb8fe"
     },
     {
+      "path": "生成地图映射.py",
+      "bytes": 2173,
+      "sha256": "bdd1e818bd9693d38d680abde463c532f892197ec27f00c9eb40e033ee87b5de"
+    },
+    {
       "path": "绘制图表.py",
-      "bytes": 579,
-      "sha256": "3411e0228d308c252e639205fa708674a5b250921cda7ba6dc6d3c7207bd4e91"
+      "bytes": 627,
+      "sha256": "bd024d4aad630202e12763fb7c818615f12c2b094db8d4b2713a7f9406c9c867"
     },
     {
       "path": "绘制封面.py",
@@ -693,23 +1248,23 @@
     },
     {
       "path": "配图/02_地区金牌比较.png",
-      "bytes": 150405,
-      "sha256": "d1dca349b4ce7bd551bf81d0533e7175e2e577af132106827bb21dae6d403af8"
+      "bytes": 138030,
+      "sha256": "054c155f3b539435b8b76cc9dbf5095523918d55d36a2058941f6de04ca429cb"
     },
     {
       "path": "配图/02_地区金牌比较.svg",
-      "bytes": 124526,
-      "sha256": "74d60e30a78be1067e52fca2e558cf1c268f564e2191a88ef5c61fecfa52950a"
+      "bytes": 105700,
+      "sha256": "d3b1017873faa5cea9619a9cf76f9464da0b286a2cdcbd492fbc9d170e8cb6f4"
     },
     {
       "path": "配图/03_地区金牌地图.png",
-      "bytes": 340803,
-      "sha256": "11eb77632263739614c3986440671df7ace2b10c254a0fcaf4efdc2b76e25054"
+      "bytes": 341456,
+      "sha256": "e154d1bdd120e98d43a4c0a825e66eb13a0e5ec887a244f6dcfbc2eadeb5a76f"
     },
     {
       "path": "配图/03_地区金牌地图.svg",
-      "bytes": 2261539,
-      "sha256": "f8620823a8d68468e524328febe9f6d2e7e0384e2792d08a8fba2763ae78d7ba"
+      "bytes": 2251180,
+      "sha256": "5b8a44ec0a3889b4b2bde27294622f0f61b90e64f94cd6b317cae3d394f783e8"
     },
     {
       "path": "配图/04_代表团项目热力矩阵.png",
@@ -742,6 +1297,16 @@
       "sha256": "8ea4ae6c2034ed5755151eeb565ed728f4baea779e43dbac7ea29fcad39e2793"
     },
     {
+      "path": "配图/07_代表团金牌地图.png",
+      "bytes": 422524,
+      "sha256": "0ed14e3474285e00ecc349ce54fcfcf4892c1bc58666b8b3acb3f77e7c916d44"
+    },
+    {
+      "path": "配图/07_代表团金牌地图.svg",
+      "bytes": 1839836,
+      "sha256": "3bd899101ef1187eb6f64cf21a9d8cc99c042368d2a32ed7f3eb0f6238ae6a29"
+    },
+    {
       "path": "采集地区.py",
       "bytes": 6337,
       "sha256": "4aa74f472dbd5ee75d458268920c76c16d935f0f5f1f429b1e09b9ea7edac6d3"
@@ -757,9 +1322,14 @@
       "sha256": "0535dae365b0eee91cbb9c29647c296103fb17ac7bd0fc198368f46af729759c"
     },
     {
+      "path": "采集补充.py",
+      "bytes": 5401,
+      "sha256": "51b984713a85afec855a5d0e7d41e791797dd3c513b6c16a02d3d9487a39196c"
+    },
+    {
       "path": "验收数据.py",
-      "bytes": 3204,
-      "sha256": "e0f9451c8215bc72f1457d6e383c6ca042587299ff53641922ba5311962d9e92"
+      "bytes": 4234,
+      "sha256": "48f348542d251369ad8668416a6edb9005ec99c39967913e672f1e6e1beb906d"
     }
   ]
 }

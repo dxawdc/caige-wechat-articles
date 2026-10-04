@@ -2,7 +2,7 @@
 
 微信公众号「可以叫我才哥」的公开配套资料：**26篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
-<!-- 版本：v1.18.0 | 更新时间：2026-10-04 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.18.1 | 更新时间：2026-10-04 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [亚运会169金收官：用Python做奖牌榜、地区榜单和金牌热力图](articles/2026-10-04-asian-games-final/README.md) · v1.0.0 | 46代表团完整奖牌榜、1568条奖牌明细、34地区底表（12已核验、22待核验）、来源核验、六张图及Python代码 | [ZIP](downloads/asian-games-final_v1.0.0.zip) |
+| [亚运会169金收官：用Python做奖牌榜、地区榜单和金牌热力图](articles/2026-10-04-asian-games-final/README.md) · v1.1.0 | 46代表团奖牌榜与金牌地图、1568条奖牌明细、运动员地理字段核验、34地区底表、七张图及Python代码 | [ZIP](downloads/asian-games-final_v1.1.0.zip) |
 | [桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清](articles/2026-10-04-flow-visualization/README.md) · v1.1.1 | 四份独立制图代码、共用样式、四份模拟CSV、五张正文图与独立桑基图封面的PNG与SVG、两个离线交互HTML | [ZIP](downloads/flow-visualization_v1.1.1.zip) |
 | [拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录](articles/2026-09-27-driving-first-year/README.md) · v1.0.1 | 绘图源码、180 条虚构演示行程、匿名统计摘要、10 张正文图与首尾品牌动图 | [ZIP](downloads/driving-first-year_v1.0.1.zip) |
 | [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](articles/2026-09-26-a-share-sector-race/README.md) · v1.1.1 | 东方财富30主题板块日线（13,932条）、赛马图制作脚本、手机竖屏预览、两份交互HTML与文中配图 | [ZIP](downloads/a-share-sector-race_v1.1.1.zip) |
