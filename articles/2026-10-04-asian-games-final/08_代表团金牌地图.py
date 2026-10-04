@@ -1,5 +1,5 @@
 from matplotlib.patches import Patch
-from 图表工具 import plt, albers, finish
+from 图表工具 import plt, albers, map_features, finish
 from 代表团地图工具 import mapping, draw_delegations, CMAP, NORM, COLORS, LABELS
 
 data = mapping()  # 显式使用NOC代码映射，不把它当作ISO国家代码。
@@ -18,6 +18,23 @@ for noc, location in positions.items():
     ax.text(x, y, f'{row.name_zh}\n{int(row.gold)}', ha='center', va='center',
             fontsize=11, color='#263849', zorder=6,
             bbox=dict(facecolor='white', edgecolor='none', alpha=.86, pad=2))
+
+# 港澳台直接标在地图上：用引导线连接真实位置，错开相邻标签。
+centers = {f['properties']['adcode']:
+           f['properties'].get('centroid') or f['properties'].get('center')
+           for f in map_features()}
+callouts = {'HKG': (810000, (146, 24)),
+            'MAC': (820000, (144, 18)),
+            'TPE': (710000, (148, 30))}
+for noc, (adcode, label_position) in callouts.items():
+    row = data.loc[noc]
+    anchor = albers([centers[adcode]])[0]
+    label = albers([label_position])[0]
+    ax.annotate(f'{row.name_zh}\n{int(row.gold)}金', xy=anchor, xytext=label,
+                ha='center', va='center', fontsize=12, weight='bold',
+                color='#263849', zorder=8,
+                bbox=dict(facecolor='white', edgecolor='none', alpha=.94, pad=3),
+                arrowprops=dict(arrowstyle='-', color='#526675', lw=1.1))
 
 small = ['HKG', 'TPE', 'MAC', 'SGP', 'BRN', 'QAT', 'MDV']
 for i, noc in enumerate(small):

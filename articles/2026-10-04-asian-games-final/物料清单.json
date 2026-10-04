@@ -1,5 +1,5 @@
 {
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "updated": "2026-10-04",
   "articleId": "asian-games-final",
   "entrypoint": "绘制图表.py",
@@ -43,13 +43,13 @@
     },
     {
       "path": "08_代表团金牌地图.py",
-      "bytes": 2021,
-      "sha256": "47df1260baedcd41bd3f8f137530e49188dc12308260852530c21308c4dcd08a"
+      "bytes": 2905,
+      "sha256": "b2104dd5c8908a9131c7127053cf9e6242eb7b7c773a9400310f4f89ac097c12"
     },
     {
       "path": "README.md",
-      "bytes": 9585,
-      "sha256": "7c78c95016a3269deb4be9229875050be9b2a41ebbeeb2c532917b7283471bc0"
+      "bytes": 9729,
+      "sha256": "8b38ad114ce26718c9852e99cc8405ce510801ad11f780fc937f4dfaf26a3a13"
     },
     {
       "path": "requirements.txt",
@@ -1209,7 +1209,7 @@
     {
       "path": "数据验收.json",
       "bytes": 681,
-      "sha256": "9448756411c924e4ae4c3df4f1115f3c39493900213e0e636a35a0dec3a61895"
+      "sha256": "8252a1154e39d88171311d040b343310a278e4b63abb53710b7f9a6196cf6519"
     },
     {
       "path": "整理数据.py",
@@ -1298,13 +1298,13 @@
     },
     {
       "path": "配图/07_代表团金牌地图.png",
-      "bytes": 422524,
-      "sha256": "0ed14e3474285e00ecc349ce54fcfcf4892c1bc58666b8b3acb3f77e7c916d44"
+      "bytes": 441554,
+      "sha256": "65c1e78fe268b68f4fec0abf0a4e3ccacbd79a9e138ca236fb6a0b01c7f970d9"
     },
     {
       "path": "配图/07_代表团金牌地图.svg",
-      "bytes": 1839836,
-      "sha256": "3bd899101ef1187eb6f64cf21a9d8cc99c042368d2a32ed7f3eb0f6238ae6a29"
+      "bytes": 1849519,
+      "sha256": "49fd9b718ecfe4ce5f91fcdf5707da0a15792d8daff6c6466602dc7b4c532ee4"
     },
     {
       "path": "采集地区.py",
@@ -1329,7 +1329,7 @@
     {
       "path": "验收数据.py",
       "bytes": 4234,
-      "sha256": "48f348542d251369ad8668416a6edb9005ec99c39967913e672f1e6e1beb906d"
+      "sha256": "7f9fb9fc3df81b7a43accc3efe6c886477ffe9ca542660f3266283c9c3103bb7"
     }
   ]
 }

@@ -56,7 +56,7 @@ def main():
         profile=json.loads((D/f'官方原始/运动员简介_{row["discipline"]}_{row["reg"]}.json').read_text(encoding='utf-8'))
         assert sorted(profile)==row['fields']
     with Image.open(ROOT/'封面/亚运会封面.png') as im:assert im.size==(900,383)
-    result={'status':'passed','date':'2026-10-04','version':'v1.1.0',
+    result={'status':'passed','date':'2026-10-04','version':'v1.1.1',
         'orgs':46,'medal_records':1568,'gold_records':470,'gold_event_keys':469,
         'china_gold':169,'china_gold_disciplines':38,'all_noc_colors_match':True,
         'gold_dates_verified':True,'region_rows':34,'verified_regions':12,'pending_regions':22,
