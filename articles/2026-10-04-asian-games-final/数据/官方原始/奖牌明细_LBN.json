@@ -1,0 +1,91 @@
+[
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "LBN",
+    "OrgDesc": "Lebanon",
+    "Reg": "4479753",
+    "Type": "A",
+    "DateRaw": "2026-10-02T17:00:00+09:00",
+    "Name": "CHAYEB Aqulina",
+    "Disc": "JUD",
+    "DiscDesc": "Judo",
+    "Event": "W.78KG--------------.FNL-",
+    "EventDesc": "Women -78 kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2004-05-25"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "LBN",
+    "OrgDesc": "Lebanon",
+    "Reg": "TEQMDOUBLES----LBN01",
+    "Type": "D",
+    "DateRaw": "2026-09-20T17:50:00+09:00",
+    "Name": "ARABI Ahmad Kassem / HAFEZ Mohamad",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "M.DOUBLES-----------.----",
+    "EventDesc": "Men's Doubles",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "12664401",
+        "Bib": "",
+        "Org": "LBN",
+        "OrgDesc": "Lebanon",
+        "Name": "ARABI Ahmad Kassem",
+        "Order": 1,
+        "BirthDate": "2005-08-18"
+      },
+      {
+        "Reg": "14604162",
+        "Bib": "",
+        "Org": "LBN",
+        "OrgDesc": "Lebanon",
+        "Name": "HAFEZ Mohamad",
+        "Order": 2,
+        "BirthDate": "2000-05-09"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "LBN",
+    "OrgDesc": "Lebanon",
+    "Reg": "TEQWDOUBLES----LBN01",
+    "Type": "D",
+    "DateRaw": "2026-09-19T10:30:00+09:00",
+    "Name": "CHEDID Maria / DANDAL Kamar",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "W.DOUBLES-----------.----",
+    "EventDesc": "Women's Doubles",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "12668495",
+        "Bib": "",
+        "Org": "LBN",
+        "OrgDesc": "Lebanon",
+        "Name": "CHEDID Maria",
+        "Order": 1,
+        "BirthDate": "2002-08-28"
+      },
+      {
+        "Reg": "6757428",
+        "Bib": "",
+        "Org": "LBN",
+        "OrgDesc": "Lebanon",
+        "Name": "DANDAL Kamar",
+        "Order": 2,
+        "BirthDate": "2003-01-05"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "LAO",
+    "OrgDesc": "Lao People's Democratic Republic",
+    "Reg": "SPKWDOUBLE-----LAO01",
+    "Type": "T",
+    "DateRaw": "2026-09-28T14:00:00+09:00",
+    "Name": "Lao People's Democratic Republic",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "W.DOUBLE------------.FNL-",
+    "EventDesc": "Women's Double Final",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "5254486",
+        "Bib": "5",
+        "Org": "LAO",
+        "OrgDesc": "Lao PDR",
+        "Name": "KEOSOULIYA Sonsavan",
+        "Order": 1,
+        "BirthDate": "1994-10-20"
+      },
+      {
+        "Reg": "6482543",
+        "Bib": "4",
+        "Org": "LAO",
+        "OrgDesc": "Lao PDR",
+        "Name": "VONGXAY Norkham",
+        "Order": 2,
+        "BirthDate": "1993-04-11"
+      },
+      {
+        "Reg": "6498719",
+        "Bib": "3",
+        "Org": "LAO",
+        "OrgDesc": "Lao PDR",
+        "Name": "XAYAVONG Koy",
+        "Order": 3,
+        "BirthDate": "1991-09-13"
+      }
+    ]
+  }
+]

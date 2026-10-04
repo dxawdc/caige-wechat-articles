@@ -1,0 +1,47 @@
+﻿noc,name_en,official_rank,gold,silver,bronze,total,name_zh
+CHN,China,1.0,169,89,83,341,中国
+JPN,Japan,2.0,83,95,91,269,日本
+KOR,Korea,3.0,39,43,68,150,韩国
+IND,India,4.0,21,27,37,85,印度
+UZB,Uzbekistan,5.0,21,25,24,70,乌兹别克斯坦
+IRI,IR Iran,6.0,19,18,15,52,伊朗
+THA,Thailand,7.0,18,13,21,52,泰国
+KAZ,Kazakhstan,8.0,12,24,48,84,哈萨克斯坦
+HKG,"Hong Kong, China",9.0,11,19,24,54,中国香港
+BRN,Bahrain,10.0,11,5,6,22,巴林
+MAS,Malaysia,11.0,9,7,16,32,马来西亚
+PRK,DPR Korea,12.0,7,13,9,29,朝鲜
+UAE,UA Emirates,13.0,7,5,1,13,阿联酋
+QAT,Qatar,14.0,6,6,6,18,卡塔尔
+TPE,Chinese Taipei,15.0,5,17,33,55,中国台北
+INA,Indonesia,16.0,5,11,23,39,印度尼西亚
+PHI,Philippines,17.0,4,9,16,29,菲律宾
+KSA,Saudi Arabia,18.0,4,3,10,17,沙特阿拉伯
+KUW,Kuwait,19.0,4,1,4,9,科威特
+VIE,Vietnam,20.0,3,3,19,25,越南
+SGP,Singapore,21.0,2,9,7,18,新加坡
+TJK,Tajikistan,22.0,2,5,9,16,塔吉克斯坦
+JOR,Jordan,23.0,2,3,6,11,约旦
+MYA,Myanmar,24.0,2,1,2,5,缅甸
+MAC,"Macao, China",25.0,1,4,1,6,中国澳门
+KGZ,Kyrgyzstan,26.0,1,3,10,14,吉尔吉斯斯坦
+MGL,Mongolia,27.0,1,1,13,15,蒙古
+SRI,Sri Lanka,28.0,1,1,1,3,斯里兰卡
+PAK,Pakistan,29.0,0,2,8,10,巴基斯坦
+IRQ,Iraq,30.0,0,2,3,5,伊拉克
+TKM,Turkmenistan,31.0,0,2,0,2,土库曼斯坦
+AFG,Afghanistan,32.0,0,1,2,3,阿富汗
+LBN,Lebanon,32.0,0,1,2,3,黎巴嫩
+OMA,Oman,34.0,0,1,1,2,阿曼
+CAM,Cambodia,35.0,0,0,4,4,柬埔寨
+NEP,Nepal,36.0,0,0,2,2,尼泊尔
+BAN,Bangladesh,37.0,0,0,1,1,孟加拉国
+BRU,Brunei Darussalam,37.0,0,0,1,1,文莱
+LAO,Lao PDR,37.0,0,0,1,1,老挝
+SYR,Syria,37.0,0,0,1,1,叙利亚
+BHU,Bhutan,,0,0,0,0,不丹
+MDV,Maldives,,0,0,0,0,马尔代夫
+PLE,Palestine,,0,0,0,0,巴勒斯坦
+TLS,Timor-Leste,,0,0,0,0,东帝汶
+YEM,Yemen,,0,0,0,0,也门
+ART,Asian Refugee Team,,0,0,0,0,亚洲难民队

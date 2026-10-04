@@ -1,0 +1,32 @@
+{
+  "total_regions": 34,
+  "verified_gold_regions": 12,
+  "pending_regions": [
+    "北京",
+    "天津",
+    "河北",
+    "山西",
+    "内蒙古",
+    "辽宁",
+    "吉林",
+    "黑龙江",
+    "上海",
+    "江西",
+    "河南",
+    "广西",
+    "海南",
+    "重庆",
+    "贵州",
+    "云南",
+    "西藏",
+    "陕西",
+    "甘肃",
+    "青海",
+    "宁夏",
+    "新疆"
+  ],
+  "coverage_pct": 35.3,
+  "complete_national_provincial_ranking": false,
+  "missing_is_zero": false,
+  "ranking_scope": "已核验地区样本；港澳台单列代表团口径"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "date": "2026-10-04",
+  "version": "v1.0.0",
+  "orgs": 46,
+  "medal_records": 1568,
+  "gold_records": 470,
+  "gold_event_keys": 469,
+  "china_gold": 169,
+  "china_gold_disciplines": 38,
+  "all_noc_colors_match": true,
+  "gold_dates_verified": true,
+  "region_rows": 34,
+  "verified_regions": 12,
+  "pending_regions": 22,
+  "ranking_scope": "已核验地区比较；全国省级完整排名需补齐22地区来源",
+  "missing_kept_null": true,
+  "charts": 6,
+  "cover_pixels": [
+    900,
+    383
+  ]
+}

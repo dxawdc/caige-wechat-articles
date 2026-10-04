@@ -1,0 +1,89 @@
+[
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "CAM",
+    "OrgDesc": "Cambodia",
+    "Reg": "1513314",
+    "Type": "A",
+    "DateRaw": "2026-09-21T15:55:00+09:00",
+    "Name": "VANN Chakriya",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "W.61KG--------------.FNL-",
+    "EventDesc": "Women's Kumite -61kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2000-02-09"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "CAM",
+    "OrgDesc": "Cambodia",
+    "Reg": "9575994",
+    "Type": "A",
+    "DateRaw": "2026-09-21T11:40:00+09:00",
+    "Name": "CHENG Dalin",
+    "Disc": "MMA",
+    "DiscDesc": "Mixed Martial Arts",
+    "Event": "W.T60KG-------------.FNL-",
+    "EventDesc": "Women's Traditional -60kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2002-12-30"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "CAM",
+    "OrgDesc": "Cambodia",
+    "Reg": "TEQWDOUBLES----CAM01",
+    "Type": "D",
+    "DateRaw": "2026-09-19T10:30:00+09:00",
+    "Name": "YORN Sophornraksmey / MEY Sreymeas",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "W.DOUBLES-----------.----",
+    "EventDesc": "Women's Doubles",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "4769616",
+        "Bib": "",
+        "Org": "CAM",
+        "OrgDesc": "Cambodia",
+        "Name": "YORN Sophornraksmey",
+        "Order": 1,
+        "BirthDate": "2003-02-08"
+      },
+      {
+        "Reg": "7205146",
+        "Bib": "",
+        "Org": "CAM",
+        "OrgDesc": "Cambodia",
+        "Name": "MEY Sreymeas",
+        "Order": 2,
+        "BirthDate": "1996-05-08"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "CAM",
+    "OrgDesc": "Cambodia",
+    "Reg": "7807161",
+    "Type": "A",
+    "DateRaw": "2026-09-20T10:00:00+09:00",
+    "Name": "DY Koemyean",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "W.SINGLES-----------.----",
+    "EventDesc": "Women's Singles",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2001-01-20"
+  }
+]

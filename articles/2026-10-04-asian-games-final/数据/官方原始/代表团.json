@@ -1,0 +1,370 @@
+[
+  {
+    "Key": "AFG",
+    "Order": 1,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Afghanistan",
+    "DescL": "Afghanistan"
+  },
+  {
+    "Key": "BRN",
+    "Order": 16,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Bahrain",
+    "DescL": "Bahrain"
+  },
+  {
+    "Key": "BAN",
+    "Order": 22,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Bangladesh",
+    "DescL": "Bangladesh"
+  },
+  {
+    "Key": "BHU",
+    "Order": 29,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Bhutan",
+    "DescL": "Bhutan"
+  },
+  {
+    "Key": "BRU",
+    "Order": 30,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Brunei Darussalam",
+    "DescL": "Brunei Darussalam"
+  },
+  {
+    "Key": "CAM",
+    "Order": 34,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Cambodia",
+    "DescL": "Cambodia"
+  },
+  {
+    "Key": "CHN",
+    "Order": 40,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "China",
+    "DescL": "People's Republic of China"
+  },
+  {
+    "Key": "PRK",
+    "Order": 84,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "DPR Korea",
+    "DescL": "Democratic People's Republic of Korea"
+  },
+  {
+    "Key": "HKG",
+    "Order": 87,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Hong Kong, China",
+    "DescL": "Hong Kong, China"
+  },
+  {
+    "Key": "IND",
+    "Order": 88,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "India",
+    "DescL": "India"
+  },
+  {
+    "Key": "INA",
+    "Order": 89,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Indonesia",
+    "DescL": "Indonesia"
+  },
+  {
+    "Key": "IRI",
+    "Order": 91,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "IR Iran",
+    "DescL": "Islamic Republic of Iran"
+  },
+  {
+    "Key": "IRQ",
+    "Order": 98,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Iraq",
+    "DescL": "Iraq"
+  },
+  {
+    "Key": "JPN",
+    "Order": 99,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Japan",
+    "DescL": "Japan"
+  },
+  {
+    "Key": "JOR",
+    "Order": 100,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Jordan",
+    "DescL": "Jordan"
+  },
+  {
+    "Key": "KAZ",
+    "Order": 102,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Kazakhstan",
+    "DescL": "Kazakhstan"
+  },
+  {
+    "Key": "KOR",
+    "Order": 104,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Korea",
+    "DescL": "Republic of Korea"
+  },
+  {
+    "Key": "KUW",
+    "Order": 106,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Kuwait",
+    "DescL": "Kuwait"
+  },
+  {
+    "Key": "KGZ",
+    "Order": 107,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Kyrgyzstan",
+    "DescL": "Kyrgyzstan"
+  },
+  {
+    "Key": "LAO",
+    "Order": 108,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Lao PDR",
+    "DescL": "Lao People's Democratic Republic"
+  },
+  {
+    "Key": "LBN",
+    "Order": 111,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Lebanon",
+    "DescL": "Lebanon"
+  },
+  {
+    "Key": "MAC",
+    "Order": 118,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Macao, China",
+    "DescL": "Macao, China"
+  },
+  {
+    "Key": "MAS",
+    "Order": 121,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Malaysia",
+    "DescL": "Malaysia"
+  },
+  {
+    "Key": "MDV",
+    "Order": 124,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Maldives",
+    "DescL": "Maldives"
+  },
+  {
+    "Key": "MGL",
+    "Order": 126,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Mongolia",
+    "DescL": "Mongolia"
+  },
+  {
+    "Key": "MYA",
+    "Order": 136,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Myanmar",
+    "DescL": "Myanmar"
+  },
+  {
+    "Key": "NEP",
+    "Order": 140,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Nepal",
+    "DescL": "Nepal"
+  },
+  {
+    "Key": "OMA",
+    "Order": 147,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Oman",
+    "DescL": "Oman"
+  },
+  {
+    "Key": "PAK",
+    "Order": 148,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Pakistan",
+    "DescL": "Pakistan"
+  },
+  {
+    "Key": "PLE",
+    "Order": 152,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Palestine",
+    "DescL": "Palestine"
+  },
+  {
+    "Key": "PHI",
+    "Order": 153,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Philippines",
+    "DescL": "Philippines"
+  },
+  {
+    "Key": "QAT",
+    "Order": 158,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Qatar",
+    "DescL": "Qatar"
+  },
+  {
+    "Key": "KSA",
+    "Order": 160,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Saudi Arabia",
+    "DescL": "Saudi Arabia"
+  },
+  {
+    "Key": "SGP",
+    "Order": 168,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Singapore",
+    "DescL": "Singapore"
+  },
+  {
+    "Key": "SRI",
+    "Order": 176,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Sri Lanka",
+    "DescL": "Sri Lanka"
+  },
+  {
+    "Key": "SYR",
+    "Order": 185,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Syria",
+    "DescL": "Syrian Arab Republic"
+  },
+  {
+    "Key": "TPE",
+    "Order": 188,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Chinese Taipei",
+    "DescL": "Chinese Taipei"
+  },
+  {
+    "Key": "TJK",
+    "Order": 189,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Tajikistan",
+    "DescL": "Tajikistan"
+  },
+  {
+    "Key": "THA",
+    "Order": 190,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Thailand",
+    "DescL": "Thailand"
+  },
+  {
+    "Key": "TLS",
+    "Order": 191,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Timor-Leste",
+    "DescL": "Democratic Republic of Timor-Leste"
+  },
+  {
+    "Key": "TKM",
+    "Order": 193,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Turkmenistan",
+    "DescL": "Turkmenistan"
+  },
+  {
+    "Key": "UAE",
+    "Order": 198,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "UA Emirates",
+    "DescL": "United Arab Emirates"
+  },
+  {
+    "Key": "UZB",
+    "Order": 203,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Uzbekistan",
+    "DescL": "Uzbekistan"
+  },
+  {
+    "Key": "VIE",
+    "Order": 206,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Vietnam",
+    "DescL": "Vietnam"
+  },
+  {
+    "Key": "YEM",
+    "Order": 208,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Yemen",
+    "DescL": "Yemen"
+  },
+  {
+    "Key": "ART",
+    "Order": 220,
+    "Enabled": true,
+    "Continent": "ASI",
+    "Desc": "Asian Refugee Team",
+    "DescL": "Asian Refugee Team"
+  }
+]

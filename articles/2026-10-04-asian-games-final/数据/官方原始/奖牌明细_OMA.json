@@ -1,0 +1,36 @@
+[
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "OMA",
+    "OrgDesc": "Oman",
+    "Reg": "15127494",
+    "Type": "A",
+    "DateRaw": "2026-09-25T22:20:00+09:00",
+    "Name": "AL BALUSHI Ali",
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Event": "M.100M--------------.----",
+    "EventDesc": "Men's 100m",
+    "Bib": "569",
+    "Gender": "M",
+    "BirthDate": "2002-02-09"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "OMA",
+    "OrgDesc": "Oman",
+    "Reg": "1276202",
+    "Type": "A",
+    "DateRaw": "2026-09-25T22:20:00+09:00",
+    "Name": "AL BALUSHI Malham",
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Event": "M.100M--------------.----",
+    "EventDesc": "Men's 100m",
+    "Bib": "570",
+    "Gender": "M",
+    "BirthDate": "2000-09-02"
+  }
+]

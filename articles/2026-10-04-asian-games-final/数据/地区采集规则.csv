@@ -1,0 +1,10 @@
+﻿region,adcode,source_url,verification_pattern
+浙江,330000,https://news.ifeng.com/c/8wwVw9j6OSL,"浙江运动员[\s\S]{0,120}?夺得35枚金牌、12枚银牌、12枚铜牌"
+山东,370000,https://news.iqilu.com/shandong/shandonggedi/20261004/5949899.shtml,"32[\s\S]{0,50}?11[\s\S]{0,50}?18"
+江苏,320000,https://sports.jschina.com.cn/jrtt/202610/t20261004_s6ac233ace4b02e2ec97f72aa.shtml,共获得31枚金牌、11枚银牌、9枚铜牌
+广东,440000,https://news.dayoo.com/sports/202610/04/140001_55009796.htm,"广东运动员[\s\S]{0,80}?一共收获25枚金牌"
+四川,510000,https://ent.scol.com.cn/ty/202610/83335218.html,共获得19枚金牌7枚银牌5枚铜牌
+湖北,420000,https://news.bjd.com.cn/2026/10/04/11983437.shtml,"荆楚健儿[\s\S]{0,40}?19金5银7铜"
+福建,350000,https://news.bjd.com.cn/2026/10/04/11983437.shtml,福建运动员20人次夺得17枚金牌、10人次夺得9枚银牌、5人次夺得4枚铜牌
+湖南,430000,https://www.hunantoday.cn/news/xhn/202610/33911919.html,"体育湘军[\s\S]{0,30}?11金1银2铜"
+安徽,340000,https://news.bjd.com.cn/2026/10/04/11983437.shtml,安徽运动员夺得9枚金牌、4枚银牌、4枚铜牌

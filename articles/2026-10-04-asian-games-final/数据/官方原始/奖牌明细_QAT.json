@@ -1,0 +1,649 @@
+[
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "12563681",
+    "Type": "A",
+    "DateRaw": "2026-09-28T19:33:00+09:00",
+    "Name": "HEMEIDA Bassem",
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Event": "M.400MHURD----------.----",
+    "EventDesc": "Men's 400m Hurdles",
+    "Bib": "627",
+    "Gender": "M",
+    "BirthDate": "2000-03-28"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "ATHM4X400M-----QAT01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T21:17:00+09:00",
+    "Name": "Qatar",
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Event": "M.4X400M------------.----",
+    "EventDesc": "Men's 4 x 400m Relay",
+    "Bib": "2035",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "12563681",
+        "Bib": "627",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "HEMEIDA Bassem",
+        "Order": 0,
+        "BirthDate": "2000-03-28"
+      },
+      {
+        "Reg": "8546664",
+        "Bib": "607",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ABAKAR Ismail",
+        "Order": 1,
+        "BirthDate": "2004-01-01"
+      },
+      {
+        "Reg": "8546027",
+        "Bib": "633",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "OSMAN Ashraf",
+        "Order": 2,
+        "BirthDate": "2001-12-02"
+      },
+      {
+        "Reg": "12021664",
+        "Bib": "620",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "DJIBRINE Youssouf",
+        "Order": 3,
+        "BirthDate": "2007-06-20"
+      },
+      {
+        "Reg": "10913200",
+        "Bib": "629",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "IBRAHIM Ammar",
+        "Order": 4,
+        "BirthDate": "1996-09-18"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "11383201",
+    "Type": "A",
+    "DateRaw": "2026-09-28T19:47:00+09:00",
+    "Name": "ELAHLAAMI Zakaria",
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Event": "M.3000MST-----------.----",
+    "EventDesc": "Men's 3000m Steeplechase",
+    "Bib": "622",
+    "Gender": "M",
+    "BirthDate": "2004-07-07"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "8549163",
+    "Type": "A",
+    "DateRaw": "2026-09-29T20:05:00+09:00",
+    "Name": "ABDALLA Abubaker",
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Event": "M.800M--------------.----",
+    "EventDesc": "Men's 800m",
+    "Bib": "609",
+    "Gender": "M",
+    "BirthDate": "1996-08-28"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "BK3MTEAM3------QAT01",
+    "Type": "T",
+    "DateRaw": "2026-09-25T19:30:00+09:00",
+    "Name": "Qatar",
+    "Disc": "BK3",
+    "DiscDesc": "3x3 Basketball",
+    "Event": "M.TEAM3-------------.----",
+    "EventDesc": "Men",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "5442677",
+        "Bib": "0",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MAHMOUD Nazar",
+        "Order": 1,
+        "BirthDate": "2005-07-16"
+      },
+      {
+        "Reg": "9052665",
+        "Bib": "10",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MOUSA Hamad",
+        "Order": 2,
+        "BirthDate": "2006-03-28"
+      },
+      {
+        "Reg": "5425120",
+        "Bib": "14",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ABBASHER Mohammed",
+        "Order": 3,
+        "BirthDate": "2004-07-06"
+      },
+      {
+        "Reg": "11991950",
+        "Bib": "15",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "JAMA Mubarak",
+        "Order": 4,
+        "BirthDate": "2003-11-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "9229288",
+    "Type": "A",
+    "DateRaw": "2026-10-04T09:30:00+09:00",
+    "Name": "ALAJAMI Faleh",
+    "Disc": "EQU",
+    "DiscDesc": "Equestrian",
+    "Event": "O.JUMPINDVCOMA------.----",
+    "EventDesc": "Jumping,Individual Competition A(heights of 1.40-1.50m)",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1986-06-05"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "9620031",
+    "Type": "A",
+    "DateRaw": "2026-10-04T11:45:00+09:00",
+    "Name": "MOHAMMED Basem",
+    "Disc": "EQU",
+    "DiscDesc": "Equestrian",
+    "Event": "O.JUMPINDVCOMB------.----",
+    "EventDesc": "Jumping,Individual Competition B(heights of up to 1.55m)",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1987-05-31"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "HBLMTEAM7------QAT01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T19:30:00+09:00",
+    "Name": "Qatar",
+    "Disc": "HBL",
+    "DiscDesc": "Handball",
+    "Event": "M.TEAM7-------------.----",
+    "EventDesc": "Men",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "16624351",
+        "Bib": "7",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MADADI Ahmad",
+        "Order": 1,
+        "BirthDate": "1994-08-31"
+      },
+      {
+        "Reg": "4574161",
+        "Bib": "41",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ALI Youssef",
+        "Order": 2,
+        "BirthDate": "1987-05-25"
+      },
+      {
+        "Reg": "4573055",
+        "Bib": "12",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "DHIB Saifdinne",
+        "Order": 3,
+        "BirthDate": "2004-01-01"
+      },
+      {
+        "Reg": "7963924",
+        "Bib": "69",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "SOUSSOU Malek",
+        "Order": 4,
+        "BirthDate": "2004-12-28"
+      },
+      {
+        "Reg": "13955699",
+        "Bib": "22",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ABDALLA Abdelrahman",
+        "Order": 5,
+        "BirthDate": "1994-01-01"
+      },
+      {
+        "Reg": "7951163",
+        "Bib": "9",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "CAPOTE Rafael",
+        "Order": 6,
+        "BirthDate": "1987-10-05"
+      },
+      {
+        "Reg": "13956482",
+        "Bib": "10",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MARZO Frankis",
+        "Order": 7,
+        "BirthDate": "1987-09-07"
+      },
+      {
+        "Reg": "7954394",
+        "Bib": "11",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MURAD Abdulrazzaq",
+        "Order": 8,
+        "BirthDate": "1990-06-29"
+      },
+      {
+        "Reg": "7954936",
+        "Bib": "13",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MEMISEVIC Eldar",
+        "Order": 9,
+        "BirthDate": "1992-06-21"
+      },
+      {
+        "Reg": "4566605",
+        "Bib": "15",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "MEGDICH Nasreddine",
+        "Order": 10,
+        "BirthDate": "1991-08-29"
+      },
+      {
+        "Reg": "4571353",
+        "Bib": "19",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ZEMZEMI Firas",
+        "Order": 11,
+        "BirthDate": "2004-08-05"
+      },
+      {
+        "Reg": "16629148",
+        "Bib": "33",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ABDELRHEM Ahmed",
+        "Order": 12,
+        "BirthDate": "1996-09-30"
+      },
+      {
+        "Reg": "13955250",
+        "Bib": "44",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "GUEHIS Amine",
+        "Order": 13,
+        "BirthDate": "1996-03-23"
+      },
+      {
+        "Reg": "13961526",
+        "Bib": "77",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "HAMAM Mohamedali",
+        "Order": 14,
+        "BirthDate": "2000-11-26"
+      },
+      {
+        "Reg": "13951265",
+        "Bib": "94",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ZAKKAR Ameen",
+        "Order": 15,
+        "BirthDate": "1994-06-15"
+      },
+      {
+        "Reg": "13965879",
+        "Bib": "98",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "EBAID Ebrahim",
+        "Order": 16,
+        "BirthDate": "1996-04-14"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "14839122",
+    "Type": "A",
+    "DateRaw": "2026-09-20T16:40:00+09:00",
+    "Name": "ABDELHAMID Abdelrahman",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.60KG--------------.FNL-",
+    "EventDesc": "Men's Kumite -60kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2006-10-01"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "3794543",
+    "Type": "A",
+    "DateRaw": "2026-09-22T11:30:00+09:00",
+    "Name": "BABIKR Abdulla",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.84KG--------------.FNL-",
+    "EventDesc": "Men's Kumite -84kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2004-01-04"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "PDLMPAIRS------QAT01",
+    "Type": "D",
+    "DateRaw": "2026-10-03T18:00:00+09:00",
+    "Name": "NAIF Mashari / NAIF Rashed",
+    "Disc": "PDL",
+    "DiscDesc": "Padel",
+    "Event": "M.PAIRS-------------.----",
+    "EventDesc": "Men's Pairs",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "1439914",
+        "Bib": "",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "NAIF Mashari",
+        "Order": 1,
+        "BirthDate": "2007-07-23"
+      },
+      {
+        "Reg": "5541142",
+        "Bib": "",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "NAIF Rashed",
+        "Order": 2,
+        "BirthDate": "2005-06-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "7275146",
+    "Type": "A",
+    "DateRaw": "2026-09-23T16:44:00+09:00",
+    "Name": "AL-ATHBA Rashid Saleh M A",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.SKM---------------.----",
+    "EventDesc": "Skeet Men Individual",
+    "Bib": "1329",
+    "Gender": "M",
+    "BirthDate": "1987-10-18"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "SHOMSKTM-------QAT01",
+    "Type": "T",
+    "DateRaw": "2026-09-23T13:16:00+09:00",
+    "Name": "Qatar",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.SKTM--------------.----",
+    "EventDesc": "Skeet Men Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "4514681",
+        "Bib": "1317",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "AL-ATTIYA Nasser Saleh N A",
+        "Order": 1,
+        "BirthDate": "1970-12-21"
+      },
+      {
+        "Reg": "7275146",
+        "Bib": "1329",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "AL-ATHBA Rashid Saleh M A",
+        "Order": 2,
+        "BirthDate": "1987-10-18"
+      },
+      {
+        "Reg": "7275574",
+        "Bib": "1330",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "AL-ISHAQ Ali Ahmed A O",
+        "Order": 3,
+        "BirthDate": "1993-10-28"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "SHOMTRTM-------QAT01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T12:16:00+09:00",
+    "Name": "Qatar",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.TRTM--------------.----",
+    "EventDesc": "Trap Men Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "12921890",
+        "Bib": "1311",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "ABUSHARIB Saeed Hamad R A",
+        "Order": 1,
+        "BirthDate": "1983-08-31"
+      },
+      {
+        "Reg": "4585340",
+        "Bib": "1319",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "AL-RUMAIHI Mohammed",
+        "Order": 2,
+        "BirthDate": "1989-03-03"
+      },
+      {
+        "Reg": "7346654",
+        "Bib": "1332",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "SCALZONE Angelo",
+        "Order": 3,
+        "BirthDate": "1996-03-15"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "SHOXTRMT-------QAT01",
+    "Type": "T",
+    "DateRaw": "2026-09-30T15:09:00+09:00",
+    "Name": "Qatar",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "X.TRMT--------------.----",
+    "EventDesc": "Trap Mixed Team",
+    "Bib": "",
+    "Gender": "X",
+    "Members": [
+      {
+        "Reg": "4585340",
+        "Bib": "1319",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "AL-RUMAIHI Mohammed",
+        "Order": 1,
+        "BirthDate": "1989-03-03"
+      },
+      {
+        "Reg": "4778062",
+        "Bib": "1323",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "BASSIL Ray",
+        "Order": 2,
+        "BirthDate": "1988-10-20"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "VBVMTEAM2------QAT01",
+    "Type": "D",
+    "DateRaw": "2026-10-03T13:00:00+09:00",
+    "Name": "SAMBA / JANKO",
+    "Disc": "VBV",
+    "DiscDesc": "Beach Volleyball",
+    "Event": "M.TEAM2-------------.FNL-",
+    "EventDesc": "Men's Finals",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "6072629",
+        "Bib": "1",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "SAMBA Cherif",
+        "Order": 1,
+        "BirthDate": "1995-05-22"
+      },
+      {
+        "Reg": "6081358",
+        "Bib": "2",
+        "Org": "QAT",
+        "OrgDesc": "Qatar",
+        "Name": "JANKO Ahmed",
+        "Order": 2,
+        "BirthDate": "1995-04-28"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "10017042",
+    "Type": "A",
+    "DateRaw": "2026-09-29T16:20:00+09:00",
+    "Name": "IKHLEF Ouisal",
+    "Disc": "WLF",
+    "DiscDesc": "Weightlifting",
+    "Event": "W.O86KG-------------.FNL-",
+    "EventDesc": "Women's +86kg All Groups",
+    "Bib": "96",
+    "Gender": "W",
+    "BirthDate": "2003-09-03"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "QAT",
+    "OrgDesc": "Qatar",
+    "Reg": "5593903",
+    "Type": "A",
+    "DateRaw": "2026-10-01T18:29:00+09:00",
+    "Name": "BADAGHIMOFRAD Shahin",
+    "Disc": "WRE",
+    "DiscDesc": "Wrestling",
+    "Event": "M.GR77KG------------.FNL-",
+    "EventDesc": "Men's Greco-Roman 77kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2001-11-03"
+  }
+]

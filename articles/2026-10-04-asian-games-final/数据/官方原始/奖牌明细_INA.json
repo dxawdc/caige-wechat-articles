@@ -1,0 +1,1494 @@
+[
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "10384183",
+    "Type": "A",
+    "DateRaw": "2026-10-01T11:01:00+09:00",
+    "Name": "ASHRIFAH Nurisa Dian",
+    "Disc": "ARC",
+    "DiscDesc": "Archery",
+    "Event": "W.CINDIVID----------.FNL-",
+    "EventDesc": "Compound Women's Individual Finals",
+    "Bib": "8",
+    "Gender": "W",
+    "BirthDate": "2005-11-30"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "BDMMDOUBLES----INA02",
+    "Type": "D",
+    "DateRaw": "2026-09-29T15:00:00+09:00",
+    "Name": "MARTHIN Daniel / CARNANDO Leo R.",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "M.DOUBLES-----------.----",
+    "EventDesc": "Men's Doubles",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "7813864",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MARTHIN Daniel",
+        "Order": 1,
+        "BirthDate": "2001-07-31"
+      },
+      {
+        "Reg": "7817258",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "CARNANDO Leo R.",
+        "Order": 2,
+        "BirthDate": "2001-07-29"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "BDMMTEAM-------INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-24T16:00:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "M.TEAM--------------.----",
+    "EventDesc": "Men's Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "7812680",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "FARHAN Alwi",
+        "Order": 1,
+        "BirthDate": "2005-05-12"
+      },
+      {
+        "Reg": "7813042",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SYAHNAWI Amri",
+        "Order": 2,
+        "BirthDate": "1998-11-08"
+      },
+      {
+        "Reg": "7813864",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MARTHIN Daniel",
+        "Order": 3,
+        "BirthDate": "2001-07-31"
+      },
+      {
+        "Reg": "7815112",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ALFIAN Fajar",
+        "Order": 4,
+        "BirthDate": "1995-03-07"
+      },
+      {
+        "Reg": "7816512",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "CHRISTIE Jonatan",
+        "Order": 5,
+        "BirthDate": "1997-09-15"
+      },
+      {
+        "Reg": "7817258",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "CARNANDO Leo R.",
+        "Order": 6,
+        "BirthDate": "2001-07-29"
+      },
+      {
+        "Reg": "7817816",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "YUSUF Muhamad",
+        "Order": 7,
+        "BirthDate": "2006-02-19"
+      },
+      {
+        "Reg": "7818452",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "JOAQUIN Nikolaus",
+        "Order": 8,
+        "BirthDate": "2005-09-14"
+      },
+      {
+        "Reg": "7820278",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "FIKRI Muh. Shohibul",
+        "Order": 9,
+        "BirthDate": "1999-11-16"
+      },
+      {
+        "Reg": "7820728",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "UBAIDILLAH Moh Zaki",
+        "Order": 10,
+        "BirthDate": "2007-06-26"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "BDMXDOUBLES----INA01",
+    "Type": "D",
+    "DateRaw": "2026-09-29T11:00:00+09:00",
+    "Name": "SYAHNAWI Amri / MARWAH Nita Violina",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "X.DOUBLES-----------.----",
+    "EventDesc": "Mixed Doubles",
+    "Bib": "",
+    "Gender": "X",
+    "Members": [
+      {
+        "Reg": "7813042",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SYAHNAWI Amri",
+        "Order": 1,
+        "BirthDate": "1998-11-08"
+      },
+      {
+        "Reg": "7818619",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MARWAH Nita Violina",
+        "Order": 2,
+        "BirthDate": "2001-03-25"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "BDMMDOUBLES----INA01",
+    "Type": "D",
+    "DateRaw": "2026-09-28T12:30:00+09:00",
+    "Name": "ALFIAN Fajar / FIKRI Muh. Shohibul",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "M.DOUBLES-----------.----",
+    "EventDesc": "Men's Doubles",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "7815112",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ALFIAN Fajar",
+        "Order": 1,
+        "BirthDate": "1995-03-07"
+      },
+      {
+        "Reg": "7820278",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "FIKRI Muh. Shohibul",
+        "Order": 2,
+        "BirthDate": "1999-11-16"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "7812680",
+    "Type": "A",
+    "DateRaw": "2026-09-28T13:30:00+09:00",
+    "Name": "FARHAN Alwi",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "M.SINGLES-----------.----",
+    "EventDesc": "Men's Singles",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2005-05-12"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "BDMWTEAM-------INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-23T09:30:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "W.TEAM--------------.----",
+    "EventDesc": "Women's Team",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "7814514",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "AMARTYA Ni Kadek Dhinda",
+        "Order": 1,
+        "BirthDate": "2006-06-13"
+      },
+      {
+        "Reg": "7814968",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "RAMADHANTI Siti Fadia Silva",
+        "Order": 2,
+        "BirthDate": "2000-11-16"
+      },
+      {
+        "Reg": "7815294",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SETIANINGRUM Febi",
+        "Order": 3,
+        "BirthDate": "2004-02-29"
+      },
+      {
+        "Reg": "7818619",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MARWAH Nita Violina",
+        "Order": 4,
+        "BirthDate": "2001-03-25"
+      },
+      {
+        "Reg": "7815447",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "KUSUMA Febriana Dwipuji",
+        "Order": 5,
+        "BirthDate": "2001-02-19"
+      },
+      {
+        "Reg": "7817665",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PUSPITASARI Meilysa Trias",
+        "Order": 6,
+        "BirthDate": "2004-05-11"
+      },
+      {
+        "Reg": "7818208",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PUSPITASARI Mutiara Ayu",
+        "Order": 7,
+        "BirthDate": "2006-05-17"
+      },
+      {
+        "Reg": "7819131",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "WARDANI Putri Kusuma",
+        "Order": 8,
+        "BirthDate": "2002-07-20"
+      },
+      {
+        "Reg": "7819248",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ROSE Rachel Allesya",
+        "Order": 9,
+        "BirthDate": "2004-06-30"
+      },
+      {
+        "Reg": "7820384",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "WIRYAWAN Thalita Ramadhani",
+        "Order": 10,
+        "BirthDate": "2007-09-21"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "6602566",
+    "Type": "A",
+    "DateRaw": "2026-09-28T12:15:00+09:00",
+    "Name": "SETYOBUDI Jasmine Azzahra",
+    "Disc": "BMX",
+    "DiscDesc": "Cycling BMX Racing",
+    "Event": "W.INDVRACE----------.----",
+    "EventDesc": "Women",
+    "Bib": "47",
+    "Gender": "W",
+    "BirthDate": "2004-01-08"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "7651757",
+    "Type": "A",
+    "DateRaw": "2026-09-30T20:28:00+09:00",
+    "Name": "DEWI Desak Made Rita Kusuma",
+    "Disc": "CLB",
+    "DiscDesc": "Sport Climbing",
+    "Event": "W.SPEED4------------.FNL-",
+    "EventDesc": "Women's Speed 4 Final",
+    "Bib": "2",
+    "Gender": "W",
+    "BirthDate": "2001-01-24"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "14969493",
+    "Type": "A",
+    "DateRaw": "2026-09-24T00:00:00+09:00",
+    "Name": "LALI Herlin Aprilin",
+    "Disc": "CSP",
+    "DiscDesc": "Canoe Sprint",
+    "Event": "W.C1-200M-----------.FNL-",
+    "EventDesc": "Women's Canoe Single 200m Final",
+    "Bib": "28",
+    "Gender": "W",
+    "BirthDate": "2004-04-04"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "ELSOMLB--------INA01",
+    "Type": "T",
+    "DateRaw": "2026-10-01T14:00:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.MLB---------------.FNL-",
+    "EventDesc": "Mobile Legends: Bang Bang Finals",
+    "Bib": "",
+    "Gender": "O",
+    "Members": [
+      {
+        "Reg": "12027196",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SUMARNO Syauki Fauzan",
+        "Order": 1,
+        "BirthDate": "2004-04-30"
+      },
+      {
+        "Reg": "12400552",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "WAHYUDI A Muhammad Affan",
+        "Order": 2,
+        "BirthDate": "2004-06-27"
+      },
+      {
+        "Reg": "14993404",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PUTRA Dalvin Ramadhana",
+        "Order": 3,
+        "BirthDate": "2002-11-23"
+      },
+      {
+        "Reg": "3771307",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "BUHE Alexander Owen Marcetami",
+        "Order": 4,
+        "BirthDate": "2004-09-20"
+      },
+      {
+        "Reg": "9176847",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ISKANDAR Albert Neilsen",
+        "Order": 5,
+        "BirthDate": "2004-01-08"
+      },
+      {
+        "Reg": "9193123",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PUTRA Arif Fudin Dingarai",
+        "Order": 6,
+        "BirthDate": "2005-03-30"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "ELSOPKU--------INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-27T17:30:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.PKU---------------.FNL-",
+    "EventDesc": "Pokemon UNITE Finals",
+    "Bib": "",
+    "Gender": "O",
+    "Members": [
+      {
+        "Reg": "11815867",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ARDIYANTO Deni",
+        "Order": 1,
+        "BirthDate": "2004-06-11"
+      },
+      {
+        "Reg": "13526235",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SAID Novrizal Diananta",
+        "Order": 2,
+        "BirthDate": "1998-11-07"
+      },
+      {
+        "Reg": "15050278",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "HILLERS Marcello",
+        "Order": 3,
+        "BirthDate": "2005-07-20"
+      },
+      {
+        "Reg": "9258042",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PANGGABEAN Gm Judha Raja",
+        "Order": 4,
+        "BirthDate": "1996-07-25"
+      },
+      {
+        "Reg": "9293659",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "IRAWAN Muhammad Haikal",
+        "Order": 5,
+        "BirthDate": "2005-04-06"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "8981056",
+    "Type": "A",
+    "DateRaw": "2026-09-22T14:05:00+09:00",
+    "Name": "SANISTYARANI Cok Istri Agung",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "W.55KG--------------.FNL-",
+    "EventDesc": "Women's Kumite -55kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "1994-12-31"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "15999383",
+    "Type": "A",
+    "DateRaw": "2026-09-20T16:10:00+09:00",
+    "Name": "LUBIS Leica Al Humaira",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "W.O68KG-------------.FNL-",
+    "EventDesc": "Women's Kumite +68kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2004-09-15"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "5942202",
+    "Type": "A",
+    "DateRaw": "2026-09-21T12:10:00+09:00",
+    "Name": "HOTMAULI Vallensia Fahira",
+    "Disc": "MMA",
+    "DiscDesc": "Mixed Martial Arts",
+    "Event": "W.M54KG-------------.FNL-",
+    "EventDesc": "Women's Modern -54kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "1999-06-22"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "4378624",
+    "Type": "A",
+    "DateRaw": "2026-09-25T11:00:00+09:00",
+    "Name": "YUDOYONO Feri",
+    "Disc": "MTB",
+    "DiscDesc": "Cycling Mountain Bike",
+    "Event": "M.XCTRY-------------.----",
+    "EventDesc": "Men's Cross-country",
+    "Bib": "16",
+    "Gender": "M",
+    "BirthDate": "2004-04-05"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "6639333",
+    "Type": "A",
+    "DateRaw": "2026-09-24T11:00:00+09:00",
+    "Name": "DEWI Sayu Bella Sukma",
+    "Disc": "MTB",
+    "DiscDesc": "Cycling Mountain Bike",
+    "Event": "W.XCTRY-------------.----",
+    "EventDesc": "Women's Cross-country",
+    "Bib": "55",
+    "Gender": "W",
+    "BirthDate": "2003-08-16"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "PDLWPAIRS------INA02",
+    "Type": "D",
+    "DateRaw": "2026-10-03T16:00:00+09:00",
+    "Name": "KUSUMAWATI Fadona / SABATINI Fitriani",
+    "Disc": "PDL",
+    "DiscDesc": "Padel",
+    "Event": "W.PAIRS-------------.----",
+    "EventDesc": "Women's Pairs",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "13620964",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "KUSUMAWATI Fadona",
+        "Order": 1,
+        "BirthDate": "2000-08-09"
+      },
+      {
+        "Reg": "14193669",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SABATINI Fitriani",
+        "Order": 2,
+        "BirthDate": "2001-02-13"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "PDLWPAIRS------INA01",
+    "Type": "D",
+    "DateRaw": "2026-10-03T11:00:00+09:00",
+    "Name": "PUTRIA Novela / GUMULYA Beatrice",
+    "Disc": "PDL",
+    "DiscDesc": "Padel",
+    "Event": "W.PAIRS-------------.----",
+    "EventDesc": "Women's Pairs",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "10493727",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PUTRIA Novela",
+        "Order": 1,
+        "BirthDate": "1999-11-09"
+      },
+      {
+        "Reg": "12029304",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "GUMULYA Beatrice",
+        "Order": 2,
+        "BirthDate": "1991-01-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "ROWMSCULL2-L---INA01",
+    "Type": "D",
+    "DateRaw": "2026-09-24T00:00:00+09:00",
+    "Name": "YASIR Rafiq Wijdan / MARDIANSYAH Ali",
+    "Disc": "ROW",
+    "DiscDesc": "Rowing",
+    "Event": "M.SCULL2-L----------.FNL-",
+    "EventDesc": "Lightweight Men's Double Sculls Finals",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "8377902",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "YASIR Rafiq Wijdan",
+        "Order": 1,
+        "BirthDate": "2001-04-17"
+      },
+      {
+        "Reg": "1343768",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MARDIANSYAH Ali",
+        "Order": 2,
+        "BirthDate": "1999-06-07"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "ROWMSCULL4-----INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-24T00:00:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "ROW",
+    "DiscDesc": "Rowing",
+    "Event": "M.SCULL4------------.FNL-",
+    "EventDesc": "Men's Quadruple Sculls Finals",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "3928115",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "Ihram",
+        "Order": 1,
+        "BirthDate": "1988-08-27"
+      },
+      {
+        "Reg": "4284189",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MAULANA Rendi Setia",
+        "Order": 2,
+        "BirthDate": "2003-07-18"
+      },
+      {
+        "Reg": "762642",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "Febrian",
+        "Order": 3,
+        "BirthDate": "2008-02-29"
+      },
+      {
+        "Reg": "15803926",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "Memo",
+        "Order": 4,
+        "BirthDate": "1995-01-08"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "SHOMAPTM-------INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-24T13:13:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.APTM--------------.----",
+    "EventDesc": "10m Air Pistol Men Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "14450722",
+        "Bib": "1062",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PRABOWO Muhamad Iqbal Raia",
+        "Order": 1,
+        "BirthDate": "2005-02-20"
+      },
+      {
+        "Reg": "14459940",
+        "Bib": "1063",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SUKMANA Wira",
+        "Order": 2,
+        "BirthDate": "1994-10-14"
+      },
+      {
+        "Reg": "7044852",
+        "Bib": "1071",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MARUF Sulthanul Aulia",
+        "Order": 3,
+        "BirthDate": "2006-06-25"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "SHOMRFPTM------INA01",
+    "Type": "T",
+    "DateRaw": "2026-10-01T13:42:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.RFPTM-------------.----",
+    "EventDesc": "25m Rapid Fire Pistol Men Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "11381592",
+        "Bib": "1053",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "FEBRIANTO Aris",
+        "Order": 1,
+        "BirthDate": "1993-02-05"
+      },
+      {
+        "Reg": "11568372",
+        "Bib": "1056",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SUTEJA Dewa Putu Yadi",
+        "Order": 2,
+        "BirthDate": "1982-05-11"
+      },
+      {
+        "Reg": "14448247",
+        "Bib": "1061",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "FARREL Muhamad Fawwaz Aditia",
+        "Order": 3,
+        "BirthDate": "2006-03-31"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "SPKMQUADRANT---INA01",
+    "Type": "T",
+    "DateRaw": "2026-10-03T10:30:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "M.QUADRANT----------.FNL-",
+    "EventDesc": "Men's Quadrant Final",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "11835732",
+        "Bib": "3",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MULIANG Muhammad Hardiansyah",
+        "Order": 1,
+        "BirthDate": "1994-03-27"
+      },
+      {
+        "Reg": "2742024",
+        "Bib": "5",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "LADADA Jelki",
+        "Order": 2,
+        "BirthDate": "2001-08-14"
+      },
+      {
+        "Reg": "2755351",
+        "Bib": "7",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "RIJAL Saiful",
+        "Order": 3,
+        "BirthDate": "1990-10-16"
+      },
+      {
+        "Reg": "3658195",
+        "Bib": "10",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ASWINATAMA Yudha",
+        "Order": 4,
+        "BirthDate": "2006-03-10"
+      },
+      {
+        "Reg": "5964496",
+        "Bib": "4",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ROHMAN Muhammad Ubaidur",
+        "Order": 5,
+        "BirthDate": "2008-03-15"
+      },
+      {
+        "Reg": "9811786",
+        "Bib": "11",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SAPUTRA Andi Try Sandi",
+        "Order": 6,
+        "BirthDate": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "SPKMTEAMREGU---INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-24T09:00:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "M.TEAMREGU----------.FNL-",
+    "EventDesc": "Men's Team Regu Finals",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "11835732",
+        "Bib": "3",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "MULIANG Muhammad Hardiansyah",
+        "Order": 1,
+        "BirthDate": "1994-03-27"
+      },
+      {
+        "Reg": "12845220",
+        "Bib": "8",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "DJAINA Rizki Yusuf",
+        "Order": 2,
+        "BirthDate": "2005-01-01"
+      },
+      {
+        "Reg": "13999665",
+        "Bib": "19",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "USMAN Gelvin A",
+        "Order": 3,
+        "BirthDate": "2004-02-19"
+      },
+      {
+        "Reg": "2742024",
+        "Bib": "5",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "LADADA Jelki",
+        "Order": 4,
+        "BirthDate": "2001-08-14"
+      },
+      {
+        "Reg": "2755351",
+        "Bib": "7",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "RIJAL Saiful",
+        "Order": 5,
+        "BirthDate": "1990-10-16"
+      },
+      {
+        "Reg": "2990283",
+        "Bib": "2",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "AKMAL Syamsul",
+        "Order": 6,
+        "BirthDate": "1994-08-28"
+      },
+      {
+        "Reg": "3658195",
+        "Bib": "10",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ASWINATAMA Yudha",
+        "Order": 7,
+        "BirthDate": "2006-03-10"
+      },
+      {
+        "Reg": "5964496",
+        "Bib": "4",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "ROHMAN Muhammad Ubaidur",
+        "Order": 8,
+        "BirthDate": "2008-03-15"
+      },
+      {
+        "Reg": "9811786",
+        "Bib": "11",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SAPUTRA Andi Try Sandi",
+        "Order": 9,
+        "BirthDate": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "SPKWQUADRANT---INA01",
+    "Type": "T",
+    "DateRaw": "2026-10-02T14:00:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "W.QUADRANT----------.FNL-",
+    "EventDesc": "Women's Quadrant Final",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "15903355",
+        "Bib": "9",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "KUSNELIA",
+        "Order": 1,
+        "BirthDate": "1995-11-30"
+      },
+      {
+        "Reg": "5814454",
+        "Bib": "3",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SARI Dini Mita",
+        "Order": 2,
+        "BirthDate": "1994-01-13"
+      },
+      {
+        "Reg": "5888291",
+        "Bib": "7",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "RACHMADI Wan Annisa",
+        "Order": 3,
+        "BirthDate": "2002-04-16"
+      },
+      {
+        "Reg": "8201197",
+        "Bib": "10",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "CHOIRUNNISA",
+        "Order": 4,
+        "BirthDate": "2008-07-08"
+      },
+      {
+        "Reg": "8576809",
+        "Bib": "4",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "LESTARI Fujy Anggy",
+        "Order": 5,
+        "BirthDate": "2005-05-26"
+      },
+      {
+        "Reg": "9465129",
+        "Bib": "11",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PRATIWI Dita",
+        "Order": 6,
+        "BirthDate": "1996-11-11"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "SPKWTEAMREGU---INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-25T09:00:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "W.TEAMREGU----------.FNL-",
+    "EventDesc": "Women's Team Regu Finals",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "15903355",
+        "Bib": "9",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "KUSNELIA",
+        "Order": 1,
+        "BirthDate": "1995-11-30"
+      },
+      {
+        "Reg": "551192",
+        "Bib": "8",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PERDHANA Ayvonne Halimatu Zahra",
+        "Order": 2,
+        "BirthDate": "2007-11-20"
+      },
+      {
+        "Reg": "5814454",
+        "Bib": "3",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SARI Dini Mita",
+        "Order": 3,
+        "BirthDate": "1994-01-13"
+      },
+      {
+        "Reg": "5888291",
+        "Bib": "7",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "RACHMADI Wan Annisa",
+        "Order": 4,
+        "BirthDate": "2002-04-16"
+      },
+      {
+        "Reg": "8117513",
+        "Bib": "12",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "INDRASARI Frisca Kharisma",
+        "Order": 5,
+        "BirthDate": "2003-03-06"
+      },
+      {
+        "Reg": "8201197",
+        "Bib": "10",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "CHOIRUNNISA",
+        "Order": 6,
+        "BirthDate": "2008-07-08"
+      },
+      {
+        "Reg": "8271568",
+        "Bib": "5",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "YULIANA",
+        "Order": 7,
+        "BirthDate": "2003-05-05"
+      },
+      {
+        "Reg": "8576809",
+        "Bib": "4",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "LESTARI Fujy Anggy",
+        "Order": 8,
+        "BirthDate": "2005-05-26"
+      },
+      {
+        "Reg": "9465129",
+        "Bib": "11",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PRATIWI Dita",
+        "Order": 9,
+        "BirthDate": "1996-11-11"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "12580840",
+    "Type": "A",
+    "DateRaw": "2026-09-28T14:36:00+09:00",
+    "Name": "ARIYANA I Made Pajar",
+    "Disc": "SRF",
+    "DiscDesc": "Surfing",
+    "Event": "M.SHORTBRD----------.FNL-",
+    "EventDesc": "Men's Shortboard Finals",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2004-09-16"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "496759",
+    "Type": "A",
+    "DateRaw": "2026-09-20T15:00:00+09:00",
+    "Name": "SUMAYA",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "W.SINGLES-----------.----",
+    "EventDesc": "Women's Singles",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2005-08-18"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "471789",
+    "Type": "A",
+    "DateRaw": "2026-09-20T11:00:00+09:00",
+    "Name": "PUTRA Yoga Ardika",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "M.SINGLES-----------.----",
+    "EventDesc": "Men's Singles",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2005-03-25"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "TSTMTEAM-------INA01",
+    "Type": "T",
+    "DateRaw": "2026-09-20T11:30:00+09:00",
+    "Name": "Indonesia",
+    "Disc": "TST",
+    "DiscDesc": "Soft Tennis",
+    "Event": "M.TEAM--------------.----",
+    "EventDesc": "Men's Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "10615943",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "SANGER Fernando",
+        "Order": 1,
+        "BirthDate": "1996-10-01"
+      },
+      {
+        "Reg": "10618533",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "FALEVI Muhammad",
+        "Order": 2,
+        "BirthDate": "2002-08-16"
+      },
+      {
+        "Reg": "10623490",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "LALUYAN Rizky",
+        "Order": 3,
+        "BirthDate": "1997-02-17"
+      },
+      {
+        "Reg": "3170349",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "PRADEWA Bagus",
+        "Order": 4,
+        "BirthDate": "1999-12-05"
+      },
+      {
+        "Reg": "376162",
+        "Bib": "",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "HUTAURUK Tio",
+        "Order": 5,
+        "BirthDate": "1997-07-26"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "VBVMTEAM2------INA01",
+    "Type": "D",
+    "DateRaw": "2026-10-03T13:00:00+09:00",
+    "Name": "EFENDI / AKBAR",
+    "Disc": "VBV",
+    "DiscDesc": "Beach Volleyball",
+    "Event": "M.TEAM2-------------.FNL-",
+    "EventDesc": "Men's Finals",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "6992647",
+        "Bib": "1",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "EFENDI Sofyan Rachman",
+        "Order": 1,
+        "BirthDate": "2003-04-06"
+      },
+      {
+        "Reg": "699548",
+        "Bib": "2",
+        "Org": "INA",
+        "OrgDesc": "Indonesia",
+        "Name": "AKBAR Bintang",
+        "Order": 2,
+        "BirthDate": "2001-03-05"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "10500508",
+    "Type": "A",
+    "DateRaw": "2026-09-26T17:00:00+09:00",
+    "Name": "ABDULLAH Rahmat Erwin",
+    "Disc": "WLF",
+    "DiscDesc": "Weightlifting",
+    "Event": "M.75KG--------------.FNL-",
+    "EventDesc": "Men's 75kg All Groups",
+    "Bib": "149",
+    "Gender": "M",
+    "BirthDate": "2000-10-13"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "10496516",
+    "Type": "A",
+    "DateRaw": "2026-09-23T13:30:00+09:00",
+    "Name": "WIJAYANA Luluk Diana Tri",
+    "Disc": "WLF",
+    "DiscDesc": "Weightlifting",
+    "Event": "W.49KG--------------.FNL-",
+    "EventDesc": "Women's 49kg All Groups",
+    "Bib": "9",
+    "Gender": "W",
+    "BirthDate": "2005-08-09"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "14275329",
+    "Type": "A",
+    "DateRaw": "2026-09-23T18:48:46+09:00",
+    "Name": "SINAGA Fereddy",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "M.56KG--------------.----",
+    "EventDesc": "Men's 56kg",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2004-09-18"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "14274841",
+    "Type": "A",
+    "DateRaw": "2026-09-23T18:53:00+09:00",
+    "Name": "GUITARA Bintang Reindra Nada",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "M.60KG--------------.----",
+    "EventDesc": "Men's 60kg",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2004-01-27"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "14276271",
+    "Type": "A",
+    "DateRaw": "2026-09-20",
+    "Name": "SIREGAR Seraf Naro",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "M.CHAN--------------.FNL-",
+    "EventDesc": "Men's Changquan",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2001-09-17"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "14276526",
+    "Type": "A",
+    "DateRaw": "2026-09-23T18:22:50+09:00",
+    "Name": "KUSUMANINGTYAS Thania",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "W.60KG--------------.----",
+    "EventDesc": "Women's 60kg",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2000-02-02"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "INA",
+    "OrgDesc": "Indonesia",
+    "Reg": "14275191",
+    "Type": "A",
+    "DateRaw": "2026-09-21",
+    "Name": "WIDODO Eugenia Diva",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "W.CHAN--------------.FNL-",
+    "EventDesc": "Women's Changquan",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2003-05-16"
+  }
+]

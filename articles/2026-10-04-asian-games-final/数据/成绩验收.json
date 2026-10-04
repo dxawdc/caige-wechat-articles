@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-10-04T13:28:07.530837+00:00",
+  "orgs": 46,
+  "medal_orgs": 40,
+  "medals": 1568,
+  "gold": 470,
+  "medal_counts": {
+    "ME_SILVER": 469,
+    "ME_BRONZE": 629,
+    "ME_GOLD": 470
+  },
+  "latest_award_date": "2026-10-04",
+  "standings_unchanged_during_collection": true,
+  "mismatches": [],
+  "status": "passed"
+}

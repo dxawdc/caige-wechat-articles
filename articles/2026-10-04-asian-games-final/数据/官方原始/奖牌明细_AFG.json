@@ -1,0 +1,53 @@
+[
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "AFG",
+    "OrgDesc": "Afghanistan",
+    "Reg": "11951734",
+    "Type": "A",
+    "DateRaw": "2026-09-22T00:00:00+09:00",
+    "Name": "HASHIMI Fariba",
+    "Disc": "CRD",
+    "DiscDesc": "Cycling Road",
+    "Event": "W.RR----------------.----",
+    "EventDesc": "Women's Road Race",
+    "Bib": "23",
+    "Gender": "W",
+    "BirthDate": "2003-04-22"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "AFG",
+    "OrgDesc": "Afghanistan",
+    "Reg": "1655706",
+    "Type": "A",
+    "DateRaw": "2026-09-23T19:28:00+09:00",
+    "Name": "ASHRAFI Hamid",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "M.65KG--------------.----",
+    "EventDesc": "Men's 65kg",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2005-11-20"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "AFG",
+    "OrgDesc": "Afghanistan",
+    "Reg": "14660387",
+    "Type": "A",
+    "DateRaw": "2026-09-23T19:30:00+09:00",
+    "Name": "HOTAK Mohammad Khalid",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "M.70KG--------------.----",
+    "EventDesc": "Men's 70kg",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1991-08-01"
+  }
+]

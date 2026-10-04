@@ -1,0 +1,125 @@
+[
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "IRQ",
+    "OrgDesc": "Iraq",
+    "Reg": "13270873",
+    "Type": "A",
+    "DateRaw": "2026-09-20T15:40:00+09:00",
+    "Name": "ALELAYAWI Ali Jalil Mezher",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "M.SINGLES-----------.----",
+    "EventDesc": "Men's Singles",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1998-06-25"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "IRQ",
+    "OrgDesc": "Iraq",
+    "Reg": "TEQMDOUBLES----IRQ01",
+    "Type": "D",
+    "DateRaw": "2026-09-20T11:30:00+09:00",
+    "Name": "RADHI Abdulrahman Ahmed Radhi / ALELAYAWI Ali Jalil Mezher",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "M.DOUBLES-----------.----",
+    "EventDesc": "Men's Doubles",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "13265932",
+        "Bib": "",
+        "Org": "IRQ",
+        "OrgDesc": "Iraq",
+        "Name": "RADHI Abdulrahman Ahmed Radhi",
+        "Order": 1,
+        "BirthDate": "2003-07-12"
+      },
+      {
+        "Reg": "13270873",
+        "Bib": "",
+        "Org": "IRQ",
+        "OrgDesc": "Iraq",
+        "Name": "ALELAYAWI Ali Jalil Mezher",
+        "Order": 2,
+        "BirthDate": "1998-06-25"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "IRQ",
+    "OrgDesc": "Iraq",
+    "Reg": "TEQXDOUBLES----IRQ01",
+    "Type": "D",
+    "DateRaw": "2026-09-20T10:30:00+09:00",
+    "Name": "RADHI Abdulrahman Ahmed Radhi / ABED Samah Shakir Abed",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "X.DOUBLES-----------.----",
+    "EventDesc": "Mixed Doubles",
+    "Bib": "",
+    "Gender": "X",
+    "Members": [
+      {
+        "Reg": "13265932",
+        "Bib": "",
+        "Org": "IRQ",
+        "OrgDesc": "Iraq",
+        "Name": "RADHI Abdulrahman Ahmed Radhi",
+        "Order": 1,
+        "BirthDate": "2003-07-12"
+      },
+      {
+        "Reg": "7188895",
+        "Bib": "",
+        "Org": "IRQ",
+        "OrgDesc": "Iraq",
+        "Name": "ABED Samah Shakir Abed",
+        "Order": 2,
+        "BirthDate": "1987-01-10"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "IRQ",
+    "OrgDesc": "Iraq",
+    "Reg": "8115385",
+    "Type": "A",
+    "DateRaw": "2026-09-29T19:10:00+09:00",
+    "Name": "RUBAIAWI Ali Ammar Yusur",
+    "Disc": "WLF",
+    "DiscDesc": "Weightlifting",
+    "Event": "M.O110KG------------.FNL-",
+    "EventDesc": "Men's +110kg All Groups",
+    "Bib": "141",
+    "Gender": "M",
+    "BirthDate": "2004-08-02"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "IRQ",
+    "OrgDesc": "Iraq",
+    "Reg": "10430749",
+    "Type": "A",
+    "DateRaw": "2026-10-01T18:00:00+09:00",
+    "Name": "ALBIDHAN Sajjad Ali Mukasr",
+    "Disc": "WRE",
+    "DiscDesc": "Wrestling",
+    "Event": "M.GR60KG------------.FNL-",
+    "EventDesc": "Men's Greco-Roman 60kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2001-09-10"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "url": "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json",
+  "snapshot_date": "2026-10-04",
+  "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275",
+  "projection": "Spherical Albers equal area; parallels25/47; central meridian105",
+  "use": "公开边界数据制图示例"
+}

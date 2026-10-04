@@ -1,0 +1,765 @@
+{
+  "version": "v1.0.0",
+  "updated": "2026-10-04",
+  "articleId": "asian-games-final",
+  "entrypoint": "绘制图表.py",
+  "data_source": "赛事官方成绩系统和地方收官报道",
+  "material_policy": "latest-complete-set-only",
+  "files": [
+    {
+      "path": "01_代表团榜单.py",
+      "bytes": 1440,
+      "sha256": "c33ffc88a427f80d79442fcdac30d62df3c7fb2ed59ca9930ca64d4515cbd5c4"
+    },
+    {
+      "path": "02_地区榜单.py",
+      "bytes": 1487,
+      "sha256": "0ee347164a838954f5a812337b3457fb55bd27701d8233bc9cc182c57354734b"
+    },
+    {
+      "path": "03_地区金牌地图.py",
+      "bytes": 2929,
+      "sha256": "cafc327eae1461db238a27418f15891221c0f2d34bbd03f5cb65493aef190a7b"
+    },
+    {
+      "path": "04_项目热力矩阵.py",
+      "bytes": 1566,
+      "sha256": "d6200835887551e0b05d123ff55d1f5472a258ed40b474e02062ca2d3fb23ee6"
+    },
+    {
+      "path": "05_中国金牌项目.py",
+      "bytes": 1020,
+      "sha256": "d7ffa58caba7561ed29f154986f96114e1ee6588a700b88e04bacdd6b6016790"
+    },
+    {
+      "path": "06_累计金牌.py",
+      "bytes": 1444,
+      "sha256": "cbf65ad3d4705763c23466d16e839ba2b5690b05e6ca1de62af3de0998cedd9c"
+    },
+    {
+      "path": "07_地区贡献口径.py",
+      "bytes": 1170,
+      "sha256": "107e8b92e549ac84fb2ae65da69485ac965e555a54b9260d4dfee495eee521b2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7380,
+      "sha256": "ba8fe751e6ef83d1f1d3d0ab37f08a9788747bf914c7bae86cab02469a7ea698"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 88,
+      "sha256": "bb0e68df757b1375c0b27d5fb5d48c9f4f9da0891dfa7da5726aa0c41385a9f1"
+    },
+    {
+      "path": "图表工具.py",
+      "bytes": 3240,
+      "sha256": "c60958ac527dd1607c6ef7ae915186d1140fff20cfcbdbf0572fa6f536ace20b"
+    },
+    {
+      "path": "官方接口.py",
+      "bytes": 2230,
+      "sha256": "c6f7feb86f863812404142f83a2c99ed907921edb50bc5aa407d5d50f6b030fc"
+    },
+    {
+      "path": "封面/亚运会封面.png",
+      "bytes": 33288,
+      "sha256": "0a9883bce0a0b5b46de50b6a9949c98e27dd5d21bb0d1a4ae3a38cb6d393770e"
+    },
+    {
+      "path": "封面/亚运会封面.svg",
+      "bytes": 44781,
+      "sha256": "47226eea110e51ca7d434b17d520afe291e4b513d9fdc5201fb4302457c7438e"
+    },
+    {
+      "path": "数据/中国分项目金牌.csv",
+      "bytes": 698,
+      "sha256": "78387eae93a3a23f8c5687433c4f82f79bf9dcbefae3f3f4ae086582cc9713a2"
+    },
+    {
+      "path": "数据/中国省级边界.geojson",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275"
+    },
+    {
+      "path": "数据/中国省级边界.来源.json",
+      "bytes": 321,
+      "sha256": "d6ee6cba2079a533cdc53d6137f0eeb2e87eda680cf760ba162db59904b688d8"
+    },
+    {
+      "path": "数据/代表团项目热力矩阵.csv",
+      "bytes": 423,
+      "sha256": "75524ab6645e3dd1a8cdb9781f3c47f49a5e366f6d72b081dc7e9961fbe033eb"
+    },
+    {
+      "path": "数据/国家地区奖牌榜.csv",
+      "bytes": 1862,
+      "sha256": "b586d5490d4c1d31819afb685d053b33baff2c444c53e79a3e4f78b6c9d89d9d"
+    },
+    {
+      "path": "数据/地区奖牌底表.csv",
+      "bytes": 4807,
+      "sha256": "357c3bb924e93e9f8813481eee808a93a6967f091401426d0d9b02d0592c9cbd"
+    },
+    {
+      "path": "数据/地区来源核验.json",
+      "bytes": 4123,
+      "sha256": "7697d226522283f586e7c825934ac0ea83d422cf89ecd4597c53ff89f8dc3bdb"
+    },
+    {
+      "path": "数据/地区覆盖验收.json",
+      "bytes": 606,
+      "sha256": "771f3a1025f5896fb81cf5161bf9fefb8f7394df2ea063d2bcb58d8d2e7bf50a"
+    },
+    {
+      "path": "数据/地区采集规则.csv",
+      "bytes": 1177,
+      "sha256": "5ab84efd3e4b79395d7a9eb8636e01136e5e1844c28e2b9b195eb6509a19a6b8"
+    },
+    {
+      "path": "数据/奖牌明细.csv",
+      "bytes": 775345,
+      "sha256": "6415bc5097ac934a22d4abc42b2e20987564f303aef2ae9b557dc023c0c1813c"
+    },
+    {
+      "path": "数据/奖牌榜采集示例.csv",
+      "bytes": 1328,
+      "sha256": "ecc9a442c2c6e330c4b8a8690a205d8f49404fc333ef97ba2ebb4ba653857251"
+    },
+    {
+      "path": "数据/官方原始/代表团.json",
+      "bytes": 6541,
+      "sha256": "d8e59b53a845b743acc6ea4ffd96b82d24b5429bb7d52e552887aebc33e6005c"
+    },
+    {
+      "path": "数据/官方原始/代表团.来源.json",
+      "bytes": 216,
+      "sha256": "be27e2afb30fac7668367fa1ead53d5045bb45b59f404652bcaa894ae99c8497"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_AFG.json",
+      "bytes": 1205,
+      "sha256": "5fa1b411379ed37a67f0e971e21e967f5d59746c9708ff0cf2e84877913d0847"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_AFG.来源.json",
+      "bytes": 221,
+      "sha256": "89f756f22163f51f7fbde00a623d2cebacdb9693f7b8d3885c83ba436f2dc0f6"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_ART.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_ART.来源.json",
+      "bytes": 221,
+      "sha256": "f9d892d2ef9362773143e33e4353f7a857f8070d5d7ae720db2cf5640de831e0"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BAN.json",
+      "bytes": 394,
+      "sha256": "8a73a2f668972fbdcccddf2e945654d3b46f10984da4d1d6d67a4f6c90c357be"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BAN.来源.json",
+      "bytes": 221,
+      "sha256": "a6a658c48f5b5647a8bf783c0dd9397a161d0ca08074a2bd35dad6a96035f333"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BHU.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BHU.来源.json",
+      "bytes": 221,
+      "sha256": "a1d9166a5252a90d63f595cc227debcba731335d74c7b6a686e2d3af45139cb5"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BRN.json",
+      "bytes": 13741,
+      "sha256": "fd4f9755c088ac58cf7af292f01bdf47daa9899d3f9b63d3b3e84a543d04d3db"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BRN.来源.json",
+      "bytes": 221,
+      "sha256": "5db8a206f73d0044fa5983c3585d950f032dc10cab5a2fcb92276751cf8a5895"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BRU.json",
+      "bytes": 404,
+      "sha256": "5c501b02d50a400a7168e875d8ef8ff7376db818384acdc1d1a4740178cf746b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_BRU.来源.json",
+      "bytes": 221,
+      "sha256": "cae6d101393e10dc76ae66d19a5b0a29e45f67b975b632ad9dabbaf8eef4d66c"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_CAM.json",
+      "bytes": 2054,
+      "sha256": "692458d5ce2552da1006042f86f8353770889aeaf8c433d793abe70b7228db1b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_CAM.来源.json",
+      "bytes": 221,
+      "sha256": "bd841c9368c4a054cbd38aeea695e9a24c0bc46e26cce9c37e985a48ab8e0fa0"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_CHN.json",
+      "bytes": 247987,
+      "sha256": "648bf59ad3f8e7acfc93556b39ab6cd304aa6eb8af090657533331b3163c5a24"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_CHN.来源.json",
+      "bytes": 221,
+      "sha256": "30f31fb7de5d3f8fc189b20c525b08fd090f7e84ff0df6f70a17cfe49cca5ab5"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_HKG.json",
+      "bytes": 42983,
+      "sha256": "5c777a3ea283cb6b4e5d23050336ed5302cbda22ba796fed380c7664a69f95fb"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_HKG.来源.json",
+      "bytes": 221,
+      "sha256": "5a8bf555e8be434e6402f883381194a351b848958ce0ef7a59f498fc8a4a577f"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_INA.json",
+      "bytes": 34793,
+      "sha256": "e1d9e9dae305ce7afe063e037225f2f95b63742af63c7dada21359dd87ea1e54"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_INA.来源.json",
+      "bytes": 221,
+      "sha256": "d552cfa91332dc4491400ee0be8dfab5d3ef94b9a4636c913fc7011f6c36d1df"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_IND.json",
+      "bytes": 74663,
+      "sha256": "e5edce1d73065705909b63cb5e0ee13993dbcee5b68669f2e6d8b1d60a473f02"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_IND.来源.json",
+      "bytes": 221,
+      "sha256": "9760722d9db0dd3b280415e9181065340411dbce2d936aacfdb88f8099625170"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_IRI.json",
+      "bytes": 37104,
+      "sha256": "261caac443b7f00aeb2f425185d055742155f22650e8999e562c880316ec5b6d"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_IRI.来源.json",
+      "bytes": 221,
+      "sha256": "5643ecbc6b025a2f63f16ab1e89d7455ff780e900a25c3cb4d676921f7caa06f"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_IRQ.json",
+      "bytes": 2972,
+      "sha256": "c7ea0ec88462555ec9bfb6a1a7d2db327aa3e56dddc978c95eea7aabb09169f5"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_IRQ.来源.json",
+      "bytes": 221,
+      "sha256": "6b04dc5e22dc9d66cff3f13ebdd42549e7119061c46d35b2a0c458532fde1109"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_JOR.json",
+      "bytes": 4485,
+      "sha256": "a973e6a07865fbad9467293bf47e4d30289087d92926342d3874c5be3502cbfd"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_JOR.来源.json",
+      "bytes": 221,
+      "sha256": "d8dda895edc124bb652e0f2b24b17ea6963525aee0acf840e85696fbae643121"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_JPN.json",
+      "bytes": 213965,
+      "sha256": "5b18c4ccc52198b5d7fc4b8c2ce8d2b0bc1529a907dc102ded287f98c35525f4"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_JPN.来源.json",
+      "bytes": 221,
+      "sha256": "3eb437bab10125b88083a2cf3dfd3f4fc592079d3317612f7d31ee1b0bc0c65b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KAZ.json",
+      "bytes": 51599,
+      "sha256": "72508d8c07df3f77211465b17d70418affdce1772ce6b59079c65a691e52eb79"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KAZ.来源.json",
+      "bytes": 221,
+      "sha256": "c6f7118e628452df3532cffebd11f47e2371ab17100bf2b4f9b23e903c334b43"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KGZ.json",
+      "bytes": 5845,
+      "sha256": "cc64851ac060e0962991e545cad8cd8ee997ccd682add19ab920dc9976dce37f"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KGZ.来源.json",
+      "bytes": 221,
+      "sha256": "7114f6dd604e480d9fee758d972d83bcaf9454e62282813eb6adeff0487cacee"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KOR.json",
+      "bytes": 131708,
+      "sha256": "22b340a17208e91db93ca696bf81067e0568e6ddef015d1dfe6bf83a83511e27"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KOR.来源.json",
+      "bytes": 221,
+      "sha256": "555ffb6e0c5c8ad2668cc227c9dfcfeb9f0a89da63ad6e6d0081550c67005abf"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KSA.json",
+      "bytes": 10115,
+      "sha256": "2332d592047d5470ca6cb2d2fb48a6ddffe0ae75b751fb1e5e4f6fdc512950b9"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KSA.来源.json",
+      "bytes": 221,
+      "sha256": "a989100ee2d2bb2223de61899ee7dc7b3fe6932e24c7751de471924605a25249"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KUW.json",
+      "bytes": 6509,
+      "sha256": "d04bcde2ee033fc5e6aab41563687332d40bcb68a575af25a905d497202d8a25"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_KUW.来源.json",
+      "bytes": 221,
+      "sha256": "5a6ec7ef98401fcfb85011fe9bdeffb5d1535ce9f8b1aab0b86a16c92de610dc"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_LAO.json",
+      "bytes": 1068,
+      "sha256": "e425b1913540941e6dbbee545ef8ee8a4c3b89fe8f91d4dc4d761a5d4af7e0ba"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_LAO.来源.json",
+      "bytes": 221,
+      "sha256": "c08f45d9e6363e75d05540f13ebc63a754e5c9cc0923bda302c51bb6ec51f142"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_LBN.json",
+      "bytes": 2041,
+      "sha256": "90d92e830bb38bb40ff324553e2bcaa9b90dbe2e92e5cff0413fc8e453160b11"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_LBN.来源.json",
+      "bytes": 221,
+      "sha256": "e718d0d140e1692f4529b528c94d09bb129989a4d1c9a5880fdae4bbcc197b22"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MAC.json",
+      "bytes": 2998,
+      "sha256": "905d62a0546fddb20b67c327ca5b038e33a7413d10e964794c42aa83d039df43"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MAC.来源.json",
+      "bytes": 221,
+      "sha256": "55ad70158de2f96bb07e01ca8a058c62331b880ed66d6639de28b1ac02ae620b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MAS.json",
+      "bytes": 31606,
+      "sha256": "b8d84d19fda7fa154d18c07a2ca84bda7e635da82787c186ff9db2624732c47e"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MAS.来源.json",
+      "bytes": 221,
+      "sha256": "c9acabb7b5e8d54a70c9deddbcfc5963f2f98bbee6749b805a0878d105eb8bec"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MDV.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MDV.来源.json",
+      "bytes": 221,
+      "sha256": "1d186831c027a5ebe3b56be06e1b576bc15f4823274405e2d6abca183024ac6b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MGL.json",
+      "bytes": 7196,
+      "sha256": "dfc22e978afdc3147542e8a1986af6f34070eebe24fdcef5a4000d822a7c60ae"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MGL.来源.json",
+      "bytes": 221,
+      "sha256": "43dd6b53c5bb4f2ff54bde03b813518e2bdeb49bd10186f1a96bd1ef7c0fdfc6"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MYA.json",
+      "bytes": 4640,
+      "sha256": "ce79ed206aa9ddb3cb65f6fce0463019792d573f83e37c2cd8e3fbcac2598851"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_MYA.来源.json",
+      "bytes": 221,
+      "sha256": "5e4913ecb94d564ce27c01640af27b2b28b8b2fcebfd5c0f04820ab65ec72bb4"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_NEP.json",
+      "bytes": 3223,
+      "sha256": "4163bac3698818bc69df970ad8db5df8b2324bf8820beaa2855b771dd1963b71"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_NEP.来源.json",
+      "bytes": 221,
+      "sha256": "8204f0a1b882ae40a618314f37fe3a024dcf43ddac9525eea8043ada7aed762a"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_OMA.json",
+      "bytes": 792,
+      "sha256": "4d2fa4cdfdc65f308adc1a68bf039bcc229ac3b7430db99445bfc6d480432f16"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_OMA.来源.json",
+      "bytes": 221,
+      "sha256": "f5816dd623abef41ac5f74662d02a206e0ce0dff6e249c4587bd35f3df7e9ac7"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PAK.json",
+      "bytes": 18266,
+      "sha256": "abf6dc998b105ee9003632cb4486213ee881c9b8e7300ad199b6d72ff090486a"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PAK.来源.json",
+      "bytes": 221,
+      "sha256": "0e814b4b55aa0f09f4b86df679fa121ba31604be0e22802f3d4ee3dc84643759"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PHI.json",
+      "bytes": 19249,
+      "sha256": "0d675ad84d53795463873af83304be2a86399292f4535009c22abbc79556132d"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PHI.来源.json",
+      "bytes": 221,
+      "sha256": "7fac54a3854a4061706d3f995bcaf65a34755f423f56132dbe0d36c0a203b8a1"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PLE.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PLE.来源.json",
+      "bytes": 221,
+      "sha256": "b3a6f28eb73a3c084e70acfe1ab61640b248c51954b5c40afebe94be26c3428f"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PRK.json",
+      "bytes": 19561,
+      "sha256": "e8d04f9d3744202c65b04ff76cf57a9f48aabc2fa40bd5a30d731a8e70513447"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_PRK.来源.json",
+      "bytes": 221,
+      "sha256": "cff0be8c42fa5a59a845b0ec0ef004a27da9a059bdef79dd829190a86b4cce7b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_QAT.json",
+      "bytes": 14816,
+      "sha256": "6716cf0bd3780e2e31449f2c5d29973199ee9ea2c8cf75dd6f4d72d3b554457a"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_QAT.来源.json",
+      "bytes": 221,
+      "sha256": "c0149cf85683545c85c4058979457ac14e8fb4c63969c9cfbb1035accb54a8d6"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_SGP.json",
+      "bytes": 8616,
+      "sha256": "8cddc601d67bfa7ad3f4f8c072e8ca63e698c78d1e920ecb475c912d33e910b0"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_SGP.来源.json",
+      "bytes": 221,
+      "sha256": "6aa0c5f213e0b879c9060ce9a48eea274567e4b0f94da1f3b8bd39b6620768ee"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_SRI.json",
+      "bytes": 7619,
+      "sha256": "7a5f608647d6143d1d9dc0d2e02868ae266fe1a9ee8b8a5e5c796f5c47bd405c"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_SRI.来源.json",
+      "bytes": 221,
+      "sha256": "a90a6bf20d0f15d47a74fccfcc9f7b47166a356171a7fa6e2acff58d5814af67"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_SYR.json",
+      "bytes": 424,
+      "sha256": "f172ef3d3b7c215d15b9419e6f3916c8834cd2315b11e6af96a6a6fc8bf4be9a"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_SYR.来源.json",
+      "bytes": 221,
+      "sha256": "2221d4f375edb57c5b68cdbee010b3d9b78d5f56e81af08df8836e346bc42841"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_THA.json",
+      "bytes": 46410,
+      "sha256": "66c83e1a3351a4c9ea668421826ed9176fefb9d973a50c0e5e6ac17971559d05"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_THA.来源.json",
+      "bytes": 221,
+      "sha256": "53ab4e3884345426ef677bd1042d8034d919441ade3e3254bdbbde5019243077"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TJK.json",
+      "bytes": 6530,
+      "sha256": "d56e6286711734a40ec93c30f9f71b13a198a113811239bc9a5d9976595ce597"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TJK.来源.json",
+      "bytes": 221,
+      "sha256": "65793e3ae0aca2e3326a71495bc4b26c5ef48c5bf7ee9b4d02d49b3bae9fc3fb"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TKM.json",
+      "bytes": 835,
+      "sha256": "2a9796244c2fca4d497b468b3f15bb3173ccc6a79cf8e86a0a9c643b2342d653"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TKM.来源.json",
+      "bytes": 221,
+      "sha256": "e2c98aff28095511177bf54e17d9d542adbfd2a65984be80fa9071004f487e14"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TLS.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TLS.来源.json",
+      "bytes": 221,
+      "sha256": "702b43cc701458933551eca0fa6f6d046f33473a05b1c1f7261157befac23e2f"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TPE.json",
+      "bytes": 51500,
+      "sha256": "01a718bd181d602bc6adde2aff8ac92935b7494de2f0dbd6a88363f5e5a74386"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_TPE.来源.json",
+      "bytes": 221,
+      "sha256": "2244f19d18a7ff2ccbc5a7836bdfd71d93bbf408ce27126bcfcc0426921349c2"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_UAE.json",
+      "bytes": 6306,
+      "sha256": "d9a5b74bd36553a10db01bba3f7b872804cfddf5f0556517da6dc03edd9f7777"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_UAE.来源.json",
+      "bytes": 221,
+      "sha256": "062965de5771b53697deb29ed00a1faf66e8741345f417dbbdc794035d840872"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_UZB.json",
+      "bytes": 39747,
+      "sha256": "f8440b59d681c029aa7f27bc942f7bd764cb64d78454e5c9c7912be6514cc032"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_UZB.来源.json",
+      "bytes": 221,
+      "sha256": "cb8d744b75006e91bf4ac4322bb548ac645c19255a196c9cd8e91d6785d0966b"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_VIE.json",
+      "bytes": 20939,
+      "sha256": "1e64e316e8578100f1a1eee4745f1d329bf46599636a9f4c173c696cf1c99d87"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_VIE.来源.json",
+      "bytes": 221,
+      "sha256": "46a56e937d831985687d71f34bf852da61d47d3ceb32d1006350aca6dca47d7a"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_YEM.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "数据/官方原始/奖牌明细_YEM.来源.json",
+      "bytes": 221,
+      "sha256": "a7c3c8fd930f6854386ce3f5b073d3cf4e932de984b7781490db67bb186c34b0"
+    },
+    {
+      "path": "数据/官方原始/奖牌榜.json",
+      "bytes": 26853,
+      "sha256": "0bf42fddaf60e026ddb31cdc96a0c83079b235eb0042f1dde17702e7bae3a599"
+    },
+    {
+      "path": "数据/官方原始/奖牌榜.来源.json",
+      "bytes": 223,
+      "sha256": "239eb2a38aab58a32c6be37ca7d214e5d852847ac001aa91fb036aa1f37ca16b"
+    },
+    {
+      "path": "数据/官方原始/奖牌榜_采集结束.json",
+      "bytes": 26853,
+      "sha256": "0bf42fddaf60e026ddb31cdc96a0c83079b235eb0042f1dde17702e7bae3a599"
+    },
+    {
+      "path": "数据/官方原始/奖牌榜_采集结束.来源.json",
+      "bytes": 223,
+      "sha256": "7b163e6736c044b980473ea93a757d4e910656b274582b60b7bcfcdc07d78709"
+    },
+    {
+      "path": "数据/官方原始/项目.json",
+      "bytes": 15943,
+      "sha256": "e2e8eafb4c78eb7e2e0650e27b130fc1e67cb5e42585e4d578b1cdd5258eafc5"
+    },
+    {
+      "path": "数据/官方原始/项目.来源.json",
+      "bytes": 216,
+      "sha256": "2c006cfee856b2b6a510b661f18d1bd397b42fe94e233381126c803c8c646e0a"
+    },
+    {
+      "path": "数据/官方成员候选.csv",
+      "bytes": 530328,
+      "sha256": "dd2a75d498d501c43188437f0077ee00b58ef0566504b0794b2d8ad47c62b1e8"
+    },
+    {
+      "path": "数据/实获奖名单示例.csv",
+      "bytes": 497,
+      "sha256": "81bf63964830011c4474b0b093921bef15d6ed67f9091850e890ed9b974a58c7"
+    },
+    {
+      "path": "数据/成绩验收.json",
+      "bytes": 352,
+      "sha256": "8a5bdbf95a8996c5c5375f6f8a26c018506053931c287d99d2e23eb47ca0ed39"
+    },
+    {
+      "path": "数据/每日金牌.csv",
+      "bytes": 2657,
+      "sha256": "2519e1d0e13b1bf2cfebd1f2913cc1b5e238491f593373c3868eb03f34f816a1"
+    },
+    {
+      "path": "数据/离线验收.json",
+      "bytes": 391,
+      "sha256": "f2f84812ca15651719b34ae0d63ba8e32d4d4aa2e36044fdb9c5534dccc68ef5"
+    },
+    {
+      "path": "数据/金牌日期补核.csv",
+      "bytes": 239,
+      "sha256": "fb4efef68d6ee09f10174d65c0c7d802fd46e089ebe9d062548cc1165ffb9346"
+    },
+    {
+      "path": "数据验收.json",
+      "bytes": 549,
+      "sha256": "a9522a81869d1c3457d956f5224d564892f13e4c889486e7c86aea215cf2bb3a"
+    },
+    {
+      "path": "整理数据.py",
+      "bytes": 3621,
+      "sha256": "2541b37efd8cca24c84c54da5febde30992785cd3fdf924f97353e65a94f625f"
+    },
+    {
+      "path": "映射.py",
+      "bytes": 2380,
+      "sha256": "1a2a1abf083868e4ecf229ea9cfe5e1fc2427d86cc946b79dc8d2418b60bb8fe"
+    },
+    {
+      "path": "绘制图表.py",
+      "bytes": 579,
+      "sha256": "3411e0228d308c252e639205fa708674a5b250921cda7ba6dc6d3c7207bd4e91"
+    },
+    {
+      "path": "绘制封面.py",
+      "bytes": 1269,
+      "sha256": "c254fd6bde723d5506883dd2aa374245915b57fd9de1a3cbe592428483717c8c"
+    },
+    {
+      "path": "配图/01_代表团奖牌榜.png",
+      "bytes": 165458,
+      "sha256": "45d8c38f97c5af951a56beab319564b1425625413c3b52e6242581e2423701c9"
+    },
+    {
+      "path": "配图/01_代表团奖牌榜.svg",
+      "bytes": 121417,
+      "sha256": "c055b7fd87dab1daee542530978baf4d85f72247ac5aa9e9ab5fe4cf3c1ce059"
+    },
+    {
+      "path": "配图/02_地区金牌比较.png",
+      "bytes": 150405,
+      "sha256": "d1dca349b4ce7bd551bf81d0533e7175e2e577af132106827bb21dae6d403af8"
+    },
+    {
+      "path": "配图/02_地区金牌比较.svg",
+      "bytes": 124526,
+      "sha256": "74d60e30a78be1067e52fca2e558cf1c268f564e2191a88ef5c61fecfa52950a"
+    },
+    {
+      "path": "配图/03_地区金牌地图.png",
+      "bytes": 340803,
+      "sha256": "11eb77632263739614c3986440671df7ace2b10c254a0fcaf4efdc2b76e25054"
+    },
+    {
+      "path": "配图/03_地区金牌地图.svg",
+      "bytes": 2261539,
+      "sha256": "f8620823a8d68468e524328febe9f6d2e7e0384e2792d08a8fba2763ae78d7ba"
+    },
+    {
+      "path": "配图/04_代表团项目热力矩阵.png",
+      "bytes": 213069,
+      "sha256": "0da00850999f0865fdd7bc76fb282a96f0d69d5ef9b8bd413e524d33a77f7d7a"
+    },
+    {
+      "path": "配图/04_代表团项目热力矩阵.svg",
+      "bytes": 161730,
+      "sha256": "f4605ccfde80ba25bf42549cb0fd823ef3abb03424ae008e6cb4b955c09032b3"
+    },
+    {
+      "path": "配图/05_中国金牌项目.png",
+      "bytes": 134623,
+      "sha256": "ce1f1690e5f5a0686303056b6e1f2c372debe21be81a896138e8cc46174bd74d"
+    },
+    {
+      "path": "配图/05_中国金牌项目.svg",
+      "bytes": 100971,
+      "sha256": "b06ba2e62fd30181149dfd7b9c6d855edd5bc7d14ad32e136edad206599809b8"
+    },
+    {
+      "path": "配图/06_累计金牌.png",
+      "bytes": 129477,
+      "sha256": "9e2f74c7b1acd261021787e819effcf108f6ff94cd747ae7dd7b51501049e126"
+    },
+    {
+      "path": "配图/06_累计金牌.svg",
+      "bytes": 77933,
+      "sha256": "8ea4ae6c2034ed5755151eeb565ed728f4baea779e43dbac7ea29fcad39e2793"
+    },
+    {
+      "path": "采集地区.py",
+      "bytes": 6337,
+      "sha256": "4aa74f472dbd5ee75d458268920c76c16d935f0f5f1f429b1e09b9ea7edac6d3"
+    },
+    {
+      "path": "采集成绩.py",
+      "bytes": 3888,
+      "sha256": "2463b5e262d8922a5a23d924bb17f19d6ca87fef6ebf401e6d1f62d688bc104c"
+    },
+    {
+      "path": "采集示例.py",
+      "bytes": 1090,
+      "sha256": "0535dae365b0eee91cbb9c29647c296103fb17ac7bd0fc198368f46af729759c"
+    },
+    {
+      "path": "验收数据.py",
+      "bytes": 3204,
+      "sha256": "e0f9451c8215bc72f1457d6e383c6ca042587299ff53641922ba5311962d9e92"
+    }
+  ]
+}

@@ -1,0 +1,1366 @@
+[
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "BDMWDOUBLES----MAS01",
+    "Type": "D",
+    "DateRaw": "2026-09-28T09:30:00+09:00",
+    "Name": "TAN Pearly Koong Le / MURALITHARAN Thinaah",
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Event": "W.DOUBLES-----------.----",
+    "EventDesc": "Women's Doubles",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "7831792",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "TAN Pearly Koong Le",
+        "Order": 1,
+        "BirthDate": "2000-03-14"
+      },
+      {
+        "Reg": "7832045",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MURALITHARAN Thinaah",
+        "Order": 2,
+        "BirthDate": "1998-01-03"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "10266253",
+    "Type": "A",
+    "DateRaw": "2026-10-02T00:00:00+09:00",
+    "Name": "AWANG Mohd Azizulhasni",
+    "Disc": "CTR",
+    "DiscDesc": "Cycling Track",
+    "Event": "M.KEIRIN------------.----",
+    "EventDesc": "Men's Keirin",
+    "Bib": "130",
+    "Gender": "M",
+    "BirthDate": "1988-01-05"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "CTRWSPRTEAM3---MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T00:00:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "CTR",
+    "DiscDesc": "Cycling Track",
+    "Event": "W.SPRTEAM3----------.----",
+    "EventDesc": "Women's Team Sprint",
+    "Bib": "9",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "7689941",
+        "Bib": "126",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZIZAN Nurul Aliana Syafika",
+        "Order": 1,
+        "BirthDate": "2003-07-21"
+      },
+      {
+        "Reg": "914384",
+        "Bib": "127",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD ASRI Nurul Izzah Izzati",
+        "Order": 2,
+        "BirthDate": "2003-09-11"
+      },
+      {
+        "Reg": "5473556",
+        "Bib": "128",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD FARID Nur Alyssa",
+        "Order": 3,
+        "BirthDate": "2006-01-20"
+      },
+      {
+        "Reg": "946649",
+        "Bib": "129",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ROSIDI Anis Amira",
+        "Order": 4,
+        "BirthDate": "1998-01-20"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "10266253",
+    "Type": "A",
+    "DateRaw": "2026-10-01T00:00:00+09:00",
+    "Name": "AWANG Mohd Azizulhasni",
+    "Disc": "CTR",
+    "DiscDesc": "Cycling Track",
+    "Event": "M.SPRINT------------.----",
+    "EventDesc": "Men's Sprint",
+    "Bib": "130",
+    "Gender": "M",
+    "BirthDate": "1988-01-05"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "914384",
+    "Type": "A",
+    "DateRaw": "2026-09-30T00:00:00+09:00",
+    "Name": "MOHD ASRI Nurul Izzah Izzati",
+    "Disc": "CTR",
+    "DiscDesc": "Cycling Track",
+    "Event": "W.KEIRIN------------.----",
+    "EventDesc": "Women's Keirin",
+    "Bib": "127",
+    "Gender": "W",
+    "BirthDate": "2003-09-11"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "DIVM10MTEAM2---MAS01",
+    "Type": "D",
+    "DateRaw": "2026-09-27T13:00:00+09:00",
+    "Name": "HAROLD Enrique / CLEMENT Elvis Priestly",
+    "Disc": "DIV",
+    "DiscDesc": "Diving",
+    "Event": "M.10MTEAM2----------.----",
+    "EventDesc": "Men's Synchronised 10m Platform",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "2325581",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HAROLD Enrique",
+        "Order": 1,
+        "BirthDate": "2003-04-12"
+      },
+      {
+        "Reg": "4709779",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CLEMENT Elvis Priestly",
+        "Order": 2,
+        "BirthDate": "2006-10-11"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "DIVM3MTEAM2----MAS01",
+    "Type": "D",
+    "DateRaw": "2026-09-26T13:00:00+09:00",
+    "Name": "YONG Rui Jie / MOHAMAD Nurqayyum",
+    "Disc": "DIV",
+    "DiscDesc": "Diving",
+    "Event": "M.3MTEAM2-----------.----",
+    "EventDesc": "Men's Synchronised 3m Springboard",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "4714461",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "YONG Rui Jie",
+        "Order": 1,
+        "BirthDate": "2006-04-26"
+      },
+      {
+        "Reg": "7628039",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHAMAD Nurqayyum",
+        "Order": 2,
+        "BirthDate": "2006-03-03"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "DIVW3MTEAM2----MAS01",
+    "Type": "D",
+    "DateRaw": "2026-09-27T10:00:00+09:00",
+    "Name": "ONG Ker Ying / LEE Yiat Qing",
+    "Disc": "DIV",
+    "DiscDesc": "Diving",
+    "Event": "W.3MTEAM2-----------.----",
+    "EventDesc": "Women's Synchronised 3m Springboard",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "1280287",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ONG Ker Ying",
+        "Order": 1,
+        "BirthDate": "2002-08-30"
+      },
+      {
+        "Reg": "2333342",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "LEE Yiat Qing",
+        "Order": 2,
+        "BirthDate": "2008-06-08"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "9092756",
+    "Type": "A",
+    "DateRaw": "2026-09-23T12:45:00+09:00",
+    "Name": "TAJ MADIRA Taj Izrin Aiman",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.GT7---------------.FNL-",
+    "EventDesc": "Gran Turismo 7 Finals",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1998-10-02"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "ELSOEFB--------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-23T19:20:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.EFB---------------.FNL-",
+    "EventDesc": "eFootball™ Finals",
+    "Bib": "",
+    "Gender": "O",
+    "Members": [
+      {
+        "Reg": "12849659",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "FARISH LUZMAN",
+        "Order": 1,
+        "BirthDate": "2008-07-03"
+      },
+      {
+        "Reg": "4525594",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HAKIMIN Muhammad Hariz Hazmi",
+        "Order": 2,
+        "BirthDate": "2003-04-05"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "ELSOHOK--------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-28T14:00:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.HOK---------------.FNL-",
+    "EventDesc": "Honor of Kings Finals",
+    "Bib": "",
+    "Gender": "O",
+    "Members": [
+      {
+        "Reg": "1839795",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "NG Nicholas Khai Shuan",
+        "Order": 1,
+        "BirthDate": "2002-12-07"
+      },
+      {
+        "Reg": "5998234",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHEN Tat Yann",
+        "Order": 2,
+        "BirthDate": "2001-12-31"
+      },
+      {
+        "Reg": "5999803",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "LIM Chee Hong",
+        "Order": 3,
+        "BirthDate": "2003-06-02"
+      },
+      {
+        "Reg": "6029346",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHONG Han Hui",
+        "Order": 4,
+        "BirthDate": "2004-05-20"
+      },
+      {
+        "Reg": "9707847",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "NA Ryan Jie Rong",
+        "Order": 5,
+        "BirthDate": "2005-07-18"
+      },
+      {
+        "Reg": "9711676",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "LEE Han Siang",
+        "Order": 6,
+        "BirthDate": "2004-08-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "ELSOIDV--------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-30T14:00:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.IDV---------------.FNL-",
+    "EventDesc": "Identity V - Asian Games Version Finals",
+    "Bib": "",
+    "Gender": "O",
+    "Members": [
+      {
+        "Reg": "1733524",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "GAN Hong Ming",
+        "Order": 1,
+        "BirthDate": "2003-04-15"
+      },
+      {
+        "Reg": "1750258",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHIN George Shan Yuan",
+        "Order": 2,
+        "BirthDate": "2007-10-18"
+      },
+      {
+        "Reg": "1760653",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "YIAU Wen Feng",
+        "Order": 3,
+        "BirthDate": "2004-10-15"
+      },
+      {
+        "Reg": "32564",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "YII Vincent Kai Liang",
+        "Order": 4,
+        "BirthDate": "2007-04-28"
+      },
+      {
+        "Reg": "34820",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HO Nicky Jun Hong",
+        "Order": 5,
+        "BirthDate": "2007-01-27"
+      },
+      {
+        "Reg": "5876573",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "NG Wei Hao",
+        "Order": 6,
+        "BirthDate": "2003-08-25"
+      },
+      {
+        "Reg": "5896782",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHEAH Euggee",
+        "Order": 7,
+        "BirthDate": "2008-05-22"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "ELSOMLB--------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-30T17:00:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Event": "O.MLB---------------.FNL-",
+    "EventDesc": "Mobile Legends: Bang Bang Finals",
+    "Bib": "",
+    "Gender": "O",
+    "Members": [
+      {
+        "Reg": "2405819",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MUHAMMAD QAYYUM ARIFFIN",
+        "Order": 1,
+        "BirthDate": "2004-12-09"
+      },
+      {
+        "Reg": "2469183",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHAMAD FUAD Muhammad Danial",
+        "Order": 2,
+        "BirthDate": "2001-10-11"
+      },
+      {
+        "Reg": "5182314",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "Muhammad Haqqullah",
+        "Order": 3,
+        "BirthDate": "2006-02-14"
+      },
+      {
+        "Reg": "5189669",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHAMAD RIZWAN Hazziq Danish",
+        "Order": 4,
+        "BirthDate": "2005-06-28"
+      },
+      {
+        "Reg": "5196885",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "RAZMAN Muhammad Danish Fitri",
+        "Order": 5,
+        "BirthDate": "2006-09-28"
+      },
+      {
+        "Reg": "5198106",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SAZALI Muhamad Razif",
+        "Order": 6,
+        "BirthDate": "2006-12-26"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "HOCMTEAM11-----MAS01",
+    "Type": "T",
+    "DateRaw": "2026-10-03T19:00:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "HOC",
+    "DiscDesc": "Hockey",
+    "Event": "M.TEAM11------------.----",
+    "EventDesc": "Men",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "9669019",
+        "Bib": "6",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "JALIL Marhan",
+        "Order": 1,
+        "BirthDate": "1990-03-05"
+      },
+      {
+        "Reg": "6601708",
+        "Bib": "7",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SAARI Fitri",
+        "Order": 2,
+        "BirthDate": "1993-03-04"
+      },
+      {
+        "Reg": "9789638",
+        "Bib": "10",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SAARI Faizal",
+        "Order": 3,
+        "BirthDate": "1991-01-13"
+      },
+      {
+        "Reg": "716810",
+        "Bib": "11",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ANUAR Akhimullah",
+        "Order": 4,
+        "BirthDate": "2000-05-02"
+      },
+      {
+        "Reg": "10232392",
+        "Bib": "15",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SILVERIUS Shello",
+        "Order": 5,
+        "BirthDate": "1999-04-03"
+      },
+      {
+        "Reg": "10292348",
+        "Bib": "16",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MAT DERIS Zaimi",
+        "Order": 6,
+        "BirthDate": "1997-09-18"
+      },
+      {
+        "Reg": "620970",
+        "Bib": "18",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "JALI Faiz",
+        "Order": 7,
+        "BirthDate": "1992-02-18"
+      },
+      {
+        "Reg": "740314",
+        "Bib": "20",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HAMSANI Ashran",
+        "Order": 8,
+        "BirthDate": "1995-04-20"
+      },
+      {
+        "Reg": "10272443",
+        "Bib": "21",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "OTHMAN Hafizuddin",
+        "Order": 9,
+        "BirthDate": "1992-01-07"
+      },
+      {
+        "Reg": "10247229",
+        "Bib": "22",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SUMANTRI Norsyafiq",
+        "Order": 10,
+        "BirthDate": "1996-06-17"
+      },
+      {
+        "Reg": "10240847",
+        "Bib": "23",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ABU KAMAL Azrai",
+        "Order": 11,
+        "BirthDate": "1999-10-03"
+      },
+      {
+        "Reg": "6604942",
+        "Bib": "24",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ROZEMI Aiman",
+        "Order": 12,
+        "BirthDate": "1996-07-19"
+      },
+      {
+        "Reg": "6655317",
+        "Bib": "26",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ABDU RAUF Muhajir",
+        "Order": 13,
+        "BirthDate": "2000-04-06"
+      },
+      {
+        "Reg": "9770260",
+        "Bib": "27",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HASSAN Shafiq",
+        "Order": 14,
+        "BirthDate": "1999-01-23"
+      },
+      {
+        "Reg": "9673144",
+        "Bib": "29",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZAHAR Amirul",
+        "Order": 15,
+        "BirthDate": "2000-05-05"
+      },
+      {
+        "Reg": "10147932",
+        "Bib": "30",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HARIZAN Faris",
+        "Order": 16,
+        "BirthDate": "2002-11-27"
+      },
+      {
+        "Reg": "10154026",
+        "Bib": "31",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "KAMARUDDIN Azimuddin",
+        "Order": 17,
+        "BirthDate": "2005-06-24"
+      },
+      {
+        "Reg": "9667534",
+        "Bib": "32",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD ZAIN Aminudin",
+        "Order": 18,
+        "BirthDate": "1995-05-23"
+      },
+      {
+        "Reg": "6550765",
+        "Bib": "35",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "JEFFRYNUS Andywalfian",
+        "Order": 19,
+        "BirthDate": "2005-08-08"
+      },
+      {
+        "Reg": "9860317",
+        "Bib": "46",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHE NUR Aqilrullah",
+        "Order": 20,
+        "BirthDate": "2003-07-31"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "6835166",
+    "Type": "A",
+    "DateRaw": "2026-09-23T14:45:00+09:00",
+    "Name": "CHANDRAN Shahmalarani",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "W.50KG--------------.FNL-",
+    "EventDesc": "Women's Kumite -50kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "1998-12-12"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "10445124",
+    "Type": "A",
+    "DateRaw": "2026-09-22T16:20:00+09:00",
+    "Name": "ROBERT Adeola Fay",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "W.55KG--------------.FNL-",
+    "EventDesc": "Women's Kumite -55kg Final",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "2006-02-07"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "12224268",
+    "Type": "A",
+    "DateRaw": "2026-09-20T15:30:00+09:00",
+    "Name": "KALIANA SUNDRAM Thevendran",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.55KG--------------.FNL-",
+    "EventDesc": "Men's Kumite -55kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2004-02-23"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "10005215",
+    "Type": "A",
+    "DateRaw": "2026-09-20T16:00:00+09:00",
+    "Name": "HARI SANKAR Sureeya Sankar",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.60KG--------------.FNL-",
+    "EventDesc": "Men's Kumite -60kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2002-06-07"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "KTEMTEAM-------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-23T10:45:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.TEAM--------------.FNL-",
+    "EventDesc": "Men's Team Kata Final",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "4197660",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MAZLAN Mukhriz",
+        "Order": 1,
+        "BirthDate": "2008-06-21"
+      },
+      {
+        "Reg": "5841830",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HENRY Mohamad Haznil",
+        "Order": 2,
+        "BirthDate": "2005-01-21"
+      },
+      {
+        "Reg": "6714443",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ASMADIE Muhammad Aiqal",
+        "Order": 3,
+        "BirthDate": "2004-09-09"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "PDLMPAIRS------MAS01",
+    "Type": "D",
+    "DateRaw": "2026-10-03T18:00:00+09:00",
+    "Name": "CHIN Christian / AIDAN YUNUS",
+    "Disc": "PDL",
+    "DiscDesc": "Padel",
+    "Event": "M.PAIRS-------------.----",
+    "EventDesc": "Men's Pairs",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "11520027",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHIN Christian",
+        "Order": 1,
+        "BirthDate": "2000-08-23"
+      },
+      {
+        "Reg": "11521269",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AIDAN YUNUS",
+        "Order": 2,
+        "BirthDate": "2004-09-15"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SALM29ER-------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-10-03T23:10:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "SAL",
+    "DiscDesc": "Sailing",
+    "Event": "M.29ER--------------.----",
+    "EventDesc": "Boys' Skiff",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "4069534",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "Muhammad Adam Aierell",
+        "Order": 1,
+        "BirthDate": "2008-06-17"
+      },
+      {
+        "Reg": "6579395",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MUSMULIADI Iqbal Nazham",
+        "Order": 2,
+        "BirthDate": "2008-09-23"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "6577038",
+    "Type": "A",
+    "DateRaw": "2026-10-03T23:10:00+09:00",
+    "Name": "MOHD AFENDY Khairulnizam",
+    "Disc": "SAL",
+    "DiscDesc": "Sailing",
+    "Event": "M.ILCA7-------------.----",
+    "EventDesc": "Men's Dinghy",
+    "Bib": "989",
+    "Gender": "M",
+    "BirthDate": "1993-05-27"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SALW29ER-------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-10-03T23:10:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "SAL",
+    "DiscDesc": "Sailing",
+    "Event": "W.29ER--------------.----",
+    "EventDesc": "Girls' Skiff",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "5692219",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD AZRI Nor Izniey Humaira",
+        "Order": 1,
+        "BirthDate": "2008-05-29"
+      },
+      {
+        "Reg": "12086867",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZIZUL RAHMAN Aina Zulaikha",
+        "Order": 2,
+        "BirthDate": "2008-12-19"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SPKMTEAMREGU---MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-25T14:00:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "M.TEAMREGU----------.FNL-",
+    "EventDesc": "Men's Team Regu Finals",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "2263975",
+        "Bib": "23",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD ROSDI Mohammad Syahir",
+        "Order": 1,
+        "BirthDate": "1996-08-02"
+      },
+      {
+        "Reg": "2264767",
+        "Bib": "20",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HAIRUL NIZAM Muhammad Haziq",
+        "Order": 2,
+        "BirthDate": "2001-12-22"
+      },
+      {
+        "Reg": "2274384",
+        "Bib": "10",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ABD RAZAK Muhammad Zulkifli",
+        "Order": 3,
+        "BirthDate": "1993-06-18"
+      },
+      {
+        "Reg": "2466930",
+        "Bib": "2",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MUHAMMAD ZARIF MARICAN",
+        "Order": 4,
+        "BirthDate": "2001-12-23"
+      },
+      {
+        "Reg": "3438991",
+        "Bib": "9",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ADNAN Muhammad Hafizul Hayazi",
+        "Order": 5,
+        "BirthDate": "1995-08-12"
+      },
+      {
+        "Reg": "3441509",
+        "Bib": "13",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ADAM Farhan",
+        "Order": 6,
+        "BirthDate": "1989-05-17"
+      },
+      {
+        "Reg": "3442237",
+        "Bib": "8",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AMIR Amirul Zazwan",
+        "Order": 7,
+        "BirthDate": "1995-08-10"
+      },
+      {
+        "Reg": "5752720",
+        "Bib": "5",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ALIAS Mohamad Azlan",
+        "Order": 8,
+        "BirthDate": "1995-04-18"
+      },
+      {
+        "Reg": "5757241",
+        "Bib": "19",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SUMARI Zuleffendi",
+        "Order": 9,
+        "BirthDate": "1990-06-23"
+      },
+      {
+        "Reg": "8255766",
+        "Bib": "14",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD RAZALI Muhammad Afifuddin",
+        "Order": 10,
+        "BirthDate": "1992-09-26"
+      },
+      {
+        "Reg": "2496355",
+        "Bib": "22",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "HALIM Muhammad Shahalril Aiman",
+        "Order": 11,
+        "BirthDate": "2002-09-11"
+      },
+      {
+        "Reg": "8257071",
+        "Bib": "17",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZWAWI Aidil Aiman",
+        "Order": 12,
+        "BirthDate": "1997-10-17"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SPKMREGU-------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T10:30:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Event": "M.REGU--------------.FNL-",
+    "EventDesc": "Men's Regu Final",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "2263975",
+        "Bib": "23",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD ROSDI Mohammad Syahir",
+        "Order": 1,
+        "BirthDate": "1996-08-02"
+      },
+      {
+        "Reg": "2274384",
+        "Bib": "10",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ABD RAZAK Muhammad Zulkifli",
+        "Order": 2,
+        "BirthDate": "1993-06-18"
+      },
+      {
+        "Reg": "5752720",
+        "Bib": "5",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ALIAS Mohamad Azlan",
+        "Order": 3,
+        "BirthDate": "1995-04-18"
+      },
+      {
+        "Reg": "8255766",
+        "Bib": "14",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "MOHD RAZALI Muhammad Afifuddin",
+        "Order": 4,
+        "BirthDate": "1992-09-26"
+      },
+      {
+        "Reg": "8257071",
+        "Bib": "17",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZWAWI Aidil Aiman",
+        "Order": 5,
+        "BirthDate": "1997-10-17"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "5727403",
+    "Type": "A",
+    "DateRaw": "2026-09-27T16:00:00+09:00",
+    "Name": "NG Eain Yow",
+    "Disc": "SQU",
+    "DiscDesc": "Squash",
+    "Event": "M.SINGLES-----------.----",
+    "EventDesc": "Men's Singles",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1998-01-26"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SQUMTEAM-------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-10-02T15:30:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "SQU",
+    "DiscDesc": "Squash",
+    "Event": "M.TEAM--------------.----",
+    "EventDesc": "Men's Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "5727403",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "NG Eain Yow",
+        "Order": 1,
+        "BirthDate": "1998-01-26"
+      },
+      {
+        "Reg": "2782808",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "JEEVA Sanjay",
+        "Order": 2,
+        "BirthDate": "1999-07-03"
+      },
+      {
+        "Reg": "1662116",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHANDARAN Ameeshenraj",
+        "Order": 3,
+        "BirthDate": "2004-01-31"
+      },
+      {
+        "Reg": "1799442",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "KAMAL Mohammad",
+        "Order": 4,
+        "BirthDate": "1996-08-01"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "5109276",
+    "Type": "A",
+    "DateRaw": "2026-09-27T17:00:00+09:00",
+    "Name": "SUBRAMANIAM Sivasangari",
+    "Disc": "SQU",
+    "DiscDesc": "Squash",
+    "Event": "W.SINGLES-----------.----",
+    "EventDesc": "Women's Singles",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "1999-01-24"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SQUWTEAM-------MAS01",
+    "Type": "T",
+    "DateRaw": "2026-10-02T13:30:00+09:00",
+    "Name": "Malaysia",
+    "Disc": "SQU",
+    "DiscDesc": "Squash",
+    "Event": "W.TEAM--------------.----",
+    "EventDesc": "Women's Team",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "5109276",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "SUBRAMANIAM Sivasangari",
+        "Order": 1,
+        "BirthDate": "1999-01-24"
+      },
+      {
+        "Reg": "1804490",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZMAN Aira",
+        "Order": 2,
+        "BirthDate": "2004-09-29"
+      },
+      {
+        "Reg": "2790352",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "AZMAN Aifa",
+        "Order": 3,
+        "BirthDate": "2001-12-18"
+      },
+      {
+        "Reg": "1670611",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ARNOLD Rachel Mae",
+        "Order": 4,
+        "BirthDate": "1996-04-16"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "SQUXDOUBLES----MAS02",
+    "Type": "D",
+    "DateRaw": "2026-09-26T12:45:00+09:00",
+    "Name": "CHANDARAN A. / ARNOLD Rachel",
+    "Disc": "SQU",
+    "DiscDesc": "Squash",
+    "Event": "X.DOUBLES-----------.----",
+    "EventDesc": "Mixed Doubles",
+    "Bib": "",
+    "Gender": "X",
+    "Members": [
+      {
+        "Reg": "1662116",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "CHANDARAN Ameeshenraj",
+        "Order": 1,
+        "BirthDate": "2004-01-31"
+      },
+      {
+        "Reg": "1670611",
+        "Bib": "",
+        "Org": "MAS",
+        "OrgDesc": "Malaysia",
+        "Name": "ARNOLD Rachel Mae",
+        "Order": 2,
+        "BirthDate": "1996-04-16"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "4952141",
+    "Type": "A",
+    "DateRaw": "2026-09-23",
+    "Name": "TING Clement Su Wei",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "M.DAOS--------------.FNL-",
+    "EventDesc": "Men's Daoshu & Gunshu",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1998-02-09"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "MAS",
+    "OrgDesc": "Malaysia",
+    "Reg": "2587121",
+    "Type": "A",
+    "DateRaw": "2026-09-22",
+    "Name": "TAN Cheong Min",
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Event": "W.NANG--------------.FNL-",
+    "EventDesc": "Women's Nanquan & Nandao",
+    "Bib": "",
+    "Gender": "W",
+    "BirthDate": "1998-08-20"
+  }
+]

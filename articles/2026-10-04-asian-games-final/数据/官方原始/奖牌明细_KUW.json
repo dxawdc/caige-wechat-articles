@@ -1,0 +1,286 @@
+[
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "11993215",
+    "Type": "A",
+    "DateRaw": "2026-09-20T16:40:00+09:00",
+    "Name": "SHAABAN Abdullah",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.60KG--------------.FNL-",
+    "EventDesc": "Men's Kumite -60kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1994-06-12"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "KTEMTEAM-------KUW01",
+    "Type": "T",
+    "DateRaw": "2026-09-23T14:25:00+09:00",
+    "Name": "Kuwait",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.TEAM--------------.FNL-",
+    "EventDesc": "Men's Team Kata Final",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "10193070",
+        "Bib": "",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "HUSSAIN Mohammad",
+        "Order": 1,
+        "BirthDate": "1996-09-02"
+      },
+      {
+        "Reg": "836087",
+        "Bib": "",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALMOSAWI Sayed Salman",
+        "Order": 2,
+        "BirthDate": "1995-05-12"
+      },
+      {
+        "Reg": "836932",
+        "Bib": "",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALMOSAWI Sayed Mohammed",
+        "Order": 3,
+        "BirthDate": "1995-05-12"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "836932",
+    "Type": "A",
+    "DateRaw": "2026-09-21T11:10:00+09:00",
+    "Name": "ALMOSAWI Sayed Mohammed",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.KATA--------------.FNL-",
+    "EventDesc": "Men's Individual Kata Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "1995-05-12"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "12502199",
+    "Type": "A",
+    "DateRaw": "2026-09-29T16:08:00+09:00",
+    "Name": "ALMUDHAF Khaled",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.TRM---------------.----",
+    "EventDesc": "Trap Men Individual",
+    "Bib": "1228",
+    "Gender": "M",
+    "BirthDate": "1978-06-12"
+  },
+  {
+    "Medal": "ME_GOLD",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "SHOMTRTM-------KUW01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T12:16:00+09:00",
+    "Name": "Kuwait",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.TRTM--------------.----",
+    "EventDesc": "Trap Men Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "1206378",
+        "Bib": "1226",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALRASHIDI Talal",
+        "Order": 1,
+        "BirthDate": "1993-07-24"
+      },
+      {
+        "Reg": "12502199",
+        "Bib": "1228",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALMUDHAF Khaled",
+        "Order": 2,
+        "BirthDate": "1978-06-12"
+      },
+      {
+        "Reg": "5665561",
+        "Bib": "1230",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALFAIHAN Abdulrahman",
+        "Order": 3,
+        "BirthDate": "1986-06-24"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "SHOMSKTM-------KUW01",
+    "Type": "T",
+    "DateRaw": "2026-09-23T13:16:00+09:00",
+    "Name": "Kuwait",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "M.SKTM--------------.----",
+    "EventDesc": "Skeet Men Team",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "2952875",
+        "Bib": "1452",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALAWAAD Mohammad",
+        "Order": 1,
+        "BirthDate": "1993-07-05"
+      },
+      {
+        "Reg": "5671098",
+        "Bib": "1232",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALDAIHANI Mohammad",
+        "Order": 2,
+        "BirthDate": "1983-08-01"
+      },
+      {
+        "Reg": "8521927",
+        "Bib": "1234",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALRASHIDI Abdullah",
+        "Order": 3,
+        "BirthDate": "1963-08-21"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "SHOWTRTW-------KUW01",
+    "Type": "T",
+    "DateRaw": "2026-09-29T11:13:00+09:00",
+    "Name": "Kuwait",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "W.TRTW--------------.----",
+    "EventDesc": "Trap Women Team",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "11093085",
+        "Bib": "1224",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALHAWAL Shahad",
+        "Order": 1,
+        "BirthDate": "1987-03-06"
+      },
+      {
+        "Reg": "5669211",
+        "Bib": "1231",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ABDULMALIK Hajar",
+        "Order": 2,
+        "BirthDate": "1995-09-04"
+      },
+      {
+        "Reg": "5673031",
+        "Bib": "1233",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALHAWAL Sarah",
+        "Order": 3,
+        "BirthDate": "1987-03-06"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "5669211",
+    "Type": "A",
+    "DateRaw": "2026-09-29T14:40:00+09:00",
+    "Name": "ABDULMALIK Hajar",
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Event": "W.TRW---------------.----",
+    "EventDesc": "Trap Women Individual",
+    "Bib": "1231",
+    "Gender": "W",
+    "BirthDate": "1995-09-04"
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "KUW",
+    "OrgDesc": "Kuwait",
+    "Reg": "TEQMDOUBLES----KUW01",
+    "Type": "D",
+    "DateRaw": "2026-09-20T11:30:00+09:00",
+    "Name": "AHMAD Basel / ALQATTAN Abdulwahab",
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Event": "M.DOUBLES-----------.----",
+    "EventDesc": "Men's Doubles",
+    "Bib": "",
+    "Gender": "M",
+    "Members": [
+      {
+        "Reg": "1301727",
+        "Bib": "",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "AHMAD Basel",
+        "Order": 1,
+        "BirthDate": "1991-04-07"
+      },
+      {
+        "Reg": "15162873",
+        "Bib": "",
+        "Org": "KUW",
+        "OrgDesc": "Kuwait",
+        "Name": "ALQATTAN Abdulwahab",
+        "Order": 2,
+        "BirthDate": "1988-06-02"
+      }
+    ]
+  }
+]

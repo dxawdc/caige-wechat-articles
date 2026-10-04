@@ -1,0 +1,145 @@
+[
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 1,
+    "Org": "NEP",
+    "OrgDesc": "Nepal",
+    "Reg": "KABWTEAM7------NEP01",
+    "Type": "T",
+    "DateRaw": "2026-09-25T13:00:00+09:00",
+    "Name": "Nepal",
+    "Disc": "KAB",
+    "DiscDesc": "Kabaddi",
+    "Event": "W.TEAM7-------------.FNL-",
+    "EventDesc": "Women's Team Final",
+    "Bib": "",
+    "Gender": "W",
+    "Members": [
+      {
+        "Reg": "10238591",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "CHAUDHARY Rabina",
+        "Order": 1,
+        "BirthDate": "2000-12-04"
+      },
+      {
+        "Reg": "10541783",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "THARU Srijana Kumari",
+        "Order": 2,
+        "BirthDate": "2000-06-24"
+      },
+      {
+        "Reg": "15151850",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "GHIMIRE Ganga",
+        "Order": 3,
+        "BirthDate": "1998-01-25"
+      },
+      {
+        "Reg": "16142154",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "BIST Manmati",
+        "Order": 4,
+        "BirthDate": "1990-08-09"
+      },
+      {
+        "Reg": "16150367",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "BADU Jayanti",
+        "Order": 5,
+        "BirthDate": "2002-02-23"
+      },
+      {
+        "Reg": "16174669",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "KHATRI Khim Maya",
+        "Order": 6,
+        "BirthDate": "2002-08-21"
+      },
+      {
+        "Reg": "3927640",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "RAJBANSHI Menuka Kumari",
+        "Order": 7,
+        "BirthDate": "1994-07-06"
+      },
+      {
+        "Reg": "3949750",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "NEPALI Mina",
+        "Order": 8,
+        "BirthDate": "2001-07-18"
+      },
+      {
+        "Reg": "3952288",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "YADAV Asma",
+        "Order": 9,
+        "BirthDate": "2003-01-29"
+      },
+      {
+        "Reg": "8865827",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "PARAJULI Nanu Maya",
+        "Order": 10,
+        "BirthDate": "2000-03-12"
+      },
+      {
+        "Reg": "8889655",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "PANDIT CHHETRI Binita",
+        "Order": 11,
+        "BirthDate": "2002-06-24"
+      },
+      {
+        "Reg": "8972657",
+        "Bib": "",
+        "Org": "NEP",
+        "OrgDesc": "Nepal",
+        "Name": "JOSHI Manisha",
+        "Order": 12,
+        "BirthDate": "2007-08-16"
+      }
+    ]
+  },
+  {
+    "Medal": "ME_BRONZE",
+    "Order": 2,
+    "Org": "NEP",
+    "OrgDesc": "Nepal",
+    "Reg": "3909885",
+    "Type": "A",
+    "DateRaw": "2026-09-23T14:15:00+09:00",
+    "Name": "SHERPA Tenzing",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.O84KG-------------.FNL-",
+    "EventDesc": "Men's Kumite +84kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2002-12-31"
+  }
+]

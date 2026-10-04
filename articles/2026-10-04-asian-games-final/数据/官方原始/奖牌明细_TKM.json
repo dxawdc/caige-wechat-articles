@@ -1,0 +1,36 @@
+[
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "TKM",
+    "OrgDesc": "Turkmenistan",
+    "Reg": "809574",
+    "Type": "A",
+    "DateRaw": "2026-09-22T16:00:00+09:00",
+    "Name": "NAZMYRADOV Davut",
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Event": "M.75KG--------------.FNL-",
+    "EventDesc": "Men's Kumite -75kg Final",
+    "Bib": "",
+    "Gender": "M",
+    "BirthDate": "2003-12-04"
+  },
+  {
+    "Medal": "ME_SILVER",
+    "Order": 1,
+    "Org": "TKM",
+    "OrgDesc": "Turkmenistan",
+    "Reg": "4132991",
+    "Type": "A",
+    "DateRaw": "2026-09-29T12:30:00+09:00",
+    "Name": "MATYAKUBOV Shahzadbek",
+    "Disc": "WLF",
+    "DiscDesc": "Weightlifting",
+    "Event": "M.110KG-------------.FNL-",
+    "EventDesc": "Men's 110kg All Groups",
+    "Bib": "27",
+    "Gender": "M",
+    "BirthDate": "2004-03-01"
+  }
+]
