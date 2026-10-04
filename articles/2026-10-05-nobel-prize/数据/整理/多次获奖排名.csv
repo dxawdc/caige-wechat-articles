@@ -1,0 +1,8 @@
+﻿laureate_id,name,entity_type,gender,birth_date,birth_country_historical,birth_country_now_raw,birth_country_code,birth_country_alpha3,birth_country_cn,birth_city,birth_continent,prize_count,prizes_detail
+482,International Committee of the Red Cross,organization,organization,,,,,,,,,3,1917 和平、1944 和平、1963 和平
+222,Frederick Sanger,person,male,1918-08-13,United Kingdom,United Kingdom,GB,GBR,英国,Rendcombe,Europe,2,1958 化学、1980 化学
+66,John Bardeen,person,male,1908-05-23,USA,USA,US,USA,美国,"Madison, WI",North America,2,1956 物理学、1972 物理学
+743,K. Barry Sharpless,person,male,1941-04-28,USA,USA,US,USA,美国,"Philadelphia, PA",North America,2,2001 化学、2022 化学
+217,Linus Pauling,person,male,1901-02-28,USA,USA,US,USA,美国,"Portland, OR",North America,2,1954 化学、1962 和平
+6,Marie Curie,person,female,1867-11-07,Russian Empire,Poland,PL,POL,波兰,Warsaw,Europe,2,1903 物理学、1911 化学
+515,Office of the United Nations High Commissioner for Refugees,organization,organization,,,,,,,,,2,1954 和平、1981 和平

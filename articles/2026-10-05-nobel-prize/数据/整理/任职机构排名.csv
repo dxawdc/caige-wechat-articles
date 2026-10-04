@@ -1,0 +1,380 @@
+﻿institution_original,city,country_cn,unique_people,award_records
+Harvard University,"Cambridge, MA",美国,29,29
+Massachusetts Institute of Technology (MIT),"Cambridge, MA",美国,25,25
+University of California,"Berkeley, CA",美国,23,23
+Stanford University,"Stanford, CA",美国,22,22
+University of Chicago,"Chicago, IL",美国,20,20
+California Institute of Technology (Caltech),"Pasadena, CA",美国,19,20
+Columbia University,"New York, NY",美国,18,18
+Princeton University,"Princeton, NJ",美国,18,18
+University of Cambridge,Cambridge,英国,18,18
+Howard Hughes Medical Institute,,美国,14,14
+Rockefeller University,"New York, NY",美国,13,13
+MRC Laboratory of Molecular Biology,Cambridge,英国,10,10
+University of Oxford,Oxford,英国,10,10
+Yale University,"New Haven, CT",美国,9,9
+Cornell University,"Ithaca, NY",美国,8,8
+Harvard Medical School,"Boston, MA",美国,8,8
+Berlin University,Berlin,德国,7,7
+University of California,"Santa Barbara, CA",美国,7,7
+University of Heidelberg,Heidelberg,德国,7,7
+London University,London,英国,6,6
+P.N. Lebedev Physical Institute,Moscow,俄罗斯,6,6
+Sorbonne University,Paris,法国,6,6
+University College,London,英国,6,6
+Collège de France,Paris,法国,5,5
+Goettingen University,Göttingen,德国,5,5
+Institut Pasteur,Paris,法国,5,5
+Kyoto University,Kyoto,日本,5,5
+National Institutes of Health,"Bethesda, MD",美国,5,5
+University of California,"Los Angeles, CA",美国,5,5
+University of Pennsylvania,"Philadelphia, PA",美国,5,5
+University of Texas Southwestern Medical Center at Dallas,"Dallas, TX",美国,5,5
+University of Washington,"Seattle, WA",美国,5,5
+Uppsala University,Uppsala,瑞典,5,5
+Washington University,"St. Louis, MO",美国,5,5
+CERN,Geneva,瑞士,4,4
+Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Zurich,瑞士,4,4
+IBM Zurich Research Laboratory,Rüschlikon,瑞士,4,4
+Imperial College,London,英国,4,4
+Johns Hopkins University School of Medicine,"Baltimore, MD",美国,4,4
+Karolinska Institutet,Stockholm,瑞典,4,4
+Northwestern University,"Evanston, IL",美国,4,4
+Rockefeller Institute for Medical Research,"New York, NY",美国,4,4
+University of Toronto,Toronto,加拿大,4,4
+Academy of Sciences,Moscow,俄罗斯,3,3
+Bell Laboratories,"Holmdel, NJ",美国,3,3
+Brown University,"Providence, RI",美国,3,3
+Copenhagen University,Copenhagen,丹麦,3,3
+Fred Hutchinson Cancer Research Center,"Seattle, WA",美国,3,3
+Kiel University,Kiel,德国,3,3
+LIGO/VIRGO Collaboration,,,3,3
+Leiden University,Leiden,荷兰,3,3
+Leipzig University,Leipzig,德国,3,3
+Lomonosov Moscow State University,Moscow,俄罗斯,3,3
+Massachusetts General Hospital,"Boston, MA",美国,3,3
+Munich University,Munich,德国,3,3
+Nagoya University,Nagoya,日本,3,3
+Stanford University School of Medicine,"Stanford, CA",美国,3,3
+Stockholm University,Stockholm,瑞典,3,3
+Technion - Israel Institute of Technology,Haifa,以色列,3,3
+The Scripps Research Institute,"La Jolla, CA",美国,3,3
+University of California,"Irvine, CA",美国,3,3
+University of California,"San Diego, CA",美国,3,3
+University of California School of Medicine,"San Francisco, CA",美国,3,3
+"University of Colorado, JILA","Boulder, CO",美国,3,3
+University of Illinois,"Urbana, IL",美国,3,4
+University of Oslo,Oslo,挪威,3,3
+University of Wisconsin,"Madison, WI",美国,3,3
+University of Zurich,Zurich,瑞士,3,3
+Victoria University,Manchester,英国,3,3
+École Normale Supérieure,Paris,法国,3,3
+Aarhus University,Aarhus,丹麦,2,2
+Amsterdam University,Amsterdam,荷兰,2,2
+Arizona State University,"Tempe, AZ",美国,2,2
+Basel Institute for Immunology,Basel,瑞士,2,2
+Bell Laboratories,"Murray Hill, NJ",美国,2,2
+Bell Telephone Laboratories,"Murray Hill, NJ",美国,2,2
+Brigham and Women's Hospital,"Boston, MA",美国,2,2
+Carnegie Mellon University,"Pittsburgh, PA",美国,2,2
+Edinburgh University,Edinburgh,英国,2,2
+Fritz-Haber-Institut der Max-Planck-Gesellschaft,Berlin,德国,2,2
+General Electric Company,"Schenectady, NY",美国,2,2
+German Cancer Research Center,Heidelberg,德国,2,2
+Google DeepMind,London,英国,2,2
+Graz University,Graz,奥地利,2,2
+Imperial Cancer Research Fund,London,英国,2,2
+Indiana University,"Bloomington, IN",美国,2,2
+Institut du Radium,Paris,法国,2,2
+Institute for Advanced Study,"Princeton, NJ",美国,2,2
+Johns Hopkins University,"Baltimore, MD",美国,2,2
+Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Berlin-Dahlem,德国,2,2
+Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Berlin,德国,2,2
+London School of Economics and Political Science,London,英国,2,2
+Ludwig-Maximilians-Universität München,Munich,德国,2,2
+Max Planck Institute of Quantum Optics,Garching,德国,2,2
+Max-Planck-Institut für Kohlenforschung,Mülheim an der Ruhr,德国,2,2
+Max-Planck-Institut für medizinische Forschung,Heidelberg,德国,2,2
+Mayo Clinic,"Rochester, MN",美国,2,2
+Meijo University,Nagoya,日本,2,2
+National Institute for Medical Research,London,英国,2,2
+National Institute of Standards and Technology,"Boulder, CO",美国,2,2
+New York University,"New York, NY",美国,2,2
+Norwegian University of Science and Technology (NTNU),Trondheim,挪威,2,2
+Purdue University,"West Lafayette, IN",美国,2,2
+"Research Division of Infectious Diseases, Children's Medical Center","Boston, MA",美国,2,2
+Rice University,"Houston, TX",美国,2,2
+Rockefeller Institute for Medical Research,"Princeton, NJ",美国,2,2
+Royal Institution of Great Britain,London,英国,2,2
+Scripps Research,"La Jolla, CA",美国,2,2
+Szeged University,Szeged,匈牙利,2,2
+Technical University,Munich,德国,2,2
+University of California,"San Francisco, CA",美国,2,2
+University of Colorado,"Boulder, CO",美国,2,2
+University of Geneva,Geneva,瑞士,2,2
+University of Manchester,Manchester,英国,2,2
+University of North Carolina,"Chapel Hill, NC",美国,2,2
+University of Southern California,"Los Angeles, CA",美国,2,2
+University of Strasbourg,Strasbourg,法国,2,2
+University of Sussex,Brighton,英国,2,2
+University of Texas,"Austin, TX",美国,2,2
+Université Catholique de Louvain,Louvain,比利时,2,2
+Université Libre de Bruxelles,Brussels,比利时,2,2
+Utrecht University,Utrecht,荷兰,2,2
+Vienna University,Vienna,奥地利,2,2
+Wellcome Research Laboratories,"Research Triangle Park, NC",美国,2,2
+École Polytechnique,Palaiseau,法国,2,2
+A.F. Ioffe Physico-Technical Institute,St. Petersburg,俄罗斯,1,1
+All Souls College,Oxford,英国,1,1
+Argonne National Laboratory,"Argonne, IL",美国,1,1
+Asahi Kasei Corporation,Tokyo,日本,1,1
+Associated Universities Inc.,"Washington, D.C.",美国,1,1
+Atomic Energy Research Establishment,"Harwell, Berkshire",英国,1,1
+Australian National University,Canberra,澳大利亚,1,1
+Australian National University,Weston Creek,澳大利亚,1,1
+Basel University,Basel,瑞士,1,1
+Bell Telephone Laboratories,"New York, NY",美国,1,1
+Berne University,Bern,瑞士,1,1
+"Binghamton University, State University of New York","New York, NY",美国,1,1
+Biozentrum der Universität,Basel,瑞士,1,1
+Birmingham University,Birmingham,英国,1,1
+Boston University Medical School,"Massachusetts, MA",美国,1,1
+Brandeis University,"Waltham, MA",美国,1,1
+Bristol University,Bristol,英国,1,1
+Brussels University,Brussels,比利时,1,1
+Bureau International des Poids et Mesures (International Bureau of Weights and Measures),Sèvres,法国,1,1
+Calcutta University,Calcutta,印度,1,1
+Cardiff University,Cardiff,英国,1,1
+Carnegie Institute of Technology,"Pittsburgh, PA",美国,1,1
+Carnegie Institution of Washington,"Long Island, New York, NY",美国,1,1
+Center for Study of Public Choice,"Fairfax, VA",美国,1,1
+"Central Research Laboratories, EMI",London,英国,1,1
+China Academy of Traditional Chinese Medicine,Beijing,中国,1,1
+Chinese University of Hong Kong,Hong Kong,中国,1,1
+City University of New York,"New York, NY",美国,1,1
+Clare Hall Laboratory,Hertfordshire,英国,1,1
+Cold Spring Harbor Laboratory,"Cold Spring Harbor, NY",美国,1,1
+Cologne University,Cologne,德国,1,1
+"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital","New York, NY",美国,1,1
+Dana-Farber Cancer Institute,"Boston, MA",美国,1,1
+Department of Scientific and Industrial Research,London,英国,1,1
+"Digital Pathways, Inc.","Mountain View, CA",美国,1,1
+Drew University,"Madison, NJ",美国,1,1
+Du Pont,"Wilmington, DE",美国,1,1
+Duke University Medical Center,"Durham, NC",美国,1,1
+Duke University School of Medicine,"Durham, NC",美国,1,1
+"Eitan Berglas School of Economics, Tel Aviv University",Tel Aviv,以色列,1,1
+"Enrico Fermi Institute, University of Chicago","Chicago, IL",美国,1,1
+Federal Reserve Bank of Minneapolis,"Minneapolis, MN",美国,1,1
+Fermi National Accelerator Laboratory,"Batavia, IL",美国,1,1
+Finsen Medical Light Institute,Copenhagen,丹麦,1,1
+Forschungszentrum J&uuml;lich,Jülich,德国,1,1
+Francis Crick Institute,Hertfordshire,英国,1,1
+Francis Crick Institute,London,英国,1,1
+Frankfurt-on-the-Main University,Frankfurt-on-the-Main,德国,1,1
+Friedrich-Wilhelms-Universität,Berlin,德国,1,1
+George Mason University,"Fairfax, VA",美国,1,1
+Ghent University,Ghent,比利时,1,1
+Gladstone Institutes,"San Francisco, CA",美国,1,1
+Glynn Research Laboratories,Bodmin,英国,1,1
+Google Quantum AI,"Santa Barbara, CA",美国,1,1
+Greifswald University,Greifswald,德国,1,1
+Groningen University,Groningen,荷兰,1,1
+Gurdon Institute,Cambridge,英国,1,1
+Göteborg University,Gothenburg,瑞典,1,1
+Halle University,Halle,德国,1,1
+Harvard Business School,"Boston, MA",美国,1,1
+"Harvard University, Biological Laboratories","Cambridge, MA",美国,1,1
+"Harvard University, Lyman Laboratory","Cambridge, MA",美国,1,1
+High Energy Accelerator Research Organization (KEK),Tsukuba,日本,1,1
+Hokkaido University,Sapporo,日本,1,1
+Howard Hughes Medical Institute,"Chevy Chase, MD",美国,1,1
+Howard Hughes Medical Institute,"Durham, NC",美国,1,1
+I.G. Farbenindustrie A.G.,Heidelberg,德国,1,1
+I.G. Farbenindustrie A.G.,Mannheim-Rheinau,德国,1,1
+IBM Thomas J. Watson Research Center,"Yorktown Heights, NY",美国,1,1
+INSEAD,Paris,法国,1,1
+Imperial Cancer Research Fund Laboratory,London,英国,1,1
+Innsbruck University,Innsbruck,奥地利,1,1
+Institut Français du Pétrole,Rueil-Malmaison,法国,1,1
+Institut Pasteur,Tunis,突尼斯,1,1
+Institut d’Optique Graduate School – Université Paris-Saclay,Paris,法国,1,1
+Institute for Biochemical Research,Buenos Aires,阿根廷,1,1
+Institute for Chemical Physics of the Academy of Sciences of the USSR,Moscow,俄罗斯,1,1
+Institute for Infectious Diseases,Berlin,德国,1,1
+"Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences",Vienna,奥地利,1,1
+Institute for Systems Biology,"Seattle, WA",美国,1,1
+Institute of Cell Biology of the C.N.R.,Rome,意大利,1,1
+Institute of Physical Chemistry,Cambridge,英国,1,1
+Institute of Technology,Milan,意大利,1,1
+Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),Buenos Aires,阿根廷,1,1
+International Centre for Theoretical Physics,Trieste,意大利,1,1
+Istituto Superiore di Sanità (Chief Institute of Public Health),Rome,意大利,1,1
+J.F. Clauser & Assoc.,"Walnut Creek, CA",美国,1,1
+Jackson Laboratory,"Bar Harbor, ME",美国,1,1
+"Janelia Research Campus, Howard Hughes Medical Institute","Ashburn, VA",美国,1,1
+Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,Berlin-Dahlem,德国,1,1
+Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,Heidelberg,德国,1,1
+Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,Berlin-Dahlem,德国,1,1
+Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,Berlin-Dahlem,德国,1,1
+"Karolinska Institutet, Nobel Medical Institute",Stockholm,瑞典,1,1
+Kitasato University,Tokyo,日本,1,1
+"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie",Altenberg; Grünau im Almtal,奥地利,1,1
+Kyoto Sangyo University,Kyoto,日本,1,1
+Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),Frankfurt-on-the-Main,德国,1,1
+"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation","New York, NY",美国,1,1
+Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),Basel,瑞士,1,1
+Landwirtschaftliche Hochschule (Agricultural College),Berlin,德国,1,1
+Lawrence Berkeley National Laboratory,"Berkeley, CA",美国,1,1
+Liverpool University,Liverpool,英国,1,1
+"London University, King's College Hospital Medical School",London,英国,1,1
+Long Term Capital Management,"Greenwich, CT",美国,1,1
+Lund University,Lund,瑞典,1,1
+Madrid University,Madrid,西班牙,1,1
+Mainz University,Mainz,德国,1,1
+Marburg University,Marburg,德国,1,1
+Marconi Wireless Telegraph Co. Ltd.,London,英国,1,1
+Marine Biological Laboratory (MBL),"Woods Hole, MA",美国,1,1
+"Massachusetts Institute of Technology (MIT), Center for Cancer Research","Cambridge, MA",美国,1,1
+Max Planck Institute for Biophysical Chemistry,Göttingen,德国,1,1
+Max Planck Institute for Evolutionary Anthropology,Leipzig,德国,1,1
+Max Planck Institute for Extraterrestrial Physics,Garching,德国,1,1
+Max Planck Institute for Meteorology,Hamburg,德国,1,1
+Max Planck Unit for the Science of Pathogens,Berlin,德国,1,1
+Max-Planck-Institut für Biochemie,Martinsried,德国,1,1
+Max-Planck-Institut für Biophysik,Frankfurt-on-the-Main,德国,1,1
+Max-Planck-Institut für Biophysikalische Chemie,Göttingen,德国,1,1
+Max-Planck-Institut für Chemie,Mainz,德国,1,1
+Max-Planck-Institut für Entwicklungsbiologie,Tübingen,德国,1,1
+Max-Planck-Institut für Festkörperforschung,Stuttgart,德国,1,1
+Max-Planck-Institut für Physikalische Chemie,Göttingen,德国,1,1
+Max-Planck-Institut für Verhaltensphysiologie,Seewiesen,德国,1,1
+Max-Planck-Institut für Zellchemie,Munich,德国,1,1
+McMaster University,"Hamilton, Ontario",加拿大,1,1
+Military Medical Academy,St. Petersburg,俄罗斯,1,1
+Munster University,Munster,德国,1,1
+NASA Goddard Space Flight Center,"Greenbelt, MD",美国,1,1
+"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre",Nedlands,澳大利亚,1,1
+NYU Stern School of Business,"New York, NY",美国,1,1
+Nancy University,Nancy,法国,1,1
+Nanocrystals Technology Inc.,"New York, NY",美国,1,1
+National Institute of Environmental Health Sciences,"Research Triangle Park, NC",美国,1,1
+National Institute of Standards and Technology,"Gaithersburg, MD",美国,1,1
+National Research Council of Canada,Ottawa,加拿大,1,1
+Neurological Institute,Lisbon,葡萄牙,1,1
+New England Biolabs,"Beverly, MA",美国,1,1
+"New York University, College of Medicine","New York, NY",美国,1,1
+Niels Bohr Institute,Copenhagen,丹麦,1,1
+Nordita,Copenhagen,丹麦,1,1
+Okinawa Institute of Science and Technology,Okinawa,日本,1,1
+Parker Institute for Cancer Immunotherapy,"San Francisco, CA",美国,1,1
+Pavia University,Pavia,意大利,1,1
+"Penn Institute for RNA Innovations, University of Pennsylvania","Philadelphia, PA",美国,1,1
+Peter Brent Brigham Hospital,"Boston, MA",美国,1,1
+Polarographic Institute of the Czechoslovak Academy of Science,Prague,捷克,1,1
+Polytechnic Institute,Copenhagen,丹麦,1,1
+Qolab,"Los Angeles, CA",美国,1,1
+Queen's University,Kingston,加拿大,1,1
+"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur",Paris,法国,1,1
+Rheinische Friedrich-Wilhelms-Universität,Bonn,德国,1,1
+Rome University,Rome,意大利,1,1
+Rowett Research Institute,Bucksburn (Scotland),英国,1,1
+Royal Institute of Technology,Stockholm,瑞典,1,1
+Rutgers University,"New Brunswick, NJ",美国,1,1
+SUNY Health Science Center,"Brooklyn, NY",美国,1,1
+Saint Louis University,"St. Louis, MO",美国,1,1
+Sapienza University of Rome,Rome,意大利,1,1
+"Semiconductor Laboratory of Beckman Instruments, Inc.","Mountain View, CA",美国,1,1
+Sheffield University,Sheffield,英国,1,1
+Shimadzu Corp.,Kyoto,日本,1,1
+Sonoma Biotherapeutics,"San Francisco, CA",美国,1,1
+"Sorbonne University, Institut Henri Poincaré",Paris,法国,1,1
+Space Telescope Science Institute,"Baltimore, MD",美国,1,1
+St. Jude Children's Research Hospital,"Memphis, TN",美国,1,1
+"Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg",Breisgau,德国,1,1
+Standard Telecommunication Laboratories,Harlow,英国,1,1
+Stanford Linear Accelerator Center,"Stanford, CA",美国,1,1
+Stockholm School of Economics,Stockholm,瑞典,1,1
+Strasbourg University,Strasbourg,法国,1,1
+Swedish Gas-Accumulator Co.,"Lidingö, Stockholm",瑞典,1,1
+Technische Hochschule (Institute of Technology),Munich,德国,1,1
+Texas Instruments,"Dallas, TX",美国,1,1
+The Brookings Institution,"Washington, D.C.",美国,1,1
+The Institute for Cancer Research,"Philadelphia, PA",美国,1,1
+The Medical Foundation of Buffalo,"Buffalo, NY",美国,1,1
+The Molecular Sciences Institute,"Berkeley, CA",美国,1,1
+The Netherlands School of Economics,Rotterdam,荷兰,1,1
+The Ohio State University,"Columbus, OH",美国,1,1
+The Salk Institute,"San Diego, CA",美国,1,1
+The University of Osaka,Osaka,日本,1,1
+The Wellcome Research Laboratories,Beckenham,英国,1,1
+The Wellcome Trust Sanger Institute,Cambridge,英国,1,1
+Tokyo Institute of Technology,Tokyo,日本,1,1
+Tokyo University of Education,Tokyo,日本,1,1
+Toulouse School of Economics (TSE),Toulouse,法国,1,1
+Toulouse University,Toulouse,法国,1,1
+Trinity College,Cambridge,英国,1,1
+Trinity College,Dublin,爱尔兰,1,1
+Tufts University,"Medford, MA",美国,1,1
+UMass Chan Medical School,"Worcester, MA",美国,1,1
+US Naval Research Laboratory,"Washington, D.C.",美国,1,1
+Unit&eacute; Mixte de Physique CNRS/THALES,Orsay,法国,1,1
+Universit&eacute; Paris-Sud,Orsay,法国,1,1
+University College,Liverpool,英国,1,1
+University of Alberta,Edmonton,加拿大,1,1
+University of Bonn,Bonn,德国,1,1
+University of British Columbia,Vancouver,加拿大,1,1
+University of California School of Medicine,"Los Angeles, CA",美国,1,1
+"University of California, Kavli Institute for Theoretical Physics","Santa Barbara, CA",美国,1,1
+"University of Chicago, Ben May Laboratory for Cancer Research","Chicago, IL",美国,1,1
+University of Copenhagen,Copenhagen,丹麦,1,1
+University of Delaware,,美国,1,1
+University of Edinburgh,Edinburgh,英国,1,1
+University of Freiburg,Breisgau,德国,1,1
+University of Freiburg im Breisgau,Breisgau,德国,1,1
+University of Grenoble,Grenoble,法国,1,1
+University of Groningen,Groningen,荷兰,1,1
+University of Helsinki,Helsinki,芬兰,1,1
+"University of Jerusalem, Center for RationalityHebrew",Jerusalem,以色列,1,1
+University of Lausanne,Lausanne,瑞士,1,1
+University of Lisbon,Lisbon,葡萄牙,1,1
+University of Maine,"Maine, ME",美国,1,1
+"University of Maryland, Department of Economics and School of Public Policy","College Park, MD",美国,1,1
+University of Massachusetts Medical School,"Worcester, MA",美国,1,1
+University of Melbourne,Melbourne,澳大利亚,1,1
+University of Michigan,"Ann Arbor, MI",美国,1,1
+University of Minnesota,"Minneapolis, MN",美国,1,1
+University of Missouri,Columbia,美国,1,1
+"University of Nottingham, School of Physics and Astronomy",Nottingham,英国,1,1
+"University of Oxford, Royal Society",Oxford,英国,1,1
+University of Rochester,"Rochester, NY",美国,1,1
+University of Texas MD Anderson Cancer Center,"Houston, TX",美国,1,1
+University of Texas Medical School at Houston,"Houston, TX",美国,1,1
+University of Tokyo,Kashiwa,日本,1,1
+University of Tokyo,Tokyo,日本,1,1
+University of Tsukuba,Tsukuba,日本,1,1
+University of Utah,"Salt Lake City, UT",美国,1,1
+University of Vienna,Vienna,奥地利,1,1
+University of Waterloo,Waterloo,加拿大,1,1
+University of Western Australia,Perth,澳大利亚,1,1
+"University of Zurich, Institute of Experimental Immunology",Zurich,瑞士,1,1
+Université Louis Pasteur,Strasbourg,法国,1,1
+"Université de Paris, Laboratoire Immuno-Hématologie",Paris,法国,1,1
+Université de Strasbourg,Strasbourg,法国,1,1
+Vanderbilt University,"Nashville, TN",美国,1,1
+Vanderbilt University School of Medicine,"Nashville, TN",美国,1,1
+Veterans Administration Hospital,"Bronx, NY",美国,1,1
+Veterans Administration Hospital,"New Orleans, LA",美国,1,1
+Virginia Commonwealth University,"Richmond, VA",美国,1,1
+Walter and Eliza Hall Institute for Medical Research,Melbourne,澳大利亚,1,1
+Weizmann Institute of Science,Rehovot,以色列,1,1
+Western Reserve University,"Cleveland, OH",美国,1,1
+World Foundation for AIDS Research and Prevention,Paris,法国,1,1
+Würzburg University,Würzburg,德国,1,1
+"Yale University, School of Medicine","New Haven, CT",美国,1,1
+"Yukawa Institute for Theoretical Physics (YITP), Kyoto University",Kyoto,日本,1,1
+Zoologisches Institut der Universität München,Munich,德国,1,1
+École Nationale Supérieur des Mines de Paris,Paris,法国,1,1
+École Polytechnique,Paris,法国,1,1
+École Supérieure de Physique et Chimie,Paris,法国,1,1
+École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),Paris,法国,1,1

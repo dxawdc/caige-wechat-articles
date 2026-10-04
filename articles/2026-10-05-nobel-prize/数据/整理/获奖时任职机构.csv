@@ -1,0 +1,848 @@
+﻿laureate_id,name,year,category,institution,institution_original,institution_normalized,country_now_raw,country_code,country_alpha3,country_cn,city
+745,A. Michael Spence,2001,经济学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+102,Aage N. Bohr,1975,物理学,Niels Bohr Institute,Niels Bohr Institute,Niels Bohr Institute,Denmark,DK,DNK,丹麦,Copenhagen
+779,Aaron Ciechanover,2004,化学,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,Israel,IL,ISR,以色列,Haifa
+259,Aaron Klug,1982,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+114,Abdus Salam,1979,物理学,International Centre for Theoretical Physics,International Centre for Theoretical Physics,International Centre for Theoretical Physics,Italy,IT,ITA,意大利,Trieste
+114,Abdus Salam,1979,物理学,Imperial College,Imperial College,Imperial College,United Kingdom,GB,GBR,英国,London
+982,Abhijit Banerjee,2019,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+843,Ada E. Yonath,2009,化学,Weizmann Institute of Science,Weizmann Institute of Science,Weizmann Institute of Science,Israel,IL,ISR,以色列,Rehovot
+866,Adam G. Riess,2011,物理学,Johns Hopkins University,Johns Hopkins University,Johns Hopkins University,USA,US,USA,美国,"Baltimore, MD"
+866,Adam G. Riess,2011,物理学,Space Telescope Science Institute,Space Telescope Science Institute,Space Telescope Science Institute,USA,US,USA,美国,"Baltimore, MD"
+199,Adolf Butenandt,1939,化学,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,Germany,DE,DEU,德国,Berlin-Dahlem
+199,Adolf Butenandt,1939,化学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+164,Adolf von Baeyer,1905,化学,Munich University,Munich University,Munich University,Germany,DE,DEU,德国,Munich
+185,Adolf Windaus,1928,化学,Goettingen University,Goettingen University,Goettingen University,Germany,DE,DEU,德国,Göttingen
+292,Ahmed Zewail,1999,化学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+853,Akira Suzuki,2010,化学,Hokkaido University,Hokkaido University,Hokkaido University,Japan,JP,JPN,日本,Sapporo
+978,Akira Yoshino,2019,化学,Asahi Kasei Corporation,Asahi Kasei Corporation,Asahi Kasei Corporation,Japan,JP,JPN,日本,Tokyo
+978,Akira Yoshino,2019,化学,Meijo University,Meijo University,Meijo University,Japan,JP,JPN,日本,Nagoya
+1012,Alain Aspect,2022,物理学,Institut d’Optique Graduate School – Université Paris-Saclay,Institut d’Optique Graduate School – Université Paris-Saclay,Institut d’Optique Graduate School – Université Paris-Saclay,France,FR,FRA,法国,Paris
+1012,Alain Aspect,2022,物理学,École Polytechnique,École Polytechnique,École Polytechnique,France,FR,FRA,法国,Palaiseau
+729,Alan Heeger,2000,化学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+376,Alan Hodgkin,1963,生理学或医学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+730,Alan MacDiarmid,2000,化学,University of Pennsylvania,University of Pennsylvania,University of Pennsylvania,USA,US,USA,美国,"Philadelphia, PA"
+11,Albert A. Michelson,1907,物理学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+403,Albert Claude,1974,生理学或医学,Université Catholique de Louvain,Université Catholique de Louvain,Université Catholique de Louvain,Belgium,BE,BEL,比利时,Louvain
+26,Albert Einstein,1921,物理学,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Germany,DE,DEU,德国,Berlin
+814,Albert Fert,2007,物理学,Universit&eacute; Paris-Sud,Universit&eacute; Paris-Sud,Universit&eacute; Paris-Sud,France,FR,FRA,法国,Orsay
+814,Albert Fert,2007,物理学,Unit&eacute; Mixte de Physique CNRS/THALES,Unit&eacute; Mixte de Physique CNRS/THALES,Unit&eacute; Mixte de Physique CNRS/THALES,France,FR,FRA,法国,Orsay
+332,Albert Szent-Györgyi,1937,生理学或医学,Szeged University,Szeged University,Szeged University,Hungary,HU,HUN,匈牙利,Szeged
+304,Albrecht Kossel,1910,生理学或医学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+83,Aleksandr M. Prokhorov,1964,物理学,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,Russia,RU,RUS,俄罗斯,Moscow
+1031,Aleksey Yekimov ,2023,化学,Nanocrystals Technology Inc.,Nanocrystals Technology Inc.,Nanocrystals Technology Inc.,USA,US,USA,美国,"New York, NY"
+766,Alexei Abrikosov,2003,物理学,Argonne National Laboratory,Argonne National Laboratory,Argonne National Laboratory,USA,US,USA,美国,"Argonne, IL"
+306,Alexis Carrel,1912,生理学或医学,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,Rockefeller University,USA,US,USA,美国,"New York, NY"
+392,Alfred D. Hershey,1969,生理学或医学,Carnegie Institution of Washington,Carnegie Institution of Washington,Carnegie Institution of Washington,USA,US,USA,美国,"Long Island, New York, NY"
+450,Alfred G. Gilman,1994,生理学或医学,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,USA,US,USA,美国,"Dallas, TX"
+87,Alfred Kastler,1966,物理学,École Normale Supérieure,École Normale Supérieure,École Normale Supérieure,France,FR,FRA,法国,Paris
+174,Alfred Werner,1913,化学,University of Zurich,University of Zurich,University of Zurich,Switzerland,CH,CHE,瑞士,Zurich
+417,Allan M. Cormack,1979,生理学或医学,Tufts University,Tufts University,Tufts University,USA,US,USA,美国,"Medford, MA"
+305,Allvar Gullstrand,1911,生理学或医学,Uppsala University,Uppsala University,Uppsala University,Sweden,SE,SWE,瑞典,Uppsala
+300,Alphonse Laveran,1907,生理学或医学,Institut Pasteur,Institut Pasteur,Institut Pasteur,France,FR,FRA,法国,Paris
+882,Alvin E. Roth,2012,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+882,Alvin E. Roth,2012,经济学,Harvard Business School,Harvard Business School,Harvard University,USA,US,USA,美国,"Boston, MA"
+719,Amartya Sen,1998,经济学,Trinity College,Trinity College,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+360,André F. Cournand,1956,生理学或医学,"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital","Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital","Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital",USA,US,USA,美国,"New York, NY"
+849,Andre Geim,2010,物理学,University of Manchester,University of Manchester,University of Manchester,United Kingdom,GB,GBR,英国,Manchester
+381,André Lwoff,1965,生理学或医学,Institut Pasteur,Institut Pasteur,Institut Pasteur,France,FR,FRA,法国,Paris
+990,Andrea Ghez,2020,物理学,University of California,University of California,"University of California, Los Angeles",USA,US,USA,美国,"Los Angeles, CA"
+377,Andrew Huxley,1963,生理学或医学,University College,University College,University College (London),United Kingdom,GB,GBR,英国,London
+412,Andrew V. Schally,1977,生理学或医学,Veterans Administration Hospital,Veterans Administration Hospital,Veterans Administration Hospital,USA,US,USA,美国,"New Orleans, LA"
+802,Andrew Z. Fire,2006,生理学或医学,Stanford University School of Medicine,Stanford University School of Medicine,Stanford University,USA,US,USA,美国,"Stanford, CA"
+926,Angus Deaton,2015,经济学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+1028,Anne L’Huillier,2023,物理学,Lund University,Lund University,Lund University,Sweden,SE,SWE,瑞典,Lund
+768,Anthony J. Leggett,2003,物理学,University of Illinois,University of Illinois,University of Illinois,USA,US,USA,美国,"Urbana, IL"
+1014,Anton Zeilinger,2022,物理学,University of Vienna,University of Vienna,University of Vienna,Austria,AT,AUT,奥地利,Vienna
+1014,Anton Zeilinger,2022,物理学,"Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences","Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences","Institute for Quantum Optics and Quantum Information, Austrian Academy of Sciences",Austria,AT,AUT,奥地利,Vienna
+101,Antony Hewish,1974,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+214,Archer J.P. Martin,1952,化学,National Institute for Medical Research,National Institute for Medical Research,National Institute for Medical Research,United Kingdom,GB,GBR,英国,London
+311,Archibald V. Hill,1922,生理学或医学,London University,London University,London University,United Kingdom,GB,GBR,英国,London
+998,Ardem Patapoutian,2021,生理学或医学,Scripps Research,Scripps Research,Scripps Research,USA,US,USA,美国,"La Jolla, CA"
+998,Ardem Patapoutian,2021,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+891,Arieh Warshel,2013,化学,University of Southern California,University of Southern California,University of Southern California,USA,US,USA,美国,"Los Angeles, CA"
+208,Arne Tiselius,1948,化学,Uppsala University,Uppsala University,Uppsala University,Sweden,SE,SWE,瑞典,Uppsala
+111,Arno Penzias,1978,物理学,Bell Laboratories,Bell Laboratories,Bell Laboratories,USA,US,USA,美国,"Holmdel, NJ"
+960,Arthur Ashkin,2018,物理学,Bell Laboratories,Bell Laboratories,Bell Laboratories,USA,US,USA,美国,"Holmdel, NJ"
+920,Arthur B. McDonald,2015,物理学,Queen's University,Queen's University,Queen's University,Canada,CA,CAN,加拿大,Kingston
+33,Arthur H. Compton,1927,物理学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+186,Arthur Harden,1929,化学,London University,London University,London University,United Kingdom,GB,GBR,英国,London
+368,Arthur Kornberg,1959,生理学或医学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+119,Arthur L. Schawlow,1981,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+203,Artturi Virtanen,1945,化学,University of Helsinki,University of Helsinki,University of Helsinki,Finland,FI,FIN,芬兰,Helsinki
+722,Arvid Carlsson,2000,生理学或医学,Göteborg University,Göteborg University,Göteborg University,Sweden,SE,SWE,瑞典,Gothenburg
+310,August Krogh,1920,生理学或医学,Copenhagen University,Copenhagen University,Copenhagen University,Denmark,DK,DNK,丹麦,Copenhagen
+780,Avram Hershko,2004,化学,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,Israel,IL,ISR,以色列,Haifa
+923,Aziz Sancar,2015,化学,University of North Carolina,University of North Carolina,University of North Carolina,USA,US,USA,美国,"Chapel Hill, NC"
+428,Barbara McClintock,1983,生理学或医学,Cold Spring Harbor Laboratory,Cold Spring Harbor Laboratory,Cold Spring Harbor Laboratory,USA,US,USA,美国,"Cold Spring Harbor, NY"
+942,Barry C. Barish,2017,物理学,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,,,,,
+942,Barry C. Barish,2017,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+789,Barry J. Marshall,2005,生理学或医学,"NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre","NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre","NHMRC Helicobacter pylori Research Laboratory, QEII Medical Centre",Australia,AU,AUS,澳大利亚,Nedlands
+789,Barry J. Marshall,2005,生理学或医学,University of Western Australia,University of Western Australia,University of Western Australia,Australia,AU,AUS,澳大利亚,Perth
+409,Baruch S. Blumberg,1976,生理学或医学,The Institute for Cancer Research,The Institute for Cancer Research,The Institute for Cancer Research,USA,US,USA,美国,"Philadelphia, PA"
+419,Baruj Benacerraf,1980,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+1021,Ben Bernanke,2022,经济学,The Brookings Institution,The Brookings Institution,The Brookings Institution,USA,US,USA,美国,"Washington, D.C."
+103,Ben R. Mottelson,1975,物理学,Nordita,Nordita,Nordita,Denmark,DK,DNK,丹麦,Copenhagen
+936,Bengt Holmström,2016,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+426,Bengt I. Samuelsson,1982,生理学或医学,Karolinska Institutet,Karolinska Institutet,Karolinska Institutet,Sweden,SE,SWE,瑞典,Stockholm
+1002,Benjamin List,2021,化学,Max-Planck-Institut für Kohlenforschung,Max-Planck-Institut für Kohlenforschung,Max-Planck-Institut für Kohlenforschung,Germany,DE,DEU,德国,Mülheim an der Ruhr
+933,Bernard L. Feringa,2016,化学,University of Groningen,University of Groningen,University of Groningen,the Netherlands,NL,NLD,荷兰,Groningen
+345,Bernardo Houssay,1947,生理学或医学,Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),Argentina,AR,ARG,阿根廷,Buenos Aires
+445,Bert Sakmann,1991,生理学或医学,Max-Planck-Institut für medizinische Forschung,Max-Planck-Institut für medizinische Forschung,Max-Planck-Institut für medizinische Forschung,Germany,DE,DEU,德国,Heidelberg
+689,Bertil Ohlin,1977,经济学,Stockholm School of Economics,Stockholm School of Economics,Stockholm School of Economics,Sweden,SE,SWE,瑞典,Stockholm
+145,Bertram N. Brockhouse,1994,物理学,McMaster University,McMaster University,McMaster University,Canada,CA,CAN,加拿大,"Hamilton, Ontario"
+99,Brian D. Josephson,1973,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+879,Brian Kobilka,2012,化学,Stanford University School of Medicine,Stanford University School of Medicine,Stanford University,USA,US,USA,美国,"Stanford, CA"
+865,Brian P. Schmidt,2011,物理学,Australian National University,Australian National University,Australian National University,Australia,AU,AUS,澳大利亚,Weston Creek
+861,Bruce A. Beutler,2011,生理学或医学,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,USA,US,USA,美国,"Dallas, TX"
+861,Bruce A. Beutler,2011,生理学或医学,The Scripps Research Institute,The Scripps Research Institute,The Scripps Research Institute,USA,US,USA,美国,"La Jolla, CA"
+261,Bruce Merrifield,1984,化学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+105,Burton Richter,1976,物理学,Stanford Linear Accelerator Center,Stanford Linear Accelerator Center,Stanford Linear Accelerator Center,USA,US,USA,美国,"Stanford, CA"
+34,C.T.R. Wilson,1927,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+298,Camillo Golgi,1906,生理学或医学,Pavia University,Pavia University,Pavia University,Italy,IT,ITA,意大利,Pavia
+189,Carl Bosch,1931,化学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+189,Carl Bosch,1931,化学,I.G. Farbenindustrie A.G.,I.G. Farbenindustrie A.G.,I.G. Farbenindustrie A.G.,Germany,DE,DEU,德国,Heidelberg
+343,Carl Cori,1947,生理学或医学,Washington University,Washington University,Washington University,USA,US,USA,美国,"St. Louis, MO"
+43,Carl D. Anderson,1936,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+740,Carl Wieman,2001,物理学,"University of Colorado, JILA","University of Colorado, JILA","University of Colorado, JILA",USA,US,USA,美国,"Boulder, CO"
+124,Carlo Rubbia,1984,物理学,CERN,CERN,CERN,Switzerland,CH,CHE,瑞士,Geneva
+836,Carol W. Greider,2009,生理学或医学,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,Johns Hopkins University,USA,US,USA,美国,"Baltimore, MD"
+1015,Carolyn Bertozzi,2022,化学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+1015,Carolyn Bertozzi,2022,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+55,Cecil Powell,1950,物理学,Bristol University,Bristol University,Bristol University,United Kingdom,GB,GBR,英国,Bristol
+431,César Milstein,1984,生理学或医学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+384,Charles B. Huggins,1966,生理学或医学,"University of Chicago, Ben May Laboratory for Cancer Research","University of Chicago, Ben May Laboratory for Cancer Research",University of Chicago,USA,US,USA,美国,"Chicago, IL"
+25,Charles Edouard Guillaume,1920,物理学,Bureau International des Poids et Mesures (International Bureau of Weights and Measures),Bureau International des Poids et Mesures (International Bureau of Weights and Measures),Bureau International des Poids et Mesures (International Bureau of Weights and Measures),France,FR,FRA,法国,Sèvres
+22,Charles Glover Barkla,1917,物理学,Edinburgh University,Edinburgh University,Edinburgh University,United Kingdom,GB,GBR,英国,Edinburgh
+81,Charles H. Townes,1964,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+269,Charles J. Pedersen,1987,化学,Du Pont,Du Pont,Du Pont,USA,US,USA,美国,"Wilmington, DE"
+838,Charles K. Kao,2009,物理学,Standard Telecommunication Laboratories,Standard Telecommunication Laboratories,Standard Telecommunication Laboratories,United Kingdom,GB,GBR,英国,Harlow
+838,Charles K. Kao,2009,物理学,Chinese University of Hong Kong,Chinese University of Hong Kong,Chinese University of Hong Kong,China,CN,CHN,中国,Hong Kong
+987,Charles M. Rice,2020,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+318,Charles Nicolle,1928,生理学或医学,Institut Pasteur,Institut Pasteur,Institut Pasteur,Tunisia,TN,TUN,突尼斯,Tunis
+307,Charles Richet,1913,生理学或医学,Sorbonne University,Sorbonne University,Sorbonne University,France,FR,FRA,法国,Paris
+68,Chen Ning Yang,1957,物理学,Institute for Advanced Study,Institute for Advanced Study,Institute for Advanced Study,USA,US,USA,美国,"Princeton, NJ"
+319,Christiaan Eijkman,1929,生理学或医学,Utrecht University,Utrecht University,Utrecht University,the Netherlands,NL,NLD,荷兰,Utrecht
+241,Christian Anfinsen,1972,化学,National Institutes of Health,National Institutes of Health,National Institutes of Health,USA,US,USA,美国,"Bethesda, MD"
+404,Christian de Duve,1974,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+404,Christian de Duve,1974,生理学或医学,Université Catholique de Louvain,Université Catholique de Louvain,Université Catholique de Louvain,Belgium,BE,BEL,比利时,Louvain
+453,Christiane Nüsslein-Volhard,1995,生理学或医学,Max-Planck-Institut für Entwicklungsbiologie,Max-Planck-Institut für Entwicklungsbiologie,Max-Planck-Institut für Entwicklungsbiologie,Germany,DE,DEU,德国,Tübingen
+858,Christopher A. Pissarides,2010,经济学,London School of Economics and Political Science,London School of Economics and Political Science,London School of Economics and Political Science,United Kingdom,GB,GBR,英国,London
+873,Christopher A. Sims,2011,经济学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+153,Claude Cohen-Tannoudji,1997,物理学,Collège de France,Collège de France,Collège de France,France,FR,FRA,法国,Paris
+153,Claude Cohen-Tannoudji,1997,物理学,École Normale Supérieure,École Normale Supérieure,École Normale Supérieure,France,FR,FRA,法国,Paris
+1034,Claudia Goldin,2023,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+146,Clifford G. Shull,1994,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+44,Clinton Davisson,1937,物理学,Bell Telephone Laboratories,Bell Telephone Laboratories,Bell Telephone Laboratories,USA,US,USA,美国,"New York, NY"
+772,Clive W.J. Granger,2003,经济学,University of California,University of California,"University of California, San Diego",USA,US,USA,美国,"San Diego, CA"
+333,Corneille Heymans,1938,生理学或医学,Ghent University,Ghent University,Ghent University,Belgium,BE,BEL,比利时,Ghent
+803,Craig C. Mello,2006,生理学或医学,University of Massachusetts Medical School,University of Massachusetts Medical School,University of Massachusetts Medical School,USA,US,USA,美国,"Worcester, MA"
+410,D. Carleton Gajdusek,1976,生理学或医学,National Institutes of Health,National Institutes of Health,National Institutes of Health,USA,US,USA,美国,"Bethesda, MD"
+857,Dale T. Mortensen,2010,经济学,Northwestern University,Northwestern University,Northwestern University,USA,US,USA,美国,"Evanston, IL"
+857,Dale T. Mortensen,2010,经济学,Aarhus University,Aarhus University,Aarhus University,Denmark,DK,DNK,丹麦,Aarhus
+867,Dan Shechtman,2011,化学,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,Technion - Israel Institute of Technology,Israel,IL,ISR,以色列,Haifa
+363,Daniel Bovet,1957,生理学或医学,Istituto Superiore di Sanità (Chief Institute of Public Health),Istituto Superiore di Sanità (Chief Institute of Public Health),Istituto Superiore di Sanità (Chief Institute of Public Health),Italy,IT,ITA,意大利,Rome
+157,Daniel C. Tsui,1998,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+759,Daniel Kahneman,2002,经济学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+733,Daniel L. McFadden,2000,经济学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+415,Daniel Nathans,1978,生理学或医学,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,Johns Hopkins University,USA,US,USA,美国,"Baltimore, MD"
+1044,Daron Acemoglu,2024,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+1039,David Baker,2024,化学,University of Washington,University of Washington,University of Washington,USA,US,USA,美国,"Seattle, WA"
+1039,David Baker,2024,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+406,David Baltimore,1975,生理学或医学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+1007,David Card,2021,经济学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+423,David H. Hubel,1981,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+776,David J. Gross,2004,物理学,"University of California, Kavli Institute for Theoretical Physics","University of California, Kavli Institute for Theoretical Physics","University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+928,David J. Thouless,2016,物理学,University of Washington,University of Washington,University of Washington,USA,US,USA,美国,"Seattle, WA"
+877,David J. Wineland,2012,物理学,National Institute of Standards and Technology,National Institute of Standards and Technology,National Institute of Standards and Technology,USA,US,USA,美国,"Boulder, CO"
+877,David J. Wineland,2012,物理学,University of Colorado,University of Colorado,University of Colorado,USA,US,USA,美国,"Boulder, CO"
+997,David Julius,2021,生理学或医学,University of California,University of California,"University of California, San Francisco",USA,US,USA,美国,"San Francisco, CA"
+149,David M. Lee,1996,物理学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+1003,David W.C. MacMillan,2021,化学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+1040,Demis Hassabis,2024,化学,Google DeepMind,Google DeepMind,Google DeepMind,United Kingdom,GB,GBR,英国,London
+93,Dennis Gabor,1971,物理学,Imperial College,Imperial College,Imperial College,United Kingdom,GB,GBR,英国,London
+237,Derek Barton,1969,化学,Imperial College,Imperial College,Imperial College,United Kingdom,GB,GBR,英国,London
+362,Dickinson W. Richards,1956,生理学或医学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+975,Didier Queloz,2019,物理学,University of Geneva,University of Geneva,University of Geneva,Switzerland,CH,CHE,瑞士,Geneva
+975,Didier Queloz,2019,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+74,Donald A. Glaser,1960,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+267,Donald J. Cram,1987,化学,University of California,University of California,"University of California, Los Angeles",USA,US,USA,美国,"Los Angeles, CA"
+962,Donna Strickland,2018,物理学,University of Waterloo,University of Waterloo,University of Waterloo,Canada,CA,CAN,加拿大,Waterloo
+230,Dorothy Crowfoot Hodgkin,1964,化学,"University of Oxford, Royal Society","University of Oxford, Royal Society",University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+150,Douglas D. Osheroff,1996,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+1022,Douglas Diamond,2022,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+710,Douglass C. North,1993,经济学,Washington University,Washington University,Washington University,USA,US,USA,美国,"St. Louis, MO"
+1025,Drew Weissman,2023,生理学或医学,"Penn Institute for RNA Innovations, University of Pennsylvania","Penn Institute for RNA Innovations, University of Pennsylvania","Penn Institute for RNA Innovations, University of Pennsylvania",USA,US,USA,美国,"Philadelphia, PA"
+264,Dudley R. Herschbach,1986,化学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+443,E. Donnall Thomas,1990,生理学或医学,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,USA,US,USA,美国,"Seattle, WA"
+59,E. M. Purcell,1952,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+397,"Earl W. Sutherland, Jr.",1971,生理学或医学,Vanderbilt University,Vanderbilt University,Vanderbilt University,USA,US,USA,美国,"Nashville, TN"
+324,Edgar Adrian,1932,生理学或医学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+446,Edmond H. Fischer,1992,生理学或医学,University of Washington,University of Washington,University of Washington,USA,US,USA,美国,"Seattle, WA"
+807,Edmund S. Phelps,2006,经济学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+166,Eduard Buchner,1907,化学,Landwirtschaftliche Hochschule (Agricultural College),Landwirtschaftliche Hochschule (Agricultural College),Landwirtschaftliche Hochschule (Agricultural College),Germany,DE,DEU,德国,Berlin
+905,Edvard I. Moser,2014,生理学或医学,Norwegian University of Science and Technology (NTNU),Norwegian University of Science and Technology (NTNU),Norwegian University of Science and Technology (NTNU),Norway,NO,NOR,挪威,Trondheim
+336,Edward A. Doisy,1943,生理学或医学,Saint Louis University,Saint Louis University,Saint Louis University,USA,US,USA,美国,"St. Louis, MO"
+452,Edward B. Lewis,1995,生理学或医学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+349,Edward C. Kendall,1950,生理学或医学,Mayo Clinic,Mayo Clinic,Mayo Clinic,USA,US,USA,美国,"Rochester, MN"
+787,Edward C. Prescott,2004,经济学,Arizona State University,Arizona State University,Arizona State University,USA,US,USA,美国,"Tempe, AZ"
+787,Edward C. Prescott,2004,经济学,Federal Reserve Bank of Minneapolis,Federal Reserve Bank of Minneapolis,Federal Reserve Bank of Minneapolis,USA,US,USA,美国,"Minneapolis, MN"
+365,Edward Tatum,1958,生理学或医学,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,Rockefeller University,USA,US,USA,美国,"New York, NY"
+52,Edward V. Appleton,1947,物理学,Department of Scientific and Industrial Research,Department of Scientific and Industrial Research,Department of Scientific and Industrial Research,United Kingdom,GB,GBR,英国,London
+447,Edwin G. Krebs,1992,生理学或医学,University of Washington,University of Washington,University of Washington,USA,US,USA,美国,"Seattle, WA"
+212,Edwin M. McMillan,1951,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+348,Egas Moniz,1949,生理学或医学,University of Lisbon,University of Lisbon,University of Lisbon,Portugal,PT,PRT,葡萄牙,Lisbon
+348,Egas Moniz,1949,生理学或医学,Neurological Institute,Neurological Institute,Neurological Institute,Portugal,PT,PRT,葡萄牙,Lisbon
+852,Ei-ichi Negishi,2010,化学,Purdue University,Purdue University,Purdue University,USA,US,USA,美国,"West Lafayette, IN"
+275,Elias James Corey,1990,化学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+846,Elinor Ostrom,2009,经济学,Indiana University,Indiana University,Indiana University,USA,US,USA,美国,"Bloomington, IN"
+846,Elinor Ostrom,2009,经济学,Arizona State University,Arizona State University,Arizona State University,USA,US,USA,美国,"Tempe, AZ"
+835,Elizabeth H. Blackburn,2009,生理学或医学,University of California,University of California,"University of California, San Francisco",USA,US,USA,美国,"San Francisco, CA"
+161,Emil Fischer,1902,化学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+293,Emil von Behring,1901,生理学或医学,Marburg University,Marburg University,Marburg University,Germany,DE,DEU,德国,Marburg
+72,Emilio Segrè,1959,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+991,Emmanuelle Charpentier,2020,化学,Max Planck Unit for the Science of Pathogens,Max Planck Unit for the Science of Pathogens,Max Planck Unit for the Science of Pathogens,Germany,DE,DEU,德国,Berlin
+46,Enrico Fermi,1938,物理学,Rome University,Rome University,Rome University,Italy,IT,ITA,意大利,Rome
+909,Eric Betzig,2014,化学,"Janelia Research Campus, Howard Hughes Medical Institute","Janelia Research Campus, Howard Hughes Medical Institute","Janelia Research Campus, Howard Hughes Medical Institute",USA,US,USA,美国,"Ashburn, VA"
+738,Eric Cornell,2001,物理学,"University of Colorado, JILA","University of Colorado, JILA","University of Colorado, JILA",USA,US,USA,美国,"Boulder, CO"
+454,Eric F. Wieschaus,1995,生理学或医学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+724,Eric Kandel,2000,生理学或医学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+821,Eric S. Maskin,2007,经济学,Institute for Advanced Study,Institute for Advanced Study,Institute for Advanced Study,USA,US,USA,美国,"Princeton, NJ"
+47,Ernest Lawrence,1939,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+167,Ernest Rutherford,1908,化学,Victoria University,Victoria University,Victoria University,United Kingdom,GB,GBR,英国,Manchester
+57,Ernest T.S. Walton,1951,物理学,Trinity College,Trinity College,Trinity College (Dublin),Ireland,IE,IRL,爱尔兰,Dublin
+340,Ernst B. Chain,1945,生理学或医学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+244,Ernst Otto Fischer,1973,化学,Technical University,Technical University,Technical University,Germany,DE,DEU,德国,Munich
+127,Ernst Ruska,1986,物理学,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Germany,DE,DEU,德国,Berlin
+444,Erwin Neher,1991,生理学或医学,Max-Planck-Institut für Biophysikalische Chemie,Max-Planck-Institut für Biophysikalische Chemie,Max-Planck-Institut für Biophysikalische Chemie,Germany,DE,DEU,德国,Göttingen
+39,Erwin Schrödinger,1933,物理学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+983,Esther Duflo,2019,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+894,Eugene F. Fama,2013,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+78,Eugene Wigner,1963,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+929,F. Duncan M. Haldane,2016,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+283,F. Sherwood Rowland,1995,化学,University of California,University of California,"University of California, Irvine",USA,US,USA,美国,"Irvine, CA"
+58,Felix Bloch,1952,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+379,Feodor Lynen,1964,生理学或医学,Max-Planck-Institut für Zellchemie,Max-Planck-Institut für Zellchemie,Max-Planck-Institut für Zellchemie,Germany,DE,DEU,德国,Munich
+14,Ferdinand Braun,1909,物理学,Strasbourg University,Strasbourg University,Strasbourg University,France,FR,FRA,法国,Strasbourg
+1027,Ferenc Krausz,2023,物理学,Max Planck Institute of Quantum Optics,Max Planck Institute of Quantum Optics,Max Planck Institute of Quantum Optics,Germany,DE,DEU,德国,Garching
+1027,Ferenc Krausz,2023,物理学,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,Germany,DE,DEU,德国,Munich
+460,Ferid Murad,1998,生理学或医学,University of Texas Medical School at Houston,University of Texas Medical School at Houston,University of Texas Medical School at Houston,USA,US,USA,美国,"Houston, TX"
+786,Finn E. Kydland,2004,经济学,Carnegie Mellon University,Carnegie Mellon University,Carnegie Mellon University,USA,US,USA,美国,"Pittsburgh, PA"
+786,Finn E. Kydland,2004,经济学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+963,Frances H. Arnold,2018,化学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+372,Francis Crick,1962,生理学或医学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+180,Francis W. Aston,1922,化学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+699,Franco Modigliani,1985,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+887,François Englert,2013,物理学,Université Libre de Bruxelles,Université Libre de Bruxelles,Université Libre de Bruxelles,Belgium,BE,BEL,比利时,Brussels
+380,François Jacob,1965,生理学或医学,Institut Pasteur,Institut Pasteur,Institut Pasteur,France,FR,FRA,法国,Paris
+824,Françoise Barré-Sinoussi,2008,生理学或医学,"Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur","Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur","Regulation of Retroviral Infections Unit, Virology Department, Institut Pasteur",France,FR,FRA,法国,Paris
+778,Frank Wilczek,2004,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+1048,Fred Ramsdell,2025,生理学或医学,Sonoma Biotherapeutics,Sonoma Biotherapeutics,Sonoma Biotherapeutics,USA,US,USA,美国,"San Francisco, CA"
+193,Frédéric Joliot,1935,化学,Institut du Radium,Institut du Radium,Institut du Radium,France,FR,FRA,法国,Paris
+358,Frederick C. Robbins,1954,生理学或医学,Western Reserve University,Western Reserve University,Western Reserve University,USA,US,USA,美国,"Cleveland, OH"
+313,Frederick G. Banting,1923,生理学或医学,University of Toronto,University of Toronto,University of Toronto,Canada,CA,CAN,加拿大,Toronto
+148,Frederick Reines,1995,物理学,University of California,University of California,"University of California, Irvine",USA,US,USA,美国,"Irvine, CA"
+222,Frederick Sanger,1958,化学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+222,Frederick Sanger,1980,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+179,Frederick Soddy,1921,化学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+190,Friedrich Bergius,1931,化学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+190,Friedrich Bergius,1931,化学,I.G. Farbenindustrie A.G.,I.G. Farbenindustrie A.G.,I.G. Farbenindustrie A.G.,Germany,DE,DEU,德国,Mannheim-Rheinau
+60,Frits Zernike,1953,物理学,Groningen University,Groningen University,Groningen University,the Netherlands,NL,NLD,荷兰,Groningen
+177,Fritz Haber,1918,化学,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,Germany,DE,DEU,德国,Berlin-Dahlem
+355,Fritz Lipmann,1953,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+355,Fritz Lipmann,1953,生理学或医学,Massachusetts General Hospital,Massachusetts General Hospital,Massachusetts General Hospital,USA,US,USA,美国,"Boston, MA"
+181,Fritz Pregl,1923,化学,Graz University,Graz University,Graz University,Austria,AT,AUT,奥地利,Graz
+12,Gabriel Lippmann,1908,物理学,Sorbonne University,Sorbonne University,Sorbonne University,France,FR,FRA,法国,Paris
+708,Gary Becker,1992,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+1036,Gary Ruvkun,2024,生理学或医学,Massachusetts General Hospital,Massachusetts General Hospital,Massachusetts General Hospital,USA,US,USA,美国,"Boston, MA"
+1036,Gary Ruvkun,2024,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+1038,Geoffrey Hinton,2024,物理学,University of Toronto,University of Toronto,University of Toronto,Canada,CA,CAN,加拿大,Toronto
+245,Geoffrey Wilkinson,1973,化学,Imperial College,Imperial College,Imperial College,United Kingdom,GB,GBR,英国,London
+371,Georg von Békésy,1961,生理学或医学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+253,Georg Wittig,1979,化学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+744,George A. Akerlof,2001,经济学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+280,George A. Olah,1994,化学,University of Southern California,University of Southern California,University of Southern California,USA,US,USA,美国,"Los Angeles, CA"
+364,George Beadle,1958,生理学或医学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+421,George D. Snell,1980,生理学或医学,Jackson Laboratory,Jackson Laboratory,Jackson Laboratory,USA,US,USA,美国,"Bar Harbor, ME"
+201,George de Hevesy,1943,化学,Stockholm University,Stockholm University,Stockholm University,Sweden,SE,SWE,瑞典,Stockholm
+405,George E. Palade,1974,生理学或医学,"Yale University, School of Medicine","Yale University, School of Medicine",Yale University,USA,US,USA,美国,"New Haven, CT"
+840,George E. Smith,2009,物理学,Bell Laboratories,Bell Laboratories,Bell Laboratories,USA,US,USA,美国,"Murray Hill, NJ"
+805,George F. Smoot,2006,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+439,George H. Hitchings,1988,生理学或医学,Wellcome Research Laboratories,Wellcome Research Laboratories,Wellcome Research Laboratories,USA,US,USA,美国,"Research Triangle Park, NC"
+326,George H. Whipple,1934,生理学或医学,University of Rochester,University of Rochester,University of Rochester,USA,US,USA,美国,"Rochester, NY"
+696,George J. Stigler,1982,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+964,George P. Smith,2018,化学,University of Missouri,University of Missouri,University of Missouri,USA,US,USA,美国,Columbia
+45,George Paget Thomson,1937,物理学,London University,London University,London University,United Kingdom,GB,GBR,英国,London
+235,George Porter,1967,化学,Royal Institution of Great Britain,Royal Institution of Great Britain,Royal Institution of Great Britain,United Kingdom,GB,GBR,英国,London
+327,George R. Minot,1934,生理学或医学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+387,George Wald,1967,生理学或医学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+142,Georges Charpak,1992,物理学,École Supérieure de Physique et Chimie,École Supérieure de Physique et Chimie,École Supérieure de Physique et Chimie,France,FR,FRA,法国,Paris
+142,Georges Charpak,1992,物理学,CERN,CERN,CERN,Switzerland,CH,CHE,瑞士,Geneva
+430,Georges J.F. Köhler,1984,生理学或医学,Basel Institute for Immunology,Basel Institute for Immunology,Basel Institute for Immunology,Switzerland,CH,CHE,瑞士,Basel
+398,Gerald M. Edelman,1972,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+697,Gerard Debreu,1983,经济学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+961,Gérard Mourou,2018,物理学,École Polytechnique,École Polytechnique,École Polytechnique,France,FR,FRA,法国,Palaiseau
+961,Gérard Mourou,2018,物理学,University of Michigan,University of Michigan,University of Michigan,USA,US,USA,美国,"Ann Arbor, MI"
+158,Gerardus 't Hooft,1999,物理学,Utrecht University,Utrecht University,Utrecht University,the Netherlands,NL,NLD,荷兰,Utrecht
+128,Gerd Binnig,1986,物理学,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,Switzerland,CH,CHE,瑞士,Rüschlikon
+334,Gerhard Domagk,1939,生理学或医学,Munster University,Munster University,Munster University,Germany,DE,DEU,德国,Munster
+816,Gerhard Ertl,2007,化学,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Germany,DE,DEU,德国,Berlin
+240,Gerhard Herzberg,1971,化学,National Research Council of Canada,National Research Council of Canada,National Research Council of Canada,Canada,CA,CAN,加拿大,Ottawa
+438,Gertrude B. Elion,1988,生理学或医学,Wellcome Research Laboratories,Wellcome Research Laboratories,Wellcome Research Laboratories,USA,US,USA,美国,"Research Triangle Park, NC"
+344,Gerty Cori,1947,生理学或医学,Washington University,Washington University,Washington University,USA,US,USA,美国,"St. Louis, MO"
+1001,Giorgio Parisi,2021,物理学,Sapienza University of Rome,Sapienza University of Rome,Sapienza University of Rome,Italy,IT,ITA,意大利,Rome
+229,Giulio Natta,1963,化学,Institute of Technology,Institute of Technology,Institute of Technology,Italy,IT,ITA,意大利,Milan
+213,Glenn T. Seaborg,1951,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+418,Godfrey N. Hounsfield,1979,生理学或医学,"Central Research Laboratories, EMI","Central Research Laboratories, EMI","Central Research Laboratories, EMI",United Kingdom,GB,GBR,英国,London
+972,Gregg L. Semenza,2019,生理学或医学,Johns Hopkins University,Johns Hopkins University,Johns Hopkins University,USA,US,USA,美国,"Baltimore, MD"
+13,Guglielmo Marconi,1909,物理学,Marconi Wireless Telegraph Co. Ltd.,Marconi Wireless Telegraph Co. Ltd.,Marconi Wireless Telegraph Co. Ltd.,United Kingdom,GB,GBR,英国,London
+1009,Guido W. Imbens,2021,经济学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+461,Günter Blobel,1999,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+461,Günter Blobel,1999,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+17,Gustaf Dalén,1912,物理学,Swedish Gas-Accumulator Co.,Swedish Gas-Accumulator Co.,Swedish Gas-Accumulator Co.,Sweden,SE,SWE,瑞典,"Lidingö, Stockholm"
+31,Gustav Hertz,1925,物理学,Halle University,Halle University,Halle University,Germany,DE,DEU,德国,Halle
+777,H. David Politzer,2004,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+389,H. Gobind Khorana,1968,生理学或医学,University of Wisconsin,University of Wisconsin,University of Wisconsin,USA,US,USA,美国,"Madison, WI"
+751,H. Robert Horvitz,2002,生理学或医学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+416,Hamilton O. Smith,1978,生理学或医学,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,Johns Hopkins University,USA,US,USA,美国,"Baltimore, MD"
+91,Hannes Alfvén,1970,物理学,Royal Institute of Technology,Royal Institute of Technology,Royal Institute of Technology,Sweden,SE,SWE,瑞典,Stockholm
+88,Hans Bethe,1967,物理学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+188,Hans Fischer,1930,化学,Technische Hochschule (Institute of Technology),Technische Hochschule (Institute of Technology),Technische Hochschule (Institute of Technology),Germany,DE,DEU,德国,Munich
+136,Hans G. Dehmelt,1989,物理学,University of Washington,University of Washington,University of Washington,USA,US,USA,美国,"Seattle, WA"
+354,Hans Krebs,1953,生理学或医学,Sheffield University,Sheffield University,Sheffield University,United Kingdom,GB,GBR,英国,Sheffield
+329,Hans Spemann,1935,生理学或医学,University of Freiburg im Breisgau,University of Freiburg im Breisgau,University of Freiburg im Breisgau,Germany,DE,DEU,德国,Breisgau
+187,Hans von Euler-Chelpin,1929,化学,Stockholm University,Stockholm University,Stockholm University,Sweden,SE,SWE,瑞典,Stockholm
+823,Harald zur Hausen,2008,生理学或医学,German Cancer Research Center,German Cancer Research Center,German Cancer Research Center,Germany,DE,DEU,德国,Heidelberg
+192,Harold C. Urey,1934,化学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+441,Harold E. Varmus,1989,生理学或医学,University of California School of Medicine,University of California School of Medicine,"University of California, San Francisco",USA,US,USA,美国,"San Francisco, CA"
+704,Harry M. Markowitz,1990,经济学,City University of New York,City University of New York,City University of New York,USA,US,USA,美国,"New York, NY"
+272,Hartmut Michel,1988,化学,Max-Planck-Institut für Biophysik,Max-Planck-Institut für Biophysik,Max-Planck-Institut für Biophysik,Germany,DE,DEU,德国,Frankfurt-on-the-Main
+985,Harvey J. Alter,2020,生理学或医学,National Institutes of Health,National Institutes of Health,National Institutes of Health,USA,US,USA,美国,"Bethesda, MD"
+18,Heike Kamerlingh Onnes,1913,物理学,Leiden University,Leiden University,Leiden University,the Netherlands,NL,NLD,荷兰,Leiden
+129,Heinrich Rohrer,1986,物理学,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,Switzerland,CH,CHE,瑞士,Rüschlikon
+184,Heinrich Wieland,1927,化学,Munich University,Munich University,Munich University,Germany,DE,DEU,德国,Munich
+2,Hendrik A. Lorentz,1902,物理学,Leiden University,Leiden University,Leiden University,the Netherlands,NL,NLD,荷兰,Leiden
+4,Henri Becquerel,1903,物理学,École Polytechnique,École Polytechnique,École Polytechnique,France,FR,FRA,法国,Paris
+165,Henri Moissan,1906,化学,Sorbonne University,Sorbonne University,Sorbonne University,France,FR,FRA,法国,Paris
+335,Henrik Dam,1943,生理学或医学,Polytechnic Institute,Polytechnic Institute,Polytechnic Institute,Denmark,DK,DNK,丹麦,Copenhagen
+260,Henry Taube,1983,化学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+139,Henry W. Kendall,1990,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+262,Herbert A. Hauptman,1985,化学,The Medical Foundation of Buffalo,The Medical Foundation of Buffalo,The Medical Foundation of Buffalo,USA,US,USA,美国,"Buffalo, NY"
+252,Herbert C. Brown,1979,化学,Purdue University,Purdue University,Purdue University,USA,US,USA,美国,"West Lafayette, IN"
+727,Herbert Kroemer,2000,物理学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+338,Herbert S. Gasser,1944,生理学或医学,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,Rockefeller University,USA,US,USA,美国,"New York, NY"
+691,Herbert Simon,1978,经济学,Carnegie Mellon University,Carnegie Mellon University,Carnegie Mellon University,USA,US,USA,美国,"Pittsburgh, PA"
+342,Hermann J. Muller,1946,生理学或医学,Indiana University,Indiana University,Indiana University,USA,US,USA,美国,"Bloomington, IN"
+216,Hermann Staudinger,1953,化学,University of Freiburg,University of Freiburg,University of Freiburg,Germany,DE,DEU,德国,Breisgau
+216,Hermann Staudinger,1953,化学,"Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg","Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg","Staatliches Institut für makromolekulare Chemie (State Research Institute for Macromolecular Chemistry), Freiburg",Germany,DE,DEU,德国,Breisgau
+731,Hideki Shirakawa,2000,化学,University of Tsukuba,University of Tsukuba,University of Tsukuba,Japan,JP,JPN,日本,Tsukuba
+54,Hideki Yukawa,1949,物理学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+54,Hideki Yukawa,1949,物理学,Kyoto University,Kyoto University,Kyoto University,Japan,JP,JPN,日本,Kyoto
+907,Hiroshi Amano,2014,物理学,Nagoya University,Nagoya University,Nagoya University,Japan,JP,JPN,日本,Nagoya
+156,Horst L. Störmer,1998,物理学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+408,Howard M. Temin,1975,生理学或医学,University of Wisconsin,University of Wisconsin,University of Wisconsin,USA,US,USA,美国,"Madison, WI"
+359,Hugo Theorell,1955,生理学或医学,"Karolinska Institutet, Nobel Medical Institute","Karolinska Institutet, Nobel Medical Institute","Karolinska Institutet, Nobel Medical Institute",Sweden,SE,SWE,瑞典,Stockholm
+71,Igor Y. Tamm,1958,物理学,Lomonosov Moscow State University,Lomonosov Moscow State University,Lomonosov Moscow State University,Russia,RU,RUS,俄罗斯,Moscow
+71,Igor Y. Tamm,1958,物理学,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,Russia,RU,RUS,俄罗斯,Moscow
+721,Il´ja M. Frank,1958,物理学,Lomonosov Moscow State University,Lomonosov Moscow State University,Lomonosov Moscow State University,Russia,RU,RUS,俄罗斯,Moscow
+721,Il´ja M. Frank,1958,物理学,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,Russia,RU,RUS,俄罗斯,Moscow
+301,Ilya Mechnikov,1908,生理学或医学,Institut Pasteur,Institut Pasteur,Institut Pasteur,France,FR,FRA,法国,Paris
+250,Ilya Prigogine,1977,化学,Université Libre de Bruxelles,Université Libre de Bruxelles,Université Libre de Bruxelles,Belgium,BE,BEL,比利时,Brussels
+250,Ilya Prigogine,1977,化学,University of Texas,University of Texas,University of Texas,USA,US,USA,美国,"Austin, TX"
+194,Irène Joliot-Curie,1935,化学,Institut du Radium,Institut du Radium,Institut du Radium,France,FR,FRA,法国,Paris
+191,Irving Langmuir,1932,化学,General Electric Company,General Electric Company,General Electric Company,USA,US,USA,美国,"Schenectady, NY"
+781,Irwin Rose,2004,化学,University of California,University of California,"University of California, Irvine",USA,US,USA,美国,"Irvine, CA"
+906,Isamu Akasaki,2014,物理学,Meijo University,Meijo University,Meijo University,Japan,JP,JPN,日本,Nagoya
+906,Isamu Akasaki,2014,物理学,Nagoya University,Nagoya University,Nagoya University,Japan,JP,JPN,日本,Nagoya
+49,Isidor Isaac Rabi,1944,物理学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+296,Ivan Pavlov,1904,生理学或医学,Military Medical Academy,Military Medical Academy,Military Medical Academy,Russia,RU,RUS,俄罗斯,St. Petersburg
+98,Ivar Giaever,1973,物理学,General Electric Company,General Electric Company,General Electric Company,USA,US,USA,美国,"Schenectady, NY"
+130,J. Georg Bednorz,1987,物理学,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,Switzerland,CH,CHE,瑞士,Rüschlikon
+80,J. Hans D. Jensen,1963,物理学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+440,J. Michael Bishop,1989,生理学或医学,University of California School of Medicine,University of California School of Medicine,"University of California, San Francisco",USA,US,USA,美国,"San Francisco, CA"
+930,J. Michael Kosterlitz,2016,物理学,Brown University,Brown University,Brown University,USA,US,USA,美国,"Providence, RI"
+10,J.J. Thomson,1906,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+728,Jack Kilby,2000,物理学,Texas Instruments,Texas Instruments,Texas Instruments,USA,US,USA,美国,"Dallas, TX"
+134,Jack Steinberger,1988,物理学,CERN,CERN,CERN,Switzerland,CH,CHE,瑞士,Geneva
+837,Jack W. Szostak,2009,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+837,Jack W. Szostak,2009,生理学或医学,Massachusetts General Hospital,Massachusetts General Hospital,Massachusetts General Hospital,USA,US,USA,美国,"Boston, MA"
+837,Jack W. Szostak,2009,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+160,Jacobus H. van 't Hoff,1901,化学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+944,Jacques Dubochet,2017,化学,University of Lausanne,University of Lausanne,University of Lausanne,Switzerland,CH,CHE,瑞士,Lausanne
+382,Jacques Monod,1965,生理学或医学,Institut Pasteur,Institut Pasteur,Institut Pasteur,France,FR,FRA,法国,Paris
+715,James A. Mirrlees,1996,经济学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+1046,James A. Robinson,2024,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+204,James B. Sumner,1946,化学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+41,James Chadwick,1935,物理学,Liverpool University,Liverpool University,Liverpool University,United Kingdom,GB,GBR,英国,Liverpool
+116,James Cronin,1980,物理学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+690,James E. Meade,1977,经济学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+884,James E. Rothman,2013,生理学或医学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+30,James Franck,1925,物理学,Goettingen University,Goettingen University,Goettingen University,Germany,DE,DEU,德国,Göttingen
+732,James J. Heckman,2000,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+700,James M. Buchanan Jr.,1986,经济学,Center for Study of Public Choice,Center for Study of Public Choice,Center for Study of Public Choice,USA,US,USA,美国,"Fairfax, VA"
+958,James P. Allison,2018,生理学或医学,Parker Institute for Cancer Immunotherapy,Parker Institute for Cancer Immunotherapy,Parker Institute for Cancer Immunotherapy,USA,US,USA,美国,"San Francisco, CA"
+958,James P. Allison,2018,生理学或医学,University of Texas MD Anderson Cancer Center,University of Texas MD Anderson Cancer Center,University of Texas MD Anderson Cancer Center,USA,US,USA,美国,"Houston, TX"
+973,James Peebles,2019,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+104,James Rainwater,1975,物理学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+695,James Tobin,1981,经济学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+373,James Watson,1962,生理学或医学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+678,Jan Tinbergen,1969,经济学,The Netherlands School of Economics,The Netherlands School of Economics,The Netherlands School of Economics,the Netherlands,NL,NLD,荷兰,Rotterdam
+223,Jaroslav Heyrovsky,1959,化学,Polarographic Institute of the Czechoslovak Academy of Science,Polarographic Institute of the Czechoslovak Academy of Science,Polarographic Institute of the Czechoslovak Academy of Science,Czech Republic,CZ,CZE,捷克,Prague
+32,Jean Baptiste Perrin,1926,物理学,Sorbonne University,Sorbonne University,Sorbonne University,France,FR,FRA,法国,Paris
+420,Jean Dausset,1980,生理学或医学,"Université de Paris, Laboratoire Immuno-Hématologie","Université de Paris, Laboratoire Immuno-Hématologie","Université de Paris, Laboratoire Immuno-Hématologie",France,FR,FRA,法国,Paris
+915,Jean Tirole,2014,经济学,Toulouse School of Economics (TSE),Toulouse School of Economics (TSE),Toulouse School of Economics (TSE),France,FR,FRA,法国,Toulouse
+268,Jean-Marie Lehn,1987,化学,Université Louis Pasteur,Université Louis Pasteur,Université Louis Pasteur,France,FR,FRA,法国,Strasbourg
+268,Jean-Marie Lehn,1987,化学,Collège de France,Collège de France,Collège de France,France,FR,FRA,法国,Paris
+931,Jean-Pierre Sauvage,2016,化学,University of Strasbourg,University of Strasbourg,University of Strasbourg,France,FR,FRA,法国,Strasbourg
+938,Jeffrey C. Hall,2017,生理学或医学,University of Maine,University of Maine,University of Maine,USA,US,USA,美国,"Maine, ME"
+992,Jennifer A. Doudna,2020,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+289,Jens C. Skou,1997,化学,Aarhus University,Aarhus University,Aarhus University,Denmark,DK,DNK,丹麦,Aarhus
+138,Jerome I. Friedman,1990,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+263,Jerome Karle,1985,化学,US Naval Research Laboratory,US Naval Research Laboratory,US Naval Research Laboratory,USA,US,USA,美国,"Washington, D.C."
+945,Joachim Frank,2017,化学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+1058,Joel Mokyr,2025,经济学,Northwestern University,Northwestern University,Northwestern University,USA,US,USA,美国,"Evanston, IL"
+1058,Joel Mokyr,2025,经济学,"Eitan Berglas School of Economics, Tel Aviv University","Eitan Berglas School of Economics, Tel Aviv University","Eitan Berglas School of Economics, Tel Aviv University",Israel,IL,ISR,以色列,Tel Aviv
+270,Johann Deisenhofer,1988,化学,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,USA,US,USA,美国,"Dallas, TX"
+270,Johann Deisenhofer,1988,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+15,Johannes Diderik van der Waals,1910,物理学,Amsterdam University,Amsterdam University,Amsterdam University,the Netherlands,NL,NLD,荷兰,Amsterdam
+316,Johannes Fibiger,1926,生理学或医学,Copenhagen University,Copenhagen University,Copenhagen University,Denmark,DK,DNK,丹麦,Copenhagen
+24,Johannes Stark,1919,物理学,Greifswald University,Greifswald University,Greifswald University,Germany,DE,DEU,德国,Greifswald
+756,John B. Fenn,2002,化学,Virginia Commonwealth University,Virginia Commonwealth University,Virginia Commonwealth University,USA,US,USA,美国,"Richmond, VA"
+976,John B. Goodenough,2019,化学,University of Texas,University of Texas,University of Texas,USA,US,USA,美国,"Austin, TX"
+66,John Bardeen,1956,物理学,University of Illinois,University of Illinois,University of Illinois,USA,US,USA,美国,"Urbana, IL"
+66,John Bardeen,1972,物理学,University of Illinois,University of Illinois,University of Illinois,USA,US,USA,美国,"Urbana, IL"
+711,John C. Harsanyi,1994,经济学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+227,John C. Kendrew,1962,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+804,John C. Mather,2006,物理学,NASA Goddard Space Flight Center,NASA Goddard Space Flight Center,NASA Goddard Space Flight Center,USA,US,USA,美国,"Greenbelt, MD"
+266,John C. Polanyi,1986,化学,University of Toronto,University of Toronto,University of Toronto,Canada,CA,CAN,加拿大,Toronto
+1050,John Clarke,2025,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+1013,John Clauser,2022,物理学,J.F. Clauser & Assoc.,J.F. Clauser & Assoc.,J.F. Clauser & Assoc.,USA,US,USA,美国,"Walnut Creek, CA"
+56,John Cockcroft,1951,物理学,Atomic Energy Research Establishment,Atomic Energy Research Establishment,Atomic Energy Research Establishment,United Kingdom,GB,GBR,英国,"Harwell, Berkshire"
+247,John Cornforth,1975,化学,University of Sussex,University of Sussex,University of Sussex,United Kingdom,GB,GBR,英国,Brighton
+752,John E. Sulston,2002,生理学或医学,The Wellcome Trust Sanger Institute,The Wellcome Trust Sanger Institute,The Wellcome Trust Sanger Institute,United Kingdom,GB,GBR,英国,Cambridge
+288,John E. Walker,1997,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+356,John F. Enders,1954,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+356,John F. Enders,1954,生理学或医学,"Research Division of Infectious Diseases, Children's Medical Center","Research Division of Infectious Diseases, Children's Medical Center","Research Division of Infectious Diseases, Children's Medical Center",USA,US,USA,美国,"Boston, MA"
+712,John F. Nash Jr.,1994,经济学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+205,John H. Northrop,1946,化学,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,Rockefeller University,USA,US,USA,美国,"Princeton, NJ"
+109,John H. Van Vleck,1977,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+1037,John J. Hopfield,2024,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+1041,John Jumper,2024,化学,Google DeepMind,Google DeepMind,Google DeepMind,United Kingdom,GB,GBR,英国,London
+792,John L. Hall,2005,物理学,"University of Colorado, JILA","University of Colorado, JILA","University of Colorado, JILA",USA,US,USA,美国,"Boulder, CO"
+792,John L. Hall,2005,物理学,National Institute of Standards and Technology,National Institute of Standards and Technology,National Institute of Standards and Technology,USA,US,USA,美国,"Boulder, CO"
+1052,John M. Martinis,2025,物理学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+1052,John M. Martinis,2025,物理学,Qolab,Qolab,Qolab,USA,US,USA,美国,"Los Angeles, CA"
+314,John Macleod,1923,生理学或医学,University of Toronto,University of Toronto,University of Toronto,Canada,CA,CAN,加拿大,Toronto
+903,John O'Keefe,2014,生理学或医学,University College,University College,University College (London),United Kingdom,GB,GBR,英国,London
+291,John Pople,1998,化学,Northwestern University,Northwestern University,Northwestern University,USA,US,USA,美国,"Evanston, IL"
+681,John R. Hicks,1972,经济学,All Souls College,All Souls College,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+427,John R. Vane,1982,生理学或医学,The Wellcome Research Laboratories,The Wellcome Research Laboratories,The Wellcome Research Laboratories,United Kingdom,GB,GBR,英国,Beckenham
+442,Joseph E. Murray,1990,生理学或医学,Brigham and Women's Hospital,Brigham and Women's Hospital,Brigham and Women's Hospital,USA,US,USA,美国,"Boston, MA"
+746,Joseph E. Stiglitz,2001,经济学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+337,Joseph Erlanger,1944,生理学或医学,Washington University,Washington University,Washington University,USA,US,USA,美国,"St. Louis, MO"
+144,Joseph H. Taylor Jr.,1993,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+433,Joseph L. Goldstein,1985,生理学或医学,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,USA,US,USA,美国,"Dallas, TX"
+1008,Joshua D. Angrist,2021,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+366,Joshua Lederberg,1958,生理学或医学,University of Wisconsin,University of Wisconsin,University of Wisconsin,USA,US,USA,美国,"Madison, WI"
+862,Jules A. Hoffmann,2011,生理学或医学,University of Strasbourg,University of Strasbourg,University of Strasbourg,France,FR,FRA,法国,Strasbourg
+309,Jules Bordet,1919,生理学或医学,Brussels University,Brussels University,Brussels University,Belgium,BE,BEL,比利时,Brussels
+85,Julian Schwinger,1965,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+396,Julius Axelrod,1970,生理学或医学,National Institutes of Health,National Institutes of Health,National Institutes of Health,USA,US,USA,美国,"Bethesda, MD"
+317,Julius Wagner-Jauregg,1927,生理学或医学,Vienna University,Vienna University,Vienna University,Austria,AT,AUT,奥地利,Vienna
+131,K. Alex Müller,1987,物理学,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,IBM Zurich Research Laboratory,Switzerland,CH,CHE,瑞士,Rüschlikon
+743,K. Barry Sharpless,2001,化学,The Scripps Research Institute,The Scripps Research Institute,The Scripps Research Institute,USA,US,USA,美国,"La Jolla, CA"
+743,K. Barry Sharpless,2022,化学,Scripps Research,Scripps Research,Scripps Research,USA,US,USA,美国,"La Jolla, CA"
+120,Kai M. Siegbahn,1981,物理学,Uppsala University,Uppsala University,Uppsala University,Sweden,SE,SWE,瑞典,Uppsala
+321,Karl Landsteiner,1930,生理学或医学,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,Rockefeller University,USA,US,USA,美国,"New York, NY"
+400,Karl von Frisch,1973,生理学或医学,Zoologisches Institut der Universität München,Zoologisches Institut der Universität München,Zoologisches Institut der Universität München,Germany,DE,DEU,德国,Munich
+228,Karl Ziegler,1963,化学,Max-Planck-Institut für Kohlenforschung,Max-Planck-Institut für Kohlenforschung,Max-Planck-Institut für Kohlenforschung,Germany,DE,DEU,德国,Mülheim an der Ruhr
+1024,Katalin Karikó,2023,生理学或医学,Szeged University,Szeged University,Szeged University,Hungary,HU,HUN,匈牙利,Szeged
+1024,Katalin Karikó,2023,生理学或医学,University of Pennsylvania,University of Pennsylvania,University of Pennsylvania,USA,US,USA,美国,"Philadelphia, PA"
+386,Keffer Hartline,1967,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+257,Kenichi Fukui,1981,化学,Kyoto University,Kyoto University,Kyoto University,Japan,JP,JPN,日本,Kyoto
+121,Kenneth G. Wilson,1982,物理学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+682,Kenneth J. Arrow,1972,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+943,Kip S. Thorne,2017,物理学,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,,,,,
+943,Kip S. Thorne,2017,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+1000,Klaus Hasselmann,2021,物理学,Max Planck Institute for Meteorology,Max Planck Institute for Meteorology,Max Planck Institute for Meteorology,Germany,DE,DEU,德国,Hamburg
+126,Klaus von Klitzing,1985,物理学,Max-Planck-Institut für Festkörperforschung,Max-Planck-Institut für Festkörperforschung,Max-Planck-Institut für Festkörperforschung,Germany,DE,DEU,德国,Stuttgart
+757,Koichi Tanaka,2002,化学,Shimadzu Corp.,Shimadzu Corp.,Shimadzu Corp.,Japan,JP,JPN,日本,Kyoto
+378,Konrad Bloch,1964,生理学或医学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+401,Konrad Lorenz,1973,生理学或医学,"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie","Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie","Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie",Austria,AT,AUT,奥地利,Altenberg; Grünau im Almtal
+401,Konrad Lorenz,1973,生理学或医学,Max-Planck-Institut für Verhaltensphysiologie,Max-Planck-Institut für Verhaltensphysiologie,Max-Planck-Institut für Verhaltensphysiologie,Germany,DE,DEU,德国,Seewiesen
+850,Konstantin Novoselov,2010,物理学,University of Manchester,University of Manchester,University of Manchester,United Kingdom,GB,GBR,英国,Manchester
+211,Kurt Alder,1950,化学,Cologne University,Cologne University,Cologne University,Germany,DE,DEU,德国,Cologne
+758,Kurt Wüthrich,2002,化学,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Switzerland,CH,CHE,瑞士,Zurich
+758,Kurt Wüthrich,2002,化学,The Scripps Research Institute,The Scripps Research Institute,The Scripps Research Institute,USA,US,USA,美国,"La Jolla, CA"
+236,Lars Onsager,1968,化学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+895,Lars Peter Hansen,2013,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+21,Lawrence Bragg,1915,物理学,Victoria University,Victoria University,Victoria University,United Kingdom,GB,GBR,英国,Manchester
+694,Lawrence R. Klein,1980,经济学,University of Pennsylvania,University of Pennsylvania,University of Pennsylvania,USA,US,USA,美国,"Philadelphia, PA"
+735,Leland Hartwell,2001,生理学或医学,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,USA,US,USA,美国,"Seattle, WA"
+97,Leo Esaki,1973,物理学,IBM Thomas J. Watson Research Center,IBM Thomas J. Watson Research Center,IBM Thomas J. Watson Research Center,USA,US,USA,美国,"Yorktown Heights, NY"
+132,Leon M. Lederman,1988,物理学,Fermi National Accelerator Laboratory,Fermi National Accelerator Laboratory,Fermi National Accelerator Laboratory,USA,US,USA,美国,"Batavia, IL"
+95,Leon N. Cooper,1972,物理学,Brown University,Brown University,Brown University,USA,US,USA,美国,"Providence, RI"
+820,Leonid Hurwicz,2007,经济学,University of Minnesota,University of Minnesota,University of Minnesota,USA,US,USA,美国,"Minneapolis, MN"
+686,Leonid Vitaliyevich Kantorovich,1975,经济学,Academy of Sciences,Academy of Sciences,Academy of Sciences,Russia,RU,RUS,俄罗斯,Moscow
+200,Leopold Ruzicka,1939,化学,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Switzerland,CH,CHE,瑞士,Zurich
+77,Lev Landau,1962,物理学,Academy of Sciences,Academy of Sciences,Academy of Sciences,Russia,RU,RUS,俄罗斯,Moscow
+775,Linda B. Buck,2004,生理学或医学,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,Fred Hutchinson Cancer Research Center,USA,US,USA,美国,"Seattle, WA"
+217,Linus Pauling,1954,化学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+217,Linus Pauling,1962,和平,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+883,Lloyd S. Shapley,2012,经济学,University of California,University of California,"University of California, Los Angeles",USA,US,USA,美国,"Los Angeles, CA"
+8,Lord Rayleigh,1904,物理学,Royal Institution of Great Britain,Royal Institution of Great Britain,Royal Institution of Great Britain,United Kingdom,GB,GBR,英国,London
+221,Lord Todd,1957,化学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+1030,Louis Brus,2023,化学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+36,Louis de Broglie,1929,物理学,"Sorbonne University, Institut Henri Poincaré","Sorbonne University, Institut Henri Poincaré","Sorbonne University, Institut Henri Poincaré",France,FR,FRA,法国,Paris
+459,Louis J. Ignarro,1998,生理学或医学,University of California School of Medicine,University of California School of Medicine,"University of California, Los Angeles",USA,US,USA,美国,"Los Angeles, CA"
+92,Louis Néel,1970,物理学,University of Grenoble,University of Grenoble,University of Grenoble,France,FR,FRA,法国,Grenoble
+472,Louis Renault,1907,和平,Sorbonne University,Sorbonne University,Sorbonne University,France,FR,FRA,法国,Paris
+825,Luc Montagnier,2008,生理学或医学,World Foundation for AIDS Research and Prevention,World Foundation for AIDS Research and Prevention,World Foundation for AIDS Research and Prevention,France,FR,FRA,法国,Paris
+89,Luis Alvarez,1968,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+239,Luis Leloir,1970,化学,Institute for Biochemical Research,Institute for Biochemical Research,Institute for Biochemical Research,Argentina,AR,ARG,阿根廷,Buenos Aires
+977,M. Stanley Whittingham,2019,化学,"Binghamton University, State University of New York","Binghamton University, State University of New York","Binghamton University, State University of New York",USA,US,USA,美国,"New York, NY"
+827,Makoto Kobayashi,2008,物理学,High Energy Accelerator Research Organization (KEK),High Energy Accelerator Research Organization (KEK),High Energy Accelerator Research Organization (KEK),Japan,JP,JPN,日本,Tsukuba
+233,Manfred Eigen,1967,化学,Max-Planck-Institut für Physikalische Chemie,Max-Planck-Institut für Physikalische Chemie,Max-Planck-Institut für Physikalische Chemie,Germany,DE,DEU,德国,Göttingen
+29,Manne Siegbahn,1924,物理学,Uppsala University,Uppsala University,Uppsala University,Sweden,SE,SWE,瑞典,Uppsala
+79,Maria Goeppert Mayer,1963,物理学,University of California,University of California,"University of California, San Diego",USA,US,USA,美国,"San Diego, CA"
+6,Marie Curie,1911,化学,Sorbonne University,Sorbonne University,Sorbonne University,France,FR,FRA,法国,Paris
+282,Mario J. Molina,1995,化学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+811,Mario R. Capecchi,2007,生理学或医学,University of Utah,University of Utah,University of Utah,USA,US,USA,美国,"Salt Lake City, UT"
+811,Mario R. Capecchi,2007,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+390,Marshall W. Nirenberg,1968,生理学或医学,National Institutes of Health,National Institutes of Health,National Institutes of Health,USA,US,USA,美国,"Bethesda, MD"
+830,Martin Chalfie,2008,化学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+889,Martin Karplus,2013,化学,Université de Strasbourg,Université de Strasbourg,Université de Strasbourg,France,FR,FRA,法国,Strasbourg
+889,Martin Karplus,2013,化学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+147,Martin L. Perl,1995,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+451,Martin Rodbell,1994,生理学或医学,National Institute of Environmental Health Sciences,National Institute of Environmental Health Sciences,National Institute of Environmental Health Sciences,USA,US,USA,美国,"Research Triangle Park, NC"
+100,Martin Ryle,1974,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+1047,Mary E. Brunkow,2025,生理学或医学,Institute for Systems Biology,Institute for Systems Biology,Institute for Systems Biology,USA,US,USA,美国,"Seattle, WA"
+754,Masatoshi Koshiba,2002,物理学,University of Tokyo,University of Tokyo,University of Tokyo,Japan,JP,JPN,日本,Tokyo
+702,Maurice Allais,1988,经济学,École Nationale Supérieur des Mines de Paris,École Nationale Supérieur des Mines de Paris,École Nationale Supérieur des Mines de Paris,France,FR,FRA,法国,Paris
+374,Maurice Wilkins,1962,生理学或医学,London University,London University,London University,United Kingdom,GB,GBR,英国,London
+61,Max Born,1954,物理学,Edinburgh University,Edinburgh University,Edinburgh University,United Kingdom,GB,GBR,英国,Edinburgh
+391,Max Delbrück,1969,生理学或医学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+226,Max F. Perutz,1962,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+23,Max Planck,1918,物理学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+352,Max Theiler,1951,生理学或医学,"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation","Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation","Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation",USA,US,USA,美国,"New York, NY"
+19,Max von Laue,1914,物理学,Frankfurt-on-the-Main University,Frankfurt-on-the-Main University,Frankfurt-on-the-Main University,Germany,DE,DEU,德国,Frankfurt-on-the-Main
+904,May-Britt Moser,2014,生理学或医学,Norwegian University of Science and Technology (NTNU),Norwegian University of Science and Technology (NTNU),Norwegian University of Science and Technology (NTNU),Norway,NO,NOR,挪威,Trondheim
+225,Melvin Calvin,1961,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+133,Melvin Schwartz,1988,物理学,"Digital Pathways, Inc.","Digital Pathways, Inc.","Digital Pathways, Inc.",USA,US,USA,美国,"Mountain View, CA"
+705,Merton H. Miller,1990,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+986,Michael Houghton,2020,生理学或医学,University of Alberta,University of Alberta,University of Alberta,Canada,CA,CAN,加拿大,Edmonton
+984,Michael Kremer,2019,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+890,Michael Levitt,2013,化学,Stanford University School of Medicine,Stanford University School of Medicine,Stanford University,USA,US,USA,美国,"Stanford, CA"
+939,Michael Rosbash,2017,生理学或医学,Brandeis University,Brandeis University,Brandeis University,USA,US,USA,美国,"Waltham, MA"
+939,Michael Rosbash,2017,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+432,Michael S. Brown,1985,生理学或医学,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,University of Texas Southwestern Medical Center at Dallas,USA,US,USA,美国,"Dallas, TX"
+279,Michael Smith,1993,化学,University of British Columbia,University of British Columbia,University of British Columbia,Canada,CA,CAN,加拿大,Vancouver
+940,Michael W. Young,2017,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+1051,Michel H. Devoret,2025,物理学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+1051,Michel H. Devoret,2025,物理学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+1051,Michel H. Devoret,2025,物理学,Google Quantum AI,Google Quantum AI,Google Quantum AI,USA,US,USA,美国,"Santa Barbara, CA"
+974,Michel Mayor,2019,物理学,University of Geneva,University of Geneva,University of Geneva,Switzerland,CH,CHE,瑞士,Geneva
+688,Milton Friedman,1976,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+1016,Morten Meldal,2022,化学,University of Copenhagen,University of Copenhagen,University of Copenhagen,Denmark,DK,DNK,丹麦,Copenhagen
+1029,Moungi Bawendi,2023,化学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+90,Murray Gell-Mann,1969,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+718,Myron Scholes,1997,经济学,Long Term Capital Management,Long Term Capital Management,Long Term Capital Management,USA,US,USA,美国,"Greenwich, CT"
+497,Nicholas Murray Butler,1931,和平,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+118,Nicolaas Bloembergen,1981,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+82,Nicolay G. Basov,1964,物理学,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,Russia,RU,RUS,俄罗斯,Moscow
+27,Niels Bohr,1922,物理学,Copenhagen University,Copenhagen University,Copenhagen University,Denmark,DK,DNK,丹麦,Copenhagen
+429,Niels K. Jerne,1984,生理学或医学,Basel Institute for Immunology,Basel Institute for Immunology,Basel Institute for Immunology,Switzerland,CH,CHE,瑞士,Basel
+295,Niels Ryberg Finsen,1903,生理学或医学,Finsen Medical Light Institute,Finsen Medical Light Institute,Finsen Medical Light Institute,Denmark,DK,DNK,丹麦,Copenhagen
+402,Nikolaas Tinbergen,1973,生理学或医学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+220,Nikolay Semenov,1956,化学,Institute for Chemical Physics of the Academy of Sciences of the USSR,Institute for Chemical Physics of the Academy of Sciences of the USSR,Institute for Chemical Physics of the Academy of Sciences of the USSR,Russia,RU,RUS,俄罗斯,Moscow
+220,Nikolay Semenov,1956,化学,Lomonosov Moscow State University,Lomonosov Moscow State University,Lomonosov Moscow State University,Russia,RU,RUS,俄罗斯,Moscow
+135,Norman F. Ramsey,1989,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+196,Norman Haworth,1937,化学,Birmingham University,Birmingham University,Birmingham University,United Kingdom,GB,GBR,英国,Birmingham
+238,Odd Hassel,1969,化学,University of Oslo,University of Oslo,University of Oslo,Norway,NO,NOR,挪威,Oslo
+847,Oliver E. Williamson,2009,经济学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+935,Oliver Hart,2016,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+813,Oliver Smithies,2007,生理学或医学,University of North Carolina,University of North Carolina,University of North Carolina,USA,US,USA,美国,"Chapel Hill, NC"
+1055,Omar M. Yaghi,2025,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+829,Osamu Shimomura,2008,化学,Marine Biological Laboratory (MBL),Marine Biological Laboratory (MBL),Marine Biological Laboratory (MBL),USA,US,USA,美国,"Woods Hole, MA"
+829,Osamu Shimomura,2008,化学,Boston University Medical School,Boston University Medical School,Boston University Medical School,USA,US,USA,美国,"Massachusetts, MA"
+210,Otto Diels,1950,化学,Kiel University,Kiel University,Kiel University,Germany,DE,DEU,德国,Kiel
+202,Otto Hahn,1944,化学,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Germany,DE,DEU,德国,Berlin-Dahlem
+331,Otto Loewi,1936,生理学或医学,Graz University,Graz University,Graz University,Austria,AT,AUT,奥地利,Graz
+312,Otto Meyerhof,1922,生理学或医学,Kiel University,Kiel University,Kiel University,Germany,DE,DEU,德国,Kiel
+48,Otto Stern,1943,物理学,Carnegie Institute of Technology,Carnegie Institute of Technology,Carnegie Institute of Technology,USA,US,USA,美国,"Pittsburgh, PA"
+169,Otto Wallach,1910,化学,Goettingen University,Goettingen University,Goettingen University,Germany,DE,DEU,德国,Göttingen
+322,Otto Warburg,1931,生理学或医学,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,Germany,DE,DEU,德国,Berlin-Dahlem
+73,Owen Chamberlain,1959,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+35,Owen Willans Richardson,1928,物理学,London University,London University,London University,United Kingdom,GB,GBR,英国,London
+53,Patrick M.S. Blackett,1948,物理学,Victoria University,Victoria University,Victoria University,United Kingdom,GB,GBR,英国,Manchester
+679,Paul A. Samuelson,1970,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+40,Paul A.M. Dirac,1933,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+254,Paul Berg,1980,化学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+764,Paul C. Lauterbur,2003,生理学或医学,University of Illinois,University of Illinois,University of Illinois,USA,US,USA,美国,"Urbana, IL"
+287,Paul D. Boyer,1997,化学,University of California,University of California,"University of California, Los Angeles",USA,US,USA,美国,"Los Angeles, CA"
+302,Paul Ehrlich,1908,生理学或医学,Goettingen University,Goettingen University,Goettingen University,Germany,DE,DEU,德国,Göttingen
+302,Paul Ehrlich,1908,生理学或医学,Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),Königliches Institut für experimentelle Therapie (Royal Institute for Experimental Therapy),Germany,DE,DEU,德国,Frankfurt-on-the-Main
+723,Paul Greengard,2000,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+281,Paul J. Crutzen,1995,化学,Max-Planck-Institut für Chemie,Max-Planck-Institut für Chemie,Max-Planck-Institut für Chemie,Germany,DE,DEU,德国,Mainz
+246,Paul J. Flory,1974,化学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+197,Paul Karrer,1937,化学,University of Zurich,University of Zurich,University of Zurich,Switzerland,CH,CHE,瑞士,Zurich
+834,Paul Krugman,2008,经济学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+969,Paul M. Romer,2018,经济学,NYU Stern School of Business,NYU Stern School of Business,NYU Stern School of Business,USA,US,USA,美国,"New York, NY"
+922,Paul Modrich,2015,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,"Durham, NC"
+922,Paul Modrich,2015,化学,Duke University School of Medicine,Duke University School of Medicine,Duke University School of Medicine,USA,US,USA,美国,"Durham, NC"
+346,Paul Müller,1948,生理学或医学,Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),Switzerland,CH,CHE,瑞士,Basel
+995,Paul R. Milgrom,2020,经济学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+173,Paul Sabatier,1912,化学,Toulouse University,Toulouse University,Toulouse University,France,FR,FRA,法国,Toulouse
+70,Pavel A. Cherenkov,1958,物理学,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,Russia,RU,RUS,俄罗斯,Moscow
+51,Percy W. Bridgman,1946,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+856,Peter A. Diamond,2010,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+769,Peter Agre,2003,化学,Johns Hopkins University School of Medicine,Johns Hopkins University School of Medicine,Johns Hopkins University,USA,US,USA,美国,"Baltimore, MD"
+455,Peter C. Doherty,1996,生理学或医学,St. Jude Children's Research Hospital,St. Jude Children's Research Hospital,St. Jude Children's Research Hospital,USA,US,USA,美国,"Memphis, TN"
+195,Peter Debye,1936,化学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+195,Peter Debye,1936,化学,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Germany,DE,DEU,德国,Berlin
+815,Peter Grünberg,2007,物理学,Forschungszentrum J&uuml;lich,Forschungszentrum J&uuml;lich,Forschungszentrum J&uuml;lich,Germany,DE,DEU,德国,Jülich
+888,Peter Higgs,2013,物理学,University of Edinburgh,University of Edinburgh,University of Edinburgh,United Kingdom,GB,GBR,英国,Edinburgh
+1060,Peter Howitt,2025,经济学,Brown University,Brown University,Brown University,USA,US,USA,美国,"Providence, RI"
+370,Peter Medawar,1960,生理学或医学,University College,University College,University College (London),United Kingdom,GB,GBR,英国,London
+251,Peter Mitchell,1978,化学,Glynn Research Laboratories,Glynn Research Laboratories,Glynn Research Laboratories,United Kingdom,GB,GBR,英国,Bodmin
+383,Peyton Rous,1966,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+1023,Philip Dybvig,2022,经济学,Washington University,Washington University,Washington University,USA,US,USA,美国,"St. Louis, MO"
+351,Philip S. Hench,1950,生理学或医学,Mayo Clinic,Mayo Clinic,Mayo Clinic,USA,US,USA,美国,"Rochester, MN"
+107,Philip W. Anderson,1977,物理学,Bell Telephone Laboratories,Bell Telephone Laboratories,Bell Telephone Laboratories,USA,US,USA,美国,"Murray Hill, NJ"
+9,Philipp Lenard,1905,物理学,Kiel University,Kiel University,Kiel University,Germany,DE,DEU,德国,Kiel
+1059,Philippe Aghion,2025,经济学,Collège de France,Collège de France,Collège de France,France,FR,FRA,法国,Paris
+1059,Philippe Aghion,2025,经济学,INSEAD,INSEAD,INSEAD,France,FR,FRA,法国,Paris
+1059,Philippe Aghion,2025,经济学,London School of Economics and Political Science,London School of Economics and Political Science,London School of Economics and Political Science,United Kingdom,GB,GBR,英国,London
+449,Phillip A. Sharp,1993,生理学或医学,"Massachusetts Institute of Technology (MIT), Center for Cancer Research","Massachusetts Institute of Technology (MIT), Center for Cancer Research",Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+1026,Pierre Agostini,2023,物理学,The Ohio State University,The Ohio State University,The Ohio State University,USA,US,USA,美国,"Columbus, OH"
+5,Pierre Curie,1903,物理学,École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),France,FR,FRA,法国,Paris
+141,Pierre-Gilles de Gennes,1991,物理学,Collège de France,Collège de France,Collège de France,France,FR,FRA,法国,Paris
+3,Pieter Zeeman,1902,物理学,Amsterdam University,Amsterdam University,Amsterdam University,the Netherlands,NL,NLD,荷兰,Amsterdam
+64,Polykarp Kusch,1955,物理学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+110,Pyotr Kapitsa,1978,物理学,Academy of Sciences,Academy of Sciences,Academy of Sciences,Russia,RU,RUS,俄罗斯,Moscow
+677,Ragnar Frisch,1969,经济学,University of Oslo,University of Oslo,University of Oslo,Norway,NO,NOR,挪威,Oslo
+385,Ragnar Granit,1967,生理学或医学,Karolinska Institutet,Karolinska Institutet,Karolinska Institutet,Sweden,SE,SWE,瑞典,Stockholm
+941,Rainer Weiss,2017,物理学,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,LIGO/VIRGO Collaboration,,,,,
+941,Rainer Weiss,2017,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+511,Ralph Bunche,1950,和平,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+863,Ralph M. Steinman,2011,生理学或医学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+885,Randy W. Schekman,2013,生理学或医学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+885,Randy W. Schekman,2013,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+753,Raymond Davis Jr.,2002,物理学,University of Pennsylvania,University of Pennsylvania,University of Pennsylvania,USA,US,USA,美国,"Philadelphia, PA"
+989,Reinhard Genzel,2020,物理学,Max Planck Institute for Extraterrestrial Physics,Max Planck Institute for Extraterrestrial Physics,Max Planck Institute for Extraterrestrial Physics,Germany,DE,DEU,德国,Garching
+989,Reinhard Genzel,2020,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+713,Reinhard Selten,1994,经济学,Rheinische Friedrich-Wilhelms-Universität,Rheinische Friedrich-Wilhelms-Universität,Rheinische Friedrich-Wilhelms-Universität,Germany,DE,DEU,德国,Bonn
+407,Renato Dulbecco,1975,生理学或医学,Imperial Cancer Research Fund Laboratory,Imperial Cancer Research Fund Laboratory,Imperial Cancer Research Fund Laboratory,United Kingdom,GB,GBR,英国,London
+755,Riccardo Giacconi,2002,物理学,Associated Universities Inc.,Associated Universities Inc.,Associated Universities Inc.,USA,US,USA,美国,"Washington, D.C."
+774,Richard Axel,2004,生理学或医学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+286,Richard E. Smalley,1996,化学,Rice University,Rice University,Rice University,USA,US,USA,美国,"Houston, TX"
+140,Richard E. Taylor,1990,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+851,Richard F. Heck,2010,化学,University of Delaware,University of Delaware,University of Delaware,USA,US,USA,美国,
+949,Richard H. Thaler,2017,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+946,Richard Henderson,2017,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+448,Richard J. Roberts,1993,生理学或医学,New England Biolabs,New England Biolabs,New England Biolabs,USA,US,USA,美国,"Beverly, MA"
+198,Richard Kuhn,1938,化学,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,Germany,DE,DEU,德国,Heidelberg
+198,Richard Kuhn,1938,化学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+215,Richard L.M. Synge,1952,化学,Rowett Research Institute,Rowett Research Institute,Rowett Research Institute,United Kingdom,GB,GBR,英国,Bucksburn (Scotland)
+86,Richard P. Feynman,1965,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+276,Richard R. Ernst,1991,化学,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Switzerland,CH,CHE,瑞士,Zurich
+796,Richard R. Schrock,2005,化学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+1054,Richard Robson,2025,化学,University of Melbourne,University of Melbourne,University of Melbourne,Australia,AU,AUS,澳大利亚,Melbourne
+698,Richard Stone,1984,经济学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+176,Richard Willstätter,1915,化学,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Germany,DE,DEU,德国,Berlin-Dahlem
+176,Richard Willstätter,1915,化学,Friedrich-Wilhelms-Universität,Friedrich-Wilhelms-Universität,Friedrich-Wilhelms-Universität,Germany,DE,DEU,德国,Berlin
+182,Richard Zsigmondy,1925,化学,Goettingen University,Goettingen University,Goettingen University,Germany,DE,DEU,德国,Göttingen
+435,Rita Levi-Montalcini,1986,生理学或医学,Institute of Cell Biology of the C.N.R.,Institute of Cell Biology of the C.N.R.,Institute of Cell Biology of the C.N.R.,Italy,IT,ITA,意大利,Rome
+258,Roald Hoffmann,1981,化学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+28,Robert A. Millikan,1923,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+155,Robert B. Laughlin,1998,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+996,Robert B. Wilson,2020,经济学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+231,Robert B. Woodward,1965,化学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+308,Robert Bárány,1914,生理学或医学,Vienna University,Vienna University,Vienna University,Austria,AT,AUT,奥地利,Vienna
+717,Robert C. Merton,1997,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+151,Robert C. Richardson,1996,物理学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+714,Robert E. Lucas Jr.,1995,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+284,Robert F. Curl Jr.,1996,化学,Rice University,Rice University,Rice University,USA,US,USA,美国,"Houston, TX"
+771,Robert F. Engle III,2003,经济学,New York University,New York University,New York University,USA,US,USA,美国,"New York, NY"
+458,Robert F. Furchgott,1998,生理学或医学,SUNY Health Science Center,SUNY Health Science Center,SUNY Health Science Center,USA,US,USA,美国,"Brooklyn, NY"
+848,Robert G. Edwards,2010,生理学或医学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+795,Robert H. Grubbs,2005,化学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+75,Robert Hofstadter,1961,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+271,Robert Huber,1988,化学,Max-Planck-Institut für Biochemie,Max-Planck-Institut für Biochemie,Max-Planck-Institut für Biochemie,Germany,DE,DEU,德国,Martinsried
+799,Robert J. Aumann,2005,经济学,"University of Jerusalem, Center for RationalityHebrew","University of Jerusalem, Center for RationalityHebrew","University of Jerusalem, Center for RationalityHebrew",Israel,IL,ISR,以色列,Jerusalem
+878,Robert J. Lefkowitz,2012,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+878,Robert J. Lefkowitz,2012,化学,Duke University Medical Center,Duke University Medical Center,Duke University Medical Center,USA,US,USA,美国,"Durham, NC"
+896,Robert J. Shiller,2013,经济学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+297,Robert Koch,1905,生理学或医学,Institute for Infectious Diseases,Institute for Infectious Diseases,Institute for Infectious Diseases,Germany,DE,DEU,德国,Berlin
+701,Robert M. Solow,1987,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+720,Robert Mundell,1999,经济学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+232,Robert S. Mulliken,1966,化学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+96,Robert Schrieffer,1972,物理学,University of Pennsylvania,University of Pennsylvania,University of Pennsylvania,USA,US,USA,美国,"Philadelphia, PA"
+709,Robert W. Fogel,1993,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+388,Robert W. Holley,1968,生理学或医学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+112,Robert Woodrow Wilson,1978,物理学,Bell Laboratories,Bell Laboratories,Bell Laboratories,USA,US,USA,美国,"Holmdel, NJ"
+770,Roderick MacKinnon,2003,化学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+770,Roderick MacKinnon,2003,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+399,Rodney R. Porter,1972,生理学或医学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+822,Roger B. Myerson,2007,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+806,Roger D. Kornberg,2006,化学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+411,Roger Guillemin,1977,生理学或医学,The Salk Institute,The Salk Institute,The Salk Institute,USA,US,USA,美国,"San Diego, CA"
+988,Roger Penrose,2020,物理学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+422,Roger W. Sperry,1981,生理学或医学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+831,Roger Y. Tsien,2008,化学,University of California,University of California,"University of California, San Diego",USA,US,USA,美国,"San Diego, CA"
+831,Roger Y. Tsien,2008,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+456,Rolf M. Zinkernagel,1996,生理学或医学,"University of Zurich, Institute of Experimental Immunology","University of Zurich, Institute of Experimental Immunology","University of Zurich, Institute of Experimental Immunology",Switzerland,CH,CHE,瑞士,Zurich
+234,Ronald G.W. Norrish,1967,化学,Institute of Physical Chemistry,Institute of Physical Chemistry,Institute of Physical Chemistry,United Kingdom,GB,GBR,英国,Cambridge
+707,Ronald H. Coase,1991,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+294,Ronald Ross,1902,生理学或医学,University College,University College,University College (Liverpool),United Kingdom,GB,GBR,英国,Liverpool
+413,Rosalyn Yalow,1977,生理学或医学,Veterans Administration Hospital,Veterans Administration Hospital,Veterans Administration Hospital,USA,US,USA,美国,"Bronx, NY"
+791,Roy J. Glauber,2005,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+76,Rudolf Mössbauer,1961,物理学,Technical University,Technical University,Technical University,Germany,DE,DEU,德国,Munich
+76,Rudolf Mössbauer,1961,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+277,Rudolph A. Marcus,1992,化学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+143,Russell A. Hulse,1993,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+742,Ryoji Noyori,2001,化学,Nagoya University,Nagoya University,Nagoya University,Japan,JP,JPN,日本,Nagoya
+393,Salvador E. Luria,1969,生理学或医学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+106,Samuel C.C. Ting,1976,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+299,Santiago Ramón y Cajal,1906,生理学或医学,Madrid University,Madrid University,Madrid University,Spain,ES,ESP,西班牙,Madrid
+917,Satoshi Ōmura,2015,生理学或医学,Kitasato University,Kitasato University,Kitasato University,Japan,JP,JPN,日本,Tokyo
+864,Saul Perlmutter,2011,物理学,Lawrence Berkeley National Laboratory,Lawrence Berkeley National Laboratory,Lawrence Berkeley National Laboratory,USA,US,USA,美国,"Berkeley, CA"
+864,Saul Perlmutter,2011,物理学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+353,Selman A. Waksman,1952,生理学或医学,Rutgers University,Rutgers University,Rutgers University,USA,US,USA,美国,"New Brunswick, NJ"
+876,Serge Haroche,2012,物理学,Collège de France,Collège de France,Collège de France,France,FR,FRA,法国,Paris
+876,Serge Haroche,2012,物理学,École Normale Supérieure,École Normale Supérieure,École Normale Supérieure,France,FR,FRA,法国,Paris
+367,Severo Ochoa,1959,生理学或医学,"New York University, College of Medicine","New York University, College of Medicine",New York University,USA,US,USA,美国,"New York, NY"
+113,Sheldon Glashow,1979,物理学,"Harvard University, Lyman Laboratory","Harvard University, Lyman Laboratory",Harvard University,USA,US,USA,美国,"Cambridge, MA"
+1049,Shimon Sakaguchi,2025,生理学或医学,The University of Osaka,The University of Osaka,The University of Osaka,Japan,JP,JPN,日本,Osaka
+875,Shinya Yamanaka,2012,生理学或医学,Kyoto University,Kyoto University,Kyoto University,Japan,JP,JPN,日本,Kyoto
+875,Shinya Yamanaka,2012,生理学或医学,Gladstone Institutes,Gladstone Institutes,Gladstone Institutes,USA,US,USA,美国,"San Francisco, CA"
+908,Shuji Nakamura,2014,物理学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+273,Sidney Altman,1989,化学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+1045,Simon Johnson,2024,经济学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+680,Simon Kuznets,1971,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+125,Simon van der Meer,1984,物理学,CERN,CERN,CERN,Switzerland,CH,CHE,瑞士,Geneva
+84,Sin-Itiro Tomonaga,1965,物理学,Tokyo University of Education,Tokyo University of Education,Tokyo University of Education,Japan,JP,JPN,日本,Tokyo
+339,Sir Alexander Fleming,1945,生理学或医学,London University,London University,London University,United Kingdom,GB,GBR,英国,London
+693,Sir Arthur Lewis,1979,经济学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+394,Sir Bernard Katz,1970,生理学或医学,University College,University College,University College (London),United Kingdom,GB,GBR,英国,London
+37,Sir Chandrasekhara Venkata Raman,1930,物理学,Calcutta University,Calcutta University,Calcutta University,India,IN,IND,印度,Calcutta
+323,Sir Charles Sherrington,1932,生理学或医学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+219,Sir Cyril Hinshelwood,1956,化学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+369,Sir Frank Macfarlane Burnet,1960,生理学或医学,Walter and Eliza Hall Institute for Medical Research,Walter and Eliza Hall Institute for Medical Research,Walter and Eliza Hall Institute for Medical Research,Australia,AU,AUS,澳大利亚,Melbourne
+320,Sir Frederick Hopkins,1929,生理学或医学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+965,Sir Gregory P. Winter,2018,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+285,Sir Harold Kroto,1996,化学,University of Sussex,University of Sussex,University of Sussex,United Kingdom,GB,GBR,英国,Brighton
+330,Sir Henry Dale,1936,生理学或医学,National Institute for Medical Research,National Institute for Medical Research,National Institute for Medical Research,United Kingdom,GB,GBR,英国,London
+341,Sir Howard Florey,1945,生理学或医学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+932,Sir J. Fraser Stoddart,2016,化学,Northwestern University,Northwestern University,Northwestern University,USA,US,USA,美国,"Evanston, IL"
+437,Sir James W. Black,1988,生理学或医学,"London University, King's College Hospital Medical School","London University, King's College Hospital Medical School","London University, King's College Hospital Medical School",United Kingdom,GB,GBR,英国,London
+874,Sir John B. Gurdon,2012,生理学或医学,Gurdon Institute,Gurdon Institute,Gurdon Institute,United Kingdom,GB,GBR,英国,Cambridge
+375,Sir John Eccles,1963,生理学或医学,Australian National University,Australian National University,Australian National University,Australia,AU,AUS,澳大利亚,Canberra
+812,Sir Martin J. Evans,2007,生理学或医学,Cardiff University,Cardiff University,Cardiff University,United Kingdom,GB,GBR,英国,Cardiff
+108,Sir Nevill F. Mott,1977,物理学,University of Cambridge,University of Cambridge,University of Cambridge,United Kingdom,GB,GBR,英国,Cambridge
+737,Sir Paul Nurse,2001,生理学或医学,Imperial Cancer Research Fund,Imperial Cancer Research Fund,Imperial Cancer Research Fund,United Kingdom,GB,GBR,英国,London
+971,Sir Peter J. Ratcliffe,2019,生理学或医学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+971,Sir Peter J. Ratcliffe,2019,生理学或医学,Francis Crick Institute,Francis Crick Institute,Francis Crick Institute,United Kingdom,GB,GBR,英国,London
+765,Sir Peter Mansfield,2003,生理学或医学,"University of Nottingham, School of Physics and Astronomy","University of Nottingham, School of Physics and Astronomy","University of Nottingham, School of Physics and Astronomy",United Kingdom,GB,GBR,英国,Nottingham
+207,Sir Robert Robinson,1947,化学,University of Oxford,University of Oxford,University of Oxford,United Kingdom,GB,GBR,英国,Oxford
+163,Sir William Ramsay,1904,化学,University College,University College,University College (London),United Kingdom,GB,GBR,英国,London
+242,Stanford Moore,1972,化学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+457,Stanley B. Prusiner,1997,生理学或医学,University of California School of Medicine,University of California School of Medicine,"University of California, San Francisco",USA,US,USA,美国,"San Francisco, CA"
+434,Stanley Cohen,1986,生理学或医学,Vanderbilt University School of Medicine,Vanderbilt University School of Medicine,Vanderbilt University School of Medicine,USA,US,USA,美国,"Nashville, TN"
+910,Stefan W. Hell,2014,化学,Max Planck Institute for Biophysical Chemistry,Max Planck Institute for Biophysical Chemistry,Max Planck Institute for Biophysical Chemistry,Germany,DE,DEU,德国,Göttingen
+910,Stefan W. Hell,2014,化学,German Cancer Research Center,German Cancer Research Center,German Cancer Research Center,Germany,DE,DEU,德国,Heidelberg
+152,Steven Chu,1997,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+115,Steven Weinberg,1979,物理学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+122,Subrahmanyan Chandrasekhar,1983,物理学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+425,Sune K. Bergström,1982,生理学或医学,Karolinska Institutet,Karolinska Institutet,Karolinska Institutet,Sweden,SE,SWE,瑞典,Stockholm
+1053,Susumu Kitagawa,2025,化学,Kyoto University,Kyoto University,Kyoto University,Japan,JP,JPN,日本,Kyoto
+436,Susumu Tonegawa,1987,生理学或医学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+162,Svante Arrhenius,1903,化学,Stockholm University,Stockholm University,Stockholm University,Sweden,SE,SWE,瑞典,Stockholm
+1011,Svante Pääbo,2022,生理学或医学,Max Planck Institute for Evolutionary Anthropology,Max Planck Institute for Evolutionary Anthropology,Max Planck Institute for Evolutionary Anthropology,Germany,DE,DEU,德国,Leipzig
+1011,Svante Pääbo,2022,生理学或医学,Okinawa Institute of Science and Technology,Okinawa Institute of Science and Technology,Okinawa Institute of Science and Technology,Japan,JP,JPN,日本,Okinawa
+1011,Svante Pääbo,2022,生理学或医学,Leipzig University,Leipzig University,Leipzig University,Germany,DE,DEU,德国,Leipzig
+750,Sydney Brenner,2002,生理学或医学,The Molecular Sciences Institute,The Molecular Sciences Institute,The Molecular Sciences Institute,USA,US,USA,美国,"Berkeley, CA"
+999,Syukuro Manabe,2021,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+350,Tadeus Reichstein,1950,生理学或医学,Basel University,Basel University,Basel University,Switzerland,CH,CHE,瑞士,Basel
+919,Takaaki Kajita,2015,物理学,University of Tokyo,University of Tokyo,University of Tokyo,Japan,JP,JPN,日本,Kashiwa
+959,Tasuku Honjo,2018,生理学或医学,Kyoto University,Kyoto University,Kyoto University,Japan,JP,JPN,日本,Kyoto
+183,The Svedberg,1926,化学,Uppsala University,Uppsala University,Uppsala University,Sweden,SE,SWE,瑞典,Uppsala
+303,Theodor Kocher,1909,生理学或医学,Berne University,Berne University,Berne University,Switzerland,CH,CHE,瑞士,Bern
+793,Theodor W. Hänsch,2005,物理学,Max Planck Institute of Quantum Optics,Max Planck Institute of Quantum Optics,Max Planck Institute of Quantum Optics,Germany,DE,DEU,德国,Garching
+793,Theodor W. Hänsch,2005,物理学,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,Ludwig-Maximilians-Universität München,Germany,DE,DEU,德国,Munich
+175,Theodore W. Richards,1914,化学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+692,Theodore W. Schultz,1979,经济学,University of Chicago,University of Chicago,University of Chicago,USA,US,USA,美国,"Chicago, IL"
+842,Thomas A. Steitz,2009,化学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+842,Thomas A. Steitz,2009,化学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+800,Thomas C. Schelling,2005,经济学,"University of Maryland, Department of Economics and School of Public Policy","University of Maryland, Department of Economics and School of Public Policy","University of Maryland, Department of Economics and School of Public Policy",USA,US,USA,美国,"College Park, MD"
+886,Thomas C. Südhof,2013,生理学或医学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+886,Thomas C. Südhof,2013,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,
+325,Thomas H. Morgan,1933,生理学或医学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+357,Thomas H. Weller,1954,生理学或医学,"Research Division of Infectious Diseases, Children's Medical Center","Research Division of Infectious Diseases, Children's Medical Center","Research Division of Infectious Diseases, Children's Medical Center",USA,US,USA,美国,"Boston, MA"
+872,Thomas J. Sargent,2011,经济学,New York University,New York University,New York University,USA,US,USA,美国,"New York, NY"
+274,Thomas R. Cech,1989,化学,University of Colorado,University of Colorado,University of Colorado,USA,US,USA,美国,"Boulder, CO"
+736,Tim Hunt,2001,生理学或医学,Imperial Cancer Research Fund,Imperial Cancer Research Fund,Imperial Cancer Research Fund,United Kingdom,GB,GBR,英国,London
+687,Tjalling C. Koopmans,1975,经济学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+921,Tomas Lindahl,2015,化学,Francis Crick Institute,Francis Crick Institute,Francis Crick Institute,United Kingdom,GB,GBR,英国,Hertfordshire
+921,Tomas Lindahl,2015,化学,Clare Hall Laboratory,Clare Hall Laboratory,Clare Hall Laboratory,United Kingdom,GB,GBR,英国,Hertfordshire
+424,Torsten N. Wiesel,1981,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+828,Toshihide Maskawa,2008,物理学,Kyoto Sangyo University,Kyoto Sangyo University,Kyoto Sangyo University,Japan,JP,JPN,日本,Kyoto
+828,Toshihide Maskawa,2008,物理学,"Yukawa Institute for Theoretical Physics (YITP), Kyoto University","Yukawa Institute for Theoretical Physics (YITP), Kyoto University","Yukawa Institute for Theoretical Physics (YITP), Kyoto University",Japan,JP,JPN,日本,Kyoto
+703,Trygve Haavelmo,1989,经济学,University of Oslo,University of Oslo,University of Oslo,Norway,NO,NOR,挪威,Oslo
+69,Tsung-Dao Lee,1957,物理学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+918,Tu Youyou,2015,生理学或医学,China Academy of Traditional Chinese Medicine,China Academy of Traditional Chinese Medicine,China Academy of Traditional Chinese Medicine,China,CN,CHN,中国,Beijing
+395,Ulf von Euler,1970,生理学或医学,Karolinska Institutet,Karolinska Institutet,Karolinska Institutet,Sweden,SE,SWE,瑞典,Stockholm
+117,Val Fitch,1980,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+841,Venkatraman Ramakrishnan,2009,化学,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,MRC Laboratory of Molecular Biology,United Kingdom,GB,GBR,英国,Cambridge
+760,Vernon L. Smith,2002,经济学,George Mason University,George Mason University,George Mason University,USA,US,USA,美国,"Fairfax, VA"
+1035,Victor Ambros,2024,生理学或医学,UMass Chan Medical School,UMass Chan Medical School,UMass Chan Medical School,USA,US,USA,美国,"Worcester, MA"
+42,Victor F. Hess,1936,物理学,Innsbruck University,Innsbruck University,Innsbruck University,Austria,AT,AUT,奥地利,Innsbruck
+172,Victor Grignard,1912,化学,Nancy University,Nancy University,Nancy University,France,FR,FRA,法国,Nancy
+218,Vincent du Vigneaud,1955,化学,Cornell University,Cornell University,Cornell University,USA,US,USA,美国,"Ithaca, NY"
+767,Vitaly L. Ginzburg,2003,物理学,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,P.N. Lebedev Physical Institute,Russia,RU,RUS,俄罗斯,Moscow
+248,Vladimir Prelog,1975,化学,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Switzerland,CH,CHE,瑞士,Zurich
+255,Walter Gilbert,1980,化学,"Harvard University, Biological Laboratories","Harvard University, Biological Laboratories",Harvard University,USA,US,USA,美国,"Cambridge, MA"
+67,Walter H. Brattain,1956,物理学,Bell Telephone Laboratories,Bell Telephone Laboratories,Bell Telephone Laboratories,USA,US,USA,美国,"Murray Hill, NJ"
+347,Walter Hess,1949,生理学或医学,University of Zurich,University of Zurich,University of Zurich,Switzerland,CH,CHE,瑞士,Zurich
+290,Walter Kohn,1998,化学,University of California,University of California,"University of California, Santa Barbara",USA,US,USA,美国,"Santa Barbara, CA"
+62,Walther Bothe,1954,物理学,University of Heidelberg,University of Heidelberg,University of Heidelberg,Germany,DE,DEU,德国,Heidelberg
+62,Walther Bothe,1954,物理学,Max-Planck-Institut für medizinische Forschung,Max-Planck-Institut für medizinische Forschung,Max-Planck-Institut für medizinische Forschung,Germany,DE,DEU,德国,Heidelberg
+178,Walther Nernst,1920,化学,Berlin University,Berlin University,Berlin University,Germany,DE,DEU,德国,Berlin
+683,Wassily Leontief,1973,经济学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+206,Wendell M. Stanley,1946,化学,Rockefeller Institute for Medical Research,Rockefeller Institute for Medical Research,Rockefeller University,USA,US,USA,美国,"Princeton, NJ"
+414,Werner Arber,1978,生理学或医学,Biozentrum der Universität,Biozentrum der Universität,Biozentrum der Universität,Switzerland,CH,CHE,瑞士,Basel
+361,Werner Forssmann,1956,生理学或医学,Mainz University,Mainz University,Mainz University,Germany,DE,DEU,德国,Mainz
+38,Werner Heisenberg,1932,物理学,Leipzig University,Leipzig University,Leipzig University,Germany,DE,DEU,德国,Leipzig
+1,Wilhelm Conrad Röntgen,1901,物理学,Munich University,Munich University,Munich University,Germany,DE,DEU,德国,Munich
+168,Wilhelm Ostwald,1909,化学,Leipzig University,Leipzig University,Leipzig University,Germany,DE,DEU,德国,Leipzig
+16,Wilhelm Wien,1911,物理学,Würzburg University,Würzburg University,Würzburg University,Germany,DE,DEU,德国,Würzburg
+224,Willard F. Libby,1960,化学,University of California,University of California,"University of California, Los Angeles",USA,US,USA,美国,"Los Angeles, CA"
+839,Willard S. Boyle,2009,物理学,Bell Laboratories,Bell Laboratories,Bell Laboratories,USA,US,USA,美国,"Murray Hill, NJ"
+315,Willem Einthoven,1924,生理学或医学,Leiden University,Leiden University,Leiden University,the Netherlands,NL,NLD,荷兰,Leiden
+123,William A. Fowler,1983,物理学,California Institute of Technology (Caltech),California Institute of Technology (Caltech),California Institute of Technology (Caltech),USA,US,USA,美国,"Pasadena, CA"
+65,William B. Shockley,1956,物理学,"Semiconductor Laboratory of Beckman Instruments, Inc.","Semiconductor Laboratory of Beckman Instruments, Inc.","Semiconductor Laboratory of Beckman Instruments, Inc.",USA,US,USA,美国,"Mountain View, CA"
+20,William Bragg,1915,物理学,University College,University College,University College (London),United Kingdom,GB,GBR,英国,London
+916,William C. Campbell,2015,生理学或医学,Drew University,Drew University,Drew University,USA,US,USA,美国,"Madison, NJ"
+968,William D. Nordhaus,2018,经济学,Yale University,Yale University,Yale University,USA,US,USA,美国,"New Haven, CT"
+154,William D. Phillips,1997,物理学,National Institute of Standards and Technology,National Institute of Standards and Technology,National Institute of Standards and Technology,USA,US,USA,美国,"Gaithersburg, MD"
+911,William E. Moerner,2014,化学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+209,William F. Giauque,1949,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+706,William F. Sharpe,1990,经济学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+970,William G. Kaelin Jr,2019,生理学或医学,Harvard Medical School,Harvard Medical School,Harvard University,USA,US,USA,美国,"Boston, MA"
+970,William G. Kaelin Jr,2019,生理学或医学,Howard Hughes Medical Institute,Howard Hughes Medical Institute,Howard Hughes Medical Institute,USA,US,USA,美国,"Chevy Chase, MD"
+970,William G. Kaelin Jr,2019,生理学或医学,Dana-Farber Cancer Institute,Dana-Farber Cancer Institute,Dana-Farber Cancer Institute,USA,US,USA,美国,"Boston, MA"
+970,William G. Kaelin Jr,2019,生理学或医学,Brigham and Women's Hospital,Brigham and Women's Hospital,Brigham and Women's Hospital,USA,US,USA,美国,"Boston, MA"
+243,William H. Stein,1972,化学,Rockefeller University,Rockefeller University,Rockefeller University,USA,US,USA,美国,"New York, NY"
+249,William Lipscomb,1976,化学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+328,William P. Murphy,1934,生理学或医学,Harvard University,Harvard University,Harvard University,USA,US,USA,美国,"Cambridge, MA"
+328,William P. Murphy,1934,生理学或医学,Peter Brent Brigham Hospital,Peter Brent Brigham Hospital,Peter Brent Brigham Hospital,USA,US,USA,美国,"Boston, MA"
+716,William Vickrey,1996,经济学,Columbia University,Columbia University,Columbia University,USA,US,USA,美国,"New York, NY"
+63,Willis E. Lamb,1955,物理学,Stanford University,Stanford University,Stanford University,USA,US,USA,美国,"Stanford, CA"
+739,Wolfgang Ketterle,2001,物理学,Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),Massachusetts Institute of Technology (MIT),USA,US,USA,美国,"Cambridge, MA"
+137,Wolfgang Paul,1989,物理学,University of Bonn,University of Bonn,University of Bonn,Germany,DE,DEU,德国,Bonn
+50,Wolfgang Pauli,1945,物理学,Princeton University,Princeton University,Princeton University,USA,US,USA,美国,"Princeton, NJ"
+826,Yoichiro Nambu,2008,物理学,"Enrico Fermi Institute, University of Chicago","Enrico Fermi Institute, University of Chicago","Enrico Fermi Institute, University of Chicago",USA,US,USA,美国,"Chicago, IL"
+927,Yoshinori Ohsumi,2016,生理学或医学,Tokyo Institute of Technology,Tokyo Institute of Technology,Tokyo Institute of Technology,Japan,JP,JPN,日本,Tokyo
+265,Yuan T. Lee,1986,化学,University of California,University of California,"University of California, Berkeley",USA,US,USA,美国,"Berkeley, CA"
+794,Yves Chauvin,2005,化学,Institut Français du Pétrole,Institut Français du Pétrole,Institut Français du Pétrole,France,FR,FRA,法国,Rueil-Malmaison
+726,Zhores Alferov,2000,物理学,A.F. Ioffe Physico-Technical Institute,A.F. Ioffe Physico-Technical Institute,A.F. Ioffe Physico-Technical Institute,Russia,RU,RUS,俄罗斯,St. Petersburg

@@ -1,0 +1,289 @@
+{
+  "id": "2026-10-05-nobel-prize",
+  "version": "v1.0.0",
+  "updated": "2026-10-05",
+  "entrypoint": "分析数据.py",
+  "material_policy": "latest-complete-set-only",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4417,
+      "sha256": "98cad0b951e75b7c79397af568492bbe8b053262f71d275a16283e3a23195808"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 112,
+      "sha256": "bed3a528c0ee2f79648e1c4bc0914b293cb36a691d1b05ac3ce4af393c908d54"
+    },
+    {
+      "path": "分析数据.py",
+      "bytes": 15911,
+      "sha256": "a7c33f13983260ffdf47bd3ff8ca8b35efd89c10a9fac00f65c5db2bb8414b7a"
+    },
+    {
+      "path": "指标口径.md",
+      "bytes": 3141,
+      "sha256": "768d4c47b8ac5b8fab20e134d4993835ad50bc53cd4e0e4d8e63159690b22ad2"
+    },
+    {
+      "path": "数据/原始/announcements.html",
+      "bytes": 186661,
+      "sha256": "45dd306cdb76ca91e09722dd81a815334de0b4dfb1cffb81f7d683e4fa7a2ae6"
+    },
+    {
+      "path": "数据/原始/countries_v1.json",
+      "bytes": 4731,
+      "sha256": "ec892af711f4210569047a31f397401cdaf6767d93188d78b4456eb40b673245"
+    },
+    {
+      "path": "数据/原始/laureates.json",
+      "bytes": 3893544,
+      "sha256": "e3198799c0bf11d874fd016a87446166bc7bb84e3486be79ab1bf57a76298125"
+    },
+    {
+      "path": "数据/原始/money.html",
+      "bytes": 154920,
+      "sha256": "cc54d10e34b92e0a7cf8f237143e1f1b08c865aadf60aba42bcde40763c93680"
+    },
+    {
+      "path": "数据/原始/prize-amounts-2025.pdf",
+      "bytes": 125611,
+      "sha256": "f55f86848cc7cc79420b1ee092b1a0b67bc5f7df3647c738d06b5b0d4f16e35c"
+    },
+    {
+      "path": "数据/原始/prize-money-2026.html",
+      "bytes": 41002,
+      "sha256": "2346d63f836e6719bdaa524f88a8421614914c35de243228ede9ba8f07d33cf9"
+    },
+    {
+      "path": "数据/原始/prizes.json",
+      "bytes": 786696,
+      "sha256": "14582e26c4c696d30eb0e3b2f3c590fa0f74c8340d4d13e114615b7b24fbbd45"
+    },
+    {
+      "path": "数据/原始/world.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "数据/整理/2026年已公布奖金.csv",
+      "bytes": 174,
+      "sha256": "be7c7d15a92c72c0d8dcc6c687a05912a9f1280eaa94f86fbfccb7c7ed76b634"
+    },
+    {
+      "path": "数据/整理/任职国家排名.csv",
+      "bytes": 534,
+      "sha256": "e4a23a9917b148c04fb2289230692de25156af0177ddbbf84213a5dbe06653eb"
+    },
+    {
+      "path": "数据/整理/任职机构排名.csv",
+      "bytes": 21711,
+      "sha256": "25cc2db570d951e6e8f173c1a5b9d38ee714c8fab26ec426bca249e2e355dce8"
+    },
+    {
+      "path": "数据/整理/共享奖项时期统计.csv",
+      "bytes": 111,
+      "sha256": "2a120c7cfff9b28fe278d060940d1f9d89dd7f8b776791709c56dc5309b3a49f"
+    },
+    {
+      "path": "数据/整理/出生地与任职国家.csv",
+      "bytes": 131954,
+      "sha256": "c6441c66587c64e4e8cbda38cea9ded32db65d48a460aa9993bf0f6281cb649d"
+    },
+    {
+      "path": "数据/整理/出生地国家排名.csv",
+      "bytes": 1959,
+      "sha256": "a9b4b8f86d16d29e6883860307a78a9f359c812ebe1c3c2b1e781a7a53d4cd9e"
+    },
+    {
+      "path": "数据/整理/出生地国家映射.csv",
+      "bytes": 2461,
+      "sha256": "63c48d7b3ff427f5b2bbd2964fa88b376b7166faa7e9948f42e568e0d25c6315"
+    },
+    {
+      "path": "数据/整理/十年性别年龄趋势.csv",
+      "bytes": 466,
+      "sha256": "7eeab8eb11642f784c1b75a879e679682a334805ed55673b2a1d33cc2265b071"
+    },
+    {
+      "path": "数据/整理/多次获奖排名.csv",
+      "bytes": 1087,
+      "sha256": "23e6196e29e2b068674bdcfbf5ff550a291702db16bb1529685e79bc4f1c85c2"
+    },
+    {
+      "path": "数据/整理/奖金历史.csv",
+      "bytes": 3698,
+      "sha256": "bb07a39cdbec2a3e30a3242bfc6d73af241cdfb37fe40be4778dd0af9a208bf6"
+    },
+    {
+      "path": "数据/整理/学科统计.csv",
+      "bytes": 275,
+      "sha256": "f3952c92a047d1b3bf533f8c1590305b45a5c9c8feb58c5852a58d12b029e96b"
+    },
+    {
+      "path": "数据/整理/年度人次趋势.csv",
+      "bytes": 2319,
+      "sha256": "f00a2cf86c4ff4f3353ef22a4744693a5ffad9cbeb7ffed8da92255f579f7c2a"
+    },
+    {
+      "path": "数据/整理/年度奖项趋势.csv",
+      "bytes": 2319,
+      "sha256": "d51f69fff7b2d2d3ade8a7a9f562bae2f29284b1c1ba820d48a3f0ccca7de7fb"
+    },
+    {
+      "path": "数据/整理/年度学科奖项.csv",
+      "bytes": 28552,
+      "sha256": "ac19cf72a45137718abe6cc131656f87b6f4ef29c1d2f9164cf77a0761711a4f"
+    },
+    {
+      "path": "数据/整理/性别与年龄学科统计.csv",
+      "bytes": 395,
+      "sha256": "8f6a625f56aa57cb7a55f359d340e195ee8aa919552b2cf4010c1344951b6056"
+    },
+    {
+      "path": "数据/整理/未颁奖年份.csv",
+      "bytes": 7315,
+      "sha256": "22116a924c287d10f30b5c97bcd099509a3403265c673347b279e2d12c04c3c8"
+    },
+    {
+      "path": "数据/整理/获奖主体.csv",
+      "bytes": 98550,
+      "sha256": "cc426780ad4e6c1e309a8611ba4796b24a2354991fcd115c533fdefbd58a3c2b"
+    },
+    {
+      "path": "数据/整理/获奖时任职机构.csv",
+      "bytes": 135291,
+      "sha256": "aa9e8794402a8011ba415b6c3d2a9e57b75ef06db5121dccd3abeb13bdc53061"
+    },
+    {
+      "path": "数据/整理/获奖记录.csv",
+      "bytes": 355434,
+      "sha256": "ce8056669111260bf750c7d4c2aa71e7facbe13553b595fa3165fe2d7c07be73"
+    },
+    {
+      "path": "数据/整理/高校排名.csv",
+      "bytes": 7823,
+      "sha256": "9001a07042c44f87f5f91c8df72bd242f5e1c492e8458443e2945a1e4f3c27bd"
+    },
+    {
+      "path": "数据/整理/高校机构名称归并.csv",
+      "bytes": 32493,
+      "sha256": "e70b6a42dc7a5eb08206d51be11cbd038fb8f2e524a3ee44c68083517ad8d540"
+    },
+    {
+      "path": "数据/来源记录.json",
+      "bytes": 2484,
+      "sha256": "23de7c0b43685a76296e4d391efb167e6cf216f521082a69cf0fb3ac7803afcd"
+    },
+    {
+      "path": "生成图表.py",
+      "bytes": 20570,
+      "sha256": "2a8e6a12f1f5079a9df1a2750e591a49abf04d34f0b8903de925d10526315053"
+    },
+    {
+      "path": "配图/00_总览.png",
+      "bytes": 134994,
+      "sha256": "968630d7cc861649c1497b588d1d3d463052159c368eb5482d747240557fb7f3"
+    },
+    {
+      "path": "配图/01_公布日程.png",
+      "bytes": 130441,
+      "sha256": "0c3242f80de9f18551ac43d31bd4a54e5a8d234b1fa9efaf05fa1287580ed4bf"
+    },
+    {
+      "path": "配图/02_学科分布.png",
+      "bytes": 131060,
+      "sha256": "8879697ea4f14cad1b25fbc0b0f240638d3c892e5467d1f6e2e908256577ee4c"
+    },
+    {
+      "path": "配图/03_国家排名.png",
+      "bytes": 137868,
+      "sha256": "2a6c048f435316b468ce23fa2726401215d1084a1415449f6764bdae88c4b692"
+    },
+    {
+      "path": "配图/04_世界地图.png",
+      "bytes": 255889,
+      "sha256": "ff40f79ce0bfe3f520fdb2fcd87dded02f2e43ec275102c24df09f01a337d79b"
+    },
+    {
+      "path": "配图/05_多次获奖.png",
+      "bytes": 175676,
+      "sha256": "5c9c6cedd402e7d2690c4fe0881bd10c215cf6f5dc9ccc8d178ff18894d41ebb"
+    },
+    {
+      "path": "配图/06_高校排名.png",
+      "bytes": 184622,
+      "sha256": "51d4e1f14dd79928f5de3b12a91b2f61265bdca9c16a65fd2be6553d73d676b1"
+    },
+    {
+      "path": "配图/07_名义奖金.png",
+      "bytes": 123625,
+      "sha256": "147934e85beda79b474c6a8985bf84a0c9dbcf256c7ff0f527eb4ca944306b95"
+    },
+    {
+      "path": "配图/08_实际奖金.png",
+      "bytes": 168758,
+      "sha256": "7950af7e5ede1727c816b4dc2f7bfed6f701bf5b0ebe7563d66c38dff67e2349"
+    },
+    {
+      "path": "配图/09_获奖年龄.png",
+      "bytes": 138105,
+      "sha256": "426f2c5fcf823c163c4d84b5c20cd5973e2751193ce63a3f8808b38eedc81831"
+    },
+    {
+      "path": "配图/10_女性学科分布.png",
+      "bytes": 131778,
+      "sha256": "244618b5ba25b50ad479cc91e22091814bce16c6cd80a70aca98efd926145570"
+    },
+    {
+      "path": "配图/11_女性比例趋势.png",
+      "bytes": 129965,
+      "sha256": "1ea49d9972c6fdd953f3932e53d089120eb822f663f4bb636cdeffaec03e04df"
+    },
+    {
+      "path": "配图/12_共享奖项.png",
+      "bytes": 132202,
+      "sha256": "c6b5ff583bd64093523295d835424b1867127dba66c5088b60fec8948242d12d"
+    },
+    {
+      "path": "配图/13_出生与任职.png",
+      "bytes": 114043,
+      "sha256": "2b4cd145ba41cf04bb3cc065a7f2038aad6d81eb27fa24288e89adcc88727e07"
+    },
+    {
+      "path": "配图/封面.png",
+      "bytes": 56004,
+      "sha256": "e3e49a479a2c46f1d7a4c2f8f516008cf624c89542447ced960adf4ca44a85da"
+    },
+    {
+      "path": "配图/文末动图.gif",
+      "bytes": 1497023,
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "配图/顶部横幅.gif",
+      "bytes": 1284334,
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 3032,
+      "sha256": "45799b20672947f9433af173b8abf67e8b33ab8bd8ae5bc345d69146017aa99b"
+    },
+    {
+      "path": "验收/地图核验.json",
+      "bytes": 1199,
+      "sha256": "0287f27bbaf602acfa4a1a7ac0d04315bad9d923002ca5a5a2354704e1cd66ba"
+    },
+    {
+      "path": "验收/数据核验.json",
+      "bytes": 2894,
+      "sha256": "6068a9813f6725d419170a28f2c15b448ceeafd2114ec27b4ee50551de504a4f"
+    },
+    {
+      "path": "验收/配图清单.json",
+      "bytes": 376,
+      "sha256": "e48b81b7813ac1544dfd999a5ab05f9bd8fe6978231d6b5cff0be1c84b233917"
+    }
+  ]
+}

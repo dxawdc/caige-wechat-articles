@@ -1,0 +1,66 @@
+[
+  {
+    "file": "laureates.json",
+    "url": "https://api.nobelprize.org/2.1/laureates?limit=2000",
+    "bytes": 3893544,
+    "sha256": "e3198799c0bf11d874fd016a87446166bc7bb84e3486be79ab1bf57a76298125",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:14.726476+00:00"
+  },
+  {
+    "file": "prizes.json",
+    "url": "https://api.nobelprize.org/2.1/nobelPrizes?limit=2000",
+    "bytes": 786696,
+    "sha256": "14582e26c4c696d30eb0e3b2f3c590fa0f74c8340d4d13e114615b7b24fbbd45",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:14.561908+00:00"
+  },
+  {
+    "file": "countries_v1.json",
+    "url": "https://api.nobelprize.org/v1/country.json",
+    "bytes": 4731,
+    "sha256": "ec892af711f4210569047a31f397401cdaf6767d93188d78b4456eb40b673245",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:14.298248+00:00"
+  },
+  {
+    "file": "money.html",
+    "url": "https://www.nobelprize.org/prizes/about/the-nobel-prize-money/",
+    "bytes": 154920,
+    "sha256": "cc54d10e34b92e0a7cf8f237143e1f1b08c865aadf60aba42bcde40763c93680",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:14.445745+00:00"
+  },
+  {
+    "file": "announcements.html",
+    "url": "https://www.nobelprize.org/prizes/about/prize-announcement-dates/",
+    "bytes": 186661,
+    "sha256": "45dd306cdb76ca91e09722dd81a815334de0b4dfb1cffb81f7d683e4fa7a2ae6",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:14.459236+00:00"
+  },
+  {
+    "file": "world.geojson",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+    "bytes": 838726,
+    "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:14.522875+00:00"
+  },
+  {
+    "file": "prize-amounts-2025.pdf",
+    "url": "https://www.nobelprize.org/uploads/2026/04/prize-amounts-2025.pdf",
+    "bytes": 125611,
+    "sha256": "f55f86848cc7cc79420b1ee092b1a0b67bc5f7df3647c738d06b5b0d4f16e35c",
+    "cached": true,
+    "retrieved_at": "2026-10-04T15:58:49.847091+00:00"
+  },
+  {
+    "file": "prize-money-2026.html",
+    "url": "https://www.nobelpeaceprize.org/presse/pressemeldinger/the-nobel-prize-is-increased-by-sek-1-million",
+    "bytes": 41002,
+    "sha256": "2346d63f836e6719bdaa524f88a8421614914c35de243228ede9ba8f07d33cf9",
+    "cached": true,
+    "retrieved_at": "2026-10-04T16:07:17.657465+00:00"
+  }
+]

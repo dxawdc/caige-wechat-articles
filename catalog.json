@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "nobel-prize",
+      "title": "诺奖公布前，我把125年的获奖数据画成了14张图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-05-nobel-prize",
+      "manifest": "物料清单.json",
+      "download": "downloads/nobel-prize_v1.0.0.zip",
+      "summary": "1901—2025官方获奖数据、125年奖金与2026已公布奖金、14张图表、来源及口径、采集分析绘图源码"
+    },
     {
       "id": "asian-games-final",
       "title": "亚运会169金收官：用Python看奖牌、纪录与选手表现",

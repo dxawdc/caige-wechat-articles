@@ -1,0 +1,121 @@
+{
+  "unique_entities": 1018,
+  "unique_people": 990,
+  "unique_organizations": 28,
+  "award_records": 1026,
+  "personal_award_records": 995,
+  "organization_award_records": 31,
+  "awarded_prizes": 633,
+  "unawarded_category_years": 49,
+  "duplicate_award_keys": 0,
+  "birth_country_missing_people": 3,
+  "known_age_records": 975,
+  "female_unique_people": 67,
+  "female_award_records": 68,
+  "affiliation_award_records": 758,
+  "affiliation_unique_people": 754,
+  "affiliation_edges": 847,
+  "affiliation_countries_edges": 778,
+  "money_rows": 125,
+  "money_api_pdf_mismatches": [
+    {
+      "year": 2018,
+      "category": "文学",
+      "api_nominal": 9000000,
+      "pdf_nominal": 9000000,
+      "api_adjusted": 11178104,
+      "pdf_adjusted": 11380800
+    },
+    {
+      "year": 2024,
+      "category": "化学",
+      "api_nominal": 11000000,
+      "pdf_nominal": 11000000,
+      "api_adjusted": 11000000,
+      "pdf_adjusted": 11060312
+    },
+    {
+      "year": 2024,
+      "category": "经济学",
+      "api_nominal": 11000000,
+      "pdf_nominal": 11000000,
+      "api_adjusted": 11000000,
+      "pdf_adjusted": 11060312
+    },
+    {
+      "year": 2024,
+      "category": "文学",
+      "api_nominal": 11000000,
+      "pdf_nominal": 11000000,
+      "api_adjusted": 11000000,
+      "pdf_adjusted": 11060312
+    },
+    {
+      "year": 2024,
+      "category": "和平",
+      "api_nominal": 11000000,
+      "pdf_nominal": 11000000,
+      "api_adjusted": 11000000,
+      "pdf_adjusted": 11060312
+    },
+    {
+      "year": 2024,
+      "category": "物理学",
+      "api_nominal": 11000000,
+      "pdf_nominal": 11000000,
+      "api_adjusted": 11000000,
+      "pdf_adjusted": 11060312
+    },
+    {
+      "year": 2024,
+      "category": "生理学或医学",
+      "api_nominal": 11000000,
+      "pdf_nominal": 11000000,
+      "api_adjusted": 11000000,
+      "pdf_adjusted": 11060312
+    }
+  ],
+  "shares_sum_mismatches": {},
+  "prize_api_vs_laureate_api_key_mismatch": [],
+  "full_award_triplet_mismatches": [],
+  "youngest": [
+    {
+      "name": "Malala Yousafzai",
+      "year": 2014,
+      "category": "和平",
+      "age_dec10": 17.0
+    },
+    {
+      "name": "Lawrence Bragg",
+      "year": 1915,
+      "category": "物理学",
+      "age_dec10": 25.0
+    },
+    {
+      "name": "Nadia Murad",
+      "year": 2018,
+      "category": "和平",
+      "age_dec10": 25.0
+    }
+  ],
+  "oldest": [
+    {
+      "name": "John B. Goodenough",
+      "year": 2019,
+      "category": "化学",
+      "age_dec10": 97.0
+    },
+    {
+      "name": "Arthur Ashkin",
+      "year": 2018,
+      "category": "物理学",
+      "age_dec10": 96.0
+    },
+    {
+      "name": "John J. Hopfield",
+      "year": 2024,
+      "category": "物理学",
+      "age_dec10": 91.0
+    }
+  ]
+}
