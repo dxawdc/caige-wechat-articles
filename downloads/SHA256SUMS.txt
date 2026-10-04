@@ -1,4 +1,4 @@
-9aa90029026563e98f31f520bd6860b5b0ef6f336340f88f9e5cabe0d63708fc  asian-games-final_v1.1.1.zip
+d02d4e9843dc0ab8d12019ae23d17d2a694db168278ce7d0942282899382ffee  asian-games-final_v1.2.0.zip
 4efcfdcdbe3f0a2ee6428aca5a30b47e60245f63e9055e2f7a0a23cd6eb44bd5  flow-visualization_v1.1.1.zip
 1627aee6b76aaeaa2aede2fc876572ab71e6d6db9501e2ed7ea07a3a02d9b38a  a-share-sector-race_v1.1.1.zip
 d25e57b4a1b7cc1d39ddf5b3764e36d5c8010e1b85255c6aa87a54fd10e9433b  asian-games_v1.0.0.zip

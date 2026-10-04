@@ -1,5 +1,5 @@
 {
-  "version": "v1.1.1",
+  "version": "v1.2.0",
   "updated": "2026-10-04",
   "articleId": "asian-games-final",
   "entrypoint": "绘制图表.py",
@@ -47,9 +47,29 @@
       "sha256": "b2104dd5c8908a9131c7127053cf9e6242eb7b7c773a9400310f4f89ac097c12"
     },
     {
+      "path": "09_选手金牌榜.py",
+      "bytes": 1299,
+      "sha256": "55cd2eff466ba6478b76f0275f415202b71d7af6d10e08e891d4f0f99e0589c9"
+    },
+    {
+      "path": "10_年龄分布.py",
+      "bytes": 1505,
+      "sha256": "ecfe27bee151068db47e044ba79c0952d60b6d040a79efcf1f6ef02c5d910100"
+    },
+    {
+      "path": "11_性别分布.py",
+      "bytes": 1328,
+      "sha256": "1964a0bdad7a592f016d1be7f18fda50e25c406d4b307b8a3bae95fce28ca556"
+    },
+    {
+      "path": "12_破纪录项目分布.py",
+      "bytes": 1705,
+      "sha256": "f373630b49b737f1a983b3aac27d05841e338342cfe404ce8b2624fc2f3939c2"
+    },
+    {
       "path": "README.md",
-      "bytes": 9729,
-      "sha256": "8b38ad114ce26718c9852e99cc8405ce510801ad11f780fc937f4dfaf26a3a13"
+      "bytes": 13398,
+      "sha256": "42189239ff4a07fdd5967571db80083ee51dbe524a00fdb85642287fb8dbd9e2"
     },
     {
       "path": "requirements.txt",
@@ -117,6 +137,11 @@
       "sha256": "75524ab6645e3dd1a8cdb9781f3c47f49a5e366f6d72b081dc7e9961fbe033eb"
     },
     {
+      "path": "数据/分项破纪录原始.json",
+      "bytes": 313861,
+      "sha256": "c3ea5753a3448fd6a095c4bceaa3a0b18886d84a070c9b0d0d488c72a27460d0"
+    },
+    {
       "path": "数据/国家地区奖牌榜.csv",
       "bytes": 1862,
       "sha256": "b586d5490d4c1d31819afb685d053b33baff2c444c53e79a3e4f78b6c9d89d9d"
@@ -170,6 +195,16 @@
       "path": "数据/官方原始/参赛名单.来源.json",
       "bytes": 219,
       "sha256": "7889a64bbc846d3f44cc40956a40637adab21f4717903c8d82300f441f84ce5a"
+    },
+    {
+      "path": "数据/官方原始/多奖牌运动员.json",
+      "bytes": 2025058,
+      "sha256": "c6ba69ee1294f56f9aa9badedcd5686944af9a765c2f6469958907f8a082f167"
+    },
+    {
+      "path": "数据/官方原始/多奖牌运动员.来源.json",
+      "bytes": 230,
+      "sha256": "1e8dabe0805b1443a1349853f8000085afa3dc073d19339d90ecce2d39462497"
     },
     {
       "path": "数据/官方原始/奖牌明细_AFG.json",
@@ -650,6 +685,86 @@
       "path": "数据/官方原始/奖牌榜_采集结束.来源.json",
       "bytes": 223,
       "sha256": "7b163e6736c044b980473ea93a757d4e910656b274582b60b7bcfcdc07d78709"
+    },
+    {
+      "path": "数据/官方原始/破纪录_ARC.json",
+      "bytes": 10690,
+      "sha256": "5f372b4526734fef36a01c9ae1f65f42d9d5c34525174affbb8516dee2bc767b"
+    },
+    {
+      "path": "数据/官方原始/破纪录_ARC.来源.json",
+      "bytes": 221,
+      "sha256": "441879e657d0849c6e640816263868e6d05fe39e46b95aaf4cde729a4eb17be2"
+    },
+    {
+      "path": "数据/官方原始/破纪录_ATH.json",
+      "bytes": 14854,
+      "sha256": "0d0acad348f0506d253481c5a91b915e3cebe87f4435da968d934b8663e26974"
+    },
+    {
+      "path": "数据/官方原始/破纪录_ATH.来源.json",
+      "bytes": 221,
+      "sha256": "409c3b1240acb75d907de92c01d371bc7037c408e2b0181a3c71d377273b26d9"
+    },
+    {
+      "path": "数据/官方原始/破纪录_CLB.json",
+      "bytes": 9266,
+      "sha256": "cf77d794dca8823e882f1c0c473babdaa8873b212d8854bba75ca3526119fa44"
+    },
+    {
+      "path": "数据/官方原始/破纪录_CLB.来源.json",
+      "bytes": 221,
+      "sha256": "13200ca713591086043e5aa19770a97b6714c8fdbf5613a9282c0c2d2995b8ef"
+    },
+    {
+      "path": "数据/官方原始/破纪录_CTR.json",
+      "bytes": 12801,
+      "sha256": "ecce43aa4f3c823be614502853b536fa2ac9205082e445bc08370dbeb5024db1"
+    },
+    {
+      "path": "数据/官方原始/破纪录_CTR.来源.json",
+      "bytes": 221,
+      "sha256": "e85ff355cd177d315ca3bf392067f383a24ed4986684191fdf633247cd1fb27f"
+    },
+    {
+      "path": "数据/官方原始/破纪录_MPN.json",
+      "bytes": 14118,
+      "sha256": "0889299a218b256f7ea14fdeed79603068b666902b9ebfcbfb19a1d06bb83f02"
+    },
+    {
+      "path": "数据/官方原始/破纪录_MPN.来源.json",
+      "bytes": 221,
+      "sha256": "669073236e7dc45d23ecb8539ca11da2e7be93116d9dd97a56ce700e5b5399bb"
+    },
+    {
+      "path": "数据/官方原始/破纪录_SHO.json",
+      "bytes": 40991,
+      "sha256": "8262c7f6b7b3fa62c12729b97b8287541fe74d469e12a3231da196389cb77ba4"
+    },
+    {
+      "path": "数据/官方原始/破纪录_SHO.来源.json",
+      "bytes": 221,
+      "sha256": "6baa45ef06f62b621865da26ebdb77f2aaadc51a29e45e63366a0b820fdb1bde"
+    },
+    {
+      "path": "数据/官方原始/破纪录_SWM.json",
+      "bytes": 22598,
+      "sha256": "cafc80626acc6af40657d416cf3e58ddab1f58ac0a9599b40a9d213bd4d6ed06"
+    },
+    {
+      "path": "数据/官方原始/破纪录_SWM.来源.json",
+      "bytes": 221,
+      "sha256": "361152092ac8887334b8f466f22a925661cb90c4d6d61c0b11d1f367836efa7a"
+    },
+    {
+      "path": "数据/官方原始/破纪录_WLF.json",
+      "bytes": 144080,
+      "sha256": "34b2ee474441e5fcc6e73769f992202e1709e3450e696928852f204543c9b562"
+    },
+    {
+      "path": "数据/官方原始/破纪录_WLF.来源.json",
+      "bytes": 221,
+      "sha256": "03524befa9838210b7b957448aee5268252efb8c79f817a8b53f90d284f141df"
     },
     {
       "path": "数据/官方原始/运动员简介_ARC_10804218.json",
@@ -1182,6 +1297,16 @@
       "sha256": "81bf63964830011c4474b0b093921bef15d6ed67f9091850e890ed9b974a58c7"
     },
     {
+      "path": "数据/年龄分布.csv",
+      "bytes": 470,
+      "sha256": "a225282739e16d7c5163de2f22a3ab73fb71cbadff66b1b856501fd77318486b"
+    },
+    {
+      "path": "数据/性别分布.csv",
+      "bytes": 168,
+      "sha256": "11639f6e6e309eafcf4cb00920c823cd205894bc6c578765f7a4090455ee86bb"
+    },
+    {
       "path": "数据/成绩验收.json",
       "bytes": 352,
       "sha256": "8a5bdbf95a8996c5c5375f6f8a26c018506053931c287d99d2e23eb47ca0ed39"
@@ -1192,14 +1317,59 @@
       "sha256": "2519e1d0e13b1bf2cfebd1f2913cc1b5e238491f593373c3868eb03f34f816a1"
     },
     {
+      "path": "数据/破纪录分项统计.csv",
+      "bytes": 230,
+      "sha256": "97b5b33e5c78369bb750e024ae03c5540e6a0ece6ccd9895e2e149773e3738d8"
+    },
+    {
+      "path": "数据/破纪录明细.csv",
+      "bytes": 94987,
+      "sha256": "789260c8b222776a4b0019237e123fd30c5180ac03c98ccb6adaa50e32368246"
+    },
+    {
       "path": "数据/离线验收.json",
       "bytes": 391,
       "sha256": "f2f84812ca15651719b34ae0d63ba8e32d4d4aa2e36044fdb9c5534dccc68ef5"
     },
     {
+      "path": "数据/纪录空白条目.csv",
+      "bytes": 3910,
+      "sha256": "4f143dbe1efe58af8eaba2d50f30faaf7bd2642dbc4ead956d10b0a91d989dae"
+    },
+    {
+      "path": "数据/获奖选手原始简介.json",
+      "bytes": 3231546,
+      "sha256": "8e73423a50e902f3c0a75b26ff3a851b4b9c29830b9e8019fb96c6113d9da731"
+    },
+    {
+      "path": "数据/获奖选手原始简介.来源.json",
+      "bytes": 167,
+      "sha256": "01ac6a80262ed4811db70d5632511e724956e9275d12c5701c51459530d1bfaf"
+    },
+    {
       "path": "数据/运动员字段核验.json",
       "bytes": 33332,
       "sha256": "3acd03203b709db0a166af50fe1dd5e7e1219ae3b231c32ee4dc462a3925add1"
+    },
+    {
+      "path": "数据/选手与纪录指标.json",
+      "bytes": 589,
+      "sha256": "a0028f9beb2ce5b55a3c3a4b9d4f9ff732552ccbb6a2645df39da18f6428e68e"
+    },
+    {
+      "path": "数据/选手奖牌榜.csv",
+      "bytes": 503685,
+      "sha256": "4a6080a5f3cf8fb75e3764ed650b10e65ffcca4afecf509f04b973dcb21e7e91"
+    },
+    {
+      "path": "数据/选手注册号映射.csv",
+      "bytes": 338,
+      "sha256": "7273f1b747fceb743a56372233154037ae9ce8e96a9bda3f19fe3f8c944e2914"
+    },
+    {
+      "path": "数据/选手获奖明细.csv",
+      "bytes": 718475,
+      "sha256": "950fd6f1e31a638dc67336a5dcd931b867283e0f831e74d710a0cfe1de25f86f"
     },
     {
       "path": "数据/金牌日期补核.csv",
@@ -1208,13 +1378,18 @@
     },
     {
       "path": "数据验收.json",
-      "bytes": 681,
-      "sha256": "8252a1154e39d88171311d040b343310a278e4b63abb53710b7f9a6196cf6519"
+      "bytes": 1339,
+      "sha256": "5a190ca54e2326fe32e3b9e86dbafef6e20cbc5a15bfe5e43f0164d16e0168b4"
     },
     {
       "path": "整理数据.py",
       "bytes": 3621,
       "sha256": "2541b37efd8cca24c84c54da5febde30992785cd3fdf924f97353e65a94f625f"
+    },
+    {
+      "path": "整理选手指标.py",
+      "bytes": 8054,
+      "sha256": "5749b2b08c49cbd12f22dcd556658a9eb36acac20c270343ce1584acf79e192d"
     },
     {
       "path": "映射.py",
@@ -1228,8 +1403,8 @@
     },
     {
       "path": "绘制图表.py",
-      "bytes": 627,
-      "sha256": "bd024d4aad630202e12763fb7c818615f12c2b094db8d4b2713a7f9406c9c867"
+      "bytes": 804,
+      "sha256": "c11e347b519f94c94da449aa87e4bbf5a1e3db72a5c2e101a8311d898770f369"
     },
     {
       "path": "绘制封面.py",
@@ -1307,6 +1482,46 @@
       "sha256": "49fd9b718ecfe4ce5f91fcdf5707da0a15792d8daff6c6466602dc7b4c532ee4"
     },
     {
+      "path": "配图/08_选手金牌榜.png",
+      "bytes": 207805,
+      "sha256": "a100bc51fcd479faeffd411de3615257c53b286f3d7c273a3b6839902560c8e4"
+    },
+    {
+      "path": "配图/08_选手金牌榜.svg",
+      "bytes": 132999,
+      "sha256": "53796f1d8c8770efd398394071be5353fc6589bac1d181dddef8c9eee32a3546"
+    },
+    {
+      "path": "配图/09_年龄分布.png",
+      "bytes": 266143,
+      "sha256": "1e8029643868951eb094349332ccc6ba645951df5b82d73b7fe9a06ea704ef77"
+    },
+    {
+      "path": "配图/09_年龄分布.svg",
+      "bytes": 123964,
+      "sha256": "309b8b5bfa1a5d754296c2fa825eab4fe23c637a108713bcfd69a50f84270506"
+    },
+    {
+      "path": "配图/10_性别分布.png",
+      "bytes": 117908,
+      "sha256": "3d3a9666dcd854c707fd7a8f5f80da16c097337497566e9b551c4ca88ec04255"
+    },
+    {
+      "path": "配图/10_性别分布.svg",
+      "bytes": 83755,
+      "sha256": "67f15165e7b2ad34d276d6b3eff0a0cd2f68465840ccb466ac682ed64f0058f9"
+    },
+    {
+      "path": "配图/11_破纪录项目分布.png",
+      "bytes": 198235,
+      "sha256": "cf58b53d89191d3cc2c1b1772b5bc74ab6fe48c2f2baf8aa69ef0b4e900dffac"
+    },
+    {
+      "path": "配图/11_破纪录项目分布.svg",
+      "bytes": 135506,
+      "sha256": "e4926edd5cbd414f5a0a8f36541efc5266b586aedc0a0b9c42ce3100eef4483f"
+    },
+    {
       "path": "采集地区.py",
       "bytes": 6337,
       "sha256": "4aa74f472dbd5ee75d458268920c76c16d935f0f5f1f429b1e09b9ea7edac6d3"
@@ -1327,9 +1542,14 @@
       "sha256": "51b984713a85afec855a5d0e7d41e791797dd3c513b6c16a02d3d9487a39196c"
     },
     {
+      "path": "采集选手与纪录.py",
+      "bytes": 6227,
+      "sha256": "632f09eb1810e99228f82800445535a8163a862dbeced58a97c9af0a5776ef1d"
+    },
+    {
       "path": "验收数据.py",
-      "bytes": 4234,
-      "sha256": "7f9fb9fc3df81b7a43accc3efe6c886477ffe9ca542660f3266283c9c3103bb7"
+      "bytes": 6170,
+      "sha256": "7ec98092908bea06f1b5a69b057b34d62f8985e8a0183ec640e974d1dca60ad3"
     }
   ]
 }

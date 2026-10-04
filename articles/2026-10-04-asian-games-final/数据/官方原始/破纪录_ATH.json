@@ -1,0 +1,529 @@
+{
+  "legends": {
+    "GR": "Games Record",
+    "EAR": "Equal Asian Record",
+    "AR": "Asian Record"
+  },
+  "records": [
+    {
+      "Order": 1,
+      "Code": "M.100M--------------.NONE",
+      "EvtKey": "M.100M--------------",
+      "EvtDesc": "Men's 100m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "9.91",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-25T19:33:00+09:00",
+          "Unit": "M.100M--------------.SFNL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "16362440",
+          "Name": "BOONSON Puripol",
+          "Org": "THA",
+          "OrgDesc": "Thailand"
+        },
+        {
+          "Result": "9.90",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-25T22:20:00+09:00",
+          "Unit": "M.100M--------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "16362440",
+          "Name": "BOONSON Puripol",
+          "Org": "THA",
+          "OrgDesc": "Thailand"
+        }
+      ]
+    },
+    {
+      "Order": 2,
+      "Code": "M.200M--------------.NONE",
+      "EvtKey": "M.200M--------------",
+      "EvtDesc": "Men's 200m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "19.88",
+          "Equalled": true,
+          "Indicator": "EAR",
+          "Indicator1": "EAR",
+          "Desc": "Equal Asian Record",
+          "AreaDesc": "Asia",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-27T19:35:00+09:00",
+          "Unit": "M.200M--------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "16362440",
+          "Name": "BOONSON Puripol",
+          "Org": "THA",
+          "OrgDesc": "Thailand"
+        },
+        {
+          "Result": "20.10",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-26T20:40:00+09:00",
+          "Unit": "M.200M--------------.SFNL.000300--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "16362440",
+          "Name": "BOONSON Puripol",
+          "Org": "THA",
+          "OrgDesc": "Thailand"
+        },
+        {
+          "Result": "19.88",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-27T19:35:00+09:00",
+          "Unit": "M.200M--------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "16362440",
+          "Name": "BOONSON Puripol",
+          "Org": "THA",
+          "OrgDesc": "Thailand"
+        }
+      ]
+    },
+    {
+      "Order": 4,
+      "Code": "M.800M--------------.NONE",
+      "EvtKey": "M.800M--------------",
+      "EvtDesc": "Men's 800m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "1:44.48",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-29T20:05:00+09:00",
+          "Unit": "M.800M--------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "14448842",
+          "Name": "OCHIAI Ko",
+          "Org": "JPN",
+          "OrgDesc": "Japan"
+        }
+      ]
+    },
+    {
+      "Order": 5,
+      "Code": "M.1500M-------------.NONE",
+      "EvtKey": "M.1500M-------------",
+      "EvtDesc": "Men's 1500m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "3:36.35",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-28T20:08:00+09:00",
+          "Unit": "M.1500M-------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10851881",
+          "Name": "IIZAWA Kazuto",
+          "Org": "JPN",
+          "OrgDesc": "Japan"
+        }
+      ]
+    },
+    {
+      "Order": 9,
+      "Code": "M.3000MST-----------.NONE",
+      "EvtKey": "M.3000MST-----------",
+      "EvtDesc": "Men's 3000m Steeplechase",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "8:17.36",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-28T19:47:00+09:00",
+          "Unit": "M.3000MST-----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "1373241",
+          "Name": "MIURA Ryuji",
+          "Org": "JPN",
+          "OrgDesc": "Japan"
+        }
+      ]
+    },
+    {
+      "Order": 13,
+      "Code": "M.PLEVAULT----------.NONE",
+      "EvtKey": "M.PLEVAULT----------",
+      "EvtDesc": "Men's Pole Vault",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "5.91",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-29T18:20:00+09:00",
+          "Unit": "M.PLEVAULT----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "405190",
+          "Name": "OBIENA Ernest John",
+          "Org": "PHI",
+          "OrgDesc": "Philippines"
+        }
+      ]
+    },
+    {
+      "Order": 15,
+      "Code": "M.TRPLJUMP----------.NONE",
+      "EvtKey": "M.TRPLJUMP----------",
+      "EvtDesc": "Men's Triple Jump",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "17.42",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-26T20:35:00+09:00",
+          "Unit": "M.TRPLJUMP----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "12307273",
+          "Name": "SU Wen",
+          "Org": "CHN",
+          "OrgDesc": "People's Republic of China"
+        }
+      ]
+    },
+    {
+      "Order": 16,
+      "Code": "M.SHOTPUT-----------.NONE",
+      "EvtKey": "M.SHOTPUT-----------",
+      "EvtDesc": "Men's Shot Put",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "20.81",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-26T20:00:00+09:00",
+          "Unit": "M.SHOTPUT-----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "8445175",
+          "Name": "TAYEBISE Mohammadreza",
+          "Org": "IRI",
+          "OrgDesc": "Islamic Republic of Iran"
+        }
+      ]
+    },
+    {
+      "Order": 25,
+      "Code": "W.100M--------------.NONE",
+      "EvtKey": "W.100M--------------",
+      "EvtDesc": "Women's 100m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "11.06",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-25T22:10:00+09:00",
+          "Unit": "W.100M--------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "4278270",
+          "Name": "CHEN Yujie",
+          "Org": "CHN",
+          "OrgDesc": "People's Republic of China"
+        }
+      ]
+    },
+    {
+      "Order": 27,
+      "Code": "W.400M--------------.NONE",
+      "EvtKey": "W.400M--------------",
+      "EvtDesc": "Women's 400m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "49.20",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-26T21:45:00+09:00",
+          "Unit": "W.400M--------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10280093",
+          "Name": "NASER Salwa",
+          "Org": "BRN",
+          "OrgDesc": "Bahrain"
+        }
+      ]
+    },
+    {
+      "Order": 29,
+      "Code": "W.1500M-------------.NONE",
+      "EvtKey": "W.1500M-------------",
+      "EvtDesc": "Women's 1500m",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "4:04.50",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-26T22:15:00+09:00",
+          "Unit": "W.1500M-------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "7150269",
+          "Name": "KORIR Nelly",
+          "Org": "BRN",
+          "OrgDesc": "Bahrain"
+        }
+      ]
+    },
+    {
+      "Order": 33,
+      "Code": "W.3000MST-----------.NONE",
+      "EvtKey": "W.3000MST-----------",
+      "EvtDesc": "Women's 3000m Steeplechase",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "9:04.36",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-27T21:22:00+09:00",
+          "Unit": "W.3000MST-----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "7153190",
+          "Name": "YAVI Winfred",
+          "Org": "BRN",
+          "OrgDesc": "Bahrain"
+        }
+      ]
+    },
+    {
+      "Order": 35,
+      "Code": "W.400MHURD----------.NONE",
+      "EvtKey": "W.400MHURD----------",
+      "EvtDesc": "Women's 400m Hurdles",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "54.31",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-28T19:23:00+09:00",
+          "Unit": "W.400MHURD----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10466601",
+          "Name": "KAREEM Mariam",
+          "Org": "UAE",
+          "OrgDesc": "United Arab Emirates"
+        }
+      ]
+    },
+    {
+      "Order": 42,
+      "Code": "W.HAMMER------------.NONE",
+      "EvtKey": "W.HAMMER------------",
+      "EvtDesc": "Women's Hammer Throw",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "78.27",
+          "Equalled": false,
+          "Indicator": "AR",
+          "Indicator1": "AR",
+          "Desc": "Asian Record",
+          "AreaDesc": "Asia",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-29T19:35:00+09:00",
+          "Unit": "W.HAMMER------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "14738604",
+          "Name": "ZHANG Jiale",
+          "Org": "CHN",
+          "OrgDesc": "People's Republic of China"
+        },
+        {
+          "Result": "78.27",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-29T19:35:00+09:00",
+          "Unit": "W.HAMMER------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "14738604",
+          "Name": "ZHANG Jiale",
+          "Org": "CHN",
+          "OrgDesc": "People's Republic of China"
+        }
+      ]
+    },
+    {
+      "Order": 43,
+      "Code": "W.JAVELIN-----------.NONE",
+      "EvtKey": "W.JAVELIN-----------",
+      "EvtDesc": "Women's Javelin Throw",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "70.46",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-27T21:03:00+09:00",
+          "Unit": "W.JAVELIN-----------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "14739988",
+          "Name": "YAN Ziyi",
+          "Org": "CHN",
+          "OrgDesc": "People's Republic of China"
+        }
+      ]
+    },
+    {
+      "Order": 49,
+      "Code": "X.4X400M------------.NONE",
+      "EvtKey": "X.4X400M------------",
+      "EvtDesc": "4 x 400m Relay Mixed",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "3:12.87",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Games Record",
+          "AreaDesc": "Asian Games",
+          "Loc": "Nagoya (JPN)",
+          "DateTimeRaw": "2026-09-24T22:15:00+09:00",
+          "Unit": "X.4X400M------------.FNL-.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ATHX4X400M-----BRN01",
+          "Name": "Bahrain",
+          "Org": "BRN",
+          "OrgDesc": "Bahrain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "date": "2026-10-04",
-  "version": "v1.1.1",
+  "version": "v1.2.0",
   "orgs": 46,
   "medal_records": 1568,
   "gold_records": 470,
@@ -15,12 +15,35 @@
   "pending_regions": 22,
   "ranking_scope": "已核验地区比较；全国省级完整排名需补齐22地区来源",
   "missing_kept_null": true,
-  "charts": 7,
+  "charts": 11,
   "country_map_territories": 45,
   "country_map_gold": 470,
   "athlete_geography": "roster absent; 51 biography samples absent",
   "cover_pixels": [
     900,
     383
-  ]
+  ],
+  "athlete_metrics": {
+    "athletes": 3181,
+    "raw_rows": 3191,
+    "alias_rows": 10,
+    "medal_person_times": 3758,
+    "gold_person_times": 1151,
+    "age_reference": "2026-09-19",
+    "athletes_age_available": 3181,
+    "medal_age_available": 3758,
+    "gold_age_available": 1151,
+    "athlete_sex_missing": 0,
+    "min_age": 11,
+    "max_age": 63,
+    "record_disciplines": 7,
+    "record_entries": 387,
+    "record_broken": 378,
+    "record_equalled": 9,
+    "record_events": 87,
+    "record_pages": 8,
+    "record_blank_placeholders": 22,
+    "all_person_awards_matched": true,
+    "individual_award_reg_matched": true
+  }
 }

@@ -42,7 +42,34 @@ def main():
     for code in sums.index:assert sums[code]==noc.set_index('noc').loc[code,'gold']
     for path in (ROOT/'配图').glob('*.png'):
         with Image.open(path) as im:assert im.width>=1000 and im.height>=1000
-    assert len(list((ROOT/'配图').glob('*.png')))==7
+    assert len(list((ROOT/'配图').glob('*.png')))==11
+    athletes=pd.read_csv(D/'选手奖牌榜.csv',dtype={'reg':str})
+    person_awards=pd.read_csv(D/'选手获奖明细.csv',dtype={'reg':str})
+    indicators=json.loads((D/'选手与纪录指标.json').read_text(encoding='utf-8'))
+    assert len(athletes)==3181 and not athletes.duplicated(['noc','reg']).any()
+    assert len(person_awards)==3758 and person_awards.medal.eq('ME_GOLD').sum()==1151
+    assert person_awards.award_id.notna().all()
+    assert person_awards[person_awards.type=='A'].reg.eq(person_awards[person_awards.type=='A'].reg_official).all()
+    for kind,col in [('ME_GOLD','gold'),('ME_SILVER','silver'),('ME_BRONZE','bronze')]:
+        counts=person_awards[person_awards.medal==kind].groupby(['noc','reg']).size()
+        expected=athletes.set_index(['noc','reg'])[col]
+        assert counts.reindex(expected.index,fill_value=0).eq(expected).all()
+    for filename in ['年龄分布.csv','性别分布.csv']:
+        part=pd.read_csv(D/filename)
+        assert part.gold.sum()==1151 and part.medals.sum()==3758
+        assert abs(part.gold_pct.sum()-100)<1e-8 and abs(part.medals_pct.sum()-100)<1e-8
+    assert len(pd.read_csv(D/'选手注册号映射.csv'))==10
+    assert athletes.iloc[0]['name']=='ZHANG Zhanshuo' and athletes.iloc[0].gold==7
+    assert athletes[athletes['name']=='YU Zidi'].iloc[0].age==13
+    records=pd.read_csv(D/'破纪录明细.csv')
+    record_summary=pd.read_csv(D/'破纪录分项统计.csv')
+    assert len(records)==387 and len(record_summary)==7
+    assert records.equalled.sum()==9 and record_summary.broken.sum()==378
+    assert len(pd.read_csv(D/'纪录空白条目.csv'))==22
+    assert record_summary.entries.sum()==len(records)
+    assert records.groupby('discipline').event_key.nunique().sum()==record_summary.events.sum()
+    record_dates=pd.to_datetime(records.date_raw,format='mixed',utc=True)
+    assert record_dates.dt.year.eq(2026).all()
     country_map=mapping()
     assert len(country_map)==46 and country_map.index.is_unique
     assert country_map.geometry_type.ne('nonterritorial').sum()==45
@@ -56,14 +83,14 @@ def main():
         profile=json.loads((D/f'官方原始/运动员简介_{row["discipline"]}_{row["reg"]}.json').read_text(encoding='utf-8'))
         assert sorted(profile)==row['fields']
     with Image.open(ROOT/'封面/亚运会封面.png') as im:assert im.size==(900,383)
-    result={'status':'passed','date':'2026-10-04','version':'v1.1.1',
+    result={'status':'passed','date':'2026-10-04','version':'v1.2.0',
         'orgs':46,'medal_records':1568,'gold_records':470,'gold_event_keys':469,
         'china_gold':169,'china_gold_disciplines':38,'all_noc_colors_match':True,
         'gold_dates_verified':True,'region_rows':34,'verified_regions':12,'pending_regions':22,
         'ranking_scope':'已核验地区比较；全国省级完整排名需补齐22地区来源',
-        'missing_kept_null':True,'charts':7,'country_map_territories':45,
+        'missing_kept_null':True,'charts':11,'country_map_territories':45,
         'country_map_gold':int(country_map.gold.sum()),'athlete_geography':'roster absent; 51 biography samples absent',
-        'cover_pixels':[900,383]}
+        'cover_pixels':[900,383],'athlete_metrics':indicators}
     (ROOT/'数据验收.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(result,ensure_ascii=False))
 

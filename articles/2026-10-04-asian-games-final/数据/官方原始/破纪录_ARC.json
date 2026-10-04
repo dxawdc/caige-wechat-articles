@@ -1,0 +1,361 @@
+{
+  "legends": {
+    "GR": "Asian Games Record",
+    "WR": "World Record",
+    "AR": "Asian Record"
+  },
+  "records": [
+    {
+      "Order": 1,
+      "Code": "M.RINDIVID----------.NONE",
+      "EvtKey": "M.RINDIVID----------",
+      "EvtDesc": "Recurve Men's Individual",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "698",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T11:33:04+09:00",
+          "Unit": "M.RINDIVID----------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10541644",
+          "Name": "BOMMADEVARA Dhiraj",
+          "Org": "IND",
+          "OrgDesc": "India"
+        }
+      ]
+    },
+    {
+      "Order": 2,
+      "Code": "W.RINDIVID----------.NONE",
+      "EvtKey": "W.RINDIVID----------",
+      "EvtDesc": "Recurve Women's Individual",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "685",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T16:13:24+09:00",
+          "Unit": "W.RINDIVID----------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10420541",
+          "Name": "KANG Chaeyoung",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Order": 4,
+      "Code": "W.CINDIVID----------.15A",
+      "EvtKey": "W.CINDIVID----------",
+      "EvtDesc": "Compound Women's Individual",
+      "Type": "15A",
+      "TypeDesc": "15 Arrows",
+      "Records": [
+        {
+          "Result": "150 (4)",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-28T13:37:07+09:00",
+          "Unit": "W.CINDIVID----------.R32-.000800--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10419144",
+          "Name": "KANG Yeonseo",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        },
+        {
+          "Result": "150 (6)",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-28T14:16:55+09:00",
+          "Unit": "W.CINDIVID----------.8FNL.000400--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "10419144",
+          "Name": "KANG Yeonseo",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Order": 5,
+      "Code": "M.RTEAM-------------.NONE",
+      "EvtKey": "M.RTEAM-------------",
+      "EvtDesc": "Recurve Men's Team",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "2064",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T15:38:00+09:00",
+          "Unit": "M.RTEAM-------------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCMRTEAM------KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Order": 6,
+      "Code": "W.RTEAM-------------.NONE",
+      "EvtKey": "W.RTEAM-------------",
+      "EvtDesc": "Recurve Women's Team",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "2040",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T15:49:09+09:00",
+          "Unit": "W.RTEAM-------------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCWRTEAM------KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Order": 7,
+      "Code": "M.CTEAM-------------.216A",
+      "EvtKey": "M.CTEAM-------------",
+      "EvtDesc": "Compound Men's Team",
+      "Type": "216A",
+      "TypeDesc": "216 Arrows",
+      "Records": [
+        {
+          "Result": "2130",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T15:49:19+09:00",
+          "Unit": "M.CTEAM-------------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCMCTEAM------CHN01",
+          "Name": "People's Republic of China",
+          "Org": "CHN",
+          "OrgDesc": "People's Republic of China"
+        }
+      ]
+    },
+    {
+      "Order": 7,
+      "Code": "M.CTEAM-------------.24A",
+      "EvtKey": "M.CTEAM-------------",
+      "EvtDesc": "Compound Men's Team",
+      "Type": "24A",
+      "TypeDesc": "24 Arrows",
+      "Records": [
+        {
+          "Result": "239",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-28T06:08:34+09:00",
+          "Unit": "M.CTEAM-------------.QFNL.000400--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCMCTEAM------KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Order": 9,
+      "Code": "X.RTEAM2------------.NONE",
+      "EvtKey": "X.RTEAM2------------",
+      "EvtDesc": "Recurve Mixed Team",
+      "Type": "NONE",
+      "TypeDesc": "",
+      "Records": [
+        {
+          "Result": "1378",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T15:49:14+09:00",
+          "Unit": "X.RTEAM2------------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCXRTEAM2-----KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    },
+    {
+      "Order": 10,
+      "Code": "X.CTEAM2------------.144A",
+      "EvtKey": "X.CTEAM2------------",
+      "EvtDesc": "Compound Mixed Team",
+      "Type": "144A",
+      "TypeDesc": "144 Arrows",
+      "Records": [
+        {
+          "Result": "1414",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-26T16:35:40+09:00",
+          "Unit": "X.CTEAM2------------.QUAL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCXCTEAM2-----IND01",
+          "Name": "India",
+          "Org": "IND",
+          "OrgDesc": "India"
+        }
+      ]
+    },
+    {
+      "Order": 10,
+      "Code": "X.CTEAM2------------.16A",
+      "EvtKey": "X.CTEAM2------------",
+      "EvtDesc": "Compound Mixed Team",
+      "Type": "16A",
+      "TypeDesc": "16 Arrows",
+      "Records": [
+        {
+          "Result": "160 (11)",
+          "Equalled": false,
+          "Indicator": "WR",
+          "Indicator1": "WR",
+          "Desc": "World Record",
+          "AreaDesc": "World Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-27T11:21:02+09:00",
+          "Unit": "X.CTEAM2------------.8FNL.000500--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCXCTEAM2-----KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        },
+        {
+          "Result": "160 (11)",
+          "Equalled": false,
+          "Indicator": "AR",
+          "Indicator1": "AR",
+          "Desc": "Asian Record",
+          "AreaDesc": "Asian Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-27T11:21:02+09:00",
+          "Unit": "X.CTEAM2------------.8FNL.000500--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCXCTEAM2-----KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        },
+        {
+          "Result": "160 (9)",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-27T11:20:59+09:00",
+          "Unit": "X.CTEAM2------------.8FNL.000100--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCXCTEAM2-----IND01",
+          "Name": "India",
+          "Org": "IND",
+          "OrgDesc": "India"
+        },
+        {
+          "Result": "160 (11)",
+          "Equalled": false,
+          "Indicator": "GR",
+          "Indicator1": "GR",
+          "Desc": "Asian Games Record",
+          "AreaDesc": "Asian Games Record",
+          "Loc": "Aichi-Nagoya  (JPN)",
+          "DateTimeRaw": "2026-09-27T11:21:02+09:00",
+          "Unit": "X.CTEAM2------------.8FNL.000500--",
+          "ResCode": "",
+          "UnitDesc": "",
+          "ShowLinkBio": true,
+          "Reg": "ARCXCTEAM2-----KOR01",
+          "Name": "Republic of Korea",
+          "Org": "KOR",
+          "OrgDesc": "Republic of Korea"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "athletes": 3181,
+  "raw_rows": 3191,
+  "alias_rows": 10,
+  "medal_person_times": 3758,
+  "gold_person_times": 1151,
+  "age_reference": "2026-09-19",
+  "athletes_age_available": 3181,
+  "medal_age_available": 3758,
+  "gold_age_available": 1151,
+  "athlete_sex_missing": 0,
+  "min_age": 11,
+  "max_age": 63,
+  "record_disciplines": 7,
+  "record_entries": 387,
+  "record_broken": 378,
+  "record_equalled": 9,
+  "record_events": 87,
+  "record_pages": 8,
+  "record_blank_placeholders": 22,
+  "all_person_awards_matched": true,
+  "individual_award_reg_matched": true
+}
