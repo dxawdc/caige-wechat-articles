@@ -117,6 +117,12 @@ def main():
     summary['broken']=summary.entries-summary.equalled
     summary=summary.sort_values(['events','broken'],ascending=False)
     summary.to_csv(D/'破纪录分项统计.csv',index=False,encoding='utf-8-sig')
+    china_record=record[record.noc=='CHN']
+    china_summary=china_record.groupby(['discipline','sport_zh']).agg(
+        events=('event_key','nunique'),entries=('indicator','size'),equalled=('equalled','sum')).reset_index()
+    china_summary['broken']=china_summary.entries-china_summary.equalled
+    china_summary=china_summary.sort_values(['entries','discipline'],ascending=[False,True])
+    china_summary.to_csv(D/'中国破纪录分项统计.csv',index=False,encoding='utf-8-sig')
     indicators=dict(athletes=len(ranking),raw_rows=len(original),alias_rows=len(original)-len(ranking),
         medal_person_times=len(joined),gold_person_times=int(joined.medal.eq('ME_GOLD').sum()),
         age_reference=REFERENCE.isoformat(),athletes_age_available=int(ranking.age.notna().sum()),
@@ -124,6 +130,8 @@ def main():
         athlete_sex_missing=int(ranking.sex.eq('未提供').sum()),min_age=int(ranking.age.min()),max_age=int(ranking.age.max()),
         record_disciplines=len(summary),record_entries=len(record),record_broken=int((~record.equalled).sum()),
         record_equalled=int(record.equalled.sum()),record_events=int(summary.events.sum()),
+        china_record_entries=len(china_record),china_record_broken=int((~china_record.equalled).sum()),
+        china_record_equalled=int(china_record.equalled.sum()),china_record_events=int(china_summary.events.sum()),
         record_pages=len(raw),record_blank_placeholders=int(placeholders.sum()),
         all_person_awards_matched=True,individual_award_reg_matched=True)
     (D/'选手与纪录指标.json').write_text(json.dumps(indicators,ensure_ascii=False,indent=2),encoding='utf-8')

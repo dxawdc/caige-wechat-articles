@@ -68,7 +68,7 @@ def main():
     for marker,age in [('最年轻',athletes.age.min()),('最年长',athletes.age.max())]:
         assert set(extremes[extremes.extreme==marker].reg)==set(athletes[athletes.age==age].reg)
     highlights=json.loads((D/'选手亮点与来源.json').read_text(encoding='utf-8'))
-    assert len(highlights)==6
+    assert len(highlights)==8
     for h in highlights:
         person=athletes.set_index('reg').loc[h['reg']]
         assert person['name']==h['name'] and person.noc==h['noc']
@@ -80,6 +80,20 @@ def main():
     assert records.equalled.sum()==9 and record_summary.broken.sum()==378
     assert len(pd.read_csv(D/'纪录空白条目.csv'))==22
     assert record_summary.entries.sum()==len(records)
+    china_records=records[records.noc=='CHN']
+    china_summary=pd.read_csv(D/'中国破纪录分项统计.csv')
+    actual=china_records.groupby(['discipline','sport_zh']).agg(
+        events=('event_key','nunique'),entries=('indicator','size'),equalled=('equalled','sum'))
+    expected=china_summary.set_index(['discipline','sport_zh'])
+    pd.testing.assert_frame_equal(actual.sort_index(),expected[['events','entries','equalled']].sort_index())
+    assert len(china_records)==135 and china_summary.entries.sum()==135
+    assert china_summary.events.sum()==49 and china_summary.broken.sum()==130 and china_summary.equalled.sum()==5
+    assert indicators['china_record_entries']==135 and indicators['china_record_events']==49
+    assert indicators['china_record_broken']==130 and indicators['china_record_equalled']==5
+    cases=[('12381237','AR','2:06.10'),('8972950','AsR','254.2'),('8972950','GR','254.2'),('14739988','GR','70.46')]
+    for reg,indicator,result in cases:
+        assert ((china_records.reg==reg) & (china_records.indicator==indicator) & (china_records['result']==result) & ~china_records.equalled).any()
+    assert ((china_records.event_en=='10m Air Rifle Men Team') & (china_records.indicator=='WR') & (china_records['result']=='1899.0')).any()
     assert records.groupby('discipline').event_key.nunique().sum()==record_summary.events.sum()
     assert records[(records.reg=='13174508') & (records.indicator=='WR')]['result'].to_list()==['2:04.83']
     zhang=records[(records.reg=='12371343') & records.event_en.eq("Men's 400m Freestyle")]
@@ -101,7 +115,7 @@ def main():
         profile=json.loads((D/f'官方原始/运动员简介_{row["discipline"]}_{row["reg"]}.json').read_text(encoding='utf-8'))
         assert sorted(profile)==row['fields']
     with Image.open(ROOT/'封面/亚运会封面.png') as im:assert im.size==(900,383)
-    result={'status':'passed','date':'2026-10-04','version':'v1.2.1',
+    result={'status':'passed','date':'2026-10-04','version':'v1.2.2',
         'orgs':46,'medal_records':1568,'gold_records':470,'gold_event_keys':469,
         'china_gold':169,'china_gold_disciplines':38,'all_noc_colors_match':True,
         'gold_dates_verified':True,'region_rows':34,'verified_regions':12,'pending_regions':22,

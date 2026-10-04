@@ -130,5 +130,49 @@
       "选手获奖明细.csv",
       "破纪录明细.csv"
     ]
+  },
+  {
+    "reg": "8972950",
+    "noc": "CHN",
+    "name": "SHENG Lihao",
+    "display_name": "盛李豪",
+    "age": 21,
+    "age_reference": "2026-09-19",
+    "birth_date": "2004-12-04",
+    "gold": 4,
+    "silver": 0,
+    "bronze": 0,
+    "summary": "男子10米气步枪个人254.2环刷新亚洲及赛会纪录；中国男子团体1899.0环刷新世界纪录。",
+    "source_url": "https://www.issf-sports.org/news/5227",
+    "published": "2026-09-21",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio-info/8972950",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  },
+  {
+    "reg": "14739988",
+    "noc": "CHN",
+    "name": "YAN Ziyi",
+    "display_name": "严子怡",
+    "age": 18,
+    "age_reference": "2026-09-19",
+    "birth_date": "2008-05-22",
+    "gold": 1,
+    "silver": 0,
+    "bronze": 0,
+    "summary": "女子标枪第一投70.46米夺冠，刷新赛会纪录。",
+    "source_url": "https://www.sport.gov.cn/n4/n30039867/n30039941/c30077583/content.html",
+    "published": "2026-09-28",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio-info/14739988",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
   }
 ]

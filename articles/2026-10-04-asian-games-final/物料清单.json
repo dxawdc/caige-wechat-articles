@@ -1,5 +1,5 @@
 {
-  "version": "v1.2.1",
+  "version": "v1.2.2",
   "updated": "2026-10-04",
   "articleId": "asian-games-final",
   "entrypoint": "绘制图表.py",
@@ -63,13 +63,13 @@
     },
     {
       "path": "12_破纪录项目分布.py",
-      "bytes": 1705,
-      "sha256": "f373630b49b737f1a983b3aac27d05841e338342cfe404ce8b2624fc2f3939c2"
+      "bytes": 1831,
+      "sha256": "f7e065c2fc1a320f93591179c91cc9820e21425ddb85c2bf3eb97956f2911016"
     },
     {
       "path": "README.md",
-      "bytes": 14231,
-      "sha256": "be4efa4ddaa048749160a1ce82f9a7d1db7da13fb3e44c89330cdc357307dd5c"
+      "bytes": 15056,
+      "sha256": "cc5837069903d0c9d1e67c45fae395e0eb65997c6dd31c73d4918434b97d3180"
     },
     {
       "path": "requirements.txt",
@@ -125,6 +125,11 @@
       "path": "数据/中国省级边界.来源.json",
       "bytes": 321,
       "sha256": "d6ee6cba2079a533cdc53d6137f0eeb2e87eda680cf760ba162db59904b688d8"
+    },
+    {
+      "path": "数据/中国破纪录分项统计.csv",
+      "bytes": 220,
+      "sha256": "cd5ecc68f6140b2cb216fc8edd6a8d641a7012ab2adb5a23b81080e0d09f49f6"
     },
     {
       "path": "数据/代表团地图映射.csv",
@@ -1353,13 +1358,13 @@
     },
     {
       "path": "数据/选手与纪录指标.json",
-      "bytes": 589,
-      "sha256": "a0028f9beb2ce5b55a3c3a4b9d4f9ff732552ccbb6a2645df39da18f6428e68e"
+      "bytes": 713,
+      "sha256": "2151848f76333793d8a7895bfba3eb1416791502e18f9b12a9162d8e26de8729"
     },
     {
       "path": "数据/选手亮点与来源.json",
-      "bytes": 4697,
-      "sha256": "f2344ad21adb98ed7321ad148884eaac50bdefd6636eadb1364583531cf8f1bf"
+      "bytes": 5978,
+      "sha256": "37d23b219a02083e96400c55eb4a066448d0b94b8a8c429954fca5228203ac17"
     },
     {
       "path": "数据/选手奖牌榜.csv",
@@ -1388,8 +1393,8 @@
     },
     {
       "path": "数据验收.json",
-      "bytes": 1339,
-      "sha256": "915c7175e1f240ff03568901213cd7ca0c510119061a69d544099409c0183708"
+      "bytes": 1471,
+      "sha256": "421c625045fafa70867e17c31d5bfb79fd9e65101f172af92516d55a2a22e793"
     },
     {
       "path": "整理数据.py",
@@ -1398,8 +1403,8 @@
     },
     {
       "path": "整理选手指标.py",
-      "bytes": 8321,
-      "sha256": "7a8dd5e463eb5ef178cc5985b20be5403021883e5c8a7a3c70c49007e468df61"
+      "bytes": 9027,
+      "sha256": "6d1c09ed79d57a69936ae50ead602f868ba5b7c914fc8da8d72e9ed8d63c7f16"
     },
     {
       "path": "映射.py",
@@ -1523,13 +1528,13 @@
     },
     {
       "path": "配图/11_破纪录项目分布.png",
-      "bytes": 198235,
-      "sha256": "cf58b53d89191d3cc2c1b1772b5bc74ab6fe48c2f2baf8aa69ef0b4e900dffac"
+      "bytes": 221861,
+      "sha256": "0dad7dfa83eb6e74b2b7668c81a1778457fdbc5897150c32ee1cf3ba63e0f5f5"
     },
     {
       "path": "配图/11_破纪录项目分布.svg",
-      "bytes": 135506,
-      "sha256": "e4926edd5cbd414f5a0a8f36541efc5266b586aedc0a0b9c42ce3100eef4483f"
+      "bytes": 152623,
+      "sha256": "21688e765b4cdc640c3fe264e975de8f77352887886b27dc258f6fc1a53446e4"
     },
     {
       "path": "采集地区.py",
@@ -1558,8 +1563,8 @@
     },
     {
       "path": "验收数据.py",
-      "bytes": 7439,
-      "sha256": "39c3565a442ba701c8892baabd24509f26a87a16d9b11d753c8fea801f96fcf0"
+      "bytes": 8707,
+      "sha256": "1d51cb0cf9aa25aba2d2e03c1775af772752c1d600f7e076f03dcc4f47881983"
     }
   ]
 }
