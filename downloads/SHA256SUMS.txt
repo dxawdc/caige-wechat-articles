@@ -1,4 +1,4 @@
-140f552d4a9e703fe12faa81134b0bd3c43c14d3782ab7f668deefad3698b71b  nobel-prize_v1.0.0.zip
+ead0478ee7bffde98d852809cbc947cd029a2204a107d9300c53eebb98b705c7  nobel-prize_v1.0.0.zip
 313b89b82ac858eafcfac4bd362fbd2e99f08c5c85079926668fbe1afbdba21e  asian-games-final_v1.2.2.zip
 4efcfdcdbe3f0a2ee6428aca5a30b47e60245f63e9055e2f7a0a23cd6eb44bd5  flow-visualization_v1.1.1.zip
 1627aee6b76aaeaa2aede2fc876572ab71e6d6db9501e2ed7ea07a3a02d9b38a  a-share-sector-race_v1.1.1.zip

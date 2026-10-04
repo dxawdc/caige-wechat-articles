@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4724,
-      "sha256": "d87c39fff064796c20cb5d36eaa37211460dea2e09437ab047c59c6b3cec27fe"
+      "bytes": 4834,
+      "sha256": "ccd3456773b473f0ccecc9f4ab947b7735f840b68d8925202ecd073b3e7e3c77"
     },
     {
       "path": "requirements.txt",
@@ -182,8 +182,8 @@
     },
     {
       "path": "生成封面.py",
-      "bytes": 3690,
-      "sha256": "9260a75b065fa93eb53b162a4bd38a3f9eca4a513f8118c6fe6c6e7ff5203222"
+      "bytes": 4180,
+      "sha256": "965b80d21a6a8239546c7abd9ab11de8b4d8d4373eb9642d076efbbd95e157d6"
     },
     {
       "path": "配图/00_总览.png",
@@ -257,8 +257,8 @@
     },
     {
       "path": "配图/封面.png",
-      "bytes": 128387,
-      "sha256": "fe25c24b746fbcd847bb7bbce2eb55af0a5299181f0cb61c90a39483bb3e19ac"
+      "bytes": 136306,
+      "sha256": "39e894b1d364435a8ac8a0b29fe14cbd3ae0fc1f02940bf812cbd8c0b6ef1700"
     },
     {
       "path": "配图/文末动图.gif",
