@@ -29,11 +29,14 @@ python -m venv .venv
 .\.venv\Scripts\python -X utf8 采集数据.py
 .\.venv\Scripts\python -X utf8 分析数据.py
 .\.venv\Scripts\python -X utf8 生成图表.py
+.\.venv\Scripts\python -X utf8 生成封面.py
 ```
 
 `采集数据.py`默认复用同目录官方快照。需要重新采集时，删除准备更新的原始源文件再运行。分析默认截止2025年，修改`CUTOFF`时同步更新年份范围与官方总数核验。
 
 中文图表使用Windows微软雅黑字体`C:/Windows/Fonts/msyh.ttc`；其他系统可设置`NOBEL_CN_FONT`指向可用中文字体。结果输出到`配图/`，核验输出到`验收/`。CSV为UTF-8 BOM格式，可用Excel直接打开。
+
+`生成封面.py`单独输出`配图/封面.png`，1600×680像素、约2.35:1，用于公众号横版封面。封面以1901—2025年奖金购买力为主题，对比当年名义金额与按2025年币值折算的金额。正文奖金图保留原有版式。
 
 ## 数据源
 
