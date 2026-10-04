@@ -57,6 +57,10 @@ def main():
         ranks.append(rank); previous=counts
     ranking.insert(0,'rank',ranks)
     ranking.to_csv(D/'选手奖牌榜.csv',index=False,encoding='utf-8-sig')
+    extremes=pd.concat([
+        ranking[ranking.age.eq(ranking.age.min())].assign(extreme='最年轻'),
+        ranking[ranking.age.eq(ranking.age.max())].assign(extreme='最年长')])
+    extremes.to_csv(D/'选手年龄极值.csv',index=False,encoding='utf-8-sig')
     award=pd.DataFrame(awards)
     assert not award.duplicated(['noc','reg','discipline','event_key','medal']).any()
     official=pd.read_csv(D/'奖牌明细.csv',dtype={'reg':str})

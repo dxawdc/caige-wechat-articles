@@ -4,7 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
-| [亚运会169金收官：用Python做奖牌榜、地区榜单和金牌热力图](../articles/2026-10-04-asian-games-final/README.md) | v1.2.0 | [asian-games-final_v1.2.0.zip](asian-games-final_v1.2.0.zip) | 5.46 MB |
+| [亚运会169金收官：用Python看奖牌、纪录与选手表现](../articles/2026-10-04-asian-games-final/README.md) | v1.2.1 | [asian-games-final_v1.2.1.zip](asian-games-final_v1.2.1.zip) | 5.53 MB |
 | [桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清](../articles/2026-10-04-flow-visualization/README.md) | v1.1.1 | [flow-visualization_v1.1.1.zip](flow-visualization_v1.1.1.zip) | 4.05 MB |
 | [拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录](../articles/2026-09-27-driving-first-year/README.md) | v1.0.1 | [driving-first-year_v1.0.1.zip](driving-first-year_v1.0.1.zip) | 4.68 MB |
 | [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](../articles/2026-09-26-a-share-sector-race/README.md) | v1.1.1 | [a-share-sector-race_v1.1.1.zip](a-share-sector-race_v1.1.1.zip) | 3.11 MB |

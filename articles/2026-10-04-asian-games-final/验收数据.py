@@ -61,6 +61,19 @@ def main():
     assert len(pd.read_csv(D/'选手注册号映射.csv'))==10
     assert athletes.iloc[0]['name']=='ZHANG Zhanshuo' and athletes.iloc[0].gold==7
     assert athletes[athletes['name']=='YU Zidi'].iloc[0].age==13
+    extremes=pd.read_csv(D/'选手年龄极值.csv',dtype={'reg':str})
+    assert extremes.age.to_list()==[11,63]
+    assert extremes.reg.to_list()==['1332684','8521927']
+    assert extremes.iloc[0].gold==1 and extremes.iloc[1].silver==1
+    for marker,age in [('最年轻',athletes.age.min()),('最年长',athletes.age.max())]:
+        assert set(extremes[extremes.extreme==marker].reg)==set(athletes[athletes.age==age].reg)
+    highlights=json.loads((D/'选手亮点与来源.json').read_text(encoding='utf-8'))
+    assert len(highlights)==6
+    for h in highlights:
+        person=athletes.set_index('reg').loc[h['reg']]
+        assert person['name']==h['name'] and person.noc==h['noc']
+        assert person.age==h['age'] and person.birth_date==h['birth_date']
+        assert all(int(person[k])==h[k] for k in ['gold','silver','bronze'])
     records=pd.read_csv(D/'破纪录明细.csv')
     record_summary=pd.read_csv(D/'破纪录分项统计.csv')
     assert len(records)==387 and len(record_summary)==7
@@ -68,6 +81,11 @@ def main():
     assert len(pd.read_csv(D/'纪录空白条目.csv'))==22
     assert record_summary.entries.sum()==len(records)
     assert records.groupby('discipline').event_key.nunique().sum()==record_summary.events.sum()
+    assert records[(records.reg=='13174508') & (records.indicator=='WR')]['result'].to_list()==['2:04.83']
+    zhang=records[(records.reg=='12371343') & records.event_en.eq("Men's 400m Freestyle")]
+    assert '3:41.28' in zhang['result'].to_list()
+    boonson=records[(records.reg=='16362440') & records.event_en.eq("Men's 200m")]
+    assert ((boonson['result']=='19.88') & (boonson.indicator=='EAR') & boonson.equalled).any()
     record_dates=pd.to_datetime(records.date_raw,format='mixed',utc=True)
     assert record_dates.dt.year.eq(2026).all()
     country_map=mapping()
@@ -83,7 +101,7 @@ def main():
         profile=json.loads((D/f'官方原始/运动员简介_{row["discipline"]}_{row["reg"]}.json').read_text(encoding='utf-8'))
         assert sorted(profile)==row['fields']
     with Image.open(ROOT/'封面/亚运会封面.png') as im:assert im.size==(900,383)
-    result={'status':'passed','date':'2026-10-04','version':'v1.2.0',
+    result={'status':'passed','date':'2026-10-04','version':'v1.2.1',
         'orgs':46,'medal_records':1568,'gold_records':470,'gold_event_keys':469,
         'china_gold':169,'china_gold_disciplines':38,'all_noc_colors_match':True,
         'gold_dates_verified':True,'region_rows':34,'verified_regions':12,'pending_regions':22,

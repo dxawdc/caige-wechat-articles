@@ -5,12 +5,12 @@
   "items": [
     {
       "id": "asian-games-final",
-      "title": "亚运会169金收官：用Python做奖牌榜、地区榜单和金牌热力图",
+      "title": "亚运会169金收官：用Python看奖牌、纪录与选手表现",
       "kind": "article",
-      "version": "v1.2.0",
+      "version": "v1.2.1",
       "source": "articles/2026-10-04-asian-games-final",
       "manifest": "物料清单.json",
-      "download": "downloads/asian-games-final_v1.2.0.zip",
+      "download": "downloads/asian-games-final_v1.2.1.zip",
       "summary": "46代表团榜单与地图、3181人选手榜、获奖年龄与性别、纪录项目分布、34地区底表、11张图及Python代码"
     },
     {

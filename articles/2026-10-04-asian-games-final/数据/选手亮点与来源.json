@@ -1,0 +1,134 @@
+[
+  {
+    "reg": "1332684",
+    "noc": "JPN",
+    "name": "KURIHARA Yuki",
+    "display_name": "KURIHARA Yuki",
+    "age": 11,
+    "age_reference": "2026-09-19",
+    "birth_date": "2015-06-18",
+    "gold": 1,
+    "silver": 0,
+    "bronze": 0,
+    "summary": "最年轻获奖选手；11岁获得Puyo Puyo Champions金牌，OCA报道为亚运会历史最年轻金牌得主。",
+    "source_url": "https://oca.asia/news/8064-kurihara-11-makes-history-with-e-sports-gold.html",
+    "published": "2026-09-27",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/ELS/entries/bio-info/1332684",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  },
+  {
+    "reg": "8521927",
+    "noc": "KUW",
+    "name": "ALRASHIDI Abdullah",
+    "display_name": "ALRASHIDI Abdullah",
+    "age": 63,
+    "age_reference": "2026-09-19",
+    "birth_date": "1963-08-21",
+    "gold": 0,
+    "silver": 1,
+    "bronze": 0,
+    "summary": "本届最年长获奖选手；63岁获得男子双向飞碟团体银牌。",
+    "source_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio-info/8521927",
+    "published": null,
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/bio-info/8521927",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  },
+  {
+    "reg": "12371343",
+    "noc": "CHN",
+    "name": "ZHANG Zhanshuo",
+    "display_name": "张展硕",
+    "age": 19,
+    "age_reference": "2026-09-19",
+    "birth_date": "2007-05-14",
+    "gold": 7,
+    "silver": 0,
+    "bronze": 0,
+    "summary": "19岁获得7金：4个男子自由泳个人冠军、3项接力冠军；400米自由泳3:41.28刷新赛会纪录。",
+    "source_url": "https://oca.asia/news/8027-zhang-in-seventh-heaven-after-breaking-asian-games-record.html",
+    "published": "2026-09-25",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/SWM/entries/bio-info/12371343",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  },
+  {
+    "reg": "12381237",
+    "noc": "CHN",
+    "name": "YU Zidi",
+    "display_name": "于子迪",
+    "age": 13,
+    "age_reference": "2026-09-19",
+    "birth_date": "2012-10-16",
+    "gold": 3,
+    "silver": 0,
+    "bronze": 0,
+    "summary": "13岁获得女子200米蝶泳、200米个人混合泳、400米个人混合泳3金；获评本届女子MVP。",
+    "source_url": "https://oca.asia/news/8170-oca-announces-asian-games-mvps-yu-zidi-puripol-boonson.html",
+    "published": "2026-10-04",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/SWM/entries/bio-info/12381237",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  },
+  {
+    "reg": "13174508",
+    "noc": "JPN",
+    "name": "OHASHI Shin",
+    "display_name": "大桥信",
+    "age": 17,
+    "age_reference": "2026-09-19",
+    "birth_date": "2009-03-05",
+    "gold": 2,
+    "silver": 2,
+    "bronze": 1,
+    "summary": "17岁以2:04.83打破男子200米蛙泳世界纪录，原纪录为覃海洋在2023年创造的2:05.48。",
+    "source_url": "https://oca.asia/news/8028-world-record-holder-ohashi-looks-forward-after-asian-games-heroics.html",
+    "published": "2026-09-25",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/SWM/entries/bio-info/13174508",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  },
+  {
+    "reg": "16362440",
+    "noc": "THA",
+    "name": "BOONSON Puripol",
+    "display_name": "布恩颂",
+    "age": 20,
+    "age_reference": "2026-09-19",
+    "birth_date": "2006-01-13",
+    "gold": 2,
+    "silver": 1,
+    "bronze": 0,
+    "summary": "20岁包揽男子100米、200米金牌；9.90刷新赛会纪录，19.88刷新赛会纪录并追平亚洲纪录。",
+    "source_url": "https://oca.asia/news/8073-thai-flyer-boonson-races-to-sprint-double.html",
+    "published": "2026-09-27",
+    "checked": "2026-10-04",
+    "profile_url": "https://back.results.asiangames2026.org/s/AG2026/en/ATH/entries/bio-info/16362440",
+    "structured_evidence": [
+      "选手奖牌榜.csv",
+      "选手获奖明细.csv",
+      "破纪录明细.csv"
+    ]
+  }
+]
