@@ -28,6 +28,8 @@ if __name__ == '__main__':
     fig.savefig(OUT/'00_效果总览.png', dpi=160, facecolor=fig.get_facecolor())
     fig.savefig(OUT/'00_效果总览.svg', facecolor=fig.get_facecolor())
     plt.close(fig)
+    runpy.run_path(str(ROOT/'绘制封面.py'), run_name='__main__')
+    print('完成：独立桑基图封面')
     edges = pd.read_csv(ROOT/'数据/桑基图_边表.csv')
     matrix = pd.read_csv(ROOT/'数据/部门协作_矩阵.csv', index_col=0)
     paths = pd.read_csv(ROOT/'数据/冲积图_完整路径.csv')

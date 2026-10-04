@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清](articles/2026-10-04-flow-visualization/README.md) · v1.1.0 | 四份独立制图代码、共用样式、四份模拟CSV、五张PNG与SVG、两个离线交互HTML | [ZIP](downloads/flow-visualization_v1.1.0.zip) |
+| [桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清](articles/2026-10-04-flow-visualization/README.md) · v1.1.1 | 四份独立制图代码、共用样式、四份模拟CSV、五张正文图与独立桑基图封面的PNG与SVG、两个离线交互HTML | [ZIP](downloads/flow-visualization_v1.1.1.zip) |
 | [拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录](articles/2026-09-27-driving-first-year/README.md) · v1.0.1 | 绘图源码、180 条虚构演示行程、匿名统计摘要、10 张正文图与首尾品牌动图 | [ZIP](downloads/driving-first-year_v1.0.1.zip) |
 | [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](articles/2026-09-26-a-share-sector-race/README.md) · v1.1.1 | 东方财富30主题板块日线（13,932条）、赛马图制作脚本、手机竖屏预览、两份交互HTML与文中配图 | [ZIP](downloads/a-share-sector-race_v1.1.1.zip) |
 | [今年亚运会好像没什么热度，只知道名古屋被骂上热搜](articles/2026-09-22-asian-games/README.md) · v1.0.0 | 亚奥理事会官方成绩全量数据：46 个代表团、59 个项目、12753 名选手、251 枚奖牌，全程 450 枚金牌日程与 28 条破纪录，采集与分析绘图脚本、15 张图表 | [ZIP](downloads/asian-games_v1.0.0.zip) |

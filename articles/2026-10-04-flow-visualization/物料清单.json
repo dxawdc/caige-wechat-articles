@@ -1,5 +1,5 @@
 {
-  "version": "v1.1.0",
+  "version": "v1.1.1",
   "updated": "2026-10-04",
   "articleId": "flow-visualization",
   "entrypoint": "绘制图表.py",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3053,
-      "sha256": "5b4da4d97f74e9347f140d004e6fdfba14c86834afa5eda8c2b304d63fed0b56"
+      "bytes": 3411,
+      "sha256": "d625b4d5bce46eab057033765f7270ccf2a730d703e5515a89d144bbeb6697f6"
     },
     {
       "path": "requirements.txt",
@@ -50,6 +50,21 @@
       "path": "图表工具.py",
       "bytes": 2404,
       "sha256": "170d1ce30cd7d33cc3571c2f2a5dcec00399efdee77a1620544ba3a048f43d5b"
+    },
+    {
+      "path": "封面/桑基图封面.png",
+      "bytes": 53448,
+      "sha256": "c44a3a570ffddfee727b3f7603d39c7c1e2c03d44efa15249fb75a8c104006d1"
+    },
+    {
+      "path": "封面/桑基图封面.svg",
+      "bytes": 7786,
+      "sha256": "bfb3beea094d07a359a89cb93a2b51e5fe880792e8e9ea16a66ebd35ef244b07"
+    },
+    {
+      "path": "封面验收.json",
+      "bytes": 372,
+      "sha256": "7655060dbb87ed13061fc7cb392f880faa41bab7e5fc67f0739150cb0d10b71a"
     },
     {
       "path": "数据/冲积图_完整路径.csv",
@@ -78,8 +93,13 @@
     },
     {
       "path": "绘制图表.py",
-      "bytes": 2687,
-      "sha256": "0fbd833fef6f923505cd74d91bb8692fd6d1a7034120465973cbece4717ff043"
+      "bytes": 2800,
+      "sha256": "89cf61f58f538aba09fc38094236e271d865e478b8744b3791842c03cb6cc744"
+    },
+    {
+      "path": "绘制封面.py",
+      "bytes": 4557,
+      "sha256": "8cdd88b575c008f13767d0ac9286e640621be9f3c08497e7a1d647ec753e04c0"
     },
     {
       "path": "配图/00_效果总览.png",

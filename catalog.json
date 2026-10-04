@@ -7,11 +7,11 @@
       "id": "flow-visualization",
       "title": "桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清",
       "kind": "article",
-      "version": "v1.1.0",
+      "version": "v1.1.1",
       "source": "articles/2026-10-04-flow-visualization",
       "manifest": "物料清单.json",
-      "download": "downloads/flow-visualization_v1.1.0.zip",
-      "summary": "四份独立制图代码、共用样式、四份模拟CSV、五张PNG与SVG、两个离线交互HTML"
+      "download": "downloads/flow-visualization_v1.1.1.zip",
+      "summary": "四份独立制图代码、共用样式、四份模拟CSV、五张正文图与独立桑基图封面的PNG与SVG、两个离线交互HTML"
     },
     {
       "id": "driving-first-year",

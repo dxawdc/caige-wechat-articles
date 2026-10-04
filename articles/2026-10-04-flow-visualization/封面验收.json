@@ -1,0 +1,16 @@
+{
+  "dimensions": [
+    900,
+    383
+  ],
+  "ratio": "900:383",
+  "data_source": "数据/桑基图_边表.csv",
+  "data_sha256": "8720ed39ab5feb6f04ee1c68ebf78fb697e09b0915faaa95427da844520d8748",
+  "links": 8,
+  "visitors": 1000,
+  "registered": 600,
+  "paid": 180,
+  "scale_pixels_per_person": 0.15,
+  "used_in_article_body": false,
+  "status": "passed"
+}
