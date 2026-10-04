@@ -1,24 +1,55 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "updated": "2026-10-04",
   "articleId": "flow-visualization",
   "entrypoint": "绘制图表.py",
   "data_source": "自行构造的模拟教学数据",
+  "material_policy": "latest-complete-set-only",
   "files": [
     {
+      "path": "01_桑基图.py",
+      "bytes": 1397,
+      "sha256": "97288111578f45893e4d6ee10aa5ebf989aef2c800346eb6ff3a0fe45c5d042f"
+    },
+    {
+      "path": "02_弦图.py",
+      "bytes": 790,
+      "sha256": "38b3bbf3b61db7e9d1b59b2ac858c3210be13f18401933be8914770dcbb5e136"
+    },
+    {
+      "path": "03_冲积图.py",
+      "bytes": 1153,
+      "sha256": "a9a3ddc91f4a7c6d5c06c0e97e0d914155b08b91ca1c0143b1af05c51989e6f6"
+    },
+    {
+      "path": "04_关系矩阵.py",
+      "bytes": 996,
+      "sha256": "ca172f94ce93627c26136571b73c60723e0533da42e15e8f031d94c1a1f0ff0a"
+    },
+    {
       "path": "README.md",
-      "bytes": 2391,
-      "sha256": "c7719a774d8272d9f6c010c4348bb9c0d1d0a5b27e260df2622267ee102ce36f"
+      "bytes": 3053,
+      "sha256": "5b4da4d97f74e9347f140d004e6fdfba14c86834afa5eda8c2b304d63fed0b56"
     },
     {
       "path": "requirements.txt",
-      "bytes": 50,
-      "sha256": "9ca6c051d8d997e8e6261c6688f4eca2217caafd17382dd83f0a4bd7b9c68dd3"
+      "bytes": 101,
+      "sha256": "8fa1d0f14715e38253ca8f3cfe12cf7e58a021ee0f5647dd6b9119611a53fc7b"
+    },
+    {
+      "path": "交互冲积图.html",
+      "bytes": 4828305,
+      "sha256": "68afd08a838e3b4a868cead2e46725916eca10545addfbc2c76e7b2fa6bc59c3"
     },
     {
       "path": "交互桑基图.html",
-      "bytes": 4827272,
-      "sha256": "3e6ec44cbfc50536720dce7a39311b2fff679071a761cfa771a789545fcb8a5f"
+      "bytes": 4828088,
+      "sha256": "892e21374e1e9c8b667fdea7041e6a4d0fab15937ed450281d252d9f8c98a875"
+    },
+    {
+      "path": "图表工具.py",
+      "bytes": 2404,
+      "sha256": "170d1ce30cd7d33cc3571c2f2a5dcec00399efdee77a1620544ba3a048f43d5b"
     },
     {
       "path": "数据/冲积图_完整路径.csv",
@@ -42,54 +73,63 @@
     },
     {
       "path": "数据验收.json",
-      "bytes": 441,
-      "sha256": "d1979dbe649a7dde6e098289a6cdd5d38a6729958042022911a03f72d364b891"
+      "bytes": 292,
+      "sha256": "213646bd12168a863f1ed2b406f433f57a1dcf1fd38b64f9b1e25d948f5e5113"
     },
     {
       "path": "绘制图表.py",
-      "bytes": 9561,
-      "sha256": "cb6e4833ba56d4f04eb1aedac86e914b87fb6abb49350e31c5ef2ca3d056639d"
+      "bytes": 2687,
+      "sha256": "0fbd833fef6f923505cd74d91bb8692fd6d1a7034120465973cbece4717ff043"
+    },
+    {
+      "path": "配图/00_效果总览.png",
+      "bytes": 307991,
+      "sha256": "a15f4b4da2cbb4083e0c0b39940d80aeffc1360cc7eb957e2ce33d7bc5630b5e"
+    },
+    {
+      "path": "配图/00_效果总览.svg",
+      "bytes": 146205,
+      "sha256": "3237fa157527f1c30adba4742c742579bc6967b794c4fa52662e2169492e4738"
     },
     {
       "path": "配图/01_桑基图.png",
-      "bytes": 136618,
-      "sha256": "a1d1d3bd4d7ba316223f88327fce40fe3eb44a2d8e9c6075384b03fc684193a2"
+      "bytes": 284091,
+      "sha256": "e140de5964bf2b9c1398896c57c2b94031c3e98e1f12b80ebfca8cee7ce7f16b"
     },
     {
       "path": "配图/01_桑基图.svg",
-      "bytes": 9005,
-      "sha256": "be357f0d42a11bf2633399170353f4fc384526450461bca33696adace045781d"
+      "bytes": 10051,
+      "sha256": "e2da817e3334b6d1539226aaa8ab5d6b47f2f631a0eea2e896ee37f3a97bf21b"
     },
     {
       "path": "配图/02_弦图.png",
-      "bytes": 182211,
-      "sha256": "9dfd0cdfc8d3d0608ac5352b403ca603f9c75c8d5b50b26f660c561a6aced9cd"
+      "bytes": 210768,
+      "sha256": "eef5ca6deb9d50ec99f87acab4dc3bb4076c582d78b314c3510f70b4f1d4c5f2"
     },
     {
       "path": "配图/02_弦图.svg",
-      "bytes": 14728,
-      "sha256": "83ef301c4f55576136cf03c3eecc02917177cafd43a8edd88c0b2875fae74a2c"
+      "bytes": 82309,
+      "sha256": "75d77318c643b4d85356ccaa614f7fbd25d903bdb2301954d3df3cda61f7c8a3"
     },
     {
       "path": "配图/03_冲积图.png",
-      "bytes": 128409,
-      "sha256": "b91cdc454f788a29b21ddbaa878a82a95317cee7e4d5c35b0d11a9917978490a"
+      "bytes": 235537,
+      "sha256": "9c7c46b0d432553ec8428a925d2013c85c59c167127197766c8723dab695b6db"
     },
     {
       "path": "配图/03_冲积图.svg",
-      "bytes": 11098,
-      "sha256": "876f053ae72c6a7148c8cfbf3103d6d9b851ccf0113c3cfb355bf1037a7c69f6"
+      "bytes": 12776,
+      "sha256": "9ba327aeefed0bced9668578488295f010da3862342e1e385f23c005552410b2"
     },
     {
       "path": "配图/04_关系矩阵.png",
-      "bytes": 128203,
-      "sha256": "e07cb27cf3f5e82a652ca3159288cffc8deba4fc325509925264bd1fba0ba320"
+      "bytes": 121580,
+      "sha256": "7601a6dc0909dd734bf1eea621486c854d70b4e4d1b240766a5f2b4699a3768a"
     },
     {
       "path": "配图/04_关系矩阵.svg",
-      "bytes": 10932,
-      "sha256": "738a5fd504a0c9cfe7b8f240922f5fe43ca756a1e57d927e2af7734d38940380"
+      "bytes": 10750,
+      "sha256": "c525278d85e29e52714b5e64734175335eacebbdca0a5e436ac749ed48bbbbd1"
     }
-  ],
-  "material_policy": "latest-complete-set-only"
+  ]
 }

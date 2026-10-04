@@ -5,13 +5,13 @@
   "items": [
     {
       "id": "flow-visualization",
-      "title": "数据从哪来，又到哪去？讲清桑基图、弦图和流转可视化",
+      "title": "桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
       "source": "articles/2026-10-04-flow-visualization",
       "manifest": "物料清单.json",
-      "download": "downloads/flow-visualization_v1.0.0.zip",
-      "summary": "四张教学图的PNG与SVG、四份模拟CSV、绘图源码、数据验收和离线交互桑基图"
+      "download": "downloads/flow-visualization_v1.1.0.zip",
+      "summary": "四份独立制图代码、共用样式、四份模拟CSV、五张PNG与SVG、两个离线交互HTML"
     },
     {
       "id": "driving-first-year",

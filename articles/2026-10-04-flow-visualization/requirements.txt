@@ -1,3 +1,6 @@
 matplotlib>=3.8,<4
 numpy>=1.26,<3
 plotly>=5.24,<8
+pandas>=2.2,<4
+pycirclize>=1.10,<2
+kaleido>=1.0,<2

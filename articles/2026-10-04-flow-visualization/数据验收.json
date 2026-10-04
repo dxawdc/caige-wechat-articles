@@ -1,17 +1,13 @@
 {
-  "数据类型": "模拟教学数据",
-  "sankey_initial": 1000,
-  "sankey_registered": 600,
-  "sankey_paid": 180,
-  "sankey_unregistered": 400,
-  "sankey_registered_unpaid": 420,
-  "registration_rate": 0.6,
-  "paid_per_registration": 0.3,
-  "paid_per_visitor": 0.18,
-  "chord_unique_pair_total": 470,
-  "chord_endpoint_total": 940,
-  "alluvial_total": 500,
-  "alluvial_lost": 120,
-  "png_count": 4,
-  "checks": "passed"
+  "version": "v1.1.0",
+  "data_type": "模拟教学数据",
+  "registered": 600,
+  "paid": 180,
+  "collaboration_pairs_total": 470,
+  "collaboration_endpoints_total": 940,
+  "cohort_total": 500,
+  "lost": 120,
+  "independent_scripts": 4,
+  "png_count": 5,
+  "status": "passed"
 }
