@@ -103,7 +103,7 @@ def batch(f,rect,columns=1):
 def typebars(a,fs=15):bars(a,types.category,types['count'],235,fs=fs,fmt=lambda v:f'{v:g}  {v/358:.1%}');a.set_xticks([0,50,100,150,200])
 def pricedist(a):
     freq=[int((price.adult_peak_regular_yuan==0).sum())]+[int(((price.adult_peak_regular_yuan>lo)&(price.adult_peak_regular_yuan<=hi)).sum()) for lo,hi in [(0,50),(50,100),(100,150),(150,200)]]
-    bars(a,['免费','1–50元','51–100元','101–150元','151–200元'],freq,max(freq)*1.3,fs=15,fmt=lambda v:f'{v:g}家');a.set_xticks([0,5,10,15,20]);a.set_xlabel('景区数量 / 家',fontsize=12)
+    bars(a,['免费','1–50元','51–100元','101–150元','151–200元'],freq,max(freq)*1.3,fs=15,fmt=lambda v:f'{v:g}家');step=10 if max(freq)>30 else 5;a.set_xticks(np.arange(0,max(freq)*1.3,step));a.set_xlabel('景区数量 / 家',fontsize=12)
 companies=fin[(fin.year==2025)&(fin.comparison_group=='旅游运营公司')].sort_values('revenue_yi',ascending=False).company.tolist()
 def revenue(a,fs=14):
     y=np.arange(len(companies))
@@ -166,6 +166,6 @@ def contact(folder,target,columns,width,height):
         im=ImageOps.contain(Image.open(p).convert('RGB'),(width-20,height-48));x=i%columns*width+(width-im.width)//2;y=i//columns*height;canvas.paste(im,(x,y+5));ImageDraw.Draw(canvas).text((i%columns*width+12,y+height-32),p.stem,font=font,fill=INK)
     target.parent.mkdir(exist_ok=True);canvas.save(target)
 def report():
-    (R/'验收/图表设计验收.json').write_text(json.dumps({'version':'v1.2.0','style':'标题、范围、坐标、图例、数字；长解释置于正文','mobile_figures':10,'desktop_figures':8,'zero_map_color':'#FFFFFF','free_label':'免费','authored_figure_text':TEXT_LOG},ensure_ascii=False,indent=2)+'\n','utf-8')
+    (R/'验收/图表设计验收.json').write_text(json.dumps({'version':'v1.3.0','style':'标题、范围、坐标、图例、数字；长解释置于正文','mobile_figures':10,'desktop_figures':8,'zero_map_color':'#FFFFFF','free_label':'免费','authored_figure_text':TEXT_LOG},ensure_ascii=False,indent=2)+'\n','utf-8')
 if __name__=='__main__':
     sys.stdout.reconfigure(encoding='utf-8');render_article();render_desktop();report()

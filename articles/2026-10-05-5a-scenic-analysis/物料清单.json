@@ -1,5 +1,5 @@
 {
-  "version": "v1.2.0",
+  "version": "v1.3.0",
   "updated": "2026-10-05",
   "material_policy": "latest-complete-set-only",
   "entrypoint": "scripts/render_article_charts.py",
@@ -11,8 +11,8 @@
     },
     {
       "path": "data/evidence_summary.json",
-      "bytes": 468,
-      "sha256": "808767205b2aed2ffdaf7d49278bbfc2419ae7d3b0f32446c965aadc358ecdca"
+      "bytes": 470,
+      "sha256": "bb5c098974a37e724f16c68a409960cf82209d2bec8ddbf742105a9a029383a4"
     },
     {
       "path": "data/sources/china_boundaries.json",
@@ -23,6 +23,191 @@
       "path": "data/sources/china_national.json",
       "bytes": 162746,
       "sha256": "83ac502aeac66a5527607ec844169418505d990f1a2dc33226743643541eed3c"
+    },
+    {
+      "path": "data/sources/本轮免费与官价核验_1.txt",
+      "bytes": 24918,
+      "sha256": "108c8c628fb50ff6bea7c4b83cdcc1050d48ec7175346d860cfa24fc03cd5abd"
+    },
+    {
+      "path": "data/sources/本轮免费与官价核验_2.txt",
+      "bytes": 26754,
+      "sha256": "fb0c454028093b87acbeedec79c17eb4f6ee59d64f9f609073cc4b27a297803c"
+    },
+    {
+      "path": "data/sources/本轮免费与官价核验_3.txt",
+      "bytes": 28223,
+      "sha256": "6b132b63ac66833fbb9f2fe447c8b200f14b9e6bd20c81199940e831ab1ded55"
+    },
+    {
+      "path": "data/sources/本轮免费与官价核验_4.txt",
+      "bytes": 20321,
+      "sha256": "af55b7f5510d82fee30aed69df358a5680fe9a1abcdff31bb5958faaa820568d"
+    },
+    {
+      "path": "data/sources/本轮免费与官价核验_5.txt",
+      "bytes": 27368,
+      "sha256": "ae4de6f842581b685f6278e7a53e71f840bf27d793b544f3b1222b6ef73a5622"
+    },
+    {
+      "path": "data/sources/本轮免费与官价核验_6.txt",
+      "bytes": 29563,
+      "sha256": "5094b073a4e46bca0951fa2b40d35edf271b9d995199a019140175ef1203f35e"
+    },
+    {
+      "path": "data/sources/本轮初始地区检索.txt",
+      "bytes": 25116,
+      "sha256": "4893830bcfece7640a7290bf22ed0edc6fb9346cd32179b90dfa58f9d64f9be8"
+    },
+    {
+      "path": "data/sources/本轮区域检索_0.txt",
+      "bytes": 26450,
+      "sha256": "636fb879236d04574d45d44df68cfe1e26b699648ede8fc69b53a3d6a3975748"
+    },
+    {
+      "path": "data/sources/本轮区域检索_1.txt",
+      "bytes": 25372,
+      "sha256": "6e99c34f3d13cd03308c503198336dd1e20531417415a19abecc84a2787c6a95"
+    },
+    {
+      "path": "data/sources/本轮区域检索_2.txt",
+      "bytes": 26536,
+      "sha256": "bcf2908d2d97db033831ab15afdbebe913e5d79cfa03e0801545a779afb9cf8e"
+    },
+    {
+      "path": "data/sources/本轮华清官网价格明细.txt",
+      "bytes": 11154,
+      "sha256": "6f107ff206f8e196219bbb8b548900b54267a391689aea37be599b14cf071809"
+    },
+    {
+      "path": "data/sources/本轮官方检索_1.txt",
+      "bytes": 29008,
+      "sha256": "dd74e57afd7d8710f5b0b5e6da9a27d314527ec71b358d1af271e32056944e4f"
+    },
+    {
+      "path": "data/sources/本轮官方检索_2.txt",
+      "bytes": 28325,
+      "sha256": "0c42d9bb36c995ff248a63ca50b1a7371938bda3beb2dfcee69cd11837008099"
+    },
+    {
+      "path": "data/sources/本轮定向检索_0.txt",
+      "bytes": 24974,
+      "sha256": "99fb2047add80d967e40e5ef8bc04349733170af7b1dbe72d2a3e2ab4895a376"
+    },
+    {
+      "path": "data/sources/本轮定向检索_1.txt",
+      "bytes": 26824,
+      "sha256": "5a6fbd2fb179c93ef0653f3b83a3dd3e800986f61eefbf40b06f278de18cd13a"
+    },
+    {
+      "path": "data/sources/本轮定向检索_2.txt",
+      "bytes": 26834,
+      "sha256": "7901c82fe727ae44893474431a121b0c8162f1d373e8bfd72dbb3cd8bd597dd6"
+    },
+    {
+      "path": "data/sources/本轮定向检索_3.txt",
+      "bytes": 24323,
+      "sha256": "b06d73fda728139d54084e8580c069f841d864423233a62154665600880857dd"
+    },
+    {
+      "path": "data/sources/本轮常规票核验_0.txt",
+      "bytes": 25523,
+      "sha256": "8b8a4f2edb52515ca612eaac1b2e333cdbf03fd62e236cebc5983d6773e6db41"
+    },
+    {
+      "path": "data/sources/本轮常规票核验_1.txt",
+      "bytes": 25904,
+      "sha256": "2361a80f28ac64c63736c175483ff863be4ec2d87c823980879b66f06737dd20"
+    },
+    {
+      "path": "data/sources/本轮常规票核验_2.txt",
+      "bytes": 25618,
+      "sha256": "d74436cdcc15a6d0e08a82ed52bb0b3a6c6434ecb7b7a94e417f0ec946acb261"
+    },
+    {
+      "path": "data/sources/本轮常规票核验_5.txt",
+      "bytes": 24685,
+      "sha256": "bf1ba2e11c1b0aff03dead024c4d5c6a0c5659ef01332785b5bbbda28cfa0e35"
+    },
+    {
+      "path": "data/sources/本轮常规票核验_7.txt",
+      "bytes": 28400,
+      "sha256": "615619169c010025aa5caad2e581c5bf16554aba42694ba274eeb8c3fe1c9e61"
+    },
+    {
+      "path": "data/sources/本轮景区核验_2.txt",
+      "bytes": 26678,
+      "sha256": "e745cb2116b7f03c74a55622eae83937961450134550d4f7fd971b73e9fbcfd3"
+    },
+    {
+      "path": "data/sources/本轮景区核验_4.txt",
+      "bytes": 25459,
+      "sha256": "9edbca42cea6d41338ad92d654ccc96ffc3f04b87f4497080df5237f25807463"
+    },
+    {
+      "path": "data/sources/本轮景区核验_6.txt",
+      "bytes": 25423,
+      "sha256": "8a3f2d04a333fe1b1ce6dc621db1130eb012a8962bdace2d0647ed38e8a67aae"
+    },
+    {
+      "path": "data/sources/本轮景区核验_7.txt",
+      "bytes": 26199,
+      "sha256": "754befcfa5257e4bce4f10c2f55078cb378805a527b9d0ec3371e94f7017d1aa"
+    },
+    {
+      "path": "data/sources/本轮联网检索_0.txt",
+      "bytes": 25836,
+      "sha256": "7cdfc8db3117c57d95e86b6d5080c20a028ebad7bb4894b6e4bb78778be1877c"
+    },
+    {
+      "path": "data/sources/本轮联网检索_1.txt",
+      "bytes": 26179,
+      "sha256": "e135bf44b58958ef814559124ed9b8b44ccc45ccb255d2413c1f42ab8140cd04"
+    },
+    {
+      "path": "data/sources/本轮逐家复核_0.txt",
+      "bytes": 25846,
+      "sha256": "83b7c25c1d25b52cb42378618f87cddd3a1d8ee3236e73ef126dc9eb75648e63"
+    },
+    {
+      "path": "data/sources/本轮逐家复核_1.txt",
+      "bytes": 26905,
+      "sha256": "819d3931b01889705d400e8db856e1e933af5b40abd0e9a25586056014c3f56b"
+    },
+    {
+      "path": "data/sources/本轮逐家复核_2.txt",
+      "bytes": 25823,
+      "sha256": "af1a3c89005d68ea8fc415263afdcb895aea620373e501b92e24b2628ff7f949"
+    },
+    {
+      "path": "data/sources/本轮逐家复核_3.txt",
+      "bytes": 24543,
+      "sha256": "bd5b239f4cc4d72dd0b07507a11998b8533f2f7630db27db74524dd040b54967"
+    },
+    {
+      "path": "data/sources/本轮逐家复核_4.txt",
+      "bytes": 26459,
+      "sha256": "25ff5063868ceb3b256c50909d238b4510a2b9c779765726ac576bc9903e354b"
+    },
+    {
+      "path": "data/sources/本轮逐家复核_6.txt",
+      "bytes": 26727,
+      "sha256": "b86fe447f66e9489e3e7653b5c9cc88ccc1c9ffc50073f2504ed51fb05f579c1"
+    },
+    {
+      "path": "data/sources/本轮逐家检索_1.txt",
+      "bytes": 27165,
+      "sha256": "39d6ceba410cfd2569d780c5c6db7a296011b73d29787e7910ec345db6459b1c"
+    },
+    {
+      "path": "data/sources/本轮逐家检索_2.txt",
+      "bytes": 26347,
+      "sha256": "416484495344d996284842cafc7e72a3a7cd6097ac14456acbd55f8ecd418bc2"
+    },
+    {
+      "path": "data/sources/本轮逐家检索_4.txt",
+      "bytes": 23719,
+      "sha256": "1fc75b798b937a0716907545027a0545491fcaf6eab9a6b49632616b8cf1bb2b"
     },
     {
       "path": "data/summary.json",
@@ -41,8 +226,8 @@
     },
     {
       "path": "data/全国5A景区主表.csv",
-      "bytes": 457458,
-      "sha256": "a4ba3866b05e07f8da5e699458394f7ddb97f8372b151b3c4796a59a78fe12be"
+      "bytes": 466713,
+      "sha256": "9d536b5cdb03dffe575ae6f7b84e019d86a99b7549faa601b7b9d5fab7d562d2"
     },
     {
       "path": "data/全国门票报告统计.csv",
@@ -51,13 +236,13 @@
     },
     {
       "path": "data/全国门票补全任务表.csv",
-      "bytes": 287491,
-      "sha256": "f40c1701e913a19addad3ca96e34f978a9889b97d1210663e9dee7af5e730698"
+      "bytes": 291491,
+      "sha256": "27d5349e9e6f6e40863e94626ac17ccbdfec10211d7dff717f1b52151da8d5c9"
     },
     {
       "path": "data/全国门票覆盖.csv",
-      "bytes": 27804,
-      "sha256": "2d26b6b9e8b6578ecdbf26a49d7a4d7d4ec2262963fd67163c7297373f99ea30"
+      "bytes": 31541,
+      "sha256": "067f45f74e0aa2968b3f522ff42f8a4923328dfec70a5c7ba0f3de2279f037c4"
     },
     {
       "path": "data/历史公开数量节点.csv",
@@ -101,8 +286,8 @@
     },
     {
       "path": "data/来源索引.csv",
-      "bytes": 11028,
-      "sha256": "b13efb87914eefe41ab18d203ed4706dbb783e56ff2c01a06148b27dac5f3a42"
+      "bytes": 17065,
+      "sha256": "1b513776ad29a4117b3bb6288bcb6b24f528d2330e8b2705e23492994ec6c165"
     },
     {
       "path": "data/现存名录认定年分布.csv",
@@ -125,29 +310,34 @@
       "sha256": "bb23b2c02d47166c83d6ca8b5b8e5e1f866248d1a40c8b740ac90ba7cdd63b9f"
     },
     {
+      "path": "data/联网补充票种.json",
+      "bytes": 32381,
+      "sha256": "5a1023f10463ca05a79b4edfc4ab8a3b6a38c1a58663c252a3d4bfe47677c681"
+    },
+    {
       "path": "data/门票产品核验.csv",
-      "bytes": 50661,
-      "sha256": "128d0fd23e79ad6ec032d0c20389dcd5416f52c19f4bcf96fdae49ec0cf3fa70"
+      "bytes": 80661,
+      "sha256": "a023575c90ce6bb34b3b45959c4aa0497eea07d8ab84c2ff64ac26c43b39e4b0"
     },
     {
       "path": "data/门票价格分布.csv",
-      "bytes": 93,
-      "sha256": "73add0097410b976389b6dd1ccd46662734c96c1c578a5fe26b20740f67e1a99"
+      "bytes": 94,
+      "sha256": "b3e5f48a191b4d6c05b72fbb2558e026c94b9607865464d780e99c918fc92200"
     },
     {
       "path": "data/门票核验样本.csv",
-      "bytes": 27726,
-      "sha256": "2a4990635ae28fccd8e4e582c4c86d97175b1c52954ac79062f6530357461f3b"
+      "bytes": 47000,
+      "sha256": "01b1ef1d35dc392adccb0c486385844a80a5d22a851cbd011e61446e82f9ddc4"
     },
     {
       "path": "data/验收结果.json",
-      "bytes": 1169,
-      "sha256": "ed63b11c228cf73d6ce09a0050874b361ef2a935edc5005aa0b3a1085cf80089"
+      "bytes": 1336,
+      "sha256": "edb69aa05263f76989ab9c5e779edd117965175930776e6878d4635b064cab5a"
     },
     {
       "path": "README.md",
-      "bytes": 3014,
-      "sha256": "e528764998f1eef418af3b7dfc65b708ee96776fa7d25e4945c846d44064a8db"
+      "bytes": 3109,
+      "sha256": "e46d08726769bf059382be05dc9f769d7b3a51a0322787a84a327069fbf9fe89"
     },
     {
       "path": "requirements.txt",
@@ -156,8 +346,8 @@
     },
     {
       "path": "scripts/chart_design.py",
-      "bytes": 18504,
-      "sha256": "1c09cfaa773c0403f35c6cc30eeac30857a2fd07a08be0393282f845177bc331"
+      "bytes": 18552,
+      "sha256": "9ba64d97ea144f2349f5e8361ebdb6bf232ff03ce89161608459ffb5ae60e29f"
     },
     {
       "path": "scripts/render_article_charts.py",
@@ -196,8 +386,8 @@
     },
     {
       "path": "图集/06_门票价格与收费口径.png",
-      "bytes": 223430,
-      "sha256": "fb295c1cfb77b752e3b54e3b08417be96956f702f1f9f63d8804fcf4179c2ccb"
+      "bytes": 227584,
+      "sha256": "c47b75bb77fa39946534d6e91f51823ba6614ac3969485331d8a96b9ef5a6912"
     },
     {
       "path": "图集/07_运营公司营收与利润.png",
@@ -211,8 +401,8 @@
     },
     {
       "path": "图集/图集总览.png",
-      "bytes": 632533,
-      "sha256": "bb11881ce4b0c3ec44ae55da3657e8b9021109f6e4c30015de326aa1fea33e3d"
+      "bytes": 632596,
+      "sha256": "ec1ea2576416ac32a6488ec7716f19394f246b2e1db178d2a9c6b58913944edf"
     },
     {
       "path": "文章配图/01_全国市级分布.png",
@@ -246,8 +436,8 @@
     },
     {
       "path": "文章配图/07_门票样本.png",
-      "bytes": 81336,
-      "sha256": "2187923816fe5c0d367aeb088d8b8b20cc8c63583cef84977b8bd9763f43cbee"
+      "bytes": 85094,
+      "sha256": "95f5e27f1840b95b31adcf6fcf8036048f8dc7a02e5b4c5bb5710733570d5892"
     },
     {
       "path": "文章配图/08_运营公司财务.png",
@@ -276,8 +466,8 @@
     },
     {
       "path": "研究说明.txt",
-      "bytes": 3336,
-      "sha256": "f10bdda7a0ae26ffd1b55207b8c0c68e383f8b0764eb0404ad2f84b3c635a49d"
+      "bytes": 3346,
+      "sha256": "3006ba502f525ef2d3264665f49fce4e9bbdc09db1e5a9abd8d44b6aabf79749"
     }
   ]
 }
