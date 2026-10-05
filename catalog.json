@@ -7,11 +7,11 @@
       "id": "5a-scenic-analysis",
       "title": "全国358家5A景区，哪里最多？门票多少钱，又靠什么赚钱？",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
       "source": "articles/2026-10-05-5a-scenic-analysis",
       "manifest": "物料清单.json",
       "download": "downloads/5a-scenic-analysis.zip",
-      "summary": "全国358家名录、省市和类型统计、18家票价与5家运营公司财务、8张高清横图与9张公众号图、绘图源码"
+      "summary": "全国358家名录、省市和类型统计、82家113个票种、14家公司财务与13项项目业务收入、8张高清横图与10张公众号图、绘图源码"
     },
     {
       "id": "etf-drawdown-recovery",

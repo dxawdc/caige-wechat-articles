@@ -58,7 +58,7 @@ def patches(geo,projected=True,main_only=False):
  return out
 def mapplot(f,rect,counts=None,label=True):
  a=f.add_axes(rect,facecolor=BG);a.set_axis_off();a.set_aspect('equal')
- colors=['#E8E9DE','#D9E4CC','#A7C3A0','#6D9E84','#397960','#18513E'];cmap=ListedColormap(colors);norm=BoundaryNorm([-.5,.5,1.5,3.5,5.5,8.5,20],6)
+ colors=['#FFFFFF','#D9E4CC','#A7C3A0','#6D9E84','#397960','#18513E'];cmap=ListedColormap(colors);norm=BoundaryNorm([-.5,.5,1.5,3.5,5.5,8.5,20],6)
  counts=counts if counts is not None else city.set_index('city_code')['count'].to_dict()
  for feat in features:
   code=int(feat['properties']['adcode']);a.add_collection(PatchCollection(patches(feat['geometry'],main_only=True),facecolor=cmap(norm(counts.get(code,0))),edgecolor=BG,linewidth=.20,zorder=2))
@@ -157,46 +157,37 @@ text(f,.15,.237,'分类规则',13,NAVY,'bold');text(f,.15,.177,'自然以主要�
 footer(f,['来源：文旅部景区名称和简介；全部358家单标签人工研究分类。主表保留原始简介与分类字段，方便按不同分类法复算。','这是作者分析口径，非文旅部官方类型认定；如把寺观、古镇、红色等合并为广义人文，分布会随分类框架变化。'])
 save(f,'05_景区类型分布')
 
-# 06 价格国有源历史全量均值 + 明示当前非随机样本。
-f=sheet(6,'门票多少钱？先分清买的是什么','官方常规成人票核验样本18家 / 覆盖5.0%｜旺季基本入园票或主参观线路，不计交通、园中园和演出')
-kpi(f,.07,.737,'68元','全国5A门票公开报告均价','2023年数据；2025年转载发布')
-kpi(f,.32,.737,f'{price.adult_peak_regular_yuan.mean():.1f}元','18家样本均价','非随机样本，不外推全国')
-kpi(f,.57,.737,f'{price.adult_peak_regular_yuan.median():g}元','18家样本中位数','按旺季常规公布价计算')
-kpi(f,.81,.737,'3家','样本基本游览免费','免费入园仍可含付费项目')
-p=price.sort_values('adult_peak_regular_yuan',ascending=False);a=ax(f,[.15,.128,.43,.455],'样本价格排名 / 元');barh(a,p.short_name.tolist(),p.adult_peak_regular_yuan.tolist(),[RED if n==200 else GREEN if n>0 else '#A4B997' for n in p.adult_peak_regular_yuan],245,fs=9)
-for i,(_,r) in enumerate(p.iterrows()):
- if pd.notna(r.adult_low_regular_yuan):a.plot(r.adult_low_regular_yuan,i,'o',ms=3.5,color=GOLD)
-a.plot([],[],'o',color=GOLD,label='已核验淡季价');a.legend(loc='lower right',fontsize=8,frameon=False)
+# 06 价格产品范围与基础票分布。
+ev=json.loads((D/'evidence_summary.json').read_text('utf-8'))
+f=sheet(6,'门票多少钱？先分清买的是什么',f"覆盖{ev['price_entity_covered_n']}家、{ev['price_product_n']}个产品｜其中{len(price)}家基础票可计算；子景点、含交通票及活动分别记录")
+kpi(f,.07,.737,f"{ev['price_entity_covered_n']}家",'有票种核验资料',f"全国实体覆盖{ev['price_entity_coverage_pct']:.1f}%")
+kpi(f,.32,.737,f'{price.adult_peak_regular_yuan.mean():.1f}元','基础票样本均价','非随机样本；各来源公布标准')
+kpi(f,.57,.737,f'{price.adult_peak_regular_yuan.median():g}元','基础票样本中位数','来源时间不同，非同日实时售价')
+kpi(f,.81,.737,f"{ev['free_sample_n']}家",'基础入园免费','付费展馆等另计')
 freq=[int((price.adult_peak_regular_yuan==0).sum())]+[int(((price.adult_peak_regular_yuan>lo)&(price.adult_peak_regular_yuan<=hi)).sum()) for lo,hi in [(0,50),(50,100),(100,150),(150,200)]]
-histax=ax(f,[.665,.43,.275,.14],'18家样本价格分布 / 家');histax.grid(False);histax.bar(range(5),freq,color=[GREEN,'#83A88E','#83A88E','#83A88E',RED],width=.58);histax.set_xticks(range(5),['免费','1–50','51–100','101–150','151–200'],fontsize=7.5);histax.set_ylim(0,max(freq)+2);histax.set_yticks([])
-for i,vv in enumerate(freq):histax.text(i,vv+.2,str(vv),ha='center',fontsize=9)
-text(f,.665,.362,'样本上限 · 200元',14,RED,'bold');text(f,.665,.33,'布达拉宫旺季一号线；二号线100元。',9,MUTED)
-text(f,.665,.282,'样本下限 · 0元',14,GREEN,'bold');text(f,.665,.249,'天涯海角、大小洞天、南浔古镇基本游览。',9,MUTED)
-text(f,.665,.187,'九寨沟：190＋90＝280元',14,NAVY,'bold');text(f,.665,.151,'旺季门票＋观光车；门票与项目消费分开看。',9,MUTED)
-footer(f,['来源：资源开发司《中国旅游景区发展报告便览（2023—2024年）》经中国游艺机游乐园协会转载；18家样本来自景区/政府公布页。','68元是报告历史统计；83.1元是本次非随机样本均值。样本最高/最低均不作为全国极值；来源日期、淡旺季及收费范围逐条见数据表。'])
+a=ax(f,[.15,.23,.36,.35],'55家基础票标准分布 / 家');barh(a,['免费','1–50元','51–100元','101–150元','151–200元'],freq,xmax=max(freq)+4,fs=13)
+text(f,.59,.575,'免费基础入园',18,GREEN,'bold');text(f,.59,.525,'南浔、大小洞天、天涯海角、岳麓山·橘子洲、\n花明楼、东湖公共景区；可选项目收费另看。',11,linespacing=1.9)
+text(f,.59,.398,'一张基础票 ≠ 完成一次游览',18,NAVY,'bold');text(f,.59,.341,'九寨沟：旺季门票190元＋观光车90元。\n青岩：大门票10元；参观套票60元。\n稻城亚丁：2026年8月起临时免费，有效期复核。',11,linespacing=2)
+text(f,.59,.174,'200元是基础票样本最高，不是全国最高价。',11,RED)
+footer(f,['来源：景区及政府价格目录；票种、公布日期、有效期与计入统计范围逐条记录在CSV。','联合挂牌的子景点、联票和含交通产品不计入基础票均价；历史全国2023年均价68元与本样本不可直接比较。'])
 save(f,'06_门票价格与收费口径')
 
-# 07 运营公司，不能冒充景区收入。
-f=sheet(7,'景区相关公司，靠什么赚钱？','5家上市运营公司样本｜2025年报披露的2023—2025比较数据；全部按公司合并口径，非全国景区收入排行')
-companies=fin[fin.year==2025].sort_values('revenue_yuan',ascending=False).company.tolist()
-a=ax(f,[.07,.415,.47,.31],'营业收入 / 亿元');a.grid(axis='y',color=GRID);a.grid(axis='x',visible=False);x=np.arange(5)
-for i,(year,col) in enumerate([(2023,'#C7D4BB'),(2024,'#709D82'),(2025,GREEN)]):
- vals=fin[fin.year==year].set_index('company').loc[companies,'revenue_yi'];a.bar(x+(i-1)*.24,vals,width=.22,color=col,label=str(year))
- if year==2025:
-  for xx,v in zip(x+.24,vals):a.text(xx,v+.45,f'{v:.2f}',ha='center',fontsize=9,weight='bold')
-a.set_xticks(x,companies,fontsize=10);a.set_ylim(0,25);a.legend(loc='upper right',frameon=False,fontsize=9)
-a=ax(f,[.64,.415,.30,.31],'2025归母与扣非归母利润 / 亿元');a.grid(axis='y',color=GRID);a.grid(axis='x',visible=False);v=fin[fin.year==2025].set_index('company').loc[companies]
-a.bar(x-.17,v.net_profit_yi,width=.32,color=GREEN,label='归母净利润');a.bar(x+.17,v.adjusted_net_profit_yi,width=.32,color=GOLD,label='扣非归母净利润');a.axhline(0,color=MUTED,lw=.7);a.set_xticks(x,companies,rotation=25,fontsize=8.5);a.set_ylim(-.75,3.7);a.legend(frameon=False,fontsize=8,loc='upper right')
-text(f,.07,.298,'峨眉山A · 2025收入构成',14,NAVY,'bold');text(f,.07,.263,'索道41.8% ＞ 游山门票27.0%',18,GREEN,'bold')
-a=f.add_axes([.07,.197,.47,.036],facecolor=BG);left=0
-for (_,r),co in zip(seg.iterrows(),[GREEN,'#83A88E',GOLD,'#C6C9B8']):a.barh(0,r.share_pct,left=left,color=co,height=1);left+=r.share_pct
-a.set_xlim(0,100);a.set_axis_off()
-text(f,.07,.151,'索道41.8% · 门票27.0% · 酒店17.5% · 其他13.7%',9,MUTED)
-text(f,.64,.292,'收入增长，利润未必同向',14,NAVY,'bold');text(f,.64,.239,'黄山旅游：收入增长9.23%，归母利润下降7.15%。',10,MUTED)
-text(f,.64,.19,'桂林旅游：归母利润0.11亿元，扣非为−0.47亿元。',10,MUTED)
-text(f,.64,.141,'公司有多业务与会计差异，不能拿营收直接除客流。',10,MUTED)
-footer(f,['来源：黄山旅游、峨眉山A、丽江股份、天目湖、桂林旅游2025年报/年报摘要（巨潮资讯、深交所、上交所）；PDF页码见财务表。','门票分成、索道、酒店、餐饮等业务边界不同；样本不代表全国5A景区总营收或单个景区收入，归母利润/营收也不等同集团整体净利率。'])
+# 07 财务覆盖14家公司，12家旅游运营公司比较，2家多元集团另列。
+f=sheet(7,'景区相关公司，靠什么赚钱？','14家公司 × 2023—2025年报比较｜公司合并口径，业务范围逐家核验；不作为全国5A收入排行')
+companies=fin[(fin.year==2025)&(fin.comparison_group=='旅游运营公司')].sort_values('revenue_yi',ascending=False).company.tolist();y=np.arange(len(companies))
+a=ax(f,[.14,.18,.30,.54],'营业收入 / 亿元')
+for j,(year,col) in enumerate([(2023,'#C7D4BB'),(2024,'#709D82'),(2025,GREEN)]):
+    vals=fin[fin.year==year].set_index('company').loc[companies,'revenue_yi'];a.barh(y+(j-1)*.23,vals,height=.20,color=col,label=str(year))
+    if year==2025:
+        for i,v in enumerate(vals):a.text(v+.25,y[i]+.23,f'{v:.2f}',va='center',fontsize=9)
+a.set_yticks(y,companies,fontsize=11);a.invert_yaxis();a.set_xlim(0,26);a.legend(loc='lower right',frameon=False,fontsize=8,ncol=3)
+a=ax(f,[.61,.18,.31,.54],'2025年归母与扣非归母利润 / 亿元');v=fin[fin.year==2025].set_index('company').loc[companies]
+a.barh(y-.16,v.net_profit_yi,height=.30,color=GREEN,label='归母净利润');a.barh(y+.16,v.adjusted_net_profit_yi,height=.30,color=GOLD,label='扣非归母净利润');a.axvline(0,color=MUTED,lw=.7);a.set_yticks(y,companies,fontsize=10);a.invert_yaxis();a.set_xlim(-7,4);a.legend(frameon=False,fontsize=8,loc='lower left')
+text(f,.07,.105,'多元集团另列：中青旅2025年合并营收113.37亿元；华侨城A313.81亿元。含旅行社、地产等业务。',11,NAVY)
+footer(f,['来源：14家公司2025年年度报告；精确数值、相关景区、公司合并范围和PDF页码见CSV。','另提供13项经营主体/业务分部收入，不能与公司合并收入加总；三特索道审计带强调事项段。'])
 save(f,'07_运营公司营收与利润')
+
+
 
 # 08 更多可以由全量名录推得的有趣问题。
 f=sheet(8,'还有哪些值得继续挖的数据？','先用完整名录回答供给结构，再用相同统计范围研究票价、客流与商业模式')

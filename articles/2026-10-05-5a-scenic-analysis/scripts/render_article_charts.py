@@ -67,7 +67,7 @@ def patches(geo, projected=True, main=False):
 
 f=sheet('全国358家，分布在哪里？','市级统计示意 · 220个单位有5A',6.3)
 a=f.add_axes([.025,.19,.95,.54],facecolor=BG);a.set_axis_off();a.set_aspect('equal')
-colors=['#E6E8DB','#D3E2C5','#A3C39A','#6A9D7D','#37775B','#174F3C']
+colors=['#FFFFFF','#D3E2C5','#A3C39A','#6A9D7D','#37775B','#174F3C']
 cmap=ListedColormap(colors);norm=BoundaryNorm([-.5,.5,1.5,3.5,5.5,8.5,20],6)
 features=json.loads((D/'city_features.json').read_text('utf-8'))['features']
 country=json.loads((D/'sources/china_national.json').read_text('utf-8'))['features']
@@ -143,29 +143,37 @@ a=axis(f,[.25,.18,.59,.54]);bars(a,types.category.tolist(),types['count'].tolist
 a.set_xticks([0,50,100,150])
 f.text(.07,.10,'每家景区只归入1个主类别，共358家。',fontsize=12,color=GRAY);save(f,'06_景区类型')
 
-ps=price.sort_values('adult_peak_regular_yuan',ascending=False,kind='stable')
-f=sheet('18家票价样本：0至200元','常规旺季基础票 · 非随机样本',9)
-f.text(.08,.785,f'样本均价 {price.adult_peak_regular_yuan.mean():.1f}元    中位数 {price.adult_peak_regular_yuan.median():.0f}元',fontsize=17,color=GREEN,weight='bold')
-a=axis(f,[.25,.22,.58,.53]);bars(a,ps.short_name.tolist(),ps.adult_peak_regular_yuan.tolist(),250,fs=14,fmt=lambda v:f'{v:g}')
-a.set_xticks([0,50,100,150,200]);a.set_xlabel('成人基础门票 / 元',fontsize=13)
-f.text(.07,.10,'0元指基础入园；交通、索道等另计。\n布达拉宫采用旺季一号线，非全国最高价排名。',fontsize=11,color=GRAY,linespacing=1.6)
+ev=json.loads((D/'evidence_summary.json').read_text('utf-8'))
+freq=[int((price.adult_peak_regular_yuan==0).sum())]+[int(((price.adult_peak_regular_yuan>lo)&(price.adult_peak_regular_yuan<=hi)).sum()) for lo,hi in [(0,50),(50,100),(100,150),(150,200)]]
+f=sheet(f'{len(price)}家基础票，怎样分布？',f"票种资料覆盖{ev['price_entity_covered_n']}家 · {ev['price_product_n']}个产品",9)
+f.text(.08,.795,f'样本均价 {price.adult_peak_regular_yuan.mean():.1f}元   中位数 {price.adult_peak_regular_yuan.median():g}元',fontsize=16,color=GREEN,weight='bold')
+a=axis(f,[.28,.49,.55,.25]);bars(a,['免费','1–50元','51–100元','101–150元','151–200元'],freq,max(freq)+5,fs=15,fmt=lambda v:f'{v:g}家')
+a.set_xticks([])
+f.text(.08,.405,'基础入园免费',fontsize=18,color=GREEN,weight='bold')
+f.text(.08,.38,'南浔、大小洞天、天涯海角、\n岳麓山·橘子洲、花明楼、东湖公共景区',fontsize=14,color=DARK,linespacing=1.9,va='top')
+f.text(.08,.235,'便宜的入园票，可能只覆盖一部分体验',fontsize=15,color=DARK,weight='bold')
+f.text(.08,.21,'青岩大门票10元、参观套票60元；\n天坛入园15元、旺季联票34元。',fontsize=13,color=GRAY,linespacing=1.8,va='top')
+f.text(.08,.115,'55家为来源公布的基础票标准，非全国均价。\n子景点、含车船套票与临时活动分开记录。',fontsize=11,color=GRAY,linespacing=1.8,va='top')
 save(f,'07_门票样本')
 
-companies=['黄山旅游','峨眉山A','丽江股份','天目湖','桂林旅游']
-f=sheet('公司的营收，不等于景区门票','5家上市运营公司 · 合并报表口径',9)
-a=axis(f,[.23,.51,.64,.29]); y=np.arange(5)
+companies=fin[(fin.year==2025)&(fin.comparison_group=='旅游运营公司')].sort_values('revenue_yi',ascending=False).company.tolist()
+f=sheet('14家公司，三年的经营账本','图中比较12家旅游运营公司 · 集团另列',14.5)
+a=axis(f,[.26,.54,.60,.32]);y=np.arange(len(companies))
 for j,(year,col) in enumerate(zip([2023,2024,2025],['#C8D9B9','#8BAC90',GREEN])):
     v=fin[fin.year==year].set_index('company').loc[companies,'revenue_yi'].to_numpy()
     a.barh(y+(j-1)*.23,v,height=.20,color=col,label=str(year))
     if year==2025:
-        for i,val in enumerate(v):a.text(val+.3,y[i]+.23,f'{val:.2f}',fontsize=12,color=DARK,va='center')
-a.set_yticks(y,companies,fontsize=14);a.invert_yaxis();a.set_xlim(0,26);a.set_xticks([0,10,20]);a.set_title('营业收入 / 亿元',loc='left',fontsize=16,pad=15,color=DARK);a.legend(loc='lower right',fontsize=10,frameon=False,ncol=3)
-a=axis(f,[.23,.13,.64,.27]);a.axvline(0,color=GRAY,lw=.7);f25=fin[fin.year==2025].set_index('company').loc[companies]
-for j,(colkey,col,label) in enumerate([('net_profit_yi',GREEN,'归母净利润'),('adjusted_net_profit_yi',GOLD,'扣非归母净利润')]):
-    v=f25[colkey].to_numpy();a.barh(y+(j-.5)*.29,v,height=.24,color=col,label=label)
-    for i,val in enumerate(v):a.text(val+.05 if val>=0 else val-.05,y[i]+(j-.5)*.29,f'{val:.2f}',va='center',ha='left' if val>=0 else 'right',fontsize=11,color=DARK)
-a.set_yticks(y,companies,fontsize=14);a.invert_yaxis();a.set_xlim(-.95,3.7);a.set_xticks([-1,0,1,2,3]);a.set_title('2025年利润 / 亿元',loc='left',fontsize=16,pad=15,color=DARK);a.legend(loc='lower right',fontsize=10,frameon=False)
-f.text(.07,.075,'来源：各公司2025年年报（含前期对比数）',fontsize=12,color=GRAY);save(f,'08_运营公司财务')
+        for i,val in enumerate(v):a.text(val+.25,y[i]+.23,f'{val:.2f}',fontsize=11,color=DARK,va='center')
+a.set_yticks(y,companies,fontsize=13);a.invert_yaxis();a.set_xlim(0,26);a.set_xticks([0,10,20]);a.set_title('营业收入 / 亿元',loc='left',fontsize=16,pad=15,color=DARK);a.legend(loc='lower right',fontsize=10,frameon=False,ncol=3)
+a=axis(f,[.26,.18,.60,.28]);a.axvline(0,color=GRAY,lw=.7);f25=fin[fin.year==2025].set_index('company').loc[companies]
+for j,(key,col,label) in enumerate([('net_profit_yi',GREEN,'归母净利润'),('adjusted_net_profit_yi',GOLD,'扣非归母净利润')]):
+    v=f25[key].to_numpy();a.barh(y+(j-.5)*.29,v,height=.24,color=col,label=label)
+    for i,val in enumerate(v):a.text(val+.09 if val>=0 else val-.09,y[i]+(j-.5)*.29,f'{val:.2f}',va='center',ha='left' if val>=0 else 'right',fontsize=10,color=DARK)
+a.set_yticks(y,companies,fontsize=13);a.invert_yaxis();a.set_xlim(-7,4.6);a.set_xticks([-6,-3,0,3]);a.set_title('2025年利润 / 亿元',loc='left',fontsize=16,pad=15,color=DARK);a.legend(loc='lower left',fontsize=9,frameon=False)
+f.text(.08,.12,'多元集团2025年合并营收：\n中青旅113.37亿元；华侨城A313.81亿元',fontsize=14,color=DARK,linespacing=1.8)
+f.text(.08,.065,'集团含旅行社、地产等；上述数字均非5A全区收入。\n各公司范围不同，详见CSV；三特审计带强调事项段。',fontsize=11,color=GRAY,linespacing=1.8)
+save(f,'08_运营公司财务')
+
 
 f=sheet('索道收入，高于游山门票','峨眉山A · 2025年公司营业收入构成',5.8)
 a=axis(f,[.29,.30,.57,.36]);labels=['索道','游山门票','酒店','其他业务'];values=seg.revenue_wan.to_numpy()/10000
@@ -174,13 +182,25 @@ a.set_xticks([0,1,2,3,4]);a.set_xlabel('营业收入 / 亿元',fontsize=13)
 f.text(.07,.15,'索道占41.8%   游山门票占27.0%',fontsize=16,color=GREEN,weight='bold')
 f.text(.07,.09,'游山门票采用公司年报收入确认口径。',fontsize=11,color=GRAY);save(f,'09_峨眉山收入结构')
 
+projects=pd.read_csv(D/'景区相关项目与业务收入.csv')
+f=sheet('把收入进一步拆到经营项目','2025年 · 5项经营主体与8项业务分部',12.8)
+for kind,rect,title in [('经营主体',[.40,.56,.43,.25],'经营主体收入 / 亿元'),('业务分部',[.40,.15,.43,.27],'业务分部收入 / 亿元')]:
+    p=projects[projects.scope_type==kind].sort_values('revenue_yi',ascending=False)
+    a=axis(f,rect);bars(a,p.project.tolist(),p.revenue_yi.tolist(),p.revenue_yi.max()*1.25,fs=12,fmt=lambda v:f'{v:.2f}')
+    a.set_title(title,loc='left',fontsize=16,pad=18,color=DARK);a.set_xticks([0,5,10,15] if kind=='经营主体' else [0,1,2,3,4])
+f.text(.07,.505,'乌镇公司含房产去化，非纯门票收入。\n索道等经营主体也不代表所在5A全区收入。',fontsize=12,color=GRAY,linespacing=1.8,va='top')
+f.text(.07,.078,'两组范围不同，含上下级项目；不能加总或视作全国排行。',fontsize=11,color=GRAY)
+save(f,'10_项目与业务收入')
+
 # 用于逐张验收的缩略总览，不插入正文。
+
+
 thumbs=[]
 for p in sorted(OUT.glob('[0-9][0-9]_*.png')):
     im=Image.open(p).convert('RGB');tile=Image.new('RGB',(400,680),BG)
     th=ImageOps.contain(im,(390,635));tile.paste(th,((400-th.width)//2,15))
     ImageDraw.Draw(tile).text((15,653),p.stem,fill=DARK)
     thumbs.append(tile)
-canvas=Image.new('RGB',(1200,2040),BG)
+canvas=Image.new('RGB',(1200,680*((len(thumbs)+2)//3)),BG)
 for i,t in enumerate(thumbs):canvas.paste(t,((i%3)*400,(i//3)*680))
 check=ROOT/'验收';check.mkdir(exist_ok=True);canvas.save(check/'文章图表总览.jpg',quality=92)

@@ -1,5 +1,5 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "updated": "2026-10-05",
   "material_policy": "latest-complete-set-only",
   "entrypoint": "scripts/render_article_charts.py",
@@ -8,6 +8,11 @@
       "path": "data/city_features.json",
       "bytes": 3616357,
       "sha256": "ec1bf876b9070165967b509c979126fa448af50ff41a6078bbad7ed3ae86efd5"
+    },
+    {
+      "path": "data/evidence_summary.json",
+      "bytes": 469,
+      "sha256": "ac0861026e90688e4ce43a0d80e2c20b07f76cd0524c1d4cbd5aafa67376f0ba"
     },
     {
       "path": "data/sources/china_boundaries.json",
@@ -26,8 +31,8 @@
     },
     {
       "path": "data/上市运营公司财务样本.csv",
-      "bytes": 5162,
-      "sha256": "93d69ca3491cf3830163734d2e49fb8b91bd4488f6b7f781d0c5bd02bd04152e"
+      "bytes": 15086,
+      "sha256": "bc332827c0b1a5ddffca9d84a62a1dc3e33d224927f98957ef101d6acf222b7b"
     },
     {
       "path": "data/代表点输入.csv",
@@ -36,13 +41,18 @@
     },
     {
       "path": "data/全国5A景区主表.csv",
-      "bytes": 454260,
-      "sha256": "89c5490d6bbf48012f178b1bbfc13fc85da9b6629c8083057b3686ea90df32b6"
+      "bytes": 456917,
+      "sha256": "56e904b3be34db46cd1945954d25f45ad73528f7b4bb824646e11edfe1080b3d"
     },
     {
       "path": "data/全国门票报告统计.csv",
       "bytes": 251,
       "sha256": "37e940e5a229beb59a71b3a6987fb5b5f34762a78e20ea7087caefb467002d4b"
+    },
+    {
+      "path": "data/全国门票覆盖.csv",
+      "bytes": 27408,
+      "sha256": "137a831c617c95f776261b2fb23e30761273e2e929e93c4017c06988171c939b"
     },
     {
       "path": "data/历史公开数量节点.csv",
@@ -70,6 +80,11 @@
       "sha256": "ecbbc54cbc3255e9ba7212e845443760a26047ef6856aac507ed968075e81c20"
     },
     {
+      "path": "data/景区相关项目与业务收入.csv",
+      "bytes": 4019,
+      "sha256": "289e62c5f44a32e083760d507ce40d476b18e0787c459aebad1fc5c5ba67555e"
+    },
+    {
       "path": "data/景区类型数量.csv",
       "bytes": 584,
       "sha256": "4684c5f942c3602a203a01e4f809864fe9ba98720eef31e1bfd46994b1161ef4"
@@ -81,8 +96,8 @@
     },
     {
       "path": "data/来源索引.csv",
-      "bytes": 7381,
-      "sha256": "8a3911d9fb13e3d14e9ef09b0c8e6eddd0c52e57d1de642664285ea33584ce4b"
+      "bytes": 10709,
+      "sha256": "49c3fc70a5f63f0505f9f634c5982cb3f9098c487d38757642d12f931e8ed6f6"
     },
     {
       "path": "data/现存名录认定年分布.csv",
@@ -105,19 +120,29 @@
       "sha256": "bb23b2c02d47166c83d6ca8b5b8e5e1f866248d1a40c8b740ac90ba7cdd63b9f"
     },
     {
+      "path": "data/门票产品核验.csv",
+      "bytes": 47759,
+      "sha256": "e23c810655c2cbcad5d268d471f804d4734e892b6d2d7d8c4e07ea4f15cf35fc"
+    },
+    {
+      "path": "data/门票价格分布.csv",
+      "bytes": 93,
+      "sha256": "f8f26a43a128bb0c9d7ba34e574446ac794eee9c0514648c58db13920038f2c5"
+    },
+    {
       "path": "data/门票核验样本.csv",
-      "bytes": 6916,
-      "sha256": "d059a2f952d35d0fcd483b66ef4d064bb339db79c1abdde3cc42d80392cf67e9"
+      "bytes": 26642,
+      "sha256": "c08d8822a1dbee48b8e3853dfbdfffe6ac028bde1e33f21f706e901e04a49f0a"
     },
     {
       "path": "data/验收结果.json",
-      "bytes": 1083,
-      "sha256": "d1807e9133aacf61f118d340f420c9102b24afac3dd24f89bfd2b079f31fbf8b"
+      "bytes": 1017,
+      "sha256": "b3ddeb5f2e9ccd9b991bc6ac9c014eee8376d1644a4db91569a87712b1025baa"
     },
     {
       "path": "README.md",
-      "bytes": 2644,
-      "sha256": "8ff1ed87b25636301aba28abe39df6f386bc4eee5a8046d6e0dd4fac477af197"
+      "bytes": 2974,
+      "sha256": "f83491b7de35d26bff3f20e318f3311294ba0204f38008b9a00aa77d61136abe"
     },
     {
       "path": "requirements.txt",
@@ -126,18 +151,18 @@
     },
     {
       "path": "scripts/render_article_charts.py",
-      "bytes": 13834,
-      "sha256": "53dd9127fb4eb244957e95bf1ad20947133ad59cb8086997424a2f9b09618b8b"
+      "bytes": 16050,
+      "sha256": "585ffae6520866e2dfc426bf34e59d4ab7e8105982ec263dc7d3ddfd76547d48"
     },
     {
       "path": "scripts/render_charts.py",
-      "bytes": 23547,
-      "sha256": "f3aacf6d717dd1b3f25faf8ec92f457315380afa3c6301b5f0b1486d019e5dbc"
+      "bytes": 22447,
+      "sha256": "9662526a8ff5ea266aebffccfe42d058d4324d361c3aafbdab1596dbf927882f"
     },
     {
       "path": "图集/01_全国市级热力地图.png",
-      "bytes": 756636,
-      "sha256": "b011d285aa6cd8978bcb70f333fc46c1c8293566adcbe7c07f8df174ad48d2d7"
+      "bytes": 772909,
+      "sha256": "bb2d0d91ccecb0f838467ae192accdc188ea9b63e83e90f116f7051b1c9ecff0"
     },
     {
       "path": "图集/02_认定年份与历史数量.png",
@@ -146,8 +171,8 @@
     },
     {
       "path": "图集/03_最新批次19家.png",
-      "bytes": 787910,
-      "sha256": "1323d8ffafa1416b184224916172e6e8e5504c60e35765cb453219094dc8ddd0"
+      "bytes": 826743,
+      "sha256": "5f5bd2326c1e5fae070e5ac83128a52c6b3dcfe03e12f2d3369218bd1e1f5bb0"
     },
     {
       "path": "图集/04_省市集中度帕累托图.png",
@@ -161,13 +186,13 @@
     },
     {
       "path": "图集/06_门票价格与收费口径.png",
-      "bytes": 450269,
-      "sha256": "a8a7fa3664c173fb02785316b980cb034e2474c97e2a7a408106ba3602119265"
+      "bytes": 405246,
+      "sha256": "10edd701627cc55692a53618d7bb236d3f0ce87c8a3a1ce412ec05163b3e15f9"
     },
     {
       "path": "图集/07_运营公司营收与利润.png",
-      "bytes": 399928,
-      "sha256": "2a7cab9e833708890491622ce05e18a176e0abb54380cf4a61ca56e8f0c1bc75"
+      "bytes": 368975,
+      "sha256": "3ae8ddf6fa74497f79f71e8196a6ad379a28413c94cde6c81ed65d0472adc90f"
     },
     {
       "path": "图集/08_景观结构与有趣发现.png",
@@ -176,13 +201,13 @@
     },
     {
       "path": "图集/图集总览.png",
-      "bytes": 1059265,
-      "sha256": "80414737622142c007ded7f17678d43e2eac57d867fe71d48876373449bb24d9"
+      "bytes": 1045963,
+      "sha256": "cf7445e502233e80395b3b777165199c9838cf518e836a7498538a3ebe13a082"
     },
     {
       "path": "文章配图/01_全国市级分布.png",
-      "bytes": 294961,
-      "sha256": "fce99ce66d98dd47f37f72d39b9f51769c47568d8d18b0cc6da83eda5ef704c6"
+      "bytes": 304628,
+      "sha256": "028cf094aac238280ad286ac6f458fc423d23b3d741830b319921b8098958ef1"
     },
     {
       "path": "文章配图/02_各省级地区数量.png",
@@ -211,18 +236,23 @@
     },
     {
       "path": "文章配图/07_门票样本.png",
-      "bytes": 194718,
-      "sha256": "ed6a1e82648010075a3a5d495cd9887a482e50a970335974863811db9718a0c5"
+      "bytes": 197017,
+      "sha256": "fdeeb4400e41a1712934af287d53315d6e01614d559ac0dfad4fa1d5f7f1efa0"
     },
     {
       "path": "文章配图/08_运营公司财务.png",
-      "bytes": 180142,
-      "sha256": "29cb1ecc3ee1a52d00ffa14724857829e833949f385f27f2ccbad3a9855eafcd"
+      "bytes": 321715,
+      "sha256": "195ab12d88d9a1fb904947ab2a1ae44fa2fd103a31c9c08d313f80c4451e3e7a"
     },
     {
       "path": "文章配图/09_峨眉山收入结构.png",
       "bytes": 112773,
       "sha256": "d9aa000769121ad6531fe53094e672ac98510e03f89c786822d4c4a3e61df690"
+    },
+    {
+      "path": "文章配图/10_项目与业务收入.png",
+      "bytes": 253387,
+      "sha256": "ea15365af2963238dac730debb0cc1567b39cdbca6ddfb04a3fe87745591134f"
     },
     {
       "path": "文章配图/文末动图.gif",
@@ -236,8 +266,8 @@
     },
     {
       "path": "研究说明.txt",
-      "bytes": 7387,
-      "sha256": "1aa146a02a6edbd5b5031b282d5aa9d4a251427585a860a8cd20437b5dec6e82"
+      "bytes": 3262,
+      "sha256": "87b8653e443a7bae4a351384dc00f00a7c486010af2757b434a8505b31860b8b"
     }
   ]
 }
