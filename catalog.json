@@ -7,10 +7,10 @@
       "id": "etf-drawdown-recovery",
       "title": "ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "source": "articles/2026-10-05-etf-drawdown-recovery",
       "manifest": "物料清单.json",
-      "download": "downloads/etf-drawdown-recovery_v1.0.0.zip",
+      "download": "downloads/etf-drawdown-recovery_v1.0.1.zip",
       "summary": "16只ETF近一年价格、最大回撤与修复记录、114次事件、5组PNG/SVG和采集计算绘图源码"
     },
     {

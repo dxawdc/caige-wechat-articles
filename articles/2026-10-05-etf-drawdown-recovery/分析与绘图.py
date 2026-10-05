@@ -9,6 +9,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib import font_manager
+from matplotlib.transforms import Bbox
 from 回撤计算 import max_drawdown_record, drawdown_events
 
 ROOT = Path(__file__).resolve().parent
@@ -54,29 +55,64 @@ def tests():
 def example_chart(code,frames,records,name,override=None):
     f=frames[code]; r=override if override is not None else records[code]
     p=f.close/r['peak_close']*100
-    fig,ax=plt.subplots(figsize=(11,6),facecolor='white')
-    fig.subplots_adjust(left=.09,right=.94,top=.75,bottom=.17)
+    fig,ax=plt.subplots(figsize=(11,6.5),facecolor='white')
+    # 编号标记真实节点；文字就近放在空白处，并以引导线连接。
+    fig.subplots_adjust(left=.09,right=.94,top=.75,bottom=.18)
     style(ax); ax.grid(axis='y',color=GRID,lw=.7)
-    ax.plot(f.date,p,color=BLUE,lw=2.3)
-    ax.axhline(100,color=INK,lw=1,ls='--',label='该次回撤高点 = 100')
+    curve,=ax.plot(f.date,p,color=BLUE,lw=2.3)
+    baseline=ax.axhline(100,color=INK,lw=1,ls='--')
     ax.set_xlim(f.date.iloc[0]-pd.Timedelta(days=8),f.date.iloc[-1]+pd.Timedelta(days=18))
-    ax.xaxis.set_major_locator(mdates.MonthLocator(interval=2))
+    ticks=[f.date.iloc[0], *pd.date_range('2025-12-01','2026-08-01',freq='2MS'), f.date.iloc[-1]]
+    ax.set_xticks(ticks)
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
     ax.set_ylabel('前复权收盘价 / 该次高点 × 100')
-    lo,hi=float(p.min()),float(p.max()); ax.set_ylim(lo-(hi-lo)*.22,hi+(hi-lo)*.28)
-    for key,label,color,offset in [('peak_i','高点',GOLD,(-70,22)),('trough_i','低点',BLUE,(-20,-34)),('recovery_i','首次修复',GOLD,(12,22))]:
-        i=r.get(key)
-        if i is None:continue
-        ax.scatter(f.date.iloc[i],p.iloc[i],s=55,color=color,edgecolors='white',zorder=5)
-        ax.annotate(f'{label} {f.date.iloc[i]:%m-%d}\n{p.iloc[i]:.1f}',(f.date.iloc[i],p.iloc[i]),xytext=offset,textcoords='offset points',fontsize=10,color=INK,arrowprops={'arrowstyle':'-','color':'#AEBAC3'})
-    if r['status']=='尚未修复':
-        ax.scatter(f.date.iloc[-1],p.iloc[-1],s=45,facecolors='white',edgecolors=GOLD,zorder=5)
-        ax.annotate('截至09-30尚未修复',(f.date.iloc[-1],p.iloc[-1]),xytext=(-138,20),textcoords='offset points',color=INK,fontsize=10)
+    lo,hi=float(p.min()),float(p.max()); ax.set_ylim(lo-(hi-lo)*.35,hi+(hi-lo)*.28)
+    end_i=r.get('recovery_i')
+    nodes=[(r['peak_i'],'高点',GOLD),(r['trough_i'],'低点',BLUE),
+           (end_i if end_i is not None else len(f)-1,
+            '首次修复' if end_i is not None else '观察截止 · 尚未修复',GOLD)]
+    points=[]
+    for number,(i,label,color) in enumerate(nodes,1):
+        is_open=number==3 and end_i is None
+        ax.scatter(f.date.iloc[i],p.iloc[i],s=220,facecolors='white' if is_open else color,
+                   edgecolors=color if is_open else 'white',linewidths=1.5,zorder=5)
+        ax.annotate(str(number),(f.date.iloc[i],p.iloc[i]),ha='center',va='center',
+                    fontsize=9,weight='bold',color=color if is_open else 'white',zorder=6)
+        points.append(ax.transData.transform((mdates.date2num(f.date.iloc[i]),p.iloc[i])))
     label='一次已修复回撤' if override is not None else '窗口最大回撤事件'
     fig.suptitle(f'{r["name"]}（{code}）：'+label,x=.06,ha='left',y=.96,fontsize=22,weight='bold',color=INK)
     tail=f'修复 {int(r["recovery_days"])} 个交易日' if r['status']=='已修复' else f'低点后已观察 {r["observed_after_trough_days"]} 个交易日，修复时长仍为空'
     fig.text(.06,.87,f'该次回撤 {r["max_drawdown_pct"]:.2f}%  |  下跌 {r["decline_days"]} 个交易日  |  '+tail,color=MUTED,fontsize=11)
-    ax.legend(frameon=False,loc='upper left',fontsize=10)
+    fig.text(.09,.79,'虚线：该次高点 = 100；编号圆点标记节点，引导线连接日期与数值。',fontsize=10,color=MUTED)
+    # 根据实际渲染后的文字框挑选位置，同时避开价格线、基准线、其他节点和标注。
+    fig.canvas.draw()
+    paths=[line.get_path().transformed(line.get_transform()) for line in (curve,baseline)]
+    occupied=[]
+    preferred={1:[(-65,22),(-70,35),(-75,50),(-100,80),(65,55)],
+               2:[(0,-40),(-15,-35),(-35,-55),(-100,-70),(80,-55)],
+               3:[(65,-40),(-35,-65),(-130,-65),(60,60)] if end_i is not None else [(-30,-85),(-25,-65),(-50,-45),(-70,65)]}
+    for number,(i,label,color) in enumerate(nodes,1):
+        candidates=preferred[number]+[(x,y) for y in (-90,-65,55,85,110,135,160,-120,-150)
+                                      for x in (-160,-130,-80,0,80,130)]
+        placed=False
+        for offset in candidates:
+            node_text=(f'{number}  截至{f.date.iloc[i]:%m-%d}尚未修复' if number==3 and end_i is None
+                       else f'{number}  {label} {f.date.iloc[i]:%m-%d}')
+            note=ax.annotate(f'{node_text}\n归一化价格 {p.iloc[i]:.1f}',
+                xy=(f.date.iloc[i],p.iloc[i]),xytext=offset,textcoords='offset points',
+                fontsize=10,color=INK,ha='center',va='center',zorder=4,
+                bbox={'boxstyle':'round,pad=.3','facecolor':'white','edgecolor':'none'},
+                arrowprops={'arrowstyle':'-','color':'#8A9DAA','lw':1,'shrinkA':5,'shrinkB':10})
+            fig.canvas.draw()
+            box=note.get_bbox_patch().get_window_extent(fig.canvas.get_renderer())
+            clear=box.expanded(1.05,1.12)
+            inside=ax.bbox.contains(clear.x0,clear.y0) and ax.bbox.contains(clear.x1,clear.y1)
+            if (inside and not any(path.intersects_bbox(clear,filled=False) for path in paths)
+                and not any(clear.overlaps(b) for b in occupied)
+                and not any(clear.overlaps(Bbox.from_bounds(x-12,y-12,24,24)) for x,y in points)):
+                occupied.append(clear);placed=True;break
+            note.remove()
+        assert placed, f'{code}节点{number}未找到不遮挡曲线的标注位置'
     foot(fig)
     export(fig,name)
 
@@ -146,7 +182,7 @@ def main():
 
     # 主图：同一行同时看幅度和时间；未完成修复用斜纹明确区分。
     fig,axes=plt.subplots(1,2,figsize=(14,10),gridspec_kw={'width_ratios':[1,1.65]},facecolor='white')
-    fig.subplots_adjust(left=.16,right=.97,top=.78,bottom=.15,wspace=.13)
+    fig.subplots_adjust(left=.16,right=.97,top=.78,bottom=.18,wspace=.13)
     y=np.arange(len(table)); labels=[f'{r.name}  {r.code}' for r in table.itertuples()]
     for ax in axes:style(ax);ax.set_ylim(len(table)-.4,-.8)
     axes[0].barh(y,-table.max_drawdown_pct,color=BLUE,height=.58)
@@ -166,7 +202,7 @@ def main():
     fig.suptitle('ETF回撤有多深，修复用了多久',x=.06,ha='left',y=.97,fontsize=28,weight='bold',color=INK)
     fig.text(.06,.91,f'16只代表ETF  |  2025-09-30—2026-09-30  |  {len(repaired)}次最大回撤已修复，{summary["max_events_unrepaired"]}次尚未修复',fontsize=12,color=MUTED)
     fig.text(.06,.86,'蓝色：高点→低点   橙色：低点→首次回到高点   斜纹：截至观察日尚未修复，不是预测时长',fontsize=11,color=INK)
-    fig.text(.06,.09,'每只ETF只取窗口内最大回撤事件；时间按交易日间隔计算。未修复事件在09-30截止。',fontsize=10,color=MUTED)
+    fig.text(.06,.085,'每只ETF只取窗口内最大回撤事件；时间按交易日间隔计算。未修复事件在09-30截止。',fontsize=10,color=MUTED)
     foot(fig);export(fig,'最大回撤与修复总览')
     if closed_code:example_chart(closed_code,frames,records,'已修复案例',closed_example)
     if open_code:example_chart(open_code,frames,records,'尚未修复案例')

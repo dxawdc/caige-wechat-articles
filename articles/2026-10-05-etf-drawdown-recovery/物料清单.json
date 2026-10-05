@@ -1,6 +1,6 @@
 {
   "id": "etf-drawdown-recovery",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "updated": "2026-10-05",
   "entrypoint": "分析与绘图.py",
   "information_cutoff": "2026-09-30",
@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3230,
-      "sha256": "b63162c5e0b14c630e848d14553e23534860ad8433bc9f4af50203e7f73bec80"
+      "bytes": 3425,
+      "sha256": "bca08ca66c1f4d66ca0324be314a499c0bd45c0b54ffdbc82558c6acbe7b02ae"
     },
     {
       "path": "requirements.txt",
@@ -18,8 +18,8 @@
     },
     {
       "path": "分析与绘图.py",
-      "bytes": 14518,
-      "sha256": "6abca0239aaf1e953e7416a788ebaa38ac886df38600cdc2e6e31eac226a605f"
+      "bytes": 16853,
+      "sha256": "61a79c01708f98dd98bc608b3a76255be347678048dab295783ed776f9236fa6"
     },
     {
       "path": "分析结果.json",
@@ -43,23 +43,23 @@
     },
     {
       "path": "图表/尚未修复案例.png",
-      "bytes": 168403,
-      "sha256": "9eb82d7ae671042b233add81ef9cd030a9370a9bcabba2bedef627b39f0d6008"
+      "bytes": 193606,
+      "sha256": "511ba9979d0b43143d036c93c674ab0248a5afb304d83953bdbeee75a7617b69"
     },
     {
       "path": "图表/尚未修复案例.svg",
-      "bytes": 19249,
-      "sha256": "df5a15417a6a8f4b0bb3bc3f387e519accbebb8cdab65eaccea22b341ece3f92"
+      "bytes": 21413,
+      "sha256": "5116001d636ae313c6a59c19d9e44d44a3e2dcaca94d1fb1d9375109094b0f87"
     },
     {
       "path": "图表/已修复案例.png",
-      "bytes": 166840,
-      "sha256": "ede3b196f39b0a430c7523f1711a0c05dff96c2eb88eee447386873340e2cde6"
+      "bytes": 187825,
+      "sha256": "b76917079a52ed72184737ff69529b793172d784aee9db5621844d58da81519a"
     },
     {
       "path": "图表/已修复案例.svg",
-      "bytes": 20031,
-      "sha256": "0300a266f8cccfc4677b6c2df4716848ecf9f25e6ca62cb10909d0d4824efc21"
+      "bytes": 21894,
+      "sha256": "509bf549feb4aa558c075f594ce404d0b15c7d942be30601a5e75576683146f2"
     },
     {
       "path": "图表/文末动图.gif",
@@ -68,13 +68,13 @@
     },
     {
       "path": "图表/最大回撤与修复总览.png",
-      "bytes": 348241,
-      "sha256": "3a3a99dddfa4724943e5766967e800e77116817a3af86448c1419f008c73f36a"
+      "bytes": 347786,
+      "sha256": "c84bca878d85f99728fe7eb2272a595301a735cc7c5220062ef82f87eb3b5160"
     },
     {
       "path": "图表/最大回撤与修复总览.svg",
-      "bytes": 36479,
-      "sha256": "c728c16e046cda59300567af2f3d789dbe618273e4f2eb7f5c2164e2d4f3cd10"
+      "bytes": 36511,
+      "sha256": "caa3a1a0d00b9f734052413916dc2e0a34559ea969504fadc7a8969e0800eb72"
     },
     {
       "path": "图表/跌幅与所需涨幅.png",
