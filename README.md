@@ -2,7 +2,7 @@
 
 微信公众号「可以叫我才哥」的公开配套资料：**29篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
-<!-- 版本：v1.21.1 | 更新时间：2026-10-05 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.21.2 | 更新时间：2026-10-05 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](articles/2026-10-05-etf-drawdown-recovery/README.md) · v1.0.1 | 近一年16只ETF回撤、下跌与修复时间、未修复观察记录、5组图与Python源码 | [ZIP](downloads/etf-drawdown-recovery_v1.0.1.zip) |
+| [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](articles/2026-10-05-etf-drawdown-recovery/README.md) · v1.0.2 | 近一年16只ETF回撤、下跌与修复时间、未修复观察记录、5组图与Python源码 | [ZIP](downloads/etf-drawdown-recovery_v1.0.2.zip) |
 | [融资净买入与市场涨跌：把当日和次日分开看](articles/2026-10-04-a-share-margin/README.md) · v1.0.0 | 沪深与沪市融资数据、7组高清图、当日／次日与分组分析、采集绘图代码 | [ZIP](downloads/a-share-margin_v1.0.0.zip) |
 | [诺奖公布前，我把125年的获奖数据画成了14张图](articles/2026-10-05-nobel-prize/README.md) · v1.0.0 | 1901—2025官方数据、125年奖金与2026公告、14张图表和可复现源码 | [ZIP](downloads/nobel-prize_v1.0.0.zip) |
 | [亚运会169金收官：用Python看奖牌、纪录与选手表现](articles/2026-10-04-asian-games-final/README.md) · v1.2.2 | 46代表团榜单与地图、3181人选手榜、获奖年龄与性别、中国及全赛会纪录项目分布、34地区底表、11张图及Python代码 | [ZIP](downloads/asian-games-final_v1.2.2.zip) |

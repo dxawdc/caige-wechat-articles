@@ -4,7 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
-| [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](../articles/2026-10-05-etf-drawdown-recovery/README.md) | v1.0.1 | [etf-drawdown-recovery_v1.0.1.zip](etf-drawdown-recovery_v1.0.1.zip) | 3.78 MB |
+| [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](../articles/2026-10-05-etf-drawdown-recovery/README.md) | v1.0.2 | [etf-drawdown-recovery_v1.0.2.zip](etf-drawdown-recovery_v1.0.2.zip) | 3.75 MB |
 | [融资净买入与市场涨跌：把当日和次日分开看](../articles/2026-10-04-a-share-margin/README.md) | v1.0.0 | [a-share-margin_v1.0.0.zip](a-share-margin_v1.0.0.zip) | 4.61 MB |
 | [诺奖公布前，我把125年的获奖数据画成了14张图](../articles/2026-10-05-nobel-prize/README.md) | v1.0.0 | [nobel-prize_v1.0.0.zip](nobel-prize_v1.0.0.zip) | 5.79 MB |
 | [亚运会169金收官：用Python看奖牌、纪录与选手表现](../articles/2026-10-04-asian-games-final/README.md) | v1.2.2 | [asian-games-final_v1.2.2.zip](asian-games-final_v1.2.2.zip) | 5.55 MB |

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-05T20:02:16.472782</dc:date>
+    <dc:date>2026-10-05T20:12:49.510880</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -42,7 +42,7 @@ z
      <g id="line2d_1">
       <path d="M 85.053913 383.76 
 L 85.053913 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_2"/>
      <g id="text_1">
@@ -53,7 +53,7 @@ L 85.053913 117
      <g id="line2d_3">
       <path d="M 191.801739 383.76 
 L 191.801739 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_4"/>
      <g id="text_2">
@@ -64,7 +64,7 @@ L 191.801739 117
      <g id="line2d_5">
       <path d="M 298.549565 383.76 
 L 298.549565 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_6"/>
      <g id="text_3">
@@ -75,7 +75,7 @@ L 298.549565 117
      <g id="line2d_7">
       <path d="M 400.132174 383.76 
 L 400.132174 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_8"/>
      <g id="text_4">
@@ -86,7 +86,7 @@ L 400.132174 117
      <g id="line2d_9">
       <path d="M 505.158261 383.76 
 L 505.158261 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_10"/>
      <g id="text_5">
@@ -97,7 +97,7 @@ L 505.158261 117
      <g id="line2d_11">
       <path d="M 610.184348 383.76 
 L 610.184348 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_12"/>
      <g id="text_6">
@@ -108,7 +108,7 @@ L 610.184348 117
      <g id="line2d_13">
       <path d="M 713.488696 383.76 
 L 713.488696 117 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_14"/>
      <g id="text_7">
@@ -121,7 +121,7 @@ L 713.488696 117
      <g id="line2d_15">
       <path d="M 71.28 352.097726 
 L 744.48 352.097726 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_16"/>
      <g id="text_8">
@@ -132,7 +132,7 @@ L 744.48 352.097726
      <g id="line2d_17">
       <path d="M 71.28 317.811508 
 L 744.48 317.811508 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_18"/>
      <g id="text_9">
@@ -143,7 +143,7 @@ L 744.48 317.811508
      <g id="line2d_19">
       <path d="M 71.28 283.525289 
 L 744.48 283.525289 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_20"/>
      <g id="text_10">
@@ -154,7 +154,7 @@ L 744.48 283.525289
      <g id="line2d_21">
       <path d="M 71.28 249.23907 
 L 744.48 249.23907 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_22"/>
      <g id="text_11">
@@ -165,7 +165,7 @@ L 744.48 249.23907
      <g id="line2d_23">
       <path d="M 71.28 214.952851 
 L 744.48 214.952851 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_24"/>
      <g id="text_12">
@@ -176,7 +176,7 @@ L 744.48 214.952851
      <g id="line2d_25">
       <path d="M 71.28 180.666632 
 L 744.48 180.666632 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_26"/>
      <g id="text_13">
@@ -187,7 +187,7 @@ L 744.48 180.666632
      <g id="line2d_27">
       <path d="M 71.28 146.380413 
 L 744.48 146.380413 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #e5ebf0; stroke-width: 0.7; stroke-linecap: square"/>
      </g>
      <g id="line2d_28"/>
      <g id="text_14">
@@ -439,12 +439,12 @@ L 710.045217 264.477389
 L 711.766957 263.505558 
 L 713.488696 269.336547 
 L 713.488696 269.336547 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke: #3b7196; stroke-width: 2.3; stroke-linecap: square"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke: #3b7196; stroke-width: 2.3; stroke-linecap: square"/>
    </g>
    <g id="line2d_30">
     <path d="M 71.28 283.525289 
 L 744.48 283.525289 
-" clip-path="url(#p0025629ccb)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #172f43"/>
+" clip-path="url(#p807c648126)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #172f43"/>
    </g>
    <g id="patch_3">
     <path d="M 71.28 383.76 
@@ -475,7 +475,7 @@ Q 184.25089 275.497164 187.25089 275.497164
 z
 " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(195.400109 259.017574)">1  高点 01-28</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(201.291515 259.017574)">高点 01-28</text>
     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(187.25089 269.941011)">归一化价格 100.0</text>
    </g>
    <g id="patch_7">
@@ -497,7 +497,7 @@ Q 362.374226 371.462832 365.374226 371.462832
 z
 " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(370.591413 354.983242)">2  低点 04-02</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(376.482819 354.983242)">低点 04-02</text>
     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(365.374226 365.90668)">归一化价格 80.2</text>
    </g>
    <g id="patch_9">
@@ -507,24 +507,24 @@ Q 473.363285 292.616276 458.577636 283.517415
    </g>
    <g id="text_18">
     <g id="patch_10">
-     <path d="M 473.800109 332.220367 
-L 556.325109 332.220367 
-Q 559.325109 332.220367 559.325109 329.220367 
-L 559.325109 307.334429 
-Q 559.325109 304.334429 556.325109 304.334429 
-L 473.800109 304.334429 
-Q 470.800109 304.334429 470.800109 307.334429 
-L 470.800109 329.220367 
-Q 470.800109 332.220367 473.800109 332.220367 
+     <path d="M 475.65089 332.220367 
+L 554.474327 332.220367 
+Q 557.474327 332.220367 557.474327 329.220367 
+L 557.474327 307.334429 
+Q 557.474327 304.334429 554.474327 304.334429 
+L 475.65089 304.334429 
+Q 472.65089 304.334429 472.65089 307.334429 
+L 472.65089 329.220367 
+Q 472.65089 332.220367 475.65089 332.220367 
 z
 " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(473.800109 315.740777)">3  首次修复 04-30</text>
+    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(479.691515 315.740777)">首次修复 04-30</text>
     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; fill: #172f43" transform="translate(475.65089 326.664214)">归一化价格 103.1</text>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="m20b82a8dd6" d="M 0 7.416198 
+     <path id="m44ffad4b3b" d="M 0 7.416198 
 C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044 
 C 6.634781 3.853307 7.416198 1.966799 7.416198 0 
 C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044 
@@ -536,13 +536,13 @@ C -3.853307 6.634781 -1.966799 7.416198 0 7.416198
 z
 " style="stroke: #ffffff; stroke-width: 1.5"/>
     </defs>
-    <g clip-path="url(#p0025629ccb)">
-     <use xlink:href="#m20b82a8dd6" x="291.662609" y="283.525289" style="fill: #c8813b; stroke: #ffffff; stroke-width: 1.5"/>
+    <g clip-path="url(#p807c648126)">
+     <use xlink:href="#m44ffad4b3b" x="291.662609" y="283.525289" style="fill: #c8813b; stroke: #ffffff; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="PathCollection_2">
     <defs>
-     <path id="m11b3d6d5ab" d="M 0 7.416198 
+     <path id="md8d2820d15" d="M 0 7.416198 
 C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044 
 C 6.634781 3.853307 7.416198 1.966799 7.416198 0 
 C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044 
@@ -554,13 +554,13 @@ C -3.853307 6.634781 -1.966799 7.416198 0 7.416198
 z
 " style="stroke: #ffffff; stroke-width: 1.5"/>
     </defs>
-    <g clip-path="url(#p0025629ccb)">
-     <use xlink:href="#m11b3d6d5ab" x="401.853913" y="317.539395" style="fill: #3b7196; stroke: #ffffff; stroke-width: 1.5"/>
+    <g clip-path="url(#p807c648126)">
+     <use xlink:href="#md8d2820d15" x="401.853913" y="317.539395" style="fill: #3b7196; stroke: #ffffff; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="PathCollection_3">
-    <g clip-path="url(#p0025629ccb)">
-     <use xlink:href="#m20b82a8dd6" x="450.062609" y="278.277398" style="fill: #c8813b; stroke: #ffffff; stroke-width: 1.5"/>
+    <g clip-path="url(#p807c648126)">
+     <use xlink:href="#m44ffad4b3b" x="450.062609" y="278.277398" style="fill: #c8813b; stroke: #ffffff; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="text_19">
@@ -580,17 +580,14 @@ z
    <text style="font-size: 11px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #71818e" x="47.52" y="60.84" transform="rotate(-0 47.52 60.84)">该次回撤 -19.84%  |  下跌 40 个交易日  |  修复 19 个交易日</text>
   </g>
   <g id="text_24">
-   <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #71818e" x="71.28" y="98.28" transform="rotate(-0 71.28 98.28)">虚线：该次高点 = 100；编号圆点标记节点，引导线连接日期与数值。</text>
-  </g>
-  <g id="text_25">
    <text style="font-size: 9px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #71818e" x="47.52" y="451.62" transform="rotate(-0 47.52 451.62)">腾讯证券前复权日线；2025-09-30—2026-09-30；只计算窗口内的收盘价回撤。</text>
   </g>
-  <g id="text_26">
+  <g id="text_25">
    <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #172f43" x="752.4" y="459.576" transform="rotate(-0 752.4 459.576)">可以叫我才哥</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p0025629ccb">
+  <clipPath id="p807c648126">
    <rect x="71.28" y="117" width="673.2" height="266.76"/>
   </clipPath>
  </defs>

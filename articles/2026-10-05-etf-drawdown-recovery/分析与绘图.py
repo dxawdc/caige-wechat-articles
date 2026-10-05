@@ -83,7 +83,6 @@ def example_chart(code,frames,records,name,override=None):
     fig.suptitle(f'{r["name"]}（{code}）：'+label,x=.06,ha='left',y=.96,fontsize=22,weight='bold',color=INK)
     tail=f'修复 {int(r["recovery_days"])} 个交易日' if r['status']=='已修复' else f'低点后已观察 {r["observed_after_trough_days"]} 个交易日，修复时长仍为空'
     fig.text(.06,.87,f'该次回撤 {r["max_drawdown_pct"]:.2f}%  |  下跌 {r["decline_days"]} 个交易日  |  '+tail,color=MUTED,fontsize=11)
-    fig.text(.09,.79,'虚线：该次高点 = 100；编号圆点标记节点，引导线连接日期与数值。',fontsize=10,color=MUTED)
     # 根据实际渲染后的文字框挑选位置，同时避开价格线、基准线、其他节点和标注。
     fig.canvas.draw()
     paths=[line.get_path().transformed(line.get_transform()) for line in (curve,baseline)]
@@ -96,8 +95,8 @@ def example_chart(code,frames,records,name,override=None):
                                       for x in (-160,-130,-80,0,80,130)]
         placed=False
         for offset in candidates:
-            node_text=(f'{number}  截至{f.date.iloc[i]:%m-%d}尚未修复' if number==3 and end_i is None
-                       else f'{number}  {label} {f.date.iloc[i]:%m-%d}')
+            node_text=(f'截至{f.date.iloc[i]:%m-%d}尚未修复' if number==3 and end_i is None
+                       else f'{label} {f.date.iloc[i]:%m-%d}')
             note=ax.annotate(f'{node_text}\n归一化价格 {p.iloc[i]:.1f}',
                 xy=(f.date.iloc[i],p.iloc[i]),xytext=offset,textcoords='offset points',
                 fontsize=10,color=INK,ha='center',va='center',zorder=4,

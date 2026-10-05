@@ -1,6 +1,6 @@
 {
   "id": "etf-drawdown-recovery",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "updated": "2026-10-05",
   "entrypoint": "分析与绘图.py",
   "information_cutoff": "2026-09-30",
@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3425,
-      "sha256": "bca08ca66c1f4d66ca0324be314a499c0bd45c0b54ffdbc82558c6acbe7b02ae"
+      "bytes": 3410,
+      "sha256": "76331a901d75663a9bbad97fb7401251cda743de75a5c90f2873e160b3a099c4"
     },
     {
       "path": "requirements.txt",
@@ -18,8 +18,8 @@
     },
     {
       "path": "分析与绘图.py",
-      "bytes": 16853,
-      "sha256": "61a79c01708f98dd98bc608b3a76255be347678048dab295783ed776f9236fa6"
+      "bytes": 16694,
+      "sha256": "c9662e79cf0f543bb7c029e4f5c9fc2c9c09b04bdc8a8649334aea1a9784fec6"
     },
     {
       "path": "分析结果.json",
@@ -43,23 +43,23 @@
     },
     {
       "path": "图表/尚未修复案例.png",
-      "bytes": 193606,
-      "sha256": "511ba9979d0b43143d036c93c674ab0248a5afb304d83953bdbeee75a7617b69"
+      "bytes": 178325,
+      "sha256": "bf64692c3b5d7f187d631d54aac55b36e621aa7ffacd6473325b33b7b7e601e7"
     },
     {
       "path": "图表/尚未修复案例.svg",
-      "bytes": 21413,
-      "sha256": "5116001d636ae313c6a59c19d9e44d44a3e2dcaca94d1fb1d9375109094b0f87"
+      "bytes": 21122,
+      "sha256": "d2e133d4c92eecdc32a9e781298ea2474fad1a0bb0f4de2fda744b20cb034b60"
     },
     {
       "path": "图表/已修复案例.png",
-      "bytes": 187825,
-      "sha256": "b76917079a52ed72184737ff69529b793172d784aee9db5621844d58da81519a"
+      "bytes": 172717,
+      "sha256": "8bed159690c100bc6c8d3f8230109c384a92c471dde713d8bf2745d6243706be"
     },
     {
       "path": "图表/已修复案例.svg",
-      "bytes": 21894,
-      "sha256": "509bf549feb4aa558c075f594ce404d0b15c7d942be30601a5e75576683146f2"
+      "bytes": 21596,
+      "sha256": "601caccbc2a4c703e2685fb42f431b25a9be330d94e5c88569613bf0d9c7e098"
     },
     {
       "path": "图表/文末动图.gif",
