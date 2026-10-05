@@ -1,0 +1,23 @@
+{
+  "version": "v1.4.0",
+  "updated_at": "2026-10-05",
+  "reference_title": "中国竞争最激烈的考试，挤破头也难上岸",
+  "reference_author": "网易数读",
+  "reference_url": "https://mp.weixin.qq.com/s/Vesj127yTU9DmTl7AkfLng",
+  "reference_published_at": "2025-11-28",
+  "observed_visuals": "省级排名图、专业类别排名图、岗位分组对比图及关键词信息卡",
+  "design": {
+    "background": "#FFFFFF",
+    "heading": "#191919",
+    "primary": "#E9875D",
+    "comparator": "#7CC4CE",
+    "label_text": "#246879",
+    "supporting_fill": "#E9F6F7",
+    "titles": "黑色粗标题，使用当前数据支持的简短结论",
+    "rankings": "同一零点、线性长度的横向榜单，左侧序号和名称，右侧数量与占比",
+    "scope": "样本、日期、口径以短标注呈现，详细解释写在正文",
+    "identity": "使用可以叫我才哥的品牌与本篇5A景区数据"
+  },
+  "data_snapshot": {"entities":358,"ticket_entities":135,"ticket_products":185,"basic_ticket_samples":95,"free_samples":14},
+  "outputs": {"wechat_charts":10,"desktop_4k_charts":8}
+}
