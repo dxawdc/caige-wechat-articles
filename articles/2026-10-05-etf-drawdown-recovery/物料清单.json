@@ -1,6 +1,6 @@
 {
   "id": "etf-drawdown-recovery",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "updated": "2026-10-05",
   "entrypoint": "分析与绘图.py",
   "information_cutoff": "2026-09-30",
@@ -8,8 +8,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3410,
-      "sha256": "76331a901d75663a9bbad97fb7401251cda743de75a5c90f2873e160b3a099c4"
+      "bytes": 3660,
+      "sha256": "b02f819ae254a2c6cc44dfd06f6da1921574cd964b0ddfa5bc8da5dc760708b6"
     },
     {
       "path": "requirements.txt",
@@ -27,6 +27,11 @@
       "sha256": "a18db114cf90f02b42a1b1f2ad3095a517ef0b5547c12bcc737d7ce62afb701f"
     },
     {
+      "path": "制作封面.py",
+      "bytes": 5017,
+      "sha256": "131a8a24d1447d12e64b8a212e88795e2350f9ab5251f61f3ddd3450a1640bbc"
+    },
+    {
       "path": "回撤计算.py",
       "bytes": 3565,
       "sha256": "e660c1884bb275d9d3c5215900985de3bc393d7353dabf57f02d623f3717675b"
@@ -40,6 +45,16 @@
       "path": "图表/回撤事件与修复时间.svg",
       "bytes": 31091,
       "sha256": "7b6a74df3fde6710850d07ce7e3f458bea3f5a15e35fe6b1506c4caa74c50053"
+    },
+    {
+      "path": "图表/封面图.png",
+      "bytes": 135342,
+      "sha256": "92c09b476e4be338046dcf99e5047caebb7100bf2b936280a1b940716f9c8325"
+    },
+    {
+      "path": "图表/封面图.svg",
+      "bytes": 31559,
+      "sha256": "e2686981853d6b898f8f08bb04a05bdf0f30716cbfca2f523dd75a66772a57c1"
     },
     {
       "path": "图表/尚未修复案例.png",
