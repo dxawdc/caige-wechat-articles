@@ -1,0 +1,126 @@
+{
+  "collection_client_date": "2026-10-05",
+  "start": "2025-09-30",
+  "end": "2026-09-30",
+  "entities": 16,
+  "price_basis": "请求前复权的ETF市场收盘价；qfqday直接采用，day需跨源核对或验证无分红拆分；第二来源不可用如实记录",
+  "sources": [
+    "https://gu.qq.com/",
+    "https://quote.eastmoney.com/center/gridlist.html#fund_etf"
+  ],
+  "cross_checks": {
+    "510300": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "510500": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159915": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "588000": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "510050": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159845": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "512880": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "day",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "no_dividend_or_split_history_verified"
+    },
+    "512480": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "512010": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159928": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159516": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "515790": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "day",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "no_dividend_or_split_history_verified"
+    },
+    "512170": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "512690": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159819": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "day",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "no_dividend_or_split_history_verified"
+    },
+    "516160": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    }
+  },
+  "calendar_rows": 242
+}

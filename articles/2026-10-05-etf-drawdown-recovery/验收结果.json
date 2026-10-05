@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "rows": 16,
+  "daily_observations": 3872,
+  "checks": {
+    "calendar_aligned": true,
+    "brute_force_drawdown": true,
+    "first_recovery_close": true,
+    "duration_identities": true,
+    "unrepaired_recovery_is_null": true,
+    "known_sequence_edge_cases": true
+  },
+  "sources": {
+    "510300": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "510500": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159915": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "588000": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "510050": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159845": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "512880": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "day",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "no_dividend_or_split_history_verified"
+    },
+    "512480": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "512010": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159928": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159516": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "515790": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "day",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "no_dividend_or_split_history_verified"
+    },
+    "512170": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "512690": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    },
+    "159819": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "day",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "no_dividend_or_split_history_verified"
+    },
+    "516160": {
+      "rows": 242,
+      "maximum_close_difference_yuan": null,
+      "returned_field": "qfqday",
+      "cross_source_status": "unavailable",
+      "adjustment_basis": "qfqday"
+    }
+  },
+  "scope": "前复权市场收盘价；窗口起点重新建立高点，不代表全历史或个人持仓成本"
+}

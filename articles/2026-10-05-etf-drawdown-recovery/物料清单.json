@@ -1,0 +1,305 @@
+{
+  "id": "etf-drawdown-recovery",
+  "version": "v1.0.0",
+  "updated": "2026-10-05",
+  "entrypoint": "分析与绘图.py",
+  "information_cutoff": "2026-09-30",
+  "material_policy": "latest-complete-set-only",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3230,
+      "sha256": "b63162c5e0b14c630e848d14553e23534860ad8433bc9f4af50203e7f73bec80"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 54,
+      "sha256": "7b6a00aeb6a9f43aca8dc0067394e2a302bb3f7b9369823b86cb1fdb94a91142"
+    },
+    {
+      "path": "分析与绘图.py",
+      "bytes": 14518,
+      "sha256": "6abca0239aaf1e953e7416a788ebaa38ac886df38600cdc2e6e31eac226a605f"
+    },
+    {
+      "path": "分析结果.json",
+      "bytes": 9956,
+      "sha256": "a18db114cf90f02b42a1b1f2ad3095a517ef0b5547c12bcc737d7ce62afb701f"
+    },
+    {
+      "path": "回撤计算.py",
+      "bytes": 3565,
+      "sha256": "e660c1884bb275d9d3c5215900985de3bc393d7353dabf57f02d623f3717675b"
+    },
+    {
+      "path": "图表/回撤事件与修复时间.png",
+      "bytes": 187410,
+      "sha256": "5438b8308210b2387252b3580923c42f1222694b1734ceae7775484313fc8b3f"
+    },
+    {
+      "path": "图表/回撤事件与修复时间.svg",
+      "bytes": 31091,
+      "sha256": "7b6a74df3fde6710850d07ce7e3f458bea3f5a15e35fe6b1506c4caa74c50053"
+    },
+    {
+      "path": "图表/尚未修复案例.png",
+      "bytes": 168403,
+      "sha256": "9eb82d7ae671042b233add81ef9cd030a9370a9bcabba2bedef627b39f0d6008"
+    },
+    {
+      "path": "图表/尚未修复案例.svg",
+      "bytes": 19249,
+      "sha256": "df5a15417a6a8f4b0bb3bc3f387e519accbebb8cdab65eaccea22b341ece3f92"
+    },
+    {
+      "path": "图表/已修复案例.png",
+      "bytes": 166840,
+      "sha256": "ede3b196f39b0a430c7523f1711a0c05dff96c2eb88eee447386873340e2cde6"
+    },
+    {
+      "path": "图表/已修复案例.svg",
+      "bytes": 20031,
+      "sha256": "0300a266f8cccfc4677b6c2df4716848ecf9f25e6ca62cb10909d0d4824efc21"
+    },
+    {
+      "path": "图表/文末动图.gif",
+      "bytes": 1497023,
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "图表/最大回撤与修复总览.png",
+      "bytes": 348241,
+      "sha256": "3a3a99dddfa4724943e5766967e800e77116817a3af86448c1419f008c73f36a"
+    },
+    {
+      "path": "图表/最大回撤与修复总览.svg",
+      "bytes": 36479,
+      "sha256": "c728c16e046cda59300567af2f3d789dbe618273e4f2eb7f5c2164e2d4f3cd10"
+    },
+    {
+      "path": "图表/跌幅与所需涨幅.png",
+      "bytes": 119109,
+      "sha256": "c2ef767516380f2cd95ecd709fbe8b3576e841c8d4198d6e0c1850599f96c65b"
+    },
+    {
+      "path": "图表/跌幅与所需涨幅.svg",
+      "bytes": 9270,
+      "sha256": "891dbc74e531bb49baec263f593874201065464b5a5e8293fda8f6153160d918"
+    },
+    {
+      "path": "图表/顶部横幅.gif",
+      "bytes": 1284334,
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
+    },
+    {
+      "path": "数据/159516_回撤日度.csv",
+      "bytes": 16348,
+      "sha256": "d7bee9c0bcd09e83520e1a7799b6621029051ec4bc9705a468658f04da85a1e5"
+    },
+    {
+      "path": "数据/159819_回撤日度.csv",
+      "bytes": 15672,
+      "sha256": "5a1ea6115ebd98236968ed65afd459e402b350e9ed51a799a5a206d960a228c6"
+    },
+    {
+      "path": "数据/159845_回撤日度.csv",
+      "bytes": 15410,
+      "sha256": "bdb001a7f2e777d2bead29b717e95c0a2e22f30d8484dc46ff4c381d4cd0ce5a"
+    },
+    {
+      "path": "数据/159915_回撤日度.csv",
+      "bytes": 14862,
+      "sha256": "1136d5252cd49122b689d5c707c8af11f70be33672eb253cc48a9015ef7d1f97"
+    },
+    {
+      "path": "数据/159928_回撤日度.csv",
+      "bytes": 14558,
+      "sha256": "6d19fd7fdeaaeef2267d2ec296df7316e107230d5d6efc43671e8a54ebaec9cd"
+    },
+    {
+      "path": "数据/510050_回撤日度.csv",
+      "bytes": 14970,
+      "sha256": "104b6fdd7e49f2a657f05c394c2900acec21a41e5cce74b2bcf494eb5f84e5e3"
+    },
+    {
+      "path": "数据/510300_回撤日度.csv",
+      "bytes": 15153,
+      "sha256": "c2bef567a0d15b67e9edd580dc3346f5432f8612669d306d698a158c86d036e6"
+    },
+    {
+      "path": "数据/510500_回撤日度.csv",
+      "bytes": 15040,
+      "sha256": "24ca1d5c74b01aa9c07f4987c1fa854f96b5cdb6075f76ccc755391f3dc67986"
+    },
+    {
+      "path": "数据/512010_回撤日度.csv",
+      "bytes": 14252,
+      "sha256": "874c7c96e5e80bff09a4f4462c5e351cb318987c94c1b7a90681f0cd65df9b55"
+    },
+    {
+      "path": "数据/512170_回撤日度.csv",
+      "bytes": 14673,
+      "sha256": "2612bdcf8954386d22221833f06f3e6917c1f4336a9b39c50ce43fb2b2645f99"
+    },
+    {
+      "path": "数据/512480_回撤日度.csv",
+      "bytes": 15032,
+      "sha256": "d0924f878f457abdeb725388bd848beb082dc73a0e509d682960534c7169a0fb"
+    },
+    {
+      "path": "数据/512690_回撤日度.csv",
+      "bytes": 13853,
+      "sha256": "16db6433f65952cf1edaf91f91fb3de4862d88467c4a321022e6287fbecdd7dc"
+    },
+    {
+      "path": "数据/512880_回撤日度.csv",
+      "bytes": 14575,
+      "sha256": "cd80649610df45517cbd8cdadc1d8f3820c23b69d1118a6991ade85a84b0b482"
+    },
+    {
+      "path": "数据/515790_回撤日度.csv",
+      "bytes": 14443,
+      "sha256": "c9d3d2960296fb391e561b7247e51cef43b09c51896d31c5af9d88aec3e5fb1b"
+    },
+    {
+      "path": "数据/516160_回撤日度.csv",
+      "bytes": 15155,
+      "sha256": "ed095cfd291168315d9c4dd636a1c491cf7f3b3ef109f02568fadb44ffc9da9a"
+    },
+    {
+      "path": "数据/588000_回撤日度.csv",
+      "bytes": 14772,
+      "sha256": "5a3d1b0ea7d21efe7dc33f13f34f94420ba83b2751b88fdc96a921d20c8de346"
+    },
+    {
+      "path": "数据/ETF行情.json",
+      "bytes": 234347,
+      "sha256": "234fa0ccd787f40d4e803095143b33e43b65d8e131fc0db0eb6fdaeec8f3f069"
+    },
+    {
+      "path": "数据/全部回撤事件.csv",
+      "bytes": 11668,
+      "sha256": "f099d4aad39ad2deab9d7ef92b664caa9c9cf5cb064537d373539f065b845b2e"
+    },
+    {
+      "path": "数据/原始/159516_腾讯.json",
+      "bytes": 30220,
+      "sha256": "333c6e1f8047d133d1567c29f2db1c84098204bd06ba24e312960fb3f68f2efd"
+    },
+    {
+      "path": "数据/原始/159819_分红拆分.txt",
+      "bytes": 38008,
+      "sha256": "c43f6776f0f480133f4b7eed5eb50ed17edfa807c52dd2e7f905981d7ab7211c"
+    },
+    {
+      "path": "数据/原始/159819_腾讯.json",
+      "bytes": 29969,
+      "sha256": "92135d56f4c255d9893b407addf62d8c2632c1d735102b6ccb3858465c255898"
+    },
+    {
+      "path": "数据/原始/159845_腾讯.json",
+      "bytes": 30048,
+      "sha256": "0967b44f0af791777b1f32a2938f417306ec14588ecb8930b67d0fbcd9f83db7"
+    },
+    {
+      "path": "数据/原始/159915_腾讯.json",
+      "bytes": 30256,
+      "sha256": "12cf4e1b2eba919d0c7e303e1f52deb61ddc585b0e7e17dd142e64fbf9431226"
+    },
+    {
+      "path": "数据/原始/159928_腾讯.json",
+      "bytes": 30059,
+      "sha256": "9791703519e823a2e1fe4b6b7cccdda9e5dcb79c32e0a4d9185a1cfa3d2a1d12"
+    },
+    {
+      "path": "数据/原始/510050_腾讯.json",
+      "bytes": 30097,
+      "sha256": "5fb9850e28219aa54ca0f23236fa2355f30ac23e9926105a1ef9a10e53e83a8e"
+    },
+    {
+      "path": "数据/原始/510300_腾讯.json",
+      "bytes": 30130,
+      "sha256": "a6d8523e37978e56edeeb47ed244bd7e78d74f574190ba3d555b6836ca7e7c65"
+    },
+    {
+      "path": "数据/原始/510500_腾讯.json",
+      "bytes": 30057,
+      "sha256": "b121990cfc710c05a8cf7ec14561d898f0b1f8400be7a3443423652aa1e593f8"
+    },
+    {
+      "path": "数据/原始/512010_腾讯.json",
+      "bytes": 30243,
+      "sha256": "1521baa83e2265f55d317e4b576df38887c3c0f0b05f7624a0910af77db6da2b"
+    },
+    {
+      "path": "数据/原始/512170_腾讯.json",
+      "bytes": 30297,
+      "sha256": "09421031abf86755fb06dd26608b3ea07f892f49cdfbca54534266860679035e"
+    },
+    {
+      "path": "数据/原始/512480_腾讯.json",
+      "bytes": 30182,
+      "sha256": "b79e81d2091e60dff46486988367d29519f1e6b439a5f3f89ce3d784b3e623d1"
+    },
+    {
+      "path": "数据/原始/512690_腾讯.json",
+      "bytes": 30264,
+      "sha256": "7a1682c2f2b1b5c88cb3f481ddb2a381297c205e43653b4394e6377b3fc5ec6e"
+    },
+    {
+      "path": "数据/原始/512880_分红拆分.txt",
+      "bytes": 44488,
+      "sha256": "571a84ca772fe8ff6759c64ba6d6842a6e56b1a66835ddce703d659cb35f6522"
+    },
+    {
+      "path": "数据/原始/512880_腾讯.json",
+      "bytes": 30221,
+      "sha256": "67ed5fe53091b08965f66b16b2215fd5bb94b7f55b442792e2174cb0df6371ba"
+    },
+    {
+      "path": "数据/原始/515790_分红拆分.txt",
+      "bytes": 38076,
+      "sha256": "7ff01f22a2fbb98e249379e7283a0f3f9065aabab71f12b72ec7222c63fe6a1e"
+    },
+    {
+      "path": "数据/原始/515790_腾讯.json",
+      "bytes": 29995,
+      "sha256": "b0ca3f8ba5f970b248d71f8cf9db1207af483bdd4a726133947e85641d6f4b3e"
+    },
+    {
+      "path": "数据/原始/516160_腾讯.json",
+      "bytes": 29855,
+      "sha256": "2fdb16f652c6b89fc815849f3bdb3da0f49ad472339ea0212a2dbbf82d4f5bd4"
+    },
+    {
+      "path": "数据/原始/588000_腾讯.json",
+      "bytes": 30314,
+      "sha256": "73e689e6fe8202af739c8052f91fc4c3b9b538ade559d6231323dc4eb30a1d77"
+    },
+    {
+      "path": "数据/回撤超过5%的事件.csv",
+      "bytes": 5366,
+      "sha256": "f04b7adbb56259fe774516ef187d52ad471be50e1ccaaaf0c9cee110fed1c24e"
+    },
+    {
+      "path": "数据/最大回撤与修复.csv",
+      "bytes": 2017,
+      "sha256": "0ee35058891f327d5ceae3f5f11bf1e58be08f0fc2480918c7e560663d946e9c"
+    },
+    {
+      "path": "数据/采集元数据.json",
+      "bytes": 3836,
+      "sha256": "a6ce1afba97d5c324c99b965a8c60ead60d9baf680595407b0cc8b1bd3b30026"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 6243,
+      "sha256": "d5ca742ace0258b75b788ed81f16bb80db6cd4a1e44af4a94fe143b4a19ac00e"
+    },
+    {
+      "path": "验收结果.json",
+      "bytes": 3841,
+      "sha256": "94310a9cbd5fe4b80aa4aab27e476c9ba3907bb00016d3a2bc57cac9817fe259"
+    }
+  ]
+}
