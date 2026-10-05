@@ -1,0 +1,243 @@
+{
+  "version": "v1.0.0",
+  "updated": "2026-10-05",
+  "material_policy": "latest-complete-set-only",
+  "entrypoint": "scripts/render_article_charts.py",
+  "files": [
+    {
+      "path": "data/city_features.json",
+      "bytes": 3616357,
+      "sha256": "ec1bf876b9070165967b509c979126fa448af50ff41a6078bbad7ed3ae86efd5"
+    },
+    {
+      "path": "data/sources/china_boundaries.json",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275"
+    },
+    {
+      "path": "data/sources/china_national.json",
+      "bytes": 162746,
+      "sha256": "83ac502aeac66a5527607ec844169418505d990f1a2dc33226743643541eed3c"
+    },
+    {
+      "path": "data/summary.json",
+      "bytes": 1613,
+      "sha256": "914d8a00acc13f6d548c733753462237748343e9e7073c86202578d3bc71c4b8"
+    },
+    {
+      "path": "data/上市运营公司财务样本.csv",
+      "bytes": 5162,
+      "sha256": "93d69ca3491cf3830163734d2e49fb8b91bd4488f6b7f781d0c5bd02bd04152e"
+    },
+    {
+      "path": "data/代表点输入.csv",
+      "bytes": 148109,
+      "sha256": "6213548db5601c6e7daa530a8281f8d9c0ee90c70589ce313e8139213e0970c8"
+    },
+    {
+      "path": "data/全国5A景区主表.csv",
+      "bytes": 454260,
+      "sha256": "89c5490d6bbf48012f178b1bbfc13fc85da9b6629c8083057b3686ea90df32b6"
+    },
+    {
+      "path": "data/全国门票报告统计.csv",
+      "bytes": 251,
+      "sha256": "37e940e5a229beb59a71b3a6987fb5b5f34762a78e20ea7087caefb467002d4b"
+    },
+    {
+      "path": "data/历史公开数量节点.csv",
+      "bytes": 729,
+      "sha256": "eb1391ea61b2b06965714bc785f89cef60a18e45cafc27d8a6285baff627ede9"
+    },
+    {
+      "path": "data/峨眉山收入构成.csv",
+      "bytes": 581,
+      "sha256": "7d94c0d36fda65a78adf5758a0b51dbd008ea2cf3953ab1d10c9918bb71a0475"
+    },
+    {
+      "path": "data/市级属地关系.csv",
+      "bytes": 23058,
+      "sha256": "4dceb8a8055968811895cd164c7e79bad198e21472e2a47667fa8acd505afb62"
+    },
+    {
+      "path": "data/市级归属人工核对.csv",
+      "bytes": 1328,
+      "sha256": "75817d1cd89ce0e2916735c53f2cfddc3b63461d96bd2c7e5ed1355a756a632a"
+    },
+    {
+      "path": "data/市级数量.csv",
+      "bytes": 8131,
+      "sha256": "ecbbc54cbc3255e9ba7212e845443760a26047ef6856aac507ed968075e81c20"
+    },
+    {
+      "path": "data/景区类型数量.csv",
+      "bytes": 584,
+      "sha256": "4684c5f942c3602a203a01e4f809864fe9ba98720eef31e1bfd46994b1161ef4"
+    },
+    {
+      "path": "data/最新认定批次.csv",
+      "bytes": 24129,
+      "sha256": "210ab7078a11a905f878c760a547b942562334c31a84c4376b28c149e764466e"
+    },
+    {
+      "path": "data/来源索引.csv",
+      "bytes": 7381,
+      "sha256": "8a3911d9fb13e3d14e9ef09b0c8e6eddd0c52e57d1de642664285ea33584ce4b"
+    },
+    {
+      "path": "data/现存名录认定年分布.csv",
+      "bytes": 298,
+      "sha256": "4bc6f8a5e910012e0fae41b00688ba47949bca439c87efe0187d1ed7da0c2e40"
+    },
+    {
+      "path": "data/目录2007年现存景区.csv",
+      "bytes": 86110,
+      "sha256": "e7d7a7b97002dedad74fe84725c7e74520888a6c95cafefd26feae8509b3fe16"
+    },
+    {
+      "path": "data/目录快照核验.json",
+      "bytes": 233,
+      "sha256": "f64a21df87476907f50bf0f231e68ba7853b617b7bb7777391e658d29e499d68"
+    },
+    {
+      "path": "data/省级数量.csv",
+      "bytes": 354,
+      "sha256": "bb23b2c02d47166c83d6ca8b5b8e5e1f866248d1a40c8b740ac90ba7cdd63b9f"
+    },
+    {
+      "path": "data/门票核验样本.csv",
+      "bytes": 6916,
+      "sha256": "d059a2f952d35d0fcd483b66ef4d064bb339db79c1abdde3cc42d80392cf67e9"
+    },
+    {
+      "path": "data/验收结果.json",
+      "bytes": 1083,
+      "sha256": "d1807e9133aacf61f118d340f420c9102b24afac3dd24f89bfd2b079f31fbf8b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2644,
+      "sha256": "8ff1ed87b25636301aba28abe39df6f386bc4eee5a8046d6e0dd4fac477af197"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 70,
+      "sha256": "522d5d333accbe8e644b709844309ed9d3d95359684747e1012dc3435978dc8c"
+    },
+    {
+      "path": "scripts/render_article_charts.py",
+      "bytes": 13834,
+      "sha256": "53dd9127fb4eb244957e95bf1ad20947133ad59cb8086997424a2f9b09618b8b"
+    },
+    {
+      "path": "scripts/render_charts.py",
+      "bytes": 23547,
+      "sha256": "f3aacf6d717dd1b3f25faf8ec92f457315380afa3c6301b5f0b1486d019e5dbc"
+    },
+    {
+      "path": "图集/01_全国市级热力地图.png",
+      "bytes": 756636,
+      "sha256": "b011d285aa6cd8978bcb70f333fc46c1c8293566adcbe7c07f8df174ad48d2d7"
+    },
+    {
+      "path": "图集/02_认定年份与历史数量.png",
+      "bytes": 442437,
+      "sha256": "c95193f92f3b49a666887768dc467af86d8dbf2d4cf2283d9e913c9cf51e009c"
+    },
+    {
+      "path": "图集/03_最新批次19家.png",
+      "bytes": 787910,
+      "sha256": "1323d8ffafa1416b184224916172e6e8e5504c60e35765cb453219094dc8ddd0"
+    },
+    {
+      "path": "图集/04_省市集中度帕累托图.png",
+      "bytes": 435238,
+      "sha256": "ea0be6809c79a7fee94aa2df99dda8e7d55500461f33be1f869d3fcc3dd3a803"
+    },
+    {
+      "path": "图集/05_景区类型分布.png",
+      "bytes": 397383,
+      "sha256": "2d734daf33de5b4874d52806b2e0ab59921935cfac7e91196c8fc3ecabd29a97"
+    },
+    {
+      "path": "图集/06_门票价格与收费口径.png",
+      "bytes": 450269,
+      "sha256": "a8a7fa3664c173fb02785316b980cb034e2474c97e2a7a408106ba3602119265"
+    },
+    {
+      "path": "图集/07_运营公司营收与利润.png",
+      "bytes": 399928,
+      "sha256": "2a7cab9e833708890491622ce05e18a176e0abb54380cf4a61ca56e8f0c1bc75"
+    },
+    {
+      "path": "图集/08_景观结构与有趣发现.png",
+      "bytes": 428274,
+      "sha256": "056623ba8863950c20e422c320a4019569d2697f49292dfe5127ff6e13b84a01"
+    },
+    {
+      "path": "图集/图集总览.png",
+      "bytes": 1059265,
+      "sha256": "80414737622142c007ded7f17678d43e2eac57d867fe71d48876373449bb24d9"
+    },
+    {
+      "path": "文章配图/01_全国市级分布.png",
+      "bytes": 294961,
+      "sha256": "fce99ce66d98dd47f37f72d39b9f51769c47568d8d18b0cc6da83eda5ef704c6"
+    },
+    {
+      "path": "文章配图/02_各省级地区数量.png",
+      "bytes": 184021,
+      "sha256": "d3d4195ac6d7eab004f59a9d8ba7ddc1bb283fd09b3fbaf0d7a4299f97a33e5a"
+    },
+    {
+      "path": "文章配图/03_省级集中度.png",
+      "bytes": 148865,
+      "sha256": "f4a7eaa929400187cf62e64cd64865a55c4cfcfa221f62f9a60b5ecc9e2e6dd5"
+    },
+    {
+      "path": "文章配图/04_认定年份与历史节点.png",
+      "bytes": 200763,
+      "sha256": "4bd738bc7154791c253dcf2882f1fef48635b191b64386b79986309d0a7a0936"
+    },
+    {
+      "path": "文章配图/05_最新批次名单.png",
+      "bytes": 230889,
+      "sha256": "3d52d5f441ac6c6c243ddcd59379a19dbc776c42e9622a5d4e54888a224298d5"
+    },
+    {
+      "path": "文章配图/06_景区类型.png",
+      "bytes": 123092,
+      "sha256": "b8266dfd3981bf97e39ed76b0d8145682f661711319510bd2627be0cf83c2bc8"
+    },
+    {
+      "path": "文章配图/07_门票样本.png",
+      "bytes": 194718,
+      "sha256": "ed6a1e82648010075a3a5d495cd9887a482e50a970335974863811db9718a0c5"
+    },
+    {
+      "path": "文章配图/08_运营公司财务.png",
+      "bytes": 180142,
+      "sha256": "29cb1ecc3ee1a52d00ffa14724857829e833949f385f27f2ccbad3a9855eafcd"
+    },
+    {
+      "path": "文章配图/09_峨眉山收入结构.png",
+      "bytes": 112773,
+      "sha256": "d9aa000769121ad6531fe53094e672ac98510e03f89c786822d4c4a3e61df690"
+    },
+    {
+      "path": "文章配图/文末动图.gif",
+      "bytes": 1497023,
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "文章配图/顶部横幅.gif",
+      "bytes": 1284334,
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
+    },
+    {
+      "path": "研究说明.txt",
+      "bytes": 7387,
+      "sha256": "1aa146a02a6edbd5b5031b282d5aa9d4a251427585a860a8cd20437b5dec6e82"
+    }
+  ]
+}

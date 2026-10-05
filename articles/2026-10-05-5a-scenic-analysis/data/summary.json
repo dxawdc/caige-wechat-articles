@@ -1,0 +1,91 @@
+{
+  "national_unique": 358,
+  "province_assignments": 359,
+  "city_assignments": 362,
+  "cities_with_5a": 220,
+  "city_units": 367,
+  "category": {
+    "自然风光": 159,
+    "历史人文": 65,
+    "综合景观": 37,
+    "古城古镇": 32,
+    "宗教文化": 27,
+    "主题休闲": 24,
+    "红色纪念": 14
+  },
+  "province_top": [
+    {
+      "province": "江苏",
+      "count": 26
+    },
+    {
+      "province": "浙江",
+      "count": 22
+    },
+    {
+      "province": "新疆",
+      "count": 18
+    },
+    {
+      "province": "四川",
+      "count": 18
+    },
+    {
+      "province": "河南",
+      "count": 17
+    }
+  ],
+  "city_top": [
+    {
+      "city_code": 500000,
+      "city": "重庆市",
+      "count": 12
+    },
+    {
+      "city_code": 110000,
+      "city": "北京市",
+      "count": 9
+    },
+    {
+      "city_code": 320500,
+      "city": "苏州市",
+      "count": 6
+    },
+    {
+      "city_code": 310000,
+      "city": "上海市",
+      "count": 5
+    },
+    {
+      "city_code": 610100,
+      "city": "西安市",
+      "count": 5
+    },
+    {
+      "city_code": 130600,
+      "city": "保定市",
+      "count": 4
+    },
+    {
+      "city_code": 220100,
+      "city": "长春市",
+      "count": 4
+    },
+    {
+      "city_code": 320200,
+      "city": "无锡市",
+      "count": 4
+    },
+    {
+      "city_code": 361100,
+      "city": "上饶市",
+      "count": 4
+    },
+    {
+      "city_code": 410300,
+      "city": "洛阳市",
+      "count": 4
+    }
+  ],
+  "latest_batch": 19
+}
