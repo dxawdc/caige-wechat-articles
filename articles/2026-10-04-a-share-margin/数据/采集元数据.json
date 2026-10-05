@@ -1,0 +1,42 @@
+{
+  "collected_at": "2026-10-04T16:50:30+08:00",
+  "margin_source": "https://data.eastmoney.com/rzrq/",
+  "margin_report": "RPTA_WEB_RZRQ_LSSH",
+  "margin_unit": "人民币元",
+  "scope": "沪市与深市融资融券标的汇总，含股票和符合条件的基金；不含京市",
+  "index_source": "腾讯证券日线接口",
+  "index": "沪深300价格指数，代码000300",
+  "official_fetch": {
+    "上交所汇总抽样.json": {
+      "status": "fetched"
+    },
+    "深交所汇总抽样.json": {
+      "status": "fetched"
+    },
+    "上交所融资汇总.json": {
+      "status": "fetched",
+      "rows": 263
+    },
+    "深交所9月30日汇总.json": {
+      "status": "fetched_empty",
+      "requested_date": "2026-09-30",
+      "rows": 0
+    }
+  },
+  "sh_repayment_source": "上交所融资融券汇总；沪市偿还额使用rzche字段",
+  "information_cutoff": "2026-09-30",
+  "availability_checked_on": "2026-10-04",
+  "availability": {
+    "sh": "2026-09-30",
+    "sz": "2026-09-29",
+    "complete_sh_sz": "2026-09-29",
+    "index": "2026-09-30",
+    "sz_cutoff_day": "查询未返回数据；未填充合计",
+    "evidence": [
+      "上交所融资汇总.json",
+      "深交所9月30日汇总.json",
+      "深市9月30日查询.json",
+      "市场汇总9月30日查询.json"
+    ]
+  }
+}

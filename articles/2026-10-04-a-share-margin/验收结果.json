@@ -1,0 +1,2397 @@
+{
+  "status": "passed",
+  "checks": {
+    "unique_dates": true,
+    "finite_nonnegative_balance_buy_repay": true,
+    "no_missing_dates_against_index": true,
+    "reported_net_field_vs_buy_minus_repay_max_difference_yuan_full_snapshot": {
+      "sh": 2586303825.0,
+      "sz": 0.0
+    },
+    "net_buy_definition": "买入额减偿还额；不采用第三方预计算RZJME字段",
+    "reported_net_difference_days_in_window": 0,
+    "computed_net_buy_identity": true,
+    "same_samples_for_paired_scatter": true,
+    "next_day_aligned_on_full_index_calendar": true,
+    "independent_correlations": true,
+    "official_cross_checks": [
+      {
+        "market": "沪市",
+        "date": "2026-09-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-09-01",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-31",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-08-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-31",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-07-01",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-06-01",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-05-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-04-01",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-31",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-03-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-02-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2026-01-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-31",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-12-01",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-07",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-06",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-11-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-31",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-28",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-27",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-21",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-20",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-14",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-13",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-10-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-30",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-29",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-26",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-25",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-24",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-23",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-22",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-19",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-18",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-17",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-16",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-15",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-12",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-11",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-10",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-09",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-08",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-05",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-04",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-03",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-02",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "沪市",
+        "date": "2025-09-01",
+        "absolute_errors_yuan": {
+          "balance": 0.0,
+          "buy": 0.0,
+          "repay": 0.0
+        }
+      },
+      {
+        "market": "深市",
+        "date": "2026-09-29",
+        "absolute_errors_yuan": {
+          "balance": 815751.0,
+          "buy": 701060.0000076294
+        },
+        "official_display_precision_yi": 0.01
+      }
+    ]
+  },
+  "scope": "沪深市场融资标的汇总，含基金，不含京市；沪深300仅作为宽基价格表现参照。"
+}

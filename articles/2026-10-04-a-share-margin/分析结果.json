@@ -1,0 +1,166 @@
+{
+  "period": [
+    "2025-09-30",
+    "2026-09-29"
+  ],
+  "trading_days": 241,
+  "information_cutoff": "2026-09-30",
+  "requested_window": [
+    "2025-09-30",
+    "2026-09-30"
+  ],
+  "latest_sh_date": "2026-09-30",
+  "latest_sz_date": "2026-09-29",
+  "next_return_last_date": "2026-09-30",
+  "balance_start_trillion": 2.370972118303,
+  "balance_end_trillion": 2.571471286839,
+  "balance_change_yi": 2004.99168536,
+  "balance_change_pct": 8.456411907513495,
+  "peak_balance_trillion": 3.000942666983,
+  "peak_date": "2026-06-25",
+  "latest_net_buy_yi": -20.47725678,
+  "positive_net_days": 136,
+  "pearson_same_day": 0.516003328660986,
+  "pearson_next_day": -0.15430997490490383,
+  "spearman_same_day": 0.5090771921401872,
+  "spearman_next_day": -0.1099585062240664,
+  "max_net_buy": {
+    "date": "2025-10-09",
+    "yi": 507.09214921
+  },
+  "max_net_repay": {
+    "date": "2026-07-17",
+    "yi": -798.25397843
+  },
+  "quadrants": {
+    "same_day": {
+      "net_buy_and_up": 89,
+      "net_buy_and_down": 47,
+      "net_repay_and_up": 32,
+      "net_repay_and_down": 73,
+      "zero_axis_days": 0
+    },
+    "next_day": {
+      "net_buy_and_up": 61,
+      "net_buy_and_down": 75,
+      "net_repay_and_up": 60,
+      "net_repay_and_down": 45,
+      "zero_axis_days": 0
+    }
+  },
+  "last_60_same_day_r": 0.5454775789921237,
+  "last_60_next_day_r": -0.2888735168884658,
+  "interpretation": "同期相关描述同一交易日共变；次日结果仅为本窗口样本内观察，未进行样本外预测或显著性检验。",
+  "cutoff_day_sh": {
+    "balance_yi": 12965.20652053,
+    "buy_yi": 620.06897126,
+    "repay_yi": 849.68716127,
+    "net_buy_yi": -229.61819001,
+    "csi300_return_pct": 0.28560184663111166,
+    "csi300_close": 4357.62,
+    "sz_values": null,
+    "combined_values": null
+  },
+  "sh_only_period": [
+    "2025-09-30",
+    "2026-09-30"
+  ],
+  "sh_only_trading_days": 242,
+  "peak_to_latest_change_yi": -4294.71380144,
+  "peak_to_latest_change_pct": -14.311215767936325,
+  "conditional_returns": [
+    {
+      "group": "净买入日",
+      "n": 136,
+      "same_up_n": 89,
+      "next_up_n": 61,
+      "same_up_pct": 65.44117647058823,
+      "next_up_pct": 44.85294117647059,
+      "same_mean_pct": 0.40745305500386936,
+      "next_mean_pct": -0.12988927549747842,
+      "next_median_pct": -0.14290311404510647
+    },
+    {
+      "group": "净偿还日",
+      "n": 105,
+      "same_up_n": 32,
+      "next_up_n": 60,
+      "same_up_pct": 30.476190476190478,
+      "next_up_pct": 57.14285714285714,
+      "same_mean_pct": -0.5713965164676185,
+      "next_mean_pct": 0.12305501098953105,
+      "next_median_pct": 0.1221938894569563
+    },
+    {
+      "group": "全部样本",
+      "n": 241,
+      "same_up_n": 121,
+      "next_up_n": 121,
+      "same_up_pct": 50.20746887966805,
+      "next_up_pct": 50.20746887966805,
+      "same_mean_pct": -0.019016675305285106,
+      "next_mean_pct": -0.01968533325210089,
+      "next_median_pct": 0.013550508461657174
+    }
+  ],
+  "quarter_correlations": [
+    {
+      "quarter": "2025Q4",
+      "n": 60,
+      "same_day_r": 0.6128656802075231,
+      "next_day_r": -0.2611492341558244
+    },
+    {
+      "quarter": "2026Q1",
+      "n": 56,
+      "same_day_r": 0.4265980164558007,
+      "next_day_r": -0.007825323706454826
+    },
+    {
+      "quarter": "2026Q2",
+      "n": 60,
+      "same_day_r": 0.5611377709819738,
+      "next_day_r": -0.146661721514462
+    },
+    {
+      "quarter": "2026Q3",
+      "n": 64,
+      "same_day_r": 0.5060511910258515,
+      "next_day_r": -0.3041430531384003
+    }
+  ],
+  "net_buy_quartiles": [
+    {
+      "quartile": 1,
+      "n": 61,
+      "min_yi": -798.25397843,
+      "max_yi": -63.94770407,
+      "same_up_pct": 19.672131147540984,
+      "next_up_pct": 55.73770491803278
+    },
+    {
+      "quartile": 2,
+      "n": 60,
+      "min_yi": -61.62348719,
+      "max_yi": 19.54762823,
+      "same_up_pct": 48.333333333333336,
+      "next_up_pct": 61.66666666666667
+    },
+    {
+      "quartile": 3,
+      "n": 60,
+      "min_yi": 21.68486316,
+      "max_yi": 93.87842371,
+      "same_up_pct": 56.666666666666664,
+      "next_up_pct": 38.333333333333336
+    },
+    {
+      "quartile": 4,
+      "n": 60,
+      "min_yi": 97.20714221,
+      "max_yi": 507.09214921,
+      "same_up_pct": 76.66666666666667,
+      "next_up_pct": 45.0
+    }
+  ]
+}

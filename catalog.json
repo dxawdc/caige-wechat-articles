@@ -4,6 +4,16 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
+      "id": "a-share-margin",
+      "title": "融资净买入与市场涨跌：把当日和次日分开看",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-04-a-share-margin",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-margin_v1.0.0.zip",
+      "summary": "沪深241日与沪市截至9月30日数据、融资余额与净买入、当日／次日散点、分季度和四组比较、7组PNG/SVG与采集绘图源码"
+    },
+    {
       "id": "nobel-prize",
       "title": "诺奖公布前，我把125年的获奖数据画成了14张图",
       "kind": "article",

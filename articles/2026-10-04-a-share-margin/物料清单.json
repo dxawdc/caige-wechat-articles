@@ -1,0 +1,196 @@
+{
+  "id": "a-share-margin",
+  "version": "v1.0.0",
+  "updated": "2026-10-05",
+  "entrypoint": "绘图与分析.py",
+  "information_cutoff": "2026-09-30",
+  "complete_market_cutoff": "2026-09-29",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3780,
+      "sha256": "0255424384b7a32d7f711eeecab8c703eb476f7c1701bd2bbe599716da18fa49"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 54,
+      "sha256": "7b6a00aeb6a9f43aca8dc0067394e2a302bb3f7b9369823b86cb1fdb94a91142"
+    },
+    {
+      "path": "分析结果.json",
+      "bytes": 4494,
+      "sha256": "eb10d7b4580a25f10d98f1bf2389348668ba251695a163e00fb7002d5667eed3"
+    },
+    {
+      "path": "分析说明.md",
+      "bytes": 3604,
+      "sha256": "e87ab6abb15bfd9119406f03ea29a18b379c0d6a2fd97f82764bed8c49154a58"
+    },
+    {
+      "path": "图表/净买入分组与上涨占比.png",
+      "bytes": 141638,
+      "sha256": "30859ba980528283fbc8b62e7e4b02ede1277d5b129e3454751ff8510c6d003e"
+    },
+    {
+      "path": "图表/净买入分组与上涨占比.svg",
+      "bytes": 11946,
+      "sha256": "19f80c8c5a8da0aacd978024f4a3a5a41977cae632abce9364823e9047b3a330"
+    },
+    {
+      "path": "图表/文末动图.gif",
+      "bytes": 1497023,
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "图表/沪市融资余额与净买入.png",
+      "bytes": 235613,
+      "sha256": "7a8761f4e34144257e47d837d9726c4cf2706f6956d4013268c97415a0f65a52"
+    },
+    {
+      "path": "图表/沪市融资余额与净买入.svg",
+      "bytes": 81813,
+      "sha256": "e5443d7a9bf4969831ab7494fc3571d32e03ed2617a116606a2e2abd379d3451"
+    },
+    {
+      "path": "图表/融资交易总览.png",
+      "bytes": 519192,
+      "sha256": "a9c1f1b980180ed999a7984666713ae469230fa2b712dbac466dc68a7b962cfe"
+    },
+    {
+      "path": "图表/融资交易总览.svg",
+      "bytes": 189465,
+      "sha256": "3de81c16e77d68f412508dd276275ac4af3554730106564b713280417dca5fac"
+    },
+    {
+      "path": "图表/融资余额与净买入.png",
+      "bytes": 235002,
+      "sha256": "abf0e706913dfb1ffc624c673a893040bf1f6fd65957fcd5ad142eeb9bec1daa"
+    },
+    {
+      "path": "图表/融资余额与净买入.svg",
+      "bytes": 80616,
+      "sha256": "ad4ff17992a055031ace0fe6114e04a6ca2ee10a726ddc265d4e017e99ab310f"
+    },
+    {
+      "path": "图表/融资净买入与当日涨跌.png",
+      "bytes": 155021,
+      "sha256": "249e9a5ceaa5e273f841d366b72166645e32fcdf34e967daf379f4e3ced2fd17"
+    },
+    {
+      "path": "图表/融资净买入与当日涨跌.svg",
+      "bytes": 55049,
+      "sha256": "8fcc003d9de38a4b9baaa484b2365e16957370ffc098d4b0b4bb76dc60ec3e11"
+    },
+    {
+      "path": "图表/融资净买入与次日涨跌.png",
+      "bytes": 158116,
+      "sha256": "9d2307e08cefffc32771246ab188096152fb722e5a3414d3316e29a8d5c998e6"
+    },
+    {
+      "path": "图表/融资净买入与次日涨跌.svg",
+      "bytes": 55058,
+      "sha256": "176f909b55a232d9259dbc96e05b1e2732b9f4445756ceee20ab8736d3d1ea3c"
+    },
+    {
+      "path": "图表/融资净买入与涨跌散点图.png",
+      "bytes": 231830,
+      "sha256": "52ba251d456f1f165be525f5b9ac507be8de48c2eb911d6c898d4559f42dba85"
+    },
+    {
+      "path": "图表/融资净买入与涨跌散点图.svg",
+      "bytes": 107318,
+      "sha256": "f0a0132a2461d677f3a0d63ac6c1f64ad87734303de7b7c77809a162843551c2"
+    },
+    {
+      "path": "图表/顶部横幅.gif",
+      "bytes": 1284334,
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
+    },
+    {
+      "path": "数据/上交所汇总抽样.json",
+      "bytes": 3821,
+      "sha256": "e44e22645efa75e558d0b57ff01d6db56ada80d9e81ef66ff467cf73a90d0df5"
+    },
+    {
+      "path": "数据/上交所融资汇总.json",
+      "bytes": 202981,
+      "sha256": "04d8c10825e8d847f237fe92d660d623b9013b777c0d1625e3a0de88f859e90a"
+    },
+    {
+      "path": "数据/市场汇总9月30日查询.json",
+      "bytes": 2836,
+      "sha256": "c6c2b4457a645a5777cba0ba87d803d05a285a99a6d404aa7b2242abff20d2da"
+    },
+    {
+      "path": "数据/沪市截至9月30日日度明细.csv",
+      "bytes": 19076,
+      "sha256": "7a5f519a307d2da756f685bde7facb22ae48643da1b8673beb9b5a2646ca534d"
+    },
+    {
+      "path": "数据/沪市融资汇总.json",
+      "bytes": 626231,
+      "sha256": "4b75d58822e4c92d16b5d0a5358777836975771404e04b7c4968aab705ecc95e"
+    },
+    {
+      "path": "数据/沪深300日线.json",
+      "bytes": 86325,
+      "sha256": "59e225152c4fb00614713b1939b14a174b1b20ffd444c731f90485c03fa6ea44"
+    },
+    {
+      "path": "数据/深交所9月30日汇总.json",
+      "bytes": 7800,
+      "sha256": "cdfb1e86d0c13ebfb3a79b9ab2f23274ae45bf43d46d67d194d06fc503b6ce13"
+    },
+    {
+      "path": "数据/深交所汇总抽样.json",
+      "bytes": 12963,
+      "sha256": "6eff83563731d4a93193d7b5bba2735f53944fc32b85af20b0fc53709dde9a19"
+    },
+    {
+      "path": "数据/深市9月30日查询.json",
+      "bytes": 116,
+      "sha256": "bfb8dd2131b0f8fbc6720ddf56f3d66a669fac79f58058e1e981f781af603980"
+    },
+    {
+      "path": "数据/深市融资汇总.json",
+      "bytes": 625004,
+      "sha256": "1d3dab67858ca85734cc20bab2747012f088e9d7749a381b54736edb9f75c74f"
+    },
+    {
+      "path": "数据/融资与指数日度明细.csv",
+      "bytes": 72659,
+      "sha256": "5f69a8fed5e6d82d1db75779731c0fb78a8ea3aa43deabe9a5b587b2757a0750"
+    },
+    {
+      "path": "数据/融资与指数日度明细.json",
+      "bytes": 193974,
+      "sha256": "c8a6264e3fdb97f62c5a1c81b60d3a857229d7eda4ccc8b573a5dcf99c50e609"
+    },
+    {
+      "path": "数据/采集元数据.json",
+      "bytes": 1354,
+      "sha256": "8bcc26e9f5d0b00e8ceffdc8cfc311fbc9f3742a866be6f329bdc2315ae73cc7"
+    },
+    {
+      "path": "绘图与分析.py",
+      "bytes": 26185,
+      "sha256": "6cc6dbee0428681655997243f9a0d731b8ff24e3da042e96ab25e8d52de12d60"
+    },
+    {
+      "path": "配图预览.html",
+      "bytes": 3814,
+      "sha256": "3d8bf9cb0cb88a973bc5d5f9a58ffbf5cdeec5d1724e730c4a6cc610ed73c8ee"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 4398,
+      "sha256": "283412ca592244c79ea890c43aa2ade6ef5559e23138595250397a667c542a0a"
+    },
+    {
+      "path": "验收结果.json",
+      "bytes": 53363,
+      "sha256": "a44d473c05b46f81779610a9a7a9aa59fccff1cdb2e85cd77876d2bdef60c80f"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}
