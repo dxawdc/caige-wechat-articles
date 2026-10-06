@@ -1,0 +1,70 @@
+{
+  "id": "etf-heatmap",
+  "version": "v1.0.0",
+  "updated": "2026-10-06",
+  "entrypoint": "绘图_叠加.py",
+  "information_cutoff": "2026-09-30",
+  "material_policy": "latest-complete-set-only",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3436,
+      "sha256": "40944e9c086bbf97445630a05893df541a13f798d6913281dbcbcdc16782346e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 33,
+      "sha256": "35cf8c20f7999ec3cdf7cc07f2793446106de0bd71b614b6f04ff148b4d5ba25"
+    },
+    {
+      "path": "图表/ETF热力图_叠加多维度.png",
+      "bytes": 1042765,
+      "sha256": "84fba88442a5342626e59a1f133a78a789d81586f112f1adc0c60d0247c1fd45"
+    },
+    {
+      "path": "图表/ETF热力图_叠加多维度.svg",
+      "bytes": 641184,
+      "sha256": "a32fd67a3b5da219e9ca3e8c84eb6933693cfe8ed4ab6b9d3fafca4e44382647"
+    },
+    {
+      "path": "多维热力图说明.md",
+      "bytes": 3669,
+      "sha256": "44d38f97df99d9405d542fce6978789243b2d6174977f0022b9eebef228d3903"
+    },
+    {
+      "path": "数据/etf_K线.json",
+      "bytes": 273489,
+      "sha256": "a64d337ef82ccf4d4dcff45ea637a8953ef920b6d32ee6bacc89880fda5545ae"
+    },
+    {
+      "path": "数据/etf_多维指标.csv",
+      "bytes": 10184,
+      "sha256": "4903d02b46794ae6161b6e8a507aa40299744c8eabe0eaba1a23d1ef673e2283"
+    },
+    {
+      "path": "数据/etf_多维指标.json",
+      "bytes": 23370,
+      "sha256": "35d5ff6493554e2196eb30b52571c325fdb18335a0abaebe732d1ce9f83aec50"
+    },
+    {
+      "path": "绘图_叠加.py",
+      "bytes": 18624,
+      "sha256": "1bfcb47d99b31b976668635a71d46f7fafc6f1e254687cb71ed596911deab83d"
+    },
+    {
+      "path": "采集ETF行情.py",
+      "bytes": 4534,
+      "sha256": "0b725d6cb0d07aa6b5207fc1237aa73bf711aee435903676db411c447ea6d032"
+    },
+    {
+      "path": "验收_多维热力图.json",
+      "bytes": 2154,
+      "sha256": "1c2cb6f26ec915b567c433e7b1c117205271a813e6ffe5d2730980fb6fce51aa"
+    },
+    {
+      "path": "验收_数据采集.json",
+      "bytes": 1298,
+      "sha256": "1c67fde325517b36da43d1833f314853e11c6c41eb314e8c0df7b753d15fb1dd"
+    }
+  ]
+}

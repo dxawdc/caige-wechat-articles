@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看](../articles/2026-10-04-etf-heatmap/README.md) | v1.0.0 | [etf-heatmap_v1.0.0.zip](etf-heatmap_v1.0.0.zip) | 1.08 MB |
 | [全国358家5A景区，哪里最多？门票多少钱，又靠什么赚钱？](../articles/2026-10-05-5a-scenic-analysis/README.md) | v1.4.0 | [5a-scenic-analysis.zip](5a-scenic-analysis.zip) | 8.73 MB |
 | [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](../articles/2026-10-05-etf-drawdown-recovery/README.md) | v1.0.3 | [etf-drawdown-recovery_v1.0.3.zip](etf-drawdown-recovery_v1.0.3.zip) | 3.88 MB |
 | [融资净买入与市场涨跌：把当日和次日分开看](../articles/2026-10-04-a-share-margin/README.md) | v1.0.0 | [a-share-margin_v1.0.0.zip](a-share-margin_v1.0.0.zip) | 4.61 MB |

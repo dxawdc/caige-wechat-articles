@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "etf-heatmap",
+      "title": "用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-04-etf-heatmap",
+      "manifest": "物料清单.json",
+      "download": "downloads/etf-heatmap_v1.0.0.zip",
+      "summary": "16只ETF的120日行情快照、20日涨跌与11项指标、PNG/SVG热力图和采集绘图Python源码"
+    },
     {
       "id": "5a-scenic-analysis",
       "title": "全国358家5A景区，哪里最多？门票多少钱，又靠什么赚钱？",

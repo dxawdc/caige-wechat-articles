@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "review_date": "2026-10-04",
+  "data_as_of": "2026-09-30",
+  "universe_count": 16,
+  "daily_columns": 20,
+  "indicator_columns": 11,
+  "reviewed_cells": 496,
+  "independent_recomputation": {
+    "entities": 16,
+    "indicators": 11,
+    "methods": "标准库统计、RSI显式指数权重加总、回撤穷举峰谷对、20日收益复利",
+    "max_absolute_errors": {
+      "m5": 0,
+      "m10": 0,
+      "m20": 6.750155989720952e-14,
+      "accel5": 1.7763568394002505e-15,
+      "excess20": 0,
+      "bias20": 2.220446049250313e-14,
+      "rsi14": 2.842170943040401e-14,
+      "up20": 0,
+      "vol20": 7.105427357601002e-15,
+      "mdd20": 0,
+      "volume_ratio": 0
+    }
+  },
+  "checks": [
+    "所有交易日期一致、无重复、无缺失",
+    "20日收益使用21个价位",
+    "日收益与原涨跌快照在舍入误差内一致",
+    "11项指标独立复算一致",
+    "基准ETF超额为0",
+    "排序、CSV与JSON一致",
+    "两处基金名称已按官方资料校正",
+    "RSI上涨/下跌/平盘边界验证",
+    "全部496单元格文字对比度>=4.5:1",
+    "PNG可解码、SVG可解析"
+  ],
+  "minimum_cell_text_contrast": 4.591846264116788,
+  "visual_review": {
+    "status": "passed",
+    "checked": "已查看完整图片，行对齐、列标题、色标、正负号与单位完整；高清图片放大可读"
+  },
+  "limits": [
+    "使用本地第三方行情快照，未逐笔与交易所交叉核验",
+    "16只ETF为代表样本"
+  ],
+  "source_response_fields": {
+    "510300": "qfqday",
+    "510500": "qfqday",
+    "159915": "qfqday",
+    "588000": "qfqday",
+    "510050": "qfqday",
+    "159845": "qfqday",
+    "512880": "day",
+    "512480": "qfqday",
+    "512010": "qfqday",
+    "159928": "qfqday",
+    "159516": "qfqday",
+    "515790": "day",
+    "512170": "qfqday",
+    "512690": "qfqday",
+    "159819": "day",
+    "516160": "qfqday"
+  },
+  "collection_snapshot_match": true,
+  "source_adjustment_note": "统一请求qfq，实际响应字段记录在采集验收中；使用返回的价格计算历史表现。"
+}
