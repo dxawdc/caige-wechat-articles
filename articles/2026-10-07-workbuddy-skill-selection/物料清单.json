@@ -1,11 +1,15 @@
 [
   {
     "path": "README.md",
-    "sha256": "03f791f93d00e05948515b4863225392b44dfbb283e08d774d18fc25bce7f5b9"
+    "sha256": "431bea114aa686f6d93038b53aae835fb395f25738347ac2044b6dd93b25a5f3"
   },
   {
     "path": "requirements.txt",
     "sha256": "53233e8dfbed17a27fb6404f34b68fe2a8d00d68c743c4e6f4ac073b2833bab2"
+  },
+  {
+    "path": "对话安装清单.md",
+    "sha256": "3ecfeba68aca752b19f4f26b0833cbfa3447e6cf726405f30034d74a8de5dd85"
   },
   {
     "path": "封面设计说明.md",
@@ -13,15 +17,15 @@
   },
   {
     "path": "技能来源索引.json",
-    "sha256": "639ee3b54f3709e3d427196bdd4f81b87aaa3fee05e84cf6e860792bb3a972ff"
+    "sha256": "427e0796a119bedbef21e2d91346e1c7b30ca34077374cc76bc7e4087a3a2a7b"
   },
   {
     "path": "技能来源索引.md",
-    "sha256": "5cf7d5ee19a9c7a2aba540705ace45a5c9097ba5b32eab18db7c4366b1d57d4a"
+    "sha256": "cf8c5eed05bad3562d84ec9c3f69f38dda1185b4b9bd3cd1a27a6b79a5e6560b"
   },
   {
     "path": "生成选型图.py",
-    "sha256": "c4e982337dd5cef35b7486ec70f52e111efa92a77a916045abc64f57b1005085"
+    "sha256": "a6b5ba8c6128c8ed6cc1b6ae00cd5cb91485812f297bf06e3f89ccc3484b5279"
   },
   {
     "path": "配图/图1_场景导航.png",
@@ -73,11 +77,11 @@
   },
   {
     "path": "配图/图7_使用路径.png",
-    "sha256": "8b54c1fce0c769e0e8fd9569df796df69cd04421fc7cff0be28cb6adad62e90c"
+    "sha256": "fd16c5646ed48d5da889b0c61df142648f7ab74ad7569b0e43dcd0fefb255e26"
   },
   {
     "path": "配图/图7_使用路径.svg",
-    "sha256": "2fee98d16a1e6c1f56367bdd43e8d3d09a93cd30bb42d9237e8499bd1756b23d"
+    "sha256": "efdf8a262f57f2122c05661bc252a244c6f4823fd42d78315660168b23b3a894"
   },
   {
     "path": "配图/封面_方版.png",
