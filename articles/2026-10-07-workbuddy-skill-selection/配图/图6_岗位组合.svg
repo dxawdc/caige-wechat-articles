@@ -7,12 +7,12 @@
 <rect x="88" y="288" width="9" height="46" rx="4" fill="#E78445"/>
 <text x="120" y="283" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">行政与日常办公</text>
 <text x="120" y="344" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="33" font-weight="400" fill="#23765D">docx + pdf + file-organizer</text>
-<text x="120" y="393" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">文档交付、资料处理、文件整理</text>
+<text x="120" y="393" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">写文档、读资料、整理文件</text>
 <rect x="64" y="467" width="1072" height="183" rx="20" fill="#FFFFFF"/>
 <rect x="88" y="495" width="9" height="46" rx="4" fill="#E78445"/>
 <text x="120" y="490" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">运营与数据汇报</text>
 <text x="120" y="551" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="33" font-weight="400" fill="#23765D">xlsx + pptx</text>
-<text x="120" y="600" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">整理数据，形成可编辑汇报材料</text>
+<text x="120" y="600" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">整理表格，把结果做成汇报</text>
 <rect x="64" y="674" width="1072" height="183" rx="20" fill="#FFFFFF"/>
 <rect x="88" y="702" width="9" height="46" rx="4" fill="#E78445"/>
 <text x="120" y="697" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">产品与项目管理</text>
@@ -29,6 +29,6 @@
 <text x="120" y="1172" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="33" font-weight="400" fill="#23765D">baoyu-xhs-images</text>
 <text x="120" y="1221" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">按需搭配 baoyu-infographic</text>
 <path d="M 64 1325 L 1136 1325" fill="none" stroke="#DADFD5" stroke-width="2"/>
-<text x="64" y="1355" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#61726C">WorkBuddy 技能选型 · 示意图</text>
+<text x="64" y="1355" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#61726C">WorkBuddy 技能怎么选 · 示意图</text>
 <text x="920" y="1355" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#23765D">可以叫我才哥</text>
 </svg>

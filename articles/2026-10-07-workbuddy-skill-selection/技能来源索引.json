@@ -7,9 +7,9 @@
     "checked_at": "2026-10-07",
     "sha256": "8017469ea95fb7d28225c62daf8e2f3492a7b516fc64c18c28977cbf8980b7fe",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "官方文档列为办公四件套，优先检查当前可用能力；不据此断言与本仓库版本相同",
+    "workbuddy_status": "官方介绍过这项办公技能，先看看有没有，已有就直接用",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/WorkBuddy-Zero-Cost-Skill-Top-10/Office-Document-Suite",
-    "install_request": "请检查你当前可用的 docx 技能。已有且能调用就直接使用；没有的话，先在内置技能市场查找并安装对应的办公技能，告诉我实际名称和来源。需要采用下面的公开实现时，请先检查兼容性，再按当前 WorkBuddy 支持的方式完成安装。请实际执行，并用一个示例文件验证，回报能否调用和生成结果。\n\n公开实现参考：\nhttps://github.com/anthropics/skills/tree/main/skills/docx"
+    "install_request": "请看看你有没有 docx 技能。有就直接用，没有就帮我在技能市场里找一个并安装，也可以参考下面的技能地址。装好后做一个示例文件给我看看。如果遇到问题，请告诉我还差哪一步。\n\n技能参考地址：\nhttps://github.com/anthropics/skills/tree/main/skills/docx"
   },
   {
     "name": "xlsx",
@@ -19,9 +19,9 @@
     "checked_at": "2026-10-07",
     "sha256": "6712b39718fe815054abca9c3ee72f989613e6f771c8a5c58f30a65a6c905622",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "官方文档列为办公四件套，优先检查当前可用能力；不据此断言与本仓库版本相同",
+    "workbuddy_status": "官方介绍过这项办公技能，先看看有没有，已有就直接用",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/WorkBuddy-Zero-Cost-Skill-Top-10/Office-Document-Suite",
-    "install_request": "请检查你当前可用的 xlsx 技能。已有且能调用就直接使用；没有的话，先在内置技能市场查找并安装对应的办公技能，告诉我实际名称和来源。需要采用下面的公开实现时，请先检查兼容性，再按当前 WorkBuddy 支持的方式完成安装。请实际执行，并用一个示例文件验证，回报能否调用和生成结果。\n\n公开实现参考：\nhttps://github.com/anthropics/skills/tree/main/skills/xlsx"
+    "install_request": "请看看你有没有 xlsx 技能。有就直接用，没有就帮我在技能市场里找一个并安装，也可以参考下面的技能地址。装好后做一个示例文件给我看看。如果遇到问题，请告诉我还差哪一步。\n\n技能参考地址：\nhttps://github.com/anthropics/skills/tree/main/skills/xlsx"
   },
   {
     "name": "pptx",
@@ -31,9 +31,9 @@
     "checked_at": "2026-10-07",
     "sha256": "a7ff03e2c85b636f55232a6b1555f5dd90216b7a1a359ab289d8364e6acbc6a0",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "官方文档列为办公四件套，优先检查当前可用能力；不据此断言与本仓库版本相同",
+    "workbuddy_status": "官方介绍过这项办公技能，先看看有没有，已有就直接用",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/WorkBuddy-Zero-Cost-Skill-Top-10/Office-Document-Suite",
-    "install_request": "请检查你当前可用的 pptx 技能。已有且能调用就直接使用；没有的话，先在内置技能市场查找并安装对应的办公技能，告诉我实际名称和来源。需要采用下面的公开实现时，请先检查兼容性，再按当前 WorkBuddy 支持的方式完成安装。请实际执行，并用一个示例文件验证，回报能否调用和生成结果。\n\n公开实现参考：\nhttps://github.com/anthropics/skills/tree/main/skills/pptx"
+    "install_request": "请看看你有没有 pptx 技能。有就直接用，没有就帮我在技能市场里找一个并安装，也可以参考下面的技能地址。装好后做一个示例文件给我看看。如果遇到问题，请告诉我还差哪一步。\n\n技能参考地址：\nhttps://github.com/anthropics/skills/tree/main/skills/pptx"
   },
   {
     "name": "pdf",
@@ -43,9 +43,9 @@
     "checked_at": "2026-10-07",
     "sha256": "9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "官方文档列为办公四件套，优先检查当前可用能力；不据此断言与本仓库版本相同",
+    "workbuddy_status": "官方介绍过这项办公技能，先看看有没有，已有就直接用",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/WorkBuddy-Zero-Cost-Skill-Top-10/Office-Document-Suite",
-    "install_request": "请检查你当前可用的 pdf 技能。已有且能调用就直接使用；没有的话，先在内置技能市场查找并安装对应的办公技能，告诉我实际名称和来源。需要采用下面的公开实现时，请先检查兼容性，再按当前 WorkBuddy 支持的方式完成安装。请实际执行，并用一个示例文件验证，回报能否调用和生成结果。\n\n公开实现参考：\nhttps://github.com/anthropics/skills/tree/main/skills/pdf"
+    "install_request": "请看看你有没有 pdf 技能。有就直接用，没有就帮我在技能市场里找一个并安装，也可以参考下面的技能地址。装好后做一个示例文件给我看看。如果遇到问题，请告诉我还差哪一步。\n\n技能参考地址：\nhttps://github.com/anthropics/skills/tree/main/skills/pdf"
   },
   {
     "name": "doc-coauthoring",
@@ -55,9 +55,9 @@
     "checked_at": "2026-10-07",
     "sha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Anthropic 的 doc-coauthoring 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
+    "install_request": "请帮我安装下面链接里的 doc-coauthoring 技能，作者是 Anthropic。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/anthropics/skills/tree/main/skills/doc-coauthoring"
   },
   {
     "name": "internal-comms",
@@ -67,9 +67,9 @@
     "checked_at": "2026-10-07",
     "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Anthropic 的 internal-comms 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/anthropics/skills/tree/main/skills/internal-comms"
+    "install_request": "请帮我安装下面链接里的 internal-comms 技能，作者是 Anthropic。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/anthropics/skills/tree/main/skills/internal-comms"
   },
   {
     "name": "skill-creator",
@@ -79,9 +79,9 @@
     "checked_at": "2026-10-07",
     "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Anthropic 的 skill-creator 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/anthropics/skills/tree/main/skills/skill-creator"
+    "install_request": "请帮我安装下面链接里的 skill-creator 技能，作者是 Anthropic。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/anthropics/skills/tree/main/skills/skill-creator"
   },
   {
     "name": "content-research-writer",
@@ -91,9 +91,9 @@
     "checked_at": "2026-10-07",
     "sha256": "27eb5c1a0a88a9c1c64f6fcd9c28782e6a6e70d5da43233c4e99ade946f74825",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Composio 社区 的 content-research-writer 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer"
+    "install_request": "请帮我安装下面链接里的 content-research-writer 技能，作者是 Composio 社区。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer"
   },
   {
     "name": "file-organizer",
@@ -103,9 +103,9 @@
     "checked_at": "2026-10-07",
     "sha256": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Composio 社区 的 file-organizer 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer"
+    "install_request": "请帮我安装下面链接里的 file-organizer 技能，作者是 Composio 社区。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer"
   },
   {
     "name": "invoice-organizer",
@@ -115,9 +115,9 @@
     "checked_at": "2026-10-07",
     "sha256": "62198235231376cb09bc28bd601fb120d3ef24b3ddb55c4b71965f9044352fda",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Composio 社区 的 invoice-organizer 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer"
+    "install_request": "请帮我安装下面链接里的 invoice-organizer 技能，作者是 Composio 社区。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer"
   },
   {
     "name": "meeting-insights-analyzer",
@@ -127,9 +127,9 @@
     "checked_at": "2026-10-07",
     "sha256": "c639c0fc10a84225ba117ec5561f8cca1325c8d739fd0ac169b5a6dca6a0d071",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 Composio 社区 的 meeting-insights-analyzer 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer"
+    "install_request": "请帮我安装下面链接里的 meeting-insights-analyzer 技能，作者是 Composio 社区。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer"
   },
   {
     "name": "baoyu-cover-image",
@@ -139,9 +139,9 @@
     "checked_at": "2026-10-07",
     "sha256": "36804fce98bcb9ebe4a51c26f6f276a807805aab980ca4a0718daa40a5cc7fda",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 宝玉 的 baoyu-cover-image 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image"
+    "install_request": "请帮我安装下面链接里的 baoyu-cover-image 技能，作者是 宝玉。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image"
   },
   {
     "name": "baoyu-infographic",
@@ -151,9 +151,9 @@
     "checked_at": "2026-10-07",
     "sha256": "1572aaa294c5f7547889f520b6efeed979aeaaf58b4e7c4bcaaa26ace2ee3564",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 宝玉 的 baoyu-infographic 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic"
+    "install_request": "请帮我安装下面链接里的 baoyu-infographic 技能，作者是 宝玉。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic"
   },
   {
     "name": "baoyu-xhs-images",
@@ -163,9 +163,9 @@
     "checked_at": "2026-10-07",
     "sha256": "17bf5498641cc60cb98f0cc15fbea27fd42777d119a39fb54fd6418840442bba",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 宝玉 的 baoyu-xhs-images 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images"
+    "install_request": "请帮我安装下面链接里的 baoyu-xhs-images 技能，作者是 宝玉。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images"
   },
   {
     "name": "baoyu-url-to-markdown",
@@ -175,9 +175,9 @@
     "checked_at": "2026-10-07",
     "sha256": "40913749b0e95165b02771bdf17bb8ed9fa0a72787d3e09571341ab7148359d0",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 宝玉 的 baoyu-url-to-markdown 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown"
+    "install_request": "请帮我安装下面链接里的 baoyu-url-to-markdown 技能，作者是 宝玉。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown"
   },
   {
     "name": "baoyu-markdown-to-html",
@@ -187,8 +187,8 @@
     "checked_at": "2026-10-07",
     "sha256": "f4a5bb1697f9387557897a9c58b6406765728089a8d84cfbb6c40a93c3d136f7",
     "basis": "作者公开 SKILL.md",
-    "workbuddy_status": "原始来源已核对；内置市场收录尚未逐项确认",
+    "workbuddy_status": "作者分享的地址已核对；能否在技能市场搜到，还没有逐个确认",
     "workbuddy_evidence": "https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market",
-    "install_request": "请帮我安装 宝玉 的 baoyu-markdown-to-html 技能，准确来源见下面链接。先检查是否已安装，再查找内置市场是否有来源一致的版本；若没有，请从指定目录读取说明，并按当前 WorkBuddy 支持的方式完成安装。请实际执行，保留需要的脚本和参考文件，不要安装整套无关技能。安装后检查能否识别和调用，用一个小样本试运行，回报实际来源、调用状态，以及还缺哪些工具、配置或授权。如不能自动安装，请说明具体原因，不要自行替换成其他同名项目。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html"
+    "install_request": "请帮我安装下面链接里的 baoyu-markdown-to-html 技能，作者是 宝玉。如果已经装过，就不用重复安装。装好后试着用一次，看看能不能正常工作，把结果给我看看。如果还需要其他工具、登录或付费，请告诉我。\n\nhttps://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html"
   }
 ]

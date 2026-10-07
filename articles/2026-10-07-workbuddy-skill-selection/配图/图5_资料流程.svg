@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1090" viewBox="0 0 1200 1090"><rect width="100%" height="100%" fill="#F5F3EC"/>
 <rect x="64" y="54" width="116" height="10" rx="5" fill="#E78445"/>
 <text x="64" y="94" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="62" font-weight="700" fill="#153E36">把资料变成文章</text>
-<text x="66" y="182" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">工作组合示意 · 各环节分别核对</text>
+<text x="66" y="182" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">保存资料 → 写文章 → 排版</text>
 <text x="1050" y="61" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#23765D">05</text>
 <rect x="64" y="260" width="1072" height="205" rx="22" fill="#FFFFFF"/>
 <rect x="85" y="286" width="76" height="76" rx="20" fill="#23765D"/>
 <text x="100" y="305" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#FFFFFF">1</text>
 <text x="188" y="286" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">保存网页资料</text>
 <text x="188" y="351" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">baoyu-url-to-markdown</text>
-<text x="188" y="406" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">保留来源与日期，检查正文完整度</text>
+<text x="188" y="406" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">保留原网址，看看有没有漏内容</text>
 <rect x="64" y="490" width="1072" height="205" rx="22" fill="#FFFFFF"/>
 <rect x="85" y="516" width="76" height="76" rx="20" fill="#23765D"/>
 <text x="100" y="535" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#FFFFFF">2</text>
-<text x="188" y="516" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">研究并完成写作</text>
+<text x="188" y="516" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">查资料、写文章</text>
 <text x="188" y="581" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">content-research-writer</text>
-<text x="188" y="636" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">组织论点与证据，核对关键引用</text>
+<text x="188" y="636" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">理清思路，核对用到的资料</text>
 <rect x="64" y="720" width="1072" height="205" rx="22" fill="#FFFFFF"/>
 <rect x="85" y="746" width="76" height="76" rx="20" fill="#23765D"/>
 <text x="100" y="765" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#FFFFFF">3</text>
-<text x="188" y="746" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">输出排版文件</text>
+<text x="188" y="746" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">给文章排版</text>
 <text x="188" y="811" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">baoyu-markdown-to-html</text>
-<text x="188" y="866" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">得到 HTML 后，继续检查实际排版</text>
+<text x="188" y="866" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">放进公众号草稿，再用手机看看</text>
 <path d="M 64 995 L 1136 995" fill="none" stroke="#DADFD5" stroke-width="2"/>
-<text x="64" y="1025" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#61726C">WorkBuddy 技能选型 · 示意图</text>
+<text x="64" y="1025" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#61726C">WorkBuddy 技能怎么选 · 示意图</text>
 <text x="920" y="1025" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#23765D">可以叫我才哥</text>
 </svg>

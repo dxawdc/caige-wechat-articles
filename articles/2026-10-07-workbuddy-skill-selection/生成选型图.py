@@ -32,7 +32,7 @@ class Canvas:
         self.text(1050,61,f'{n:02}',32,color=GREEN)
     def footer(self):
         self.line(64,self.h-95,self.w-64,self.h-95,'#DADFD5',2)
-        self.text(64,self.h-65,'WorkBuddy 技能选型 · 示意图',27,color=MUTED)
+        self.text(64,self.h-65,'WorkBuddy 技能怎么选 · 示意图',27,color=MUTED)
         self.text(self.w-280,self.h-65,'可以叫我才哥',28,color=GREEN)
     def save(self,name):
         out=ROOT/'配图';out.mkdir(exist_ok=True)
@@ -49,7 +49,7 @@ def tile(c,y,num,title,skill,note,h=210):
 
 def make():
     c=Canvas(1200,1540);c.header(1,'你要完成哪类工作？','先选任务，再看对应技能')
-    rows=[('01','办公文件','Word / Excel / PPT / PDF','docx · xlsx · pptx · pdf'),('02','写作材料','方案 / 文章 / 内部汇报','按读者和用途选择写作流程'),('03','内容配图','封面 / 信息图 / 图文卡片','按单张或多张、阅读方式选择'),('04','资料与排版','网页保存 / 文章排版','把收集、写作与交付接起来'),('05','文件与杂事','文件 / 票据 / 会议表达','按整理对象选择专门流程'),('06','方法复用','把稳定的工作方法做成技能','先有成果和标准，再考虑定制')]
+    rows=[('01','办公文件','Word / Excel / PPT / PDF','docx · xlsx · pptx · pdf'),('02','写作材料','方案 / 文章 / 内部汇报','写方案、写文章、写周报分别选'),('03','内容配图','封面 / 信息图 / 图文卡片','先想好要做哪种图片'),('04','资料与排版','网页保存 / 文章排版','收集资料，写文章，再做排版'),('05','文件与杂事','文件 / 票据 / 会议表达','看你平时哪件事最费时间'),('06','自己的习惯','把常用做法记下来','准备一份满意的结果和具体要求')]
     for i,(num,title,sub,note) in enumerate(rows):
         y=260+i*190
         c.rect(64,y,1072,166,'#FFFFFF',20)
@@ -59,16 +59,16 @@ def make():
         c.text(191,y+99,note,32,color=MUTED)
     c.footer();c.save('图1_场景导航')
 
-    c=Canvas(1200,1250);c.header(2,'办公文件，按交付物选','先确定最后要拿到什么文件')
-    for i,row in enumerate([('01','Word 文档','docx','报告、方案、修订与格式'),('02','Excel 表格','xlsx','数据清洗、公式、统计与图表'),('03','演示文稿','pptx','汇报、课件、模板与可编辑页面'),('04','PDF 资料','pdf','提取、合并、拆分与扫描件识别')]):tile(c,260+i*214,*row,h=192)
+    c=Canvas(1200,1250);c.header(2,'你平时处理哪种文件？','Word、Excel、PPT、PDF 分别选')
+    for i,row in enumerate([('01','Word 文档','docx','写报告、改方案、整理格式'),('02','Excel 表格','xlsx','整理表格、补公式、做统计'),('03','演示文稿','pptx','工作汇报、培训课件、修改旧稿'),('04','PDF 资料','pdf','提取内容、合并文件、识别文字')]):tile(c,260+i*214,*row,h=192)
     c.footer();c.save('图2_办公文件')
 
-    c=Canvas(1200,1080);c.header(3,'写什么，就选什么流程','方案、内容与内部沟通各有重点')
-    for i,row in enumerate([('05','把方案讲清楚','doc-coauthoring','补齐背景 → 组织结构 → 读者检查'),('06','研究后写文章','content-research-writer','查资料 → 列大纲 → 写作与引用'),('07','同步团队信息','internal-comms','围绕对象、目的与团队格式整理')]):tile(c,260+i*230,*row)
+    c=Canvas(1200,1080);c.header(3,'写方案、文章，还是周报？','方案、内容与内部沟通各有重点')
+    for i,row in enumerate([('05','把方案讲清楚','doc-coauthoring','补背景 → 列提纲 → 看是否讲清楚'),('06','研究后写文章','content-research-writer','查资料 → 列提纲 → 写文章'),('07','同步团队信息','internal-comms','说清进展、问题和下一步安排')]):tile(c,260+i*230,*row)
     c.footer();c.save('图3_写作选型')
 
-    c=Canvas(1200,1390);c.header(4,'配图，按阅读方式选','不同任务，需要不同的信息组织')
-    for i,(num,title,skill,note) in enumerate([('08','封面：让人看懂主题','baoyu-cover-image','一个主体，突出一项阅读收益'),('09','信息图：看清关系','baoyu-infographic','把流程、分类、对比组织成一张图'),('10','图文卡片：逐张展开','baoyu-xhs-images','拆分内容，安排连续阅读顺序')]):
+    c=Canvas(1200,1390);c.header(4,'你想做哪种配图？','做封面、知识图，还是一组卡片')
+    for i,(num,title,skill,note) in enumerate([('08','封面：让人看懂主题','baoyu-cover-image','让读者一眼看懂文章讲什么'),('09','信息图：看清关系','baoyu-infographic','把流程、分类、对比组织成一张图'),('10','图文卡片：逐张展开','baoyu-xhs-images','每张讲一点，按顺序往下看')]):
         y=260+i*330
         c.rect(64,y,1072,300,'#FFFFFF',22)
         c.text(92,y+26,num,38,color=ORANGE,bold=True)
@@ -85,13 +85,13 @@ def make():
                 c.rect(x,y+207,82,67,'#DCECDF',10);c.text(x+28,y+224,str(j+1),29,color=GREEN)
     c.footer();c.save('图4_配图选型')
 
-    c=Canvas(1200,1090);c.header(5,'把资料变成文章','工作组合示意 · 各环节分别核对')
-    for i,row in enumerate([('1','保存网页资料','baoyu-url-to-markdown','保留来源与日期，检查正文完整度'),('2','研究并完成写作','content-research-writer','组织论点与证据，核对关键引用'),('3','输出排版文件','baoyu-markdown-to-html','得到 HTML 后，继续检查实际排版')]):
+    c=Canvas(1200,1090);c.header(5,'把资料变成文章','保存资料 → 写文章 → 排版')
+    for i,row in enumerate([('1','保存网页资料','baoyu-url-to-markdown','保留原网址，看看有没有漏内容'),('2','查资料、写文章','content-research-writer','理清思路，核对用到的资料'),('3','给文章排版','baoyu-markdown-to-html','放进公众号草稿，再用手机看看')]):
         tile(c,260+i*230,*row,h=205)
     c.footer();c.save('图5_资料流程')
 
     c=Canvas(1200,1420);c.header(6,'从一组常用技能开始','按岗位需要挑选，不必一次装齐')
-    rows=[('行政与日常办公','docx + pdf + file-organizer','文档交付、资料处理、文件整理'),('运营与数据汇报','xlsx + pptx','整理数据，形成可编辑汇报材料'),('产品与项目管理','doc-coauthoring + internal-comms','写清方案，同步项目进展'),('公众号与内容创作','content-research-writer','搭配 baoyu-cover-image 制作封面'),('知识与社交图文','baoyu-xhs-images','按需搭配 baoyu-infographic')]
+    rows=[('行政与日常办公','docx + pdf + file-organizer','写文档、读资料、整理文件'),('运营与数据汇报','xlsx + pptx','整理表格，把结果做成汇报'),('产品与项目管理','doc-coauthoring + internal-comms','写清方案，同步项目进展'),('公众号与内容创作','content-research-writer','搭配 baoyu-cover-image 制作封面'),('知识与社交图文','baoyu-xhs-images','按需搭配 baoyu-infographic')]
     for i,(title,skill,note) in enumerate(rows):
         y=260+i*207;c.rect(64,y,1072,183,'#FFFFFF',20)
         c.rect(88,y+28,9,46,ORANGE,4)
@@ -99,7 +99,7 @@ def make():
     c.footer();c.save('图6_岗位组合')
 
     c=Canvas(1200,1230);c.header(7,'安装，交给 WorkBuddy','把技能名称和来源网址发给它')
-    for i,row in enumerate([('1','先查已有能力','已安装 → 检查启用与调用','办公四件套，先检查再补充'),('2','让它查找技能','内置市场 → 核对名称与来源','同名项目，也要确认维护者'),('3','让它完成安装','指定来源 → 安装 → 检查依赖','需要的登录、授权或配置按提示处理'),('4','让它试跑一次','确认可调用 → 打开实际成果','回报来源、状态和示例结果')]):tile(c,250+i*213,*row,h=190)
+    for i,row in enumerate([('1','先看看有没有','已经有了 → 直接试着用','办公四件套，不用重复安装'),('2','让它查找技能','告诉它名称，或你想做的事','有技能链接，就一起发过去'),('3','让它完成安装','照着链接安装，看看还缺什么','需要登录或付费，让它先说明白'),('4','做一件小事试试','打开做好的文件，看看效果','没成功就问：还差哪一步？')]):tile(c,250+i*213,*row,h=190)
     c.footer();c.save('图7_使用路径')
 
     for square in [False,True]:
