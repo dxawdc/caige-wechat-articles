@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1390" viewBox="0 0 1200 1390"><rect width="100%" height="100%" fill="#F5F3EC"/>
+<rect x="64" y="54" width="116" height="10" rx="5" fill="#E78445"/>
+<text x="64" y="94" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="62" font-weight="700" fill="#153E36">配图，按阅读方式选</text>
+<text x="66" y="182" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">不同任务，需要不同的信息组织</text>
+<text x="1050" y="61" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#23765D">04</text>
+<rect x="64" y="260" width="1072" height="300" rx="22" fill="#FFFFFF"/>
+<text x="92" y="286" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#E78445">08</text>
+<text x="177" y="285" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">封面：让人看懂主题</text>
+<text x="177" y="352" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">baoyu-cover-image</text>
+<text x="177" y="411" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">一个主体，突出一项阅读收益</text>
+<rect x="180" y="475" width="285" height="52" rx="8" fill="#DCECDF"/>
+<rect x="193" y="488" width="134" height="12" rx="4" fill="#23765D"/>
+<rect x="373" y="484" width="62" height="31" rx="8" fill="#E78445"/>
+<rect x="64" y="590" width="1072" height="300" rx="22" fill="#FFFFFF"/>
+<text x="92" y="616" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#E78445">09</text>
+<text x="177" y="615" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">信息图：看清关系</text>
+<text x="177" y="682" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">baoyu-infographic</text>
+<text x="177" y="741" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">把流程、分类、对比组织成一张图</text>
+<rect x="180" y="805" width="88" height="52" rx="10" fill="#DCECDF"/>
+<rect x="306" y="805" width="88" height="52" rx="10" fill="#DCECDF"/>
+<rect x="432" y="805" width="88" height="52" rx="10" fill="#DCECDF"/>
+<path d="M 270 830 L 300 830" fill="none" stroke="#23765D" stroke-width="3"/>
+<path d="M 397 830 L 427 830" fill="none" stroke="#23765D" stroke-width="3"/>
+<rect x="64" y="920" width="1072" height="300" rx="22" fill="#FFFFFF"/>
+<text x="92" y="946" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#E78445">10</text>
+<text x="177" y="945" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">图文卡片：逐张展开</text>
+<text x="177" y="1012" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">baoyu-xhs-images</text>
+<text x="177" y="1071" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">拆分内容，安排连续阅读顺序</text>
+<rect x="180" y="1127" width="82" height="67" rx="10" fill="#DCECDF"/>
+<text x="208" y="1144" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#23765D">1</text>
+<rect x="287" y="1127" width="82" height="67" rx="10" fill="#DCECDF"/>
+<text x="315" y="1144" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#23765D">2</text>
+<rect x="394" y="1127" width="82" height="67" rx="10" fill="#DCECDF"/>
+<text x="422" y="1144" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#23765D">3</text>
+<rect x="501" y="1127" width="82" height="67" rx="10" fill="#DCECDF"/>
+<text x="529" y="1144" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#23765D">4</text>
+<path d="M 64 1295 L 1136 1295" fill="none" stroke="#DADFD5" stroke-width="2"/>
+<text x="64" y="1325" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#61726C">WorkBuddy 技能选型 · 示意图</text>
+<text x="920" y="1325" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#23765D">可以叫我才哥</text>
+</svg>

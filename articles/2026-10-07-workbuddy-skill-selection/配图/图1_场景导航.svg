@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1540" viewBox="0 0 1200 1540"><rect width="100%" height="100%" fill="#F5F3EC"/>
+<rect x="64" y="54" width="116" height="10" rx="5" fill="#E78445"/>
+<text x="64" y="94" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="62" font-weight="700" fill="#153E36">你要完成哪类工作？</text>
+<text x="66" y="182" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#61726C">先选任务，再看对应技能</text>
+<text x="1050" y="61" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#23765D">01</text>
+<rect x="64" y="260" width="1072" height="166" rx="20" fill="#FFFFFF"/>
+<text x="92" y="286" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#E78445">01</text>
+<text x="191" y="281" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">办公文件</text>
+<text x="470" y="288" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#23765D">Word / Excel / PPT / PDF</text>
+<text x="191" y="359" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">docx · xlsx · pptx · pdf</text>
+<rect x="64" y="450" width="1072" height="166" rx="20" fill="#FFFFFF"/>
+<text x="92" y="476" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#E78445">02</text>
+<text x="191" y="471" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">写作材料</text>
+<text x="470" y="478" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#23765D">方案 / 文章 / 内部汇报</text>
+<text x="191" y="549" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">按读者和用途选择写作流程</text>
+<rect x="64" y="640" width="1072" height="166" rx="20" fill="#FFFFFF"/>
+<text x="92" y="666" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#E78445">03</text>
+<text x="191" y="661" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">内容配图</text>
+<text x="470" y="668" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#23765D">封面 / 信息图 / 图文卡片</text>
+<text x="191" y="739" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">按单张或多张、阅读方式选择</text>
+<rect x="64" y="830" width="1072" height="166" rx="20" fill="#FFFFFF"/>
+<text x="92" y="856" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#E78445">04</text>
+<text x="191" y="851" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">资料与排版</text>
+<text x="470" y="858" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#23765D">网页保存 / 文章排版</text>
+<text x="191" y="929" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">把收集、写作与交付接起来</text>
+<rect x="64" y="1020" width="1072" height="166" rx="20" fill="#FFFFFF"/>
+<text x="92" y="1046" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#E78445">05</text>
+<text x="191" y="1041" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">文件与杂事</text>
+<text x="470" y="1048" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#23765D">文件 / 票据 / 会议表达</text>
+<text x="191" y="1119" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">按整理对象选择专门流程</text>
+<rect x="64" y="1210" width="1072" height="166" rx="20" fill="#FFFFFF"/>
+<text x="92" y="1236" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#E78445">06</text>
+<text x="191" y="1231" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="43" font-weight="700" fill="#153E36">方法复用</text>
+<text x="470" y="1238" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#23765D">把稳定的工作方法做成技能</text>
+<text x="191" y="1309" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="32" font-weight="400" fill="#61726C">先有成果和标准，再考虑定制</text>
+<path d="M 64 1445 L 1136 1445" fill="none" stroke="#DADFD5" stroke-width="2"/>
+<text x="64" y="1475" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#61726C">WorkBuddy 技能选型 · 示意图</text>
+<text x="920" y="1475" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#23765D">可以叫我才哥</text>
+</svg>

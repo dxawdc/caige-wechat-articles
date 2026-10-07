@@ -1,0 +1,146 @@
+[
+  {
+    "name": "docx",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/docx",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "8017469ea95fb7d28225c62daf8e2f3492a7b516fc64c18c28977cbf8980b7fe",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "xlsx",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "6712b39718fe815054abca9c3ee72f989613e6f771c8a5c58f30a65a6c905622",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "pptx",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "a7ff03e2c85b636f55232a6b1555f5dd90216b7a1a359ab289d8364e6acbc6a0",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "pdf",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "9f78b8359fbd4943ad260a7a1e436e5a96503406d6c34e99f69223d647d85b9c",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "doc-coauthoring",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "2e47d78846faeea4a56e9809c52700087a15a2155a3f293a3efbaded81398ef4",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "internal-comms",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/internal-comms/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "067b7587a344a928fc6534ef66b1bcd591fc7c26d207ea7ca3334aeb678d6475",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "skill-creator",
+    "author": "Anthropic",
+    "source": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
+    "raw": "https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "dcd4803e61e913e6fc27294184cd3a71f09f5e924ff20c8a9a20173e7b3c2bcf",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "content-research-writer",
+    "author": "Composio 社区",
+    "source": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer",
+    "raw": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/content-research-writer/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "27eb5c1a0a88a9c1c64f6fcd9c28782e6a6e70d5da43233c4e99ade946f74825",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "file-organizer",
+    "author": "Composio 社区",
+    "source": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer",
+    "raw": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/file-organizer/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "a8b91952bab7f73511db68149c4a54672b40699903a8e35ed5044c3e3039ded5",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "invoice-organizer",
+    "author": "Composio 社区",
+    "source": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer",
+    "raw": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/invoice-organizer/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "62198235231376cb09bc28bd601fb120d3ef24b3ddb55c4b71965f9044352fda",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "meeting-insights-analyzer",
+    "author": "Composio 社区",
+    "source": "https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer",
+    "raw": "https://raw.githubusercontent.com/ComposioHQ/awesome-claude-skills/master/meeting-insights-analyzer/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "c639c0fc10a84225ba117ec5561f8cca1325c8d739fd0ac169b5a6dca6a0d071",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "baoyu-cover-image",
+    "author": "宝玉",
+    "source": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image",
+    "raw": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/skills/baoyu-cover-image/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "36804fce98bcb9ebe4a51c26f6f276a807805aab980ca4a0718daa40a5cc7fda",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "baoyu-infographic",
+    "author": "宝玉",
+    "source": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic",
+    "raw": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/skills/baoyu-infographic/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "1572aaa294c5f7547889f520b6efeed979aeaaf58b4e7c4bcaaa26ace2ee3564",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "baoyu-xhs-images",
+    "author": "宝玉",
+    "source": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images",
+    "raw": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/skills/baoyu-xhs-images/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "17bf5498641cc60cb98f0cc15fbea27fd42777d119a39fb54fd6418840442bba",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "baoyu-url-to-markdown",
+    "author": "宝玉",
+    "source": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown",
+    "raw": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/skills/baoyu-url-to-markdown/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "40913749b0e95165b02771bdf17bb8ed9fa0a72787d3e09571341ab7148359d0",
+    "basis": "作者公开 SKILL.md"
+  },
+  {
+    "name": "baoyu-markdown-to-html",
+    "author": "宝玉",
+    "source": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html",
+    "raw": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/skills/baoyu-markdown-to-html/SKILL.md",
+    "checked_at": "2026-10-07",
+    "sha256": "f4a5bb1697f9387557897a9c58b6406765728089a8d84cfbb6c40a93c3d136f7",
+    "basis": "作者公开 SKILL.md"
+  }
+]

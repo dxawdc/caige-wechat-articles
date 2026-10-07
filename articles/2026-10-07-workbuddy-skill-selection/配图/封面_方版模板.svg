@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><rect width="100%" height="100%" fill="#F5F3EC"/>
+<rect x="75" y="70" width="105" height="10" rx="5" fill="#E78445"/>
+<text x="75" y="111" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="51" font-weight="700" fill="#23765D">WorkBuddy</text>
+<text x="75" y="207" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="93" font-weight="700" fill="#153E36">技能怎么选？</text>
+<text x="75" y="347" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="77" font-weight="700" fill="#153E36">按工作来挑</text>
+<text x="75" y="1115" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#23765D">可以叫我才哥</text>
+<rect x="185" y="580" width="125" height="225" rx="18" fill="#FFFFFF" stroke="#DADFD5" stroke-width="2"/>
+<rect x="205" y="605" width="85" height="16" rx="6" fill="#23765D"/>
+<text x="207" y="663" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#23765D">文档</text>
+<path d="M 208 725 L 285 725" fill="none" stroke="#DADFD5" stroke-width="5"/>
+<path d="M 208 757 L 285 757" fill="none" stroke="#DADFD5" stroke-width="5"/>
+<rect x="330" y="580" width="125" height="225" rx="18" fill="#FFFFFF" stroke="#DADFD5" stroke-width="2"/>
+<rect x="350" y="605" width="85" height="16" rx="6" fill="#498C72"/>
+<text x="352" y="663" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#498C72">表格</text>
+<path d="M 353 725 L 430 725" fill="none" stroke="#DADFD5" stroke-width="5"/>
+<path d="M 353 757 L 430 757" fill="none" stroke="#DADFD5" stroke-width="5"/>
+<rect x="475" y="580" width="125" height="225" rx="18" fill="#FFFFFF" stroke="#DADFD5" stroke-width="2"/>
+<rect x="495" y="605" width="85" height="16" rx="6" fill="#E78445"/>
+<text x="497" y="663" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="37" font-weight="700" fill="#E78445">配图</text>
+<path d="M 498 725 L 575 725" fill="none" stroke="#DADFD5" stroke-width="5"/>
+<path d="M 498 757 L 575 757" fill="none" stroke="#DADFD5" stroke-width="5"/>
+<rect x="145" y="787" width="550" height="188" rx="24" fill="#23765D"/>
+<rect x="375" y="825" width="100" height="25" rx="8" fill="#E78445"/>
+</svg>

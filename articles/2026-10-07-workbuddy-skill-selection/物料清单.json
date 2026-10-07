@@ -1,0 +1,106 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "03f791f93d00e05948515b4863225392b44dfbb283e08d774d18fc25bce7f5b9"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "53233e8dfbed17a27fb6404f34b68fe2a8d00d68c743c4e6f4ac073b2833bab2"
+  },
+  {
+    "path": "封面设计说明.md",
+    "sha256": "d1ef770858308f31c9dffb175c3b3423dfadf724983c479574c292f2128b654a"
+  },
+  {
+    "path": "技能来源索引.json",
+    "sha256": "639ee3b54f3709e3d427196bdd4f81b87aaa3fee05e84cf6e860792bb3a972ff"
+  },
+  {
+    "path": "技能来源索引.md",
+    "sha256": "5cf7d5ee19a9c7a2aba540705ace45a5c9097ba5b32eab18db7c4366b1d57d4a"
+  },
+  {
+    "path": "生成选型图.py",
+    "sha256": "c4e982337dd5cef35b7486ec70f52e111efa92a77a916045abc64f57b1005085"
+  },
+  {
+    "path": "配图/图1_场景导航.png",
+    "sha256": "d08f71775fa527254d70356f21482b7c48e739400c6c8ad29cb8e72559bc699b"
+  },
+  {
+    "path": "配图/图1_场景导航.svg",
+    "sha256": "7fe2c84bc42756a9b4c1a2ab89b438cf7c76e60b7ab8dddc9770ba8527f7c06b"
+  },
+  {
+    "path": "配图/图2_办公文件.png",
+    "sha256": "2e359b6600040f6c3b81b5e3665a4a877533e403e89f528cc3b4c7431997eac5"
+  },
+  {
+    "path": "配图/图2_办公文件.svg",
+    "sha256": "784db4b84faacb21cebc2ef86e6e7791bc42de4a5d557d6fee510caf9affda98"
+  },
+  {
+    "path": "配图/图3_写作选型.png",
+    "sha256": "a7fd85a3a9ee44076064713e16648b592d3688749c45586a3b90b330ec653dd3"
+  },
+  {
+    "path": "配图/图3_写作选型.svg",
+    "sha256": "948975b77bc37765ba2a497b3d4f2b6df691e842f4287219f6ae33aac853cf1c"
+  },
+  {
+    "path": "配图/图4_配图选型.png",
+    "sha256": "08c0a12676c79a5f3b5afade5ba3b21a994914220127b0944531da29ceeaf6ec"
+  },
+  {
+    "path": "配图/图4_配图选型.svg",
+    "sha256": "f53292fd048c5f2092424cb8ad5d5703f4d5e311dd941fcef83ddcf03ce2fe0c"
+  },
+  {
+    "path": "配图/图5_资料流程.png",
+    "sha256": "8e0265bf71d39e479a4f2e0f0a9aec71f42da3a6f8e86bec69ef9921205eb369"
+  },
+  {
+    "path": "配图/图5_资料流程.svg",
+    "sha256": "ed81c5c05a52d5d8ecf8b18fff8d043582da8e9ae23afde2b212c190a2424731"
+  },
+  {
+    "path": "配图/图6_岗位组合.png",
+    "sha256": "6d6d549a5d4539d73414ceb3da53db5f0b390a0bd3488721aa3647525253d1e7"
+  },
+  {
+    "path": "配图/图6_岗位组合.svg",
+    "sha256": "4e45ee508257f642e73b6ac5b26a9053c5ecd3e3938c5e96c57de67dafab8d2b"
+  },
+  {
+    "path": "配图/图7_使用路径.png",
+    "sha256": "8b54c1fce0c769e0e8fd9569df796df69cd04421fc7cff0be28cb6adad62e90c"
+  },
+  {
+    "path": "配图/图7_使用路径.svg",
+    "sha256": "2fee98d16a1e6c1f56367bdd43e8d3d09a93cd30bb42d9237e8499bd1756b23d"
+  },
+  {
+    "path": "配图/封面_方版.png",
+    "sha256": "b37ce09b7a742c03de7dc8a00be81d2758d37894055defc360c02ea5da6918a7"
+  },
+  {
+    "path": "配图/封面_方版模板.png",
+    "sha256": "b12843c1a2a11e6352b66e26d06a9be4f6f455637822a519c6d5a87ce9a43f98"
+  },
+  {
+    "path": "配图/封面_方版模板.svg",
+    "sha256": "31c8e72b404ddfe9a7b068d7e2a259250dd7bfcfc7c6bffc61982df0e4356ba7"
+  },
+  {
+    "path": "配图/封面_横版.png",
+    "sha256": "7d50adcca032134e9a99be198103d4b65d0549b8a80ba6745f54e62f674648d7"
+  },
+  {
+    "path": "配图/封面_横版模板.png",
+    "sha256": "3dd40410456440aef9ff7f1d948c7d546ffb8eddbb8c7db7287360fc12d2eb8c"
+  },
+  {
+    "path": "配图/封面_横版模板.svg",
+    "sha256": "028861d448b75121099bf0e4fe00f66944cfd7d508bd7f6507228e16fb5b438c"
+  }
+]
