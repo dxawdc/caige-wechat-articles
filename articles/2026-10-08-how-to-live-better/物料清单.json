@@ -1,0 +1,113 @@
+{
+  "updated": "2026-10-08",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "README.md",
+      "sha256": "97d5439450ff4903056da9e69c0d50bc13c6eb716c13db135b8d393ba0e218b8"
+    },
+    {
+      "path": "分析数据.py",
+      "sha256": "43f5fab8a740117310addff2f8800d2fb27db7bab2d38c5dfafc047e15db5ffa"
+    },
+    {
+      "path": "封面/AI封面方版.png",
+      "sha256": "3cf6389c5f2de9905387582f6ef3cc2b3a11666d802ba374163bff3513a19397"
+    },
+    {
+      "path": "封面/AI封面横版.png",
+      "sha256": "26ad7ad57c098d52571d8473c35528a2db59af2c8db7ec84916864e37f276ab7"
+    },
+    {
+      "path": "封面/AI提示词.md",
+      "sha256": "454869ec2dc6af193484c2ae75957f6559dada1041e95d90f83c486975892680"
+    },
+    {
+      "path": "封面/封面方版.png",
+      "sha256": "bb6cc8303ba5301d7f813739e2d752781942f90c73ed8e6fdb97549e8388483f"
+    },
+    {
+      "path": "封面/封面方版.svg",
+      "sha256": "d8c9fcd6eb0295dbee5ac1f218ffb0299c64782b8da6ad6aacb070b596345ac4"
+    },
+    {
+      "path": "封面/封面横版.png",
+      "sha256": "c7d657b9f25a0bd4dda5ef9c82208bba03ab6604490d0eaf561a7a24f91f4ad2"
+    },
+    {
+      "path": "封面/封面横版.svg",
+      "sha256": "718cc0b50105040a13e5a387c39b109dd5a03897991c36f3d30739e7f6d152dc"
+    },
+    {
+      "path": "数据/条目.csv",
+      "sha256": "2d141af70d58eee90179150c7272c942c9ece8dd36372b0e66138914f3f6fd6e"
+    },
+    {
+      "path": "数据/来源分类.csv",
+      "sha256": "1c77ae01041c5eef944c8c064007e2699d635b9c4f1c8199dcdd8d277bf2c474"
+    },
+    {
+      "path": "数据/来源域名.csv",
+      "sha256": "c15a3f975c36139e6ed5a4ecb29eb527e5cb5e7b705c270a77dfcfb4e9438095"
+    },
+    {
+      "path": "数据/章节统计.csv",
+      "sha256": "948077c06a27fac13fd432e7620879d684567e310c7459434a39cf57588a7276"
+    },
+    {
+      "path": "数据/统计.json",
+      "sha256": "02e32f52d19823387b5a5ebccb49ec10d2a97cde0c8d79e5eb80f6672392142b"
+    },
+    {
+      "path": "生成图表.py",
+      "sha256": "796c2ccef9482583887ad3041a9c30c8b4b85261bf163d7f5f77b9a2d30a28cb"
+    },
+    {
+      "path": "生成封面.py",
+      "sha256": "a3bf21d7f958b33e2010b2558ec6591f0ab6cf34020a3fe329f6762685c2afea"
+    },
+    {
+      "path": "配图/01_极高精选.png",
+      "sha256": "b64eb5b6cf16926553b72b73583196a132e9da30180840347a42b245a278694d"
+    },
+    {
+      "path": "配图/02_总览.png",
+      "sha256": "e7d9900d5053bdb379b70cc59606340d93c0d212d7a3d657d054f177c7cad9e7"
+    },
+    {
+      "path": "配图/03_条目结构.png",
+      "sha256": "fc9522d5d1c90b125052d6460eb746d448448275fa2962ab3f8ebcaab37122b9"
+    },
+    {
+      "path": "配图/04_四种资源华夫图.png",
+      "sha256": "f204b9767ea15caf0fc1c0775950ebac502fa6f37a47a3231700b9ef908680d1"
+    },
+    {
+      "path": "配图/05_零成本漏斗.png",
+      "sha256": "818603164b9d37cb200ced14488c317a8de1fcdd51dc8c4d6ddab38df7ac1e8b"
+    },
+    {
+      "path": "配图/06_章节证据.png",
+      "sha256": "11fb44fc31d45d52b8c828f6ce18ff6167a2af08260334e1c2b0efd8ea5b1897"
+    },
+    {
+      "path": "配图/07_口径证据.png",
+      "sha256": "2f845be3e6e0cc55f696fc00a04f3e02668b13df2e88e6c31bac688aeff08eb0"
+    },
+    {
+      "path": "配图/08_来源构成.png",
+      "sha256": "aff0dc0eee90438a622e466630013c341d7d09c81aeca9da294ad516c1ed5be8"
+    },
+    {
+      "path": "配图/文末动图.gif",
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "配图/顶部横幅.gif",
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
+    }
+  ]
+}
