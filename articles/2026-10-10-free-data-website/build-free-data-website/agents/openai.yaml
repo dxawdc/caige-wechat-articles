@@ -1,0 +1,4 @@
+interface:
+  display_name: "免费起步的数据网站"
+  short_description: "从需求搭建含数据和管理后台的个人网站，说明配置、部署与验收"
+  default_prompt: "请使用 $build-free-data-website 帮我搭建一个带管理后台的个人资料网站，并逐步解释需要我配置的内容。"

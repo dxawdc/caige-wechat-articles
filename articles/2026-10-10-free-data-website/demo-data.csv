@@ -1,0 +1,4 @@
+name,category,description,image_path,is_published
+示例皮肤甲,角色外观,教学用公开资料第一条,,true
+示例地图乙,地图资料,教学用公开资料第二条,,true
+待整理资料丙,其他,教学用草稿应只对管理员可见,,false
