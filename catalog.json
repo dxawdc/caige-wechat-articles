@@ -5,23 +5,23 @@
   "items": [
     {
       "id": "dividend-hold-vs-timing",
-      "title": "红利ETF一直拿着，还是做波段？3只ETF的收益、回撤与空仓代价",
+      "title": "红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v2.0.0",
       "source": "articles/2026-10-11-dividend-hold-vs-timing",
       "manifest": "物料清单.json",
       "download": "downloads/dividend-hold-vs-timing.zip",
-      "summary": "持有与择时：收益、回撤与空仓代价；3只ETF快照、回测源码、交易记录、6张图和封面模板"
+      "summary": "红利ETF的时间账本：收益、回撤与等待成本；3只ETF快照、回测源码、交易记录、6张图和封面模板"
     },
     {
       "id": "dividend-parameter-robustness",
-      "title": "红利择时的参数靠谱吗？81组组合、分段回测与成交延迟检验",
+      "title": "回测收益最高，就选它吗？用81组参数看红利ETF的收益与代价",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v2.0.0",
       "source": "articles/2026-10-11-dividend-parameter-robustness",
       "manifest": "物料清单.json",
       "download": "downloads/dividend-parameter-robustness.zip",
-      "summary": "81组参数：分段、跨ETF与决策滞后检验；3只ETF快照、回测源码、交易记录、6张图和封面模板"
+      "summary": "81组对称区间参数：收益回撤分布、相对持有与名次迁移；3只ETF快照、回测源码、交易记录、6张图和封面模板"
     },
     {
       "id": "etf-heatmap",

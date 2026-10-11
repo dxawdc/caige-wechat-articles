@@ -20,8 +20,5 @@
   "raw_close_crosscheck": "https://query1.finance.yahoo.com/v8/finance/chart/{code}.SS?period1={start}&period2={end}&interval=1d&events=history",
   "split": "512890在2021-10-22登记1:2拆分，2021-10-25复牌；此前市场OHLC乘0.5",
   "reinvestment": "除息日开盘理论即时再投，允许小数份额，再投不另计费",
-  "inspiration": [
-    "https://www.xueqiu.com/7734995747/411379012",
-    "https://github.com/Chris8688/distills/tree/main/dividend-lowvol-ma"
-  ]
+  "research_design": "200日均线对称±5%演示；9种均线与9种对称偏离幅度；现金和执行时点敏感性"
 }

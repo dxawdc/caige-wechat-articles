@@ -4,7 +4,8 @@
     {
       "code": "512890",
       "ledger_rows": 1151,
-      "cash_share_ledger_max_error": 1.4654943925052066e-14,
+      "cash_share_ledger_max_error": 5.329070518200751e-15,
+      "symmetric_daily_signal": "passed",
       "future_price_perturbation": "passed",
       "baseline_formula": "passed",
       "training_only_selection": "passed"
@@ -12,7 +13,8 @@
     {
       "code": "515080",
       "ledger_rows": 1151,
-      "cash_share_ledger_max_error": 9.325873406851315e-15,
+      "cash_share_ledger_max_error": 4.884981308350689e-15,
+      "symmetric_daily_signal": "passed",
       "future_price_perturbation": "passed",
       "baseline_formula": "passed",
       "training_only_selection": "passed"
@@ -20,7 +22,8 @@
     {
       "code": "515100",
       "ledger_rows": 1151,
-      "cash_share_ledger_max_error": 3.774758283725532e-15,
+      "cash_share_ledger_max_error": 3.1086244689504383e-15,
+      "symmetric_daily_signal": "passed",
       "future_price_perturbation": "passed",
       "baseline_formula": "passed",
       "training_only_selection": "passed"

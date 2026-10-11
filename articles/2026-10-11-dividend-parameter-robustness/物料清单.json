@@ -1,12 +1,12 @@
 {
-  "version": "v1.0.0",
+  "version": "v2.0.0",
   "updated": "2026-10-11",
   "entrypoint": "复现.py",
   "files": [
     {
       "path": "README.md",
-      "bytes": 3751,
-      "sha256": "9fb1b4bdebae029fca3dbdae7fc8b9d193d15f880e1dd5b6ad56332a7735d5dd"
+      "bytes": 3910,
+      "sha256": "9bc8b4f2f217b623765599111c94f589dee7a4f5ebf48def064d5162978a8888"
     },
     {
       "path": "requirements.txt",
@@ -15,63 +15,63 @@
     },
     {
       "path": "回测研究.py",
-      "bytes": 7184,
-      "sha256": "bd619d4e4ec6ba8b1474ff722758c8c08fb94fd478ef5d2ec914e40e55276c63"
+      "bytes": 7345,
+      "sha256": "5dcd284239b90e1bfbe22651b0d8510215d81a31020c393d04ef0bdda3e8df10"
     },
     {
-      "path": "图片/图1_81组参数.png",
-      "bytes": 193288,
-      "sha256": "014348951d5ba2d7ae214ff8fa6ec9be7fd6555543e5591d051141cb33dad393"
+      "path": "图片/图1_收益回撤分布.png",
+      "bytes": 170490,
+      "sha256": "da7ae73d16c71a883dfe46f3fc556ca81e749abc112383faac5d1729433bdba3"
     },
     {
-      "path": "图片/图2_前段参数.png",
-      "bytes": 192893,
-      "sha256": "22ded307ccd023ddc7164ec28d05724d5a63f298c03d667f22bb822aea7d6da8"
+      "path": "图片/图2_相对持有热力图.png",
+      "bytes": 206364,
+      "sha256": "21170c53680f3f9d711ef6e0c9bc0954978f4936f7845190ab19f3fb18f87f17"
     },
     {
-      "path": "图片/图3_后段参数.png",
-      "bytes": 196390,
-      "sha256": "a0b2e5bb74ebe6b096780f3c4ee6754138e0b33173265b8d8e592e4a91fd677c"
+      "path": "图片/图3_均线敏感性.png",
+      "bytes": 131202,
+      "sha256": "1fa487f6f62e947f67175d549f0a9cbd5d5e82eb3c9428d643861053434c4961"
     },
     {
       "path": "图片/图4_历史留出检验.png",
-      "bytes": 105918,
-      "sha256": "33ae6c6396aa6abcfee04ab0949a5a33e70ae2e870af36a142723f9434f23f9f"
+      "bytes": 105365,
+      "sha256": "de90b46538f9071f735f66d9eaada76034700012836657470428f0e6bd7e6cae"
     },
     {
-      "path": "图片/图5_跨标的参数.png",
-      "bytes": 93748,
-      "sha256": "2a126c13bf792a200573b3e60fd2609d7b509dd61368c990d7496630586e43d2"
+      "path": "图片/图5_名次迁移.png",
+      "bytes": 156191,
+      "sha256": "e81939fe8478592deea2fb665bb1f4d44caa85308de639f2cb95e9fd186139c3"
     },
     {
-      "path": "图片/图6_成交延迟.png",
-      "bytes": 138932,
-      "sha256": "7078865ac8e859287fb1354a653c8f6451bcb885c85a42a867df573e4e1dc452"
+      "path": "图片/图6_决策滞后.png",
+      "bytes": 132801,
+      "sha256": "1d6480f689b91db395a12795c67aa7d50408ccc757a244d2c534f3b40d1afbf8"
     },
     {
       "path": "图片/封面_AI.png",
-      "bytes": 2128029,
-      "sha256": "e2de93fb5653ba644c98384b2662d454dbdf7b57d56d122bbacd5afd6bc7f7db"
+      "bytes": 2031591,
+      "sha256": "040072b87aa73f48fefa42215f1f088ff2b69ccacf0157b641519ec2d65eb923"
     },
     {
       "path": "图片/封面_方版模板.png",
-      "bytes": 67631,
-      "sha256": "9390fbcf6fc4c5645cd2e4246f70d896011eeb4a72a9030355d4175403f4a8c9"
+      "bytes": 56477,
+      "sha256": "9db0e7ef24c1adf0a1c7189c1f017be7140e5458b976db3cbee1a33d83c7e8e9"
     },
     {
       "path": "图片/封面_方版模板.svg",
-      "bytes": 3632,
-      "sha256": "da48c9ae439700104c43d87fc01bc80792bd5cbfc6f207445b52fbc55c754ea6"
+      "bytes": 5108,
+      "sha256": "6623323ee8c87014ca5739bd5455fda45b85e8e95d5f7e07070b3f85c81f48f4"
     },
     {
       "path": "图片/封面_横版模板.png",
-      "bytes": 56038,
-      "sha256": "ebcec70bde75b10b49bc97d872467616b1e59d7b96bca0859905e913dc3a9a9b"
+      "bytes": 51250,
+      "sha256": "71a409fdf004c0f3f7715528224d612f0ed4685639e4e48812279c9fff8a3372"
     },
     {
       "path": "图片/封面_横版模板.svg",
-      "bytes": 3699,
-      "sha256": "18080169b1e629bf6e0ac9d2faf9d3ea19239f9161c8ebe43b469afd3e3d0bad"
+      "bytes": 5359,
+      "sha256": "2033febaa092a659b6f651cbedf3e251342400adb87ea00d9e1582c6c8457468"
     },
     {
       "path": "复现.py",
@@ -80,8 +80,8 @@
     },
     {
       "path": "封面设计.json",
-      "bytes": 1244,
-      "sha256": "78d9da20521927b10eea296179dc8897ea6209bb5f78b9d413d7d671b60d708e"
+      "bytes": 1470,
+      "sha256": "05c3879fa8fc36ed486a18408615ba97345dbed1364ccda881434d8789591e8e"
     },
     {
       "path": "数据/总回报口径核验.json",
@@ -100,38 +100,43 @@
     },
     {
       "path": "数据/来源.json",
-      "bytes": 1222,
-      "sha256": "496555d982f64f0c3ded6de4ba0cdafbb00f3e16d256da2ac771b5b4803201f3"
+      "bytes": 1195,
+      "sha256": "c06385f29535708c5b8d71509e3db639a55d977fc42694a33b9ee9de149d916f"
     },
     {
       "path": "结果/参数网格.csv",
-      "bytes": 60981,
-      "sha256": "9ae7316729e3a45ae1fb123b7d9b3151c582a6d3db7b3f9c10f845ba368e7bbd"
+      "bytes": 56751,
+      "sha256": "2892be7acd9762c6ff3c5793f139859d8689be602c88321bcbf4871f2a3ba56a"
     },
     {
       "path": "结果/基准策略交易记录.csv",
-      "bytes": 2834,
-      "sha256": "18169d0c2c2cf1087f69d7618d442137344392301c85196f806c6021868443dd"
+      "bytes": 2059,
+      "sha256": "b201960dd4d32631bd0687387fcdcfc6a478f7cd1f48bb07c10c4fe1d10c6b1c"
+    },
+    {
+      "path": "结果/开盘价核验.json",
+      "bytes": 298,
+      "sha256": "d5638c8816a6a4fafecb7df89b6ac0a58fabf850df83f4ba115805fbaf3adf99"
     },
     {
       "path": "结果/研究结果.json",
-      "bytes": 1964533,
-      "sha256": "2b55c4b29c26f1bff47013624f620ea82fc82eb0fca1f4757232e277a1eec80d"
+      "bytes": 1877813,
+      "sha256": "b987e2965cd5e4cf8d8b00b3664fb9736ddff2c014cdaa5837e289365c1d77c0"
     },
     {
       "path": "结果/验收回测.json",
-      "bytes": 1052,
-      "sha256": "d2161d28c8366282b56b438b06b7a3774a1d012402000100807429fe987389d0"
+      "bytes": 1181,
+      "sha256": "d6e7f57bfc0c016e0dfa2ce660fabda741f61979714c54a148260f6986c191d3"
     },
     {
       "path": "绘制图表.py",
-      "bytes": 10649,
-      "sha256": "0e43346de2c5b296df0405ccdf440b0b4d54f6b51aa139bb8d7d6913966a1668"
+      "bytes": 13365,
+      "sha256": "cc2b2753ac819dcd28ab3bb97f90359ec8162ca1f1389c9ed3e678b4cf19516b"
     },
     {
       "path": "验收回测.py",
-      "bytes": 2814,
-      "sha256": "d6dc379bb7a36afb81b9d73ef2f6160570169fab4d029c601a0fc7b43f755003"
+      "bytes": 3273,
+      "sha256": "59b5eb3b489111f3d00f7c972ab6f00d914f01078cd185ca86376e421ac7af89"
     }
   ]
 }

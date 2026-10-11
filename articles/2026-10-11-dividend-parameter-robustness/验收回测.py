@@ -17,6 +17,13 @@ for c,m in bt.DATA.items():
             else:cash=shares*o*(1-.0003);shares=0.
         eq.append(cash+shares*cl)
     assert np.allclose(eq,path['nav'],rtol=1e-11,atol=1e-11)
+    # 使用直接求均值的独立信号判断，核对每日仓位及两侧阈值。
+    state=0
+    for day,expected in zip(path['dates'][1:],path['positions'][1:]):
+        i=lookup[day];cl=rows[i-1]['close'];mean=sum(x['close'] for x in rows[i-200:i])/200
+        if state==0 and cl<mean*.95:state=1
+        elif state==1 and cl>mean*1.05:state=0
+        assert state==expected,(c,day,'symmetric band signal mismatch')
     # 修改未来行情，不得改变此前交易与净值。
     original=bt.DATA[c]['rows'];cut='2024-06-28';future=[dict(x) for x in original]
     for x in future:
@@ -29,6 +36,6 @@ for c,m in bt.DATA.items():
     assert math.isclose(h['nav'][-1],last['close']/first['open']*(1-.0003),rel_tol=1e-12)
     dd=np.array(eq)/np.maximum.accumulate(eq)-1;assert abs(dd.min()-path['summary']['max_drawdown'])<1e-12
     chosen=max(r['grid'][c],key=lambda x:x['train']['cagr']);assert chosen['window']==r['selection'][c]['chosen_by_2022_2023']['window'] and chosen['band']==r['selection'][c]['chosen_by_2022_2023']['band']
-    checks.append({'code':c,'ledger_rows':len(eq),'cash_share_ledger_max_error':float(np.max(np.abs(np.array(eq)-path['nav']))),'future_price_perturbation':'passed','baseline_formula':'passed','training_only_selection':'passed'})
+    checks.append({'code':c,'ledger_rows':len(eq),'cash_share_ledger_max_error':float(np.max(np.abs(np.array(eq)-path['nav']))),'symmetric_daily_signal':'passed','future_price_perturbation':'passed','baseline_formula':'passed','training_only_selection':'passed'})
 report={'status':'passed','tests':checks,'qualifications':['MA价格条件实验，未包含历史PE/股息率筛选','历史留出检验，不是2026年发布后的真实样本外','除息日开盘理论再投，与真实到账及整数份额有差异']}
 (BASE/'结果/验收回测.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(report,ensure_ascii=False))

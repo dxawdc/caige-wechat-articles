@@ -1,7 +1,13 @@
 {
-  "prompt": "Create a refined Chinese WeChat article cover, ultra-wide horizontal aspect ratio approximately 2.35:1. Cream ivory paper background, tactile editorial 3D miniature illustration, sophisticated forest green and warm copper palette. Left 45% generous whitespace with EXACT bold elegant Chinese headline on two lines: “一直拿着” and “还是做波段？” smaller subtitle “红利ETF · 收益与回撤”. Small exact brand at lower left “可以叫我才哥”. Right side shows a thoughtful visual metaphor of a sturdy potted ginkgo tree with a few golden leaves next to a winding stepping path and a small hourglass, symbolizing holding patiently versus repeated timing decisions. One strong visual focal area, soft natural light, premium magazine finance data essay aesthetic, no faces, no coins overflowing, no get-rich imagery, no logos. This is concept art, NOT an actual financial plot: no axes, no percentages, no numeric charts, no upward profit promises. Tiny unobtrusive Chinese text at bottom right “概念示意”. Safe margin 8% all edges, highly legible accurate Chinese text. Output a single finished cover image.",
-  "brand": "可以叫我才哥",
-  "type": "概念插画，正文数据图由Python计算生成",
+  "prompt": "Create a brand new ultra-wide horizontal Chinese editorial article cover, aspect ratio 2.35:1. NEW VISUAL STYLE: sophisticated flat screen-print / vector collage illustration, no 3D rendering, no landscapes, no bonsai or hourglass. Bright off-white and very pale lavender background with cobalt indigo #4457C4, coral #DB655A and lilac accents. Left 48% holds exact very large Chinese headline on two lines: “卖出以后” / “等多久？” and small subtitle “红利ETF的等待成本”. Right half is one bold flat conceptual illustration: a long unfurling strip of calendar pages forming a looping path around a single empty chair, a restrained halftone texture with geometrical shadows. This is a concept illustration, not a statistical plot. Elegant bold Chinese sans serif with generous whitespace, maximum legibility at thumbnail sizes, safe margins 8%. No account name, no author name, no logo, no watermark, no signature, no finance numbers. Bottom right tiny text “概念示意”. Premium contemporary data magazine aesthetic. Output a single final cover image.",
+  "account_name": false,
+  "style": "靛蓝/珊瑚/浅紫 平面编辑插画",
+  "cycle_start": "2026-10-11",
+  "cycle_days": [
+    7,
+    14
+  ],
+  "type": "概念插画；正文图表来自数据计算",
   "templates": [
     "图片/封面_横版模板.svg",
     "图片/封面_方版模板.svg"

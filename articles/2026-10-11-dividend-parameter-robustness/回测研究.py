@@ -1,4 +1,4 @@
-"""同口径比较持有与价格均线择时；预先固定网格，分段检验。"""
+"""同口径比较持有与价格均线择时；明确参数网格，分段检验。"""
 from pathlib import Path
 from datetime import date
 import json,csv,math
@@ -6,9 +6,9 @@ import numpy as np
 BASE=Path(__file__).resolve().parent;OUT=BASE/'结果';OUT.mkdir(exist_ok=True)
 DATA=json.loads((BASE/'数据/总回报行情.json').read_text(encoding='utf-8'))
 START='2021-12-31';END='2026-09-30';CUT='2023-12-29'
-WINDOWS=[100,120,140,160,180,182,200,220,250];BANDS=[.03,.04,.05,.06,.07,.08,.09,.10,.12]
+WINDOWS=[60,90,120,150,180,200,220,250,300];BANDS=[0.,.01,.02,.03,.04,.05,.06,.08,.10]
 
-def run(code,window=182,band=.07,start=START,end=END,hold=False,fee=.0003,cash=0.,delay=1):
+def run(code,window=200,band=.05,start=START,end=END,hold=False,fee=.0003,cash=0.,delay=1):
     rows=DATA[code]['rows'];dates=[r['date'] for r in rows];close=np.array([r['close'] for r in rows]);op=np.array([r['open'] for r in rows])
     sums=np.r_[0.,np.cumsum(close)];ma=np.full(len(close),np.nan);ma[window-1:]=(sums[window:]-sums[:-window])/window
     indices=[i for i,day in enumerate(dates) if start<=day<=end];assert len(indices)>50
@@ -20,7 +20,7 @@ def run(code,window=182,band=.07,start=START,end=END,hold=False,fee=.0003,cash=0
         at_open=nav[-1]*(pos*op[i]/close[i-1]+(1-pos)*(1+cash)**(dt/365.25))
         sig=i-delay;target=pos
         if hold:target=1
-        elif pos==0 and close[sig]<ma[sig]:target=1
+        elif pos==0 and close[sig]<ma[sig]*(1-band):target=1
         elif pos==1 and close[sig]>ma[sig]*(1+band):target=0
         if target!=pos:
             at_open*=1-fee
@@ -61,16 +61,16 @@ def main():
             held+=p[i-1]*math.log(o/prev)+p[i]*math.log(cl/o)
             flat+=(1-p[i-1])*math.log(o/prev)+(1-p[i])*math.log(cl/o)
         attribution[c]={'held_log_return':held,'flat_log_return':flat,'price_total_log_return':held+flat,'interpretation':'对数收益分解，空仓期间ETF价格变化，非策略收益；含基准日收盘到首日开盘'}
-    payload={'start':START,'end':END,'train_end':CUT,'windows':WINDOWS,'bands':BANDS,'funds':{c:m['name'] for c,m in DATA.items()},'results':results,'grid':grids,'selection':selection,'sensitivity':sensitivity,'attribution':attribution,'method':{'price':'拆分校正场内OHLC，加现金分红除息日开盘理论再投；仅用已发生分红向前构建总回报价格','execution':'前一交易日收盘信号，下一交易日开盘成交','fee_per_side':.0003,'cash_default':0,'initial_position':0,'cash_sensitivity':.02,'valuation_filter':False,'terminal_liquidation':False,'grid_size_per_fund':len(WINDOWS)*len(BANDS),'holdout':'按时间划分的历史留出检验；2026年回看历史，不是真实发布后样本外'}}
+    payload={'model_version':'symmetric-band-v2','entry_rule':'close < MA * (1-band)','exit_rule':'close > MA * (1+band)','default_window':200,'default_band':.05,'start':START,'end':END,'train_end':CUT,'windows':WINDOWS,'bands':BANDS,'funds':{c:m['name'] for c,m in DATA.items()},'results':results,'grid':grids,'selection':selection,'sensitivity':sensitivity,'attribution':attribution,'method':{'price':'拆分校正场内OHLC，加现金分红除息日开盘理论再投；仅用已发生分红向前构建总回报价格','execution':'前一交易日收盘信号，下一交易日开盘成交','fee_per_side':.0003,'cash_default':0,'initial_position':0,'cash_sensitivity':.02,'valuation_filter':False,'terminal_liquidation':False,'grid_size_per_fund':len(WINDOWS)*len(BANDS),'holdout':'按时间划分的历史留出检验；2026年回看历史，不是真实发布后样本外'}}
     (OUT/'研究结果.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding='utf-8')
     with (OUT/'参数网格.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        w=csv.writer(f);w.writerow(['代码','MA交易日','卖出乖离','区间','年化收益','最大回撤','持仓比例','调仓次数'])
+        w=csv.writer(f);w.writerow(['代码','MA交易日','对称偏离幅度','区间','年化收益','最大回撤','持仓比例','调仓次数'])
         for c,grid in grids.items():
             for r in grid:
                 for part in ['full','train','test']:
                     s=r[part];w.writerow([c,r['window'],r['band'],part,s['cagr'],s['max_drawdown'],s['exposure'],s['trades']])
     with (OUT/'基准策略交易记录.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        w=csv.writer(f);w.writerow(['代码','信号日期','执行日期','方向','总回报序列开盘','信号收盘','信号MA182'])
+        w=csv.writer(f);w.writerow(['代码','信号日期','执行日期','方向','总回报序列开盘','信号收盘','信号MA200'])
         for c,r in results.items():
             for t in r['timing']['transactions']:w.writerow([c,t['signal_date'],t['trade_date'],t['side'],t['adjusted_open'],t['signal_close'],t['ma']])
     print(json.dumps({'base':{c:{k:v['summary'] for k,v in r.items()} for c,r in results.items()},'selected':{c:{k:v for k,v in s.items() if k!='test_winner_path'} for c,s in selection.items()}},ensure_ascii=False,indent=2))

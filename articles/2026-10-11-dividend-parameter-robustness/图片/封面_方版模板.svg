@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-11T21:25:41.629217</dc:date>
+    <dc:date>2026-10-11T21:44:38.766975</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -26,57 +26,145 @@ L 864 864
 L 864 0 
 L 0 0 
 z
-" style="fill: #163d3a"/>
+" style="fill: #fafafe"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 86.4 708.48 
-L 221.184 384.9984 
-L 322.272 708.48 
-L 409.8816 506.304 
-L 639.0144 506.304 
-L 760.32 708.48 
+    <path d="M 103.68 734.4 
+L 260.928 734.4 
+L 209.088 820.8 
+L 51.84 820.8 
 z
-" clip-path="url(#pb8783ae8d2)" style="fill: #537f6d; stroke: #b9864b; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #d4d5eb"/>
    </g>
    <g id="patch_3">
-    <path d="M 234.6624 553.4784 
-C 261.471251 553.4784 287.18569 542.827131 306.14241 523.87041 
-C 325.099131 504.91369 335.7504 479.199251 335.7504 452.3904 
-C 335.7504 425.581549 325.099131 399.86711 306.14241 380.91039 
-C 287.18569 361.953669 261.471251 351.3024 234.6624 351.3024 
-C 207.853549 351.3024 182.13911 361.953669 163.18239 380.91039 
-C 144.225669 399.86711 133.5744 425.581549 133.5744 452.3904 
-C 133.5744 479.199251 144.225669 504.91369 163.18239 523.87041 
-C 182.13911 542.827131 207.853549 553.4784 234.6624 553.4784 
-L 234.6624 553.4784 
+    <path d="M 103.68 734.4 
+L 260.928 734.4 
+L 260.928 561.6 
+L 103.68 561.6 
 z
-" clip-path="url(#pb8783ae8d2)" style="fill: none; stroke: #b9864b; stroke-width: 4; stroke-linejoin: miter"/>
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #9471be"/>
    </g>
-   <g id="line2d_1">
-    <path d="M 160.5312 526.5216 
-L 99.8784 634.3488 
-" clip-path="url(#pb8783ae8d2)" style="fill: none; stroke: #b9864b; stroke-width: 8; stroke-linecap: square"/>
+   <g id="patch_4">
+    <path d="M 128.83968 682.56 
+L 231.05088 682.56 
+L 231.05088 670.464 
+L 128.83968 670.464 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 128.83968 651.456 
+L 231.05088 651.456 
+L 231.05088 639.36 
+L 128.83968 639.36 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 128.83968 620.352 
+L 231.05088 620.352 
+L 231.05088 608.256 
+L 128.83968 608.256 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 309.312 734.4 
+L 466.56 734.4 
+L 414.72 820.8 
+L 257.472 820.8 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #d4d5eb"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 309.312 734.4 
+L 466.56 734.4 
+L 466.56 414.72 
+L 309.312 414.72 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #db655a"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 334.47168 638.496 
+L 436.68288 638.496 
+L 436.68288 616.1184 
+L 334.47168 616.1184 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 334.47168 580.9536 
+L 436.68288 580.9536 
+L 436.68288 558.576 
+L 334.47168 558.576 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 334.47168 523.4112 
+L 436.68288 523.4112 
+L 436.68288 501.0336 
+L 334.47168 501.0336 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 514.944 734.4 
+L 672.192 734.4 
+L 620.352 820.8 
+L 463.104 820.8 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #d4d5eb"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 514.944 734.4 
+L 672.192 734.4 
+L 672.192 509.76 
+L 514.944 509.76 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #4457c4"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 540.10368 667.008 
+L 642.31488 667.008 
+L 642.31488 651.2832 
+L 540.10368 651.2832 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 540.10368 626.5728 
+L 642.31488 626.5728 
+L 642.31488 610.848 
+L 540.10368 610.848 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 540.10368 586.1376 
+L 642.31488 586.1376 
+L 642.31488 570.4128 
+L 540.10368 570.4128 
+z
+" clip-path="url(#p3bb2ff1a8c)" style="fill: #fafafe; opacity: 0.8"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 46px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #f2ead5" x="69.12" y="146.88" transform="rotate(-0 69.12 146.88)">最优参数</text>
+    <text style="font-weight: 700; font-size: 125px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #4457c4" x="64.8" y="120.96" transform="rotate(-0 64.8 120.96)">收益第一</text>
    </g>
    <g id="text_2">
-    <text style="font-weight: 700; font-size: 46px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #f2ead5" x="69.12" y="237.6" transform="rotate(-0 69.12 237.6)">真的可靠吗？</text>
+    <text style="font-weight: 700; font-size: 125px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #4457c4" x="64.8" y="285.12" transform="rotate(-0 64.8 285.12)">就选它？</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #b9864b" x="69.12" y="298.08" transform="rotate(-0 69.12 298.08)">81组组合 · 稳健性检验</text>
+    <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #9471be" x="69.12" y="354.24" transform="rotate(-0 69.12 354.24)">81组参数的收益与代价</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #f2ead5" x="69.12" y="803.52" transform="rotate(-0 69.12 803.52)">可以叫我才哥</text>
-   </g>
-   <g id="text_5">
-    <text style="font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: end; fill: #b9864b" x="812.16" y="803.52" transform="rotate(-0 812.16 803.52)">概念示意</text>
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: end; fill: #9471be" x="812.16" y="812.16" transform="rotate(-0 812.16 812.16)">概念示意</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pb8783ae8d2">
+  <clipPath id="p3bb2ff1a8c">
    <rect x="0" y="0" width="864" height="864"/>
   </clipPath>
  </defs>
