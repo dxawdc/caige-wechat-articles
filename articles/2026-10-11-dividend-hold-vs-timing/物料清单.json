@@ -1,0 +1,137 @@
+{
+  "version": "v1.0.0",
+  "updated": "2026-10-11",
+  "entrypoint": "复现.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3743,
+      "sha256": "d5a648a13a5eb9559a9eede2983681617478bab179dc02085dd8bd969757b6dd"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 30,
+      "sha256": "9aa6bf6c9c2ac59324c96eeb4d7fa2a1f5921be564f74e324b26228f94437631"
+    },
+    {
+      "path": "回测研究.py",
+      "bytes": 7184,
+      "sha256": "bd619d4e4ec6ba8b1474ff722758c8c08fb94fd478ef5d2ec914e40e55276c63"
+    },
+    {
+      "path": "图片/图1_期末资产.png",
+      "bytes": 98755,
+      "sha256": "3c46d716bd30c501742e4a206cd30c200a4799cd5286cde23df7986c65c6e176"
+    },
+    {
+      "path": "图片/图2_净值走势.png",
+      "bytes": 134605,
+      "sha256": "d185f3e7cf31cfcec8768032877b6ab3a668cf7cb11a4d70154a9b1dda91758c"
+    },
+    {
+      "path": "图片/图3_回撤曲线.png",
+      "bytes": 320460,
+      "sha256": "522977c21c48457f18204c7a21fd640ed824675479b723e7720c821b4efe88f2"
+    },
+    {
+      "path": "图片/图4_年度收益.png",
+      "bytes": 174290,
+      "sha256": "789806201f945c64c78aa9ac5d96fb5c471479939f63bb9763823c0ec8b6c2e9"
+    },
+    {
+      "path": "图片/图5_持仓与空仓.png",
+      "bytes": 97993,
+      "sha256": "293bad50a41ea9fdb9c20530d7e1eeb25150329b3048e4713682ff6b0e45fa36"
+    },
+    {
+      "path": "图片/图6_现金假设.png",
+      "bytes": 118432,
+      "sha256": "4eb41933e9f01c28afd44590ad0f3537a39993c2c9552627f91ecd7d8514956b"
+    },
+    {
+      "path": "图片/封面_AI.png",
+      "bytes": 2345344,
+      "sha256": "4066e787b233f31d2e87a2b8949402e65f1a2a026b1a881990d24455383fa125"
+    },
+    {
+      "path": "图片/封面_方版模板.png",
+      "bytes": 56912,
+      "sha256": "55959f50c1eff3b831d96727c4920ceb62825ef20f0d9210151844b46d0aa3d4"
+    },
+    {
+      "path": "图片/封面_方版模板.svg",
+      "bytes": 5874,
+      "sha256": "337d4e80c560663781251b187ceca0ec8e56adc50c5f3d35715d605fd372a320"
+    },
+    {
+      "path": "图片/封面_横版模板.png",
+      "bytes": 59760,
+      "sha256": "f146bd99f9bb9ba855a14753a7c3517c8d5fe9b5e9513aa8a9fbdc0c280f2948"
+    },
+    {
+      "path": "图片/封面_横版模板.svg",
+      "bytes": 6008,
+      "sha256": "e6de52a2f8f28eac585157f02005be7fda3e17312ff433e6768771f40436d1c1"
+    },
+    {
+      "path": "复现.py",
+      "bytes": 1043,
+      "sha256": "fd641d7e4235815bb3952b04537f15c0b921aa95943f7cec184a6d6ceb093fcf"
+    },
+    {
+      "path": "封面设计.json",
+      "bytes": 1358,
+      "sha256": "7071c8d3173356c6846f2a4b5ac63c1fcf5d568ae452b78821bb4af50bb6c289"
+    },
+    {
+      "path": "数据/总回报口径核验.json",
+      "bytes": 2281,
+      "sha256": "759b9c927e45ed75afba595832b88ca5c18a9a2a529522358265d57cc62387c0"
+    },
+    {
+      "path": "数据/总回报日线.csv",
+      "bytes": 327126,
+      "sha256": "32fb35472c95f54a3601fe6e85d29419549930a486d04e5ee7b018b11a8f2e06"
+    },
+    {
+      "path": "数据/总回报行情.json",
+      "bytes": 968889,
+      "sha256": "3def019e32a848562265833d75fa53bf8ef98bc41f772aa054f078750f7f7b1d"
+    },
+    {
+      "path": "数据/来源.json",
+      "bytes": 1222,
+      "sha256": "496555d982f64f0c3ded6de4ba0cdafbb00f3e16d256da2ac771b5b4803201f3"
+    },
+    {
+      "path": "结果/参数网格.csv",
+      "bytes": 60981,
+      "sha256": "9ae7316729e3a45ae1fb123b7d9b3151c582a6d3db7b3f9c10f845ba368e7bbd"
+    },
+    {
+      "path": "结果/基准策略交易记录.csv",
+      "bytes": 2834,
+      "sha256": "18169d0c2c2cf1087f69d7618d442137344392301c85196f806c6021868443dd"
+    },
+    {
+      "path": "结果/研究结果.json",
+      "bytes": 1964533,
+      "sha256": "2b55c4b29c26f1bff47013624f620ea82fc82eb0fca1f4757232e277a1eec80d"
+    },
+    {
+      "path": "结果/验收回测.json",
+      "bytes": 1052,
+      "sha256": "d2161d28c8366282b56b438b06b7a3774a1d012402000100807429fe987389d0"
+    },
+    {
+      "path": "绘制图表.py",
+      "bytes": 10649,
+      "sha256": "ca1af0d121840216b0eb2bc2ec602036732e5df77643fd14bad48c323c2e4f2b"
+    },
+    {
+      "path": "验收回测.py",
+      "bytes": 2814,
+      "sha256": "d6dc379bb7a36afb81b9d73ef2f6160570169fab4d029c601a0fc7b43f755003"
+    }
+  ]
+}

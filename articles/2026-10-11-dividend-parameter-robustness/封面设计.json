@@ -1,0 +1,9 @@
+{
+  "prompt": "Create a refined Chinese WeChat article cover, ultra-wide horizontal aspect ratio approximately 2.35:1. Rich deep teal background with muted ivory text and warm amber accent. Premium tactile paper-cut / 3D contour landscape metaphor on the right: a small isolated sharp peak contrasted with a broad gentle plateau, with a delicate magnifying glass over it. Elegant scientific editorial illustration about parameter robustness, not a real dataset or financial return curve. Left half clear exact bold Chinese headline on two lines: “最优参数” and “真的可靠吗？” smaller subtitle “81组组合 · 一次稳健性检验”. Small exact brand at bottom left “可以叫我才哥”. Tiny text bottom right “概念示意”. One central visual focus, subtle shadows and restrained material detail, high contrast and generous whitespace. No real chart axes, no invented returns, no rockets or wealth promises. 8% safe margins. Chinese text must be exact and visually polished. Output a single finished cover image.",
+  "brand": "可以叫我才哥",
+  "type": "概念插画，正文数据图由Python计算生成",
+  "templates": [
+    "图片/封面_横版模板.svg",
+    "图片/封面_方版模板.svg"
+  ]
+}

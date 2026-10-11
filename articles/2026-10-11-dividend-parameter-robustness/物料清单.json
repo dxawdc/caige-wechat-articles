@@ -1,0 +1,137 @@
+{
+  "version": "v1.0.0",
+  "updated": "2026-10-11",
+  "entrypoint": "复现.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3751,
+      "sha256": "9fb1b4bdebae029fca3dbdae7fc8b9d193d15f880e1dd5b6ad56332a7735d5dd"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 30,
+      "sha256": "9aa6bf6c9c2ac59324c96eeb4d7fa2a1f5921be564f74e324b26228f94437631"
+    },
+    {
+      "path": "回测研究.py",
+      "bytes": 7184,
+      "sha256": "bd619d4e4ec6ba8b1474ff722758c8c08fb94fd478ef5d2ec914e40e55276c63"
+    },
+    {
+      "path": "图片/图1_81组参数.png",
+      "bytes": 193288,
+      "sha256": "014348951d5ba2d7ae214ff8fa6ec9be7fd6555543e5591d051141cb33dad393"
+    },
+    {
+      "path": "图片/图2_前段参数.png",
+      "bytes": 192893,
+      "sha256": "22ded307ccd023ddc7164ec28d05724d5a63f298c03d667f22bb822aea7d6da8"
+    },
+    {
+      "path": "图片/图3_后段参数.png",
+      "bytes": 196390,
+      "sha256": "a0b2e5bb74ebe6b096780f3c4ee6754138e0b33173265b8d8e592e4a91fd677c"
+    },
+    {
+      "path": "图片/图4_历史留出检验.png",
+      "bytes": 105918,
+      "sha256": "33ae6c6396aa6abcfee04ab0949a5a33e70ae2e870af36a142723f9434f23f9f"
+    },
+    {
+      "path": "图片/图5_跨标的参数.png",
+      "bytes": 93748,
+      "sha256": "2a126c13bf792a200573b3e60fd2609d7b509dd61368c990d7496630586e43d2"
+    },
+    {
+      "path": "图片/图6_成交延迟.png",
+      "bytes": 138932,
+      "sha256": "7078865ac8e859287fb1354a653c8f6451bcb885c85a42a867df573e4e1dc452"
+    },
+    {
+      "path": "图片/封面_AI.png",
+      "bytes": 2128029,
+      "sha256": "e2de93fb5653ba644c98384b2662d454dbdf7b57d56d122bbacd5afd6bc7f7db"
+    },
+    {
+      "path": "图片/封面_方版模板.png",
+      "bytes": 67631,
+      "sha256": "9390fbcf6fc4c5645cd2e4246f70d896011eeb4a72a9030355d4175403f4a8c9"
+    },
+    {
+      "path": "图片/封面_方版模板.svg",
+      "bytes": 3632,
+      "sha256": "da48c9ae439700104c43d87fc01bc80792bd5cbfc6f207445b52fbc55c754ea6"
+    },
+    {
+      "path": "图片/封面_横版模板.png",
+      "bytes": 56038,
+      "sha256": "ebcec70bde75b10b49bc97d872467616b1e59d7b96bca0859905e913dc3a9a9b"
+    },
+    {
+      "path": "图片/封面_横版模板.svg",
+      "bytes": 3699,
+      "sha256": "18080169b1e629bf6e0ac9d2faf9d3ea19239f9161c8ebe43b469afd3e3d0bad"
+    },
+    {
+      "path": "复现.py",
+      "bytes": 1043,
+      "sha256": "d010f00a98f589f7a5c7d1fc96f8c9a455dfc3d0f1ce91452581b3ebc26aa0db"
+    },
+    {
+      "path": "封面设计.json",
+      "bytes": 1244,
+      "sha256": "78d9da20521927b10eea296179dc8897ea6209bb5f78b9d413d7d671b60d708e"
+    },
+    {
+      "path": "数据/总回报口径核验.json",
+      "bytes": 2281,
+      "sha256": "759b9c927e45ed75afba595832b88ca5c18a9a2a529522358265d57cc62387c0"
+    },
+    {
+      "path": "数据/总回报日线.csv",
+      "bytes": 327126,
+      "sha256": "32fb35472c95f54a3601fe6e85d29419549930a486d04e5ee7b018b11a8f2e06"
+    },
+    {
+      "path": "数据/总回报行情.json",
+      "bytes": 968889,
+      "sha256": "3def019e32a848562265833d75fa53bf8ef98bc41f772aa054f078750f7f7b1d"
+    },
+    {
+      "path": "数据/来源.json",
+      "bytes": 1222,
+      "sha256": "496555d982f64f0c3ded6de4ba0cdafbb00f3e16d256da2ac771b5b4803201f3"
+    },
+    {
+      "path": "结果/参数网格.csv",
+      "bytes": 60981,
+      "sha256": "9ae7316729e3a45ae1fb123b7d9b3151c582a6d3db7b3f9c10f845ba368e7bbd"
+    },
+    {
+      "path": "结果/基准策略交易记录.csv",
+      "bytes": 2834,
+      "sha256": "18169d0c2c2cf1087f69d7618d442137344392301c85196f806c6021868443dd"
+    },
+    {
+      "path": "结果/研究结果.json",
+      "bytes": 1964533,
+      "sha256": "2b55c4b29c26f1bff47013624f620ea82fc82eb0fca1f4757232e277a1eec80d"
+    },
+    {
+      "path": "结果/验收回测.json",
+      "bytes": 1052,
+      "sha256": "d2161d28c8366282b56b438b06b7a3774a1d012402000100807429fe987389d0"
+    },
+    {
+      "path": "绘制图表.py",
+      "bytes": 10649,
+      "sha256": "0e43346de2c5b296df0405ccdf440b0b4d54f6b51aa139bb8d7d6913966a1668"
+    },
+    {
+      "path": "验收回测.py",
+      "bytes": 2814,
+      "sha256": "d6dc379bb7a36afb81b9d73ef2f6160570169fab4d029c601a0fc7b43f755003"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="551.52pt" viewBox="0 0 1296 551.52" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-11T21:25:41.588407</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 551.52 
+L 1296 551.52 
+L 1296 0 
+L 0 0 
+z
+" style="fill: #163d3a"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 751.68 419.1552 
+L 842.4 326.49984 
+L 910.44 419.1552 
+L 969.408 361.2456 
+L 1123.632 361.2456 
+L 1205.28 419.1552 
+z
+" clip-path="url(#p0c2bd622b4)" style="fill: #537f6d; stroke: #b9864b; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 851.472 374.75784 
+C 869.516419 374.75784 886.824214 371.70698 899.583545 366.277175 
+C 912.342876 360.847371 919.512 353.481943 919.512 345.80304 
+C 919.512 338.124137 912.342876 330.758709 899.583545 325.328905 
+C 886.824214 319.8991 869.516419 316.84824 851.472 316.84824 
+C 833.427581 316.84824 816.119786 319.8991 803.360455 325.328905 
+C 790.601124 330.758709 783.432 338.124137 783.432 345.80304 
+C 783.432 353.481943 790.601124 360.847371 803.360455 366.277175 
+C 816.119786 371.70698 833.427581 374.75784 851.472 374.75784 
+L 851.472 374.75784 
+z
+" clip-path="url(#p0c2bd622b4)" style="fill: none; stroke: #b9864b; stroke-width: 4; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 801.576 367.03656 
+L 760.752 397.92168 
+" clip-path="url(#p0c2bd622b4)" style="fill: none; stroke: #b9864b; stroke-width: 8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 52px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #f2ead5" x="103.68" y="182.0016" transform="rotate(-0 103.68 182.0016)">最优参数</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 52px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #f2ead5" x="103.68" y="275.76" transform="rotate(-0 103.68 275.76)">真的可靠吗？</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 23px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #b9864b" x="103.68" y="341.9424" transform="rotate(-0 103.68 341.9424)">81组组合 · 稳健性检验</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 17px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: start; fill: #f2ead5" x="103.68" y="512.9136" transform="rotate(-0 103.68 512.9136)">可以叫我才哥</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'Microsoft YaHei', 'SimHei', sans-serif; text-anchor: end; fill: #b9864b" x="1218.24" y="512.9136" transform="rotate(-0 1218.24 512.9136)">概念示意</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0c2bd622b4">
+   <rect x="0" y="0" width="1296" height="551.52"/>
+  </clipPath>
+ </defs>
+</svg>

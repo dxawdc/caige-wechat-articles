@@ -1,8 +1,8 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**31篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**37篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
-<!-- 版本：v1.22.0 | 更新时间：2026-10-06 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.22.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -10,6 +10,8 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [红利ETF一直拿着，还是做波段？3只ETF的收益、回撤与空仓代价](articles/2026-10-11-dividend-hold-vs-timing/README.md) · v1.0.0 | 持有与择时：收益、回撤与空仓代价；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-hold-vs-timing.zip) |
+| [红利择时的参数靠谱吗？81组组合、分段回测与成交延迟检验](articles/2026-10-11-dividend-parameter-robustness/README.md) · v1.0.0 | 81组参数：分段、跨ETF与决策滞后检验；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-parameter-robustness.zip) |
 | [用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看](articles/2026-10-04-etf-heatmap/README.md) · v1.0.0 | 16只ETF行情快照、20日逐日涨跌与11项指标、PNG/SVG热力图与Python源码 | [ZIP](downloads/etf-heatmap_v1.0.0.zip) |
 | [全国358家5A景区，哪里最多？门票多少钱，又靠什么赚钱？](articles/2026-10-05-5a-scenic-analysis/README.md) · v1.4.0 | 全国358家名录、省市和类型统计、135家185个票种、14家公司财务与13项项目业务收入、8张高清横图与10张公众号图、绘图源码 | [ZIP](downloads/5a-scenic-analysis.zip) |
 | [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](articles/2026-10-05-etf-drawdown-recovery/README.md) · v1.0.3 | 近一年16只ETF回撤、下跌与修复时间、未修复观察记录、5组图、横版封面与Python源码 | [ZIP](downloads/etf-drawdown-recovery_v1.0.3.zip) |

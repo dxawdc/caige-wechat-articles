@@ -1,0 +1,9 @@
+{
+  "prompt": "Create a refined Chinese WeChat article cover, ultra-wide horizontal aspect ratio approximately 2.35:1. Cream ivory paper background, tactile editorial 3D miniature illustration, sophisticated forest green and warm copper palette. Left 45% generous whitespace with EXACT bold elegant Chinese headline on two lines: “一直拿着” and “还是做波段？” smaller subtitle “红利ETF · 收益与回撤”. Small exact brand at lower left “可以叫我才哥”. Right side shows a thoughtful visual metaphor of a sturdy potted ginkgo tree with a few golden leaves next to a winding stepping path and a small hourglass, symbolizing holding patiently versus repeated timing decisions. One strong visual focal area, soft natural light, premium magazine finance data essay aesthetic, no faces, no coins overflowing, no get-rich imagery, no logos. This is concept art, NOT an actual financial plot: no axes, no percentages, no numeric charts, no upward profit promises. Tiny unobtrusive Chinese text at bottom right “概念示意”. Safe margin 8% all edges, highly legible accurate Chinese text. Output a single finished cover image.",
+  "brand": "可以叫我才哥",
+  "type": "概念插画，正文数据图由Python计算生成",
+  "templates": [
+    "图片/封面_横版模板.svg",
+    "图片/封面_方版模板.svg"
+  ]
+}
