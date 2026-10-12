@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？](../articles/2026-10-12-zheng-qinwen/README.md) | v1.0.0 | [zheng-qinwen.zip](zheng-qinwen.zip) | 4.34 MB |
 | [红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看](../articles/2026-10-11-dividend-hold-vs-timing/README.md) | v2.0.0 | [dividend-hold-vs-timing.zip](dividend-hold-vs-timing.zip) | 3.00 MB |
 | [回测收益最高，就选它吗？用81组参数看红利ETF的收益与代价](../articles/2026-10-11-dividend-parameter-robustness/README.md) | v2.0.0 | [dividend-parameter-robustness.zip](dividend-parameter-robustness.zip) | 3.14 MB |
 | [用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看](../articles/2026-10-04-etf-heatmap/README.md) | v1.0.0 | [etf-heatmap_v1.0.0.zip](etf-heatmap_v1.0.0.zip) | 1.08 MB |

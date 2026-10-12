@@ -1,6 +1,6 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**37篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**38篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
 <!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
 
@@ -10,6 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？](articles/2026-10-12-zheng-qinwen/README.md) · v1.0.0 | 郑钦文生涯排名、主要冠军、奥运与中网征程；官方来源、5张可编辑图表和Python绘图源码 | [ZIP](downloads/zheng-qinwen.zip) |
 | [红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看](articles/2026-10-11-dividend-hold-vs-timing/README.md) · v2.0.0 | 红利ETF的时间账本：收益、回撤与等待成本；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-hold-vs-timing.zip) |
 | [回测收益最高，就选它吗？用81组参数看红利ETF的收益与代价](articles/2026-10-11-dividend-parameter-robustness/README.md) · v2.0.0 | 81组对称区间参数：收益回撤分布、相对持有与名次迁移；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-parameter-robustness.zip) |
 | [用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看](articles/2026-10-04-etf-heatmap/README.md) · v1.0.0 | 16只ETF行情快照、20日逐日涨跌与11项指标、PNG/SVG热力图与Python源码 | [ZIP](downloads/etf-heatmap_v1.0.0.zip) |

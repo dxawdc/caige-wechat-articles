@@ -1,0 +1,45 @@
+{
+  "as_of": "2026-10-12",
+  "player": {"name":"郑钦文","birth_date":"2002-10-08","height_m":1.78,"career_high":4,"career_high_date":"2025-06-16","current_rank":23,"source":"profile"},
+  "year_end_rankings": [[2018,933],[2019,649],[2020,324],[2021,143],[2022,25],[2023,15],[2024,5],[2025,24]],
+  "ranking_source":"rankings",
+  "ranking2026_keypoints": [["2026-01-05",24],["2026-03-02",23],["2026-04-06",37],["2026-05-25",56],["2026-06-15",160],["2026-07-13",135],["2026-08-31",121],["2026-09-14",52],["2026-09-28",54],["2026-10-12",23]],
+  "titles":[
+    {"date":"2023-07-23","event":"巴勒莫","level":"WTA 250","surface":"红土","opponent":"保利尼","score":"6–4  1–6  6–1","source":"palermo2023"},
+    {"date":"2023-10-15","event":"郑州","level":"WTA 500","surface":"硬地","opponent":"克雷吉茨科娃","score":"2–6  6–2  6–4","source":"zhengzhou2023"},
+    {"date":"2024-07-21","event":"巴勒莫","level":"WTA 250","surface":"红土","opponent":"穆霍娃","score":"6–4  4–6  6–2","source":"palermo2024"},
+    {"date":"2024-08-03","event":"巴黎奥运会","level":"奥运会","surface":"红土","opponent":"维基奇","score":"6–2  6–3","source":"olympics"},
+    {"date":"2024-10-27","event":"东京","level":"WTA 500","surface":"硬地","opponent":"肯宁","score":"7–6(5)  6–3","source":"tokyo2024"},
+    {"date":"2026-10-11","event":"北京中网","level":"WTA 1000","surface":"硬地","opponent":"米拉·安德烈娃","score":"7–5  6–4","source":"beijing2026"}
+  ],
+  "other_titles":[{"date":"2023-09-29","event":"杭州亚运会","opponent":"朱琳","score":"6–2  6–4","source":"asian_games"},{"date":"2022-06-12","event":"瓦伦西亚","level":"WTA 125","opponent":"王曦雨","score":"6–4  4–6  6–3","source":"record"}],
+  "olympics2024":[
+    {"round":"第一轮","opponent":"埃拉尼","sets":[[6,0],[6,0]],"score":"6–0  6–0","note":"两盘均未丢局"},
+    {"round":"第二轮","opponent":"鲁斯","sets":[[6,2],[6,4]],"score":"6–2  6–4","note":"连胜进入16强"},
+    {"round":"第三轮","opponent":"纳瓦罗","sets":[[6,7],[7,6],[6,1]],"score":"6–7(7)  7–6(4)  6–1","note":"挽救赛点，先丢一盘后逆转"},
+    {"round":"1/4决赛","opponent":"科贝尔","sets":[[6,7],[6,4],[7,6]],"score":"6–7(4)  6–4  7–6(6)","note":"决胜盘1–4落后，抢七晋级"},
+    {"round":"半决赛","opponent":"斯瓦泰克","sets":[[6,2],[7,5]],"score":"6–2  7–5","note":"首胜世界第一，终结交手六连败"},
+    {"round":"决赛","opponent":"维基奇","sets":[[6,2],[6,3]],"score":"6–2  6–3","note":"中国首枚奥运网球单打金牌"}
+  ],
+  "grand_slam_best":[
+    {"event":"澳网","surface":"硬地","result":"亚军","stage":6,"years":"2024","wins":9,"losses":4},
+    {"event":"法网","surface":"红土","result":"八强","stage":4,"years":"2025","wins":10,"losses":5},
+    {"event":"温网","surface":"草地","result":"第三轮","stage":2,"years":"2022","wins":2,"losses":5},
+    {"event":"美网","surface":"硬地","result":"八强 × 3","stage":4,"years":"2023 · 2024 · 2026","wins":14,"losses":4}
+  ],
+  "grand_slam_source":"record",
+  "season2024":{"wins_all":52,"losses_all":18,"wins_main_draw":50,"losses_main_draw":18,"finals":6,"titles_including_olympics":3,"source":"year2024"},
+  "beijing2026":[
+    {"round":"第一轮","opponent":"施晗","score":"7–6(6)  4–6  6–2","sets_played":3,"retirement":false},
+    {"round":"第二轮","opponent":"卡林斯卡娅","score":"6–7(4)  6–0  3–0 RET","sets_played":3,"retirement":true},
+    {"round":"第三轮","opponent":"布兹科娃","score":"7–6(3)  4–6  7–5","sets_played":3,"retirement":false},
+    {"round":"第四轮","opponent":"查拉耶娃","score":"6–2  2–6  6–4","sets_played":3,"retirement":false},
+    {"round":"1/4决赛","opponent":"斯维托丽娜","score":"6–3  7–6(6)","sets_played":2,"retirement":false},
+    {"round":"半决赛","opponent":"梅尔滕斯","score":"7–5  6–2","sets_played":2,"retirement":false},
+    {"round":"决赛","opponent":"米拉·安德烈娃","score":"7–5  6–4","sets_played":2,"retirement":false}
+  ],
+  "beijing_route_source":"beijing_route",
+  "title_definition":"WTA官方生涯六冠口径：五站WTA巡回赛单打冠军，加2024巴黎奥运女单金牌。亚运会与WTA125另列。",
+  "ranking_definition":"2018—2025为WTA年终排名表；2026采用注明日期的周排名关键节点，不是年终排名。排名数值越小，名次越靠前。",
+  "olympics_score_definition":"比分均以郑钦文在前；括号为抢七负方小分。奥运前两轮及全路径按WTA官方签表核验。"
+}

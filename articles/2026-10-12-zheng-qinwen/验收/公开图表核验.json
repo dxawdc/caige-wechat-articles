@@ -1,0 +1,87 @@
+{
+  "as_of": "2026-10-12",
+  "checks": {
+    "six_titles": true,
+    "five_wta_plus_one_olympics": true,
+    "surface_split": true,
+    "title_sources_accessible": true,
+    "grand_slam_record": true,
+    "olympic_six_matches": true,
+    "olympic_sets_12_2": true,
+    "olympic_two_comebacks": true,
+    "beijing_seven_matches": true,
+    "beijing_first_four_third_sets": true,
+    "beijing_retirement_explicit": true,
+    "official_year_end_ranks": true,
+    "current_week_rank": true,
+    "midyear_low_rank": true,
+    "career_high_rank": true,
+    "official_slam_total": true,
+    "official_slam_wl": true,
+    "nine_body_images": true,
+    "seven_captioned_images": true,
+    "all_images_exist": true,
+    "no_duplicate_article_title": true,
+    "brand_top_and_bottom": true,
+    "continuous_section_numbers": true
+  },
+  "all_passed": true,
+  "figures": [
+    {
+      "file": "配图/01_排名曲线.png",
+      "width": 1200,
+      "height": 1550,
+      "bytes": 253144,
+      "sha256": "efa90bd73a7099f16c3cec02e417e20b9e28d1eca0215f6c86dc776cc535a730"
+    },
+    {
+      "file": "配图/02_冠军年表.png",
+      "width": 1200,
+      "height": 1600,
+      "bytes": 373523,
+      "sha256": "0bebc28afe6cfd8e71a32d7b9271481ea49150ef3f1a310672efc6a0590c9069"
+    },
+    {
+      "file": "配图/03_奥运夺冠之路.png",
+      "width": 1200,
+      "height": 1680,
+      "bytes": 401833,
+      "sha256": "63ab257919585b386afdf7e818444b3084274c2299f45f01dc81c2e7193cfcb5"
+    },
+    {
+      "file": "配图/04_大满贯进度.png",
+      "width": 1200,
+      "height": 1320,
+      "bytes": 259557,
+      "sha256": "34c561bc758f80100424b09a8cc96007e69e84ebf1769faf0653905983718016"
+    },
+    {
+      "file": "配图/05_中网夺冠之路.png",
+      "width": 1200,
+      "height": 1690,
+      "bytes": 356452,
+      "sha256": "68a55eaaac8dc8b0faf8714607f56320706a8100d902c663cb0f36b5e5031d1c"
+    },
+    {
+      "file": "配图/封面_AI.png",
+      "width": 1921,
+      "height": 819,
+      "bytes": 2747131,
+      "sha256": "490716e3510d197ce45c5f81979518aad2aefc6c4aa50c3cff02c7c1964903c0"
+    },
+    {
+      "file": "配图/封面_方版.png",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 121545,
+      "sha256": "62b02f14fc0730f800187625daf5ea086ded4e285da08ca9dfdb9309f86eb89a"
+    },
+    {
+      "file": "配图/封面_横版模板.png",
+      "width": 1800,
+      "height": 766,
+      "bytes": 121317,
+      "sha256": "a215f9f73aa6343cb2a3d41a9095db53d143ac5fc963b0ebe07e9ca6ec6a7610"
+    }
+  ]
+}

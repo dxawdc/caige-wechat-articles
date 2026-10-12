@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><rect width="100%" height="100%" fill="#FAFAFE"/>
+<rect x="0" y="0" width="1200" height="20" fill="#DB655A" stroke="none" stroke-width="1"/>
+<text x="84" y="95" dominant-baseline="text-before-edge" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="110" font-weight="700" fill="#202B54">郑钦文</text>
+<text x="84" y="238" dominant-baseline="text-before-edge" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="110" font-weight="700" fill="#DB655A">冠军之外</text>
+<text x="90" y="402" dominant-baseline="text-before-edge" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="400" fill="#202B54">从巴黎到北京</text>
+<text x="90" y="458" dominant-baseline="text-before-edge" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="400" fill="#202B54">看见起伏与突破</text>
+<rect x="680" y="620" width="370" height="470" fill="none" stroke="#4457C4" stroke-width="3"/>
+<polyline points="728.1,620 728.1,1090" fill="none" stroke="#4457C4" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1001.9,620 1001.9,1090" fill="none" stroke="#4457C4" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="680,855.0 1050,855.0" fill="none" stroke="#4457C4" stroke-width="3" stroke-linejoin="round"/>
+<polyline points="728.1,737.5 1001.9,737.5" fill="none" stroke="#4457C4" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="728.1,972.5 1001.9,972.5" fill="none" stroke="#4457C4" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="865.0,737.5 865.0,972.5" fill="none" stroke="#4457C4" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="350" cy="830" r="160" fill="#9471BE" stroke="none" stroke-width="2"/>
+<circle cx="400" cy="777" r="95" fill="#FAFAFE" stroke="none" stroke-width="2"/>
+<polyline points="425,910 577,1090" fill="none" stroke="#4457C4" stroke-width="36" stroke-linejoin="round"/>
+<circle cx="885" cy="625" r="56" fill="#DB655A" stroke="none" stroke-width="2"/>
+<polyline points="125,1080 580,610 1030,480" fill="none" stroke="#DB655A" stroke-width="8" stroke-linejoin="round"/>
+<text x="88" y="1120" dominant-baseline="text-before-edge" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#6C7390">TENNIS  /  CAREER ATLAS</text>
+</svg>

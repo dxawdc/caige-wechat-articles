@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "zheng-qinwen",
+      "title": "郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-12-zheng-qinwen",
+      "manifest": "物料清单.json",
+      "download": "downloads/zheng-qinwen.zip",
+      "summary": "郑钦文生涯排名、主要冠军、奥运与中网征程；官方来源、5张可编辑图表和Python绘图源码"
+    },
     {
       "id": "dividend-hold-vs-timing",
       "title": "红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看",

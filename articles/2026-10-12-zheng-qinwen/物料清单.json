@@ -1,0 +1,152 @@
+{
+  "id": "2026-10-12-zheng-qinwen",
+  "version": "v1.0.0",
+  "updated": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1983,
+      "sha256": "09423a4f63c65dad7c13b77215e8f5c6158392e037b54992674536f60813a49a"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 46,
+      "sha256": "65f847ca1a6db243af7a469a3ac0110ed454820bc9c6d5ddf01c957c513a7ebb"
+    },
+    {
+      "path": "封面设计说明.md",
+      "bytes": 2205,
+      "sha256": "3b74468e9f308ee505797209e268d02f63f28f9a47616444fbf8afe41da2c2d4"
+    },
+    {
+      "path": "数据/2026排名节点.csv",
+      "bytes": 163,
+      "sha256": "9fddd275b319186d611091b45f766ace2416afe6cbc34f7c1739dab2832ce94c"
+    },
+    {
+      "path": "数据/中网2026.csv",
+      "bytes": 403,
+      "sha256": "893db40b7d52655b2b8e2e6db3e469b4adee4e8ac885253b2c54dc95c8a44666"
+    },
+    {
+      "path": "数据/冠军明细.csv",
+      "bytes": 520,
+      "sha256": "075e24862b9603238b8549018e55913457e60fa9dc02c2e7f7a7809f0139f81c"
+    },
+    {
+      "path": "数据/历年年终排名.csv",
+      "bytes": 89,
+      "sha256": "57d969839475326202849938f51ac03aaa503d7598a94382973332cbcd8188b5"
+    },
+    {
+      "path": "数据/大满贯最佳成绩.csv",
+      "bytes": 202,
+      "sha256": "b523acd25894a35b4beafe721e401ed7e65b30133bb3342f4f4e47a561d37ab1"
+    },
+    {
+      "path": "数据/巴黎奥运2024.csv",
+      "bytes": 440,
+      "sha256": "87f145c92f76334852b42b9ae110e5dd60a327354040bb86a29775dbd61e4e65"
+    },
+    {
+      "path": "数据/来源索引.json",
+      "bytes": 12999,
+      "sha256": "971c9171966cf658c9ea52594d5d2861f15b9fea59bbf2ada6d7dd5fb5ea0b8d"
+    },
+    {
+      "path": "数据/生涯数据.json",
+      "bytes": 4671,
+      "sha256": "39fbdfb9e02ec9f3ebc35f2c10911c5defc9e817b6b852c1a7146603343ce010"
+    },
+    {
+      "path": "生成图表.py",
+      "bytes": 11042,
+      "sha256": "67f405239e2852b449ba9fa96af305f6df9ef74541c83f9a3c0b565c03045ada"
+    },
+    {
+      "path": "配图/01_排名曲线.png",
+      "bytes": 253144,
+      "sha256": "efa90bd73a7099f16c3cec02e417e20b9e28d1eca0215f6c86dc776cc535a730"
+    },
+    {
+      "path": "配图/01_排名曲线.svg",
+      "bytes": 13137,
+      "sha256": "cf3300f16987e23c7b760e806a83c7e69fe858a294c3e969280fc461a009dc01"
+    },
+    {
+      "path": "配图/02_冠军年表.png",
+      "bytes": 373523,
+      "sha256": "0bebc28afe6cfd8e71a32d7b9271481ea49150ef3f1a310672efc6a0590c9069"
+    },
+    {
+      "path": "配图/02_冠军年表.svg",
+      "bytes": 11551,
+      "sha256": "706ad269af958df394c28e0648567fbaf4300516da5d7585b7d1ad3ce4956af2"
+    },
+    {
+      "path": "配图/03_奥运夺冠之路.png",
+      "bytes": 401833,
+      "sha256": "63ab257919585b386afdf7e818444b3084274c2299f45f01dc81c2e7193cfcb5"
+    },
+    {
+      "path": "配图/03_奥运夺冠之路.svg",
+      "bytes": 13746,
+      "sha256": "20cd7be5060bc850b614a50b16295f916fbc59c92b3c11051c20075f91456756"
+    },
+    {
+      "path": "配图/04_大满贯进度.png",
+      "bytes": 259557,
+      "sha256": "34c561bc758f80100424b09a8cc96007e69e84ebf1769faf0653905983718016"
+    },
+    {
+      "path": "配图/04_大满贯进度.svg",
+      "bytes": 10914,
+      "sha256": "06b78fb5080b3ea7908658db655b1a1f904f250c83febb9d20e19b2cf876c18d"
+    },
+    {
+      "path": "配图/05_中网夺冠之路.png",
+      "bytes": 356452,
+      "sha256": "68a55eaaac8dc8b0faf8714607f56320706a8100d902c663cb0f36b5e5031d1c"
+    },
+    {
+      "path": "配图/05_中网夺冠之路.svg",
+      "bytes": 10571,
+      "sha256": "b6f82e834a20d83bb07fa5e1606a301fa0dc1515e183f3ad102360b896997358"
+    },
+    {
+      "path": "配图/封面_AI.png",
+      "bytes": 2747131,
+      "sha256": "490716e3510d197ce45c5f81979518aad2aefc6c4aa50c3cff02c7c1964903c0"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 121545,
+      "sha256": "62b02f14fc0730f800187625daf5ea086ded4e285da08ca9dfdb9309f86eb89a"
+    },
+    {
+      "path": "配图/封面_方版.svg",
+      "bytes": 2543,
+      "sha256": "faebfb7dd7031938906691fd5c6ccc4573d15915427f5b114a81a8b53d19f5a1"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 121317,
+      "sha256": "a215f9f73aa6343cb2a3d41a9095db53d143ac5fc963b0ebe07e9ca6ec6a7610"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 2247,
+      "sha256": "f143ed4fda1b33314143193ac1637cf868bfad2daeb2139c23c3f1a330067b3b"
+    },
+    {
+      "path": "采集来源.py",
+      "bytes": 3501,
+      "sha256": "5c7c5db60562f1668aa2e0c4d08606f4be050820cffdb658a3b8f789c2de3fb2"
+    },
+    {
+      "path": "验收/公开图表核验.json",
+      "bytes": 2524,
+      "sha256": "136414c9467deb12fb3ff3beb57ae80a168034f1aca9db78516c886addbb8c1f"
+    }
+  ]
+}
