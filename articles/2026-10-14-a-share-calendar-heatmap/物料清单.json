@@ -1,0 +1,117 @@
+{
+  "id": "2026-10-14-a-share-calendar-heatmap",
+  "version": "v1.0.0",
+  "updated": "2026-10-14",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1770,
+      "sha256": "80cf7e0046f7550adc85c262175fe7943aacad400d04bb5956a4cd5a366b6a4e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "37936d19140b4a54f8b494cee90ead551513f544cd24baab0c5af0628661d230"
+    },
+    {
+      "path": "分析结果.json",
+      "bytes": 3059,
+      "sha256": "4250afcd9108a193ae3bd48523248e1ffc0cefbf298b31dbe78163763dbf569e"
+    },
+    {
+      "path": "图表/动图_海内外走势.gif",
+      "bytes": 654423,
+      "sha256": "18cd2989829f29dad2a7a1b7cb6bc540260dd8d77f4c7760dc7438a87d50bfa8"
+    },
+    {
+      "path": "图表/动图_近10年日历墙.gif",
+      "bytes": 241078,
+      "sha256": "9ae97ab5cb5d2ab541b3f4aaf33ba007c0fa807ca98957be202d47ed597f4bb7"
+    },
+    {
+      "path": "图表/图1_三张日历.png",
+      "bytes": 104848,
+      "sha256": "11af27fd4ce9490314858d0536a399e08ee0b689a1b063040d6f30bb6b8c9a46"
+    },
+    {
+      "path": "图表/图2_A股指数跌幅.png",
+      "bytes": 84161,
+      "sha256": "791eea2853febdc2d8cdc027e3e1ee1367a1baf3a439e9fce641a4ebeb43e0bb"
+    },
+    {
+      "path": "图表/图3_海内外走势.png",
+      "bytes": 150907,
+      "sha256": "1ef3e46924116c9b77ba83f81a40ea329c18c8398b45c84e201c2dd50c4e8f0c"
+    },
+    {
+      "path": "图表/图4_今年以来.png",
+      "bytes": 110371,
+      "sha256": "bd9113852a732cc286066eea91fb5701bac32b4ca8033e71b2ef05d4ad8c0d38"
+    },
+    {
+      "path": "图表/图5_近10年日历墙.png",
+      "bytes": 114026,
+      "sha256": "0ebd5bdd932a221a5b96fab503d23cc1fcc32f3dcfc35c994426c06f670c5137"
+    },
+    {
+      "path": "图表/图6_2017年以来走势.png",
+      "bytes": 222707,
+      "sha256": "bb5c7e84fd7710946697beb480843250e095d46a0b607f1bbeac6789adfa6941"
+    },
+    {
+      "path": "图表/图7_近10年年度涨跌.png",
+      "bytes": 148576,
+      "sha256": "201ac81a84dc93828dc7aa69df576c496c825e5b7990af0827f642f603ae8cbc"
+    },
+    {
+      "path": "数据/指数日线.json",
+      "bytes": 451296,
+      "sha256": "a1b06c3017e4df6de8002af5fe1d39cf5880ef6f42cf50578941382fe8fa7856"
+    },
+    {
+      "path": "生成封面.py",
+      "bytes": 4175,
+      "sha256": "afa7b5e4de2db677b91831c4cf8bad4d3c81ac154e5f9a25e6dac098d4fb96ca"
+    },
+    {
+      "path": "绘图.py",
+      "bytes": 18697,
+      "sha256": "e443b044fa42afd9124e4a8c2b587fb66edef89a9416dcf51e4086cc1fe208b0"
+    },
+    {
+      "path": "配图/封面_AI.png",
+      "bytes": 1234305,
+      "sha256": "1c821007a8f75eb87436bab79871d9951c3f88e48ef85d0eb480e46a26b8b352"
+    },
+    {
+      "path": "配图/封面_AI原图.png",
+      "bytes": 1509576,
+      "sha256": "3cc3226cf55b2530488ad60df68e17ccbed7776f832cf665f33130675f3f8933"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 67828,
+      "sha256": "2839f276cd973ecf964cbfbe4e9963a905a454b1f2c66d2982c44464e5002f8a"
+    },
+    {
+      "path": "配图/封面_方版.svg",
+      "bytes": 14267,
+      "sha256": "f88bfc27085ca61966e02cf5e49a576766100f4e87616feec787bb4497ef55f6"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 73098,
+      "sha256": "fbcafe45cbc8ae595cac76a6b88f318219e2e89a0d841bf5df312b256b813d5c"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 20693,
+      "sha256": "1319b88fdce7ac058740d69d8c0e287013a76bc47874fbd57ef56adab2746f65"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 3623,
+      "sha256": "ce2a917c0525cad47a28fa7890c731691644b1d2d69028bd114e9fa7905108f6"
+    }
+  ]
+}

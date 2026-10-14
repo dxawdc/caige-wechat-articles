@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-14",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "a-share-calendar-heatmap",
+      "title": "上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-14-a-share-calendar-heatmap",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-calendar-heatmap.zip",
+      "summary": "上证、创业板、科创50与KOSPI、美股的日历热力图对比；12个指数日线快照、7张图、2张动图和Python源码"
+    },
     {
       "id": "zheng-qinwen",
       "title": "郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？",
