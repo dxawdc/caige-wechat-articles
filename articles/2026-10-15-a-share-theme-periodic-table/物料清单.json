@@ -75,8 +75,8 @@
     },
     {
       "path": "生成封面.py",
-      "bytes": 3961,
-      "sha256": "2ae2dd00c3c12d9a0086f40f547a0adabcf769aa41008a4ebf9a1d0895950590"
+      "bytes": 4719,
+      "sha256": "5544e63c1db605ca56e526b51c0236f675a3fbbbc4e6eeeb145faf2c839fc4a5"
     },
     {
       "path": "绘图.py",
@@ -85,33 +85,48 @@
     },
     {
       "path": "配图/封面_AI.png",
-      "bytes": 1088922,
-      "sha256": "3898a76f24345ae0ab73506b6ce243984eae81a11b7e38288a0b76d102d392c9"
+      "bytes": 773870,
+      "sha256": "2616e1e1cf220773cb8dc6498f2f9677d80c96514eb12b930f5b77c8fc03b76c"
     },
     {
       "path": "配图/封面_AI原图.png",
-      "bytes": 1516349,
-      "sha256": "e794024d98bfa5ff60f8837b51405b795a54cd1e156f3c6ee6e76a7e58faf30f"
+      "bytes": 1296544,
+      "sha256": "7b6d35c1d044c9baba660a77233dbd872123d6388c248d8f0bbdefa094641327"
     },
     {
       "path": "配图/封面_方版.png",
-      "bytes": 54784,
-      "sha256": "87e2cf3c2dca362c02da9701147f684af336e969b42770bc44d214ef8dfd269b"
+      "bytes": 68433,
+      "sha256": "eb10a49ceef8d78707b809f4d7d415ce4649d51568443851195d959e8baa8228"
     },
     {
       "path": "配图/封面_方版.svg",
-      "bytes": 9047,
-      "sha256": "67512e7e489af7d1b76f9ce3b430e20dbba8826688a93758a0cebe3b01877bb8"
+      "bytes": 15344,
+      "sha256": "8eefdefd6d84ef07f00d78754de285f85f44e4a20ca0ed8910f45ae5402a0b3c"
     },
     {
       "path": "配图/封面_横版模板.png",
-      "bytes": 51899,
-      "sha256": "dab38dd2e4b99505040afc1efd3456437105bf6b229dea332892eee648381552"
+      "bytes": 64392,
+      "sha256": "04ff9313f7db8be08ef44bc656e719e1858ce0be1babc2eafa2018875f9916d7"
     },
     {
       "path": "配图/封面_横版模板.svg",
-      "bytes": 9094,
-      "sha256": "a6c5256396ba2496d90dec4c93b81aaccee110cc46c1571d233bdf9676bfc6ae"
+      "bytes": 14458,
+      "sha256": "32c9f17dc8f6fd69cde53e7c7b07b6ad864d133e9c47695f70ccf3d453f46970"
+    },
+    {
+      "path": "配图/封面_预览_方形100.png",
+      "bytes": 10328,
+      "sha256": "1bd6412027fa652cc84e34f7df40a3e5ff08649bb72760efb52b1f7adeb1e798"
+    },
+    {
+      "path": "配图/封面_预览_方形裁切.png",
+      "bytes": 229552,
+      "sha256": "d0e28b15159bd16b30653ac5ae4dd7371cadffdd5b43e9d1bccfd040693d41f8"
+    },
+    {
+      "path": "配图/封面_预览_横版300.png",
+      "bytes": 34713,
+      "sha256": "49e8a4443f6f250fc97050dae73a542b558a028d4f9298be2c34f322e517c51f"
     },
     {
       "path": "采集数据.py",
