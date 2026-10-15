@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [10年A股主题"元素周期表"：冠军从不连任，去年第一今年平均排第10](articles/2026-10-15-a-share-theme-periodic-table/README.md) · v1.0.0 | 25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码 | [ZIP](downloads/a-share-theme-periodic-table.zip) |
+| [半导体半年翻倍，3个月吐回八成多：25个A股主题的10年"元素周期表"](articles/2026-10-15-a-share-theme-periodic-table/README.md) · v1.0.0 | 25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码 | [ZIP](downloads/a-share-theme-periodic-table.zip) |
 | [上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天](articles/2026-10-14-a-share-calendar-heatmap/README.md) · v1.0.0 | 上证、创业板、科创50与KOSPI、美股的日历热力图对比；12个指数日线快照、7张图、2张动图和Python源码 | [ZIP](downloads/a-share-calendar-heatmap.zip) |
 | [郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？](articles/2026-10-12-zheng-qinwen/README.md) · v1.0.0 | 郑钦文生涯排名、主要冠军、奥运与中网征程；官方来源、5张可编辑图表和Python绘图源码 | [ZIP](downloads/zheng-qinwen.zip) |
 | [红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看](articles/2026-10-11-dividend-hold-vs-timing/README.md) · v2.0.0 | 红利ETF的时间账本：收益、回撤与等待成本；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-hold-vs-timing.zip) |
