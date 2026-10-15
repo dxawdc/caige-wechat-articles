@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2419,
-      "sha256": "31607e6373542239ea9b0f5c2b8da7cfb01b1ef123a6bed0de1ff08e608ae57f"
+      "bytes": 2647,
+      "sha256": "d9286baddf0f20285dfc1e9bc006d63237fa2f4a51f4c580bcfde4ec4ba1205c"
     },
     {
       "path": "requirements.txt",
@@ -15,48 +15,58 @@
     },
     {
       "path": "分析结果.json",
-      "bytes": 17537,
-      "sha256": "56ec0f8bbf0291857fac3359732f4852379c31e1d70cfa0b0d399f4834103d35"
+      "bytes": 21639,
+      "sha256": "b130341640c5c1252806560883a5695ea76f8650511f1b4e9a0b3b221d6b9b8a"
     },
     {
-      "path": "图表/图1_逐年揭晓.gif",
-      "bytes": 314503,
-      "sha256": "245b9692d11633b91444cc6424de610b0a998f5fbea006fa383a5a8ab8a25471"
+      "path": "图表/图1_今年振幅.png",
+      "bytes": 264578,
+      "sha256": "256d508526a8899bda65aaba15fd2f41efb542d7820f789a000ff2d5dc6efa03"
     },
     {
-      "path": "图表/图2_年度周期表_大类.png",
-      "bytes": 727108,
-      "sha256": "d9806ac916a7e528ad799dd9b76c838984f35d40bf03e066e1636f6c6fe24221"
+      "path": "图表/图2_今年走势对比.png",
+      "bytes": 153970,
+      "sha256": "8dde92d546ac6230ec95e00cb0953f5632a995a6b3edb85740b81023d6956d5e"
     },
     {
-      "path": "图表/图2_年度周期表_红绿.png",
-      "bytes": 750933,
-      "sha256": "eb8ddc8cf3ac1dad2555b5a82599a607df22a5dc018fbf16753f0beabd92cff8"
-    },
-    {
-      "path": "图表/图3_冠军次年排名.png",
-      "bytes": 146783,
-      "sha256": "4c9d0c7c5ce6c24a14631d6bdf3706982bca8c58abbd7be7b40f25f4ce8df051"
-    },
-    {
-      "path": "图表/图4_重点主题排名.png",
-      "bytes": 977103,
-      "sha256": "0d626b6232fa5a953f268fe280f00e5fde590874f43494312620677dcdb6d0e6"
-    },
-    {
-      "path": "图表/图5_10年累计.png",
-      "bytes": 249878,
-      "sha256": "0f881ddea6de0d7c84a52a361e94599ed66c6204ec9afb5f5aa69cd179e168cf"
-    },
-    {
-      "path": "图表/图6_近12个月月度周期表_大类.png",
+      "path": "图表/图3_近12个月月度周期表_大类.png",
       "bytes": 831299,
       "sha256": "a2ee50fb01c7b31a8246cd322bb2af400bd55d2f2bf9222b096eb13e933c4f81"
     },
     {
-      "path": "图表/图6_近12个月月度周期表_红绿.png",
+      "path": "图表/图3_近12个月月度周期表_红绿.png",
       "bytes": 859650,
       "sha256": "e8056fc3fca073536d4c4041f3f2a460fa8ad305a7d26a1e40ca3790e868fc4d"
+    },
+    {
+      "path": "图表/图4_逐年揭晓.gif",
+      "bytes": 314503,
+      "sha256": "245b9692d11633b91444cc6424de610b0a998f5fbea006fa383a5a8ab8a25471"
+    },
+    {
+      "path": "图表/图5_年度周期表_大类.png",
+      "bytes": 727108,
+      "sha256": "d9806ac916a7e528ad799dd9b76c838984f35d40bf03e066e1636f6c6fe24221"
+    },
+    {
+      "path": "图表/图5_年度周期表_红绿.png",
+      "bytes": 750933,
+      "sha256": "eb8ddc8cf3ac1dad2555b5a82599a607df22a5dc018fbf16753f0beabd92cff8"
+    },
+    {
+      "path": "图表/图6_冠军次年排名.png",
+      "bytes": 146783,
+      "sha256": "4c9d0c7c5ce6c24a14631d6bdf3706982bca8c58abbd7be7b40f25f4ce8df051"
+    },
+    {
+      "path": "图表/图7_重点主题排名.png",
+      "bytes": 977103,
+      "sha256": "0d626b6232fa5a953f268fe280f00e5fde590874f43494312620677dcdb6d0e6"
+    },
+    {
+      "path": "图表/图8_10年累计.png",
+      "bytes": 249878,
+      "sha256": "0f881ddea6de0d7c84a52a361e94599ed66c6204ec9afb5f5aa69cd179e168cf"
     },
     {
       "path": "数据/主题指数日线.json",
@@ -70,8 +80,8 @@
     },
     {
       "path": "绘图.py",
-      "bytes": 17439,
-      "sha256": "21e98686119a331c5c0f7f801aa92f74526ce7326d2006be26220354d6d89021"
+      "bytes": 23004,
+      "sha256": "2fd71d4a9e779c2b4b63c32f4dd97a8967362e9c664cecabce6a988f1c17264c"
     },
     {
       "path": "配图/封面_AI.png",
@@ -105,8 +115,8 @@
     },
     {
       "path": "采集数据.py",
-      "bytes": 3606,
-      "sha256": "a14e139382fe22093824665d6ebe090e4fa5ff74582ca35169d97efe35c65f31"
+      "bytes": 3582,
+      "sha256": "c486e8e93994043ed73e4ff543386f2b9d733ededdaf54d384a9f779f0739e0e"
     }
   ]
 }

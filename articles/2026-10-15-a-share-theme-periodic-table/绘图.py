@@ -148,6 +148,98 @@ def fig_table(ret, cutoff, upto=None, path=None, mode='rg'):
     return fig
 
 
+WILD = ['半导体', '5G通信', '黄金采掘']   # 今年涨跌都很凶
+STEADY = ['银行', '创新药', '白酒']       # 今年波动小（白酒是稳稳地跌）
+
+
+def this_year(df):
+    base = df[df.index <= '2025-12-31'].iloc[-1]
+    y = df[df.index >= '2026-01-01']
+    return y / base * 100 - 100   # 今年以来累计涨跌（%）
+
+
+def fig_year_range(df, cutoff):
+    """今年以来：年内最低—最高区间 + 现在的位置。"""
+    nv = this_year(df)
+    t = pd.DataFrame({'now': nv.iloc[-1], 'hi': nv.max(), 'lo': nv.min(), 'hi_day': nv.idxmax()})
+    t['range'] = t.hi - t.lo
+    t = t.sort_values('range')
+    fig, ax = plt.subplots(figsize=(12, 11.5), dpi=130, facecolor=BG)
+    ax.set_facecolor(BG)
+    for i, (n, r) in enumerate(t.iterrows()):
+        focus = n in WILD + STEADY
+        ax.plot([r.lo, r.hi], [i, i], color='#C9CDDC', lw=7, solid_capstyle='round', zorder=1)
+        ax.scatter(r.hi, i, s=60, facecolor=BG, edgecolor=MUTED, lw=1.6, zorder=2)
+        ax.scatter(r.now, i, s=90, color=UP if r.now >= 0 else DOWN, zorder=3)
+        ax.text(r.hi + 3, i, f'最高 {r.hi:+.1f}%（{r.hi_day.month}月）', va='center', fontsize=9.2, color=MUTED)
+        ax.text(-92, i, n, va='center', ha='left', fontsize=11.5 if focus else 10.5, color=INK,
+                weight='bold' if focus else 'normal')
+        ax.text(-44, i, f'{r.now:+.1f}%', va='center', ha='right', fontsize=10.5, weight='bold',
+                color=UP if r.now >= 0 else DOWN)
+    ax.axvline(0, color=MUTED, lw=.8, ls='--')
+    ax.set_xlim(-92, 150)
+    ax.set_ylim(-.8, len(t) - .2)
+    ax.set_yticks([])
+    ax.set_xticks([-25, 0, 25, 50, 75, 100])
+    ax.set_xticklabels(['-25%', '0', '+25%', '+50%', '+75%', '+100%'], fontsize=10, color=MUTED)
+    ax.tick_params(length=0)
+    ax.grid(axis='x', color=GRID, lw=.7)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.scatter([], [], s=60, facecolor=BG, edgecolor=MUTED, lw=1.6, label='年内最高')
+    ax.scatter([], [], s=90, color=UP, label='现在（上涨）')
+    ax.scatter([], [], s=90, color=DOWN, label='现在（下跌）')
+    ax.plot([], [], color='#C9CDDC', lw=7, label='年内最低—最高')
+    ax.legend(loc='lower right', frameon=False, fontsize=10, labelcolor=INK)
+    fig.subplots_adjust(top=.88, bottom=.05, left=.03, right=.98)
+    finish(fig, '今年的过山车：最高翻倍，回头只剩一成',
+           '2026年以来累计涨跌：灰条为年内最低到最高，彩色点为现在的位置；按振幅从小到大排列',
+           f'截至{cutoff:%Y年%m月%d日}  ·  数据：中证指数有限公司  ·  价格指数，不含分红', top=.95)
+    fig.savefig(OUT / '图1_今年振幅.png', facecolor=BG)
+    plt.close(fig)
+    return t
+
+
+def fig_year_lines(df, cutoff):
+    """6个代表主题今年的走势：上排涨跌都很凶，下排比较稳。"""
+    nv = this_year(df)
+    fig, axes = plt.subplots(2, 3, figsize=(12, 8.2), dpi=130, facecolor=BG, sharex=True, sharey=True)
+    for ax, n in zip(axes.flat, WILD + STEADY):
+        ax.set_facecolor(BG)
+        s = nv[n]
+        x = np.concatenate([[pd.Timestamp('2025-12-31')], s.index])
+        v = np.concatenate([[0], s.values])
+        ax.fill_between(x, v, 0, where=v >= 0, color=UP, alpha=.18, lw=0, interpolate=True)
+        ax.fill_between(x, v, 0, where=v < 0, color=DOWN, alpha=.18, lw=0, interpolate=True)
+        ax.plot(x, v, color=INK, lw=1.8)
+        hi = s.idxmax()
+        if (s.index[-1] - hi).days > 30:   # 高点就在最近时不单独标注，避免与现值重叠
+            ax.scatter(hi, s[hi], s=30, color=INK, zorder=3)
+            ax.text(hi, s[hi] + 7, f'最高 {s[hi]:+.1f}%', ha='center', fontsize=9.5, color=INK)
+        ax.text(s.index[-1] + pd.Timedelta(days=6), s.iloc[-1], f'{s.iloc[-1]:+.1f}%', ha='left', va='center',
+                fontsize=11, weight='bold', color=UP if s.iloc[-1] >= 0 else DOWN)
+        ax.set_xlim(pd.Timestamp('2025-12-24'), pd.Timestamp('2027-01-05'))
+        ax.axhline(0, color=MUTED, lw=.7)
+        ax.set_title(n, loc='left', fontsize=14, color=INK, weight='bold')
+        ax.set_ylim(-45, 125)
+        ax.set_yticks([-25, 0, 25, 50, 75, 100])
+        ax.set_yticklabels(['-25%', '0', '+25%', '+50%', '+75%', '+100%'], fontsize=8.5, color=MUTED)
+        ax.set_xticks([pd.Timestamp(2026, m, 1) for m in (1, 4, 7, 10)])
+        ax.set_xticklabels(['1月', '4月', '7月', '10月'], fontsize=9, color=MUTED)
+        ax.tick_params(length=0)
+        ax.grid(axis='y', color=GRID, lw=.6)
+        for sp in ax.spines.values():
+            sp.set_visible(False)
+    fig.subplots_adjust(top=.8, bottom=.06, left=.07, right=.98, hspace=.55, wspace=.08)
+    for row, label in [(0, '涨跌都很凶'), (1, '走得比较稳（白酒是稳稳地跌）')]:
+        axes[row, 0].text(-.08, 1.24, label, transform=axes[row, 0].transAxes, color=INDIGO, fontsize=12.5, weight='bold')
+    finish(fig, '同一年，两种走法',
+           '6个代表主题2026年以来累计涨跌，纵轴刻度相同',
+           f'截至{cutoff:%Y年%m月%d日}  ·  数据：中证指数有限公司  ·  价格指数，不含分红', top=.945)
+    fig.savefig(OUT / '图2_今年走势对比.png', facecolor=BG)
+    plt.close(fig)
+
+
 def fig_months(df, cutoff, mode='rg'):
     me = df.resample('ME').last()
     mret = (me / me.shift(1) - 1) * 100
@@ -160,7 +252,7 @@ def fig_months(df, cutoff, mode='rg'):
            '25个中证主题指数月度涨跌幅，' + SUB[mode],
            f'*{cutoff.month}月截至{cutoff.day}日  ·  数据：中证指数有限公司  ·  价格指数，不含分红')
     key(fig, 0.893, 20, mode=mode)
-    fig.savefig(OUT / f'图6_近12个月月度周期表_{VERSION[mode]}.png', facecolor=BG)
+    fig.savefig(OUT / f'图3_近12个月月度周期表_{VERSION[mode]}.png', facecolor=BG)
     plt.close(fig)
     return {f'{c:%Y-%m}': {'冠军': ret.loc[c].idxmax(), '垫底': ret.loc[c].idxmin(),
                             '红格数': int((ret.loc[c] > 0).sum())} for c in cols}
@@ -197,7 +289,7 @@ def fig_focus(ret, cutoff):
     finish(fig, '9个重点主题的排名过山车',
            '每年在25个主题中的涨幅排名（第1在最上），灰线为其余主题',
            f'*2026年截至{cutoff.month}月{cutoff.day}日  ·  数据：中证指数有限公司', top=.955)
-    fig.savefig(OUT / '图4_重点主题排名.png', facecolor=BG)
+    fig.savefig(OUT / '图7_重点主题排名.png', facecolor=BG)
     plt.close(fig)
 
 
@@ -242,7 +334,7 @@ def fig_persistence(ret, cutoff):
     finish(fig, '今年的冠军，明年排第几？',
            f'实心圆：当年涨幅第1的主题及其涨跌；空心圆：它在下一年的排名和涨跌。9次里平均排在第{t.champ_next_rank.mean():.0f}名',
            f'*2026年截至{cutoff.month}月{cutoff.day}日  ·  数据：中证指数有限公司', top=.945)
-    fig.savefig(OUT / '图3_冠军次年排名.png', facecolor=BG)
+    fig.savefig(OUT / '图6_冠军次年排名.png', facecolor=BG)
     plt.close(fig)
     return t
 
@@ -273,7 +365,7 @@ def fig_total(df, ret, cutoff):
     finish(fig, '把10年加起来：谁是长跑冠军？',
            '2016年末至今累计涨跌幅；右侧为单年最好与最差表现',
            f'截至{cutoff:%Y年%m月%d日}  ·  数据：中证指数有限公司  ·  价格指数，不含分红', top=.95)
-    fig.savefig(OUT / '图5_10年累计.png', facecolor=BG)
+    fig.savefig(OUT / '图8_10年累计.png', facecolor=BG)
     plt.close(fig)
     return total
 
@@ -288,15 +380,17 @@ def make_gif(ret, cutoff):
         frames.append(img.resize((img.width * 3 // 4, img.height * 3 // 4), Image.LANCZOS))
     pal = frames[-1].quantize(colors=160, method=Image.Quantize.MEDIANCUT)
     q = [f.quantize(palette=pal, dither=Image.Dither.NONE) for f in frames]
-    q[0].save(OUT / '图1_逐年揭晓.gif', save_all=True, append_images=q[1:],
+    q[0].save(OUT / '图4_逐年揭晓.gif', save_all=True, append_images=q[1:],
               duration=[900] * (len(q) - 1) + [3500], loop=0, optimize=True)
 
 
 def main():
     df, cutoff, raw = load()
     ret = yearly(df)
+    yr = fig_year_range(df, cutoff)
+    fig_year_lines(df, cutoff)
     for mode in VERSION:
-        fig_table(ret, cutoff, path=OUT / f'图2_年度周期表_{VERSION[mode]}.png', mode=mode)
+        fig_table(ret, cutoff, path=OUT / f'图5_年度周期表_{VERSION[mode]}.png', mode=mode)
     fig_focus(ret, cutoff)
     t = fig_persistence(ret, cutoff)
     total = fig_total(df, ret, cutoff)
@@ -321,6 +415,8 @@ def main():
         '10年累计涨跌': {n: round(v, 2) for n, v in total.sort_values(ascending=False).items()},
         '重点主题排名': {n: {int(y): int(rank.loc[y, n]) for y in YEARS} for n in FOCUS},
         '近12个月': months,
+        '今年以来': {n: {'现在': round(r.now, 2), '年内最高': round(r.hi, 2), '最高日': f'{r.hi_day:%Y-%m-%d}',
+                      '年内最低': round(r.lo, 2), '振幅': round(r.range, 2)} for n, r in yr.iloc[::-1].iterrows()},
     }
     (ROOT / '分析结果.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
     for k in ['年度上涨主题数', '冠军次年', '冠军次年平均排名', '重点主题排名', '近12个月']:
