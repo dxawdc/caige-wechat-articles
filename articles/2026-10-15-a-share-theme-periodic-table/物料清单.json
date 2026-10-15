@@ -1,0 +1,112 @@
+{
+  "id": "2026-10-15-a-share-theme-periodic-table",
+  "version": "v1.0.0",
+  "updated": "2026-10-15",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2419,
+      "sha256": "31607e6373542239ea9b0f5c2b8da7cfb01b1ef123a6bed0de1ff08e608ae57f"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "37936d19140b4a54f8b494cee90ead551513f544cd24baab0c5af0628661d230"
+    },
+    {
+      "path": "分析结果.json",
+      "bytes": 17537,
+      "sha256": "56ec0f8bbf0291857fac3359732f4852379c31e1d70cfa0b0d399f4834103d35"
+    },
+    {
+      "path": "图表/图1_逐年揭晓.gif",
+      "bytes": 314503,
+      "sha256": "245b9692d11633b91444cc6424de610b0a998f5fbea006fa383a5a8ab8a25471"
+    },
+    {
+      "path": "图表/图2_年度周期表_大类.png",
+      "bytes": 727108,
+      "sha256": "d9806ac916a7e528ad799dd9b76c838984f35d40bf03e066e1636f6c6fe24221"
+    },
+    {
+      "path": "图表/图2_年度周期表_红绿.png",
+      "bytes": 750933,
+      "sha256": "eb8ddc8cf3ac1dad2555b5a82599a607df22a5dc018fbf16753f0beabd92cff8"
+    },
+    {
+      "path": "图表/图3_冠军次年排名.png",
+      "bytes": 146783,
+      "sha256": "4c9d0c7c5ce6c24a14631d6bdf3706982bca8c58abbd7be7b40f25f4ce8df051"
+    },
+    {
+      "path": "图表/图4_重点主题排名.png",
+      "bytes": 977103,
+      "sha256": "0d626b6232fa5a953f268fe280f00e5fde590874f43494312620677dcdb6d0e6"
+    },
+    {
+      "path": "图表/图5_10年累计.png",
+      "bytes": 249878,
+      "sha256": "0f881ddea6de0d7c84a52a361e94599ed66c6204ec9afb5f5aa69cd179e168cf"
+    },
+    {
+      "path": "图表/图6_近12个月月度周期表_大类.png",
+      "bytes": 831299,
+      "sha256": "a2ee50fb01c7b31a8246cd322bb2af400bd55d2f2bf9222b096eb13e933c4f81"
+    },
+    {
+      "path": "图表/图6_近12个月月度周期表_红绿.png",
+      "bytes": 859650,
+      "sha256": "e8056fc3fca073536d4c4041f3f2a460fa8ad305a7d26a1e40ca3790e868fc4d"
+    },
+    {
+      "path": "数据/主题指数日线.json",
+      "bytes": 1631996,
+      "sha256": "0bbe24f48338473b315aa2396370f8f14179cc781fa59d432e2dd2dece843390"
+    },
+    {
+      "path": "生成封面.py",
+      "bytes": 3961,
+      "sha256": "2ae2dd00c3c12d9a0086f40f547a0adabcf769aa41008a4ebf9a1d0895950590"
+    },
+    {
+      "path": "绘图.py",
+      "bytes": 17439,
+      "sha256": "21e98686119a331c5c0f7f801aa92f74526ce7326d2006be26220354d6d89021"
+    },
+    {
+      "path": "配图/封面_AI.png",
+      "bytes": 1088922,
+      "sha256": "3898a76f24345ae0ab73506b6ce243984eae81a11b7e38288a0b76d102d392c9"
+    },
+    {
+      "path": "配图/封面_AI原图.png",
+      "bytes": 1516349,
+      "sha256": "e794024d98bfa5ff60f8837b51405b795a54cd1e156f3c6ee6e76a7e58faf30f"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 54784,
+      "sha256": "87e2cf3c2dca362c02da9701147f684af336e969b42770bc44d214ef8dfd269b"
+    },
+    {
+      "path": "配图/封面_方版.svg",
+      "bytes": 9047,
+      "sha256": "67512e7e489af7d1b76f9ce3b430e20dbba8826688a93758a0cebe3b01877bb8"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 51899,
+      "sha256": "dab38dd2e4b99505040afc1efd3456437105bf6b229dea332892eee648381552"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 9094,
+      "sha256": "a6c5256396ba2496d90dec4c93b81aaccee110cc46c1571d233bdf9676bfc6ae"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 3606,
+      "sha256": "a14e139382fe22093824665d6ebe090e4fa5ff74582ca35169d97efe35c65f31"
+    }
+  ]
+}

@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "a-share-theme-periodic-table",
+      "title": "10年A股主题\"元素周期表\"：冠军从不连任，去年第一今年平均排第10",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-15-a-share-theme-periodic-table",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-theme-periodic-table.zip",
+      "summary": "25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码"
+    },
     {
       "id": "a-share-calendar-heatmap",
       "title": "上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天",
