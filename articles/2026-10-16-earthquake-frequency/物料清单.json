@@ -25,13 +25,13 @@
     },
     {
       "path": "图表/图11_堪察加余震.png",
-      "bytes": 109699,
-      "sha256": "b422060db9ebb1286618755e74c6746ee5cf7b84f14d5e66c6d862cf3963cd39"
+      "bytes": 108809,
+      "sha256": "e1b80b73a65d722a794be289333abeca56001c58b97fc5e15e9fd0752df3b6cd"
     },
     {
       "path": "图表/图1_最近30天全球地震.png",
-      "bytes": 345487,
-      "sha256": "43ecc5ae6d359312b11b4b1c80fbab4d83397635ff615fa8f789cdb7be8cc8da"
+      "bytes": 343991,
+      "sha256": "8de90cf56fa42252d8a799d7815881600d5a75e58527ab2a236898b0e39ce5fa"
     },
     {
       "path": "图表/图2_全球7级以上年度次数.png",
@@ -125,8 +125,8 @@
     },
     {
       "path": "绘图.py",
-      "bytes": 27277,
-      "sha256": "34e7ed40932db7f35dcc75e734b7bc2fdb2ff2d665c9e111104d3e8fd077a023"
+      "bytes": 27279,
+      "sha256": "ac07e10c4a0859a74d84f56b755a4e31042d443a073b9131378cec91b8769320"
     },
     {
       "path": "配图/封面_AI.png",

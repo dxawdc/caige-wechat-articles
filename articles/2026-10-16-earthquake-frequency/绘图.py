@@ -189,7 +189,7 @@ for t, lo, la, dx, dy in labels30:
                 arrowprops=dict(arrowstyle='-', color=MUTED, lw=0.8), zorder=5)
 depth_legend(ax)
 n30 = len(g30)
-head(fig, f'最近30天，全球发生了{n30}次4.5级以上地震',
+head(fig, f'30天里，全球发生了{n30}次4.5级以上地震',
      f'2026年9月16日—10月15日（UTC），其中6级以上{int((g30.mag >= 6).sum())}次；圆越大震级越高')
 foot(fig, '数据：USGS地震目录；底图仅示陆地轮廓与板块边界')
 save(fig, '图1_最近30天全球地震.png')
@@ -431,7 +431,7 @@ ax.annotate('10天前\n7.4级前震', (-10, daily[-10]), (-15, 150), fontsize=9.
 d1 = int((after['日'] < 1).sum()); w1 = int((after['日'] < 7).sum()); m1 = int((after['日'] < 30).sum())
 last_day = int(after['日'].max())
 l30 = int((after['日'] > last_day - 30).sum())
-fig.text(0.56, 0.60, f'主震后第1个月：{m1:,}次\n之后14个月合计：{len(after):,}次\n最近30天：仍有{l30}次', fontsize=11.5,
+fig.text(0.56, 0.60, f'主震后第1个月：{m1:,}次\n之后14个月合计：{len(after):,}次\n9月16日—10月15日：{l30}次', fontsize=11.5,
          color=INK, linespacing=1.6, bbox=dict(boxstyle='round,pad=0.6', fc='white', ec=GRID))
 ax.set_xlim(-16, 120)
 ax.yaxis.grid(color=GRID, lw=0.8)
