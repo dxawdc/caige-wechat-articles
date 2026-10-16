@@ -1,6 +1,6 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**40篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**41篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
 <!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
 
@@ -10,6 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](articles/2026-10-16-earthquake-frequency/README.md) · v1.2.0 | 1950年以来全球与中国地震目录观察：全球大震年度次数、板块边界分布、各省地震、2026年中国5级以上与余震衰减；USGS数据快照、10张图、1张动图和Python源码 | [ZIP](downloads/earthquake-frequency.zip) |
 | [半导体半年翻倍，3个月几乎清零：25个A股主题的10年"元素周期表"](articles/2026-10-15-a-share-theme-periodic-table/README.md) · v1.0.0 | 25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码 | [ZIP](downloads/a-share-theme-periodic-table.zip) |
 | [上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天](articles/2026-10-14-a-share-calendar-heatmap/README.md) · v1.0.0 | 上证、创业板、科创50与KOSPI、美股的日历热力图对比；12个指数日线快照、7张图、2张动图和Python源码 | [ZIP](downloads/a-share-calendar-heatmap.zip) |
 | [郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？](articles/2026-10-12-zheng-qinwen/README.md) · v1.0.0 | 郑钦文生涯排名、主要冠军、奥运与中网征程；官方来源、5张可编辑图表和Python绘图源码 | [ZIP](downloads/zheng-qinwen.zip) |

@@ -1,0 +1,153 @@
+{
+  "id": "2026-10-16-earthquake-frequency",
+  "version": "v1.2.0",
+  "updated": "2026-10-16",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2365,
+      "sha256": "8b2c0c9cfe6a651fd3c36b7dc325d2bd2d9fbc5a63a71da7a42e613551004a29"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 80,
+      "sha256": "44e53675308dbf1323420ea2b6b7b7eb3f2db7442e6cd89f6a4fbdc1e1760109"
+    },
+    {
+      "path": "分析结果.json",
+      "bytes": 6967,
+      "sha256": "437860cc1e6dbc778b2a8d6f8c8c9084b1e65f1038a4cb260b594b1e3debe66e"
+    },
+    {
+      "path": "图表/图10_震级与次数.png",
+      "bytes": 105909,
+      "sha256": "5f0c1c479bdcc3a96724c056ea5d644ebcf2cb661a0e8418ee8bd8366423f42c"
+    },
+    {
+      "path": "图表/图11_堪察加余震.png",
+      "bytes": 109699,
+      "sha256": "b422060db9ebb1286618755e74c6746ee5cf7b84f14d5e66c6d862cf3963cd39"
+    },
+    {
+      "path": "图表/图1_最近30天全球地震.png",
+      "bytes": 345487,
+      "sha256": "43ecc5ae6d359312b11b4b1c80fbab4d83397635ff615fa8f789cdb7be8cc8da"
+    },
+    {
+      "path": "图表/图2_全球7级以上年度次数.png",
+      "bytes": 86075,
+      "sha256": "30584cabe11a70cfc1769b4313ca5393b52c608a21f5ff71473b04c974d2d6b0"
+    },
+    {
+      "path": "图表/图3_全球6级以上累积.gif",
+      "bytes": 1262257,
+      "sha256": "e61590d93b1ed9c81179fc159c0f6d331d9612ac7a35689cc516ca5ae7d0b46f"
+    },
+    {
+      "path": "图表/图4_近10年全球5级以上分布.png",
+      "bytes": 455770,
+      "sha256": "9b3089ccfa80ac479aac89ce8d67b53b60586568c6b45cdce71aac289240064f"
+    },
+    {
+      "path": "图表/图5_地区排行.png",
+      "bytes": 118518,
+      "sha256": "6cd49f5076ccf3d332af573bb17b92118f02e1cc222006d9fa7b1cc1da828bef"
+    },
+    {
+      "path": "图表/图6_中国震中分布.png",
+      "bytes": 326145,
+      "sha256": "4edcb66092a1afc0026ef2c86c19e1a627c91c9242e9f74f6d80173bcf78680b"
+    },
+    {
+      "path": "图表/图7_各省地震次数.png",
+      "bytes": 141120,
+      "sha256": "a4070dfdd3325165a1441994ab2db6599662e2d2f1dd7195d0df9d87dccc288d"
+    },
+    {
+      "path": "图表/图8_2026年中国5级以上.png",
+      "bytes": 129537,
+      "sha256": "e8159ad0d94293b61415f0fa936692429f4be1ab7ad3b55054543d24ba45bb2a"
+    },
+    {
+      "path": "图表/图9_中国5级以上年度次数.png",
+      "bytes": 100881,
+      "sha256": "15d06513092217155e5f4addb1c671603aa14b81758d551c44a4519f64c1b21c"
+    },
+    {
+      "path": "数据/中国周边4.5级以上_1976起.csv",
+      "bytes": 4186109,
+      "sha256": "e5c7857dac0b91a8544f4a4b1315ec3792b6a14984ef0872d8a648be2a35c1f3"
+    },
+    {
+      "path": "数据/全球4.5级以上_最近30天.csv",
+      "bytes": 69353,
+      "sha256": "65b4de85745c939b9104ab0f29b8832407a3ae2125629555644141939b5a5582"
+    },
+    {
+      "path": "数据/全球5级以上_2016起.csv",
+      "bytes": 2104632,
+      "sha256": "614f5885612918d1a6fa3c2dfaef70d400807a0b9a5caf6ff9ecf9967f43564e"
+    },
+    {
+      "path": "数据/全球6级以上_1950起.csv",
+      "bytes": 1138989,
+      "sha256": "72996958180d0691ddfdac8fd05ea465a3091724fba3f1ca1c990784d0857979"
+    },
+    {
+      "path": "数据/堪察加序列_2025.csv",
+      "bytes": 241103,
+      "sha256": "80c63d07dfb06642659bcbf4b403b985c2b5a1973ae4f15a62783d57fe8a17d2"
+    },
+    {
+      "path": "数据/底图/中国省级区划.json",
+      "bytes": 582522,
+      "sha256": "99adfeded5223848bbe37a0a12f8023e11ee12161c7800521c27db42fdeac275"
+    },
+    {
+      "path": "数据/底图/国家区域_110m.geojson",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "数据/底图/板块边界PB2002.json",
+      "bytes": 226378,
+      "sha256": "42b3e0876a7e40f133e958ba7ab85f8851b5c693a046fbc3b138e7751863d92a"
+    },
+    {
+      "path": "数据/底图/陆地轮廓.geojson",
+      "bytes": 1636166,
+      "sha256": "e874b27a51d146452be360cafb3cc50c86001074a67d534113e6534682f9826b"
+    },
+    {
+      "path": "生成封面.py",
+      "bytes": 944,
+      "sha256": "f14bf6555ed3fad365941202d2f2ed2ea7136e1b91251c2a612abb5cd44894fd"
+    },
+    {
+      "path": "绘图.py",
+      "bytes": 27277,
+      "sha256": "34e7ed40932db7f35dcc75e734b7bc2fdb2ff2d665c9e111104d3e8fd077a023"
+    },
+    {
+      "path": "配图/封面_AI.png",
+      "bytes": 1562217,
+      "sha256": "d7ccdbff23a8108a92171fd32df8ace8c880c7e89c1b082b34ab3c78f957d0df"
+    },
+    {
+      "path": "配图/封面_AI原图.png",
+      "bytes": 1949354,
+      "sha256": "c3d9229e7f2452e3e1d48a4cc00fc1ac3697998d5c2b16ebda6fec5130558f00"
+    },
+    {
+      "path": "配图/封面_AI方版.png",
+      "bytes": 1572420,
+      "sha256": "0d9e8d8672f98fb1a8eaf2c4918d070f3b672e94266ad56314e09e3d64c02d7f"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 2819,
+      "sha256": "28adf2fd50ead465c5d541f9ead979f54ab7b48327b54e4868a0c4d712b72997"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

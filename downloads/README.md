@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](../articles/2026-10-16-earthquake-frequency/README.md) | v1.2.0 | [earthquake-frequency.zip](earthquake-frequency.zip) | 10.55 MB |
 | [半导体半年翻倍，3个月几乎清零：25个A股主题的10年"元素周期表"](../articles/2026-10-15-a-share-theme-periodic-table/README.md) | v1.0.0 | [a-share-theme-periodic-table.zip](a-share-theme-periodic-table.zip) | 7.46 MB |
 | [上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天](../articles/2026-10-14-a-share-calendar-heatmap/README.md) | v1.0.0 | [a-share-calendar-heatmap.zip](a-share-calendar-heatmap.zip) | 4.30 MB |
 | [郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？](../articles/2026-10-12-zheng-qinwen/README.md) | v1.0.0 | [zheng-qinwen.zip](zheng-qinwen.zip) | 4.34 MB |

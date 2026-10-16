@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "earthquake-frequency",
+      "title": "全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？",
+      "kind": "article",
+      "version": "v1.2.0",
+      "source": "articles/2026-10-16-earthquake-frequency",
+      "manifest": "物料清单.json",
+      "download": "downloads/earthquake-frequency.zip",
+      "summary": "1950年以来全球与中国地震目录观察：全球大震年度次数、板块边界分布、各省地震、2026年中国5级以上与余震衰减；USGS数据快照、10张图、1张动图和Python源码"
+    },
     {
       "id": "a-share-theme-periodic-table",
       "title": "半导体半年翻倍，3个月几乎清零：25个A股主题的10年\"元素周期表\"",
