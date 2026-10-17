@@ -1,0 +1,182 @@
+{
+  "id": "2026-10-17-a-share-band-trading",
+  "version": "v1.0.0",
+  "updated": "2026-10-17",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2962,
+      "sha256": "04cae5b67964944d4ed6c02d740584e46143b814c7b1d3b0a0ea9255ddc3631e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "37936d19140b4a54f8b494cee90ead551513f544cd24baab0c5af0628661d230"
+    },
+    {
+      "path": "主题分析结果.json",
+      "bytes": 7371,
+      "sha256": "7828468afcffa45a1f6b585d6f322b7645fc44ceb604c5f3cd293837da4ff810"
+    },
+    {
+      "path": "主题回测.py",
+      "bytes": 4583,
+      "sha256": "ed2af608bdcf0473f19015b1fd16b1e15cd60f71108dbeff826dbf6eab83489a"
+    },
+    {
+      "path": "主题回测结果.csv",
+      "bytes": 131493,
+      "sha256": "7433f68b06e126d2cf5aa2868ff40c82d386748561211fae68d0c398756f2dc0"
+    },
+    {
+      "path": "主题逐年收益.csv",
+      "bytes": 138475,
+      "sha256": "ad7e5c59998e205d08311fb379daca1361e076ac34feaadf4abe390dcde69c4e"
+    },
+    {
+      "path": "分析结果.json",
+      "bytes": 6829,
+      "sha256": "9020c85559c807d16c13d9872cef991f7a7246899a54d34ea185fdea74f1fa5a"
+    },
+    {
+      "path": "回测.py",
+      "bytes": 6659,
+      "sha256": "3c8c616e14e524662ed7f828e5a0a67750aa4c73989480b38a8c1b9a68160339"
+    },
+    {
+      "path": "回测结果.csv",
+      "bytes": 33496,
+      "sha256": "e32d540c6e23af9e3332e8921e7738282f3ecb47b29c9d49ceab7d43665b16da"
+    },
+    {
+      "path": "图表/图1_持有10年.png",
+      "bytes": 317824,
+      "sha256": "db51aba5a86640aaa75341862a8698e34cb41a92c3aa1f74ab20f1e119838d41"
+    },
+    {
+      "path": "图表/图2_规则指数热力图.png",
+      "bytes": 305179,
+      "sha256": "fdda4c75ce92a41adcd4126c679387bf742f7f88aa0a03f0d2593e814aac6f04"
+    },
+    {
+      "path": "图表/图3_净值对比.png",
+      "bytes": 291763,
+      "sha256": "da0bd2cef8dde6616e547aa6123ccb0942dd69f935ae4935e68f58db09b7d0ea"
+    },
+    {
+      "path": "图表/图4_持有收益与波段胜率.png",
+      "bytes": 182171,
+      "sha256": "6b716df68f6345e37d2d8be6abe535571655a0deaf5f976892e04938857e5a39"
+    },
+    {
+      "path": "图表/图5_主题规则类别热力图.png",
+      "bytes": 264876,
+      "sha256": "df9b0a35b835a571004f931a4ef8cd534613eaa782878322fe672b9260c0c899"
+    },
+    {
+      "path": "图表/图6_主题净值对比.png",
+      "bytes": 286881,
+      "sha256": "95853a6627196ff23eeb70f37c0ec2db093943328a8c68832ecf8c67428d5bb4"
+    },
+    {
+      "path": "图表/图7_逐年超额_低吸.png",
+      "bytes": 128842,
+      "sha256": "d6046c43817c7bcc11de498ea0c0cfa32807e77034941d1b47efc74aca356594"
+    },
+    {
+      "path": "图表/图7_逐年超额_均线.png",
+      "bytes": 129339,
+      "sha256": "19ce9a300f62c7732378fd3311b0a2ee75f9b4977c68702e0d355d8159ec8210"
+    },
+    {
+      "path": "图表/图8_前后段检验.png",
+      "bytes": 159814,
+      "sha256": "f2c847de12cba392b40048758f6eb18d28b4a1ebe8761edd6b75fe5ddcf4e3fe"
+    },
+    {
+      "path": "图表/图9_成本敏感性.png",
+      "bytes": 114758,
+      "sha256": "1681132d8724f25b34271c2d0fb84ef19e9bccbfba5ee3c2b715752eeb09f1a7"
+    },
+    {
+      "path": "数据/主题指数日线.json",
+      "bytes": 1783655,
+      "sha256": "562e78b0a15551763a2c3461c5816b2ed600e2d8ad95b61ecc0743c579980598"
+    },
+    {
+      "path": "数据/指数日线.json",
+      "bytes": 759735,
+      "sha256": "cc091a76d77526249c1732ec74e51f118ea11cb5767405ece083987f6a6330cc"
+    },
+    {
+      "path": "生成封面.py",
+      "bytes": 4168,
+      "sha256": "5f5e1dc00262c4d7aade1f986109ab38c8aecb2d3669aa6bc52e3a5001fb304b"
+    },
+    {
+      "path": "绘图.py",
+      "bytes": 15530,
+      "sha256": "38f1a85f80c6baa30029aa227b4719553b5df4b9538f925764091194c1bde111"
+    },
+    {
+      "path": "绘图_主题.py",
+      "bytes": 8304,
+      "sha256": "ef67e34bbbed741805ca7490676c0245bd3ce2459da7983583eacf0c7cb0c7e9"
+    },
+    {
+      "path": "逐年收益.csv",
+      "bytes": 37322,
+      "sha256": "7f6cbd56c14a9df0c482f9d12244804d18b8f50f85dc51547bfe43ec2153cae8"
+    },
+    {
+      "path": "配图/封面_AI.png",
+      "bytes": 1097173,
+      "sha256": "b8770a4f5dbedd0486f2c270ce12aff8bcdb0ef868ded641cb42fdeb866c5f8c"
+    },
+    {
+      "path": "配图/封面_AI原图.png",
+      "bytes": 1751252,
+      "sha256": "c92438cc55d47cad3754b91a1fa8e793640ede8282c1c0bfd8c83041a365c060"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 76855,
+      "sha256": "22a30d27e993da82d3b084b0772d86a43ec1e23b9f55bdc9a7ac85e3e42bd928"
+    },
+    {
+      "path": "配图/封面_方版.svg",
+      "bytes": 44098,
+      "sha256": "9a7a76f5f61859866574b20a48830bba3b2fe59b8b51a19591070ddc51a0ba5d"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 73237,
+      "sha256": "ee8edd9137ac6110528434a533676350dbf22690277e163b5aec227433ff77dc"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 45923,
+      "sha256": "0945f5916d38ab12ca6b8f74d91a15a4046c122b2b38e081c8d75bb61fb815f1"
+    },
+    {
+      "path": "配图/封面_预览_方形100.png",
+      "bytes": 10863,
+      "sha256": "76614be315cd05fca7919f12d9f6f2f83226ddc2b490cfc4607bc59705e73b98"
+    },
+    {
+      "path": "配图/封面_预览_横版300.png",
+      "bytes": 43888,
+      "sha256": "d670a05e8e1d9f89c53cd1d11f908bc1da325a439aa572d4f1e3423d53092eea"
+    },
+    {
+      "path": "采集主题.py",
+      "bytes": 2645,
+      "sha256": "1ab409fc683cf2767d438b12b1cb7400fd928767fe57266fc562f9b65b9744fa"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 2021,
+      "sha256": "db5a007696f809f02bc99ab05ba5910225678b3a537c55d4a27a91a5d830f87d"
+    }
+  ]
+}
