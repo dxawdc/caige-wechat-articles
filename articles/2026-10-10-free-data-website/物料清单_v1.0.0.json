@@ -1,0 +1,55 @@
+{
+  "id": "free-data-website",
+  "version": "v1.0.0",
+  "updated": "2026-10-10",
+  "entrypoint": "需求模板.md",
+  "basic": "README.md",
+  "files": [
+    {
+      "path": "build-free-data-website/agents/openai.yaml",
+      "bytes": 323,
+      "sha256": "7a22e984c2d47e321ae73f65b658a5404e614063d999f62b36e5335dcbbbca2c"
+    },
+    {
+      "path": "build-free-data-website/references/acceptance.md",
+      "bytes": 2996,
+      "sha256": "d4d6ca1363ae4fdba9e819a67fd25994a08428cb08a4924fe3366a7e4c2be3bd"
+    },
+    {
+      "path": "build-free-data-website/references/platforms.md",
+      "bytes": 5802,
+      "sha256": "abf88cf31f2d93439e3bf3fae5e0d5b2eb025d99ca2e9fc801ce4ae1332d0f25"
+    },
+    {
+      "path": "build-free-data-website/SKILL.md",
+      "bytes": 6898,
+      "sha256": "67e6a67c36134cd2f94f489f7908254090e8721abebb35a952b964601f0276e9"
+    },
+    {
+      "path": "demo-data.csv",
+      "bytes": 255,
+      "sha256": "bf52432a2f3fc5ad48f57296b9a671a12c6416436a552067de7abafdb85d6938"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2657,
+      "sha256": "8e84ebda57771bb49b2d75a79ae7bb7969000d56c98509ac1b59f44546c98a70"
+    },
+    {
+      "path": "上线验收表.md",
+      "bytes": 1749,
+      "sha256": "361e7aaab94b5d92ad0bff506d7f3726059fef1b70e5a923ff80b8c369405682"
+    },
+    {
+      "path": "免费建站Skill资料包.zip",
+      "bytes": 14795,
+      "sha256": "c8908d8625ffbb3f8b907f4f228a45ba1ab960e255333846c01ae9e32d98bd61"
+    },
+    {
+      "path": "需求模板.md",
+      "bytes": 2261,
+      "sha256": "dac4248fdbe03ad757690135c7d1270589d848fc572c4cb9dcf34f4b50cb22c2"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

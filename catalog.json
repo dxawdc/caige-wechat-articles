@@ -4,6 +4,136 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
+      "id": "earthquake-frequency",
+      "title": "全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？",
+      "kind": "article",
+      "version": "v1.2.0",
+      "source": "articles/2026-10-16-earthquake-frequency",
+      "manifest": "物料清单.json",
+      "download": "downloads/earthquake-frequency.zip",
+      "summary": "1950年以来全球与中国地震目录观察：全球大震年度次数、板块边界分布、各省地震、2026年中国5级以上与余震衰减；USGS数据快照、10张图、1张动图和Python源码"
+    },
+    {
+      "id": "a-share-theme-periodic-table",
+      "title": "半导体半年翻倍，3个月几乎清零：25个A股主题的10年\"元素周期表\"",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-15-a-share-theme-periodic-table",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-theme-periodic-table.zip",
+      "summary": "25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码"
+    },
+    {
+      "id": "a-share-calendar-heatmap",
+      "title": "上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-14-a-share-calendar-heatmap",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-calendar-heatmap.zip",
+      "summary": "上证、创业板、科创50与KOSPI、美股的日历热力图对比；12个指数日线快照、7张图、2张动图和Python源码"
+    },
+    {
+      "id": "zheng-qinwen",
+      "title": "郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-12-zheng-qinwen",
+      "manifest": "物料清单.json",
+      "download": "downloads/zheng-qinwen.zip",
+      "summary": "郑钦文生涯排名、主要冠军、奥运与中网征程；官方来源、5张可编辑图表和Python绘图源码"
+    },
+    {
+      "id": "dividend-hold-vs-timing",
+      "title": "红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看",
+      "kind": "article",
+      "version": "v2.0.0",
+      "source": "articles/2026-10-11-dividend-hold-vs-timing",
+      "manifest": "物料清单.json",
+      "download": "downloads/dividend-hold-vs-timing.zip",
+      "summary": "红利ETF的时间账本：收益、回撤与等待成本；3只ETF快照、回测源码、交易记录、6张图和封面模板"
+    },
+    {
+      "id": "dividend-parameter-robustness",
+      "title": "回测收益最高，就选它吗？用81组参数看红利ETF的收益与代价",
+      "kind": "article",
+      "version": "v2.0.0",
+      "source": "articles/2026-10-11-dividend-parameter-robustness",
+      "manifest": "物料清单.json",
+      "download": "downloads/dividend-parameter-robustness.zip",
+      "summary": "81组对称区间参数：收益回撤分布、相对持有与名次迁移；3只ETF快照、回测源码、交易记录、6张图和封面模板"
+    },
+    {
+      "id": "etf-heatmap",
+      "title": "用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-04-etf-heatmap",
+      "manifest": "物料清单.json",
+      "download": "downloads/etf-heatmap_v1.0.0.zip",
+      "summary": "16只ETF的120日行情快照、20日涨跌与11项指标、PNG/SVG热力图和采集绘图Python源码"
+    },
+    {
+      "id": "5a-scenic-analysis",
+      "title": "全国358家5A景区，哪里最多？门票多少钱，又靠什么赚钱？",
+      "kind": "article",
+      "version": "v1.4.0",
+      "source": "articles/2026-10-05-5a-scenic-analysis",
+      "manifest": "物料清单.json",
+      "download": "downloads/5a-scenic-analysis.zip",
+      "summary": "全国358家名录、省市和类型统计、135家185个票种、14家公司财务与13项项目业务收入、8张高清横图与10张公众号图、绘图源码"
+    },
+    {
+      "id": "etf-drawdown-recovery",
+      "title": "ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间",
+      "kind": "article",
+      "version": "v1.0.3",
+      "source": "articles/2026-10-05-etf-drawdown-recovery",
+      "manifest": "物料清单.json",
+      "download": "downloads/etf-drawdown-recovery_v1.0.3.zip",
+      "summary": "16只ETF近一年价格、最大回撤与修复记录、114次事件、5组PNG/SVG、横版封面和采集计算绘图源码"
+    },
+    {
+      "id": "a-share-margin",
+      "title": "融资净买入与市场涨跌：把当日和次日分开看",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-04-a-share-margin",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-margin_v1.0.0.zip",
+      "summary": "沪深241日与沪市截至9月30日数据、融资余额与净买入、当日／次日散点、分季度和四组比较、7组PNG/SVG与采集绘图源码"
+    },
+    {
+      "id": "nobel-prize",
+      "title": "诺奖公布前，我把125年的获奖数据画成了14张图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-05-nobel-prize",
+      "manifest": "物料清单.json",
+      "download": "downloads/nobel-prize_v1.0.0.zip",
+      "summary": "1901—2025官方获奖数据、125年奖金与2026已公布奖金、14张图表、来源及口径、采集分析绘图源码"
+    },
+    {
+      "id": "asian-games-final",
+      "title": "亚运会169金收官：用Python看奖牌、纪录与选手表现",
+      "kind": "article",
+      "version": "v1.2.2",
+      "source": "articles/2026-10-04-asian-games-final",
+      "manifest": "物料清单.json",
+      "download": "downloads/asian-games-final_v1.2.2.zip",
+      "summary": "46代表团榜单与地图、3181人选手榜、获奖年龄与性别、中国及全赛会纪录项目分布、34地区底表、11张图及Python代码"
+    },
+    {
+      "id": "flow-visualization",
+      "title": "桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清",
+      "kind": "article",
+      "version": "v1.1.1",
+      "source": "articles/2026-10-04-flow-visualization",
+      "manifest": "物料清单.json",
+      "download": "downloads/flow-visualization_v1.1.1.zip",
+      "summary": "四份独立制图代码、共用样式、四份模拟CSV、五张正文图与独立桑基图封面的PNG与SVG、两个离线交互HTML"
+    },
+    {
       "id": "driving-first-year",
       "title": "拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录",
       "kind": "article",
@@ -262,6 +392,36 @@
       "manifest": "物料清单_v1.0.0.json",
       "download": "downloads/game-company-h1-2026_v1.0.0.zip",
       "summary": "24家A股上市游戏公司2026半年报数据：142条候选池、利润表快照、员工人效、产品提及与重点公司产品观察，分析脚本与10张图表"
+    },
+    {
+      "id": "workbuddy-skill-selection",
+      "title": "WorkBuddy 技能选型：16 个技能的来源索引与场景选型图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-07-workbuddy-skill-selection",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/workbuddy-skill-selection_v1.0.0.zip",
+      "summary": "WorkBuddy 技能选型：16 个技能的来源索引与场景选型图"
+    },
+    {
+      "id": "how-to-live-better",
+      "title": "《高性价比人生指南》火了：它到底教人怎么过日子？",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-08-how-to-live-better",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/how-to-live-better_v1.0.0.zip",
+      "summary": "《高性价比人生指南》火了：它到底教人怎么过日子？"
+    },
+    {
+      "id": "free-data-website",
+      "title": "免费起步的数据网站与 AI 建站 Skill",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-10-free-data-website",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/free-data-website_v1.0.0.zip",
+      "summary": "免费起步的数据网站与 AI 建站 Skill"
     }
   ]
 }

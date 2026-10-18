@@ -1,0 +1,155 @@
+{
+  "id": "workbuddy-skill-selection",
+  "version": "v1.0.0",
+  "updated": "2026-10-07",
+  "entrypoint": "对话安装清单.md",
+  "basic": "README.md",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1487,
+      "sha256": "33c5736c0ea91543ba614a88e2e16785a207934e6185a71f55266b8064300971"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 11,
+      "sha256": "53233e8dfbed17a27fb6404f34b68fe2a8d00d68c743c4e6f4ac073b2833bab2"
+    },
+    {
+      "path": "对话安装清单.md",
+      "bytes": 8095,
+      "sha256": "3e9c1246165bca1e3a59fae28f29461f92bf883432c459d4b9b33c1ec4c907f4"
+    },
+    {
+      "path": "封面设计说明.md",
+      "bytes": 2355,
+      "sha256": "d1ef770858308f31c9dffb175c3b3423dfadf724983c479574c292f2128b654a"
+    },
+    {
+      "path": "技能来源索引.json",
+      "bytes": 16571,
+      "sha256": "e7a79fc526cf6ab22b093555287ad5f8509d69f6a809148060f201e9a6bee505"
+    },
+    {
+      "path": "技能来源索引.md",
+      "bytes": 3824,
+      "sha256": "c7dc248aa7911bfb975ae6ffabdde94fd09de0ac47e718ab5cc4e6a7dfbd86e6"
+    },
+    {
+      "path": "最新下载包.zip",
+      "bytes": 4626196,
+      "sha256": "5b5a205c25888e73571b06abaf9dce305869dfd1ce7d3fad858347b696e908bb"
+    },
+    {
+      "path": "物料清单.json",
+      "bytes": 3553,
+      "sha256": "733fdc3bedb2f2161a3ebf066144ce8090244ecae9204ea2bcd023092baa865a"
+    },
+    {
+      "path": "生成选型图.py",
+      "bytes": 9244,
+      "sha256": "0ba3071b17277707ff8ee11e02def6d58191afc070a4637e2243374235ea1dbd"
+    },
+    {
+      "path": "配图/图1_场景导航.png",
+      "bytes": 171775,
+      "sha256": "d8411f2842ea73a20e753ce0e46da99d8522678de4d91e1b0980e7851bac6a98"
+    },
+    {
+      "path": "配图/图1_场景导航.svg",
+      "bytes": 6393,
+      "sha256": "082a572aef5197d13fceecf4421088768619a4c7438cc6e57d88778d7ccf4ffc"
+    },
+    {
+      "path": "配图/图2_办公文件.png",
+      "bytes": 112920,
+      "sha256": "67bb004c1677ccec3ced42d9c6bc418e20c182b72d2482d2cc962405b8c9bc8f"
+    },
+    {
+      "path": "配图/图2_办公文件.svg",
+      "bytes": 4879,
+      "sha256": "20fa0b9e716a7d0d8bbc5ae53213fa0766ead9285b4ea318e2c4846ba43a29cc"
+    },
+    {
+      "path": "配图/图3_写作选型.png",
+      "bytes": 108993,
+      "sha256": "376d23b4ebbd413271e170e3a26c794b27b013aacbae6a946a694728f9ca88f6"
+    },
+    {
+      "path": "配图/图3_写作选型.svg",
+      "bytes": 4059,
+      "sha256": "1d1681ce44fcc3d98c0985ac0fa6dff0689f9a6a86dff3bbea8f1cc12770ee3f"
+    },
+    {
+      "path": "配图/图4_配图选型.png",
+      "bytes": 120813,
+      "sha256": "d202bac02c6641147e78252b4a89f2bc60d070b52f98762a2f7f30f9e020f08c"
+    },
+    {
+      "path": "配图/图4_配图选型.svg",
+      "bytes": 5425,
+      "sha256": "d3fadfd6fef2b1ff7e514c85d866b4218044d1cd70a27100a9b0902ba4aefe3e"
+    },
+    {
+      "path": "配图/图5_资料流程.png",
+      "bytes": 110768,
+      "sha256": "1266a4e56d85d0a72944494350590661e84eede9c4a1fa4fc1d8761895504d33"
+    },
+    {
+      "path": "配图/图5_资料流程.svg",
+      "bytes": 4048,
+      "sha256": "e9fb56e5b1291e0d6cd09ffdfe2373f79dfb492660ab2684d8cdb407b4e96aca"
+    },
+    {
+      "path": "配图/图6_岗位组合.png",
+      "bytes": 150998,
+      "sha256": "3f21c9aeb66654651f1a6185aa7342f2ce8c6c940cfdfc43894a51836292cd54"
+    },
+    {
+      "path": "配图/图6_岗位组合.svg",
+      "bytes": 5010,
+      "sha256": "f9567c4e86ca53592a90fe1ea28e3bdfd492c1636afb024572b214c5b18b4c6d"
+    },
+    {
+      "path": "配图/图7_使用路径.png",
+      "bytes": 151617,
+      "sha256": "03e83bf3b430a9a789497d7d459605bfc2695bbc9c7bd4d966e1464f7b8eda25"
+    },
+    {
+      "path": "配图/图7_使用路径.svg",
+      "bytes": 5027,
+      "sha256": "a4920f37965d1748eea9210fb706f064157041767524cb0ab8ae38de66ecce11"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 1903500,
+      "sha256": "b37ce09b7a742c03de7dc8a00be81d2758d37894055defc360c02ea5da6918a7"
+    },
+    {
+      "path": "配图/封面_方版模板.png",
+      "bytes": 52457,
+      "sha256": "b12843c1a2a11e6352b66e26d06a9be4f6f455637822a519c6d5a87ce9a43f98"
+    },
+    {
+      "path": "配图/封面_方版模板.svg",
+      "bytes": 2650,
+      "sha256": "31c8e72b404ddfe9a7b068d7e2a259250dd7bfcfc7c6bffc61982df0e4356ba7"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 1961408,
+      "sha256": "7d50adcca032134e9a99be198103d4b65d0549b8a80ba6745f54e62f674648d7"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 56731,
+      "sha256": "3dd40410456440aef9ff7f1d948c7d546ffb8eddbb8c7db7287360fc12d2eb8c"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 2671,
+      "sha256": "028861d448b75121099bf0e4fe00f66944cfd7d508bd7f6507228e16fb5b438c"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}
