@@ -1,3 +1,5 @@
+3116d5ae4dd82e61d096bf4e312292f072f34772ebfd3a830d35338a897dd1e5  global-ai-weekly-1018.zip
+6d8317ad49b0a0a88c7328f7f6fd78c345f2a816ba44a73bdaa2c90cf0745f7c  a-share-band-trading.zip
 d07bf7dbceaf12e7f4ff8afb46bc8f66f843862652144b28f49c433c937ed589  earthquake-frequency.zip
 61812ee3db0ca49b09cfeeebd19f3076866e8144bbc1a461c74ea14cd0d6bc02  a-share-theme-periodic-table.zip
 432dd72014952ea3aa058bf34f9ed2a00cac7e5df99d68bf2e08ffe8a130acd5  a-share-calendar-heatmap.zip

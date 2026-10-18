@@ -4,6 +4,8 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18](../articles/2026-10-18-global-ai-weekly/README.md) | v1.0.0 | [global-ai-weekly-1018.zip](global-ai-weekly-1018.zip) | 2.65 MB |
+| [光伏拿10年亏3%，做波段赚194%；半导体正好反过来：32个A股指数回测10年](../articles/2026-10-17-a-share-band-trading/README.md) | v1.0.0 | [a-share-band-trading.zip](a-share-band-trading.zip) | 5.56 MB |
 | [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](../articles/2026-10-16-earthquake-frequency/README.md) | v1.2.0 | [earthquake-frequency.zip](earthquake-frequency.zip) | 10.57 MB |
 | [半导体半年翻倍，3个月几乎清零：25个A股主题的10年"元素周期表"](../articles/2026-10-15-a-share-theme-periodic-table/README.md) | v1.0.0 | [a-share-theme-periodic-table.zip](a-share-theme-periodic-table.zip) | 7.50 MB |
 | [上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天](../articles/2026-10-14-a-share-calendar-heatmap/README.md) | v1.0.0 | [a-share-calendar-heatmap.zip](a-share-calendar-heatmap.zip) | 4.33 MB |

@@ -1,6 +1,6 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**41篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**43篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
 <!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
 
@@ -12,6 +12,8 @@
 | --- | --- | --- |
 | [Opus 5.5 同款代码视频：在 WorkBuddy 里一句话出片，9 种画风与技能本体](articles/2026-10-18-code-video/README.md) · v1.1.0 | code-video 技能本体（film 运行时、九种技术栈文档、一键安装）、九种技术栈各一个 8 秒演示工程、九张演示动图与 GIF 生成脚本 | [ZIP](downloads/code-video-samples_v1.1.0.zip) |
 | [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](articles/2026-09-23-game-company-h1-2026/README.md) · v1.0.0 | 24家A股上市游戏公司2026半年报数据、142条候选池、员工人效与产品提及整理、分析脚本与 10 张图表 | [ZIP](downloads/game-company-h1-2026_v1.0.0.zip) |
+| [芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18](articles/2026-10-18-global-ai-weekly/README.md) · v1.0.0 | 10只全球芯片龙头股与半导体ETF本周行情快照、取数与绘图脚本、一周时间线与芯片股涨跌幅图、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1018.zip) |
+| [光伏拿10年亏3%，做波段赚194%；半导体正好反过来：32个A股指数回测10年](articles/2026-10-17-a-share-band-trading/README.md) · v1.0.0 | 7个宽基+25个板块指数、4类24条波段规则回测10年：规则×指数热力图、前后段检验、逐年与成本分析；数据快照与Python源码 | [ZIP](downloads/a-share-band-trading.zip) |
 | [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](articles/2026-10-16-earthquake-frequency/README.md) · v1.2.0 | 1950年以来全球与中国地震目录观察：全球大震年度次数、板块边界分布、各省地震、2026年中国5级以上与余震衰减；USGS数据快照、10张图、1张动图和Python源码 | [ZIP](downloads/earthquake-frequency.zip) |
 | [半导体半年翻倍，3个月几乎清零：25个A股主题的10年"元素周期表"](articles/2026-10-15-a-share-theme-periodic-table/README.md) · v1.0.0 | 25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码 | [ZIP](downloads/a-share-theme-periodic-table.zip) |
 | [上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天](articles/2026-10-14-a-share-calendar-heatmap/README.md) · v1.0.0 | 上证、创业板、科创50与KOSPI、美股的日历热力图对比；12个指数日线快照、7张图、2张动图和Python源码 | [ZIP](downloads/a-share-calendar-heatmap.zip) |

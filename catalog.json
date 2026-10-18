@@ -4,6 +4,26 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
+      "id": "global-ai-weekly-1018",
+      "title": "芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-18-global-ai-weekly",
+      "manifest": "物料清单.json",
+      "download": "downloads/global-ai-weekly-1018.zip",
+      "summary": "10只全球芯片龙头股与半导体ETF本周行情快照、取数与绘图脚本、一周时间线与芯片股涨跌幅图、周报封面与可编辑模板"
+    },
+    {
+      "id": "a-share-band-trading",
+      "title": "光伏拿10年亏3%，做波段赚194%；半导体正好反过来：32个A股指数回测10年",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-17-a-share-band-trading",
+      "manifest": "物料清单.json",
+      "download": "downloads/a-share-band-trading.zip",
+      "summary": "7个宽基+25个板块指数、4类24条波段规则回测10年：规则×指数热力图、前后段检验、逐年与成本分析；数据快照与Python源码"
+    },
+    {
       "id": "earthquake-frequency",
       "title": "全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？",
       "kind": "article",
