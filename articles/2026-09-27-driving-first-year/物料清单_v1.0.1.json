@@ -99,5 +99,6 @@
       "bytes": 1284334,
       "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
     }
-  ]
+  ],
+  "material_policy": "latest-complete-set-only"
 }

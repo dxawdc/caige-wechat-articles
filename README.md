@@ -1,8 +1,8 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**41篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**24篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
-<!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.16.1 | 更新时间：2026-09-27 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -10,19 +10,8 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](articles/2026-10-16-earthquake-frequency/README.md) · v1.2.0 | 1950年以来全球与中国地震目录观察：全球大震年度次数、板块边界分布、各省地震、2026年中国5级以上与余震衰减；USGS数据快照、10张图、1张动图和Python源码 | [ZIP](downloads/earthquake-frequency.zip) |
-| [半导体半年翻倍，3个月几乎清零：25个A股主题的10年"元素周期表"](articles/2026-10-15-a-share-theme-periodic-table/README.md) · v1.0.0 | 25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码 | [ZIP](downloads/a-share-theme-periodic-table.zip) |
-| [上证只跌了8%，科创50跌了37%：几张日历热力图看大A这个夏天](articles/2026-10-14-a-share-calendar-heatmap/README.md) · v1.0.0 | 上证、创业板、科创50与KOSPI、美股的日历热力图对比；12个指数日线快照、7张图、2张动图和Python源码 | [ZIP](downloads/a-share-calendar-heatmap.zip) |
-| [郑钦文：从巴黎奥运金牌到中网首冠，她走过了怎样的起伏？](articles/2026-10-12-zheng-qinwen/README.md) · v1.0.0 | 郑钦文生涯排名、主要冠军、奥运与中网征程；官方来源、5张可编辑图表和Python绘图源码 | [ZIP](downloads/zheng-qinwen.zip) |
-| [红利ETF卖出以后，可能要等多久？把收益、回撤和空仓放在一起看](articles/2026-10-11-dividend-hold-vs-timing/README.md) · v2.0.0 | 红利ETF的时间账本：收益、回撤与等待成本；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-hold-vs-timing.zip) |
-| [回测收益最高，就选它吗？用81组参数看红利ETF的收益与代价](articles/2026-10-11-dividend-parameter-robustness/README.md) · v2.0.0 | 81组对称区间参数：收益回撤分布、相对持有与名次迁移；3只ETF快照、回测源码、交易记录、6张图和封面模板 | [ZIP](downloads/dividend-parameter-robustness.zip) |
-| [用 Python 做一张 ETF 热力图：20 日涨跌、动量、波动和回撤一起看](articles/2026-10-04-etf-heatmap/README.md) · v1.0.0 | 16只ETF行情快照、20日逐日涨跌与11项指标、PNG/SVG热力图与Python源码 | [ZIP](downloads/etf-heatmap_v1.0.0.zip) |
-| [全国358家5A景区，哪里最多？门票多少钱，又靠什么赚钱？](articles/2026-10-05-5a-scenic-analysis/README.md) · v1.4.0 | 全国358家名录、省市和类型统计、135家185个票种、14家公司财务与13项项目业务收入、8张高清横图与10张公众号图、绘图源码 | [ZIP](downloads/5a-scenic-analysis.zip) |
-| [ETF跌下去以后，多久才能涨回来？用Python看回撤与修复时间](articles/2026-10-05-etf-drawdown-recovery/README.md) · v1.0.3 | 近一年16只ETF回撤、下跌与修复时间、未修复观察记录、5组图、横版封面与Python源码 | [ZIP](downloads/etf-drawdown-recovery_v1.0.3.zip) |
-| [融资净买入与市场涨跌：把当日和次日分开看](articles/2026-10-04-a-share-margin/README.md) · v1.0.0 | 沪深与沪市融资数据、7组高清图、当日／次日与分组分析、采集绘图代码 | [ZIP](downloads/a-share-margin_v1.0.0.zip) |
-| [诺奖公布前，我把125年的获奖数据画成了14张图](articles/2026-10-05-nobel-prize/README.md) · v1.0.0 | 1901—2025官方数据、125年奖金与2026公告、14张图表和可复现源码 | [ZIP](downloads/nobel-prize_v1.0.0.zip) |
-| [亚运会169金收官：用Python看奖牌、纪录与选手表现](articles/2026-10-04-asian-games-final/README.md) · v1.2.2 | 46代表团榜单与地图、3181人选手榜、获奖年龄与性别、中国及全赛会纪录项目分布、34地区底表、11张图及Python代码 | [ZIP](downloads/asian-games-final_v1.2.2.zip) |
-| [桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清](articles/2026-10-04-flow-visualization/README.md) · v1.1.1 | 四份独立制图代码、共用样式、四份模拟CSV、五张正文图与独立桑基图封面的PNG与SVG、两个离线交互HTML | [ZIP](downloads/flow-visualization_v1.1.1.zip) |
+| [视频不是拍出来的，是算出来的：9 种画风的代码做视频技能](articles/2026-10-18-code-video/README.md) · v1.0.0 | code-video 技能九种技术栈各一个 8 秒演示工程（画面源码+时间表+配乐）、九张演示动图、画面总览与 GIF 生成脚本 | [ZIP](downloads/code-video-samples_v1.0.0.zip) |
+| [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](articles/2026-09-23-game-company-h1-2026/README.md) · v1.0.0 | 24家A股上市游戏公司2026半年报数据、142条候选池、员工人效与产品提及整理、分析脚本与 10 张图表 | [ZIP](downloads/game-company-h1-2026_v1.0.0.zip) |
 | [拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录](articles/2026-09-27-driving-first-year/README.md) · v1.0.1 | 绘图源码、180 条虚构演示行程、匿名统计摘要、10 张正文图与首尾品牌动图 | [ZIP](downloads/driving-first-year_v1.0.1.zip) |
 | [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](articles/2026-09-26-a-share-sector-race/README.md) · v1.1.1 | 东方财富30主题板块日线（13,932条）、赛马图制作脚本、手机竖屏预览、两份交互HTML与文中配图 | [ZIP](downloads/a-share-sector-race_v1.1.1.zip) |
 | [今年亚运会好像没什么热度，只知道名古屋被骂上热搜](articles/2026-09-22-asian-games/README.md) · v1.0.0 | 亚奥理事会官方成绩全量数据：46 个代表团、59 个项目、12753 名选手、251 枚奖牌，全程 450 枚金牌日程与 28 条破纪录，采集与分析绘图脚本、15 张图表 | [ZIP](downloads/asian-games_v1.0.0.zip) |

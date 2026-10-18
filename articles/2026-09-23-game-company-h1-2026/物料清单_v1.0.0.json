@@ -1,0 +1,135 @@
+{
+  "id": "game-company-h1-2026",
+  "version": "v1.0.0",
+  "updated": "2026-09-23",
+  "entrypoint": "分析/文章分析.py",
+  "basic": "分析/绘图样式.py",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4200,
+      "sha256": "affc1428d148ad01fd4a12addeb593f6d0438ecf6cfaae76eacdef6c4df116a7"
+    },
+    {
+      "path": "分析/公司指标汇总.csv",
+      "bytes": 5609,
+      "sha256": "3a5d3120ca9ed96c1ba1363f4a0f30ab6ef37856180cf4cb6e8a2d0777433b16"
+    },
+    {
+      "path": "分析/文章关键指标.json",
+      "bytes": 15298,
+      "sha256": "132a00b02a3d844d4dc344a7560d3350858a48a9d25a70199a25d7ab127f8980"
+    },
+    {
+      "path": "分析/文章分析.py",
+      "bytes": 14230,
+      "sha256": "284bd4caaa8e4ba32fe316654c2932d9bad9a59949f081cb2558c82a0f93bf3d"
+    },
+    {
+      "path": "分析/深度分析关键指标.json",
+      "bytes": 5250,
+      "sha256": "c86a3bf0d18939d7c6eb79d5faca9b71dbc96fec02e0383b4ec5b3f213c297b4"
+    },
+    {
+      "path": "分析/绘图样式.py",
+      "bytes": 8101,
+      "sha256": "cf29c7f71e4d5dee53f554ced8a14518f3add5198c012cdf18683b8c4696630e"
+    },
+    {
+      "path": "分析/重点公司综合指标.csv",
+      "bytes": 1034,
+      "sha256": "d50ec16d9bc87f475331b083e791ee3cabd20dd6a97a122ebc4c8ab249b30656"
+    },
+    {
+      "path": "图表/01_增长集中_营收增量桥.png",
+      "bytes": 105905,
+      "sha256": "877ea5340a83d62c9fb18feaa934c7385553799ffb1222f5d3ed80fd31e7ae71"
+    },
+    {
+      "path": "图表/02_营收排行_统一口径.png",
+      "bytes": 211446,
+      "sha256": "af078021178e72dcd3f29f58ca4b07dcd47389a9c61fd3f5bde4920856f61cba"
+    },
+    {
+      "path": "图表/03_利润分化_绝对增量.png",
+      "bytes": 173294,
+      "sha256": "c1c375cd1cb6c812877e96e78c0eb146404082007b8e09ce29601cb187b91063"
+    },
+    {
+      "path": "图表/04_费用结构_核心样本.png",
+      "bytes": 155807,
+      "sha256": "659471f0fead37c883ca536dd4f54fb803a26e99b5518e3ba414953eb6d9ed88"
+    },
+    {
+      "path": "图表/05_候选池全景.png",
+      "bytes": 102826,
+      "sha256": "6f279c736cdc4a04264b24a32760b98b0430e42c45c446974d2b3fbf13477d4b"
+    },
+    {
+      "path": "图表/06_跨市场规模.png",
+      "bytes": 173182,
+      "sha256": "2c18f4bd531d4a14b7cb5be4995b107a4d994532741df6d7b45a902142827df8"
+    },
+    {
+      "path": "图表/07_利润含金量.png",
+      "bytes": 97978,
+      "sha256": "729673aba9bd3a665d9f881df110d8512c677c50e292ea8a8b42f18bb28b11bc"
+    },
+    {
+      "path": "图表/08_员工变化.png",
+      "bytes": 235059,
+      "sha256": "9ef4469a33d343e24845f2634e343942ee14fca940f009ef386e260e43ec4a57"
+    },
+    {
+      "path": "图表/09_重点公司经营画像.png",
+      "bytes": 202258,
+      "sha256": "67f8e0bc098785f1aa1b5d7b6139ced57bf2e284eaf45439eba0aaffbc3a0ff0"
+    },
+    {
+      "path": "图表/10_重点公司产品矩阵.png",
+      "bytes": 195143,
+      "sha256": "4324de70411df3e180344831c83c2dd79a74f32a34f8f54dbabc3d3c4fead2d9"
+    },
+    {
+      "path": "数据/A股24家公司员工与人效.csv",
+      "bytes": 4324,
+      "sha256": "922ff57e75e7539776492d2ba06ada97129e9355818dfd61b4350d78dfc41f28"
+    },
+    {
+      "path": "数据/A股24家半年报游戏产品提及.csv",
+      "bytes": 376645,
+      "sha256": "b6003aba1a0c8fcfad653aafb3473136995404188a73ee7db7e8e626508185f0"
+    },
+    {
+      "path": "数据/上市游戏公司候选池总表.csv",
+      "bytes": 24339,
+      "sha256": "17b171c48a30ebd909c114ba814e66c7e3ec7be09a207c5e5fc4860dc272a30b"
+    },
+    {
+      "path": "数据/港股_游戏业务收入_手工整理.csv",
+      "bytes": 1121,
+      "sha256": "db7d5abed3964ed57080e4ebd77b947da53d761fc6ee8c62c962fa99f7a39ba7"
+    },
+    {
+      "path": "数据/游戏公司_A股_分层.csv",
+      "bytes": 2384,
+      "sha256": "bcf43a564da5d285635e090d0281f4262325436a5ea1c89ece877db1f5676325"
+    },
+    {
+      "path": "数据/游戏公司_A股_利润表_2025H06.csv",
+      "bytes": 10820,
+      "sha256": "5248f62e3cf89bf406408c8f5b66fb43f8d8aae48de3d948f8269ab4e6609ca5"
+    },
+    {
+      "path": "数据/游戏公司_A股_利润表_2026H06.csv",
+      "bytes": 10868,
+      "sha256": "8a7efc67fd907a1ff7c50998b8cfaba54725cd32935e3ff842c0be331a886b3c"
+    },
+    {
+      "path": "数据/重点公司产品观察.csv",
+      "bytes": 3122,
+      "sha256": "721f7db2382f8b313c6c3d8234e99a35e9acb63970dde5318517d408fab665d2"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

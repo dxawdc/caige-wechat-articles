@@ -18,7 +18,7 @@
 | [亚运会169金收官：用Python看奖牌、纪录与选手表现](../articles/2026-10-04-asian-games-final/README.md) | v1.2.2 | [asian-games-final_v1.2.2.zip](asian-games-final_v1.2.2.zip) | 5.55 MB |
 | [桑基图、弦图、冲积图怎么画？场景、效果与Python代码一次讲清](../articles/2026-10-04-flow-visualization/README.md) | v1.1.1 | [flow-visualization_v1.1.1.zip](flow-visualization_v1.1.1.zip) | 4.05 MB |
 | [拿驾照满一年，我用 Plotly 复盘了 566 条市内开车记录](../articles/2026-09-27-driving-first-year/README.md) | v1.0.1 | [driving-first-year_v1.0.1.zip](driving-first-year_v1.0.1.zip) | 4.68 MB |
-| [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](../articles/2026-09-26-a-share-sector-race/README.md) | v1.1.1 | [a-share-sector-race_v1.1.1.zip](a-share-sector-race_v1.1.1.zip) | 3.11 MB |
+| [“9·24”之后，谁跑在前面？我把30个A股主题做成了赛马图](../articles/2026-09-26-a-share-sector-race/README.md) | v1.1.1 | [a-share-sector-race_v1.1.1.zip](a-share-sector-race_v1.1.1.zip) | 3.13 MB |
 | [今年亚运会好像没什么热度，只知道名古屋被骂上热搜](../articles/2026-09-22-asian-games/README.md) | v1.0.0 | [asian-games_v1.0.0.zip](asian-games_v1.0.0.zip) | 2.36 MB |
 | [我把A股一天的资金流向，做成了一组图](../articles/2026-09-21-a-share-fund-flow/README.md) | v1.0.0 | [a-share-fund-flow_v1.0.0.zip](a-share-fund-flow_v1.0.0.zip) | 5.53 MB |
 | [在 WorkBuddy 里说一句话，自动完成数据分析与制图](../articles/2026-09-19-data-analysis-viz/README.md) | v1.0.0 | [data-analysis-viz_v1.0.0.zip](data-analysis-viz_v1.0.0.zip) | 1.06 MB |
@@ -41,5 +41,7 @@
 | [用Python合并Excel，顺手把数据问题查出来](../articles/2026-09-06-02-excel-audit/README.md) | v1.1.1 | [02-excel-audit_v1.1.1.zip](02-excel-audit_v1.1.1.zip) | 0.28 MB |
 | [SQL算留存：别把还没到第7天的用户算成流失](../articles/2026-09-06-01-retention/README.md) | v1.1.1 | [01-retention_v1.1.1.zip](01-retention_v1.1.1.zip) | 0.32 MB |
 | [黄金白银这10年：从上金所到周大福柜台](../articles/2026-09-19-precious-metals/README.md) | v1.0.2 | [precious-metals_v1.0.2.zip](precious-metals_v1.0.2.zip) | 5.34 MB |
+| [视频不是拍出来的，是算出来的：9 种画风的代码做视频技能](../articles/2026-10-18-code-video/README.md) | v1.0.0 | [code-video-samples_v1.0.0.zip](code-video-samples_v1.0.0.zip) | 8.50 MB |
+| [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](../articles/2026-09-23-game-company-h1-2026/README.md) | v1.0.0 | [game-company-h1-2026_v1.0.0.zip](game-company-h1-2026_v1.0.0.zip) | 1.57 MB |
 
 [SHA-256 校验值](SHA256SUMS.txt) · [返回资料库](../README.md)
