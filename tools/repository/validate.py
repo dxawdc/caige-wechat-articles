@@ -131,6 +131,9 @@ def main():
             links = re.findall(r'!?\[[^\]\n]*\]\(([^)\n]+)\)', text)
             links = [s.split(' "', 1)[0] for s in links]
         else:
+            # 技能模板里的 HTML 引用新建工程时才补齐的公共文件（如 src/timeline.js），不按成品页检查
+            if re.search(r'/skill/[^/]+/scripts/kit/templates/', relative):
+                continue
             parser = StaticLinks()
             parser.feed(text)
             links = parser.links

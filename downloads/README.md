@@ -41,7 +41,7 @@
 | [用Python合并Excel，顺手把数据问题查出来](../articles/2026-09-06-02-excel-audit/README.md) | v1.1.1 | [02-excel-audit_v1.1.1.zip](02-excel-audit_v1.1.1.zip) | 0.28 MB |
 | [SQL算留存：别把还没到第7天的用户算成流失](../articles/2026-09-06-01-retention/README.md) | v1.1.1 | [01-retention_v1.1.1.zip](01-retention_v1.1.1.zip) | 0.32 MB |
 | [黄金白银这10年：从上金所到周大福柜台](../articles/2026-09-19-precious-metals/README.md) | v1.0.2 | [precious-metals_v1.0.2.zip](precious-metals_v1.0.2.zip) | 5.34 MB |
-| [视频不是拍出来的，是算出来的：9 种画风的代码做视频技能](../articles/2026-10-18-code-video/README.md) | v1.0.0 | [code-video-samples_v1.0.0.zip](code-video-samples_v1.0.0.zip) | 8.50 MB |
+| [Opus 5.5 同款代码视频：在 WorkBuddy 里一句话出片，9 种画风与技能本体](../articles/2026-10-18-code-video/README.md) | v1.1.0 | [code-video-samples_v1.1.0.zip](code-video-samples_v1.1.0.zip) | 8.43 MB |
 | [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](../articles/2026-09-23-game-company-h1-2026/README.md) | v1.0.0 | [game-company-h1-2026_v1.0.0.zip](game-company-h1-2026_v1.0.0.zip) | 1.57 MB |
 | [WorkBuddy 技能选型：16 个技能的来源索引与场景选型图](../articles/2026-10-07-workbuddy-skill-selection/README.md) | v1.0.0 | [workbuddy-skill-selection_v1.0.0.zip](workbuddy-skill-selection_v1.0.0.zip) | 8.81 MB |
 | [《高性价比人生指南》火了：它到底教人怎么过日子？](../articles/2026-10-08-how-to-live-better/README.md) | v1.0.0 | [how-to-live-better_v1.0.0.zip](how-to-live-better_v1.0.0.zip) | 15.74 MB |

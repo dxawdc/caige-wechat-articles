@@ -35,7 +35,7 @@ ce1871db100d8a69df91d30c14886a57fc094acd5e15f63be451aec03ef37443  03-login-strea
 42c3bbe20228875bb7a88635950054d03aa09e031ef564edcf582cd2bba56df8  02-excel-audit_v1.1.1.zip
 764616999fdd8200adb09c04f81c0f43fc029458e94a3b69ffd4e3c3b154d9eb  01-retention_v1.1.1.zip
 3aa5195cc24a5ec8e92c8480fea7ce03feeb9c0e500255e9c3babf509fda8cd4  precious-metals_v1.0.2.zip
-48d9a19753f0a9805b5d5d56e9d00e39c73b0dfe704d4aad2fb0f5010bddcd39  code-video-samples_v1.0.0.zip
+7ab6b20dcdddf01ef5fd28842ce3cef9614ae8264a9dc4edcdd385c2ae2b26f1  code-video-samples_v1.1.0.zip
 81a79470071b4f3f7b480db658ff0e95d6379c35cf9b77c0b39cb127d572fe93  game-company-h1-2026_v1.0.0.zip
 a09f6062d6cbd33d3a1e991d045fc972de61aad3b66f2bf26fb41b58dd90c2c3  workbuddy-skill-selection_v1.0.0.zip
 3377e9700737b733144a5322c9bc43fb22b2b8e19c094b2947de59587a1d78bb  how-to-live-better_v1.0.0.zip

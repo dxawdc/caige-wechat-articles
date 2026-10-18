@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [视频不是拍出来的，是算出来的：9 种画风的代码做视频技能](articles/2026-10-18-code-video/README.md) · v1.0.0 | code-video 技能九种技术栈各一个 8 秒演示工程（画面源码+时间表+配乐）、九张演示动图、画面总览与 GIF 生成脚本 | [ZIP](downloads/code-video-samples_v1.0.0.zip) |
+| [Opus 5.5 同款代码视频：在 WorkBuddy 里一句话出片，9 种画风与技能本体](articles/2026-10-18-code-video/README.md) · v1.1.0 | code-video 技能本体（film 运行时、九种技术栈文档、一键安装）、九种技术栈各一个 8 秒演示工程、九张演示动图与 GIF 生成脚本 | [ZIP](downloads/code-video-samples_v1.1.0.zip) |
 | [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](articles/2026-09-23-game-company-h1-2026/README.md) · v1.0.0 | 24家A股上市游戏公司2026半年报数据、142条候选池、员工人效与产品提及整理、分析脚本与 10 张图表 | [ZIP](downloads/game-company-h1-2026_v1.0.0.zip) |
 | [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](articles/2026-10-16-earthquake-frequency/README.md) · v1.2.0 | 1950年以来全球与中国地震目录观察：全球大震年度次数、板块边界分布、各省地震、2026年中国5级以上与余震衰减；USGS数据快照、10张图、1张动图和Python源码 | [ZIP](downloads/earthquake-frequency.zip) |
 | [半导体半年翻倍，3个月几乎清零：25个A股主题的10年"元素周期表"](articles/2026-10-15-a-share-theme-periodic-table/README.md) · v1.0.0 | 25个中证主题指数10年涨跌的元素周期表：年度与月度两种配色、冠军次年排名、重点主题轨迹；数据快照与Python源码 | [ZIP](downloads/a-share-theme-periodic-table.zip) |

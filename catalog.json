@@ -375,13 +375,13 @@
     },
     {
       "id": "code-video-samples",
-      "title": "视频不是拍出来的，是算出来的：9 种画风的代码做视频技能",
+      "title": "Opus 5.5 同款代码视频：在 WorkBuddy 里一句话出片，9 种画风与技能本体",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v1.1.0",
       "source": "articles/2026-10-18-code-video",
-      "manifest": "物料清单_v1.0.0.json",
-      "download": "downloads/code-video-samples_v1.0.0.zip",
-      "summary": "code-video 技能九种技术栈各一个 8 秒演示工程（画面源码+时间表+配乐）、九张演示动图、画面总览与 GIF 生成脚本"
+      "manifest": "物料清单_v1.1.0.json",
+      "download": "downloads/code-video-samples_v1.1.0.zip",
+      "summary": "code-video 技能本体（film 运行时、九种技术栈文档、一键安装）、九种技术栈各一个 8 秒演示工程、九张演示动图与 GIF 生成脚本"
     },
     {
       "id": "game-company-h1-2026",
