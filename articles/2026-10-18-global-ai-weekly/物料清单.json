@@ -1,0 +1,97 @@
+{
+  "id": "2026-10-18-global-ai-weekly",
+  "version": "v1.0.0",
+  "updated": "2026-10-18",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2426,
+      "sha256": "8f8e4b1e176365067aaf00dad68d82ea254bcef0410e0cd202e31da565fdff0d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "467b8cde618b52081397c527f26e6dc7db6e5f47991bba56f98b413914092ff8"
+    },
+    {
+      "path": "数据/芯片股日线收盘价.csv",
+      "bytes": 3480,
+      "sha256": "5459a84a57db6aaba3bf6a7a19b8051a626c90e1edf0638d3565dc168e44d546"
+    },
+    {
+      "path": "数据/芯片股本周涨跌幅.csv",
+      "bytes": 1016,
+      "sha256": "8a556204c25576531db2c7898d793a541260518526cb40b553a77d3c98a9bf46"
+    },
+    {
+      "path": "生成封面.py",
+      "bytes": 8516,
+      "sha256": "7a86d9798a72def424d2efa61dd8ddf517d4db8e9c5d8577a2e27bdf5f707110"
+    },
+    {
+      "path": "绘图.py",
+      "bytes": 5994,
+      "sha256": "cb79a50901e052dca9b522da6336393f4f60e76fcdfb04b8fdb5da41caf7d174"
+    },
+    {
+      "path": "配图/图1_一周时间线.png",
+      "bytes": 153827,
+      "sha256": "5e8734bde922749f2e336dec3f0ae8c464de5feae972aa65e704aec6a26122b4"
+    },
+    {
+      "path": "配图/图3_芯片股本周涨跌幅.png",
+      "bytes": 102445,
+      "sha256": "74db41f3baaaade3274fc8a9126a95d4402afbb3a64e6cfd94a7894b72080e92"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 509928,
+      "sha256": "816cdf176ff68c3b49c9a4fb13ce91d9a42844d891e5672b2b06e25f0a4e6ef2"
+    },
+    {
+      "path": "配图/封面_方版模板.png",
+      "bytes": 75976,
+      "sha256": "ac263a675fc40687a94ac85c0838a3b5c34023c477c9a20d68383aeee46eb52a"
+    },
+    {
+      "path": "配图/封面_方版模板.svg",
+      "bytes": 9769,
+      "sha256": "0d542394d5e6d476d3175a2e19c1b954ff1f7dc7a25c00a2f2ba76da82f7345a"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 784125,
+      "sha256": "197fbef868dfe8a09d4b9c9215a1a1e9e92454648d89ac4052b558183aa22a83"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 78262,
+      "sha256": "5ddb5a7261b01b99a1ec56dde221c30ec3ec0579a0ba023d892b18c0a1866610"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 9539,
+      "sha256": "1af0d04a6327da05f7186f236555961e44d4f2890fbcfafca06523880c0c4970"
+    },
+    {
+      "path": "配图/封面_预览100.png",
+      "bytes": 11201,
+      "sha256": "b7b5d55dc81b1f9a206a0f2c31a5cd792751b0647f6bd34c06b6c2eef044e3fe"
+    },
+    {
+      "path": "配图/封面_预览300.png",
+      "bytes": 44794,
+      "sha256": "3e04bf336db3e45c4288995887ed7c49ff287efb76668b05b3afd8ce5e7799f4"
+    },
+    {
+      "path": "配图/封面底图.png",
+      "bytes": 1259038,
+      "sha256": "dc623df04a7bc1debd4c7418cb702d86eb3a88d5c35e1c4d914e0c593ab560b9"
+    },
+    {
+      "path": "采集数据.py",
+      "bytes": 2954,
+      "sha256": "5df23180366b6151a28be1f749c5f8bebb9f654d6deb4b381f5442698dd54651"
+    }
+  ]
+}
