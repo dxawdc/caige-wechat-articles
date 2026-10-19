@@ -10,7 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [不会给 WorkBuddy 派活？100 个能直接复制的提示词](articles/2026-10-19-workbuddy-100-prompts/README.md) · v1.0.0 | 写作、办公文件、表格、文件整理、调研、学习、创作、定时任务、生活与用好 WorkBuddy 10类100条提示词；可搜索一键复制的网页、Excel 与 Markdown 清单、4张示意图与源码 | [ZIP](downloads/workbuddy-100-prompts_v1.0.0.zip) |
+| [收藏备用！WorkBuddy 100条实用提示词【支持下载】](articles/2026-10-19-workbuddy-100-prompts/README.md) · v1.0.0 | 写作、办公文件、表格、文件整理、调研、学习、创作、定时任务、生活与用好 WorkBuddy 10类100条提示词；可搜索一键复制的网页、Excel 与 Markdown 清单、4张示意图与源码 | [ZIP](downloads/workbuddy-100-prompts_v1.0.0.zip) |
 | [Opus 5.5 同款代码视频：在 WorkBuddy 里一句话出片，9 种画风与技能本体](articles/2026-10-18-code-video/README.md) · v1.1.0 | code-video 技能本体（film 运行时、九种技术栈文档、一键安装）、九种技术栈各一个 8 秒演示工程、九张演示动图与 GIF 生成脚本 | [ZIP](downloads/code-video-samples_v1.1.0.zip) |
 | [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](articles/2026-09-23-game-company-h1-2026/README.md) · v1.0.0 | 24家A股上市游戏公司2026半年报数据、142条候选池、员工人效与产品提及整理、分析脚本与 10 张图表 | [ZIP](downloads/game-company-h1-2026_v1.0.0.zip) |
 | [芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18](articles/2026-10-18-global-ai-weekly/README.md) · v1.0.0 | 10只全球芯片龙头股与半导体ETF本周行情快照、取数与绘图脚本、一周时间线与芯片股涨跌幅图、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1018.zip) |

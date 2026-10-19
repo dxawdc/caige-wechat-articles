@@ -48,6 +48,6 @@
 | [WorkBuddy 技能选型：16 个技能的来源索引与场景选型图](../articles/2026-10-07-workbuddy-skill-selection/README.md) | v1.0.0 | [workbuddy-skill-selection_v1.0.0.zip](workbuddy-skill-selection_v1.0.0.zip) | 8.81 MB |
 | [《高性价比人生指南》火了：它到底教人怎么过日子？](../articles/2026-10-08-how-to-live-better/README.md) | v1.0.0 | [how-to-live-better_v1.0.0.zip](how-to-live-better_v1.0.0.zip) | 15.74 MB |
 | [免费起步的数据网站与 AI 建站 Skill](../articles/2026-10-10-free-data-website/README.md) | v1.0.0 | [free-data-website_v1.0.0.zip](free-data-website_v1.0.0.zip) | 0.03 MB |
-| [不会给 WorkBuddy 派活？100 个能直接复制的提示词](../articles/2026-10-19-workbuddy-100-prompts/README.md) | v1.0.0 | [workbuddy-100-prompts_v1.0.0.zip](workbuddy-100-prompts_v1.0.0.zip) | 3.30 MB |
+| [收藏备用！WorkBuddy 100条实用提示词【支持下载】](../articles/2026-10-19-workbuddy-100-prompts/README.md) | v1.0.0 | [workbuddy-100-prompts_v1.0.0.zip](workbuddy-100-prompts_v1.0.0.zip) | 3.30 MB |
 
 [SHA-256 校验值](SHA256SUMS.txt) · [返回资料库](../README.md)
