@@ -1,0 +1,130 @@
+{
+  "id": "workbuddy-100-prompts",
+  "version": "v1.0.0",
+  "updated": "2026-10-19",
+  "entrypoint": "配套资料/WorkBuddy提示词100例.html",
+  "basic": "README.md",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1957,
+      "sha256": "189d6f60909266077c70d277e4f81f32d835b53b0eac607b798557937ad35cd2"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 16,
+      "sha256": "736c089094daa0849a4b4a470bf26e8e54b454ab05cb2c1645e390ebd6807c6d"
+    },
+    {
+      "path": "封面设计说明.md",
+      "bytes": 3734,
+      "sha256": "5c574ff5295898bcec1a5bfbde3560686198ec18d24c4893d0a3bc83639907c4"
+    },
+    {
+      "path": "提示词库.json",
+      "bytes": 28820,
+      "sha256": "bf3fe074740e4b48fb39b6a2517c490cd1e7df2fd2775b9aaa9b603aa41bfc61"
+    },
+    {
+      "path": "生成配图.py",
+      "bytes": 9275,
+      "sha256": "ca3bc7e961ec233c09880dbcabc74fde884af2d4f7146f06e12469f192f811ba"
+    },
+    {
+      "path": "生成配套资料.py",
+      "bytes": 2423,
+      "sha256": "4c32eb58ea02c401e6255e2e63ae1bd3729fd3384443cf1eb96721ff05b4df02"
+    },
+    {
+      "path": "网页模板.html",
+      "bytes": 4609,
+      "sha256": "45b2c015d97698f6ba6079a0e7ddf174f4c512d06a15ad4935f9082db6bc1fa8"
+    },
+    {
+      "path": "配图/图1_分类导航.png",
+      "bytes": 182555,
+      "sha256": "88da397ed1015dfd95759bd7457cfbe9f52de9ff253783817f30c043eff13a8d"
+    },
+    {
+      "path": "配图/图1_分类导航.svg",
+      "bytes": 8092,
+      "sha256": "e6e7fa02ea546d6957f305ac9736931565db1e2ce88ca179353119a395fecb32"
+    },
+    {
+      "path": "配图/图2_四要素.png",
+      "bytes": 128153,
+      "sha256": "5cbc6961d5715cab88f30442874b7ef65cd0631a46503f6972171e75f9bd3ee2"
+    },
+    {
+      "path": "配图/图2_四要素.svg",
+      "bytes": 5049,
+      "sha256": "1af0103665aa9ce0a763904e84221bb081ad2132712018128b477ebbc85d466b"
+    },
+    {
+      "path": "配图/图3_定时任务.png",
+      "bytes": 134770,
+      "sha256": "bc9ed2851db21d7b8dfb7e975ff5bc4f49b1b34a6ab234a520c1e1667ceb3792"
+    },
+    {
+      "path": "配图/图3_定时任务.svg",
+      "bytes": 4700,
+      "sha256": "9d2f5d85271fca2efe8d4fa38ea18e75ec899aa0175cdcabf1f2012f0eb62e08"
+    },
+    {
+      "path": "配图/图4_使用路径.png",
+      "bytes": 118512,
+      "sha256": "f6ef90c4404d8444a1d139e613d1b9e9891ba84545860b318543ca5cc9fc6867"
+    },
+    {
+      "path": "配图/图4_使用路径.svg",
+      "bytes": 5271,
+      "sha256": "9827efae9425096be51cfa64c260968d8d538717eff4baefb1c025a538091ab6"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 1444771,
+      "sha256": "0d3a7990e765c12eb2f547074a7ee092686b934fe8f893011d19f5d05544789b"
+    },
+    {
+      "path": "配图/封面_方版模板.png",
+      "bytes": 38054,
+      "sha256": "ffced69bbdc7eddd594682164ea11cd975f5d1ced70f70843448744cd89d9960"
+    },
+    {
+      "path": "配图/封面_方版模板.svg",
+      "bytes": 1601,
+      "sha256": "84970e8c9e81fdad314966edb1ec4250352d0041c1d7be15abd67f208cce21af"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 1336665,
+      "sha256": "56bad6e84b0f187dd37d65219ba3e17ba2b9c49fccd011af0b50277f69970047"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 39424,
+      "sha256": "219fd05d61d52f84635305e76e08fc5f91790d54573203c6fa6b412319584de0"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 1609,
+      "sha256": "5dba1614e403c7987355a7ed3f688a563dd0bac9e3029b8466e405d998843b8a"
+    },
+    {
+      "path": "配套资料/WorkBuddy提示词100例.html",
+      "bytes": 32076,
+      "sha256": "af9b20ceb45b78ba7118a7c650c155fdbdc3303d338a57e7432b2165b5f490a0"
+    },
+    {
+      "path": "配套资料/WorkBuddy提示词100例.md",
+      "bytes": 26260,
+      "sha256": "e23fba522db7047f07c00f543ce85fd8594500bd672a3faef705b932fba52d3f"
+    },
+    {
+      "path": "配套资料/WorkBuddy提示词100例.xlsx",
+      "bytes": 19850,
+      "sha256": "f1b821441c94eb8a7c15635ba149abde205586f4d94349a4de6783eeab26e620"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

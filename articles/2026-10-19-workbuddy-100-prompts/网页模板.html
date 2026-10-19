@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WorkBuddy 提示词 100 例</title>
+<style>
+:root{--bg:#FAFAFE;--card:#FFFFFF;--ink:#202B54;--muted:#5D6485;--indigo:#4457C4;--coral:#DB655A;--line:#E4E6F1;--mark:#FBE7E4}
+@media (prefers-color-scheme:dark){:root{--bg:#141831;--card:#1E2340;--ink:#E8EAF6;--muted:#A3A9C9;--indigo:#8C9BEF;--coral:#F08E84;--line:#30365A;--mark:#4A2C33}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Microsoft YaHei","PingFang SC",sans-serif;line-height:1.7}
+header{max-width:960px;margin:0 auto;padding:32px 16px 8px}
+h1{margin:0 0 6px;font-size:28px}
+header p{margin:0;color:var(--muted);font-size:14px}
+.bar{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar-in{max-width:960px;margin:0 auto;padding:12px 16px;display:flex;flex-direction:column;gap:10px}
+input{width:100%;padding:10px 14px;font-size:16px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 12px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--indigo);border-color:var(--indigo);color:#fff}
+main{max-width:960px;margin:0 auto;padding:12px 16px 48px}
+.count{color:var(--muted);font-size:13px;margin:4px 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}
+.top{display:flex;align-items:center;gap:10px}
+.no{font-weight:700;color:var(--coral);font-variant-numeric:tabular-nums}
+.t{font-weight:700;flex:1}
+.cat{font-size:12px;color:var(--muted)}
+.p{margin:8px 0 0;font-size:15px;white-space:pre-wrap;word-break:break-word}
+.p mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 2px}
+button.copy{flex:none;border:0;background:var(--indigo);color:#fff;border-radius:8px;padding:5px 12px;font-size:13px;cursor:pointer}
+button.copy.done{background:var(--coral)}
+footer{max-width:960px;margin:0 auto;padding:0 16px 32px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<header>
+<h1>WorkBuddy 提示词 100 例</h1>
+<p id="usage"></p>
+</header>
+<div class="bar"><div class="bar-in">
+<input id="q" type="search" placeholder="搜索：周报、表格、发票、定时……" aria-label="搜索提示词">
+<div class="chips" id="chips"></div>
+</div></div>
+<main>
+<div class="count" id="count"></div>
+<div id="list"></div>
+</main>
+<footer>可以叫我才哥 · 粉色高亮的【】是需要换成自己内容的地方</footer>
+<script>
+const LIB=/*DATA*/null;
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const rows=LIB.categories.flatMap(c=>c.prompts.map(p=>({...p,cat:c.name,cid:c.id})));
+let cur=0;
+document.getElementById('usage').textContent=LIB.usage;
+const chips=document.getElementById('chips');
+[{id:0,name:'全部'},...LIB.categories].forEach(c=>{
+  const b=document.createElement('button');b.className='chip'+(c.id===0?' on':'');b.textContent=c.name;
+  b.onclick=()=>{cur=c.id;[...chips.children].forEach(x=>x.classList.remove('on'));b.classList.add('on');render()};
+  chips.appendChild(b);
+});
+function render(){
+  const q=document.getElementById('q').value.trim();
+  const hit=rows.filter(r=>(cur===0||r.cid===cur)&&(!q||(r.title+r.prompt+r.cat).includes(q)));
+  document.getElementById('count').textContent=`共 ${hit.length} 条`;
+  document.getElementById('list').innerHTML=hit.map(r=>`<div class="card"><div class="top"><span class="no">${String(r.id).padStart(2,'0')}</span><span class="t">${esc(r.title)}</span><span class="cat">${esc(r.cat)}</span><button class="copy" data-id="${r.id}">复制</button></div><p class="p">${esc(r.prompt).replace(/【[^】]*】/g,m=>'<mark>'+m+'</mark>')}</p></div>`).join('');
+}
+document.getElementById('q').addEventListener('input',render);
+document.getElementById('list').addEventListener('click',async e=>{
+  const b=e.target.closest('button.copy');if(!b)return;
+  const text=rows.find(r=>r.id==b.dataset.id).prompt;
+  try{await navigator.clipboard.writeText(text)}catch(err){const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}
+  b.textContent='已复制';b.classList.add('done');setTimeout(()=>{b.textContent='复制';b.classList.remove('done')},1500);
+});
+render();
+</script>
+</body>
+</html>

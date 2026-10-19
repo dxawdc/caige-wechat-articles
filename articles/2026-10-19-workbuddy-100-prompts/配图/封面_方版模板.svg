@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><rect width="100%" height="100%" fill="#FAFAFE"/>
+<rect x="84" y="80" width="110" height="12" rx="6" fill="#DB655A"/>
+<text x="84" y="124" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="50" font-weight="700" fill="#4457C4">WorkBuddy</text>
+<text x="84" y="214" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="104" font-weight="700" fill="#202B54">100 个提示词</text>
+<text x="84" y="364" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="88" font-weight="700" fill="#DB655A">复制就能用</text>
+<rect x="150" y="620" width="520" height="330" rx="26" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="196" y="666" width="520" height="330" rx="26" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="242" y="712" width="520" height="330" rx="26" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="282" y="758" width="150" height="18" rx="9" fill="#4457C4"/>
+<rect x="282" y="816" width="380" height="14" rx="7" fill="#E4E6F1"/>
+<rect x="542" y="810" width="120" height="26" rx="8" fill="#DB655A"/>
+<rect x="282" y="866" width="420" height="14" rx="7" fill="#E4E6F1"/>
+<rect x="282" y="916" width="300" height="14" rx="7" fill="#E4E6F1"/>
+<rect x="432" y="910" width="150" height="26" rx="8" fill="#DB655A"/>
+<rect x="282" y="966" width="360" height="14" rx="7" fill="#E4E6F1"/>
+</svg>

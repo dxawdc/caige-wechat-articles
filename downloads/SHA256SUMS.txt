@@ -42,3 +42,4 @@ ce1871db100d8a69df91d30c14886a57fc094acd5e15f63be451aec03ef37443  03-login-strea
 a09f6062d6cbd33d3a1e991d045fc972de61aad3b66f2bf26fb41b58dd90c2c3  workbuddy-skill-selection_v1.0.0.zip
 3377e9700737b733144a5322c9bc43fb22b2b8e19c094b2947de59587a1d78bb  how-to-live-better_v1.0.0.zip
 b8609c2ccc06ed8ec8aee41da624705e1a076142f0deedc28995cd14588dc0fe  free-data-website_v1.0.0.zip
+c9c7957da89b5998590459f29c6eefd630caee61d1baff8064ed80ad348e7f96  workbuddy-100-prompts_v1.0.0.zip

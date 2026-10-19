@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "policy": "latest-complete-set-only",
   "items": [
     {
@@ -442,6 +442,16 @@
       "manifest": "物料清单_v1.0.0.json",
       "download": "downloads/free-data-website_v1.0.0.zip",
       "summary": "免费起步的数据网站与 AI 建站 Skill"
+    },
+    {
+      "id": "workbuddy-100-prompts",
+      "title": "不会给 WorkBuddy 派活？100 个能直接复制的提示词",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-19-workbuddy-100-prompts",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/workbuddy-100-prompts_v1.0.0.zip",
+      "summary": "10类100条WorkBuddy提示词：可搜索一键复制的网页、Excel与Markdown清单、4张示意图"
     }
   ]
 }

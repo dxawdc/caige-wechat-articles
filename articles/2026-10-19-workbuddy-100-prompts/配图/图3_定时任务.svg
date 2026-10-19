@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1300" viewBox="0 0 1200 1300"><rect width="100%" height="100%" fill="#FAFAFE"/>
+<rect x="64" y="56" width="96" height="10" rx="5" fill="#DB655A"/>
+<text x="64" y="92" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="58" font-weight="700" fill="#202B54">定时任务的提示词要写全</text>
+<text x="66" y="176" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#5D6485">它运行时看不到你当前的对话</text>
+<rect x="64" y="250" width="1072" height="166" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<circle cx="124" cy="333" r="34" fill="#4457C4"/>
+<text x="112" y="311" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">1</text>
+<text x="190" y="282" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">去哪里找</text>
+<text x="190" y="348" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">联网搜索、某个网址，或工作空间里的文件</text>
+<rect x="64" y="440" width="1072" height="166" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<circle cx="124" cy="523" r="34" fill="#9471BE"/>
+<text x="112" y="501" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">2</text>
+<text x="190" y="472" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">找什么范围</text>
+<text x="190" y="538" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">过去 24 小时、本周修改过的、前 10 个</text>
+<rect x="64" y="630" width="1072" height="166" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<circle cx="124" cy="713" r="34" fill="#DB655A"/>
+<text x="112" y="691" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">3</text>
+<text x="190" y="662" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">输出成什么样</text>
+<text x="190" y="728" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">几条、什么字段、存成什么文件</text>
+<rect x="64" y="820" width="1072" height="166" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<circle cx="124" cy="903" r="34" fill="#202B54"/>
+<text x="112" y="881" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">4</text>
+<text x="190" y="852" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">特殊情况怎么办</text>
+<text x="190" y="918" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">没有变化写“无变化”，不删除任何文件</text>
+<rect x="64" y="1040" width="1072" height="130" rx="20" fill="#EEF0FB"/>
+<text x="96" y="1066" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#4457C4">执行时间填在定时规则里，不用写进提示词</text>
+<text x="96" y="1116" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5D6485">电脑上的 WorkBuddy 客户端保持运行，任务才会按时触发</text>
+<path d="M 64 1208 L 1136 1208" fill="none" stroke="#E4E6F1" stroke-width="2"/>
+<text x="64" y="1236" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5D6485">WorkBuddy 提示词 100 例 · 示意图</text>
+<text x="960" y="1236" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#4457C4">可以叫我才哥</text>
+</svg>
