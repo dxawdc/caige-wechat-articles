@@ -44,3 +44,4 @@ a09f6062d6cbd33d3a1e991d045fc972de61aad3b66f2bf26fb41b58dd90c2c3  workbuddy-skil
 b8609c2ccc06ed8ec8aee41da624705e1a076142f0deedc28995cd14588dc0fe  free-data-website_v1.0.0.zip
 c9c7957da89b5998590459f29c6eefd630caee61d1baff8064ed80ad348e7f96  workbuddy-100-prompts_v1.0.0.zip
 e9af9dd2925ba872d6c0fb373ce72156f1079792bb4173cb45c26030f2bffe58  workbuddy-11-skills_v1.0.0.zip
+0236e021326d9fd01a37acfb0d67e85f5cc1bfdd77da9c5da7415898829ad12b  ai-workday-comic.zip

@@ -1,0 +1,82 @@
+{
+  "id": "ai-workday-comic",
+  "version": "v1.0.0",
+  "updated": "2026-10-21",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1661,
+      "sha256": "2b7cb2f672c7932bbb667ba2272abd0eff4bb3b501b606f37a650e29f35b03a1"
+    },
+    {
+      "path": "分镜与制作说明.txt",
+      "bytes": 2730,
+      "sha256": "37261dfa368df8cf6559e6692c528143e036d177b9ef9e6212080b6df5f89699"
+    },
+    {
+      "path": "生成提示词.txt",
+      "bytes": 12995,
+      "sha256": "b646c34bc5c75d8399f5465cf56b268a387ef9137de460cfbb8984dff8129dfd"
+    },
+    {
+      "path": "封面生成提示词.txt",
+      "bytes": 3429,
+      "sha256": "40b28630c638e265cc50a76b7d4a319f99f2eedbe1d13492324a3981790f6482"
+    },
+    {
+      "path": "标题与封面说明.txt",
+      "bytes": 1315,
+      "sha256": "1ea7d3eb6122de69902b53f2c94976ff97a5622fee5230e6615a18055628005c"
+    },
+    {
+      "path": "生成封面模板.py",
+      "bytes": 2361,
+      "sha256": "679afd3221b533a09578c8a59ebf81e5fca6a622c9527e4dd419859f88080f78"
+    },
+    {
+      "path": "01_从起床开始.png",
+      "bytes": 1927713,
+      "sha256": "fa7c23c405467b338bb47ebab1541b9e1ce089d2f519b2d8a62e6188aff6c0a1"
+    },
+    {
+      "path": "02_等一会到底是多久.png",
+      "bytes": 1854271,
+      "sha256": "cfc86a38871398120946ec8a4dc393c8d35984d01ae27ebf004cc734d5047234"
+    },
+    {
+      "path": "03_下班了还没下线.png",
+      "bytes": 1927954,
+      "sha256": "d3637c2f0f5c3ddd92414053d834b1a8db5781bfafaf6eaff95bd536fd8b302b"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 1555532,
+      "sha256": "ad62b6918c9599ca07057b85601e3cc43721d22fae9cd082be5ffcb941116269"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 1622449,
+      "sha256": "1f791143dacc71b25d1ccd1ff896e936f5039ec5e3858a5930f65b80f4742e1f"
+    },
+    {
+      "path": "配图/封面模板_横版.svg",
+      "bytes": 1599,
+      "sha256": "bebf79b7fa9a3ac4325af83e0a46cf4186f593c89e2b9945061e9a0329d0c1ef"
+    },
+    {
+      "path": "配图/封面模板_方版.svg",
+      "bytes": 1602,
+      "sha256": "a2b36955b310ec6c9c7946972cad3c4dd5e767c7a3254655076b9321fc0875f4"
+    },
+    {
+      "path": "配图/封面模板_横版.png",
+      "bytes": 49105,
+      "sha256": "d19cf4647bf96cd5d0de639619dd53c27ffc305b3d45837e1b4019b9bfcbb189"
+    },
+    {
+      "path": "配图/封面模板_方版.png",
+      "bytes": 49842,
+      "sha256": "2fb0fb2d0236cc5b97f39790d658b826e6588a91a5cadca44db26d303b32046f"
+    }
+  ]
+}

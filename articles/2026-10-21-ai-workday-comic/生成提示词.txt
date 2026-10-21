@@ -1,0 +1,66 @@
+Use case: style-transfer.
+Redraw this comic in a COMPLETELY DIFFERENT visual language: witty minimalist newspaper gag cartoon, cute rounded three-head-tall adult office worker, simple black hair as ONE solid silhouette with three tufts, large round spectacles, tiny dot eyes, very expressive eyebrows and mouths, thick clean slightly wobbly black outlines, flat muted pastel blocks, white/ivory negative space. Hand-drawn 2D editorial humor. NO realistic shading, NO gradients, NO detailed individual hair strands, NO watercolor textures, NO anime rendering, NO photographic or cinematic rooms, NO complex architecture. Simple furniture silhouettes only, 2 to 4 props per panel. Protagonist teal top at work and plain yellow pajamas at home. Left side warm pale yellow, right side pale lilac. Large bold clean typeset-looking simplified Chinese inside white spacious balloons, avoid brush calligraphy. Show character emotions clearly through readable side profiles and silhouette posture, with tiny cartoon sweat drop or excitement mark when appropriate.
+Keep exactly SIX panels in TWO columns and THREE rows, portrait 2:3. Preserve story and verbatim text, not original illustration detail. Leave generous gutters and wide margins. Laptop geometry MUST be physically sensible: user on keyboard side facing inner screen; when screen is readable use side-rear three-quarter shot, NEVER frontal person behind a front-facing screen. Screen beyond keyboard, elbows close to body, wrists straight, simple relaxed cartoon hands attached to correct forearms. Two arms per person, no detached hands, no backwards thumbs, no exaggerated knotted fingers. Simple 4-finger cartoon hands (three fingers and thumb) are acceptable consistently, with clear left/right orientation. Use restrained composition, readable at mobile size. Do not recreate detailed visual style of original reference.
+
+Reference image is STORY/LAYOUT REFERENCE, NOT the desired drawing style.
+Page 1 exact main title “有了 AI，我更忙了？”
+Subtitle “01｜从起床开始”. Left column “没有 AI”; right column “有了 AI”. Footer “1 / 3”.
+Top-left caption “07:00 起床”. Two small simple vignettes of cooking egg then eating toast, cheerful calm worker in plain yellow pajamas. Bubble “先吃早饭。”
+Top-right caption “07:00 起床”. Worker in yellow pajamas looking at laptop with eager leaning posture, side-rear angle. Bubble “昨晚的任务跑完了吗？” Screen has ONLY “Codex”, “WorkBuddy”, “Claude Code” and 3 graphical progress bars, no other text.
+Middle-left caption “08:00 出门”. Teal-shirted worker relaxed walking out with small shoulder bag, bubble “吃饱了，上班。”
+Middle-right caption “08:00 出门”. Same worker wearing bag turns back toward laptop at home desk, reaches comfortably to keyboard from user side, second hand hangs at side. Bubbles “接着做下一步。” and “等结果出来，我就走。” Simple chat graphics, no screen text.
+Bottom-left caption “09:00 开工”. Worker at office desk facing laptop, thinks with furrowed eyebrows, ordinary typing pose, no hand on chin. Bubble “想清楚，再一字字写。” Screen document represented by grey lines.
+Bottom-right caption “09:00 开工”. Same worker typing at one laptop with TWO side-by-side chat panes, engrossed, a tiny excitement symbol. Two large balloons EXACT “调研某产品近一周动态和用户舆情，整理成分析报告。” and “你来处理另一件事。” Screen headers ONLY “调研” and “其他事务”. Arms naturally supported on desk.
+NO unlisted text, decorative labels or invented notes. The whole page must immediately look like a fresh minimalist cute humorous comic, dramatically simpler than reference.
+
+======== NEXT PROMPT ========
+
+第 1 页局部修正：
+Edit ONLY the BOTTOM-LEFT PANEL of this comic. Preserve the entire rest of image pixel-for-pixel as much as possible, including all typography, layout, characters, colors and all other panels. In bottom-left scene the laptop is physically impossible: we currently see document content on the exterior BACK of the lid while worker sits behind it. Correct ONLY laptop LID in this panel: keep its outline, hinge, perspective, current screen orientation, keyboard and character where they are. Replace the white document graphic on its visible outer lid with a plain solid DARK GRAY OPAQUE BACK COVER, with at most a small simple circular hardware logo in center. There must be NO luminous screen, NO white document and NO text on the visible outer back lid. The real illuminated INNER SCREEN faces the worker and is invisible to camera. Worker sees inner screen; viewer sees outer lid. Do not rotate the computer, do not move the worker, do not change his hands. Same minimalist cute cartoon style. Keep exact title, subtitles and every balloon verbatim. ALL OTHER FIVE PANELS UNCHANGED.
+
+======== NEXT PROMPT ========
+
+Use case: style-transfer.
+Redraw this comic in a COMPLETELY DIFFERENT visual language: witty minimalist newspaper gag cartoon, cute rounded three-head-tall adult office worker, simple black hair as ONE solid silhouette with three tufts, large round spectacles, tiny dot eyes, very expressive eyebrows and mouths, thick clean slightly wobbly black outlines, flat muted pastel blocks, white/ivory negative space. Hand-drawn 2D editorial humor. NO realistic shading, NO gradients, NO detailed individual hair strands, NO watercolor textures, NO anime rendering, NO photographic or cinematic rooms, NO complex architecture. Simple furniture silhouettes only, 2 to 4 props per panel. Protagonist teal top at work and plain yellow pajamas at home. Left side warm pale yellow, right side pale lilac. Large bold clean typeset-looking simplified Chinese inside white spacious balloons, avoid brush calligraphy. Show character emotions clearly through readable side profiles and silhouette posture, with tiny cartoon sweat drop or excitement mark when appropriate.
+Keep exactly SIX panels in TWO columns and THREE rows, portrait 2:3. Preserve story and verbatim text, not original illustration detail. Leave generous gutters and wide margins. Laptop geometry MUST be physically sensible: user on keyboard side facing inner screen; when screen is readable use side-rear three-quarter shot, NEVER frontal person behind a front-facing screen. Screen beyond keyboard, elbows close to body, wrists straight, simple relaxed cartoon hands attached to correct forearms. Two arms per person, no detached hands, no backwards thumbs, no exaggerated knotted fingers. Simple 4-finger cartoon hands (three fingers and thumb) are acceptable consistently, with clear left/right orientation. Use restrained composition, readable at mobile size. Do not recreate detailed visual style of original reference.
+
+Input image 1: source PAGE 2 story/layout/text, to restyle.
+Input image 2: approved NEW PAGE 1 DRAWING STYLE reference. Match the simpler rounded faces, black silhouette hair, bold lines, flat color and spacious clean cartoon style of IMAGE 2. Do NOT copy its story or any backwards laptop rendering.
+PAGE 2 exact text and story:
+Main title “有了 AI，我更忙了？” subtitle “02｜等一会，到底是多久”.
+Column headers “没有 AI” and “有了 AI”. Footer “2 / 3”.
+Top row captions “领导催进度”.
+Left: same worker with round glasses at laptop, boss standing beside. Boss “什么时候能交？” worker “一天后交付。” Worker hands naturally resting on desk, no chin-resting. Rear three-quarter computer view.
+Right: boss “什么时候能交？” worker looking at progress and saying “等一会。” Laptop inner screen text “正在生成报告…” and bar. Rear three-quarter camera, both worker and camera face screen, not screen exterior.
+Middle row captions “临时合表”.
+Left: worker has completed spreadsheet, relaxed seated pose with hands at keyboard, no thumbs-up. Screen “VLOOKUP”, green tick, simple grid. Bubble “合好了。”
+Right: worker waits, slumped shoulders, hands naturally on tabletop, no cheek-resting. Screen prompt “帮我把 A 表和 B 表合一下。” below “思考中…” with spinner. Thought “以前是不是一下就好了？”
+Bottom captions “午饭 / 晚饭”.
+Left: worker eating meal at table, simple natural chopstick grip or spoon with anatomical hand, happy. “到点，吃饭。”
+Right: work bag on worker, meal tray resting on desk to side, worker sends last task from keyboard side. “再给你一个任务，我去吃饭。” Plain graphic chat screen only.
+Never draw content on backside of laptop lid. Whenever viewer can see full face from front, laptop exterior facing viewer must be plain dark grey; screen contents only in rear-three-quarter scenes. No extra text, no tiny labels. Exactly six panels.
+
+======== NEXT PROMPT ========
+
+Use case: style-transfer.
+Redraw this comic in a COMPLETELY DIFFERENT visual language: witty minimalist newspaper gag cartoon, cute rounded three-head-tall adult office worker, simple black hair as ONE solid silhouette with three tufts, large round spectacles, tiny dot eyes, very expressive eyebrows and mouths, thick clean slightly wobbly black outlines, flat muted pastel blocks, white/ivory negative space. Hand-drawn 2D editorial humor. NO realistic shading, NO gradients, NO detailed individual hair strands, NO watercolor textures, NO anime rendering, NO photographic or cinematic rooms, NO complex architecture. Simple furniture silhouettes only, 2 to 4 props per panel. Protagonist teal top at work and plain yellow pajamas at home. Left side warm pale yellow, right side pale lilac. Large bold clean typeset-looking simplified Chinese inside white spacious balloons, avoid brush calligraphy. Show character emotions clearly through readable side profiles and silhouette posture, with tiny cartoon sweat drop or excitement mark when appropriate.
+Keep exactly SIX panels in TWO columns and THREE rows, portrait 2:3. Preserve story and verbatim text, not original illustration detail. Leave generous gutters and wide margins. Laptop geometry MUST be physically sensible: user on keyboard side facing inner screen; when screen is readable use side-rear three-quarter shot, NEVER frontal person behind a front-facing screen. Screen beyond keyboard, elbows close to body, wrists straight, simple relaxed cartoon hands attached to correct forearms. Two arms per person, no detached hands, no backwards thumbs, no exaggerated knotted fingers. Simple 4-finger cartoon hands (three fingers and thumb) are acceptable consistently, with clear left/right orientation. Use restrained composition, readable at mobile size. Do not recreate detailed visual style of original reference.
+
+Input image 1: source PAGE 3 story/layout/text, to restyle.
+Input image 2: approved NEW PAGE 1 DRAWING STYLE reference. Match simpler rounded faces, black silhouette hair, bold lines, pastel color and spacious clean cartoon style of IMAGE 2. Do not copy its scenes.
+PAGE 3 exact text and story:
+Main title “有了 AI，我更忙了？” subtitle “03｜下班了，还没下线”.
+Column headers “没有 AI” and “有了 AI”. Footer “3 / 3”.
+Top row captions “回到家”.
+Left: relaxed worker on sofa looking toward TV, rear side angle, both hands naturally holding gamepad, TV in front of him shows a simple colorful game. Bubble “终于可以放松了。”
+Right: teal-shirt worker at home laptop in rear-three-quarter pose, work bag next to chair. Bubbles “早上那个任务怎么样了？” and “接下来，再做这个。” Simple graphic UI blocks only.
+Middle row captions “睡前”.
+Left: worker in yellow pajamas, eyes happily closed, stretching in bed, simple natural shoulder-elbow-hand chains, glasses on bedside table, gamepad put aside. “困了，睡觉。”
+Right: yellow-pajama worker with glasses at home laptop, excited rear-side pose, forearms supported, hands relaxed at keyboard. Four graphic chat panes on laptop. Flat graphical detail inset with precise text “剩余额度 80%” and “明日重置”, bar 80 percent green. Bubbles “明天重置？别浪费！” and “再开几个，一起跑！”
+Bottom row captions “睡着以后”.
+Left: worker in yellow pajamas peacefully asleep in bed, NO glasses on face, glasses on bedside table. Dream of sun and clouds, “Zzz”.
+Right: worker asleep in yellow pajamas with tiny sweat mark, NO glasses on sleeping face, glasses on bedside table. Dream bubble has three simple cards each “任务已完成” and green tick; mini cartoon worker writing a task checklist with only grey lines. Dream dialogue “这么快？我再想个任务…”
+Final TWO bold lines below panels:
+“以前下班就下班了，”
+“现在睡着了还在派活。”
+No unlisted text, no extra fingers or limbs. Clear anatomical hands and correct computer/TV viewing directions.

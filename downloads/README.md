@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [有了AI，我怎么更忙了？](../articles/2026-10-21-ai-workday-comic/README.md) | v1.0.0 | [ai-workday-comic.zip](ai-workday-comic.zip) | 7.84 MB |
 | [芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18](../articles/2026-10-18-global-ai-weekly/README.md) | v1.0.0 | [global-ai-weekly-1018.zip](global-ai-weekly-1018.zip) | 2.65 MB |
 | [光伏拿10年亏3%，做波段赚194%；半导体正好反过来：32个A股指数回测10年](../articles/2026-10-17-a-share-band-trading/README.md) | v1.0.0 | [a-share-band-trading.zip](a-share-band-trading.zip) | 5.56 MB |
 | [全球7级大震每年约13次，50年没变：为什么今年感觉地震特别多？](../articles/2026-10-16-earthquake-frequency/README.md) | v1.2.0 | [earthquake-frequency.zip](earthquake-frequency.zip) | 10.57 MB |

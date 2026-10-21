@@ -4,6 +4,16 @@
   "policy": "latest-complete-set-only",
   "items": [
     {
+      "id": "ai-workday-comic",
+      "title": "有了AI，我怎么更忙了？",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-21-ai-workday-comic",
+      "manifest": "物料清单.json",
+      "download": "downloads/ai-workday-comic.zip",
+      "summary": "三页十八格AI办公对照漫画、分镜与生成提示词、横版和方版封面、可编辑SVG模板及生成脚本"
+    },
+    {
       "id": "global-ai-weekly-1018",
       "title": "芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18",
       "kind": "article",
