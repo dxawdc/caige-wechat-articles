@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "policy": "latest-complete-set-only",
   "items": [
     {
@@ -452,6 +452,16 @@
       "manifest": "物料清单_v1.0.0.json",
       "download": "downloads/workbuddy-100-prompts_v1.0.0.zip",
       "summary": "10类100条WorkBuddy提示词：可搜索一键复制的网页、Excel与Markdown清单、4张示意图"
+    },
+    {
+      "id": "workbuddy-11-skills",
+      "title": "WorkBuddy 好用的 11 个技能：先装这 3 个，再串成一条流水线",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-21-workbuddy-11-skills",
+      "manifest": "物料清单_v1.0.0.json",
+      "download": "downloads/workbuddy-11-skills_v1.0.0.zip",
+      "summary": "官方推荐9个免费技能+2个去AI味写作技能：技能清单（Excel/Markdown）、3张示意图"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**45篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**46篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
 <!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
 
@@ -10,6 +10,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [WorkBuddy 好用的 11 个技能：先装这 3 个，再串成一条流水线](articles/2026-10-21-workbuddy-11-skills/README.md) · v1.0.0 | WorkBuddy 官方推荐的 9 个免费技能与 2 个去 AI 味写作技能：安装名、来源、可复制的说法与注意事项（Excel/Markdown）、3 张示意图与源码 | [ZIP](downloads/workbuddy-11-skills_v1.0.0.zip) |
 | [收藏备用！WorkBuddy 100条实用提示词【支持下载】](articles/2026-10-19-workbuddy-100-prompts/README.md) · v1.0.0 | 写作、办公文件、表格、文件整理、调研、学习、创作、定时任务、生活与用好 WorkBuddy 10类100条提示词；可搜索一键复制的网页、Excel 与 Markdown 清单、4张示意图与源码 | [ZIP](downloads/workbuddy-100-prompts_v1.0.0.zip) |
 | [Opus 5.5 同款代码视频：在 WorkBuddy 里一句话出片，9 种画风与技能本体](articles/2026-10-18-code-video/README.md) · v1.1.0 | code-video 技能本体（film 运行时、九种技术栈文档、一键安装）、九种技术栈各一个 8 秒演示工程、九张演示动图与 GIF 生成脚本 | [ZIP](downloads/code-video-samples_v1.1.0.zip) |
 | [游戏公司半年报：24家公司营收涨了18%，增量从哪里来？](articles/2026-09-23-game-company-h1-2026/README.md) · v1.0.0 | 24家A股上市游戏公司2026半年报数据、142条候选池、员工人效与产品提及整理、分析脚本与 10 张图表 | [ZIP](downloads/game-company-h1-2026_v1.0.0.zip) |

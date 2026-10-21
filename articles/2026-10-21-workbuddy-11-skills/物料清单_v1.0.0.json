@@ -1,0 +1,110 @@
+{
+  "id": "workbuddy-11-skills",
+  "version": "v1.0.0",
+  "updated": "2026-10-21",
+  "entrypoint": "配套资料/WorkBuddy好用技能11个.xlsx",
+  "basic": "README.md",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1817,
+      "sha256": "363ca7dd3dcb79ea34942e72a83745af72098d25eb9171c7d9769cf9ce977433"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 16,
+      "sha256": "736c089094daa0849a4b4a470bf26e8e54b454ab05cb2c1645e390ebd6807c6d"
+    },
+    {
+      "path": "封面设计说明.md",
+      "bytes": 3934,
+      "sha256": "6929eb8122e6819463216809a8ecb07312f97beaf48186f3570f850aa7327b38"
+    },
+    {
+      "path": "技能清单.json",
+      "bytes": 7026,
+      "sha256": "da2f9624a391adfd7d6d48cdd919ed0f2ebb2b1d0c0556caf96a38a5963fcc1f"
+    },
+    {
+      "path": "生成配图.py",
+      "bytes": 7568,
+      "sha256": "65ee2f0a6484d5a5e0ae62ad5554e0758b3effdaf326d90d483ead426afde1df"
+    },
+    {
+      "path": "生成配套资料.py",
+      "bytes": 2119,
+      "sha256": "352ed3213461c12dded3e63028a82e1eca0c58e82ee4c6fe37838be767a4cc68"
+    },
+    {
+      "path": "配图/图1_技能总览.png",
+      "bytes": 158830,
+      "sha256": "3aedd2544f087bee1e7328b0512fbb4f339e61aaf01d8e4da289cc73db47b69b"
+    },
+    {
+      "path": "配图/图1_技能总览.svg",
+      "bytes": 9822,
+      "sha256": "8081034e601c95eb66356e6bf6829b62578f98a64ee5726c6ea04d426e1b8329"
+    },
+    {
+      "path": "配图/图2_安装顺序.png",
+      "bytes": 106251,
+      "sha256": "be17d49c75b853be0a8d4ce82cbc8cc34bf4c0a1ae6debb160ff749271b5a92e"
+    },
+    {
+      "path": "配图/图2_安装顺序.svg",
+      "bytes": 4464,
+      "sha256": "c5bfc73675b132c7938683fb091be1400be2edccff79b0cd514d223e68b60a2f"
+    },
+    {
+      "path": "配图/图3_内容流水线.png",
+      "bytes": 172945,
+      "sha256": "16394e2d88dec2d44adcbfc7a98aee690358e54a9a86d67bb73cfe1b9585017b"
+    },
+    {
+      "path": "配图/图3_内容流水线.svg",
+      "bytes": 10108,
+      "sha256": "93405d6131116ecbd3c047f421465f2fa187b3b00b8961e49c9f12ad0e778f19"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 1038097,
+      "sha256": "fa29e42d0f0f7f9a6c310a499e310a9ef84ea9020bfb82bfc869eab5946c1475"
+    },
+    {
+      "path": "配图/封面_方版模板.png",
+      "bytes": 41485,
+      "sha256": "a5d851f845a6508537dc77d6328b95bad8c18ceccb366524170ddf00a9bf3196"
+    },
+    {
+      "path": "配图/封面_方版模板.svg",
+      "bytes": 1855,
+      "sha256": "7506e2e813753fa78c1015cdcf693348c6b62af24176f863337e6cca001a909f"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 1267726,
+      "sha256": "8c8c9fdf5668e54ce508260eb0323e3d49a185418f40e9b4b7f597963ed96883"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 44943,
+      "sha256": "6cdd2937436034dff819f3c80f6e8b239018a7a17c84b9bf3ec1d4d3e1591f7a"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 1865,
+      "sha256": "4f5f69bef9e332c26e957d9a65998f4830fd42236781098ef59c7226b875f36f"
+    },
+    {
+      "path": "配套资料/WorkBuddy好用技能11个.md",
+      "bytes": 6705,
+      "sha256": "44f5848a3cfa30127b4d130e2b9d44672c9d798264c856080d35efbae12ad6fc"
+    },
+    {
+      "path": "配套资料/WorkBuddy好用技能11个.xlsx",
+      "bytes": 8747,
+      "sha256": "20041b99e70553aaf838c8b31c3266dc8468fe72fc3ca2daf4fe4997ab2b7d88"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1220" viewBox="0 0 1200 1220"><rect width="100%" height="100%" fill="#FAFAFE"/>
+<rect x="64" y="56" width="96" height="10" rx="5" fill="#DB655A"/>
+<text x="64" y="92" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="58" font-weight="700" fill="#202B54">找、查、装、记</text>
+<text x="66" y="176" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="400" fill="#5D6485">装任何技能，都可以按这个顺序</text>
+<rect x="64" y="250" width="1072" height="180" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="92" y="290" width="100" height="100" rx="22" fill="#4457C4"/>
+<text x="118" y="308" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">找</text>
+<text x="226" y="286" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">Find Skills</text>
+<text x="226" y="354" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">说出要做的事，让它列候选、讲区别</text>
+<path d="M 142 430 L 142 456" fill="none" stroke="#E4E6F1" stroke-width="4"/>
+<rect x="64" y="456" width="1072" height="180" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="92" y="496" width="100" height="100" rx="22" fill="#9471BE"/>
+<text x="118" y="514" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">查</text>
+<text x="226" y="492" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">Skill Scanner</text>
+<text x="226" y="560" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">看它读写哪些目录、会不会联网、依赖什么</text>
+<path d="M 142 636 L 142 662" fill="none" stroke="#E4E6F1" stroke-width="4"/>
+<rect x="64" y="662" width="1072" height="180" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="92" y="702" width="100" height="100" rx="22" fill="#DB655A"/>
+<text x="118" y="720" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">装</text>
+<text x="226" y="698" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">自己确认后再安装</text>
+<text x="226" y="766" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">装好先做一件小事，打开结果看看</text>
+<path d="M 142 842 L 142 868" fill="none" stroke="#E4E6F1" stroke-width="4"/>
+<rect x="64" y="868" width="1072" height="180" rx="20" fill="#FFFFFF" stroke="#E4E6F1" stroke-width="2"/>
+<rect x="92" y="908" width="100" height="100" rx="22" fill="#202B54"/>
+<text x="118" y="926" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">记</text>
+<text x="226" y="904" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="40" font-weight="700" fill="#202B54">self-improvement</text>
+<text x="226" y="972" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#5D6485">纠正过的偏好记下来，下次少说一遍</text>
+<path d="M 64 1128 L 1136 1128" fill="none" stroke="#E4E6F1" stroke-width="2"/>
+<text x="64" y="1156" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="400" fill="#5D6485">WorkBuddy 好用的 11 个技能 · 示意图</text>
+<text x="960" y="1156" dominant-baseline="text-before-edge" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#4457C4">可以叫我才哥</text>
+</svg>
