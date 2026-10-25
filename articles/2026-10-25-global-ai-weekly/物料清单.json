@@ -1,12 +1,12 @@
 {
   "id": "2026-10-25-global-ai-weekly",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "updated": "2026-10-25",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2756,
-      "sha256": "5a9d14aaa203c0c6d23715d96c1995ddc67850bca2b0e76004faa1361be0d396"
+      "bytes": 2777,
+      "sha256": "6efe2c42b468a4bc91c48c16040592813cdbbb3c1064d5a6422a45cbfe273156"
     },
     {
       "path": "requirements.txt",

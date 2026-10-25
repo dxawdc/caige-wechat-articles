@@ -4,7 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
-| [MiniMax降本、Kimi升级｜全球AI周报10.25](../articles/2026-10-25-global-ai-weekly/README.md) | v1.0.1 | [global-ai-weekly-1025.zip](global-ai-weekly-1025.zip) | 4.24 MB |
+| [国产AI连出三招：降本、开源、升级｜全球AI周报10.25](../articles/2026-10-25-global-ai-weekly/README.md) | v1.0.2 | [global-ai-weekly-1025.zip](global-ai-weekly-1025.zip) | 4.24 MB |
 | [有了AI，我怎么更忙了？](../articles/2026-10-21-ai-workday-comic/README.md) | v1.0.0 | [ai-workday-comic.zip](ai-workday-comic.zip) | 7.84 MB |
 | [芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18](../articles/2026-10-18-global-ai-weekly/README.md) | v1.0.0 | [global-ai-weekly-1018.zip](global-ai-weekly-1018.zip) | 2.65 MB |
 | [光伏拿10年亏3%，做波段赚194%；半导体正好反过来：32个A股指数回测10年](../articles/2026-10-17-a-share-band-trading/README.md) | v1.0.0 | [a-share-band-trading.zip](a-share-band-trading.zip) | 5.56 MB |
