@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-25",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "global-ai-weekly-1025",
+      "title": "软银跌13.5%，AI降本｜全球AI周报10.25",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-25-global-ai-weekly",
+      "manifest": "物料清单.json",
+      "download": "downloads/global-ai-weekly-1025.zip",
+      "summary": "12张新闻卡片的来源索引、10只AI产业链样本行情、取数与绘图脚本、时间线、周报封面与可编辑模板"
+    },
     {
       "id": "ai-workday-comic",
       "title": "有了AI，我怎么更忙了？",

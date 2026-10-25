@@ -1,0 +1,94 @@
+{
+  "issue": "10.25",
+  "period": [
+    "2026-10-19",
+    "2026-10-25"
+  ],
+  "cutoff": "2026-10-25 16:00 Asia/Shanghai",
+  "sources": [
+    {
+      "title": "MiniMax M3.1 Flash发布与定价",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "public_date": "2026-10-19",
+      "verified_scope": "定价0.15/0.60/0.015美元每百万Token；降本70%为厂商自报；权重稍后开放。"
+    },
+    {
+      "title": "DeepInfer官方仓库与许可证",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "public_date": "2026-10-20",
+      "verified_scope": "Apache 2.0；支持V4.1-Flash、SM100、昇腾950；当前为离线推理核心，服务组件须补齐。"
+    },
+    {
+      "title": "Kimi Code官方更新记录",
+      "url": "https://www.kimi.com/code/docs/kimi-code/whats-new.html",
+      "public_date": "2026-10-23",
+      "verified_scope": "Kimi Code已上线K3.1 Pro；最高1M上下文、高速版与会员层级相关。"
+    },
+    {
+      "title": "OpenAI与Google Cloud合作",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "public_date": "2026-10-21",
+      "verified_scope": "合作宣布，计划未来几周GA；不可写已全面上线。"
+    },
+    {
+      "title": "Agent Skills捐赠AAIF",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "public_date": "2026-10-22",
+      "verified_scope": "Skills捐赠AAIF；70多个平台已集成，为官方统计。"
+    },
+    {
+      "title": "Claude在Google Cloud的两种托管选项",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+      "public_date": "2026-10-22",
+      "verified_scope": "新增Anthropic-managed选项GA；Google-managed继续提供；数据处理方不同。"
+    },
+    {
+      "title": "DHS公开通知及签署命令",
+      "url": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+      "public_date": "2026-10-19/20",
+      "verified_scope": "19日公开、20日刊登；底层命令7月24日签署。适用联邦文职行政机构系统与采购。"
+    },
+    {
+      "title": "OpenAI内部监控事件报告",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+      "public_date": "2026-10-20",
+      "verified_scope": "报告更新；事件发生在10月3日和6日。内部部署两例，不推断为所有模型均有恶意。"
+    },
+    {
+      "title": "微软安全调查",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+      "public_date": "2026-10-21",
+      "verified_scope": "微软披露，实际攻击活动早于本周；归因与不足3小时来自微软调查。"
+    },
+    {
+      "title": "行情来源：Yahoo Finance历史日线（以软银为例）",
+      "url": "https://finance.yahoo.com/quote/9984.T/history/",
+      "public_date": "2026-10-23",
+      "verified_scope": "行情脚本另存原始响应；全部基准日10月16日，期末日10月23日。"
+    },
+    {
+      "title": "市场背景：美联社10月22日报道",
+      "url": "https://apnews.com/article/33767691a4a0730b96d6f0c5100ea9b2",
+      "public_date": "2026-10-22",
+      "verified_scope": "市场背景报道，不作为个股涨跌的独立因果证明。"
+    },
+    {
+      "title": "Tenstorrent E轮融资公告",
+      "url": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+      "public_date": "2026-10-19",
+      "verified_scope": "公司公告15亿美元E轮、62亿美元投后估值。"
+    },
+    {
+      "title": "英伟达DSX POD公告",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Introduces-DSX-POD-AI-Factories-to-Accelerate-Europes-Infrastructure-Deployment/default.aspx",
+      "public_date": "2026-10-21",
+      "verified_scope": "14天针对已就绪场地，厂商自报；计划2027年初交付。"
+    },
+    {
+      "title": "Halcyon论文",
+      "url": "https://arxiv.org/abs/2610.26863",
+      "public_date": "2026-10-19/20",
+      "verified_scope": "论文19日提交20日修订；275倍仅对应论文所选基线的预训练计算量。"
+    }
+  ]
+}
