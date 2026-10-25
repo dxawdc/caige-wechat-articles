@@ -1,12 +1,12 @@
 {
   "id": "2026-10-25-global-ai-weekly",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "updated": "2026-10-25",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2637,
-      "sha256": "d696c1b2c15d20a817ab0f4cb1d66a0379dbc9c7ef92399e7862a8ab8f1aa222"
+      "bytes": 2756,
+      "sha256": "5a9d14aaa203c0c6d23715d96c1995ddc67850bca2b0e76004faa1361be0d396"
     },
     {
       "path": "requirements.txt",
@@ -15,8 +15,8 @@
     },
     {
       "path": "封面提示词.txt",
-      "bytes": 880,
-      "sha256": "0e461cf961f016378bd9e081e0da803f8fd5cc4da6882f61d7eaf762f348a5a4"
+      "bytes": 741,
+      "sha256": "08051436ebfe21034d61962bab71fc24f9302afc2c51bbb53c9a6e535fddd6d4"
     },
     {
       "path": "数据/新闻来源.json",
@@ -35,8 +35,8 @@
     },
     {
       "path": "生成封面.py",
-      "bytes": 8810,
-      "sha256": "e84c0ae9288b76c52f4354fd0e9c5284084114705a811963a36eaf9e64c42c3e"
+      "bytes": 8386,
+      "sha256": "a5ebeb10f59daea361de48d30db4e86416472332900db58baf68590f704be26d"
     },
     {
       "path": "绘图.py",
@@ -55,48 +55,48 @@
     },
     {
       "path": "配图/封面_方版.png",
-      "bytes": 911765,
-      "sha256": "8449dad086dce6b8084b496432f4aa2a5fd225d1b913c79d985be40530e94245"
+      "bytes": 846807,
+      "sha256": "04c100e49e9ecf49ab33518a5ed5aeca6267801710f161b8c83f8f0984ed77be"
     },
     {
       "path": "配图/封面_方版模板.png",
-      "bytes": 65206,
-      "sha256": "baf4998b47c66820ab4d501237cde573fb649b496377fc15afe47b3b4f552a30"
+      "bytes": 63574,
+      "sha256": "459a57bf0c19fd38dad7f09dcea56864b4dae6932c390cc2801152fb07300057"
     },
     {
       "path": "配图/封面_方版模板.svg",
-      "bytes": 9128,
-      "sha256": "96db5e6366cf394105c8b9ad0468b7748fa63cd72a33c1aa52cfa7d5404d09e6"
+      "bytes": 8724,
+      "sha256": "a7289b0621645b9243947d54cb7043b3d7972b1643011297ab1a82ac672dce5d"
     },
     {
       "path": "配图/封面_横版.png",
-      "bytes": 1365649,
-      "sha256": "559fe64d50e957642d2e296202f3cfcc734aea9c8c570a7cc68949be11539159"
+      "bytes": 1303849,
+      "sha256": "e85c416b3db7f98be2d7a3b3ff65e39b9aef1b14cacc424f40056051da77a2af"
     },
     {
       "path": "配图/封面_横版模板.png",
-      "bytes": 66558,
-      "sha256": "51abbb2fb3eb60dc3559c579a459240bd59bef4b5d6e4d1b3877030a15c44f1d"
+      "bytes": 64419,
+      "sha256": "d5aed8a986ebb98cf407e374142c904bbfa60b03d978ae04c9c7e483c9b2e514"
     },
     {
       "path": "配图/封面_横版模板.svg",
-      "bytes": 8905,
-      "sha256": "adb608cc97111e1ad088e9a451478d93205f138acde6f87491cf0737eb691eec"
+      "bytes": 8506,
+      "sha256": "566c1df28c647e8c69718c2fe74e6b801b4fc4d84983f6157e3a53f7eebfa506"
     },
     {
       "path": "配图/封面_预览100.png",
-      "bytes": 13049,
-      "sha256": "a02a45c1ca82bbb8bdfc77db2c8fd1f6070f7b358837bce2cab3b95f756a7670"
+      "bytes": 12489,
+      "sha256": "73e43320426610788e3718955ca721ade93e154194ef16d20d092264564ccf55"
     },
     {
       "path": "配图/封面_预览300.png",
-      "bytes": 52912,
-      "sha256": "064c682a42ecccae5c118ad589ff5d1f68178195ddb0fe98ad141e99e6da9fb1"
+      "bytes": 52536,
+      "sha256": "a50939d3e56ef7124a995e55e546d94026cafcf0af1aa10dc879e95cf138ae14"
     },
     {
       "path": "配图/封面底图.png",
-      "bytes": 2082556,
-      "sha256": "afa678b7f55a5b96ace1f51f0a8901325de32712bdebe4540cbc385877cda0ce"
+      "bytes": 2008923,
+      "sha256": "dc2687accf30d8035b90f6c9d442b932f39a9362a282e2c46e9d1ca2b5e56168"
     },
     {
       "path": "采集数据.py",

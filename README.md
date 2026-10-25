@@ -18,7 +18,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [软银跌13.5%，AI降本｜全球AI周报10.25](articles/2026-10-25-global-ai-weekly/README.md) · v1.0.0 | 12张新闻卡片的来源索引、10只AI产业链样本行情、取数与绘图脚本、时间线、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1025.zip) |
+| [MiniMax降本、Kimi升级｜全球AI周报10.25](articles/2026-10-25-global-ai-weekly/README.md) · v1.0.1 | 12张新闻卡片的来源索引、10只AI产业链样本行情、取数与绘图脚本、时间线、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1025.zip) |
 | [有了AI，我怎么更忙了？](articles/2026-10-21-ai-workday-comic/README.md) · v1.0.0 | 三页十八格AI办公对照漫画、分镜与生成提示词、横版和方版封面、可编辑SVG模板及生成脚本 | [ZIP](downloads/ai-workday-comic.zip) |
 | [WorkBuddy 好用的 11 个技能：先装这 3 个，再串成一条流水线](articles/2026-10-21-workbuddy-11-skills/README.md) · v1.0.0 | WorkBuddy 官方推荐的 9 个免费技能与 2 个去 AI 味写作技能：安装名、来源、可复制的说法与注意事项（Excel/Markdown）、3 张示意图与源码 | [ZIP](downloads/workbuddy-11-skills_v1.0.0.zip) |
 | [收藏备用！WorkBuddy 100条实用提示词【支持下载】](articles/2026-10-19-workbuddy-100-prompts/README.md) · v1.0.0 | 写作、办公文件、表格、文件整理、调研、学习、创作、定时任务、生活与用好 WorkBuddy 10类100条提示词；可搜索一键复制的网页、Excel 与 Markdown 清单、4张示意图与源码 | [ZIP](downloads/workbuddy-100-prompts_v1.0.0.zip) |

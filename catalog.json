@@ -5,9 +5,9 @@
   "items": [
     {
       "id": "global-ai-weekly-1025",
-      "title": "软银跌13.5%，AI降本｜全球AI周报10.25",
+      "title": "MiniMax降本、Kimi升级｜全球AI周报10.25",
       "kind": "article",
-      "version": "v1.0.0",
+      "version": "v1.0.1",
       "source": "articles/2026-10-25-global-ai-weekly",
       "manifest": "物料清单.json",
       "download": "downloads/global-ai-weekly-1025.zip",

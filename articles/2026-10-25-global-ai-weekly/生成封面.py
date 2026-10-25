@@ -23,11 +23,11 @@ plt.rcParams.update({'font.family': 'Microsoft YaHei', 'svg.fonttype': 'none'})
 
 INK, INDIGO, CORAL, VIOLET, DOWN, MUTED = '#213638', '#166B72', '#BD5B42', '#75628E', '#13895E', '#697775'
 THEME = {  # 浅色底图 / 深色底图 两套文字配色
-    'light': dict(bg='#F6F3ED', ink=INK, l2=CORAL, num=DOWN, muted=MUTED, tag=INDIGO, tagtext='#FFFFFF'),
+    'light': dict(bg='#F6F3ED', ink=INK, l2=CORAL, num=INDIGO, muted=MUTED, tag=INDIGO, tagtext='#FFFFFF'),
     'dark': dict(bg='#1B2350', ink='#FFFFFF', l2='#FF8A7E', num='#3FD08F', muted='#B9C0E6', tag='#FFFFFF', tagtext='#1B2350'),
 }
 # 本期文案：第一行 (前缀, 数字)，第二行，日期，底部主线
-COPY = dict(series='全球AI周报', date='10.25', l1=('软银周跌', '13.5%'), l2='国产AI再降本', foot='模型 · 监管 · 资本')
+COPY = dict(series='全球AI周报', date='10.25', l1=('国产AI', '3路进展'), l2='降本开源再升级', foot='模型 · 监管 · 资本')
 
 
 def font(path, size):
@@ -92,7 +92,7 @@ def ai_cover(art_file, theme, name):
 
 
 def vector_art(ax, cx, cy, s):
-    """矢量主体：芯片 + 下滑绿色折线 + 开放工具盒。"""
+    """矢量主体：芯片 + 开放工具盒。"""
     ax.add_patch(FancyBboxPatch((cx - 150 * s, cy - 150 * s), 300 * s, 300 * s, boxstyle=f'round,pad=0,rounding_size={24 * s}',
                                 fc=INDIGO, ec='none'))
     ax.add_patch(FancyBboxPatch((cx - 90 * s, cy - 90 * s), 180 * s, 180 * s, boxstyle=f'round,pad=0,rounding_size={12 * s}',
@@ -101,10 +101,6 @@ def vector_art(ax, cx, cy, s):
         for side in (-1, 1):
             ax.add_patch(Rectangle((cx + k * 50 * s - 8 * s, cy + side * 150 * s + (0 if side > 0 else -40 * s)), 16 * s, 40 * s, fc=INDIGO, ec='none'))
             ax.add_patch(Rectangle((cx + side * 150 * s + (0 if side > 0 else -40 * s), cy + k * 50 * s - 8 * s), 40 * s, 16 * s, fc=INDIGO, ec='none'))
-    xs = [cx - 260 * s, cx - 140 * s, cx - 60 * s, cx + 60 * s, cx + 180 * s, cx + 250 * s]
-    ys = [cy + 300 * s, cy + 330 * s, cy + 250 * s, cy + 270 * s, cy + 150 * s, cy + 60 * s]
-    ax.plot(xs, ys, color=DOWN, lw=12 * s, solid_capstyle='round', solid_joinstyle='round')
-    ax.add_patch(Polygon([(cx + 250 * s, cy + 10 * s), (cx + 210 * s, cy + 90 * s), (cx + 290 * s, cy + 90 * s)], fc=DOWN, ec='none'))
     # 可编辑工具盒：代表推理框架与技能开放
     tx,ty=cx+110*s,cy-260*s
     ax.add_patch(FancyBboxPatch((tx,ty),230*s,130*s,boxstyle='round,pad=0,rounding_size=12',fc=CORAL,ec='none'))
@@ -139,7 +135,7 @@ def template(w, h, name):
     t1 = ax.text(x, y1, pre, fontsize=104 * s * pt, weight='bold', color=INK, va='top')
     fig.canvas.draw()
     bb = t1.get_window_extent()
-    ax.text(x + bb.width, y1, num, fontsize=104 * s * pt, weight='bold', color=DOWN, va='top')
+    ax.text(x + bb.width, y1, num, fontsize=104 * s * pt, weight='bold', color=INDIGO, va='top')
     ax.text(x, y1 - 138 * s, COPY['l2'], fontsize=104 * s * pt, weight='bold', color=CORAL, va='top')
     ax.text(x + 4, y1 - 306 * s, COPY['foot'], fontsize=36 * s * pt, color=MUTED, va='top')
     fig.savefig(OUT / f'{name}.svg', facecolor=t['bg'], metadata={'Date': '2026-10-25'})
