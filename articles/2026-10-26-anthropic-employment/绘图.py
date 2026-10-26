@@ -104,37 +104,44 @@ def cover(square=False):
     w,h=(1200,1200) if square else (1800,766)
     fig,ax=canvas(w,h)
     hand.paper(ax,w,h)
-    row=json.loads((ROOT/'数据/数据与来源.json').read_text(encoding='utf8'))['chart']['rows'][0]
+    data=json.loads((ROOT/'数据/数据与来源.json').read_text(encoding='utf8'))['productivity']
+    growth=[round((row['ratio']-1)*100) for row in data['rows']]
+    assert growth==[410,210,210,70,40,40]
+    roles=['工程师','数据科学家','法务人员','销售人员','招聘人员','应付账款\n处理人员']
     if not square:
-        txt(ax,100,160,'Anthropic 内部就业报告',30,INK)
-        txt(ax,100,310,'AI干得越多',74,INK,'bold')
-        txt(ax,100,440,'人该做什么？',74,TEAL,'bold')
-        hand.line(ax,[104,780],[510,503],'#D8B346',10,alpha=.65)
-        txt(ax,100,595,'招聘、产出与工作方式的变化',27,hand.MUTED)
-        hand.line(ax,[945,954],[120,650],hand.MUTED,1.4,linestyle='--',alpha=.5)
-        txt(ax,1050,155,'初级技术招聘占比',36,INK,'bold')
-        x,width,ys=1050,590,[320,505]
-        for y,label,key,color in zip(ys,['较早','较晚'],['start','end'],[RED,TEAL]):
-            txt(ax,x,y-62,label,28,hand.MUTED)
-            txt(ax,x+205,y-62,str(row[key])+'%',57,color,'bold')
-            ax.add_patch(Rectangle((x,y),width*row[key]/30,57,fc=color,lw=0))
-        hand.line(ax,[x,x+width],[605,605],hand.MUTED,1)
-        for tick in [0,10,20,30]: txt(ax,x+width*tick/30,643,str(tick)+'%',22,hand.MUTED,ha='center')
-        txt(ax,1050,705,'2025—2026年报告观察期',21,hand.MUTED)
+        txt(ax,100,130,'Anthropic 内部就业报告',30,INK)
+        txt(ax,100,275,'六类岗位',64,INK,'bold')
+        txt(ax,100,390,'人均产出',64,INK,'bold')
+        txt(ax,100,505,'增加了多少？',64,TEAL,'bold')
+        hand.line(ax,[104,800],[575,568],'#D8B346',9,alpha=.65)
+        txt(ax,100,655,'相对2025年12月 · 原图终点增幅',24,hand.MUTED)
+        hand.line(ax,[945,945],[105,665],hand.MUTED,1.2,linestyle='--',alpha=.5)
+        txt(ax,1010,110,'六类岗位人均产出增幅',29,INK,'bold')
+        x,width,top,gap,bh=1240,285,195,76,35
+        labelx,valuex,labelsize,valuesize=1010,1585,23,31
     else:
-        txt(ax,95,120,'初级技术招聘占比',47,INK,'bold')
-        txt(ax,95,260,str(row['start'])+'%',90,RED,'bold')
-        txt(ax,555,260,'→',65,INK)
-        txt(ax,770,260,str(row['end'])+'%',90,TEAL,'bold')
-        x,width=110,960
-        for y,label,key,color in [(455,'较早','start',RED),(700,'较晚','end',TEAL)]:
-            txt(ax,x,y-65,label,34,hand.MUTED)
-            ax.add_patch(Rectangle((x,y),width*row[key]/30,95,fc=color,lw=0))
-        hand.line(ax,[x,x+width],[855,855],hand.MUTED,1.4)
-        for tick in [0,10,20,30]: txt(ax,x+width*tick/30,908,str(tick)+'%',30,hand.MUTED,ha='center')
-        txt(ax,100,1025,'Anthropic 内部就业报告',33,INK)
-        txt(ax,100,1095,'2025—2026年报告观察期',28,hand.MUTED)
+        txt(ax,90,115,'六类岗位',52,INK,'bold')
+        txt(ax,90,215,'人均产出增加了多少？',48,TEAL,'bold')
+        hand.line(ax,[95,1055],[280,274],'#D8B346',8,alpha=.65)
+        txt(ax,90,335,'相对2025年12月 · 原图终点增幅',25,hand.MUTED)
+        x,width,top,gap,bh=400,445,440,95,42
+        labelx,valuex,labelsize,valuesize=95,915,30,38
+    for i,(role,value) in enumerate(zip(roles,growth)):
+        y=top+i*gap
+        txt(ax,labelx,y,role,labelsize,INK,linespacing=1.05)
+        ax.add_patch(Rectangle((x,y-bh/2),width*value/450,bh,fc=TEAL,lw=0))
+        txt(ax,valuex,y,f'+{value}%',valuesize,TEAL,'bold')
+    axis_y=top+5*gap+bh/2+32
+    hand.line(ax,[x,x+width],[axis_y,axis_y],hand.MUTED,1)
+    for tick in [0,200,400]:
+        txt(ax,x+width*tick/450,axis_y+30,str(tick)+'%',20 if not square else 24,hand.MUTED,ha='center')
+    if not square:
+        txt(ax,1010,712,'较2025年12月；按各岗位自身指标',19,hand.MUTED)
+    else:
+        txt(ax,90,1085,'各岗位按自身产出指标计算',24,hand.MUTED)
+        txt(ax,90,1140,'来源：Anthropic 内部就业报告',23,hand.MUTED)
     save(fig,'封面_方版模板' if square else '封面_横版模板',svg=True)
+
 
 def footer(ax, h, w=1300):
     txt(ax,65,h-35,'来源：Anthropic · 2026-10-16',17,'#667474')

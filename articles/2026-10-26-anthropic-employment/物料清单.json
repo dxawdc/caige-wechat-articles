@@ -1,12 +1,12 @@
 {
   "id": "anthropic-employment",
-  "version": "v1.3.0",
+  "version": "v1.4.0",
   "updated": "2026-10-26",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2319,
-      "sha256": "2334f7e0b03d4f1b9f06f4090c4ed5485df7354f738bfe3cd9746efd582d74d7"
+      "bytes": 2456,
+      "sha256": "edee061b442142544362a9ee9e8c0e07bd8c9dcca3d93f5a0e8d4483545c9f56"
     },
     {
       "path": "requirements.txt",
@@ -25,8 +25,8 @@
     },
     {
       "path": "绘图.py",
-      "bytes": 13003,
-      "sha256": "3ae9b55bf8d70147d4f1aedd901db1947c16724862c41263c9e66233dc177353"
+      "bytes": 13216,
+      "sha256": "1ca49da631f7104ef0e26e6c4063c79a8244e03d4f146647677a3b44e7b23572"
     },
     {
       "path": "配图/图1_初级技术人员占比.png",
@@ -55,23 +55,23 @@
     },
     {
       "path": "配图/封面_方版模板.png",
-      "bytes": 218053,
-      "sha256": "4b9a47beb56fc734fa4c5893dc598ed6a04dc35a3ef1546671d94528fa1e78b9"
+      "bytes": 252033,
+      "sha256": "2c72aabf73acb9d44354b115ebfc81de4920134be99ce6851bb582909f00eb79"
     },
     {
       "path": "配图/封面_方版模板.svg",
-      "bytes": 484992,
-      "sha256": "e30bf2fafad70a3ef883c495f58081f41b25632e9f3530501a8385ca56835230"
+      "bytes": 269425,
+      "sha256": "3ba701cfede3bab7a6ce68bcba2f73c8eff8a3ca5f715fe1ef91c7cb9485330d"
     },
     {
       "path": "配图/封面_横版模板.png",
-      "bytes": 202474,
-      "sha256": "9e92b6e459121ca287996752aa69d93f7abd82835f26987488dc0b67fd2b3a66"
+      "bytes": 224402,
+      "sha256": "d871b6de8218fed1cb1c158305c32c52322b093d629287d6e62ffb19a76f012a"
     },
     {
       "path": "配图/封面_横版模板.svg",
-      "bytes": 232731,
-      "sha256": "52735826f081d1311eeabfc503d6d4144bcbc92fce92669224f0e6da4490757e"
+      "bytes": 155639,
+      "sha256": "b0b57daf1cc5dc287832ef4c19717f5895b7a99887b3d14e398c216dccacede0"
     }
   ]
 }
