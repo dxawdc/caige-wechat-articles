@@ -1,0 +1,67 @@
+{
+  "id": "anthropic-employment",
+  "version": "v1.0.0",
+  "updated": "2026-10-26",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1319,
+      "sha256": "cd25f0b2f08d93fb288adc98030922a49cf14b65a1645fe4ff390c473e361436"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "33fbf9d7aa7e72df3f099bf4ba88e10a5ef49fd7486b8038a36ccd4a81466b19"
+    },
+    {
+      "path": "封面提示词.txt",
+      "bytes": 1273,
+      "sha256": "7654e56154c1a0ef6963887f64bb6f8c937a40901b0d8166385ed68769fe20e0"
+    },
+    {
+      "path": "数据/数据与来源.json",
+      "bytes": 2085,
+      "sha256": "5c32b11c979fe23d378504fc1cffefe6ec4c72265829692708e39c9cccaadbd3"
+    },
+    {
+      "path": "绘图.py",
+      "bytes": 5526,
+      "sha256": "4399f6393ff11013223eff76832bf346e63f38feef1b707e8c72f0122926df40"
+    },
+    {
+      "path": "配图/图1_初级技术人员占比.png",
+      "bytes": 133755,
+      "sha256": "d97d9ba338fe6ebd9673f60ab90f0e6b1f8616898c127794ed01414d2d4a499a"
+    },
+    {
+      "path": "配图/图2_任务检查顺序.png",
+      "bytes": 140619,
+      "sha256": "fdc705452bf413fea5d35c3ff549920b60c7da62c10d7bf29445148b787b7266"
+    },
+    {
+      "path": "配图/封面_AI.png",
+      "bytes": 2273676,
+      "sha256": "45ea27457d45e4598f8aaaa94d0e301565ee3089c8d396a09a24cf7cab7c4f43"
+    },
+    {
+      "path": "配图/封面_方版模板.png",
+      "bytes": 69133,
+      "sha256": "06dc6271d37f1fc23296181a2d90fc9a760280cae3d446e0d3446fff7f71ace7"
+    },
+    {
+      "path": "配图/封面_方版模板.svg",
+      "bytes": 5546,
+      "sha256": "2b9603494c2ac1c356d42fb8d15610e6624f4b0922312f7e4bb6274b1e70ab90"
+    },
+    {
+      "path": "配图/封面_横版模板.png",
+      "bytes": 58012,
+      "sha256": "b83f2dd6ef42c962e2bc2d20b34d2f2f35a88c8b9a0fcc66c8b76f416956c6fb"
+    },
+    {
+      "path": "配图/封面_横版模板.svg",
+      "bytes": 5590,
+      "sha256": "586ea8e33ca4920bb519facc35da26bf2de939919f9146a510b135080f615efa"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "report": {
+    "title": "How employment is changing at Anthropic",
+    "publisher": "Anthropic",
+    "date": "2026-10-16",
+    "checked": "2026-10-26",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "pdf": "https://www-cdn.anthropic.com/72628f1863c53432195db83279252dfd2cb53158/Employment%20at%20Anthropic.pdf",
+    "authors": ["Nathan Wilmers", "Regina Catipon", "Maxim Massenkoff", "Peter McCrory"]
+  },
+  "chart": {
+    "unit": "%",
+    "period": "报告对2025—2026年观察期的前后比较",
+    "precision": "使用正文取整端点；不从图像估算月度精确值",
+    "rows": [
+      {"label": "技术新招聘中", "start": 27, "end": 9, "denominator": "技术新招聘人数", "numerator": "初级技术新招聘人数"},
+      {"label": "技术在职人员中", "start": 21, "end": 14, "denominator": "技术部门在职人数", "numerator": "技术部门初级在职人数"}
+    ],
+    "source_location": "Labor demand at the frontier，Figure 1及相邻正文；PDF第3—4页"
+  },
+  "checks": [
+    {"claim": "技术招聘绝对数量仍增长", "location": "Figure 1相邻正文", "caveat": "不代表初级技术招聘绝对数增长"},
+    {"claim": "约80%的交互会话时间等待人类输入", "location": "Bottlenecks and process", "caveat": "分母为交互会话时间；不是员工工时或公司总算力"},
+    {"claim": "员工会议时长中位数同比增加20%", "location": "Bottlenecks and process", "caveat": "不是增加20个百分点，也不是每位员工都增加20%"},
+    {"claim": "技术招聘评估更重视自主性和判断力", "location": "Hiring manager interview score cards段落", "caveat": "定性评语的关注点变化；不能推断专业能力不重要"}
+  ],
+  "original_contributions": ["分母解释的100人与200人示例为假设", "三份AI分析的冲突案例为假设", "作品集建议与任务检查顺序为作者分析"],
+  "interpretation_limits": ["单一公司", "自家内部数据", "工具采用非随机", "业务快速扩张与组织变化同时存在"]
+}

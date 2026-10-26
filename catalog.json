@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "anthropic-employment",
+      "title": "Anthropic内部就业报告：AI干得越多，人该做什么？",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-10-26-anthropic-employment",
+      "manifest": "物料清单.json",
+      "download": "downloads/anthropic-employment.zip",
+      "summary": "Anthropic内部报告来源与数据口径、两张配图、绘图源码、概念封面及横版方版可编辑模板"
+    },
     {
       "id": "global-ai-weekly-1025",
       "title": "国产AI连出三招：降本、开源、升级｜全球AI周报10.25",
