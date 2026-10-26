@@ -1,22 +1,17 @@
 {
   "id": "anthropic-employment",
-  "version": "v1.2.0",
+  "version": "v1.3.0",
   "updated": "2026-10-26",
   "files": [
     {
       "path": "README.md",
-      "bytes": 2309,
-      "sha256": "b0542fd505fbad93a08b0a87cdfe6b67d081c17cc646f7215647b67940004c0f"
+      "bytes": 2319,
+      "sha256": "2334f7e0b03d4f1b9f06f4090c4ed5485df7354f738bfe3cd9746efd582d74d7"
     },
     {
       "path": "requirements.txt",
       "bytes": 39,
       "sha256": "872037913033ba13684b591f4eb14cada4fd5d17d3066a50379e964769b7ad83"
-    },
-    {
-      "path": "封面提示词.txt",
-      "bytes": 1273,
-      "sha256": "7654e56154c1a0ef6963887f64bb6f8c937a40901b0d8166385ed68769fe20e0"
     },
     {
       "path": "手绘主题.py",
@@ -30,8 +25,8 @@
     },
     {
       "path": "绘图.py",
-      "bytes": 11763,
-      "sha256": "186ccb111478b8185a9cf26336e4d374404c29922874f5c37a304a44c93ac293"
+      "bytes": 13003,
+      "sha256": "3ae9b55bf8d70147d4f1aedd901db1947c16724862c41263c9e66233dc177353"
     },
     {
       "path": "配图/图1_初级技术人员占比.png",
@@ -50,8 +45,8 @@
     },
     {
       "path": "配图/图3_AI使用规模.png",
-      "bytes": 288960,
-      "sha256": "f8989bbcb75b80ff487bd5726e8801aa1da84f8803f28f2296354b771e46d85a"
+      "bytes": 287612,
+      "sha256": "f1e4ae782391bb1106130092d706940abfe6f52065202cd91a51729ad610a7fc"
     },
     {
       "path": "配图/图4_管理与协作.png",
@@ -59,29 +54,24 @@
       "sha256": "16eece365785cdf34a323d4789c908df6a4b67d012fa2bbbc92c0e3dbb9b75bb"
     },
     {
-      "path": "配图/封面_AI.png",
-      "bytes": 2273676,
-      "sha256": "45ea27457d45e4598f8aaaa94d0e301565ee3089c8d396a09a24cf7cab7c4f43"
-    },
-    {
       "path": "配图/封面_方版模板.png",
-      "bytes": 69133,
-      "sha256": "06dc6271d37f1fc23296181a2d90fc9a760280cae3d446e0d3446fff7f71ace7"
+      "bytes": 218053,
+      "sha256": "4b9a47beb56fc734fa4c5893dc598ed6a04dc35a3ef1546671d94528fa1e78b9"
     },
     {
       "path": "配图/封面_方版模板.svg",
-      "bytes": 5546,
-      "sha256": "2b9603494c2ac1c356d42fb8d15610e6624f4b0922312f7e4bb6274b1e70ab90"
+      "bytes": 484992,
+      "sha256": "e30bf2fafad70a3ef883c495f58081f41b25632e9f3530501a8385ca56835230"
     },
     {
       "path": "配图/封面_横版模板.png",
-      "bytes": 58012,
-      "sha256": "b83f2dd6ef42c962e2bc2d20b34d2f2f35a88c8b9a0fcc66c8b76f416956c6fb"
+      "bytes": 202474,
+      "sha256": "9e92b6e459121ca287996752aa69d93f7abd82835f26987488dc0b67fd2b3a66"
     },
     {
       "path": "配图/封面_横版模板.svg",
-      "bytes": 5590,
-      "sha256": "586ea8e33ca4920bb519facc35da26bf2de939919f9146a510b135080f615efa"
+      "bytes": 232731,
+      "sha256": "52735826f081d1311eeabfc503d6d4144bcbc92fce92669224f0e6da4490757e"
     }
   ]
 }

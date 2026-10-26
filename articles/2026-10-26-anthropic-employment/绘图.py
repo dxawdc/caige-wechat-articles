@@ -30,6 +30,9 @@ def save(fig, name, svg=False):
     for ax in fig.axes: hand.finish(ax)
     fig.savefig(OUT / (name+'.png'), facecolor=BG, dpi=100)
     if svg:
+        # Keep actual editable text nodes in SVG; PNG retains the ink-stroke effect.
+        for ax in fig.axes:
+            for label in ax.texts: label.set_path_effects([])
         target = OUT / (name+'.svg')
         fig.savefig(target, facecolor=BG, metadata={'Date': None})
         target.write_text('\n'.join(line.rstrip() for line in target.read_text(encoding='utf8').splitlines())+'\n', encoding='utf8')
@@ -100,19 +103,37 @@ def workflow():
 def cover(square=False):
     w,h=(1200,1200) if square else (1800,766)
     fig,ax=canvas(w,h)
-    txt(ax,90,110,'Anthropic 内部就业报告',25,TEAL)
-    txt(ax,90,245 if square else 300,'AI干得越多',98 if square else 68,INK,'bold')
-    txt(ax,90,400 if square else 440,'人该做什么？',96 if square else 68,RED,'bold')
-    # Editable geometric metaphor: task cards converging at a decision point.
-    ox,oy=(340,575) if square else (1210,185)
-    for i,c in enumerate([TEAL,VIOLET,RED]):
-        x,y=ox+i*72,oy+i*95
-        ax.add_patch(FancyBboxPatch((x,y),300,170,boxstyle='round,pad=0,rounding_size=20',fc=c,ec='none',alpha=.95))
-        for k,ln in enumerate([190,145,170]):
-            ax.plot([x+40,x+40+ln],[y+45+k*32,y+45+k*32],color=BG,lw=5,alpha=.8)
-    ax.add_patch(Circle((ox-90,oy+235),62,fc=INK,ec='none'))
-    txt(ax,ox-90,oy+235,'?',54,BG,'bold',ha='center')
-    txt(ax,w-75,h-60,'概念示意',18,'#667474',ha='right')
+    hand.paper(ax,w,h)
+    row=json.loads((ROOT/'数据/数据与来源.json').read_text(encoding='utf8'))['chart']['rows'][0]
+    if not square:
+        txt(ax,100,160,'Anthropic 内部就业报告',30,INK)
+        txt(ax,100,310,'AI干得越多',74,INK,'bold')
+        txt(ax,100,440,'人该做什么？',74,TEAL,'bold')
+        hand.line(ax,[104,780],[510,503],'#D8B346',10,alpha=.65)
+        txt(ax,100,595,'招聘、产出与工作方式的变化',27,hand.MUTED)
+        hand.line(ax,[945,954],[120,650],hand.MUTED,1.4,linestyle='--',alpha=.5)
+        txt(ax,1050,155,'初级技术招聘占比',36,INK,'bold')
+        x,width,ys=1050,590,[320,505]
+        for y,label,key,color in zip(ys,['较早','较晚'],['start','end'],[RED,TEAL]):
+            txt(ax,x,y-62,label,28,hand.MUTED)
+            txt(ax,x+205,y-62,str(row[key])+'%',57,color,'bold')
+            ax.add_patch(Rectangle((x,y),width*row[key]/30,57,fc=color,lw=0))
+        hand.line(ax,[x,x+width],[605,605],hand.MUTED,1)
+        for tick in [0,10,20,30]: txt(ax,x+width*tick/30,643,str(tick)+'%',22,hand.MUTED,ha='center')
+        txt(ax,1050,705,'2025—2026年报告观察期',21,hand.MUTED)
+    else:
+        txt(ax,95,120,'初级技术招聘占比',47,INK,'bold')
+        txt(ax,95,260,str(row['start'])+'%',90,RED,'bold')
+        txt(ax,555,260,'→',65,INK)
+        txt(ax,770,260,str(row['end'])+'%',90,TEAL,'bold')
+        x,width=110,960
+        for y,label,key,color in [(455,'较早','start',RED),(700,'较晚','end',TEAL)]:
+            txt(ax,x,y-65,label,34,hand.MUTED)
+            ax.add_patch(Rectangle((x,y),width*row[key]/30,95,fc=color,lw=0))
+        hand.line(ax,[x,x+width],[855,855],hand.MUTED,1.4)
+        for tick in [0,10,20,30]: txt(ax,x+width*tick/30,908,str(tick)+'%',30,hand.MUTED,ha='center')
+        txt(ax,100,1025,'Anthropic 内部就业报告',33,INK)
+        txt(ax,100,1095,'2025—2026年报告观察期',28,hand.MUTED)
     save(fig,'封面_方版模板' if square else '封面_横版模板',svg=True)
 
 def footer(ax, h, w=1300):
@@ -166,7 +187,7 @@ def ai_usage():
     ax.plot([340,1090],[1070,1070],color=GRID,lw=2)
     for tick in [0,10,20]: txt(ax,340+750*tick/20,1110,str(tick),21,'#667474',ha='center')
     txt(ax,65,1190,'上下两组单位不同；研究组织属于公司内部子集。',22,'#667474')
-    txt(ax,65,1245,'人类按40小时/人/周估算；代理运行口径见文末。',22,'#667474')
+    txt(ax,65,1245,'人类按40小时/人/周估算；仅计交互式代理。',22,'#667474')
     footer(ax,1370)
     save(fig,'图3_AI使用规模')
 
