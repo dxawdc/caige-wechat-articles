@@ -5,7 +5,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib import font_manager as fm
-from matplotlib.patches import FancyBboxPatch, Circle, Rectangle, FancyArrowPatch
+from matplotlib.patches import FancyBboxPatch, Circle, Rectangle, FancyArrowPatch, Polygon
+import 手绘主题 as hand
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / '配图'
@@ -13,18 +14,20 @@ OUT.mkdir(exist_ok=True)
 fonts = {f.name for f in fm.fontManager.ttflist}
 font = next((f for f in ['Microsoft YaHei', 'Noto Sans CJK SC', 'SimHei', 'Arial Unicode MS'] if f in fonts), 'sans-serif')
 plt.rcParams.update({'font.family': font, 'axes.unicode_minus': False, 'svg.fonttype': 'none', 'svg.hashsalt': 'caige-anthropic-employment'})
-BG, INK, TEAL, RED, VIOLET, GRID = '#F9F7F2', '#213638', '#166B72', '#BD5B42', '#75628E', '#E3E0D8'
+BG, INK, TEAL, RED, VIOLET, GRID = hand.PAPER, hand.INK, hand.BLUE, hand.ORANGE, hand.ORANGE, '#C5D1D6'
 
 def canvas(w, h):
     fig = plt.figure(figsize=(w/100, h/100), dpi=100, facecolor=BG)
     ax = fig.add_axes([0, 0, 1, 1], xlim=(0, w), ylim=(h, 0))
     ax.axis('off')
+    if h>900 and w!=h: hand.paper(ax,w,h)
     return fig, ax
 
 def txt(ax, x, y, value, size=26, color=INK, weight='normal', **kw):
-    return ax.text(x, y, value, fontsize=size, color=color, weight=weight, va='center', **kw)
+    return hand.text(ax,x,y,value,size,color,weight,**kw)
 
 def save(fig, name, svg=False):
+    for ax in fig.axes: hand.finish(ax)
     fig.savefig(OUT / (name+'.png'), facecolor=BG, dpi=100)
     if svg:
         target = OUT / (name+'.svg')
@@ -37,21 +40,32 @@ def chart():
     fig, ax = canvas(1400, 1000)
     txt(ax, 75, 84, '初级技术人员，占比怎样变化？', 40, weight='bold')
     txt(ax, 75, 145, 'Anthropic｜2025—2026年报告观察期的前后端点', 21, '#667474')
+    ax.add_patch(Circle((90,195),10,fc=BG,ec=VIOLET,lw=2))
+    txt(ax,115,195,'较早端点',22,VIOLET)
+    ax.add_patch(Circle((345,195),10,fc=TEAL,ec=TEAL,lw=2))
+    txt(ax,370,195,'较晚端点',22,TEAL)
+    start_x,width=170,1070
+    for tick in [0,10,20,30]:
+        x=start_x+width*tick/30
+        ax.plot([x,x],[310,830],color=GRID,lw=.8,alpha=.7,linestyle='--')
+        txt(ax,x,858,str(tick)+'%',22,hand.MUTED,ha='center')
     for i, row in enumerate(data['rows']):
-        y = 230 + i * 335
-        txt(ax, 75, y, row['label'], 34, weight='bold')
-        txt(ax, 75, y+42, '分母：'+row['denominator'], 19, '#667474')
-        start_x, width = 230, 930
-        for j, (key, lab, color) in enumerate([('start', '较早端点', VIOLET), ('end', '较晚端点', TEAL)]):
-            cy = y + 110 + j * 85
-            txt(ax, 75, cy, lab, 25)
-            ax.add_patch(Rectangle((start_x, cy-24), width, 48, color='#ECE9E2', lw=0))
-            ax.add_patch(Rectangle((start_x, cy-24), width*row[key]/30, 48, color=color, lw=0))
-            txt(ax, start_x+width*row[key]/30+18, cy, str(row[key])+'%', 40, color, 'bold')
-        # Both panels share a zero-based 0–30% scale.
-        for tick in [0, 10, 20, 30]:
-            txt(ax, start_x+width*tick/30, y+257, str(tick)+'%', 17, '#667474', ha='center')
-    txt(ax, 75, 905, '正文取整值重绘；同一尺度；不表示初级招聘人数下降的幅度。', 18, '#667474')
+        y=260+i*330
+        txt(ax,75,y,row['label'],32,weight='bold')
+        txt(ax,75,y+42,'分母：'+row['denominator'],21,hand.MUTED)
+        cy=y+130
+        a=start_x+width*row['start']/30
+        b=start_x+width*row['end']/30
+        hand.line(ax,[b,a],[cy,cy],hand.MUTED,1.8)
+        ax.add_patch(Circle((a,cy),13,fc=BG,ec=VIOLET,lw=2.5,zorder=3))
+        ax.add_patch(Circle((b,cy),13,fc=TEAL,ec=TEAL,lw=2.5,zorder=3))
+        txt(ax,a,cy-43,str(row['start'])+'%',37,VIOLET,'bold',ha='center')
+        txt(ax,b,cy-43,str(row['end'])+'%',37,TEAL,'bold',ha='center')
+        arrow=FancyArrowPatch((a-10,cy+35),(b+10,cy+35),connectionstyle='arc3,rad=-.16',arrowstyle='->',mutation_scale=22,color=INK,lw=1.8)
+        arrow.set_sketch_params(scale=1.1,length=150,randomness=2)
+        ax.add_patch(arrow)
+        txt(ax,(a+b)/2,cy+70+abs(a-b)*.08,'下降'+str(row['start']-row['end'])+'个百分点',26,INK,ha='center')
+    txt(ax,75,905,'同一0—30%尺度；仅比较报告端点。',20,hand.MUTED)
     txt(ax, 75, 956, '数据：Anthropic（2026-10-16）', 17, '#667474')
     txt(ax, 1325, 956, '可以叫我才哥', 17, '#667474', ha='right')
     save(fig, '图1_初级技术人员占比')
@@ -68,12 +82,17 @@ def workflow():
     for i, (n, title, desc) in enumerate(steps):
         y = 225 + i*220
         ax.add_patch(FancyBboxPatch((70,y),1060,170,boxstyle='round,pad=0,rounding_size=20',fc='white',ec=GRID,lw=1.5))
+        tape=Polygon([(930,y-12),(1050,y-6),(1048,y+15),(928,y+10)],fc='#E8C76F',ec='none',alpha=.5,zorder=3)
+        tape.set_sketch_params(scale=1,length=120,randomness=2)
+        ax.add_patch(tape)
         ax.add_patch(Circle((145,y+70),35,fc=[TEAL,VIOLET,RED,TEAL][i],ec='none'))
         txt(ax,145,y+70,n,24,'white','bold',ha='center')
         txt(ax,220,y+55,title,34,weight='bold')
         txt(ax,220,y+115,desc,30)
         if i<3:
-            ax.add_patch(FancyArrowPatch((600,y+181),(600,y+211),arrowstyle='-|>',mutation_scale=20,color=TEAL,lw=2))
+            arrow=FancyArrowPatch((600,y+179),(620,y+211),connectionstyle='arc3,rad=.35',arrowstyle='->',mutation_scale=23,color=TEAL,lw=2)
+            arrow.set_sketch_params(scale=1.2,length=150,randomness=2)
+            ax.add_patch(arrow)
     txt(ax,70,1160,'检查重点：结果是否可靠、是否支持具体决定。',22,TEAL,'bold')
     txt(ax,1130,1220,'可以叫我才哥',17,'#667474',ha='right')
     save(fig,'图2_任务检查顺序')
@@ -186,4 +205,4 @@ if __name__=='__main__':
     # Existing cover assets remain unchanged when revising article data.
     for square,stem in [(False,'封面_横版模板'),(True,'封面_方版模板')]:
         if not (OUT/(stem+'.svg')).exists() or not (OUT/(stem+'.png')).exists(): cover(square)
-    print('Created 5 article figures; existing cover assets preserved.')
+    print('Created 5 hand-drawn article figures; exact data coordinates preserved.')

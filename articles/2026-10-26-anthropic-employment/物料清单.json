@@ -1,22 +1,27 @@
 {
   "id": "anthropic-employment",
-  "version": "v1.1.0",
+  "version": "v1.2.0",
   "updated": "2026-10-26",
   "files": [
     {
       "path": "README.md",
-      "bytes": 1868,
-      "sha256": "9d06e4d7f8f6d1cd8e05a314ad42ae17f302bb0349dfef11b79ff1d93c1b5ed6"
+      "bytes": 2309,
+      "sha256": "b0542fd505fbad93a08b0a87cdfe6b67d081c17cc646f7215647b67940004c0f"
     },
     {
       "path": "requirements.txt",
-      "bytes": 27,
-      "sha256": "33fbf9d7aa7e72df3f099bf4ba88e10a5ef49fd7486b8038a36ccd4a81466b19"
+      "bytes": 39,
+      "sha256": "872037913033ba13684b591f4eb14cada4fd5d17d3066a50379e964769b7ad83"
     },
     {
       "path": "封面提示词.txt",
       "bytes": 1273,
       "sha256": "7654e56154c1a0ef6963887f64bb6f8c937a40901b0d8166385ed68769fe20e0"
+    },
+    {
+      "path": "手绘主题.py",
+      "bytes": 4677,
+      "sha256": "037c98e8b1c7b4ebb29dc1f715bc6ed9aa428de253b53fcf67455b520fb17aa7"
     },
     {
       "path": "数据/数据与来源.json",
@@ -25,33 +30,33 @@
     },
     {
       "path": "绘图.py",
-      "bytes": 10859,
-      "sha256": "8fcfc4097891b2a11d53b9b98a9b204c5fac6a8be8ff10dfeae036206d399903"
+      "bytes": 11763,
+      "sha256": "186ccb111478b8185a9cf26336e4d374404c29922874f5c37a304a44c93ac293"
     },
     {
       "path": "配图/图1_初级技术人员占比.png",
-      "bytes": 133755,
-      "sha256": "d97d9ba338fe6ebd9673f60ab90f0e6b1f8616898c127794ed01414d2d4a499a"
+      "bytes": 201716,
+      "sha256": "e2fd75ebb96ce1554199fbc58e0f4a427541f2cc20af42ce9e9a5bb4b77e3c3c"
     },
     {
       "path": "配图/图2_任务检查顺序.png",
-      "bytes": 140619,
-      "sha256": "fdc705452bf413fea5d35c3ff549920b60c7da62c10d7bf29445148b787b7266"
+      "bytes": 241772,
+      "sha256": "03b14dd6ad9d3f9ae9063deb6388bfbfebe281b219e330464f8625413cee96e6"
     },
     {
       "path": "配图/图2_各岗位人均产出.png",
-      "bytes": 133671,
-      "sha256": "bcc823eebd392a0addfebfb564637ddc85e01f8dbf33a1e653454e6ef9ad811c"
+      "bytes": 361228,
+      "sha256": "944225ee59ec4c81f9c996dc142084e863318e8390e8ad935b1086602bb0e477"
     },
     {
       "path": "配图/图3_AI使用规模.png",
-      "bytes": 132803,
-      "sha256": "49710ec11326c3498d44c739c3c533ab4c76c5f19816e49ac84eebbcebe88fa0"
+      "bytes": 288960,
+      "sha256": "f8989bbcb75b80ff487bd5726e8801aa1da84f8803f28f2296354b771e46d85a"
     },
     {
       "path": "配图/图4_管理与协作.png",
-      "bytes": 147644,
-      "sha256": "482ffeaf3955e85f02ee8a6d1227089b31a9dd0f82d65fe1a863ee0a3bb26df8"
+      "bytes": 328790,
+      "sha256": "16eece365785cdf34a323d4789c908df6a4b67d012fa2bbbc92c0e3dbb9b75bb"
     },
     {
       "path": "配图/封面_AI.png",

@@ -7,11 +7,11 @@
       "id": "anthropic-employment",
       "title": "Anthropic内部就业报告：AI干得越多，人该做什么？",
       "kind": "article",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "source": "articles/2026-10-26-anthropic-employment",
       "manifest": "物料清单.json",
       "download": "downloads/anthropic-employment.zip",
-      "summary": "Anthropic内部报告指标与计算口径、五张配图、绘图源码、概念封面及横版方版可编辑模板"
+      "summary": "Anthropic内部报告指标与计算口径、五张手绘风配图、绘图源码、概念封面及横版方版可编辑模板"
     },
     {
       "id": "global-ai-weekly-1025",
