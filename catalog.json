@@ -7,7 +7,7 @@
       "id": "anthropic-employment",
       "title": "Anthropic内部就业报告：AI干得越多，人该做什么？",
       "kind": "article",
-      "version": "v1.4.0",
+      "version": "v1.4.1",
       "source": "articles/2026-10-26-anthropic-employment",
       "manifest": "物料清单.json",
       "download": "downloads/anthropic-employment.zip",

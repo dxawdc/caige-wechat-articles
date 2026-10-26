@@ -109,12 +109,11 @@ def cover(square=False):
     assert growth==[410,210,210,70,40,40]
     roles=['工程师','数据科学家','法务人员','销售人员','招聘人员','应付账款\n处理人员']
     if not square:
-        txt(ax,100,130,'Anthropic 内部就业报告',30,INK)
-        txt(ax,100,275,'六类岗位',64,INK,'bold')
-        txt(ax,100,390,'人均产出',64,INK,'bold')
-        txt(ax,100,505,'增加了多少？',64,TEAL,'bold')
-        hand.line(ax,[104,800],[575,568],'#D8B346',9,alpha=.65)
-        txt(ax,100,655,'相对2025年12月 · 原图终点增幅',24,hand.MUTED)
+        txt(ax,100,160,'Anthropic 内部就业报告',30,INK)
+        txt(ax,100,310,'AI干得越多',74,INK,'bold')
+        txt(ax,100,440,'人该做什么？',74,TEAL,'bold')
+        hand.line(ax,[104,780],[510,503],'#D8B346',10,alpha=.65)
+        txt(ax,100,595,'招聘、产出与工作方式的变化',27,hand.MUTED)
         hand.line(ax,[945,945],[105,665],hand.MUTED,1.2,linestyle='--',alpha=.5)
         txt(ax,1010,110,'六类岗位人均产出增幅',29,INK,'bold')
         x,width,top,gap,bh=1240,285,195,76,35

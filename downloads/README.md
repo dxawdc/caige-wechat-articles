@@ -4,7 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
-| [Anthropic内部就业报告：AI干得越多，人该做什么？](../articles/2026-10-26-anthropic-employment/README.md) | v1.4.0 | [anthropic-employment.zip](anthropic-employment.zip) | 1.89 MB |
+| [Anthropic内部就业报告：AI干得越多，人该做什么？](../articles/2026-10-26-anthropic-employment/README.md) | v1.4.1 | [anthropic-employment.zip](anthropic-employment.zip) | 1.89 MB |
 | [国产AI连出三招：降本、开源、升级｜全球AI周报10.25](../articles/2026-10-25-global-ai-weekly/README.md) | v1.0.2 | [global-ai-weekly-1025.zip](global-ai-weekly-1025.zip) | 4.24 MB |
 | [有了AI，我怎么更忙了？](../articles/2026-10-21-ai-workday-comic/README.md) | v1.0.0 | [ai-workday-comic.zip](ai-workday-comic.zip) | 7.84 MB |
 | [芯片股一周跌24%，美欧出手管AI｜全球AI周报10.18](../articles/2026-10-18-global-ai-weekly/README.md) | v1.0.0 | [global-ai-weekly-1018.zip](global-ai-weekly-1018.zip) | 2.65 MB |
