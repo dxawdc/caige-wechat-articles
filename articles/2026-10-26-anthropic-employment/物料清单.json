@@ -1,12 +1,12 @@
 {
   "id": "anthropic-employment",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "updated": "2026-10-26",
   "files": [
     {
       "path": "README.md",
-      "bytes": 1319,
-      "sha256": "cd25f0b2f08d93fb288adc98030922a49cf14b65a1645fe4ff390c473e361436"
+      "bytes": 1868,
+      "sha256": "9d06e4d7f8f6d1cd8e05a314ad42ae17f302bb0349dfef11b79ff1d93c1b5ed6"
     },
     {
       "path": "requirements.txt",
@@ -20,13 +20,13 @@
     },
     {
       "path": "数据/数据与来源.json",
-      "bytes": 2085,
-      "sha256": "5c32b11c979fe23d378504fc1cffefe6ec4c72265829692708e39c9cccaadbd3"
+      "bytes": 5617,
+      "sha256": "040804cc37cb637f30e422cb8cac7fd463719e52c94079721a7c6eadc46b708d"
     },
     {
       "path": "绘图.py",
-      "bytes": 5526,
-      "sha256": "4399f6393ff11013223eff76832bf346e63f38feef1b707e8c72f0122926df40"
+      "bytes": 10859,
+      "sha256": "8fcfc4097891b2a11d53b9b98a9b204c5fac6a8be8ff10dfeae036206d399903"
     },
     {
       "path": "配图/图1_初级技术人员占比.png",
@@ -37,6 +37,21 @@
       "path": "配图/图2_任务检查顺序.png",
       "bytes": 140619,
       "sha256": "fdc705452bf413fea5d35c3ff549920b60c7da62c10d7bf29445148b787b7266"
+    },
+    {
+      "path": "配图/图2_各岗位人均产出.png",
+      "bytes": 133671,
+      "sha256": "bcc823eebd392a0addfebfb564637ddc85e01f8dbf33a1e653454e6ef9ad811c"
+    },
+    {
+      "path": "配图/图3_AI使用规模.png",
+      "bytes": 132803,
+      "sha256": "49710ec11326c3498d44c739c3c533ab4c76c5f19816e49ac84eebbcebe88fa0"
+    },
+    {
+      "path": "配图/图4_管理与协作.png",
+      "bytes": 147644,
+      "sha256": "482ffeaf3955e85f02ee8a6d1227089b31a9dd0f82d65fe1a863ee0a3bb26df8"
     },
     {
       "path": "配图/封面_AI.png",

@@ -18,7 +18,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
-| [Anthropic内部就业报告：AI干得越多，人该做什么？](articles/2026-10-26-anthropic-employment/README.md) · v1.0.0 | Anthropic内部报告来源与数据口径、两张配图、绘图源码、概念封面及横版方版可编辑模板 | [ZIP](downloads/anthropic-employment.zip) |
+| [Anthropic内部就业报告：AI干得越多，人该做什么？](articles/2026-10-26-anthropic-employment/README.md) · v1.1.0 | Anthropic内部报告指标与计算口径、五张配图、绘图源码、概念封面及横版方版可编辑模板 | [ZIP](downloads/anthropic-employment.zip) |
 | [国产AI连出三招：降本、开源、升级｜全球AI周报10.25](articles/2026-10-25-global-ai-weekly/README.md) · v1.0.2 | 12张新闻卡片的来源索引、10只AI产业链样本行情、取数与绘图脚本、时间线、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1025.zip) |
 | [有了AI，我怎么更忙了？](articles/2026-10-21-ai-workday-comic/README.md) · v1.0.0 | 三页十八格AI办公对照漫画、分镜与生成提示词、横版和方版封面、可编辑SVG模板及生成脚本 | [ZIP](downloads/ai-workday-comic.zip) |
 | [WorkBuddy 好用的 11 个技能：先装这 3 个，再串成一条流水线](articles/2026-10-21-workbuddy-11-skills/README.md) · v1.0.0 | WorkBuddy 官方推荐的 9 个免费技能与 2 个去 AI 味写作技能：安装名、来源、可复制的说法与注意事项（Excel/Markdown）、3 张示意图与源码 | [ZIP](downloads/workbuddy-11-skills_v1.0.0.zip) |

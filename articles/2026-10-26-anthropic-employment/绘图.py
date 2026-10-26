@@ -96,6 +96,94 @@ def cover(square=False):
     txt(ax,w-75,h-60,'概念示意',18,'#667474',ha='right')
     save(fig,'封面_方版模板' if square else '封面_横版模板',svg=True)
 
+def footer(ax, h, w=1300):
+    txt(ax,65,h-35,'来源：Anthropic · 2026-10-16',17,'#667474')
+    txt(ax,w-65,h-35,'可以叫我才哥',17,'#667474',ha='right')
+
+def productivity():
+    data=json.loads((ROOT/'数据/数据与来源.json').read_text(encoding='utf8'))['productivity']
+    fig,ax=canvas(1300,1430)
+    txt(ax,65,80,'哪些岗位的人均产出增加了？',36,weight='bold')
+    txt(ax,65,140,'2025年12月 = 1；比较原图标注的终点倍数',23,'#667474')
+    for i,row in enumerate(data['rows']):
+        y=230+i*170
+        txt(ax,65,y,row['role']+'｜'+row['metric'].replace('人均',''),27,weight='bold')
+        x,width=65,1010
+        ax.add_patch(Rectangle((x,y+37),width,43,fc='#ECE9E2',lw=0))
+        ax.add_patch(Rectangle((x,y+37),width*row['ratio']/5.5,43,fc=TEAL,lw=0))
+        # Dashed line marks a shared reference of 1, with all bars starting at zero.
+        ax.plot([x+width/5.5]*2,[y+30,y+86],color=VIOLET,lw=2,linestyle='--')
+        txt(ax,x+width*row['ratio']/5.5+20,y+60,f"{row['ratio']:.1f}倍",34,TEAL,'bold')
+    for tick in [0,1,2,3,4,5]:
+        txt(ax,65+1010*tick/5.5,1260,str(tick),20,'#667474',ha='center')
+    txt(ax,65,1320,'各岗位原单位不同；倍数不代表贡献排名或AI因果效果。',21,'#667474')
+    footer(ax,1430)
+    save(fig,'图2_各岗位人均产出')
+
+def ai_usage():
+    data=json.loads((ROOT/'数据/数据与来源.json').read_text(encoding='utf8'))
+    fig,ax=canvas(1300,1370)
+    txt(ax,65,75,'AI被用得更多，也用得更广',36,weight='bold')
+    txt(ax,65,150,'A. 非技术员工的编程类AI会话',28,weight='bold')
+    txt(ax,65,202,'月度指标 · 次/月',22,'#667474')
+    s=data['nontechnical_sessions']
+    for i,(label,key,color) in enumerate([('2025年8月','start',VIOLET),('2026年5月','end',TEAL)]):
+        y=295+i*115
+        txt(ax,65,y,label,25)
+        ax.add_patch(Rectangle((340,y-25),750*s[key]/100,50,fc=color,lw=0))
+        txt(ax,340+750*s[key]/100+22,y,str(s[key]),40,color,'bold')
+    ax.plot([340,1090],[480,480],color=GRID,lw=2)
+    for tick in [0,50,100]: txt(ax,340+750*tick/100,515,str(tick),21,'#667474',ha='center')
+    txt(ax,65,590,'90 ÷ 2 = 45倍（本文计算）',29,TEAL,'bold')
+    ax.plot([65,1235],[650,650],color=GRID,lw=2)
+    txt(ax,65,730,'B. 交互式代理运行工时 / 人类估算工时',27,weight='bold')
+    txt(ax,65,785,'2026年8月 · 比值',22,'#667474')
+    for i,(label,key,color) in enumerate([('全公司','all_employees',TEAL),('其中：研究组织','research_organizations',RED)]):
+        y=875+i*120
+        value=data['agent_hours'][key]
+        txt(ax,65,y,label,25)
+        ax.add_patch(Rectangle((340,y-25),750*value/20,50,fc=color,lw=0))
+        txt(ax,340+750*value/20+20,y,str(value)+'∶1',34,color,'bold')
+    ax.plot([340,1090],[1070,1070],color=GRID,lw=2)
+    for tick in [0,10,20]: txt(ax,340+750*tick/20,1110,str(tick),21,'#667474',ha='center')
+    txt(ax,65,1190,'上下两组单位不同；研究组织属于公司内部子集。',22,'#667474')
+    txt(ax,65,1245,'人类按40小时/人/周估算；代理运行口径见文末。',22,'#667474')
+    footer(ax,1370)
+    save(fig,'图3_AI使用规模')
+
+def coordination():
+    data=json.loads((ROOT/'数据/数据与来源.json').read_text(encoding='utf8'))
+    fig,ax=canvas(1300,1360)
+    txt(ax,65,75,'任务管理和人际协作，也在增加',34,weight='bold')
+    txt(ax,65,150,'A. 元工作在交互式会话中的占比',28,weight='bold')
+    txt(ax,65,205,'设计流程、编写指令、审阅与监控等',23,'#667474')
+    for i,(label,key,color) in enumerate([('2025年8—10月','start',VIOLET),('2026年4—6月','end',TEAL)]):
+        y=300+i*115
+        value=data['meta_work'][key]
+        txt(ax,65,y,label,24)
+        ax.add_patch(Rectangle((375,y-25),700*value/30,50,fc=color,lw=0))
+        txt(ax,375+700*value/30+20,y,str(value)+'%',38,color,'bold')
+    ax.plot([375,1075],[480,480],color=GRID,lw=2)
+    for tick in [0,10,20,30]: txt(ax,375+700*tick/30,520,str(tick)+'%',20,'#667474',ha='center')
+    txt(ax,65,590,'增加12个百分点 · 达到原来的2.2倍',27,TEAL,'bold')
+    ax.plot([65,1235],[650,650],color=GRID,lw=2)
+    txt(ax,65,725,'B. 会议时长相对一年前的增幅',28,weight='bold')
+    for i,(lab,key,color) in enumerate([('全体员工中位数','all_employee_median_growth_percent',TEAL),('技术个人贡献者','technical_ic_growth_percent',RED)]):
+        y=850+i*115
+        value=data['meetings'][key]
+        txt(ax,65,y,lab,24)
+        ax.add_patch(Rectangle((375,y-25),700*value/25,50,fc=color,lw=0))
+        txt(ax,375+700*value/25+20,y,'+'+str(value)+'%',36,color,'bold')
+    ax.plot([375,1075],[1030,1030],color=GRID,lw=2)
+    for tick in [0,10,20]: txt(ax,375+700*tick/25,1070,str(tick)+'%',20,'#667474',ha='center')
+    txt(ax,65,1160,'上图为会话占比，下图为时长相对增幅。',23,'#667474')
+    txt(ax,65,1220,'技术个人贡献者：不担任人员管理的技术岗位。',22,'#667474')
+    footer(ax,1360)
+    save(fig,'图4_管理与协作')
+
 if __name__=='__main__':
-    chart(); workflow(); cover(); cover(True)
-    print('Created 2 figures and 2 editable SVG/PNG cover templates.')
+    chart(); productivity(); ai_usage(); coordination(); workflow()
+    # Existing cover assets remain unchanged when revising article data.
+    for square,stem in [(False,'封面_横版模板'),(True,'封面_方版模板')]:
+        if not (OUT/(stem+'.svg')).exists() or not (OUT/(stem+'.png')).exists(): cover(square)
+    print('Created 5 article figures; existing cover assets preserved.')

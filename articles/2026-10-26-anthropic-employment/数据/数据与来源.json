@@ -18,12 +18,65 @@
     ],
     "source_location": "Labor demand at the frontier，Figure 1及相邻正文；PDF第3—4页"
   },
+  "version": "v1.1.0",
+  "productivity": {
+    "source_location": "原图3 Productivity boom across functions；终点明确标注数值",
+    "baseline": "2025-12 = 1",
+    "endpoint": "2026年中附近的原图终点；不补造精确日或月度明细",
+    "method": "原图为按人均产出指数拟合的Loess平滑曲线；本篇仅重绘终点标注",
+    "rows": [
+      {"role": "工程师", "metric": "人均代码提交量", "ratio": 5.1},
+      {"role": "数据科学家", "metric": "人均查询量", "ratio": 3.1},
+      {"role": "法务人员", "metric": "人均合同处理量", "ratio": 3.1},
+      {"role": "销售人员", "metric": "人均成交量", "ratio": 1.7},
+      {"role": "招聘人员", "metric": "人均招聘人数", "ratio": 1.4},
+      {"role": "应付账款处理人员", "metric": "人均发票处理量", "ratio": 1.4}
+    ],
+    "limits": "单位不同，仅比较各岗位自身增长倍数；不是产出价值排名或AI因果贡献估计"
+  },
+  "nontechnical_sessions": {
+    "start": 2, "end": 90, "unit": "次/月", "start_period": "2025-08", "end_period": "2026-05",
+    "population": "报告按基期无代码提交识别的非技术员工，排除新入职者",
+    "metric": "编程类AI代理会话指标", "source_location": "Labor demand at the frontier 非技术员工段落",
+    "limits": "不把会话次数解释为独立完成任务数、产出或生产率"
+  },
+  "agent_hours": {
+    "period": "2026-08", "all_employees": 6, "research_organizations": 19,
+    "unit": "代理运行工时/人类估算工时",
+    "source_location": "原图2终点明确标注；图注",
+    "scope": "员工主导的交互式会话，汇总子代理；含推理与主动工具使用，排除超过30分钟等待；人类工时按每人每周40小时",
+    "limits": "研究组织属于全公司子集；运行时间不等于替代员工数或净生产率"
+  },
+  "meta_work": {
+    "start": 10, "end": 22, "unit": "%",
+    "start_period": "2025-08至2025-10", "end_period": "2026-04至2026-06",
+    "denominator": "员工交互式AI会话", "numerator": "围绕搭建、审阅、监控代理等元工作的会话",
+    "classification_sample": 2000, "source_location": "原图7及相邻正文；2,000条一行摘要自动分类",
+    "limits": "会话占比，不是全工作时间占比；10和22为正文取整数"
+  },
+  "meetings": {
+    "all_employee_median_growth_percent": 20, "technical_ic_growth_percent": 16,
+    "period": "报告所述过去一年", "source_location": "Based on calendar data段落",
+    "limits": "前者明确为中位数；后者为技术个人贡献者岗位会议时长增幅，原文未另给统计量细节"
+  },
+  "mobility": {
+    "relative_monthly_increase_percent": 50, "period": "2026对2025",
+    "population": "在职至少一年的员工", "metric": "每月跨部门流动的可能性",
+    "source_location": "Labor demand at the frontier内部流动段落",
+    "limits": "相对增幅，不是半数员工转岗；没有以未知基数反推人数"
+  },
+  "adoption_study": {"adopters": 192, "nonadopters": 74, "source_location": "原图4及相邻正文", "limits": "非随机采用；与原图3的总体产出增长不是同一估计"},
+  "derived_calculations": {
+    "junior_hiring_change_pp": -18, "junior_headcount_change_pp": -7,
+    "nontechnical_session_ratio": 45, "meta_work_change_pp": 12, "meta_work_ratio": 2.2,
+    "productivity_growth_percent": [410, 210, 210, 70, 40, 40]
+  },
   "checks": [
     {"claim": "技术招聘绝对数量仍增长", "location": "Figure 1相邻正文", "caveat": "不代表初级技术招聘绝对数增长"},
     {"claim": "约80%的交互会话时间等待人类输入", "location": "Bottlenecks and process", "caveat": "分母为交互会话时间；不是员工工时或公司总算力"},
     {"claim": "员工会议时长中位数同比增加20%", "location": "Bottlenecks and process", "caveat": "不是增加20个百分点，也不是每位员工都增加20%"},
     {"claim": "技术招聘评估更重视自主性和判断力", "location": "Hiring manager interview score cards段落", "caveat": "定性评语的关注点变化；不能推断专业能力不重要"}
   ],
-  "original_contributions": ["分母解释的100人与200人示例为假设", "三份AI分析的冲突案例为假设", "作品集建议与任务检查顺序为作者分析"],
+  "original_contributions": ["转岗概率2%到3%的例子为假设", "三份AI分析的冲突案例为假设", "百分点、相对增幅与倍数换算为本文计算", "作品集建议与任务检查顺序为作者分析"],
   "interpretation_limits": ["单一公司", "自家内部数据", "工具采用非随机", "业务快速扩张与组织变化同时存在"]
 }
