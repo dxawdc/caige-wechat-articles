@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "ai-everyday",
+      "title": "普通人用AI，可以做什么？36个全场景案例全公开，建议收藏",
+      "kind": "article",
+      "version": "v1.1.0",
+      "source": "articles/2026-10-27-ai-everyday",
+      "manifest": "物料清单.json",
+      "download": "downloads/ai-everyday.zip",
+      "summary": "36项场景提示词、26张正文配图、横版与方版AI封面、可编辑SVG模板、生图提示词与官方工具来源"
+    },
     {
       "id": "anthropic-employment",
       "title": "Anthropic内部就业报告：AI干得越多，人该做什么？",

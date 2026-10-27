@@ -1,6 +1,6 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**49篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**50篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
 <!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
 
@@ -18,6 +18,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [普通人用AI，可以做什么？36个全场景案例全公开，建议收藏](articles/2026-10-27-ai-everyday/README.md) · v1.1.0 | 36项场景提示词、26张正文配图、横方封面、SVG模板、生图提示词与官方来源 | [ZIP](downloads/ai-everyday.zip) |
 | [Anthropic内部就业报告：AI干得越多，人该做什么？](articles/2026-10-26-anthropic-employment/README.md) · v1.4.1 | Anthropic内部报告指标与计算口径、五张手绘风配图、绘图源码及横版方版手绘数据封面 | [ZIP](downloads/anthropic-employment.zip) |
 | [国产AI连出三招：降本、开源、升级｜全球AI周报10.25](articles/2026-10-25-global-ai-weekly/README.md) · v1.0.2 | 12张新闻卡片的来源索引、10只AI产业链样本行情、取数与绘图脚本、时间线、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1025.zip) |
 | [有了AI，我怎么更忙了？](articles/2026-10-21-ai-workday-comic/README.md) · v1.0.0 | 三页十八格AI办公对照漫画、分镜与生成提示词、横版和方版封面、可编辑SVG模板及生成脚本 | [ZIP](downloads/ai-workday-comic.zip) |

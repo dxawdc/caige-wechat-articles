@@ -1,0 +1,224 @@
+{
+  "articleId": "ai-everyday",
+  "version": "v1.1.0",
+  "updated": "2026-10-27",
+  "entrypoint": "README.md",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1768,
+      "sha256": "fc83881ad3594e47f0f15f4928e88a1ae069c751b077a5f9d9c0afd5c7c92624"
+    },
+    {
+      "path": "场景提示词.md",
+      "bytes": 14073,
+      "sha256": "1fbc8763500eb0bb522e7793f74c391def924b0490315932fb2d4670c966340b"
+    },
+    {
+      "path": "工具来源.md",
+      "bytes": 1415,
+      "sha256": "e883841ce849902457703f77f937b14f37290fc1ed911480c15cb986fde23816"
+    },
+    {
+      "path": "源码/封面修订提示词.json",
+      "bytes": 1303,
+      "sha256": "718471063c528a53e07044f797ba4de106c04f8a47c498988acfc4edaefb049c"
+    },
+    {
+      "path": "源码/扩展场景生图提示词.json",
+      "bytes": 12296,
+      "sha256": "534fb908d9135dee7e64124d2943967ec0557a26c4df653485254fcc9039453b"
+    },
+    {
+      "path": "源码/生图提示词.json",
+      "bytes": 9458,
+      "sha256": "d07b9071de41217b34d09959e239d351b7408412fb91cd64ea425bfae580cf17"
+    },
+    {
+      "path": "源码/生成封面模板.py",
+      "bytes": 2056,
+      "sha256": "8cc393970c3a22494541258106ddaf4f5811726b1d4466730493151eb9aaacb8"
+    },
+    {
+      "path": "素材说明.json",
+      "bytes": 2777,
+      "sha256": "dae63308e110276c403423228138815b53169cffaed188c7f8549d06f2091b2a"
+    },
+    {
+      "path": "配图/01_对话查询.png",
+      "bytes": 1433859,
+      "sha256": "2d9d5bf2de74da13e47848cb9e4a79e9ed06ac9ae4f881db3e466c2d007b52f1"
+    },
+    {
+      "path": "配图/02_学习研究.png",
+      "bytes": 2579927,
+      "sha256": "a17e00c3e954267d77d074f55b6ce88f2f88a53208f5b637ccda821766470946"
+    },
+    {
+      "path": "配图/02_数据分析.png",
+      "bytes": 84021,
+      "sha256": "dc8b18cd154b1dc8563fbfcffc6d5d418565973358ef1016bb5d8a854d9be311"
+    },
+    {
+      "path": "配图/03_文档与PPT.png",
+      "bytes": 2258465,
+      "sha256": "88600edcad2aa3bc79163982863e02b9af3bb9d24cf674dddac022a80a2b2a4a"
+    },
+    {
+      "path": "配图/04_公众号写作.png",
+      "bytes": 3072296,
+      "sha256": "27e9e43af405e47e52e31964907fbee045d70a0e7a95144114edd08bdab09c97"
+    },
+    {
+      "path": "配图/05_生活规划.png",
+      "bytes": 2847846,
+      "sha256": "d67da62952244c692bc68f06f7645b950b4620e47b7d44c5de68a7a93b7d6e80"
+    },
+    {
+      "path": "配图/05_画图改图.png",
+      "bytes": 2496748,
+      "sha256": "01cd0174a2df94605c75488467e0e68e23251983ff00fcc3f886699abad41f21"
+    },
+    {
+      "path": "配图/06_代码动画.gif",
+      "bytes": 1407840,
+      "sha256": "74c589d907b82e7d3cafd61dd2b14a036dcdaca4385af4e41a897b83b860311c"
+    },
+    {
+      "path": "配图/06_方案比较.png",
+      "bytes": 2750274,
+      "sha256": "1f4fe347a18b4879b352a0638a3b67f1d68ab94a32de6253ec8082c9d309633f"
+    },
+    {
+      "path": "配图/07_宣传视频流程.png",
+      "bytes": 2650827,
+      "sha256": "b7b1c7b70a251ba111150875e3c85bae3ad48cb2b51d0f0b61b24c285fe8e28b"
+    },
+    {
+      "path": "配图/08_网站.png",
+      "bytes": 224716,
+      "sha256": "8b11949d0604d6c053a93c877bb3ff81db9b380eddb0c2f317260993f2fcc863"
+    },
+    {
+      "path": "配图/09_应用开发.png",
+      "bytes": 2473159,
+      "sha256": "e7a9d496cce33fe40639619ea9ba2156e113eace5251e5c00fdc96d31ddfef14"
+    },
+    {
+      "path": "配图/09_行情小程序.jpg",
+      "bytes": 105638,
+      "sha256": "3ea684c192d2564031b04ad28bc230f0f92728c4bc6caece83144d4ee74f9a9a"
+    },
+    {
+      "path": "配图/09_资料阅读.png",
+      "bytes": 2409208,
+      "sha256": "88eae1dd5441eeb7d7571345076ff2cbc98d113fdd82ec915134ce240ae73bc3"
+    },
+    {
+      "path": "配图/10_小游戏.png",
+      "bytes": 575224,
+      "sha256": "7318c49efccf503f7b04e66a205523c015b4cc906db5a6cc9b7e1dfc64d2a179"
+    },
+    {
+      "path": "配图/11_三维模型.png",
+      "bytes": 2071420,
+      "sha256": "0b929878e637014d40d60f730dd97360dd24e91ff76fc0956524f90bcd7aee4b"
+    },
+    {
+      "path": "配图/11_表格处理.png",
+      "bytes": 2751101,
+      "sha256": "d9c7620b88e72ec9c62cbef0590e86df476f0b20aeee1964fb4e0e8d867f726f"
+    },
+    {
+      "path": "配图/12_自动化.png",
+      "bytes": 1932693,
+      "sha256": "7a50b62cb26ca01f4ed3e3841f1c41806d35cfccd21c3176e555e0242e928ad3"
+    },
+    {
+      "path": "配图/12_行业简报.png",
+      "bytes": 91490,
+      "sha256": "9b224c4d0939a68c382412eb4f47dc0ce501c21be4c63c0db138b026a4a8ef49"
+    },
+    {
+      "path": "配图/15_多种内容.png",
+      "bytes": 2690864,
+      "sha256": "6c350ec5c8a83ba36d597ad100c46d57abe230f97aab7cfc233a8925cd8ce8a2"
+    },
+    {
+      "path": "配图/16_会议沟通.png",
+      "bytes": 2490330,
+      "sha256": "118bf5a565820a3115d386e6d2e80ba3ba3c3a4576f7a6aae9bbee6f79e7bfd4"
+    },
+    {
+      "path": "配图/23_音频制作.png",
+      "bytes": 2793686,
+      "sha256": "bed684d9858245771d950b581b28a68faa00080f61c2bba4d0a5473735ea5834"
+    },
+    {
+      "path": "配图/32_页面自动化.png",
+      "bytes": 2490075,
+      "sha256": "05d1562f8b00cc36bfbccdfa92f98f07f5985faac70eaff7967b1f7c7f8129bd"
+    },
+    {
+      "path": "配图/33_文件整理.png",
+      "bytes": 2835030,
+      "sha256": "45af422b8547a73f9d0586a6dc9d134d2699352dd124fbd43bdf285b3084e541"
+    },
+    {
+      "path": "配图/34_定时任务.png",
+      "bytes": 2464211,
+      "sha256": "7321a210b961c0f3d3dd23fe83e9f7e22b08593ece6faff2de73cdb277370884"
+    },
+    {
+      "path": "配图/36_项目迭代.png",
+      "bytes": 2393374,
+      "sha256": "a119f83e262cb53059d5c728be29995b03adc56b3c47c60f5f1e34499170335e"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 2212006,
+      "sha256": "76961c9878e7405c6a7cd16cf4878817dd47e3e543e25a74475da2b19afedacb"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 2141856,
+      "sha256": "cfecbdff7d1d911cc28817d62a6b1d08a1b222246dbe3ce65f24afb2c5a68bb9"
+    },
+    {
+      "path": "配图/封面模板_方版.png",
+      "bytes": 67354,
+      "sha256": "470f73ba8d961ff88d778a058af53cca52daef7c1cfedef04988ebda25bddca5"
+    },
+    {
+      "path": "配图/封面模板_方版.svg",
+      "bytes": 1437,
+      "sha256": "621f633e01ca5dbfd28ddbd4fc57546e421081dda93b42c501128c1e44222168"
+    },
+    {
+      "path": "配图/封面模板_横版.png",
+      "bytes": 65427,
+      "sha256": "41cf140bc9b80eb69fd69b150bafa0778956d31890c28d0daac0032f5109b9a5"
+    },
+    {
+      "path": "配图/封面模板_横版.svg",
+      "bytes": 1434,
+      "sha256": "a880921724a5e5608f5913ba72a5ee0b33595648aa5ec10db8d2e0d5e14a4600"
+    },
+    {
+      "path": "配图/文末动图.gif",
+      "bytes": 1497023,
+      "sha256": "b98cfcb48e88b39dff5bafd6887ee88fbea44a2975e918d4bdde1eccc64b7314"
+    },
+    {
+      "path": "配图/顶部横幅.gif",
+      "bytes": 1284334,
+      "sha256": "899bc9c3760ee30639ce71b9153388d5bb1aa7c786c01a4f33812b46e4486542"
+    },
+    {
+      "path": "配图总览.html",
+      "bytes": 4796,
+      "sha256": "688fd0e13f8118d03ad89b98cd013708dfda977237fccdd55b386a41889c6592"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

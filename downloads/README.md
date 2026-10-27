@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [普通人用AI，可以做什么？36个全场景案例全公开，建议收藏](../articles/2026-10-27-ai-everyday/README.md) | v1.1.0 | [ai-everyday.zip](ai-everyday.zip) | 54.47 MB |
 | [Anthropic内部就业报告：AI干得越多，人该做什么？](../articles/2026-10-26-anthropic-employment/README.md) | v1.4.1 | [anthropic-employment.zip](anthropic-employment.zip) | 1.89 MB |
 | [国产AI连出三招：降本、开源、升级｜全球AI周报10.25](../articles/2026-10-25-global-ai-weekly/README.md) | v1.0.2 | [global-ai-weekly-1025.zip](global-ai-weekly-1025.zip) | 4.24 MB |
 | [有了AI，我怎么更忙了？](../articles/2026-10-21-ai-workday-comic/README.md) | v1.0.0 | [ai-workday-comic.zip](ai-workday-comic.zip) | 7.84 MB |

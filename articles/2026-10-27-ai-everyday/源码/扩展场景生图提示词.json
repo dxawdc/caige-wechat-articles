@@ -1,0 +1,62 @@
+[
+  {
+    "key": "research",
+    "file": "02_学习研究.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “从资料到自己的理解”. Three open research cards titled “查来源”“做对照”“练一练”. A source document with magnifier, a comparison sheet, a study notebook with checkmarks. Main scene a laptop and notebook, no real institution logos. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "life",
+    "file": "05_生活规划.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “把生活安排得更清楚”. A beautiful four-day travel planning notebook and a phone itinerary, plus small kitchen menu and shopping checklist paper cards. Only labels “行程安排”“菜单计划”“清单比较”; no real prices, addresses, dates or bookings. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "choices",
+    "file": "06_方案比较.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “让想法经得起讨论”. Two equally sized proposal cards A and B with three evaluation rows “目标”“成本”“限制”, human pencil checking unanswered questions, no numeric scoring. A dialogue bubble reads “还有哪些遗漏？”. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "reading",
+    "file": "09_资料阅读.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “读长文，也要找得到原文”. Left a tall stack of PDF and Word document sheets; middle a magnifier and sticky notes; right a clean summary sheet with three exact headings “核心内容”“版本变化”“原文位置”. Clear arrows from sources to summary, do not invent quotations or citations. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "sheets",
+    "file": "11_表格处理.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “把零散表格整理清楚”. Three messy spreadsheet sheets on left titled “原始表格”, a clean joined spreadsheet on right titled “汇总结果”, intermediate tools three large tags “去重”“匹配”“核对”. Blank abstract cell rows instead of invented business data; highlight duplicate rows with same colors. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "content",
+    "file": "15_多种内容.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “一份材料，多种表达”. One central report document labeled “原始材料”, branching four ways into a phone article “公众号”, slide deck “PPT”, short video player “视频”, bilingual note “双语摘要”. Clearly show one-source-to-many relationship, distinct attractive paper-cut artifacts. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "meeting",
+    "file": "16_会议沟通.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “把讨论整理成下一步”. A recording waveform on left, meeting notes and three action cards on right with exact labels “决定事项”“负责人”“待确认”. A small email draft card marked “发送前审阅”. No personal names or dates or actual email addresses. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "audio",
+    "file": "23_音频制作.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “让作品有声音”. Three beautiful side-by-side workstations: microphone and script labeled “配音”, music waveform with headphones labeled “配乐”, bell and game controller labeled “音效”. A coherent audio timeline under the three with separate visual tracks. No brand logos, no musician likenesses. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "browser",
+    "file": "32_页面自动化.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “把重复操作变成步骤”. An unbranded demo browser window with 3 large stages “读取页面”“按要求操作”“检查结果”. Left generic product cards labeled A and B, middle cursor pressing a “筛选” button, right checklist and result table with no numbers. Small sublabel “演示页面”. No real accounts or real service interface. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "files",
+    "file": "33_文件整理.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “整理文件，也整理规则”. Messy paper folders left “待整理”, tidy three file folders right “图片”“文档”“视频”. Middle human inspection checkpoint labeled “先预览，再执行”. Small naming rule example “日期_主题”. No destructive operation icons or system drives. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "schedule",
+    "file": "34_定时任务.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “让重复任务按时运行”. A calendar and clock connected to three clean status cards “定时执行”“记录结果”“异常提醒”, one additional human review paper labeled “检查来源”. Minimal friendly dashboard-like illustration, no fake running status, no exact dates, no arbitrary statistics. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  },
+  {
+    "key": "iteration",
+    "file": "36_项目迭代.png",
+    "prompt": "Use case: productivity-visual. Create one refined Chinese editorial illustration, landscape 3:2, for an article about everyday AI applications. Consistent visual system: warm ivory #F9F7F2 paper-cut texture, dark teal #166B72 typography, terracotta #BD5B42 and muted violet #75628E accents. Large correct simplified Chinese lettering, generous whitespace, clear main subject, sophisticated tactile collage. Top title exactly “做出来，还要继续改”. A four-stage cycle with large labeled cards “发现问题”“定位原因”“修改实现”“验证结果”. Middle a generic mobile-app screen and bug magnifier. Human hand tests a button. No real app logos or claim of successful repair of a specific project. Bottom readable disclosure exactly “AI生成·场景示意”. This is an explanatory illustration, not a real software screenshot. All other tiny text should be abstract rules, no invented business claims."
+  }
+]

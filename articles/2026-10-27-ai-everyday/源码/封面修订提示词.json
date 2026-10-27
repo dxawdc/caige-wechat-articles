@@ -1,0 +1,12 @@
+[
+  {
+    "key": "cover",
+    "file": "封面_横版.png",
+    "prompt": "Edit this existing cover only to update subtitle. Preserve main headline “普通人用AI / 可以做什么？”, person, laptop, objects, layout, colors, paper-cut style, aspect ratio 2.35:1 and all other composition. Replace the existing lower-left subtitle “从问问题，到做出作品” with the exact clear Chinese text “36个全场景案例 · 建议收藏”. Make “36” terracotta and slightly emphasized, while keeping the subtitle on a single readable line within safe margins. No author signature, no new objects, no other text changes. High-quality Chinese typesetting."
+  },
+  {
+    "key": "square",
+    "file": "封面_方版.png",
+    "prompt": "Edit the square cover to add a clear short subtitle for its expanded article. Preserve all existing headline text “普通人用AI / 可以做什么？”, main composition, person, laptop, visual objects, paper-cut texture and ivory teal terracotta violet colors. Add exact subtitle “36个全场景案例” in a beautifully typeset small terracotta pill or ribbon in the whitespace between the headline and illustration, without covering existing headline or key objects. Keep square 1:1. No author name or logos. Do not introduce other text."
+  }
+]

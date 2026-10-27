@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="766" viewBox="0 0 1800 766">
+    <rect width="1800" height="766" fill="#F9F7F2"/>
+    <circle cx="1690" cy="666" r="310" fill="#E7EEEA"/>
+    <g font-family="Microsoft YaHei, sans-serif" font-weight="700">
+      <text x="100" y="260" font-size="108" fill="#166B72">普通人用AI</text>
+      <text x="100" y="410" font-size="108" fill="#BD5B42">可以做什么？</text>
+      <text x="100" y="498" font-size="36" fill="#213638" font-weight="400">36个全场景案例 · 建议收藏</text>
+    </g>
+    <g transform="translate(1130 150) scale(1)">
+      <rect x="0" y="80" width="490" height="300" rx="20" fill="#166B72"/>
+      <rect x="18" y="100" width="454" height="250" rx="6" fill="white"/>
+      <path d="M-25 390 H515 L545 420 H-55 Z" fill="#75628E"/>
+      <rect x="45" y="-10" width="180" height="220" rx="8" fill="#F3DFD1" transform="rotate(-10 45 -10)"/>
+      <g stroke="#BD5B42" stroke-width="10"><path d="M70 35H180 M65 75H190 M60 115H180"/></g>
+      <rect x="280" y="-45" width="150" height="240" rx="20" fill="#75628E" transform="rotate(8 280 -45)"/>
+      <circle cx="355" cy="65" r="45" fill="#F2CF8D"/>
+      <path d="M345 40 L380 65 L345 90 Z" fill="white"/>
+      <g font-family="Microsoft YaHei, sans-serif" font-size="27" fill="#213638">
+      <text x="52" y="285">文章 · 图表 · 网站 · 视频</text></g>
+    </g></svg>

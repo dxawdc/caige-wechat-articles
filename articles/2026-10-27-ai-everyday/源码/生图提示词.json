@@ -1,0 +1,47 @@
+[
+  {
+    "key": "cover",
+    "file": "封面_横版.png",
+    "prompt": "Use case: ads-marketing. Generate a polished Chinese WeChat article COVER as a single extra-wide landscape image, aspect ratio 2.35:1. Theme: an ordinary person uses AI to turn everyday needs into real work: writing, charts, websites, apps, games and videos. Premium layered paper-cut editorial illustration, warm ivory #F9F7F2 background, deep teal #166B72, terracotta #BD5B42 and muted violet #75628E. Left 48% contains huge beautifully typeset exactly spelled Chinese headline in two lines: \"普通人用AI\" / \"可以做什么？\". Smaller subtitle \"从问问题，到做出作品\". Right 52% shows a warmly lit paper-crafted desk with laptop, simple smartphone, document, fruit game tile, image and small film strip rising out of a conversation bubble, integrated as one sculptural composition. Elegant tactile paper textures and soft shadows, generous whitespace, strong focal hierarchy. All objects stylized concepts, no simulated branded screenshot, no logos, no author/account signature, no extra text. Text within 8% safe margins. Mobile thumbnail legibility."
+  },
+  {
+    "key": "query",
+    "file": "01_对话查询.png",
+    "prompt": "Use case: ui-mockup. Create a Chinese editorial demonstration illustration for an article about everyday AI use. A single beautifully clear GENERIC AI chat window, frontal flat layout, 3:2 landscape, white/ivory background with restrained teal and terracotta accents, large readable Simplified Chinese typography. Header \"把问题问具体\". User message exact: \"手冲咖啡总是偏酸，可能是什么原因？\". Assistant short reply shown as 3 generous numbered cards: \"1 先看豆子与烘焙度\" / \"2 再看研磨、水温和萃取\" / \"3 每次只调整一个变量\". Follow-up user bubble: \"我用浅烘豆，水温90℃，先改哪一项？\". Small unobtrusive but readable label \"AI生成·对话示意\". Visual conveys asking with context and following up, tasteful minimal coffee dripper paper-cut in corner outside window. No DeepSeek/ChatGPT logos, no fabricated citations, no time saved claims. This is a clearly labeled conceptual demo, not an actual historical chat screenshot. All labels exact, no other small gibberish text."
+  },
+  {
+    "key": "office",
+    "file": "03_文档与PPT.png",
+    "prompt": "Use case: productivity-visual. Chinese editorial image, landscape 3:2, warm ivory / dark teal / terracotta / muted lavender, beautiful clean software-inspired layout. Depict a transformation from messy source notes on the left to two refined output sheets on right: a structured report document and a presentation slide. Top heading exact \"把材料变成能交付的文件\". Left card heading \"原始材料\" with just three short clear lines \"会议记录\" \"业务数据\" \"零散想法\". Center short arrow label \"整理 · 核对 · 排版\". Right top document heading \"项目方案\", three rows \"目标\" \"步骤\" \"分工\". Right bottom presentation title \"季度复盘\", simple illustrative unlabeled bars, not real numerical data. At bottom exact small disclosure \"AI生成·办公场景示意\". All text legible and minimal, paper texture, subtle depth, professional editorial hierarchy. No logos, no pseudo real software screenshot, no invented business metrics."
+  },
+  {
+    "key": "square",
+    "file": "封面_方版.png",
+    "prompt": "Use case: ads-marketing. Square 1:1 companion cover for Chinese article \"普通人用AI，可以做什么？\". Premium layered paper-cut editorial artwork: warm ivory background #F9F7F2, deep teal #166B72, terracotta #BD5B42 and dusty violet #75628E. Upper half has exactly two large lines of beautifully typeset simplified Chinese: \"普通人用AI\" then \"可以做什么？\". Lower half: person at laptop with paper-cut document, website window, phone fruit-game icon, film strip rising as an integrated sculptural composition. Generous negative space, soft shadows, artisanal paper texture, sophisticated magazine art. Recompose specifically for square, do not crop a wide layout. No logos, no account or author name, no tiny extra text. Keep headline highly legible at 100px thumbnail and inside 8 percent safe margin."
+  },
+  {
+    "key": "art",
+    "file": "05_画图改图.png",
+    "prompt": "Use case: illustration-story. A refined Chinese editorial illustration explaining image generation and iterative editing, landscape 3:2. Warm white paper texture, dark teal, terracotta, lavender. Top title exactly \"画出来，再改到合适\". Three equal generous image panels in one horizontal row connected subtly: panel 1 a cute original orange cat holding a white ceramic coffee mug against a blank white background, label \"生成角色\"; panel 2 visibly the exact same cat character and same mug now inside a cozy cafe, label \"修改背景\"; panel 3 a vertical finished poster incorporating same cat in same cafe with a large top title \"周末咖啡\", label underneath \"做成海报\". Maintain cat identity and mug across all three panels. Full illustration, not a screenshot or claim about any real project. Bottom small clear text \"AI生成·改图流程示意\". Elegant clear typography, no other text, no numeric advertising claims, no logos."
+  },
+  {
+    "key": "video",
+    "file": "07_宣传视频流程.png",
+    "prompt": "Use case: productivity-visual. Chinese editorial illustration for producing a game promotion video, landscape 3:2, warm ivory teal terracotta muted lavender paper-cut style. Top title exact \"把作品介绍给更多人\". Four clear storyboard cards in two-by-two arrangement, numbered 01 through 04. Titles exact: \"写脚本\" \"排分镜\" \"配音与字幕\" \"剪辑成片\". Card1 sheet with pencil, only readable short phrase \"先展示玩法\". Card2 two frames of a cute fruit merging mobile puzzle game with cherries and watermelon, no branded UI. Card3 audio waveform and caption tile reading \"相同水果碰一碰\". Card4 a video player mockup with fruit-game scene and play icon plus short editing timeline. Include clear bottom label \"AI生成·宣传片制作示意\". All scenes are concept demo, no fabricated actual screenshots or analytics. Plenty whitespace, crisp generous Chinese type, coherent visible workflow."
+  },
+  {
+    "key": "automation",
+    "file": "12_自动化.png",
+    "prompt": "Use case: infographic-diagram. Create a high-quality editorial infographic in Simplified Chinese, landscape 3:2, ivory paper background, dark teal type, terracotta and muted violet accent. Title exactly \"把重复工作交给流程\". Show a single clear left-to-right chain of FIVE large connected paper-cut cards with icons and exact labels: \"收集资料\" -> \"去重分类\" -> \"生成简报\" -> \"人工核对\" -> \"定时更新\". Icons: documents, sorted folders, newspaper, person with check mark, clock. Below the five cards, a large folder with a reusable instruction sheet headed \"可复用的技能\", next to two small labels \"写作规范\" and \"视频流程\". All arrows and nodes unambiguous. Footer exactly \"AI生成·工作流示意\". Do not claim actual software output, no logos or extra tiny text. Beautiful balanced spacing, all labels large and correctly spelled."
+  },
+  {
+    "key": "writing",
+    "file": "04_公众号写作.png",
+    "prompt": "Use case: productivity-visual. Single wide 3:2 Chinese editorial illustration for a personal essay about AI-assisted WeChat writing. Warm ivory paper texture, teal, terracotta and muted lavender, sophisticated paper-cut collage. Title exactly \"一篇文章，从想法到成稿\". Show a creative desk workflow from left to right: research clippings and notes labeled \"选题与资料\", a half-written manuscript labeled \"写作与修改\", a phone-shaped article preview with cover art and neat text blocks labeled \"配图与排版\". Above manuscript is a small hand with pencil signifying human review. Phone article heading exactly \"普通人用AI\". Lower slim strip has three short checkpoints \"事实核对\" \"图文对应\" \"手机预览\". Footer exact \"AI生成·写作流程示意\". No WeChat logo, no fictitious published stats, no small invented body copy, all other text represented as gray rules. Clean readable Chinese."
+  },
+  {
+    "key": "app",
+    "file": "09_应用开发.png",
+    "prompt": "Use case: ui-mockup. Chinese editorial schematic image of a desktop-pet application concept inspired by a real development project: a cute white round panda pet on a laptop desktop and an Android phone. Landscape 3:2, warm ivory, teal, muted lavender, terracotta paper-cut editorial framing with large clear typesetting. Title exactly \"把自己的需求做成应用\". Laptop on left shows an unbranded blank desktop with small white panda pet at lower right and a compact control card reading \"桌面宠物\" and two simple buttons \"唱歌\" \"吉他\". Android phone on right shows a simple settings screen headed \"悬浮宠物\", a size slider labeled \"角色大小\", button \"显示宠物\", and same tiny panda floating above screen. Bottom note exact \"AI生成·依据项目功能重绘，非实机截图\". Do not depict store listing, online-user counts, version numbers, production deployment or other unverified features. Prioritize clear diagram of desktop vs mobile interfaces, only specified text."
+  }
+]
