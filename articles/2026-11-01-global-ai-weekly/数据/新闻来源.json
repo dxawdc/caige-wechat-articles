@@ -1,0 +1,80 @@
+[
+  {
+    "title": "千问模型更新记录",
+    "date": "2026-10-27",
+    "url": "https://docs.qwencloud.com/changelog/models",
+    "verification": "实时双工语音发布；Flash为新增部署区域，不是本周首次发布。"
+  },
+  {
+    "title": "GPT-6.1 Terra发布",
+    "date": "2026-10-26",
+    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+    "verification": "标准API输入1美元、缓存0.05美元、输出5美元每百万token；相对5.6 Terra与6.1 Sol价格低50%。"
+  },
+  {
+    "title": "Nemotron 3.5 Transcribe",
+    "date": "2026-10-28",
+    "url": "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Transcribe/",
+    "verification": "40种语言、最长1小时录音；开放权重与OpenMDW-1.1许可。"
+  },
+  {
+    "title": "Pika H3 Flex技术发布",
+    "date": "2026-10-29",
+    "url": "https://pika.art/blog/pika-h3-flex-research",
+    "verification": "MiniMax H3后训练，六步采样；评测属厂商自报。"
+  },
+  {
+    "title": "Pika H3 Flex模型卡",
+    "date": "2026-10-29",
+    "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+    "verification": "本地480p/768p；4K和独立音轨属于托管API扩展；社区许可。"
+  },
+  {
+    "title": "腾讯与Visa合作备忘录",
+    "date": "2026-10-29",
+    "url": "https://www.tencent.com/tencent-and-visa-announce-strategic-partnership-to-enhance-global-payment-and-commerce-experiences/",
+    "verification": "探索Agent支付，非全民上线服务。"
+  },
+  {
+    "title": "Cursor插件安全公告",
+    "date": "2026-10-29",
+    "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "verification": "仅指定市场的2.1.312与2.1.313，约11小时；官方发行渠道未见受影响证据。"
+  },
+  {
+    "title": "Epoch AI补丁窗口研究",
+    "date": "2026-10-29",
+    "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+    "verification": "GLM 5.3为既有模型；六个Firefox版本、实验数据；159.0修复一个未公开漏洞，不推断完全免疫。"
+  },
+  {
+    "title": "英国CMA调查Meta商业条款",
+    "date": "2026-10-30",
+    "url": "https://www.gov.uk/government/news/cma-opens-investigation-into-metas-commercial-terms--2",
+    "verification": "调查开始，尚无违法认定；条款变更暂停。"
+  },
+  {
+    "title": "OpenAI训练偏好共同信号",
+    "date": "2026-10-30",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/",
+    "verification": "未来几个月计划实施，自愿机制，不是已实施的法律或网络封锁。"
+  },
+  {
+    "title": "亚马逊三季报",
+    "date": "2026-10-29",
+    "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+    "verification": "AWS季度营收460亿美元；424亿美元为过去12个月自由现金净流出，不是季度亏损。"
+  },
+  {
+    "title": "行情日线",
+    "date": "2026-10-30",
+    "url": "https://finance.yahoo.com/quote/NVDA/history/",
+    "verification": "自行取原币种未复权日线；10月30日相对23日。"
+  },
+  {
+    "title": "PAPERBENCHX预印本",
+    "date": "2026-10-29",
+    "url": "https://arxiv.org/abs/2610.39744",
+    "verification": "93任务、12领域；10种配置，90%评分阈值下最好配置完整复现14%，非科学能力总分。"
+  }
+]
