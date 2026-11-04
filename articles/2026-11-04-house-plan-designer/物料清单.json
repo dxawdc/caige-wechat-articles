@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-04-house-plan-designer",
+  "version": "v1.0.0",
+  "updated": "2026-11-04",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2607,
+      "sha256": "1aa1fa2d67f26b44ad1e084f6fecb77146c844f9b2a5e8ac5f413aefbb67f209"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 53,
+      "sha256": "3fdfcdac8efa39c03cdb2d76cc965e777eae091037b6cea26fbf800fd01f3e75"
+    },
+    {
+      "path": "图/01_输入户型图.jpg",
+      "bytes": 117784,
+      "sha256": "a86124a6de82ad97a98033bb0d603638040d1dac2545873384cfba47bf801426"
+    },
+    {
+      "path": "图/05_识图标号.png",
+      "bytes": 483848,
+      "sha256": "c66515186a7b0916328b1c059b5079dd3f2926b7a0d3347746854380d94bdebf"
+    },
+    {
+      "path": "图/06_草稿只有墙.png",
+      "bytes": 44335,
+      "sha256": "135f3baac94ae2f6eec5b178ff23a8b17ab5185de875496b67c1fe0020cd3e21"
+    },
+    {
+      "path": "图/07_完整2D.png",
+      "bytes": 195992,
+      "sha256": "98f32c9f937f6cca34f7f56338a1073776caf8e990cfc20af021e7abe647ae68"
+    },
+    {
+      "path": "图/08_完整3D.png",
+      "bytes": 349904,
+      "sha256": "39f2724dae4ed0e5f62ea8d65813f0ee5fb00adabd122224875f3cc559cfeb60"
+    },
+    {
+      "path": "图/09_叠图对账.png",
+      "bytes": 337773,
+      "sha256": "b13c039877bf03e20ab4f69ea278904d6696d900f6cb812a163e010e6c0c5614"
+    },
+    {
+      "path": "图/10_水电点位图.png",
+      "bytes": 499443,
+      "sha256": "fb0322d971f4618481ccebf831dbbdf59cce6e40b57777cbb6ed5598e7e80335"
+    },
+    {
+      "path": "对比墙体偏差.py",
+      "bytes": 2271,
+      "sha256": "b1723650627487dbac661b25dd5747295e51dcb1ba17e66f6c8c4b45ce41a8a2"
+    },
+    {
+      "path": "数据/analysis.json",
+      "bytes": 6870,
+      "sha256": "9bb4f3e69a4ad62089dafddc212b4bcfcd69124cee2110061598d8e68725b4dd"
+    },
+    {
+      "path": "数据/draft.json",
+      "bytes": 3192,
+      "sha256": "bb1acc7881b25f3f81d54e8032eac6f3631347c2873f45c769d9ce1bc1ef1a3f"
+    },
+    {
+      "path": "数据/example-spec.json",
+      "bytes": 8275,
+      "sha256": "b5226c5b02d21b06e9e464421503167dbe2df5d7d1dd68d0a214ba5e0bb7bb5f"
+    },
+    {
+      "path": "配图/封面_方版.png",
+      "bytes": 272766,
+      "sha256": "4c9410f0c7e44c330c7903c9880624676d4f0a8742a4c605a2852c173f11cba4"
+    },
+    {
+      "path": "配图/封面_方版.svg",
+      "bytes": 3848,
+      "sha256": "b33f96c744963eb2baf2190509ce09e2418463f618d1375a51db1e4e62cde8f3"
+    },
+    {
+      "path": "配图/封面_横版.png",
+      "bytes": 257346,
+      "sha256": "1b08a9cbe6eb7c9c7f63374855af8d75a7ea278a7be9927ad71a18d693fed06f"
+    },
+    {
+      "path": "配图/封面_横版.svg",
+      "bytes": 3859,
+      "sha256": "eca1664b00477a9bf607e9ca791841a594e63ba211097d3ddbf2f716ff06ff58"
+    }
+  ],
+  "material_policy": "latest-complete-set-only"
+}

@@ -4,6 +4,7 @@
 
 | 资料 | 版本 | 下载 | 大小 |
 | --- | --- | --- | --- |
+| [1.7 秒量完 19 面墙，但它只读懂了半个户型图](../articles/2026-11-04-house-plan-designer/README.md) | v1.0.0 | [house-plan-designer.zip](house-plan-designer.zip) | 2.31 MB |
 | [千问上新语音，AI开始接管工作流｜全球AI周报11.1](../articles/2026-11-01-global-ai-weekly/README.md) | v1.0.0 | [global-ai-weekly-1101.zip](global-ai-weekly-1101.zip) | 4.26 MB |
 | [普通人用AI，可以做什么？36个全场景案例全公开，建议收藏](../articles/2026-10-27-ai-everyday/README.md) | v1.1.0 | [ai-everyday.zip](ai-everyday.zip) | 54.47 MB |
 | [Anthropic内部就业报告：AI干得越多，人该做什么？](../articles/2026-10-26-anthropic-employment/README.md) | v1.4.1 | [anthropic-employment.zip](anthropic-employment.zip) | 1.89 MB |

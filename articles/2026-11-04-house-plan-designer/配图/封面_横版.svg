@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="766" viewBox="0 0 1800 766">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF7F0"/><stop offset="1" stop-color="#EFEADC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="766" fill="url(#bg)"/>
+  <rect x="1118" y="82" width="608" height="602" fill="#FFFFFF" opacity="0.55"/>
+  <line x1="1432.9" y1="93.2" x2="1720.0" y2="93.2" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1720.0" y1="93.2" x2="1720.0" y2="237.0" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1542.0" y1="237.0" x2="1720.0" y2="237.0" stroke="#9AA6AC" stroke-width="5.5" stroke-linecap="square" opacity="0.9"/><line x1="1630.7" y1="237.0" x2="1630.7" y2="672.8" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1284.6" y1="672.8" x2="1630.7" y2="672.8" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1284.6" y1="588.5" x2="1284.6" y2="672.8" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1120.0" y1="618.3" x2="1284.6" y2="618.3" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1120.0" y1="271.7" x2="1120.0" y2="618.3" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1120.0" y1="271.7" x2="1343.6" y2="271.7" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1343.6" y1="187.9" x2="1343.6" y2="356.0" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/><line x1="1343.6" y1="187.9" x2="1432.9" y2="187.9" stroke="#9AA6AC" stroke-width="5.5" stroke-linecap="square" opacity="0.9"/><line x1="1432.9" y1="93.2" x2="1432.9" y2="187.9" stroke="#9AA6AC" stroke-width="5.5" stroke-linecap="square" opacity="0.9"/><line x1="1542.0" y1="93.2" x2="1542.0" y2="237.0" stroke="#9AA6AC" stroke-width="5.5" stroke-linecap="square" opacity="0.9"/><line x1="1432.9" y1="187.9" x2="1432.9" y2="356.0" stroke="#9AA6AC" stroke-width="3.3" stroke-linecap="square" opacity="0.9"/><line x1="1210.2" y1="356.0" x2="1432.9" y2="356.0" stroke="#9AA6AC" stroke-width="5.5" stroke-linecap="square" opacity="0.9"/><line x1="1210.2" y1="271.7" x2="1210.2" y2="415.5" stroke="#9AA6AC" stroke-width="3.3" stroke-linecap="square" opacity="0.9"/><line x1="1120.0" y1="415.5" x2="1210.2" y2="415.5" stroke="#9AA6AC" stroke-width="3.3" stroke-linecap="square" opacity="0.9"/><line x1="1284.6" y1="356.0" x2="1284.6" y2="588.5" stroke="#9AA6AC" stroke-width="5.5" stroke-linecap="square" opacity="0.9"/><line x1="1284.6" y1="418.0" x2="1432.9" y2="418.0" stroke="#9AA6AC" stroke-width="3.3" stroke-linecap="square" opacity="0.9"/><line x1="1432.9" y1="418.0" x2="1432.9" y2="588.5" stroke="#9AA6AC" stroke-width="3.3" stroke-linecap="square" opacity="0.9"/><line x1="1284.6" y1="588.5" x2="1630.7" y2="588.5" stroke="#22303A" stroke-width="6.5" stroke-linecap="square" opacity="0.9"/>
+  <text x="112" y="150" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="34"
+        fill="#8A9499" letter-spacing="3">开源 Skill 实测 · house-plan-designer</text>
+  <text x="108" y="332" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="112"
+        font-weight="700" fill="#22303A" letter-spacing="2">1.7 秒，19 面墙</text>
+  <text x="108" y="466" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="112"
+        font-weight="700" fill="#177F82" letter-spacing="2">只读懂一半</text>
+  <rect x="112" y="536" width="132" height="6" fill="#177F82"/>
+  <text x="112" y="682" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="30"
+        fill="#8A9499" letter-spacing="2">可以叫我才哥</text>
+</svg>

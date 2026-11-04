@@ -1,8 +1,8 @@
 # 可以叫我才哥公众号资料库
 
-微信公众号「可以叫我才哥」的公开配套资料：**51篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
+微信公众号「可以叫我才哥」的公开配套资料：**52篇文章**。每篇提供可运行的代码、教学与模拟数据、图表和复现说明。
 
-<!-- 版本：v1.23.0 | 更新时间：2026-10-11 | 状态：仅保留最新完整物料 -->
+<!-- 版本：v1.24.0 | 更新时间：2026-11-04 | 状态：仅保留最新完整物料 -->
 
 选择文章，先看使用说明，再下载该篇 ZIP。无需下载整个仓库。每个包的顶层目录与 ZIP 同名，内含 README、依赖说明和 SHA-256 物料清单。
 
@@ -18,6 +18,7 @@
 
 | 文章 / 当前版本 | 资料内容 | 独立下载 |
 | --- | --- | --- |
+| [1.7 秒量完 19 面墙，但它只读懂了半个户型图](articles/2026-11-04-house-plan-designer/README.md) · v1.0.0 | 开源 Skill house-plan-designer 的识图实测：草稿与人工校对户型逐墙对账、成品 2D/3D、水电点位图、横方封面与可编辑 SVG | [ZIP](downloads/house-plan-designer.zip) |
 | [千问上新语音，AI开始接管工作流｜全球AI周报11.1](articles/2026-11-01-global-ai-weekly/README.md) · v1.0.0 | 12张新闻卡片的来源索引、10只AI产业链样本行情、取数与绘图脚本、时间线、周报封面与可编辑模板 | [ZIP](downloads/global-ai-weekly-1101.zip) |
 | [普通人用AI，可以做什么？36个全场景案例全公开，建议收藏](articles/2026-10-27-ai-everyday/README.md) · v1.1.0 | 36项场景提示词、26张正文配图、横方封面、SVG模板、生图提示词与官方来源 | [ZIP](downloads/ai-everyday.zip) |
 | [Anthropic内部就业报告：AI干得越多，人该做什么？](articles/2026-10-26-anthropic-employment/README.md) · v1.4.1 | Anthropic内部报告指标与计算口径、五张手绘风配图、绘图源码及横版方版手绘数据封面 | [ZIP](downloads/anthropic-employment.zip) |

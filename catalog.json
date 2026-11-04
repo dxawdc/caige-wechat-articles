@@ -1,8 +1,18 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-01",
+  "updated": "2026-11-04",
   "policy": "latest-complete-set-only",
   "items": [
+    {
+      "id": "house-plan-designer",
+      "title": "1.7 秒量完 19 面墙，但它只读懂了半个户型图",
+      "kind": "article",
+      "version": "v1.0.0",
+      "source": "articles/2026-11-04-house-plan-designer",
+      "manifest": "物料清单.json",
+      "download": "downloads/house-plan-designer.zip",
+      "summary": "开源 Skill house-plan-designer 实测：识图草稿与人工校对户型逐墙对账（399 采样点、中位 5 毫米）、成品设计器 2D/3D 截图、水电点位图、可编辑封面模板"
+    },
     {
       "id": "global-ai-weekly-1101",
       "title": "千问上新语音，AI开始接管工作流｜全球AI周报11.1",

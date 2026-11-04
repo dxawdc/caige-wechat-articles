@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF7F0"/><stop offset="1" stop-color="#EFEADC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg2)"/>
+  <text x="90" y="150" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="34"
+        fill="#8A9499" letter-spacing="3">开源 Skill 实测</text>
+  <text x="86" y="320" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="118"
+        font-weight="700" fill="#22303A">1.7 秒</text>
+  <text x="86" y="456" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="118"
+        font-weight="700" fill="#22303A">19 面墙</text>
+  <text x="86" y="592" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="96"
+        font-weight="700" fill="#177F82">只读懂一半</text>
+  <rect x="250" y="676" width="700" height="450" fill="#FFFFFF" opacity="0.6"/>
+  <line x1="608.9" y1="700.0" x2="807.0" y2="700.0" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="807.0" y1="700.0" x2="807.0" y2="799.2" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="684.2" y1="799.2" x2="807.0" y2="799.2" stroke="#9AA6AC" stroke-width="3.8" stroke-linecap="square" opacity="0.9"/><line x1="745.4" y1="799.2" x2="745.4" y2="1100.0" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="506.6" y1="1100.0" x2="745.4" y2="1100.0" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="506.6" y1="1041.8" x2="506.6" y2="1100.0" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="393.0" y1="1062.4" x2="506.6" y2="1062.4" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="393.0" y1="823.2" x2="393.0" y2="1062.4" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="393.0" y1="823.2" x2="547.3" y2="823.2" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="547.3" y1="765.4" x2="547.3" y2="881.4" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/><line x1="547.3" y1="765.4" x2="608.9" y2="765.4" stroke="#9AA6AC" stroke-width="3.8" stroke-linecap="square" opacity="0.9"/><line x1="608.9" y1="700.0" x2="608.9" y2="765.4" stroke="#9AA6AC" stroke-width="3.8" stroke-linecap="square" opacity="0.9"/><line x1="684.2" y1="700.0" x2="684.2" y2="799.2" stroke="#9AA6AC" stroke-width="3.8" stroke-linecap="square" opacity="0.9"/><line x1="608.9" y1="765.4" x2="608.9" y2="881.4" stroke="#9AA6AC" stroke-width="2.3" stroke-linecap="square" opacity="0.9"/><line x1="455.3" y1="881.4" x2="608.9" y2="881.4" stroke="#9AA6AC" stroke-width="3.8" stroke-linecap="square" opacity="0.9"/><line x1="455.3" y1="823.2" x2="455.3" y2="922.4" stroke="#9AA6AC" stroke-width="2.3" stroke-linecap="square" opacity="0.9"/><line x1="393.0" y1="922.4" x2="455.3" y2="922.4" stroke="#9AA6AC" stroke-width="2.3" stroke-linecap="square" opacity="0.9"/><line x1="506.6" y1="881.4" x2="506.6" y2="1041.8" stroke="#9AA6AC" stroke-width="3.8" stroke-linecap="square" opacity="0.9"/><line x1="506.6" y1="924.1" x2="608.9" y2="924.1" stroke="#9AA6AC" stroke-width="2.3" stroke-linecap="square" opacity="0.9"/><line x1="608.9" y1="924.1" x2="608.9" y2="1041.8" stroke="#9AA6AC" stroke-width="2.3" stroke-linecap="square" opacity="0.9"/><line x1="506.6" y1="1041.8" x2="745.4" y2="1041.8" stroke="#22303A" stroke-width="4.5" stroke-linecap="square" opacity="0.9"/>
+  <text x="90" y="1160" font-family="Microsoft YaHei,PingFang SC,sans-serif" font-size="30"
+        fill="#8A9499" letter-spacing="2">可以叫我才哥</text>
+</svg>
